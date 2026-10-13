@@ -1,0 +1,35 @@
+id_interface,artigos_anteprojeto_v0_1,tema,titulos_clf,modulos_piloto,impacto_preliminar,risco_potencial,status_constitucional_preliminar,prioridade
+IC-2026-001,1-6,"Princípios fundamentais, autonomia local e supremacia",T01;T02;T03,T01.M01;T03.M01,Reexaminar conceito de União e fontes; direitos e competências,ALTO,H; diretrizes D parciais no Guia,P1
+IC-2026-002,7-10,"Titularidade, aplicação e limites de direitos fundamentais",T02;T13;T24;T25,T02.M02;T13.M01,"Eficácia horizontal, reserva de lei e tutela dos direitos",ALTO,H; revisão pendente,P1
+IC-2026-003,11-35,"Liberdades, direitos civis, sociais e garantias",T02;T13;T14;T15;T16;T17;T20;T24;T25;T26;T28;T32;T43,T02.M01;T24.M01,Localizar salvaguardas e testar efeitos em regimes especiais,ALTO,H; revisão pendente,P2
+IC-2026-004,36-37,Participação política e proteção internacional,T05;T48,T05.M01;T48.M01,"Revisar sufrágio, cidadania e refúgio",MEDIO,H; revisão pendente,P2
+IC-2026-005,38-43,"Entes, municípios, regiões, capital e línguas",T03;T04;T07;T34;T36,T03.M01;T03.M03,Autonomia municipal e organização da capital,ALTO,H; diretrizes D parciais no Guia,P1
+IC-2026-006,44-49,Repartição de competências e financiamento,T03;T07;T11;T12;T31;T33;T37;T38;T41,T03.M01;T07.M03,"Distribuir normatização, execução, financiamento e fiscalização",CRITICO,H; matéria aberta,P1
+IC-2026-007,50-53,"Cooperação, conflitos de competência e intervenção",T03;T07;T10;T38,T03.M02,"Consórcios, responsabilidade e instrumentos de controle",ALTO,H; revisão pendente,P2
+IC-2026-008,54-56,"Eleições, partidos e democracia direta",T05,T05.M01;T05.M03,Formular alternativa eleitoral sem importar projeto independente,ALTO,H; opções abertas,P2
+IC-2026-009,57-63,Parlamento e Conselho da Federação,T04;T05;T10;T11,T04.M03,Concordância federativa e composição das Casas,CRITICO,H; opções abertas,P1
+IC-2026-010,64-66,"Iniciativa, tramitação, medidas urgentes e regulação",T01;T04;T05,T01.M03;T01.M04,"Viabilidade da codificação; espécies, reservas e rito legislativo",CRITICO,H; revisão pendente,P1
+IC-2026-011,67,Orçamento e continuidade governamental,T04;T11,T04.M03;T11.M02,Orçamento e regras de continuidade,ALTO,H; revisão pendente,P2
+IC-2026-012,68-74,"Chefia de Estado, Governo e responsabilidade",T04;T07;T08;T10,T04.M01;T04.M04,Reconfigurar legislação de governo se parlamentarismo aprovado,CRITICO,H; opção institucional aberta,P2
+IC-2026-013,75-82,Organização da Justiça e controle constitucional,T06;T24;T26,T06.M01;T24.M01,"Jurisdição, precedentes, transição de órgãos e processos",CRITICO,H; alternativa STF/tribunal aberto,P2
+IC-2026-014,83-89,"MP, Defensoria, advocacia e órgãos de controle",T06;T10;T24,T06.M03;T06.M04,"Competências, controle e independência institucional",ALTO,H; revisão pendente,P2
+IC-2026-015,90-100,"Administração, responsabilidade e automação",T07;T08;T09;T10;T43,T07.M03;T10.M01,"Boa administração, direitos procedimentais e tecnologia",ALTO,H; revisão pendente,P2
+IC-2026-016,101-104,"Sistema tributário, receitas e garantias",T11;T12,T12.M01,Competência para legislar e tributar; equalização,CRITICO,H; revisão e reforma em curso,P2
+IC-2026-017,105-109,"Orçamento, dívida e financiamento social",T11;T31;T33,T11.M01,Regras fiscais e proteção de serviços fundamentais,ALTO,H; revisão pendente,P2
+IC-2026-018,110-116,"Ordem econômica, serviços e recursos",T09;T20;T21;T22;T39;T40;T42,T09.M01;T20.M01,"Público/privado, regulação econômica, recursos e inovação",ALTO,H; revisão pendente,P3
+IC-2026-019,117-119,Saúde universal e prioridades terapêuticas,T31;T07;T24,T31.M01,Repartição de serviços e controle de incorporação,ALTO,H; revisão pendente,P2
+IC-2026-020,120-124,"Previdência, assistência e cuidados",T29;T30;T08,T29.M01;T30.M01,"Benefícios, transição, pisos e regimes contributivos",ALTO,H; revisão pendente,P2
+IC-2026-021,125-133,"Educação, ciência, cultura e garantias sociais",T32;T33;T34;T35,T33.M01,"Competência educativa, financiamento e autonomia",ALTO,H; revisão pendente,P3
+IC-2026-022,134-140,"Meio ambiente, clima e fauna",T37;T38;T39;T40,T37.M01,"Deveres, responsabilização e competências ambientais",ALTO,H; revisão pendente,P2
+IC-2026-023,141-150,"Povos indígenas, quilombolas e pluralismo jurídico",T02;T03;T14;T24;T25;T37;T39,T14.M01;T24.M01,"Direitos originários, domínio coletivo, consulta e jurisdição",CRITICO,H; alternativas abertas,P1
+IC-2026-024,151-162,"Defesa, polícia, inteligência e emergência",T25;T26;T27;T45;T46,T45.M01,"Reformas policiais, controle civil e garantias",ALTO,H; revisão pendente,P2
+IC-2026-025,163-168,"Tratados, internacionalização e nacionalidade",T23;T47;T48,T47.M01,"Hierarquia de tratados, competência externa e efeitos prévios",ALTO,H; questão aberta,P2
+IC-2026-026,169-174,"Reforma, publicação e técnica normativa",T01;T04,T01.M03;T01.M04;T01.M05,Regras de reforma e suporte constitucional ao Código,CRITICO,H; escolhas abertas,P1
+IC-2026-027,ADCT T1,Recepção e continuidade do direito anterior,T01;T03;T07;T24,T01.M01;T01.M04,"Recepção, compatibilidade, situações jurídicas e transição",CRITICO,H; revisão pendente,P1
+IC-2026-028,ADCT T2;T7;T8,"Continuidade, Tribunal e instituições de garantia",T04;T06;T07;T24,T06.M01,"Não interrupção de processos, carreiras e serviços",CRITICO,H; revisão pendente,P2
+IC-2026-029,ADCT T3-T6,Eleições e instalação dos órgãos políticos,T04;T05;T11,T05.M02,Transição eleitoral e governamental,CRITICO,H; opções abertas,P2
+IC-2026-030,ADCT T9,Reorganização policial,T25;T26;T27;T45,T45.M01,"Sucessão de estruturas, carreiras e investigações",ALTO,H; revisão pendente,P3
+IC-2026-031,ADCT T10-T12,"Capital, municípios e transição financeira",T03;T11;T12;T36;T38,T03.M04;T12.M01,"Sucessão local, receitas e serviços",CRITICO,H; revisão pendente,P2
+IC-2026-032,ADCT T13-T15,"Saúde, educação, BPC e previdência",T29;T30;T31;T33,T29.M01;T30.M01,"Pisos transitórios, direitos adquiridos e benefícios",CRITICO,H; revisão pendente,P2
+IC-2026-033,ADCT T16,Territórios indígenas e quilombolas,T14;T37;T39,T14.M01,Preservar reconhecimento e regularização dos direitos,CRITICO,H; revisão pendente,P2
+IC-2026-034,ADCT T17-T18,Legislação estruturante e monitoramento de implementação,T01;T03;T04;T06;T07,T01.M04,Cronograma legislativo e avaliação independente,CRITICO,H; revisão pendente,P1

@@ -42,3 +42,14 @@ modulos/     futuros dossiês e minutas de cada regime jurídico
 ```
 
 **Regra central:** preservar a origem jurídica de cada disposição; distinguir transposição, melhoria editorial, reforma material e questão jurídica pendente.
+## Interface com o projeto constitucional (proposta v0.1)
+
+O CLF mantém uma **interface de pesquisa** com o projeto independente de modernização da Constituição. A **CF/1988 permanece a referência do direito vigente**; o anteprojeto constitucional v0.1 é tratado como cenário condicional e suas hipóteses não são decisões aprovadas automaticamente.
+
+- [Protocolo de interface constitucional](docs/09_INTERFACE_CONSTITUCIONAL.md)
+- [Matriz inicial de 34 interfaces](catalogo/10_MATRIZ_COMPATIBILIDADE_CONSTITUCIONAL.csv)
+- [Anexo constitucional para dossiês de módulos](modelos/11_ANEXO_CONSTITUCIONAL_DOSSIE.md)
+- [Registro de pendências entre projetos](governanca/12_REGISTRO_INTERFACE_CONSTITUCIONAL.md)
+- [Nota de encaminhamento ao projeto constitucional](docs/11_NOTA_PARA_PROJETO_CONSTITUCIONAL.md)
+
+Esses materiais são **propostos para revisão** e não alteram os compromissos normativos de nenhum dos projetos até sua aprovação.

@@ -38,6 +38,14 @@ A tabela indica ligações a verificar, não afirma relações normativas já de
 | CR-2026-002 | Examinar títulos e módulos sob perspectiva de inclusão de direitos de povos indígenas e comunidades tradicionais | PENDENTE | Revisar arquitetura com fontes constitucionais e específicas |
 | CR-2026-003 | Definir origem e destino de atos temporários, individualizados, tratados e regulamentos | PENDENTE | Inventário de tipos de fontes e acervos |
 
+## Interface com o projeto constitucional (v0.1)
+
+Foi preparado um protocolo bilateral em `docs/09_INTERFACE_CONSTITUCIONAL.md`, acompanhado de uma matriz inicial de **34 interfaces**, em `catalogo/10_MATRIZ_COMPATIBILIDADE_CONSTITUCIONAL.csv`, e de um registro de solicitações em `governanca/12_REGISTRO_INTERFACE_CONSTITUCIONAL.md`. A matriz é uma triagem estrutural, **não** uma auditoria jurídica artigo a artigo nem deliberação constitucional. Os dossiês afetados podem utilizar `modelos/11_ANEXO_CONSTITUCIONAL_DOSSIE.md`.
+
+O CLF continua independente do projeto constitucional, com decisões, versões e registros separados. A CF/1988 é a referência do direito positivo vigente; a versão futura da Constituição é cenário condicional e pode mudar inteiramente. Toda sessão que utilizar a interface deve fixar versões ou commits das fontes efetivamente consultadas e registrar pedidos de reavaliação sem aprovação automática de nenhum projeto.
+
+**Dependências iniciais prioritárias:** processo legislativo e técnica normativa (IC-2026-010 e IC-2026-026), recepção e transição (IC-2026-027 e IC-2026-034), repartição federativa e financiamento (IC-2026-006). Estas pendências continuam identificadas, não resolvidas.
+
 ## Registro resumido para integração futura
 
 - Atualizar versões dos documentos centrais em operação controlada.

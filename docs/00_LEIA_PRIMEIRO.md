@@ -42,6 +42,14 @@ Criar um corpo único de legislação federal geral e permanente, dividido em pa
 
 Manter `v0.1`, `v0.2` etc. no cabeçalho, data e resumo de alterações. Quando for necessária substituição de arquivos enviados às Fontes do Projeto, retirar ou arquivar a versão antiga para impedir que dois arquivos sejam tratados como simultaneamente vigentes. Sempre comunicar aos módulos afetados que a referência mudou.
 
+## Interface com o projeto constitucional
+
+O CLF e o projeto de modernização constitucional são **projetos independentes**, com decisões e versões próprias. A integração é uma **interface metodológica bilateral**, não uma fusão de projetos, repositórios ou textos normativos. O CLF continua a reconstruir o direito vigente sob a CF/1988; as hipóteses constitucionais futuras são estudadas separadamente e sem presunção de aprovação.
+
+Antes de trabalhar em módulo afetado por escolhas constitucionais, consultar `docs/09_INTERFACE_CONSTITUCIONAL.md`, a matriz `catalogo/10_MATRIZ_COMPATIBILIDADE_CONSTITUCIONAL.csv`, o registro `governanca/12_REGISTRO_INTERFACE_CONSTITUCIONAL.md` e, quando cabível, o anexo `modelos/11_ANEXO_CONSTITUCIONAL_DOSSIE.md`.
+
+Na abertura e no encerramento de um chat, anotar os **commits ou versões efetivamente consultados**, IDs de interface pertinentes, novas pendências e módulos afetados. Não tratar material de conversa, arquivos locais ou versões antigas como alteração automática do repositório. A nota `docs/11_NOTA_PARA_PROJETO_CONSTITUCIONAL.md` é um encaminhamento proposto, não uma decisão do projeto constitucional.
+
 ## Atenção
 
 Não consta neste pacote levantamento exaustivo de leis, jurisprudência nem classificação artigo a artigo. Os títulos, módulos e dependências são estrutura de planejamento. Não apresentar a cobertura como concluída.

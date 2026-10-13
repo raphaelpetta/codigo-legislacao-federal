@@ -1,6 +1,6 @@
 # Registro central de decisões e questões pendentes
 
-**ID:** CLF-GOV-004 | **Versão:** 0.1 | **Data:** 13/10/2026
+**ID:** CLF-GOV-004 | **Versão:** 0.3 | **Data:** 13/10/2026
 
 > Estados possíveis: `CONFIRMADA_PELO_USUARIO`, `HIPOTESE_DE_TRABALHO`, `PENDENTE`, `SUBSTITUIDA`. As confirmações dizem respeito às **premissas do projeto**, não ao direito vigente.
 
@@ -16,13 +16,18 @@
 | DEC-008 | HIPOTESE_DE_TRABALHO | Método de IA | Chat de módulo propõe; chat central integra; decisões versionadas; dependências checadas. | Fluxo de trabalho | 0.1 |
 | DEC-009 | PENDENTE | Título 01 | Migrar resultados das auditorias anteriores para um Título 01 **único**, sem tratar duas leis autônomas como organização final. | Primeiro piloto | 0.1 |
 | DEC-010 | PENDENTE | Inventário | Confirmar a cobertura efetiva de cada título/lei com fontes atuais; não presumir classificação exaustiva. | Fase inicial | 0.1 |
-| DEC-011 | PENDENTE | Infraestrutura externa | Avaliar necessidade de GitHub/Drive versionados e como o Projeto do ChatGPT receberá versões atualizadas. | Operação | 0.1 |
+| DEC-011 | SUBSTITUIDA | Infraestrutura externa | Deliberação de implantação superada parcialmente: GitHub conectado e adotado, mas sincronização com Fontes do ChatGPT continua manual ou sob consulta ao repositório. Ver DEC-015. | Operação | 0.3 |
 | DEC-012 | PENDENTE | Direitos indígenas e tradicionais | Analisar necessidade de título próprio ou estrutura especializada dentro de outro título. | Arquitetura | 0.1 |
+| DEC-013 | CONFIRMADA_PELO_USUARIO | Objetivo reformista e pesquisa crítica | Além da compilação e consolidação, auditar e propor modernização substantiva da CF e do CLF, com perspectiva histórica, comparada, jurisprudencial, interdisciplinar e exame de lacunas e contradições. A profundidade será proporcional à matéria. | Método de pesquisa e política de reforma | 0.2 |
+| DEC-014 | CONFIRMADA_PELO_USUARIO | Interface com revisão constitucional | Estabelecer integração metodológica entre CLF e projeto constitucional sem fundir versões ou importar hipóteses como decisões aprovadas. | Interface bilateral, sem reforma constitucional automática | 0.2 |
+| DEC-015 | CONFIRMADA_PELO_USUARIO | Repositório operacional | Usar o GitHub `raphaelpetta/codigo-legislacao-federal` como repositório versionado de referência; chats produzem análises e PRs, sem sincronização presumida. | Governança operacional e controle de versões | 0.3 |
+| DEC-016 | PENDENTE | Veículos legislativos do Código único | Definir solução jurídica para unidade normativa e editorial sem ignorar competências, reservas e espécies exigidas pela CF/1988 ou alternativa constitucional futura. | T01.M04 e interface constitucional | 0.3 |
+| DEC-017 | HIPOTESE_DE_TRABALHO | Sequência do piloto | Iniciar T01.M04, prosseguir por T01.M03/M05/M01/M02 e aplicar piloto material T07.M03, sujeito a revisão conforme resultados. | Roadmap inicial | 0.3 |
 
 ## Modelo de entrada nova
 
 ```
-ID: DEC-013
+ID: DEC-NNN
 Data: AAAA-MM-DD
 Estado: HIPOTESE_DE_TRABALHO | CONFIRMADA_PELO_USUARIO | PENDENTE | SUBSTITUIDA
 Proposta:

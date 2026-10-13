@@ -1,7 +1,7 @@
 # Carta de arquitetura do Código da Legislação Federal
 
 **ID:** CLF-GOV-001  
-**Versão:** 0.1  
+**Versão:** 0.3  
 **Estado:** minuta inicial de governança, sujeita a revisão  
 **Atualizado:** 13/10/2026
 
@@ -56,3 +56,9 @@ Todo módulo deve ter inventário, análise de vigência, dossiê de pesquisa, d
 ## 7. Atualização
 
 Alterações nesta carta ou no índice geral exigem número de versão, motivação, lista de módulos afetados e nota de migração. Nenhuma mudança arquiva direitos, obrigações ou textos anteriores sem documentação correspondente.
+
+## 8. Pesquisa crítica e implementação
+
+A codificação projetada admite modernização **material** fundada em análise histórica, jurisprudencial, comparada, interdisciplinar e empírica, preservada a distinção entre compilação, consolidação a direito constante, codificação e reforma. Manter norma existente também poderá ser conclusão fundamentada. O método está em `governanca/13_DIRETRIZES_PESQUISA_E_MODERNIZACAO.md` e o fluxo em `docs/16_PLANO_OPERACIONAL.md`.
+
+A auditoria procurará ativamente lacunas, contradições, antinomias reais/aparentes, obsolescências e jurisprudencialização; não pressupor que toda omissão requer nova lei. Testar custos, capacidade estatal, direitos, governança, distribuição federativa e transição. A referência da CF/1988 continua distinta da hipótese constitucional futura. Sem confirmação expressa, novas estruturas e escolhas substantivas permanecem propostas.

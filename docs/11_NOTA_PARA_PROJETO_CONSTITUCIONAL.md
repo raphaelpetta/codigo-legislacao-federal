@@ -32,3 +32,7 @@ Considerar a criação, na governança do projeto constitucional, de uma seção
 **A presente nota não incorpora mudanças ao anteprojeto nem decide sistema de governo, sistema eleitoral, tamanho de Casas, Tribunal Constitucional ou estatutos territoriais.** Tais escolhas continuam no processo próprio de revisão constitucional.
 
 **Local de acompanhamento no CLF:** `docs/09_INTERFACE_CONSTITUCIONAL.md` e `catalogo/10_MATRIZ_COMPATIBILIDADE_CONSTITUCIONAL.csv`.
+
+## Destino efetivamente criado
+
+O repositório independente da modernização constitucional foi criado em https://github.com/raphaelpetta/modernizacao-constitucional-brasileira e implantado em `main` pelo commit `fa35da0ec5bfec0ae33515c2a48f264c55d3308c` (13/10/2026). A interface recíproca fica documentada em `integracao/01_INTERFACE_CLF.md` naquele repositório. Esta nota permanece documento de pesquisa/encaminhamento: não aprova escolhas substantivas da Constituição.

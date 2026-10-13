@@ -121,3 +121,7 @@ Foram incorporados à pesquisa \`modulos/T01/M04/ANALISE_09_VETO_REVOGACAO_E_COB
 - Consolidar propostas aceitas e arquivar o histórico de decisões substituídas.
 - Identificar módulos impactados e promover rechecagem das interfaces.
 - Nunca converter automaticamente uma hipótese de classificação em decisão jurídica sobre vigência.
+
+## Ciclo 10: veto e condição no mesmo artigo (pesquisa, não deliberação)
+
+A análise `modulos/T01/M04/TESTE_10_UNIDADE_TEXTUAL_VETO_V1.md`, as minutas rivais M0–M3 e a `MATRIZ_UNIDADE_VETO_10.csv` (36 simulações, sem efeitos jurídicos) comparam unidades de veto sob CF art. 66 §2º, LC 95 e LINDB. V1 com revogação e condição no mesmo artigo indiviso mitiga veto da condição isolada, mas não impede veto integral de R, veto parcial do substituto S ou efeitos de derrubada posterior de veto. M2 testa vínculos menores entre cada norma revogada e subunidade substitutiva. Os riscos intertemporais, iniciativa, espécie e não repristinação persistem. DEC-001 preservada; DEC-016 PENDENTE; nenhuma cláusula aprovada.

@@ -1,6 +1,6 @@
 # Código da Legislação Federal — Pacote de implantação
 
-**Versão:** 0.1 (13/10/2026)  
+**Versão:** 0.3 (13/10/2026)  
 **Natureza:** documentação de projeto, **não legislação vigente**.  
 **Escopo:** Código único de organização federal; constituição externa; normas estaduais/municipais em camadas associadas.
 
@@ -10,12 +10,12 @@ Criar um corpo único de legislação federal geral e permanente, dividido em pa
 
 ## Passos de instalação no ChatGPT
 
-1. Criar um Projeto dedicado ao Código (ou usar um projeto dedicado já existente, se não misturar projetos constitucionais independentes).
+1. Criar um Projeto dedicado ao Código (ou usar o já existente), separado da governança do anteprojeto constitucional, embora possa compartilhar uma interface de consulta.
 2. Em **Configurações do projeto**, colar o conteúdo de `08_INSTRUCOES_DO_PROJETO.txt`.
-3. Adicionar os arquivos 01 a 07 às **Fontes do Projeto**, preferencialmente separadamente (o ZIP é apenas um transporte).
+3. Para contexto inicial, disponibilizar a Carta de Arquitetura, Registro de Decisões, Protocolo, Diretrizes Interdisciplinares, Plano Operacional, Índices e Status nas **Fontes do Projeto**. Conferir a versão na `main` do GitHub antes de cada ciclo; anexos não se atualizam automaticamente.
 4. Criar um chat `CENTRAL | Governança e integração` e chats identificados por módulo, como `T29.M04 | Benefícios por incapacidade`.
-5. Iniciar cada chat com o template contido em `06_MODELO_DOSSIE_MODULO.md`.
-6. Ao finalizar um ciclo, enviar uma **proposta de integração** ao chat central; apenas depois da aprovação registrar mudanças no índice, no diário de decisões e no estado da integração.
+5. Iniciar cada chat com o template `modelos/06_MODELO_DOSSIE_MODULO.md` e consultar `docs/16_PLANO_OPERACIONAL.md`; a primeira tarefa será `T01.M04`.
+6. Ao finalizar um ciclo, criar branch/PR e enviar uma **proposta de integração** à frente central; alterações materiais, decisões e mudanças de índice só entram após revisão e aprovação pertinente.
 
 **Importante:** um arquivo enviado ao Projeto não se torna automaticamente um documento compartilhado com edição simultânea entre chats. Usar substituição supervisionada de versões ou um repositório externo versionado. Uma resposta de um chat não atualiza por si só as fontes centrais.
 
@@ -49,6 +49,12 @@ O CLF e o projeto de modernização constitucional são **projetos independentes
 Antes de trabalhar em módulo afetado por escolhas constitucionais, consultar `docs/09_INTERFACE_CONSTITUCIONAL.md`, a matriz `catalogo/10_MATRIZ_COMPATIBILIDADE_CONSTITUCIONAL.csv`, o registro `governanca/12_REGISTRO_INTERFACE_CONSTITUCIONAL.md` e, quando cabível, o anexo `modelos/11_ANEXO_CONSTITUCIONAL_DOSSIE.md`.
 
 Na abertura e no encerramento de um chat, anotar os **commits ou versões efetivamente consultados**, IDs de interface pertinentes, novas pendências e módulos afetados. Não tratar material de conversa, arquivos locais ou versões antigas como alteração automática do repositório. A nota `docs/11_NOTA_PARA_PROJETO_CONSTITUCIONAL.md` é um encaminhamento proposto, não uma decisão do projeto constitucional.
+
+## Critério de prontidão operacional
+
+Para iniciar um módulo basta que existam: repositório de referência consultável, regras de governança e pesquisa, template de dossiê, fonte constitucional do cenário A e registro das pendências. Não é necessário concluir antecipadamente o inventário de toda legislação federal.
+
+Atenção especial: as fontes do anteprojeto constitucional localizadas na Biblioteca/Projeto não constituem repositório constitucional versionado confirmado. Registrar a versão `13/10/2026 v0.1` até existir acesso verificável a outra; nenhuma escolha material é presumidamente aprovada.
 
 ## Atenção
 

@@ -54,6 +54,14 @@ O CLF continua independente do projeto constitucional, com decisões, versões e
 
 O projeto constitucional dispõe de `main` independente em https://github.com/raphaelpetta/modernizacao-constitucional-brasileira. O commit de implantação verificado em 13/10/2026 é `fa35da0ec5bfec0ae33515c2a48f264c55d3308c`. Sua interface recíproca está em `integracao/01_INTERFACE_CLF.md`. A matriz CLF de 34 interfaces é **triagem histórica relativa ao anteprojeto v0.1**, não correspondência de IDs permanentes do texto que será elaborado.
 
+## Parecer de viabilidade jurídico-formal do Código único (pesquisa preliminar)
+
+O módulo T01.M04 produziu o parecer `modulos/T01/M04/PARECER_04_VIABILIDADE_FORMAL_CODIGO_UNICO.md`, matriz de **15 casos de espécies/iniciativas** e caso-teste histórico `CASO_TESTE_01_LO_LC_E_SV62.md`.
+
+**Achado:** a LC 95 e o STF admitem codificações e normas materialmente ordinárias em LC formal, mas **a lei complementar universal não está demonstrada**: há reservas de espécie e iniciativa, atos privativos das Casas e regras temporais/territoriais. Alternativa C (corpus único com veículos de promulgação juridicamente próprios) é a abordagem **operacional provisória** mais defensável sob CF/1988, porém **não é sinônimo de Código juridicamente uno em diploma formal**. O objetivo `DEC-001` se mantém. **DEC-016 permanece PENDENTE.** Possível novo regime constitucional continua hipótese do projeto próprio `M00.01` / `CF-IC-001`.
+
+A próxima porta de qualidade exige analisar casos concretos de LC/LO, iniciativas reservadas e poder de revisão formal antes de escolher espécie jurídica de promulgação. O parecer **não autoriza** consolidar a minuta experimental 02 como proposta aceita.
+
 ## Próximo ciclo recomendado
 
 1. Integrar, após revisão, o plano `docs/16_PLANO_OPERACIONAL.md`, o padrão `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md` e o piloto de T01.M04.

@@ -1,6 +1,6 @@
 # Protocolo de desenvolvimento, auditoria e integração
 
-**ID:** CLF-GOV-005 | **Versão:** 0.2 (proposta) | **Data:** 13/10/2026
+**ID:** CLF-GOV-005 | **Versão:** 0.2 (operacional) | **Data:** 13/10/2026
 
 ## 1. Antes de iniciar qualquer módulo
 
@@ -88,4 +88,4 @@ Aplicar análise ex ante proporcional ao impacto, revisão institucional e event
 
 No interfaceamento com o projeto constitucional independente, a CF/1988 continua referência exclusiva do direito vigente e o anteprojeto é cenário condicional, sem importar decisões de outro projeto.
 
-**Atualização metodológica proposta:** reconhecer essas regras no roteiro F0–F9 e no dossiê de cada módulo; eventual modificação de escolhas relevantes exige governança e registro central, não atualização automática por chats.
+**Atualização metodológica em uso:** reconhecer essas regras no roteiro F0–F9 e no dossiê de cada módulo; eventual modificação de escolhas relevantes exige governança e registro central, não atualização automática por chats.

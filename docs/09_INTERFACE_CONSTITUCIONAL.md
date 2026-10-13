@@ -1,7 +1,7 @@
 # Interface entre o Código da Legislação Federal e o projeto constitucional
 
 **ID:** CLF-INT-001 · **Versão:** 0.1 · **Data:** 13/10/2026  
-**Estado:** PROPOSTA PARA REVISÃO, não decisão normativa homologada
+**Estado:** PROTOCOLO METODOLÓGICO EM USO; decisões normativas e institucionais permanecem pendentes de aprovação
 
 ## 1. Finalidade e limites
 
@@ -93,6 +93,6 @@ O inventário inicial verificável dessas interfaces consta de `catalogo/10_MATR
 
 ## 9. Governança e próximas verificações
 
-Esta interface está proposta para revisão em PR do CLF. A aprovação do PR adotará a **ferramenta metodológica**, não as hipóteses constitucionais materiais. Não alterar automaticamente `04_REGISTRO_DE_DECISOES.md` nem classificações de módulos por causa desta proposta.
+O protocolo metodológico foi incorporado ao CLF pelo PR #1; a aprovação desse procedimento não aprova opções materiais do anteprojeto constitucional. A aprovação do PR adotará a **ferramenta metodológica**, não as hipóteses constitucionais materiais. Não alterar automaticamente `04_REGISTRO_DE_DECISOES.md` nem classificações de módulos por causa desta proposta.
 
 **Pendências:** (i) manter link e commit constitucional atualizados; (ii) atribuir IDs estáveis às novas propostas normativas; (iii) revisar as 16 questões abertas; (iv) auditar primeiro os arts. 64–66, 174 e ADCT T1/T17 com T01.M04; (v) validar matriz de impacto artigo a artigo conforme avanço dos módulos.

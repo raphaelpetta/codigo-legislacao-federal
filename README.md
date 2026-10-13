@@ -59,7 +59,7 @@ O CLF mantém uma **interface de pesquisa** com o projeto independente de modern
 - [Registro de pendências entre projetos](governanca/12_REGISTRO_INTERFACE_CONSTITUCIONAL.md)
 - [Nota de encaminhamento ao projeto constitucional](docs/11_NOTA_PARA_PROJETO_CONSTITUCIONAL.md)
 
-Esses materiais são **propostos para revisão** e não alteram os compromissos normativos de nenhum dos projetos até sua aprovação.
+O **protocolo metodológico está em uso**, enquanto todas as propostas constitucionais ou legislativas materiais continuam sujeitas às decisões independentes de cada projeto.
 
 ## Controle de qualidade e operação
 

@@ -111,6 +111,39 @@ for md in [ROOT / "README.md", *ROOT.glob("docs/*.md")]:
         if target and not (md.parent / target).exists():
             fail(f"{md.relative_to(ROOT)}: link local ausente {target}")
 
+
+# Verificações estruturais dos CSVs produzidos por módulos (não analisam mérito jurídico).
+for path in sorted((ROOT / "modulos").glob("**/*.csv")):
+    name = path.name
+    if name.startswith("INVENTARIO"):
+        recs = read_csv(path, {
+            "id_fonte", "tipo_ato", "dispositivo", "url_oficial",
+            "data_consulta", "vigencia_situacao", "modulo_candidato",
+        })
+        unique(recs, "id_fonte", str(path.relative_to(ROOT)))
+        for idx, rec in enumerate(recs, 2):
+            if not (rec.get("url_oficial") or "").startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: URL oficial vazia ou nao HTTPS")
+    elif name.startswith("CONCORDANCIA"):
+        recs = read_csv(path, {
+            "id_origem", "id_destino", "tipo_relacao", "categoria",
+            "justificativa", "status_verificacao",
+        })
+        for idx, rec in enumerate(recs, 2):
+            if rec.get("categoria") not in {"C0", "C1", "M", "Q"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: categoria de mudança inválida")
+            if not (rec.get("id_origem") and rec.get("id_destino")
+                    and rec.get("status_verificacao")):
+                fail(f"{path.relative_to(ROOT)}:{idx}: correspondência incompleta")
+    elif name.startswith("MAPA_PROBLEMAS"):
+        recs = read_csv(path, {"id_problema", "descricao", "estado"})
+        unique(recs, "id_problema", str(path.relative_to(ROOT)))
+    elif name.startswith("MATRIZ_TESTES"):
+        recs = read_csv(path, {"id_teste", "hipotese_adversarial",
+                               "resultado_do_teste_de_texto", "status"})
+        unique(recs, "id_teste", str(path.relative_to(ROOT)))
+
+
 if ISSUES:
     for issue in ISSUES:
         print(f"ERRO: {issue}", file=sys.stderr)

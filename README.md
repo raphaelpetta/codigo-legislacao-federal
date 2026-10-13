@@ -2,7 +2,7 @@
 
 Projeto de pesquisa, auditoria crítica, sistematização e proposta de modernização da legislação brasileira em um **Código federal único, tematicamente organizado**.
 
-> **Estado:** documentação preliminar de planejamento (v0.1, outubro de 2026). Este repositório **não é fonte oficial de legislação vigente** e não contém proposta aprovada pelo Congresso.
+> **Estado:** estrutura operacional preliminar (v0.3, outubro de 2026). Este repositório **não é fonte oficial de legislação vigente** e não contém proposta aprovada pelo Congresso.
 
 ## Objetivo
 
@@ -21,6 +21,10 @@ A Constituição permanece externa ao Código e superior a ele. Matérias de com
 7. [Registro de decisões](governanca/04_REGISTRO_DE_DECISOES.md)
 8. [Status e dependências](governanca/07_STATUS_E_DEPENDENCIAS.md)
 9. [Instruções do Projeto ChatGPT](chatgpt/08_INSTRUCOES_DO_PROJETO.txt)
+10. [Plano operacional para chats, branches e integração](docs/16_PLANO_OPERACIONAL.md)
+11. [Diretrizes interdisciplinares de pesquisa e reforma](governanca/13_DIRETRIZES_PESQUISA_E_MODERNIZACAO.md)
+12. [Padrão de dados e proveniência](governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md)
+13. [Piloto T01.M04 — Consolidação e codificação](modulos/T01/M04/README.md)
 
 ## Governança
 
@@ -42,7 +46,10 @@ modulos/     futuros dossiês e minutas de cada regime jurídico
 ```
 
 **Regra central:** preservar a origem jurídica de cada disposição; distinguir transposição, melhoria editorial, reforma material e questão jurídica pendente.
-## Interface com o projeto constitucional (proposta v0.1)
+
+**Importante:** verificações automatizadas comprovam apenas integridade estrutural de arquivos, não vigência nem validade jurídica. Os 48 títulos e 273 módulos são hipóteses organizacionais, não inventário exaustivo.
+
+## Interface com o projeto constitucional (protocolo de trabalho v0.1)
 
 O CLF mantém uma **interface de pesquisa** com o projeto independente de modernização da Constituição. A **CF/1988 permanece a referência do direito vigente**; o anteprojeto constitucional v0.1 é tratado como cenário condicional e suas hipóteses não são decisões aprovadas automaticamente.
 
@@ -53,3 +60,11 @@ O CLF mantém uma **interface de pesquisa** com o projeto independente de modern
 - [Nota de encaminhamento ao projeto constitucional](docs/11_NOTA_PARA_PROJETO_CONSTITUCIONAL.md)
 
 Esses materiais são **propostos para revisão** e não alteram os compromissos normativos de nenhum dos projetos até sua aprovação.
+
+## Controle de qualidade e operação
+
+- [Checklist executável de integridade estrutural](scripts/verificar_estrutura.py) e [verificação automática em pull requests](.github/workflows/verificar-estrutura.yml).
+- [Modelo de inventário de fontes normativas](modelos/18_MODELO_INVENTARIO_NORMATIVO.csv) e [modelo de concordância origem–destino](modelos/19_MODELO_CONCORDANCIA.csv).
+- [Ficha de lacunas, antinomias e reforma](modelos/15_FICHA_PROBLEMA_NORMATIVO.md).
+
+O GitHub conserva a versão de referência; conversas e arquivos de Projeto do ChatGPT não são automaticamente sincronizados. O anteprojeto constitucional conserva governança própria.

@@ -68,3 +68,7 @@ Esses materiais são **propostos para revisão** e não alteram os compromissos 
 - [Ficha de lacunas, antinomias e reforma](modelos/15_FICHA_PROBLEMA_NORMATIVO.md).
 
 O GitHub conserva a versão de referência; conversas e arquivos de Projeto do ChatGPT não são automaticamente sincronizados. O anteprojeto constitucional conserva governança própria.
+
+### Repositório constitucional correspondente
+
+A modernização constitucional possui [repositório independente](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira) com documentação de pesquisa, decisões e versões próprias. O presente CLF conserva a CF/1988 vigente como parâmetro do direito positivo e utiliza o anteprojeto futuro apenas como cenário condicional, nos termos de `docs/09_INTERFACE_CONSTITUCIONAL.md`.

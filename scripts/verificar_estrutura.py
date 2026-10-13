@@ -162,6 +162,15 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: identificador TC incorreto")
             if rec.get("categoria_clf") not in {"C0", "C1", "M", "Q"}:
                 fail(f"{path.relative_to(ROOT)}:{idx}: categoria C0/C1/M/Q incorreta")
+    elif name.startswith("CENARIOS_INICIATIVA"):
+        recs = read_csv(path, {
+            "id_cenario", "modalidade", "operacao_proposta",
+            "iniciativa_proponente", "risco_formal", "estado_conclusao",
+        })
+        unique(recs, "id_cenario", str(path.relative_to(ROOT)))
+        for idx, rec in enumerate(recs, 2):
+            if not re.fullmatch(r"IC-C0-\d{3}", rec.get("id_cenario", "")):
+                fail(f"{path.relative_to(ROOT)}:{idx}: identificador de cenario incorreto")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

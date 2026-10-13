@@ -188,7 +188,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
             "etapa", "estado_da_simulacao", "efeito_juridico_real",
         })
         unique(recs, "id_etapa", str(path.relative_to(ROOT)))
-        keys = {(r["modelo"], r["componente"], r["etapa"]) for r in recs}
+        keys = {(r["modelo"], r["componente"], r["id_etapa"].split("-")[-1]) for r in recs}
         expected = {
             (m, c, f"S{i:02d}") for m in ("CP", "CE")
             for c in ("T", "O", "J") for i in range(12)

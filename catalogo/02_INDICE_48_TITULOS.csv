@@ -1,0 +1,49 @@
+id_titulo,parte,nome_parte,titulo,modulos_preliminares,situacao,ressalva
+T01,I,"Normas gerais, cidadania e direitos",Normas gerais do direito e da legislação,6,PROVISÓRIO,Não inventariado exaustivamente
+T02,I,"Normas gerais, cidadania e direitos","Cidadania, igualdade e direitos civis",4,PROVISÓRIO,Não inventariado exaustivamente
+T03,II,Organização do Estado e democracia,Federação e organização territorial do Estado,4,PROVISÓRIO,Não inventariado exaustivamente
+T04,II,Organização do Estado e democracia,Instituições políticas da União,4,PROVISÓRIO,Não inventariado exaustivamente
+T05,II,Organização do Estado e democracia,"Eleições, partidos e participação política",6,PROVISÓRIO,Não inventariado exaustivamente
+T06,II,Organização do Estado e democracia,Justiça e funções essenciais,5,PROVISÓRIO,Não inventariado exaustivamente
+T07,III,Administração pública e finanças,Administração pública e procedimento administrativo,7,PROVISÓRIO,Não inventariado exaustivamente
+T08,III,Administração pública e finanças,Agentes públicos e regime funcional,5,PROVISÓRIO,Não inventariado exaustivamente
+T09,III,Administração pública e finanças,"Contratações, concessões e parcerias públicas",6,PROVISÓRIO,Não inventariado exaustivamente
+T10,III,Administração pública e finanças,"Controle, integridade e responsabilidade pública",6,PROVISÓRIO,Não inventariado exaustivamente
+T11,III,Administração pública e finanças,Finanças públicas e patrimônio financeiro do Estado,6,PROVISÓRIO,Não inventariado exaustivamente
+T12,III,Administração pública e finanças,Tributação e aduana,7,PROVISÓRIO,Não inventariado exaustivamente
+T13,IV,Direito privado e organização econômica,Pessoas e personalidade jurídica,4,PROVISÓRIO,Não inventariado exaustivamente
+T14,IV,Direito privado e organização econômica,"Bens, propriedade e direitos reais",6,PROVISÓRIO,Não inventariado exaustivamente
+T15,IV,Direito privado e organização econômica,"Obrigações, contratos e negócios jurídicos",6,PROVISÓRIO,Não inventariado exaustivamente
+T16,IV,Direito privado e organização econômica,Responsabilidade civil e reparação de danos,4,PROVISÓRIO,Não inventariado exaustivamente
+T17,IV,Direito privado e organização econômica,"Família, filiação e sucessões",6,PROVISÓRIO,Não inventariado exaustivamente
+T18,IV,Direito privado e organização econômica,"Empresas, sociedades e atividade empresarial",6,PROVISÓRIO,Não inventariado exaustivamente
+T19,IV,Direito privado e organização econômica,Insolvência e reorganização patrimonial,5,PROVISÓRIO,Não inventariado exaustivamente
+T20,IV,Direito privado e organização econômica,"Consumidor, concorrência e relações de mercado",6,PROVISÓRIO,Não inventariado exaustivamente
+T21,IV,Direito privado e organização econômica,"Sistema financeiro, mercado de capitais e seguros",6,PROVISÓRIO,Não inventariado exaustivamente
+T22,IV,Direito privado e organização econômica,Propriedade intelectual e ativos intangíveis,5,PROVISÓRIO,Não inventariado exaustivamente
+T23,V,"Direito internacional privado, justiça e sanções",Direito internacional privado e relações transnacionais,6,PROVISÓRIO,Não inventariado exaustivamente
+T24,V,"Direito internacional privado, justiça e sanções",Processo civil e tutela coletiva,7,PROVISÓRIO,Não inventariado exaustivamente
+T25,V,"Direito internacional privado, justiça e sanções",Direito penal e infrações criminais,7,PROVISÓRIO,Não inventariado exaustivamente
+T26,V,"Direito internacional privado, justiça e sanções",Processo penal e investigação criminal,7,PROVISÓRIO,Não inventariado exaustivamente
+T27,V,"Direito internacional privado, justiça e sanções",Execução penal e medidas de cumprimento,5,PROVISÓRIO,Não inventariado exaustivamente
+T28,VI,"Trabalho, proteção social, educação e conhecimento",Trabalho e relações laborais,7,PROVISÓRIO,Não inventariado exaustivamente
+T29,VI,"Trabalho, proteção social, educação e conhecimento",Previdência social e proteção contributiva,8,PROVISÓRIO,Não inventariado exaustivamente
+T30,VI,"Trabalho, proteção social, educação e conhecimento",Assistência social e proteção de renda,5,PROVISÓRIO,Não inventariado exaustivamente
+T31,VI,"Trabalho, proteção social, educação e conhecimento",Saúde pública e suplementar,6,PROVISÓRIO,Não inventariado exaustivamente
+T32,VI,"Trabalho, proteção social, educação e conhecimento","Infância, juventude, pessoa idosa e pessoas vulneráveis",7,PROVISÓRIO,Não inventariado exaustivamente
+T33,VI,"Trabalho, proteção social, educação e conhecimento",Educação,6,PROVISÓRIO,Não inventariado exaustivamente
+T34,VI,"Trabalho, proteção social, educação e conhecimento","Cultura, patrimônio e esporte",5,PROVISÓRIO,Não inventariado exaustivamente
+T35,VI,"Trabalho, proteção social, educação e conhecimento","Ciência, pesquisa e inovação",5,PROVISÓRIO,Não inventariado exaustivamente
+T36,VII,"Território, ambiente, infraestrutura e economia setorial","Urbanismo, habitação e território urbano",6,PROVISÓRIO,Não inventariado exaustivamente
+T37,VII,"Território, ambiente, infraestrutura e economia setorial","Meio ambiente, clima e biodiversidade",7,PROVISÓRIO,Não inventariado exaustivamente
+T38,VII,"Território, ambiente, infraestrutura e economia setorial",Recursos hídricos e saneamento,5,PROVISÓRIO,Não inventariado exaustivamente
+T39,VII,"Território, ambiente, infraestrutura e economia setorial","Agricultura, pecuária, pesca e desenvolvimento rural",6,PROVISÓRIO,Não inventariado exaustivamente
+T40,VII,"Território, ambiente, infraestrutura e economia setorial","Energia, mineração e combustíveis",6,PROVISÓRIO,Não inventariado exaustivamente
+T41,VII,"Território, ambiente, infraestrutura e economia setorial","Transportes, trânsito e logística",6,PROVISÓRIO,Não inventariado exaustivamente
+T42,VII,"Território, ambiente, infraestrutura e economia setorial","Comunicações, radiodifusão e serviços postais",5,PROVISÓRIO,Não inventariado exaustivamente
+T43,VII,"Território, ambiente, infraestrutura e economia setorial","Direito digital, dados e sistemas informacionais",6,PROVISÓRIO,Não inventariado exaustivamente
+T44,VII,"Território, ambiente, infraestrutura e economia setorial","Indústria, comércio exterior e regulação da produção",5,PROVISÓRIO,Não inventariado exaustivamente
+T45,VIII,"Segurança, defesa e relações internacionais",Segurança pública e inteligência,5,PROVISÓRIO,Não inventariado exaustivamente
+T46,VIII,"Segurança, defesa e relações internacionais",Defesa nacional e instituições militares,5,PROVISÓRIO,Não inventariado exaustivamente
+T47,VIII,"Segurança, defesa e relações internacionais",Relações exteriores e tratados internacionais,5,PROVISÓRIO,Não inventariado exaustivamente
+T48,VIII,"Segurança, defesa e relações internacionais","Migração, refúgio e proteção internacional",5,PROVISÓRIO,Não inventariado exaustivamente

@@ -54,7 +54,7 @@ Na abertura e no encerramento de um chat, anotar os **commits ou versões efetiv
 
 Para iniciar um módulo basta que existam: repositório de referência consultável, regras de governança e pesquisa, template de dossiê, fonte constitucional do cenário A e registro das pendências. Não é necessário concluir antecipadamente o inventário de toda legislação federal.
 
-Atenção especial: as fontes do anteprojeto constitucional localizadas na Biblioteca/Projeto não constituem repositório constitucional versionado confirmado. Registrar a versão `13/10/2026 v0.1` até existir acesso verificável a outra; nenhuma escolha material é presumidamente aprovada.
+Atenção especial: o projeto constitucional possui repositório próprio em https://github.com/raphaelpetta/modernizacao-constitucional-brasileira (implantação inicial `fa35da0ec5bfec0ae33515c2a48f264c55d3308c`, 13/10/2026). O guia e a transcrição do anteprojeto v0.1 são **referências históricas**, não Constituição proposta aprovada. Consultar a `main` e registrar o commit efetivamente lido; nenhuma escolha material é presumidamente aprovada.
 
 ## Atenção
 

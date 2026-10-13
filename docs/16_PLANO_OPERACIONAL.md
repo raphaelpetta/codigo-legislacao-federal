@@ -7,7 +7,7 @@
 
 - **GitHub:** `raphaelpetta/codigo-legislacao-federal`; `main` guarda apenas material integrado e versionado. O estado atual é uma base de pesquisa e não um Código concluído.
 - **Projetos e chats do ChatGPT:** espaços de trabalho para investigar, redigir e revisar. Não sincronizam automaticamente nem são autoridade superior ao commit registrado no GitHub.
-- **Projeto constitucional:** fonte separada com versão própria; comparar sob três camadas (CF/1988 vigente, anteprojeto de Constituição, CLF). A revisão cruzada segue `docs/09_INTERFACE_CONSTITUCIONAL.md`.
+- **Projeto constitucional:** repositório independente `raphaelpetta/modernizacao-constitucional-brasileira`, com implantação inicial identificada pelo commit `fa35da0ec5bfec0ae33515c2a48f264c55d3308c`. Comparar CF/1988 vigente, anteprojeto futuro e CLF. O material histórico v0.1 não equivale a decisões ratificadas. Usar também a interface recíproca `integracao/01_INTERFACE_CLF.md` do projeto constitucional.
 - **Fontes jurídicas:** textos legais e decisões oficiais datados prevalecem para **descrever o direito brasileiro**, mas não constituem, por si, uma escolha normativa de reforma. Dados, relatórios e doutrina devem ter referência de procedência.
 
 Nunca presumir que o conteúdo de um arquivo anexado às Fontes do ChatGPT esteja sincronizado com `main`. Em cada frente de trabalho, conferir os documentos centrais no repositório e identificar o commit consultado. Em caso de indisponibilidade da conexão, apontar limitações e evitar gravação baseada em contexto parcial.
@@ -90,7 +90,7 @@ Depois do piloto: T01.M03 (redação), T01.M05 (publicação e versões), T01.M0
 - Espécies e atos de positivação de um Código realmente único sob CF/1988 ou eventual Constituição futura;
 - exaustividade dos 48 títulos/273 módulos; localização de estatutos protetivos, regimes transversais, direito indígena e tradicionais;
 - migração e auditoria das minutas anteriormente discutidas;
-- sincronização efetiva de arquivos do ChatGPT entre chats e repositório constitucional próprio;
+- sincronização de arquivos entre chats e os dois repositórios já existentes, pois o GitHub não atualiza automaticamente Fontes do ChatGPT;
 - qualidade jurídica de cada dispositivo, vigência atualizada e direito comparado setorial.
 
 **Estado operacional apto a iniciar módulos** não equivale a eliminar essas questões. Elas devem alimentar o inventário, não bloquear toda a pesquisa.

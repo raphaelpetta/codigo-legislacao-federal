@@ -1,8 +1,8 @@
 # Diretrizes gerais de pesquisa, auditoria crítica e modernização do ordenamento
 
 **ID:** CLF-GOV-013  
-**Versão:** 0.2 (proposta) · **Data:** 13/10/2026  
-**Status:** PROPOSTA DE REGRA TRANSVERSAL, sujeita a revisão e integração ao protocolo comum
+**Versão:** 0.2 (operacional) · **Data:** 13/10/2026  
+**Status:** DIRETRIZ METODOLÓGICA EM USO, sem aprovação automática de qualquer proposta legislativa
 
 ## 1. Objeto e orientação
 
@@ -158,4 +158,4 @@ Essas referências fornecem práticas para estruturar pesquisas e avaliações; 
 
 ## 11. Controle da aprovação
 
-A orientação geral de modernização integral, pesquisa histórica/comparada e prospecção de problemas decorre da solicitação expressa do usuário em 13/10/2026. As regras operacionais adicionais deste documento são propostas para sua revisão; sua inclusão em um pull request não autoriza tratar como decisão final os detalhes ainda não homologados.
+A orientação geral de modernização integral, pesquisa histórica/comparada e prospecção de problemas decorre da solicitação expressa do usuário em 13/10/2026. As regras operacionais de pesquisa foram incorporadas pelo PR #2 e podem ser revistas; isso não autoriza tratar como decisão final qualquer proposta jurídica, alternativa constitucional ou detalhe material ainda não homologado.

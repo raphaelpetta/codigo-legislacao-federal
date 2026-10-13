@@ -150,6 +150,18 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: ID de caso malformado")
             if not (rec.get("fonte_primaria") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: fonte primaria deve ser URL HTTPS")
+    elif name.startswith("RESULTADOS_TESTE"):
+        recs = read_csv(path, {
+            "id_teste", "caso", "fonte_origem", "reserva_material",
+            "iniciativa_relevante", "categoria_clf",
+            "resultado_constitucional_preliminar", "status_temporal",
+        })
+        unique(recs, "id_teste", str(path.relative_to(ROOT)))
+        for idx, rec in enumerate(recs, 2):
+            if not re.fullmatch(r"TC-\d{3}", rec.get("id_teste", "")):
+                fail(f"{path.relative_to(ROOT)}:{idx}: identificador TC incorreto")
+            if rec.get("categoria_clf") not in {"C0", "C1", "M", "Q"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: categoria C0/C1/M/Q incorreta")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

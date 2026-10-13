@@ -171,6 +171,17 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if not re.fullmatch(r"IC-C0-\d{3}", rec.get("id_cenario", "")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: identificador de cenario incorreto")
+    elif name.startswith("MATRIZ_MODELOS_PROMULGACAO"):
+        recs = read_csv(path, {
+            "id_teste", "modelo", "questao_de_validade", "cenario",
+            "classe_material", "resultado_condicional", "status_de_pesquisa",
+        })
+        unique(recs, "id_teste", str(path.relative_to(ROOT)))
+        for idx, rec in enumerate(recs, 2):
+            if not re.fullmatch(r"PM-\d{3}", rec.get("id_teste", "")):
+                fail(f"{path.relative_to(ROOT)}:{idx}: ID PM malformado")
+            if rec.get("modelo") not in {"P0", "P1", "P2", "P3", "P4", "P5"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: modelo nao cadastrado")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

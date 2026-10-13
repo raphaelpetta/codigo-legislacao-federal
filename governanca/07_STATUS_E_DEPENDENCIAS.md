@@ -1,6 +1,6 @@
 # Estado de integração e mapa inicial de dependências
 
-**ID:** CLF-GOV-007 | **Versão:** 0.1 | **Data:** 13/10/2026
+**ID:** CLF-GOV-007 | **Versão:** 0.3 | **Data:** 13/10/2026
 
 ## Estado global
 
@@ -8,6 +8,10 @@
 - Catálogo de módulos: **PROVISÓRIO — não auditado exaustivamente**.
 - Carta de arquitetura: **MINUTA INICIAL**.
 - Código codificado e consolidado: **a construir**.
+- Infraestrutura GitHub: **operacional**, com PR #1 e PR #2 integrados; plano operacional e validação automática em implantação sob PR específico.
+- Auditoria técnica dos catálogos: **48 títulos, 273 módulos e 34 interfaces**, sem IDs duplicados, divergências de contagem ou referências a títulos/módulos inexistentes na checagem inicial (13/10/2026); **não** é validação de abrangência jurídica.
+- Pesquisa interdisciplinar e modernização: diretrizes operacionais em `governanca/13_DIRETRIZES_PESQUISA_E_MODERNIZACAO.md`.
+- Dossiê piloto `T01.M04`: **PLANEJADO**; escopo F0 inicial em `modulos/T01/M04/README.md`, sem inventário F1 ou minuta aprovada.
 - Título 01: há extensa discussão e minutas anteriores em chats; **ainda não migradas para o dossiê modular e não estabilizadas**.
 - Todos os demais títulos: **PLANEJADO**, sem pretensão de cobertura material.
 
@@ -45,6 +49,13 @@ Foi preparado um protocolo bilateral em `docs/09_INTERFACE_CONSTITUCIONAL.md`, a
 O CLF continua independente do projeto constitucional, com decisões, versões e registros separados. A CF/1988 é a referência do direito positivo vigente; a versão futura da Constituição é cenário condicional e pode mudar inteiramente. Toda sessão que utilizar a interface deve fixar versões ou commits das fontes efetivamente consultadas e registrar pedidos de reavaliação sem aprovação automática de nenhum projeto.
 
 **Dependências iniciais prioritárias:** processo legislativo e técnica normativa (IC-2026-010 e IC-2026-026), recepção e transição (IC-2026-027 e IC-2026-034), repartição federativa e financiamento (IC-2026-006). Estas pendências continuam identificadas, não resolvidas.
+
+## Próximo ciclo recomendado
+
+1. Integrar, após revisão, o plano `docs/16_PLANO_OPERACIONAL.md`, o padrão `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md` e o piloto de T01.M04.
+2. Abrir e acompanhar tarefas rastreáveis de T01.M04 (F0/F1), revisão de fontes e validação do inventário.
+3. Revisar as pendências constitucionais IC-2026-010, 026, 027 e 034 sem antecipar decisões normativas do outro projeto.
+4. Prosseguir só então para redação de normas do T01, sem marcar `INVENTARIADO` ou `REDIGIDO` antes das respectivas verificações.
 
 ## Registro resumido para integração futura
 

@@ -90,6 +90,16 @@ A pesquisa T01.M04 incorporou `modulos/T01/M04/MODELOS_07_PROMULGACAO_E_ATUALIZA
 
 **DEC-001 permanece objetivo confirmado. DEC-016 permanece PENDENTE.** Os resultados servem à revisão da arquitetura e não aprovam nenhum artigo constitucional proposto.
 
+## Teste de ciclo legislativo completo CP/CE — SIM08 (13/10/2026)
+
+A pesquisa comparou a formação e atualização de um Código formalmente único em `modulos/T01/M04/SIMULACAO_08_PROCESSO_COMPLETO_CP_CE.md`. Os arquivos `MATRIZ_ETAPAS_CP_CE_08.csv` (**72 estados: CP/CE × 3 componentes × S00–S11**) e `FALHAS_E_DECISOES_CP_CE_08.csv` (**20 falhas adversariais**) identificam onde uma hipótese de aprovação **NÃO** se transforma em legislação real.
+
+Três fontes: **CTN art. 174**, com atenção à LC 236/2026 e seus **vetos parciais reais**; **Lei 9.784/1999, art. 2º** (componente legal materialmente ordinário e garantias de direitos); **Lei 11.416/2006, arts. 11–13** (iniciativa judicial quando incida a reserva). **LC 70/1991 permanece apenas precedente histórico** (SV 62), não disposição vigente de teste.
+
+**Resultado:** CP consegue desenhar trâmite por componentes, mas não define suficientemente o ato jurídico de promulgação una (falha em S07). CE define a identidade de espécie Código como hipótese constitucional, porém continua **bloqueado** quanto a sanção/veto, promulgação parcial, dependência entre substituição/revogação e ausência de iniciativa reservada. Isso é avaliação de **minutas ainda incompletas**, não juízo de impossibilidade de futuros desenhos. Também não foi dada força normativa a alguma simulação. `DEC-001` confirmado; `DEC-016` **PENDENTE**.
+
+**Interface constitucional:** remeter resultados à M00.02/M03.01/M14 via `CF-IC-001`, sem transplantar decisões. Next: soluções rivais de veto e promulgação (V1, V2); revisão de direitos, vacatio e fontes autênticas; teste de equivalência C0 por origem/destino real.
+
 ## Próximo ciclo recomendado
 
 1. Integrar, após revisão, o plano `docs/16_PLANO_OPERACIONAL.md`, o padrão `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md` e o piloto de T01.M04.

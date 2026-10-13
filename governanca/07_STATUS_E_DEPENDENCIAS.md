@@ -100,6 +100,14 @@ Três fontes: **CTN art. 174**, com atenção à LC 236/2026 e seus **vetos parc
 
 **Interface constitucional:** remeter resultados à M00.02/M03.01/M14 via `CF-IC-001`, sem transplantar decisões. Next: soluções rivais de veto e promulgação (V1, V2); revisão de direitos, vacatio e fontes autênticas; teste de equivalência C0 por origem/destino real.
 
+## V1/V2: veto, revogação e cobertura jurídica (ciclo 09)
+
+Foram incorporados à pesquisa \`modulos/T01/M04/ANALISE_09_VETO_REVOGACAO_E_COBERTURA.md\`, \`HIPOTESES_NORMATIVAS_09_V1_V2.md\` e \`MATRIZ_VETO_DEPENDENCIAS_09.csv\` (**24 cenários**, quatro registros factuais sobre o veto 48/2026 e 20 hipóteses). Os fatos oficiais incluem os vetos \`48.26.006–008\` a trechos propostos para CTN art. 174 e \`48.26.014\` à cláusula do art. 2º que revogaria Lei 9.430/1996 art. 44 §2º; **não** se demonstrou dependência jurídica causal entre essas disposições específicas. **VET 48/2026 não apreciado no corte de 13/10/2026**.
+
+**V1 (hipótese preferencial para teste):** unidades de veto da CF art. 66 §2º e dependência de eficácia/revogação aprovada previamente por Legislativo competente, evitando decisão discricionária de editor. **Falha grave ainda aberta:** o próprio dispositivo condicional pode ser vetado. **V2 (comparação):** veto de bloco normativo previamente delimitado por lei constitucional nova, com risco acrescido de veto estratégico e necessidade de reforma constitucional expressa. Nenhuma hipótese assegura, sozinha, promulgação formal do Código ou iniciativa constitucionalmente válida.
+
+**Cobertura incompleta:** a falta de projeto de lei de iniciativa judicial para matéria reservada não importa incorporação nem revogação da lei anterior, apenas remissão externa e registro de lacuna de cobertura. \`DEC-001\` objetivo único mantido; \`DEC-016\` e questão de iniciativa \`#14\` seguem pendentes. Encaminhamento \`CF-IC-001\` a M03.01/M00.02/M14 sem adoção de normas.
+
 ## Próximo ciclo recomendado
 
 1. Integrar, após revisão, o plano `docs/16_PLANO_OPERACIONAL.md`, o padrão `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md` e o piloto de T01.M04.

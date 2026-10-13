@@ -3,7 +3,7 @@
 **ID do módulo:** T___.M___  
 **Título:**  
 **Regime jurídico:**  
-**Versão do dossiê:** 0.2 (modelo proposto)  
+**Versão do dossiê:** 0.2 (modelo operacional)  
 **Status:** PLANEJADO  
 **Data de corte normativa:** ____  
 **Versão dos documentos centrais consultada:** ____

@@ -233,6 +233,26 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: fato atribuido a modelo futuro")
             if not rec["fonte_oficial"].startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: fonte de controle sem HTTPS")
+    elif name.startswith("MATRIZ_UNIDADE_VETO"):
+        recs = read_csv(path, {
+            "id_teste", "modelo", "evento", "posicao_da_condicao",
+            "unidade_vetavel", "resultado_do_teste", "natureza",
+            "regra_proveniencia", "estado", "fonte",
+        })
+        unique(recs, "id_teste", str(path.relative_to(ROOT)))
+        expected = {f"UV-M{i}-E{j}" for i in range(4) for j in range(9)}
+        found = {r["id_teste"] for r in recs}
+        if expected != found:
+            fail(f"{path.relative_to(ROOT)}: faltam {len(expected - found)}, sobram {len(found - expected)} testes UV")
+        for idx, rec in enumerate(recs, 2):
+            if rec["modelo"] not in {"M0", "M1", "M2", "M3"} or rec["evento"] not in {f"E{i}" for i in range(9)}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: classe e evento invalidos")
+            if rec["id_teste"] != f"UV-{rec['modelo']}-{rec['evento']}":
+                fail(f"{path.relative_to(ROOT)}:{idx}: chave diverge da classe/evento")
+            if rec["natureza"] != "SIMULACAO" or rec["regra_proveniencia"] != "SIMULACAO_NAO_PROMULGADA":
+                fail(f"{path.relative_to(ROOT)}:{idx}: simulacao representada como direito vigente")
+            if not rec["fonte"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte sem HTTPS")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

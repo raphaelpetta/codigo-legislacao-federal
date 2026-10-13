@@ -62,6 +62,16 @@ O módulo T01.M04 produziu o parecer `modulos/T01/M04/PARECER_04_VIABILIDADE_FOR
 
 A próxima porta de qualidade exige analisar casos concretos de LC/LO, iniciativas reservadas e poder de revisão formal antes de escolher espécie jurídica de promulgação. O parecer **não autoriza** consolidar a minuta experimental 02 como proposta aceita.
 
+## Três testes constitucionais reais — resultado focalizado
+
+Em `modulos/T01/M04/TESTE_05_TRES_CASOS_CONSTITUCIONAIS.md` foram registrados **3 casos e 12 cenários** estruturados em `modulos/T01/M04/RESULTADOS_TESTE_05.csv`: (A) CTN arts. 173–174 / CF art. 146, III, b / STF SV 8; (B) LC 70/1991 / Lei 9.430/1996 / STF Tema 71 e SV 62; (C) Lei 11.416/2006 (PL 5845/2005 de autoria STF) / CF art. 96, II, b / STF ADI 1.835.
+
+**Resultado:** espécie formal, reserva material, iniciativa e possibilidade de atualização **não se confundem**. Não há aprovação de um veículo legislativo universal: **DEC-016 continua PENDENTE**, e `DEC-001` (Código único como objetivo) é preservada.
+
+**Atualização normativa detectada:** **LC 236, de 04/09/2026**, entrou em vigor na publicação e modificou o CTN, inclusive o art. 174. É necessária devolutiva a `T12.M01` (normas gerais tributárias) e `T12.M02` (administração/processo tributário) para conferir disposições novas e vetadas, efeitos temporais, mediação e arbitragem. Nunca transpor redação anterior como se fosse atual.
+
+**Questão jurídica não solucionada:** se a transposição verdadeiramente neutra de matéria originalmente submetida à iniciativa judicial pode tramitar por projeto parlamentar de consolidação com base na LC 95, art. 14, §2º. A análise da **reforma material M** é distinta; não importar automaticamente uma resposta para a transposição `C0`. Pesquisar jurisprudência específica.
+
 ## Próximo ciclo recomendado
 
 1. Integrar, após revisão, o plano `docs/16_PLANO_OPERACIONAL.md`, o padrão `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md` e o piloto de T01.M04.

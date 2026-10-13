@@ -82,6 +82,14 @@ O parecer `modulos/T01/M04/PARECER_06_INICIATIVA_RESERVADA_E_CONSOLIDACAO_FIEL.m
 
 **DEC-016 e issue #14:** permanecem em pesquisa/pendência. Exigir auditoria autônoma de iniciativa em qualquer proposta `C0` relativa a matérias reservadas, independentemente de haver ou não mudança semântica.
 
+## Desenhos alternativos para promulgação formal do Código único (pesquisa, não decisão)
+
+A pesquisa T01.M04 incorporou `modulos/T01/M04/MODELOS_07_PROMULGACAO_E_ATUALIZACAO_CODIGO.md`, `MATRIZ_MODELOS_PROMULGACAO_07.csv` (**18 cenários**) e `ESBOCOS_CONSTITUCIONAIS_07_CP_CE.md` (**duas minutas constitucionais concorrentes, ambas NÃO APROVADAS**). A análise compara P0 (consulta), P1 (LC global), P2 (positivação modular preparatória), P3 (procedimento coordenado de codificação com ato único), P4 (espécie constitucional Código com regime por matéria) e P5 (reforma estrutural de espécies/reservas).
+
+**Conclusão operacional:** P2 permite avançar na investigação e redação de um corpus integrado sob CF/1988, porém NÃO prova unidade jurídico-formal plena. As hipóteses P3/P4 merecem exame prioritário em M00.02 da Constituição alternativa, **sem importar nenhuma como escolha ratificada**. A iniciativa reservada, os quóruns setoriais, a sanção/veto, a votação final, as competências próprias das Casas e transição continuam pontos bloqueadores de uma promulgação formalmente una.
+
+**DEC-001 permanece objetivo confirmado. DEC-016 permanece PENDENTE.** Os resultados servem à revisão da arquitetura e não aprovam nenhum artigo constitucional proposto.
+
 ## Próximo ciclo recomendado
 
 1. Integrar, após revisão, o plano `docs/16_PLANO_OPERACIONAL.md`, o padrão `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md` e o piloto de T01.M04.

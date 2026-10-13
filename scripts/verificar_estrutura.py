@@ -146,7 +146,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         })
         unique(recs, "id_caso", str(path.relative_to(ROOT)))
         for idx, rec in enumerate(recs, 2):
-            if not re.fullmatch(r"FJ-\\d{3}", rec.get("id_caso", "")):
+            if not re.fullmatch(r"FJ-\d{3}", rec.get("id_caso", "")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: ID de caso malformado")
             if not (rec.get("fonte_primaria") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: fonte primaria deve ser URL HTTPS")

@@ -211,6 +211,28 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: ID FCE invalido")
             if rec["modelo"] not in ("CP", "CE"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: modelo FCE invalido")
+    elif name.startswith("MATRIZ_VETO_DEPENDENCIAS"):
+        recs = read_csv(path, {
+            "id_cenario", "tipo", "modelo", "referencia",
+            "substituto_S", "revogacao_R", "resultado_normativo_preliminar",
+            "status_de_verificacao", "fonte_oficial",
+        })
+        unique(recs, "id_cenario", str(path.relative_to(ROOT)))
+        nums = {r.get("id_cenario") for r in recs}
+        want = {f"VR-{i:03d}" for i in range(1, 25)}
+        if nums != want:
+            fail(f"{path.relative_to(ROOT)}: universo VR incompleto/duplicado")
+        for idx, rec in enumerate(recs, 2):
+            if rec["tipo"] not in {"FATO_DOCUMENTADO", "SIMULACAO"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: tipo de teste invalido")
+            if rec["modelo"] not in {"DIREITO_VIGENTE", "BASE_SEM_DEPENDENCIA", "V1", "V2"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: modelo desconhecido")
+            if rec["tipo"] == "SIMULACAO" and rec["status_de_verificacao"] == "OFICIAL_EM_2026_10_13":
+                fail(f"{path.relative_to(ROOT)}:{idx}: simulacao tratada como ato oficial")
+            if rec["tipo"] == "FATO_DOCUMENTADO" and rec["modelo"] != "DIREITO_VIGENTE":
+                fail(f"{path.relative_to(ROOT)}:{idx}: fato atribuido a modelo futuro")
+            if not rec["fonte_oficial"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte de controle sem HTTPS")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

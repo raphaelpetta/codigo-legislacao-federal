@@ -182,6 +182,35 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: ID PM malformado")
             if rec.get("modelo") not in {"P0", "P1", "P2", "P3", "P4", "P5"}:
                 fail(f"{path.relative_to(ROOT)}:{idx}: modelo nao cadastrado")
+    elif name.startswith("MATRIZ_ETAPAS_CP_CE"):
+        recs = read_csv(path, {
+            "id_etapa", "modelo", "componente", "origem_fonte",
+            "etapa", "estado_da_simulacao", "efeito_juridico_real",
+        })
+        unique(recs, "id_etapa", str(path.relative_to(ROOT)))
+        keys = {(r["modelo"], r["componente"], r["id_etapa"].split("-")[-1]) for r in recs}
+        expected = {
+            (m, c, f"S{i:02d}") for m in ("CP", "CE")
+            for c in ("T", "O", "J") for i in range(12)
+        }
+        if keys != expected:
+            fail(f"{path.relative_to(ROOT)}: matriz incompleta, sobrando={len(keys-expected)}, faltando={len(expected-keys)}")
+        for idx, rec in enumerate(recs, 2):
+            if not re.fullmatch(r"SIM-(CP|CE)-(T|O|J)-S\d{2}", rec["id_etapa"]):
+                fail(f"{path.relative_to(ROOT)}:{idx}: ID SIM invalido")
+            if rec.get("efeito_juridico_real") != "NENHUM_TESTE_PROMULGOU_NORMA":
+                fail(f"{path.relative_to(ROOT)}:{idx}: status juridico da simulacao inconsistente")
+    elif name.startswith("FALHAS_E_DECISOES_CP_CE"):
+        recs = read_csv(path, {
+            "id_falha", "modelo", "fase", "evento_hipotetico",
+            "resultado_do_teste", "situacao",
+        })
+        unique(recs, "id_falha", str(path.relative_to(ROOT)))
+        for idx, rec in enumerate(recs, 2):
+            if not re.fullmatch(r"FCE-\d{3}", rec["id_falha"]):
+                fail(f"{path.relative_to(ROOT)}:{idx}: ID FCE invalido")
+            if rec["modelo"] not in ("CP", "CE"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: modelo FCE invalido")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

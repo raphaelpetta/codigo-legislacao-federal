@@ -138,6 +138,18 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
     elif name.startswith("MAPA_PROBLEMAS"):
         recs = read_csv(path, {"id_problema", "descricao", "estado"})
         unique(recs, "id_problema", str(path.relative_to(ROOT)))
+    elif name.startswith("MATRIZ_ESPECIES"):
+        recs = read_csv(path, {
+            "id_caso", "dispositivo_ou_instituto", "especie_origem",
+            "reserva_material", "iniciativa_ou_competencia", "estado_prova",
+            "fonte_primaria", "pergunta_pendente",
+        })
+        unique(recs, "id_caso", str(path.relative_to(ROOT)))
+        for idx, rec in enumerate(recs, 2):
+            if not re.fullmatch(r"FJ-\d{3}", rec.get("id_caso", "")):
+                fail(f"{path.relative_to(ROOT)}:{idx}: ID de caso malformado")
+            if not (rec.get("fonte_primaria") or "").startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte primaria deve ser URL HTTPS")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

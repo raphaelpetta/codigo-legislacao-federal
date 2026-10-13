@@ -3,7 +3,7 @@
 **ID do módulo:** T___.M___  
 **Título:**  
 **Regime jurídico:**  
-**Versão do dossiê:** 0.1  
+**Versão do dossiê:** 0.2 (modelo proposto)  
 **Status:** PLANEJADO  
 **Data de corte normativa:** ____  
 **Versão dos documentos centrais consultada:** ____
@@ -70,3 +70,25 @@ Versão, data, fontes adicionadas, decisões assumidas, alterações, responsáv
 ## Mensagem para iniciar um chat especializado (copiar e adaptar)
 
 > Estamos desenvolvendo o Código da Legislação Federal. Este chat é dedicado ao módulo `Txx.Myy — [NOME]`. Antes de propor normas, consulte as fontes centrais do Projeto: Carta de Arquitetura, Índice de Títulos, Catálogo de Módulos, Registro de Decisões, Protocolo de Trabalho e Estado de Integração. Informe quais versões conseguiu efetivamente consultar. Não presuma que o histórico de outros chats substitui as fontes centrais. Comece pela delimitação do regime, inventário normativo e mapa de dependências. Diferencie direito vigente, controvérsia e reforma proposta. Empregue C0/C1/M/Q; prepare minuta e concordância apenas depois da auditoria. Quando detectar impacto em outro módulo, registre solicitação de integração, sem modificar silenciosamente decisões centrais.
+
+## 12. Anexo de pesquisa crítica e modernização (proposta transversal v0.2)
+
+**Intensidade justificada:** Nível 1 (editorial), 2 (reforma setorial) ou 3 (reforma estrutural/direitos sensíveis). Explicar por que a profundidade é adequada; não exigir de cada C0 um estudo comparado de várias jurisdições.
+
+**História e função:** origem social/política/econômica do regime; eventos e mudanças estruturais relevantes; por que a norma se desenvolveu assim; o que se mantém funcional.
+
+**Direito brasileiro e jurisprudência:** normas, espécies, precedentes, ratio, posições concorrentes, grau de estabilidade, interpretação administrativa, lacunas de fontes.
+
+**Direito comparado e jurisprudência internacional:** questão funcional; jurisdições e razão da escolha; contexto, resultados, transferibilidade, força jurídica e limites de cada referência.
+
+**Ciências e evidência:** disciplina pertinente, pesquisa, desenho e limitações, robustez, dissensos, inferência causal ou descritiva; separar dos juízos valorativos e jurídicos.
+
+**Auditoria proativa:** problemas classificados como `LACUNA_NORMATIVA`, `ANTINOMIA_A_VERIFICAR`, `INCOERENCIA`, `JURISPRUDENCIALIZACAO`, `FALHA_INSTITUCIONAL`, `OBSOLESCENCIA`, `REDUNDANCIA`, `RISCO_FUTURO`; indicar se realmente demandam nova lei.
+
+**Alternativas:** manutenção; correção administrativa/institucional; nova interpretação ou regra de integração; C1 editorial; M setorial; M estrutural; alternativa não legislativa quando houver. Informar prós e contras, especialmente os melhores argumentos contra a recomendação.
+
+**Impactos:** direitos, diversidade de titulares, segurança jurídica, orçamento, federação, exequibilidade, efeitos distributivos, tecnologias, risco de abuso e transição. Criar métricas ex post para reformas relevantes.
+
+**Controle:** vincular decisões ao registro central; se o projeto constitucional estiver envolvido, vincular à interface sem presumir aprovação da hipótese constitucional.
+
+Consultar `governanca/13_DIRETRIZES_PESQUISA_E_MODERNIZACAO.md` e não confundir sua natureza de proposta com direito vigente ou regra metodológica já homologada.

@@ -1,6 +1,6 @@
 # Protocolo de desenvolvimento, auditoria e integração
 
-**ID:** CLF-GOV-005 | **Versão:** 0.1 | **Data:** 13/10/2026
+**ID:** CLF-GOV-005 | **Versão:** 0.2 (proposta) | **Data:** 13/10/2026
 
 ## 1. Antes de iniciar qualquer módulo
 
@@ -73,3 +73,19 @@ O chat central registra a decisão no `04_REGISTRO_DE_DECISOES.md`, incrementa a
 - Distinguir direito vigente, inferência jurídica, interpretação controversa e proposta de política legislativa.
 - Não afirmar que uma regra foi revogada tacitamente só por haver aparente conflito.
 - Usar o texto completo relevante; resumos de conversa são auxiliares.
+
+## 7. Diretriz transversal: pesquisa crítica e reforma
+
+A orientação substantiva detalhada consta de `governanca/13_DIRETRIZES_PESQUISA_E_MODERNIZACAO.md` (v0.2 proposta). Cada módulo investigará, na profundidade proporcional ao risco e à matéria: (i) evolução histórica e institucional; (ii) doutrina e jurisprudência brasileira, internacional e comparada relevantes; (iii) modelos jurídicos estrangeiros e condições de transplante; (iv) evidências jurídicas, políticas, econômicas, sociais e científicas; (v) funcionamento real e problemas de implementação; (vi) lacunas, antinomias aparentes ou reais, obsolescências, redundâncias e jurisprudencialização de questões ainda não legisladas.
+
+A etapa F3 não é uma formalidade comparatista: exige critérios claros de seleção de fontes e aferição de pertinência. Na F4, comparar **manter, corrigir aplicação, reforma pontual, alternativa não legislativa e reforma estrutural** quando cabíveis. Testar o melhor argumento contrário. Registrar grau de confiança e a distinção entre fato, inferência, juízo jurídico e escolha normativa.
+
+Quando o módulo identificar ausência legislativa, não presumir que há lacuna no direito; distinguir decisão consciente de não legislar, interpretação que supre questão, falha de execução e lacuna efetiva. Jurisprudência não é automaticamente texto codificado; depende de estabilidade, natureza do entendimento e adequação de positivação.
+
+A pesquisa pode justificar alterações materiais amplas `M`, inclusive novos institutos, simplificação ou eliminação de estruturas, mas **nunca ocultar** essas mudanças sob `C0` ou `C1`. O diagnóstico integral não obriga a reforma: manutenção fundamentada é resultado legítimo.
+
+Aplicar análise ex ante proporcional ao impacto, revisão institucional e eventual indicadores para avaliação posterior de reformas significativas. Tratar direitos, igualdade, devido processo e legitimidade democrática como parâmetros próprios, não redutíveis a cálculo monetário.
+
+No interfaceamento com o projeto constitucional independente, a CF/1988 continua referência exclusiva do direito vigente e o anteprojeto é cenário condicional, sem importar decisões de outro projeto.
+
+**Atualização metodológica proposta:** reconhecer essas regras no roteiro F0–F9 e no dossiê de cada módulo; eventual modificação de escolhas relevantes exige governança e registro central, não atualização automática por chats.

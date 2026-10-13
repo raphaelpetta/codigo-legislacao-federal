@@ -50,6 +50,10 @@ O CLF continua independente do projeto constitucional, com decisões, versões e
 
 **Dependências iniciais prioritárias:** processo legislativo e técnica normativa (IC-2026-010 e IC-2026-026), recepção e transição (IC-2026-027 e IC-2026-034), repartição federativa e financiamento (IC-2026-006). Estas pendências continuam identificadas, não resolvidas.
 
+## Repositório constitucional confirmado
+
+O projeto constitucional dispõe de `main` independente em https://github.com/raphaelpetta/modernizacao-constitucional-brasileira. O commit de implantação verificado em 13/10/2026 é `fa35da0ec5bfec0ae33515c2a48f264c55d3308c`. Sua interface recíproca está em `integracao/01_INTERFACE_CLF.md`. A matriz CLF de 34 interfaces é **triagem histórica relativa ao anteprojeto v0.1**, não correspondência de IDs permanentes do texto que será elaborado.
+
 ## Próximo ciclo recomendado
 
 1. Integrar, após revisão, o plano `docs/16_PLANO_OPERACIONAL.md`, o padrão `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md` e o piloto de T01.M04.

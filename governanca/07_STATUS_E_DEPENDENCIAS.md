@@ -72,6 +72,16 @@ Em `modulos/T01/M04/TESTE_05_TRES_CASOS_CONSTITUCIONAIS.md` foram registrados **
 
 **Questão jurídica não solucionada:** se a transposição verdadeiramente neutra de matéria originalmente submetida à iniciativa judicial pode tramitar por projeto parlamentar de consolidação com base na LC 95, art. 14, §2º. A análise da **reforma material M** é distinta; não importar automaticamente uma resposta para a transposição `C0`. Pesquisar jurisprudência específica.
 
+## Reserva de iniciativa e consolidação a direito constante — investigação focal
+
+O parecer `modulos/T01/M04/PARECER_06_INICIATIVA_RESERVADA_E_CONSOLIDACAO_FIEL.md` e os nove casos em `modulos/T01/M04/CENARIOS_INICIATIVA_CONSOLIDACAO_06.csv` distinguem compilação informacional, remissão não inovadora, incorporação em lei-base, revogação e reedição formal, e reforma material.
+
+**Achado:** LC 95, art. 14, §2º, prevê iniciativa parlamentar de projetos de consolidação, mas essa autorização **não prova por si** afastamento de reservas de iniciativa constitucional. STF ADI 724 e Tema 917 recomendam interpretação não ampliativa da reserva; ADI 1.835 confirma proteção para inovação em regime judicial; ADI 2.867 impede convalidação do vício efetivo por mera sanção. A pesquisa focal **não identificou precedente diretamente decisivo** quanto a *revogação/reedição literal* de lei da iniciativa judicial por parlamentar: risco **alto e não encerrado**.
+
+**Nova fonte institucional de pesquisa:** nota técnica de maio/2025 sobre consolidação de leis na LBI sem revogar a lei-base, de consultores legislativos da Câmara, **não posição oficial nem jurisprudência**; reforça a alternativa de incorporar leis externas em diploma preexistente. Alternativa útil para transição, **mas não satisfaz sozinha a unidade formal integral DEC-001**.
+
+**DEC-016 e issue #14:** permanecem em pesquisa/pendência. Exigir auditoria autônoma de iniciativa em qualquer proposta `C0` relativa a matérias reservadas, independentemente de haver ou não mudança semântica.
+
 ## Próximo ciclo recomendado
 
 1. Integrar, após revisão, o plano `docs/16_PLANO_OPERACIONAL.md`, o padrão `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md` e o piloto de T01.M04.

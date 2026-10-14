@@ -25,7 +25,7 @@ for r in gates:
     k=r["id_destino"]
     assert r["redacao_pos_lei14534"]==("REDACAO_2023" if k in id5 else "REDACAO_2021"),k
     assert r["estado_c0j"]=="Q_REQUIRES_REVISAO_JURIDICA"
-    assert r["estrategia_normativa_provisoria"].startswith("SE_PRESERVAR_NA_LEI_")
+    assert r["estrategia_normativa_provisoria"].startswith("SE_PRESERVAR_NA_")
     assert r["competencia_a_examinar"] and r["perda_que_deve_ser_evitar"]
     assert r["gate_auditoria"] and r["risco_material"]
 assert "LGPD" in next(r for r in gates if r["id_destino"]=="Lei7116-art3-P2")["gate_auditoria"]

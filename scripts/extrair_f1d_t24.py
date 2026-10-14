@@ -71,7 +71,13 @@ def extract(lines):
             letter=(p.group(2) or "").upper()
             paragraph=f"P{n}{letter}"
             key=(current,paragraph)
-            if key in units: raise ValueError(f"Parágrafo duplicado na fonte: {key}; antes={units[key][:170]!r}; nova={line[:170]!r}")
+            if key in units:
+                # Fragmento de citação do parágrafo (por exemplo "§ 8º deste artigo")
+                # quebrado em linha pelo HTML, não uma nova unidade.
+                if previous and re.match(r"^(?:deste|desse|daquele|desta|desse|do|da|dos|das|ou|e)\\b",p.group(3),re.I):
+                    units[previous]=norm(units[previous]+" "+line)
+                    continue
+                raise ValueError(f"Parágrafo duplicado na fonte: {key}; antes={units[key][:170]!r}; nova={line[:170]!r}")
             units[key]=norm(p.group(3))
             previous=key
             continue

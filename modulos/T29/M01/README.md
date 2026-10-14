@@ -200,6 +200,16 @@ F2-C consolidada: [15 entidades jurídicas](F2C_ESQUEMA_CONCEITUAL_15_ENTIDADES.
 
 Nenhuma regra C0/C1/M foi proposta como aprovada. Permanecem Q facultativo 14/16, PSA, guarda pós EC 103/Tema 1.271 e interfaces contributivas. PR draft; main e outros módulos sem alterações.
 
+### Adendo de coordenação — duas versões F2-C no mesmo PR
+
+Durante a rodada foram identificados **dois conjuntos F2-C em paralelo na mesma branch**. O conjunto anterior mapeia [15 entidades](F2C_ESQUEMA_CONCEITUAL_15_ENTIDADES.csv), [56 regras/transições](F2C_CONCORDANCIA_FUNCIONAL_56_REGRAS.csv) e 47 testes (40 condicionais, 7 Q). O complemento adiciona [19 entidades refinadas](F2C_MODELO_ENTIDADES_E_VINCULOS.csv), [34 grupos de concordância por fonte](F2C_CONCORDANCIA_ORIGEM_CONCEITO_DESTINO.csv), [20 garantias](F2C_INVARIANTES_DE_NAO_REGRESSAO.csv), [47 regressões](F2C_REGRESSAO_47_CENARIOS.csv) e [4 testes novos](F2C_TESTES_ADICIONAIS_COLISAO_2026.csv).
+
+**Não comparar 56 e 34 como contagens do mesmo objeto; não somar entidades nem escolher uma versão canônica sem revisão.** A auditoria cruzada encontrou **9 casos com marcação de Q divergente** entre as duas matrizes de 47 cenários. A [nota de conciliação](F2C_NOTA_DE_CONCILIACAO_E_CONTROLE_DE_DUPLICIDADE.md) documenta todos eles e estabelece **14 casos sob revisão conservadora** até decisão jurídica individual.
+
+**Novo problema intermodular:** [Lei15.371/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15371.htm) inseriu **art.73-A de salário-paternidade**, vigência **01/01/2027**, enquanto [Lei15.415/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15415.htm), vigente desde **26/05/2026**, inseriu **outro art.73-A sobre salário-maternidade**. A colisão de número e vigência foi analisada no [relatório complementar](RELATORIO_F2C_ARQUITETURA_CONCORDANCIA_E_CHOQUE_ART73A.md); **não há solução de revogação, renumeração ou primazia aprovada**. Módulos de benefícios e governança deverão tratar a questão.
+
+**Próximo controle antes de F4/F5:** conciliar modelos E/P e nove casos em F2-D, unificando a responsabilidade sobre o T29.M01 para impedir terceira rodada F2-C repetida; F3-A comparativa é trabalho distinto e pode prosseguir sem converter Q em norma.
+
 ## 17. Histórico
 
 

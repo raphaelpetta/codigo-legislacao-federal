@@ -15,7 +15,7 @@ A tutela previdenciária exige **cinco eixos independentes, mas relacionados**:
 
 **Consequência:** um conceito único futuro poderá definir `segurado` como papel jurídico geral, mas não deve produzir uma consequência uniforme de todo silêncio contributivo, inscrição, carência e dependência. **Uma pessoa pode ter mais de um vínculo simultâneo**, proteção durante prazo de graça sem pagar e direito já adquirido após perda da qualidade.
 
-**Instrumentos verificáveis desta rodada:** [F2B_TRANSICOES_23_ESTADOS.csv](F2B_TRANSICOES_23_ESTADOS.csv) descreve **23 transições condicionais**, e [F2B_TESTES_TEMPORAIS_26.csv](F2B_TESTES_TEMPORAIS_26.csv) descreve **26 casos hipotéticos respondidos**, vinculados às regras anteriores F2-A e à nova matriz. Não são decisões judiciais ou cálculo automatizado do INSS.
+**Instrumentos verificáveis desta rodada:** [F2B_TRANSICOES_23_ESTADOS.csv](F2B_TRANSICOES_23_ESTADOS.csv) descreve **23 transições condicionais**, e [F2B_TESTES_TEMPORAIS_27.csv](F2B_TESTES_TEMPORAIS_27.csv) descreve **27 casos hipotéticos respondidos**, vinculados às regras anteriores F2-A e à nova matriz. Não são decisões judiciais ou cálculo automatizado do INSS.
 
 ## 2. Modelo de estados e fluxos (sem simplificação indevida)
 
@@ -96,7 +96,7 @@ A exceção não equivale a “toda pessoa que teve mais contribuições pode re
 
 ## 8. Testes executados, novas salvaguardas e cobertura F2-A
 
-[F2B_TESTES_TEMPORAIS_26.csv](F2B_TESTES_TEMPORAIS_26.csv) responde **26 situações hipotéticas** (concomitância, filiação facultativa, 120/121 contribuições, prova, benefício, remuneração abaixo do mínimo, perda/retorno, maternidade, empregado/CI após óbito, dependência, segurado especial). **Não substituem decisões individualizadas**; certas linhas permanecem Q deliberadamente.
+[F2B_TESTES_TEMPORAIS_27.csv](F2B_TESTES_TEMPORAIS_27.csv) responde **27 situações hipotéticas** (concomitância, filiação facultativa, 120/121 contribuições, prova, benefício, remuneração abaixo do mínimo, perda/retorno, maternidade, empregado/CI após óbito, dependência, segurado especial). **Não substituem decisões individualizadas**; certas linhas permanecem Q deliberadamente.
 
 **Cobertura complementar intencional dos seis IDs da F2-A que não haviam sido exercitados:**
 - `F2A-R01`: posição geral de beneficiários (P01);
@@ -104,7 +104,7 @@ A exceção não equivale a “toda pessoa que teve mais contribuições pode re
 - `F2A-R09`: RPPS versus filiação facultativa (P04);
 - `F2A-R10`: trabalho voluntário sem remuneração (P05);
 - `F2A-R14`: inscrição de segurado especial (P06);
-- `F2A-R21`: conservação de direitos durante o período de graça (P16, nota: a aplicação do requisito de carência foi destacada; testar especificamente direito durante a graça também em revisão F2-C se necessário).
+- `F2A-R21`: conservação de direitos durante o período de graça (P27, teste direto de preservação de direitos durante a graça).
 
 Esses seis pontos tinham sido omitidos dos **20 casos anteriores**, e a presente rodada os alcança com hipóteses específicas. **Isso não significa exaustão jurídica de todas as 33 regras ou de todas as exceções.**
 
@@ -112,11 +112,11 @@ Esses seis pontos tinham sido omitidos dos **20 casos anteriores**, e a presente
 
 ## 9. FEITO/PENDENTE/PRÓXIMO
 
-**FEITO:** modelo de **23 transições condicionais** e **26 testes analisados**; acrescida jurisprudência STJ do recolhimento post mortem, verificado **Tema1360 com acórdão, julgamento em março e trânsito em maio de 2026**, corrigindo notícia de julho antes usada como principal fonte; identificada inconsistência do art27-A após ADIs2110/2111, proteção ao direito adquirido e necessidade de qualificação das fontes contributivas.
+**FEITO:** modelo de **23 transições condicionais** e **27 testes analisados**; acrescida jurisprudência STJ do recolhimento post mortem, verificado **Tema1360 com acórdão, julgamento em março e trânsito em maio de 2026**, corrigindo notícia de julho antes usada como principal fonte; identificada inconsistência do art27-A após ADIs2110/2111, proteção ao direito adquirido e necessidade de qualificação das fontes contributivas.
 
 **PENDENTE:** confirmação artigo-local de todas as versões históricas de períodos de graça, pagamento extemporâneo e novas filiações; definição de aplicação prática da carência no art27-A pós ADIs; Tema1271 STF sobre guarda/EC103; PSA e IN RFB2110/2026; captação completa dos fatos de segurado especial, contagem de competências e critérios de prova; compatibilidade do modelo com CF alternativa; revisão jurídico-adversarial independente, verificação CI no HEAD e governança de integração.
 
-**PRÓXIMO — F2-C:** modelo único de **pessoas, vínculos, históricos e dependentes** com fronteiras formais entre F2 material e M02/M05; construir matriz de concordância `regra origens → conceito → exceção → titular`; executar contraprovas de **carência após perda**, filiação facultativa de 14/16, reconciliação da condição de segurado especial e dependência em óbitos múltiplos. **Antes de proposta C1/M**, consultar governança DEC016, texto CF alternativa atual e testar não regressão dos 46 cenários acumulados F2-A/F2-B. **F3 comparado e F4 alternativas somente depois da F2.**
+**PRÓXIMO — F2-C:** modelo único de **pessoas, vínculos, históricos e dependentes** com fronteiras formais entre F2 material e M02/M05; construir matriz de concordância `regra origens → conceito → exceção → titular`; executar contraprovas de **carência após perda**, filiação facultativa de 14/16, reconciliação da condição de segurado especial e dependência em óbitos múltiplos. **Antes de proposta C1/M**, consultar governança DEC016, texto CF alternativa atual e testar não regressão dos 47 cenários acumulados F2-A/F2-B. **F3 comparado e F4 alternativas somente depois da F2.**
 
 **Critério:** nenhuma simplificação que transforme inscrição em filiação obrigatória, contribuição em carência universal, perda de qualidade em caducidade absoluta, a data da Lei15108 em origem exclusiva de proteção ao menor sob guarda, ou a prova de desemprego em registro administrativo exclusivo.
 

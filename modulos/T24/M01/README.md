@@ -86,6 +86,17 @@ Ver [NOTA_01_DIAGNOSTICO_E_OPCOES.md](NOTA_01_DIAGNOSTICO_E_OPCOES.md). Questõe
 **Tarefa:** F1-A, auditoria literal e histórica dos **arts. 1º–20 e 42–69 do CPC**, dispositivo por dispositivo (inclusive redação atual, leis alteradoras, versões e notas intertemporais); subdividir se necessário.  
 **Aceite:** inventário por unidade normativa com `id_fonte`, texto temporal, alteração e prova; tabela preliminar de titularidade (T24.M01 versus T01/T23/T24.M02); nenhuma falsa equivalência C0/C1. Depois iniciar os arts. 70–138 e as interfaces com microssistemas.
 
-## 6. Histórico
+## 6. Rodada 02 — F1-A documental (14/10/2026)
+
+A auditoria ampliou o escopo efetivamente lido para **48 artigos** (1º–20 e 42–69), discriminou **98 subunidades** e localizou **quatro alterações legais explícitas em três artigos**: art. 12 caput (Lei 13.256/2016), art. 53 I d (Lei 13.894/2019), art. 63 §§1º e 5º (Lei 14.879/2024). Também foram identificados efeitos interpretativos relevantes de decisões do STF (arts. 46, §5º; 52, parágrafo único; 53) e do STJ (intertemporalidade do art. 63). **Trata-se de cotejo manual e classificação funcional, não de correspondência literal C0.**
+
+- [Matriz por artigo (48)](F1A_MATRIZ_48_ARTIGOS.csv)
+- [Matriz de subunidades (98)](F1A_SUBUNIDADES_01-20_42-69.csv)
+- [Relatório com versões, jurisprudência e ressalvas](RELATORIO_F1A_COTEJO_E_EFEITOS.md)
+- [Pacote FEITO/PENDENTE/PRÓXIMO da rodada 02](PACOTE_CONTINUIDADE_RODADA_02.md)
+
+**Próxima rodada prioritária:** F1-B CPC arts. 70–81 e 98–102 (sujeitos, representação e gratuidade). A tarefa F1-A anterior foi **parcialmente cumprida no plano documental**, mas o cotejo literal automatizado/histórico e os inteiros teores dos acórdãos permanecem pendentes. O módulo não atingiu status global `INVENTARIADO`.
+
+## 7. Histórico
 
 - **v0.1 — 14/10/2026:** F0 e inventário seletivo F1, com primeira triagem normativa e de precedentes; nenhuma proposta de reforma confirmada.

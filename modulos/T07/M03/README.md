@@ -90,3 +90,8 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [Matriz de 18 cenários](MATRIZ_AUDITORIA_BLOCOS_CICLO21.csv): riscos verificáveis de ampliação do âmbito, falsa equiparação de emissão/recebimento à ciência, perda de opt-in/opt-out e de garantias de intimação, todas classificadas Q.
 - [Pacote de continuidade 21](CONTINUIDADE_21.md) com FEITO/PENDENTE/PRÓXIMO.
 **Limite:** não houve certificação C0-J das 215 unidades, nem aprovação de redação final, promulgação ou revogação. Próximo: casos jurisprudenciais reais de intimação digital e concordância funcional das subunidades prioritárias.
+
+## Ciclo 22 — precedentes sobre ciência administrativa (14/10/2026)
+- [Parecer jurisprudencial 22](PARECER_22_JURISPRUDENCIA_CIENCIA_DIGITAL.md) e [matriz de quatro casos](JURISPRUDENCIA_CICLO22_04_CASOS.csv): STJ MS 24.567/DF (inteiro teor, cadastro e peticionamento SEI), MS 27.227/DF (notícia oficial, edital indevido), AREsp 3.090.241 (conclusão probatória TRF3 sobre fax/e-mail não revista pelo STJ por Súmula 7) e TRF3 AC 5015411-30.2019.4.03.6105 (controle de intimação pessoal e temporalidade).
+- [Pacote de continuidade 22](CONTINUIDADE_22.md) — FEITO/PENDENTE/PRÓXIMO e limites.
+**Estado:** quatro casos qualitativos, sem generalização de tese vinculante nem certificação das 215 unidades C0-J. Próximo: cotejo das unidades 26–28/41 da Lei 9.784 e Lei 14.129 arts. 42–43 com atos reais e regimes especiais.

@@ -112,3 +112,6 @@ Complemento à F1-A de 48 artigos e 98 subunidades (arquivos próprios; não som
 - [Pacote de continuidade da rodada 03](PACOTE_CONTINUIDADE_RODADA_03.md).
 
 **Limite:** F1-B artigo/seletivo, não C0-J; nenhuma reforma aprovada. **Próximo:** inventário literal integral por subunidade dos 17 artigos, cotejo DOU e precedentes; T24.M01, issue #37 e PR #38 (draft).
+
+## F1-C — Três mudanças literalmente confrontadas (14/10/2026)
+O [cotejo textual focal](F1C_PROVA_LITERAL_03_ALTERACOES.md) registra texto original versus edição atualizada dos **arts. 75, III e §5º, e 77, VII**, distinguindo alteração de 2022 e acréscimos 2021/2022. O catálogo coordenado [F1B 106 unidades](F1B_MATRIZ_SUBUNIDADES_70-81_98-102.csv) ainda é índice descritivo, não transcrição de 106 unidades. Direito vigente art. 99 §§2º–3º e Tema 1178 STJ permanecem salvaguardas. **Próximo:** cotejo 1:1 integral das outras subunidades com cadeia autêntica e jurisprudência.

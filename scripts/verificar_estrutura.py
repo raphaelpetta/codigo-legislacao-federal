@@ -292,6 +292,53 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if rec["arquitetura"] not in {"A", "B", "C", "D"}:
                 fail(f"{path.relative_to(ROOT)}:{idx}: arquitetura desconhecida")
+    elif name.startswith("AUDITORIA_LITERAL_DISPOSITIVOS_12"):
+        recs = read_csv(path, {
+            "id_auditoria", "ato_fonte", "dispositivo_fonte", "texto_fonte",
+            "texto_espelho_experimental", "destino_provisorio",
+            "comparacao_textual", "classe_juridica", "status_ato_futuro",
+            "fonte_primaria",
+        })
+        unique(recs, "id_auditoria", str(path.relative_to(ROOT)))
+        expected = {f"L12-{i:03d}" for i in range(1, 25)}
+        if {r["id_auditoria"] for r in recs} != expected:
+            fail(f"{path.relative_to(ROOT)}: amostra literal incompleta")
+        for idx, rec in enumerate(recs, 2):
+            if rec["comparacao_textual"] != "LITERAL":
+                fail(f"{path.relative_to(ROOT)}:{idx}: tipo de comparação incorreto")
+            if rec["texto_fonte"] != rec["texto_espelho_experimental"]:
+                fail(f"{path.relative_to(ROOT)}:{idx}: espelho não é literalmente idêntico")
+            if rec["classe_juridica"] != "Q":
+                fail(f"{path.relative_to(ROOT)}:{idx}: igualdade literal não certifica equivalência jurídica")
+            if rec["status_ato_futuro"] != "NAO_PROMULGADO":
+                fail(f"{path.relative_to(ROOT)}:{idx}: pesquisa alegou promulgação de norma")
+            if not rec["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte primária precisa HTTPS")
+    elif name.startswith("EVENTOS_ANEXOS_VETOS_12"):
+        recs = read_csv(path, {
+            "id_evento", "caso", "evento", "ato_afetado",
+            "data_evento", "status_em_2026_10_13", "tipo_de_documento",
+            "natureza_probatória", "efeito_constatado", "fonte_oficial",
+        })
+        unique(recs, "id_evento", str(path.relative_to(ROOT)))
+        if {r["id_evento"] for r in recs} != {f"EV12-{i:03d}" for i in range(1, 12)}:
+            fail(f"{path.relative_to(ROOT)}: amostra de eventos incompleta")
+        for idx, rec in enumerate(recs, 2):
+            if rec["caso"] not in {"AN01", "AN02", "AN03"} or rec["natureza_probatória"] != "ATO_OFICIAL":
+                fail(f"{path.relative_to(ROOT)}:{idx}: classificação de evento inadequada")
+            if not rec["fonte_oficial"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: URL de evento inválida")
+    elif name.startswith("TESTES_CONTEXTUAIS_12"):
+        recs = read_csv(path, {
+            "id_teste", "objeto", "hipotese", "controle",
+            "resultado", "impacto", "status", "fonte_principal",
+        })
+        unique(recs, "id_teste", str(path.relative_to(ROOT)))
+        if {r["id_teste"] for r in recs} != {f"CTX12-{i:03d}" for i in range(1, 19)}:
+            fail(f"{path.relative_to(ROOT)}: testes contextuais incompletos")
+        for idx, rec in enumerate(recs, 2):
+            if rec["status"] != "SIMULACAO_NAO_PROMULGADA":
+                fail(f"{path.relative_to(ROOT)}:{idx}: teste com efeito jurídico afirmado indevidamente")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

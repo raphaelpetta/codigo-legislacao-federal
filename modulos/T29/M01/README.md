@@ -166,7 +166,20 @@ Nenhuma regra CLF foi redigida, nenhuma reforma M foi ratificada, nenhum outro m
 
 **Estado:** pesquisa documental por núcleo F1-F concluída em escopo; **F1 do T29 ainda não integral**, C0/C1/M não aprovados, PR draft sem merge.
 
-## 14. Histórico
+## 14. Rodada 08 — F2-A: modelo funcional do direito vigente (14/10/2026)
+
+A pesquisa deixou de acumular novos índices históricos para construir **modelo jurídico do RGPS em 33 regras funcionais** — filiação obrigatória/facultativa, qualidade, segurado especial, dependentes e interfaces — e **executar 20 testes analíticos**, com respostas condicionadas às fontes e Q explícitas.
+
+- [F2A_MATRIZ_MODELO_VIGENTE.csv](F2A_MATRIZ_MODELO_VIGENTE.csv) — 33 regras com fundamento, pressuposto, consequência, módulo e grau de verificação;
+- [F2A_TESTES_20_CASOS.csv](F2A_TESTES_20_CASOS.csv) — 20 testes realizados de casos hipotéticos de ingresso, qualidade, segurado especial, dependência e inscrição;
+- [RELATORIO_F2A_MODELO_VIGENTE_E_20_TESTES.md](RELATORIO_F2A_MODELO_VIGENTE_E_20_TESTES.md) — fluxo decisório e crítica de não regressão;
+- [PACOTE_CONTINUIDADE_RODADA_08.md](PACOTE_CONTINUIDADE_RODADA_08.md) — FEITO/PENDENTE/PRÓXIMO.
+
+**Achados de F2:** (i) **filiação obrigatória** pelo exercício de atividade não equivale a inscrição ou pagamento feito pelo responsável; facultativo segue ato de vontade, inscrição e primeiro recolhimento; (ii) período de graça art15 inclui prorrogações e **STJ Tema1360/2026** permite prova idônea de desemprego diversa do registro no Ministério, mas falta isolada de CTPS/CNIS não basta; (iii) **Lei8213 art102 §§1/2 e STJ Súmula416** impedem regra absoluta de perda de pensão por morte quando todos requisitos de aposentadoria estavam preenchidos; (iv) dependentes e segurado especial têm exceções que a codificação não pode apagar.
+
+**Q preservadas:** facultativo de 14–15 anos, assimetria PSA entre Leis8212/8213, STF Tema1271 guarda pós-EC103, limites probatórios/carência de salário-maternidade após ADIs2110/2111. **Nenhum C0/C1/M ou texto CLF aprovado.** **Próximo F2-B:** tempo, sucessão de vínculos, recuperação de qualidade e compatibilidade do conceito único com M02/M05, sem editar módulos vizinhos.
+
+## 15. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

@@ -1,0 +1,35 @@
+id_relacao,artigo_origem,artigo_referenciado,fundamento_do_nexo,classe,risco,status,fonte
+NEX17-001,29,36,Iniciativa instrutória e ônus de alegação,SISTEMICO,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-002,29,37,Instrução de ofício e documentos administrativos,SISTEMICO,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-003,30,38,Ilicitude e indeferimento motivado da prova,SISTEMICO,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-004,31,9,Participante de consulta não se torna automaticamente interessado,EXCECAO,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-005,31,32,Consulta pública e audiência pública distintas,ESPECIALIDADE,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-006,31,34,Resultado e resposta da consulta,DIREITOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-007,32,34,Documentação de resultados da audiência,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-008,33,34,Outros meios de participação e seu registro,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-009,35,49-A,Reunião para instrução e decisão coordenada não sinônimas,ESPECIALIDADE,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-010,36,37,Remissão textual expressa: obtenção de documentos pelo órgão,REMISSAO_LITERAL,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-011,36,38,Prova do fato e efetivo direito de requerê-la,DIREITOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-012,37,6,Administração não pode recusar documentos imotivadamente,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-013,38,2,Garantia de provas no processo sancionador,DIREITOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-014,38,50,Dever de motivação no indeferimento de prova,REMISSAO_SISTEMICA,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-015,38,STJ1747877,REsp1.747.877/GO prova em processo administrativo sancionador,JURISPRUDENCIA,ALTO,PENDENTE_C0_J,https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&from=feed&livre=0008E.cod.
+NEX17-016,39,26,Intimação de apresentação de provas e ciência,REMISSAO_SISTEMICA,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-017,39,40,Falta de resposta não implica mesma consequência para todos pedidos,EXCECAO,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-018,40,27,Arquivamento de pedido não é confissão em processos contra administrado,DIREITOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-019,41,26,Intimação especial de prova e regra geral,ESPECIALIDADE,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-020,41,66,Antecedência de três dias úteis e prazos gerais,TEMPORAL,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-021,42,43,Parecer obrigatório e laudo técnico substitutivo são categorias diferentes,ESPECIALIDADE,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-022,42,49,Parecer vinculante que não veio impede seguimento e decisão,TEMPORAL,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-023,42,50,Razão jurídica para aceitar/dispensar parecer,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-024,43,47,Laudo e relatório de instrução final,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-025,44,2,Manifestação final e contraditório do art2,DIREITOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-026,44,48,Manifestação encerra instrução mas não substitui dever de decidir,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-027,44,49,Dez dias manifestação e trinta para decisão têm fatos geradores diferentes,TEMPORAL,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-028,45,2,Cautelar sem prévia oitiva e garantia geral de contraditório,EXCECAO,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-029,45,50,Cautelar motivada e dever de fundamentação,DIREITOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-030,46,3,Direito de vista do processo,DIREITOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-031,46,31,Consulta pública não abre indiscriminadamente dados privados,PRIVACIDADE,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-032,47,50,Relatório técnico motivado e decisão final,SISTEMICO,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-033,47,48,Órgão instrutor não é necessariamente órgão decisor,COMPETENCIA,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NEX17-034,47,49,Prazo para autoridade decidir depois da instrução,TEMPORAL,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html

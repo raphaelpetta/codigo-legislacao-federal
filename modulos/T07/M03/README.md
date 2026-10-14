@@ -135,3 +135,8 @@ A frente **T43.M04** foi efetivamente iniciada de modo independente na [issue #4
 - [Matriz de 26 campos T07↔T43](MATRIZ_CICLO29_BILATERAL_T07_T43_26.csv), [dossiê jurídico do ciclo 29](DOSSIE_29_RECONCILIACAO_T07_T43.md) e [continuidade 29](CONTINUIDADE_29.md): **14** funções de dever positivo operacionalizado por campo ainda proposto, **8** campos técnicos novos M potencial e **4** efeitos de ciência/prazo não determináveis por log.
 - [T43.M04 PR #43](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/43) comprovou extração de 76 unidades Lei 14.129 (arts. 1º–9º/42–43), mas nenhum efeito de ciência foi homologado; a resposta técnica consta no próprio módulo T43.
 **Próximo:** testar em procedimentos DTE/SEI/INSS reais, redline X2/X6 e decisão conjunta sobre R1/R2/DEC-016. Toda a matriz anterior de 215 unidades T07 segue Q jurídica.
+
+## Ciclo 30 — caso DTE e LC 227/2026 (14/10/2026)
+- [Dossiê de casos STJ, CARF e auditoria TCU, com análise da LC 227/2026](DOSSIE_30_CASOS_PAF_LC227_INTERTEMPORALIDADE.md), [11 eventos datados ou com lacuna expressa](MATRIZ_CICLO30_CASOS_ATOS_PRAZOS_2026.csv) e [continuidade 30](CONTINUIDADE_30.md).
+- Decreto70.235 arts5/5-A/5-B,10,15,33 modificados em 2026; **ciência do art23 não é o prazo de defesa**. Receita reconhece 20 dias úteis para impugnação/recurso ordinários, regra de suspensão 20/12–20/01 e **transição ADI RFB2/2026** até 31/03/2026, prevalecendo 20 úteis ou 30 corridos conforme hipótese (o que vencer mais tarde); preservar regimes especiais.
+- TCU2002/2024 prova achado de fiscalização, não nulidade judicial individual; sem logs completos DTE/SEI/INSS. Toda C0-J Q, contrato R2 e DEC016 sem ratificação.

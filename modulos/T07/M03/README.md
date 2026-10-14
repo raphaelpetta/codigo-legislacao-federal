@@ -26,3 +26,10 @@
 - [`MATRIZ_REMISSOES_INTERDEPENDENCIAS_14.csv`](MATRIZ_REMISSOES_INTERDEPENDENCIAS_14.csv): **50 vínculos importantes**, entre remissões literais, efeitos sistemáticos e Súmula 633/STJ; amostra crítica, **não** universo final de remissões.
 
 **Limite:** F1 completo apenas em nível de posição de artigo; 21 unidades textuais originais dos arts. 1º/2º já cotejadas no ciclo 13, mas transcrição completa dos arts. 3º–70 e subunidades, equivalência jurídica C0-J e instrumento de promulgação permanecem **abertos**. `DEC-001` continua finalidade; `DEC-016` pendente.
+
+## Ciclo 15 — texto integral dos arts. 3º a 17
+
+- [`CONCORDANCIA_LITERAL_ART3_17_15.csv`](CONCORDANCIA_LITERAL_ART3_17_15.csv): **40 unidades textuais** (caputs, incisos e parágrafos), em **15 artigos**, espelhadas literalmente com classificação `C0-T` e equivalência `Q`, sem eficácia.
+- [`DOSSIE_15_COTEJO_ART3_17.md`](DOSSIE_15_COTEJO_ART3_17.md): exame da preservação dos direitos do administrado, representação facultativa por advogado e STF SV5, requisitos de pedido, legitimidade, delegação e suas três hipóteses de indelegabilidade.
+- **Acumulado textual:** 21 unidades arts. 1º–2º + 40 unidades arts. 3º–17 = **61 unidades** em **17 artigos** transcritas experimentalmente; o inventário por artigo da lei toda contém 80 posições.
+- **Limite:** não confundir 61 unidades com percentual de cobertura total, pois faltam levantar todos os parágrafos/incisos dos arts. 18–70. `C0-J` não foi confirmado, nem se aprovou cláusula revogatória.

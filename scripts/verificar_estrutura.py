@@ -124,7 +124,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if not (rec.get("url_oficial") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: URL oficial vazia ou nao HTTPS")
-    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13", "CONCORDANCIA_LITERAL_ART3_17_15", "CONCORDANCIA_LITERAL_ART18_28_16", "CONCORDANCIA_LITERAL_ART29_47_17", "CONCORDANCIA_LITERAL_ART48_50_CICLO18")):
+    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13", "CONCORDANCIA_LITERAL_ART3_17_15", "CONCORDANCIA_LITERAL_ART18_28_16", "CONCORDANCIA_LITERAL_ART29_47_17", "CONCORDANCIA_LITERAL_ART48_50_CICLO18", "CONCORDANCIA_LITERAL_ART51_70_CICLO19")):
         recs = read_csv(path, {
             "id_origem", "id_destino", "tipo_relacao", "categoria",
             "justificativa", "status_verificacao",
@@ -669,6 +669,67 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for n, r in enumerate(recs, 2):
             if r["equivalencia_juridica"] != "Q":
                 fail(f"{path.relative_to(ROOT)}:{n}: nexo tratado como equivalência provada")
+    elif name.startswith("CONCORDANCIA_LITERAL_ART51_70_CICLO19"):
+        recs = read_csv(path, {"id_unidade", "artigo", "unidade",
+                               "texto_fonte_literal", "texto_espelho_literal",
+                               "classificacao_temporal", "classe_textual",
+                               "equivalencia_juridica", "efeito_normativo",
+                               "status_codificacao", "fonte_primaria"})
+        unique(recs, "id_unidade", str(path.relative_to(ROOT)))
+        expected_ids = {str(i) for i in range(51, 71)} | {"64-A", "64-B", "69-A"}
+        actual = {r["artigo"] for r in recs}
+        if len(recs) != 53 or actual != expected_ids:
+            fail(f"{path.relative_to(ROOT)}: 53 unidades em 23 artigos finais exigidas")
+        doc = (path.parent / "PILOTO_19_RECURSOS_REVISAO_VIGENCIA.md").read_text(encoding="utf-8")
+        for idx, r in enumerate(recs, 2):
+            if r["texto_fonte_literal"] != r["texto_espelho_literal"]:
+                fail(f"{path.relative_to(ROOT)}:{idx}: espelho diverge da fonte")
+            if r["texto_espelho_literal"] not in doc:
+                fail(f"{path.relative_to(ROOT)}:{idx}: unidade não aparece no dossiê")
+            if (r["classe_textual"] != "C0-T_LITERAL" or
+                r["equivalencia_juridica"] != "Q" or
+                r["status_codificacao"] != "NAO_PROMULGADO" or
+                r["efeito_normativo"] != "NENHUM"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: equivalência ou vigência atribuída indevidamente")
+            if r["artigo"] == "70" and r["classificacao_temporal"] != "HISTORICO_VIGENCIA":
+                fail(f"{path.relative_to(ROOT)}:{idx}: art.70 não é vigência do Código")
+            if r["artigo"] == "69-A" and r["unidade"] in {"III", "P3", "P4"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: texto vetado transposto como positivo")
+            if not r["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: falta fonte oficial")
+    elif name.startswith("VETOS_HISTORICOS_ART69A_CICLO19"):
+        recs = read_csv(path, {"id_veto", "artigo", "unidade",
+                               "estado_na_lei_consultada", "fonte_da_lei",
+                               "efeito_legislativo", "classe_juridica"})
+        unique(recs, "id_veto", str(path.relative_to(ROOT)))
+        if {(r["artigo"], r["unidade"]) for r in recs} != {
+            ("69-A", "III"), ("69-A", "P3"), ("69-A", "P4")
+        } or len(recs) != 3:
+            fail(f"{path.relative_to(ROOT)}: registros de veto 69-A incompletos")
+        for idx, r in enumerate(recs, 2):
+            if (r["estado_na_lei_consultada"] != "VETADO_ORIGINARIAMENTE" or
+                r["efeito_legislativo"] != "NENHUM" or
+                r["classe_juridica"] != "HISTORICO_NAO_POSITIVO"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: veto confundido com lei vigente")
+    elif name.startswith("TESTES_ADVERSARIAIS_ART51_70_CICLO19"):
+        recs = read_csv(path, {"id_teste", "artigo", "hipotese_adversarial",
+                               "resultado_preliminar", "status", "efeito_normativo", "fonte"})
+        unique(recs, "id_teste", str(path.relative_to(ROOT)))
+        if {r["id_teste"] for r in recs} != {f"T19-{i:03d}" for i in range(1, 45)}:
+            fail(f"{path.relative_to(ROOT)}: são necessários 44 testes adversariais")
+        for idx, r in enumerate(recs, 2):
+            if r["status"] != "SIMULACAO_NAO_APROVADA" or r["efeito_normativo"] != "NENHUM":
+                fail(f"{path.relative_to(ROOT)}:{idx}: simulação com efeito indevido")
+    elif name.startswith("DEPENDENCIAS_ART51_70_CICLO19"):
+        recs = read_csv(path, {"id_nexo", "origem_artigo",
+                               "destino_artigo_ou_jurisprudencia",
+                               "razao_do_vinculo", "status_equivalencia", "fonte"})
+        unique(recs, "id_nexo", str(path.relative_to(ROOT)))
+        if {r["id_nexo"] for r in recs} != {f"NX19-{i:03d}" for i in range(1, 38)}:
+            fail(f"{path.relative_to(ROOT)}: 37 nexos necessários")
+        for idx, r in enumerate(recs, 2):
+            if r["status_equivalencia"] != "PENDENTE_C0_J":
+                fail(f"{path.relative_to(ROOT)}:{idx}: nexo indevidamente homologado")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

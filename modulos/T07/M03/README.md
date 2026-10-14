@@ -42,3 +42,13 @@
 - [`MAPA_DEPENDENCIAS_ART18_28_16.csv`](MAPA_DEPENDENCIAS_ART18_28_16.csv): **20 ligações críticas**, entre elas art.26→art.41, art.26→49-D, art.26→59, art.23→66, STJ MS 7.181 e informativo de 2024.
 - **Acumulado:** arts. 1º–28 completamente espelhados no nível de suas unidades **(21+40+33 = 94 unidades)**, sem equivalência jurídica C0-J validada. As **80 posições** do inventário integral da lei seguem cobrindo apenas o nível de artigo para os arts. 29–70.
 - **Aviso:** a fonte da Lei 9.784/1999 não foi revogada e o espelho não substitui sua redação autêntica.
+
+## Ciclo 17 — Instrução administrativa: arts. 29–47 (14/10/2026)
+
+- [`PILOTO_17_INSTRUCAO_ART29_47.md`](PILOTO_17_INSTRUCAO_ART29_47.md): texto experimental **integral** do Capítulo X (19 artigos, **28 unidades**), com análise de direito probatório, participação pública, pareceres, cautelares e sigilo.
+- [`CONCORDANCIA_LITERAL_ART29_47_17.csv`](CONCORDANCIA_LITERAL_ART29_47_17.csv): 28 espelhos literais `C0-T`, todos **Q** quanto à equivalência e **não promulgados**.
+- [`TESTES_ADVERSARIAIS_INSTRUCAO_17.csv`](TESTES_ADVERSARIAIS_INSTRUCAO_17.csv): **36 hipóteses** sobre veto, contraditório, consulta, provas, parecer vinculante e não vinculante, cautelares.
+- [`DEPENDENCIAS_INSTRUCAO_17.csv`](DEPENDENCIAS_INSTRUCAO_17.csv): **34 relações críticas**, inclusive art.26/41, art.36/37, art.38/50, art.42/49 e STJ REsp 1.747.877/GO.
+- **Acumulado textual experimental:** arts. 1º–47 = **122 unidades (21+40+33+28)**, todas em `Q` jurídico; os arts. 48–70 e intercalares continuam apenas inventariados em nível de artigo, aguardando espelho e cotejo de subunidades.
+
+Nenhum espelho modifica a legislação vigente, tampouco representa decisão sobre espécie do Código `DEC-016`.

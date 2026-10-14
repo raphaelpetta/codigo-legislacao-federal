@@ -1,0 +1,4 @@
+# T43.M04 — Continuidade F1-L, rodada 11 (14/10/2026)
+**FEITO:** [matriz de 14 gates jurídicos](MATRIZ_F1L_GATES_JURIDICOS_14_DESTINOS.csv), [relatório por quatro diplomas](RELATORIO_F1L_AVALIACAO_JURIDICA_14_DESTINOS.md), [validador](../../../scripts/validar_t43_f1l_gates.py) e workflow `validar-t43-f1l.yml`: separa 5 redações 2023 e 9 redações 2021, preserva LAI art12, LGPD/dados biométricos Lei7116 art3 §2, CPF Lei13460 art10-A e competência de exceção de cada ente/Poder no §3. **Todos Q**, proposta conservadora de manter comandos nos destinos até DEC016.
+**PENDENTE:** revisão jurídica humana, DOU, atos locais, vedação de dupla codificação e prazos históricos de 12/24 meses da Lei14534/2023, espécie/competência.
+**PRÓXIMO:** mapa 14 unidades para normas conexas LGPD/LAI/CPF com recepção constitucional válida, sem promover C0-J. PR43 draft, main base 16fba172c875c7a0de388288fe70005c944021d6.

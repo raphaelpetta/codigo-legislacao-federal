@@ -91,3 +91,13 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Continuidade 08](CONTINUIDADE_08.md): FEITO, PENDENTE, PRÓXIMO, SHAs e status.
 
 **Travas materiais:** CPM35 não oferece no texto a mesma isenção do CP21 para erro inevitável; CPM40 restringe coação nos crimes contra dever; CPM42 PU envolve força de comandante em emergência; CPM45 PU isenta excesso escusável. **Essas diferenças não podem desaparecer por renumeração**. Necessário ampliar ao CPM46 (excesso doloso) e a precedentes completos antes de qualquer escolha do modelo C ou reforma M.
+
+## Ciclo 09 — CPM arts. 46–47, acórdão integral e duas minutas experimentais (14/10/2026)
+
+- [Inventário textual de CPM arts.46–47](INVENTARIO_CPM_ART46_47_CICLO09.csv): **4 unidades** (art.46, art.47 caput e incisos I–II), texto de fonte consolidada, atualização 2023 dos incisos e ressalva de histórico ainda pendente.
+- [Julgado do STM sobre CPM art.35 × STF Tema158](JULGADO_STM_ART35_E_TEMA158_CICLO09.csv): **4 posições** (maioria, divergência absolutória, divergência de dosimetria e tese STF), após acesso à publicação integral em PDF da Revista do STM, **pp.351–397**, com inspeção visual das páginas 352, 380 e 396. O Tema158 versa sobre atenuante genérica e não julga classificação do CPM35.
+- [Minutas experimentais A/B](MINUTAS_EXPERIMENTAIS_AB_CULPABILIDADE_CICLO09.md): **9 artigos de teste por alternativa**, A núcleo compartilhado e reformas `M` declaradas; B subparte militar própria com questões `Q`; nenhuma transposição C0-J nem texto legislativo ratificado.
+- [Concordância de **16 efeitos candidatos**](CONCORDANCIA_PROPOSTAS_AB_CICLO09.csv) com diferença, risco e categoria A/B.
+- [Dossiê 09](DOSSIE_09_MINUTAS_PRECEDENTE_STM_E_HIERARQUIA.md) e [Continuidade 09](CONTINUIDADE_09.md): resultado, comprovação, pendências e próximos testes.
+
+**Questões novas `Q`:** `PROB-T25-0033` elemento hierárquico no CPM47; `0034` atenuação do excesso doloso CPM46; `0035` diferença de dosimetria do CPM35 sob CPM73/76 e STF Tema158. **Cuidado:** toda redação que modifique a resposta penal de militares é `M`, jamais simples `C1` sem prova.

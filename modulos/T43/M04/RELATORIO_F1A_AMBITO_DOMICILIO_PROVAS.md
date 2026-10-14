@@ -2,7 +2,7 @@
 **Corte:** 14/10/2026, issue #42, PR de abertura de T43.M04 (draft). Fonte única para a transcrição manual: [Lei 14.129/2021 edição consolidada Câmara](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14129-29-marco-2021-791203-normaatualizada-pl.html), arts. 2º, 42 e 43. **Ainda NÃO existe cotejo independente com DOU/publicação original nem C0-J.** Esta é a primeira base literal para a auditoria intermodular do contrato proposto por T07.M03.
 
 ## Inventário
-[CSV 16 unidades](F1A_ESP_ELHO_LITERAL_02_42_43.csv) cobre:
+[CSV 16 unidades](F1A_ESPELHO_LITERAL_02_42_43.csv) cobre:
 - **Art. 2º:** caput, incisos I–III e §§1º–2º — seis unidades, preservando poderes federais, empresas estatais prestadoras, exclusão de não prestadoras e adesão subnacional condicionada.
 - **Art. 42:** caput e §§1º–3º — quatro unidades, usuário opta e pode retirar a opção sem motivação, ressalvada disponibilidade da ferramenta; outro ente pode mantê-la.
 - **Art. 43:** caput e incisos I–V — seis unidades, requisitos de autoria, emissão **e recebimento mesmo sem leitura**, admissibilidade de meio eletrônico mesmo quando lei especial só cite pessoal/postal no campo aplicável, auditabilidade e guarda mínima de cinco anos.

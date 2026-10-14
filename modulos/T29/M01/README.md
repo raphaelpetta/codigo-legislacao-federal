@@ -234,7 +234,20 @@ Ao final da rodada surgiram duas séries F2-C no mesmo PR. A [nota de reconcilia
 
 **Próximo F3-C:** examinar inteiros teores e cumprimento das determinações TCU, obter estatísticas segregadas de retificação CNIS, motivos de negativa e tempo DER→decisão definitiva, se disponíveis. F2-D conciliatória permanece independente; a F3-B não aprovou opção A/B/C, alteração M/C1, reestruturação de INSS/Dataprev nem minuta CLF. PR draft e `main` intocada.
 
-## 19. Histórico
+## 19. Rodada 13 — F3-C: controles do TCU e microdados indeferidos (14/10/2026)
+
+A F3-C identificou a [base pública de benefícios indeferidos do INSS](https://dadosabertos.inss.gov.br/dataset/beneficios-indeferidos-plano-de-dados-abertos-jun-2023-a-jun-2025), contendo **motivo administrativo do indeferimento, espécie, forma de filiação, UF, competência e DER** até agosto/2026. **O XLSX de agosto não foi lido nesta rodada (HTTP 403 do armazenamento)**; existência de campo não permite estimar distribuição de motivos nem taxa de indeferimento ilegal. A [F3-B recebeu errata](RELATORIO_F3B_EVIDENCIAS_INSS_CNIS_TCU_CNJ_2026.md), pois a falta de motivo no BEPS não significa inexistência de fonte pública.
+
+- [F3C_MATRIZ_TCU_17_DELIBERACOES.csv](F3C_MATRIZ_TCU_17_DELIBERACOES.csv): **17 determinações e achados**, com subitem, natureza, prazo, fontes e status *não certificado* versus evidência positiva;
+- [F3C_FONTES_MICRODADOS_E_LACUNAS_09.csv](F3C_FONTES_MICRODADOS_E_LACUNAS_09.csv): **9 fontes, campos e lacunas**, separando metadados, não processamento de microdados e números ausentes;
+- [RELATORIO_F3C_TCU_INDEFERIMENTOS_MICRODADOS_2026.md](RELATORIO_F3C_TCU_INDEFERIMENTOS_MICRODADOS_2026.md): **TCU 2002/2024, 2591/2024, 634/2025, 1498/2026 e 2207/2026** e controle de implementação sem presumir conclusão; 
+- [PACOTE_CONTINUIDADE_RODADA_13.md](PACOTE_CONTINUIDADE_RODADA_13.md): FEITO/PENDENTE/PRÓXIMO.
+
+**Achados TCU relevantes:** em auditorias delimitadas, **13,20% de indeferimentos manuais** e **10,94% de automáticos** considerados indevidos, mais **28,64% de inconsistências de risco**; [Acórdão 2207/2026](https://pesquisa.apps.tcu.gov.br/doc/acordao-completo/2207/2026/Plen%C3%A1rio) manteve concessão de benefícios na Lista de Alto Risco. Os valores **não são taxa nacional de indeferimentos indevidos**. Índice de conformidade de 83,8% frente meta 90,8% em 2025, sob outro universo.
+
+**Próximo F3-D:** recuperar arquivos públicos de motivos SUIBE, sem contornar restrições de acesso, ou documentar indisponibilidade e especificar pedido agregado; obter monitoramentos específicos dos itens TCU e dicionários oficiais. Sem declarar cumprimento por vencimento de prazo, sem reforma C0/C1/M, PR draft e módulos vizinhos/main inalterados.
+
+## 20. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

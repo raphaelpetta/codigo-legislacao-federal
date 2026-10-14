@@ -40,3 +40,8 @@
 ## F1-I — proveniência dos arts. 51–54 e Lei 14.534/2023 (14/10/2026)
 - [Matriz de 14 posições de destino](MATRIZ_F1I_14_DESTINOS_LEI14129_51_54.csv) e [relatório dos quatro diplomas alterados](RELATORIO_F1I_DESTINOS_LEIS_ALTERADAS.md): 5 posições com texto reescrito pela **Lei 14.534/2023** (Lei 7.116 art.3º g e §§1º–3º; Lei 13.460 art.10-A §1º), outras 9 com proveniência Lei14.129/2021 na compilação consultada. Incluem Lei12.527 art12 e Lei12.682 art3. Não recodificar redação 2021 como vigente quando sucedida por lei 2023.
 - [Validador](../../../scripts/validar_t43_f1i_destinos.py), workflow `validar-t43-f1i.yml` e [continuidade 08](CONTINUIDADE_08.md). **C0-J Q**, intertemporalidade/DOU/DEC016 ainda não aprovados.
+
+## F1-J — cinco textos históricos 2021–2023 e implementação do CPF (14/10/2026)
+- [Cotejo literal cinco dispositivos Lei14.129→Lei14.534](F1J_COTEJO_LITERAL_5_POSICOES_2021_2023.csv), [parecer histórico e material](RELATORIO_F1J_COTEJO_5_POSICOES_2021_2023.md), [script com quatro fontes Câmara e SHA256](../../../scripts/auditar_t43_f1j_cinco.py) / [workflow](../../../.github/workflows/auditar-t43-f1j.yml), [continuidade09](CONTINUIDADE_09.md). A auditoria externa encontrou **cinco textos de 2021, cinco de 2023 e os cinco destinos atuais**, sem divergência de localização nas fontes.
+- Lei7.116 art3 g/§§1–3 e Lei13.460 art10-A §1 sofreram reescrita, com diferenças materiais de identidade/CPF, dados biométricos e alcance do dever. Lei14.534 art9 fixou **12 meses para adequação dos sistemas** e **24 meses para interoperabilidade dos cadastros**; são prazos históricos, não nova vacatio CLF.
+- Nove outras posições dos arts51–54 seguem a auditar; **não duplicar artigos alteradores**, C0-J Q, atos DOU/DEC016 pendentes.

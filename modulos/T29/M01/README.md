@@ -278,7 +278,17 @@ A pesquisa confirmou os metadados oficiais dos **benefícios indeferidos do SUIB
 
 **Próximo F4-1:** auditoria por subunidade jurídica de equivalência Lei8213 arts10–17 x Lei8212 arts12–14/30, distinguindo concordância editorial de alteração material M, sem deixar conceitos gerais impor dever de custeio ou requisito de benefício. A/B ainda hipóteses, F2-D de revisão independente pendente, não houve dados novos SUIBE/LAI e nenhuma atualização da `main`.
 
-## 23. Histórico
+## 23. Rodada 17 — F4-1: equivalência dirigida Lei 8.213 × Lei 8.212 (14/10/2026)
+
+**Cotejo jurídico dirigido, não transcrição integral certificada.** O [F41_COTEJO_32_UNIDADES_8213_8212.csv](F41_COTEJO_32_UNIDADES_8213_8212.csv) compara **32 pares e interfaces legais**: **12 candidatos a correspondência textual com C1 não certificado; 4 relações sem equivalência ou meramente intermodulares; 16 casos Q** de redação, remissão, efeitos ou vigência. Os efeitos e reservas estão analisados no [Relatório F4-1](RELATORIO_F41_EQUIVALENCIA_DIRIGIDA_8212_8213.md).
+
+**Achados materiais para a arquitetura A/B:** Lei 8.212, art. 12, §9º, VIII, registra pagamento por serviços ambientais (Lei14.119/2021), sem espelho literal no art. 11, §8º da Lei 8.213; **o efeito jurídico da assimetria continua Q**. O segurado especial tem cláusulas com redação diferente e renumeração de parágrafos; Lei15.072/2024 incluiu cooperativas e vetos nos dois diplomas. O facultativo é maior de 14 nas duas leis, maior de 16 no Decreto3048 art11, Q; custeio remete expressamente ao art21 apenas na Lei8212. A alínea h do mandatário recebeu suspensão pelo Senado em 2005, enquanto a alínea j da Lei10887/2004 é controlada por STF Tema691. Filiação e qualidade não são sinônimos de recolhimento, inscrição ou direito prestacional.
+
+[F41_PEDIDOS_VALIDACAO_INTERMODULAR_10.csv](F41_PEDIDOS_VALIDACAO_INTERMODULAR_10.csv) apresenta **dez questões** para revisão de M02/M05/M06/T01 e demais titulares. **Nenhuma manifestação foi presumida ou arquivo de outro módulo alterado**. [Pacote de continuidade da rodada 17](PACOTE_CONTINUIDADE_RODADA_17.md).
+
+**Próximo F4-2:** transcrever e cotejar, por fontes oficiais e versões temporais, **seis pares promissores** (empregado alíneas I a/b, doméstico II, economia familiar §1, atividades concomitantes §2, dirigente sindical §4/§5), até permitir avaliação **literal** separada da material. Nenhum C0/C1/M ratificado, nenhuma arquitetura A/B escolhida; PR draft e `main` intacta.
+
+## 24. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

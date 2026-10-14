@@ -1,0 +1,5 @@
+# T24.M01 — Continuidade F1-D14, rodada 20 (14/10/2026)
+**FEITO:** [Dossiê de ocorrências versus pares](RELATORIO_F1D14_OCORRENCIAS_VERSUS_PARES.md), [script de extração](../../../scripts/inventariar_f1d14_ocorrencias.py), [CI #38586997870 aprovada](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38586997870), [CSV/JSON das 19 ocorrências](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38586997870/artifacts/11906301984). **19 trechos lexicais em 36 unidades, comparados a 45 pares mapeados**; §11 contém dois grupos explícitos `§§2–6` e `§§2,3`; §20 uma lista lexical com dez parágrafos. Não confundir citação, repetição e destino.
+**PENDENTE:** cobrir referências anafóricas, cotejo humano/DOU, art77 externo, número CLF/DEC016, STF1255; tudo C0-J Q.
+**PRÓXIMO:** inventário de ocorrências completo semântico por revisão humana, modelo ocorrência→vários destinos, sem recontar incorretamente as repetições.
+**COORDENAÇÃO:** PR38 draft, T01 DEC016, `main` inalterada.

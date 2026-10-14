@@ -1,0 +1,26 @@
+name: T43 — cotejo 2021 2023 cinco alteracoes
+on:
+  pull_request:
+    paths:
+      - 'modulos/T43/M04/F1J_COTEJO_LITERAL_5_POSICOES_2021_2023.csv'
+      - 'scripts/auditar_t43_f1j_cinco.py'
+      - '.github/workflows/auditar-t43-f1j.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cotejo_cinco:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install beautifulsoup4
+      - run: python scripts/auditar_t43_f1j_cinco.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t43-f1j-cotejo-cinco-posicoes
+          path: /tmp/t43-f1j-cotejo5.json
+          if-no-files-found: warn

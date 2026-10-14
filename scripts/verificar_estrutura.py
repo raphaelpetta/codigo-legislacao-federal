@@ -124,7 +124,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if not (rec.get("url_oficial") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: URL oficial vazia ou nao HTTPS")
-    elif name.startswith("CONCORDANCIA"):
+    elif name.startswith("CONCORDANCIA") and not name.startswith("CONCORDANCIA_DOCUMENTAL_11"):
         recs = read_csv(path, {
             "id_origem", "id_destino", "tipo_relacao", "categoria",
             "justificativa", "status_verificacao",

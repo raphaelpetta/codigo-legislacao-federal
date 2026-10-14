@@ -1,0 +1,16 @@
+id;fonte;artigos;tema;origem_oficial;estado;questao;interface;destino
+T24M01-01;Lei 13105/2015;arts 1-15;normas fundamentais e subsidiariedade;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-01;T01/T07/T25;T24.M01_PROVISORIO
+T24M01-02;Lei 13105/2015;arts 16-20;jurisdicao e acao;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-01;CF/T23;T24.M01_PROVISORIO
+T24M01-03;Lei 13105/2015;arts 21-25;jurisdicao internacional;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-02;T23/T48;T24.M01_PROVISORIO
+T24M01-04;Lei 13105/2015;arts 26-41;cooperacao internacional;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-02;T23/T48;T24.M01_PROVISORIO
+T24M01-05;Lei 13105/2015;arts 42-66;competencia interna;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-02;CF/T24;T24.M01_PROVISORIO
+T24M01-06;Lei 13105/2015;arts 67-69;cooperacao judiciaria nacional;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-02;CF/T24;T24.M01_PROVISORIO
+T24M01-07;Lei 13105/2015;arts 70-76;capacidade e representacao;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-03;T13/T32;T24.M01_PROVISORIO
+T24M01-08;Lei 13105/2015;arts 77-81;deveres e sancoes processuais;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-06;CF/T24;T24.M01_PROVISORIO
+T24M01-09;Lei 13105/2015;arts 82-97;despesas e honorarios;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-04;T01/T24;T24.M01_PROVISORIO
+T24M01-10;Lei 13105/2015;arts 98-102;gratuidade;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-04;CF/T32;T24.M01_PROVISORIO
+T24M01-11;Lei 13105/2015;arts 103-112;procuradores e sucessao;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-03;T13/CF;T24.M01_PROVISORIO
+T24M01-12;Lei 13105/2015;arts 113-138;litisconsorcio e intervencoes;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-05;T13/T24;T24.M01_PROVISORIO
+T24M01-13;Lei 13105/2015;arts 139-148;magistrados e imparcialidade;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-06;CF/T24;T24.M01_PROVISORIO
+T24M01-14;Lei 13105/2015;arts 149-175;auxiliares da justica;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-07;CF/T24;T24.M01_PROVISORIO
+T24M01-15;Lei 13105/2015;arts 176-187;MP advocacia publica defensoria;https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html;F1_SELETIVO_Q;Q24-07;CF/T24;T24.M01_PROVISORIO

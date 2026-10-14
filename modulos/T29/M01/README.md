@@ -222,7 +222,19 @@ Ao final da rodada surgiram duas séries F2-C no mesmo PR. A [nota de reconcilia
 
 [Agenda brasileira de dez indicadores](F3A_AGENDA_EVIDENCIA_BRASIL_10_INDICADORES.csv) identifica BEPS 2026, Transparência INSS, painéis RGPS e TCU/CNIS, **sem fingir coleta de números nem eficácia empírica comprovada**. [Continuidade rodada 11](PACOTE_CONTINUIDADE_RODADA_11.md). **Próximo F3-B:** levantar dados de implementação, cadastro, prova e litígio com denominadores e fontes auditáveis; a F2-D de conciliação anterior segue responsabilidade distinta. Nenhum arquivo de outros módulos ou `main` alterado; PR draft.
 
-## 18. Histórico
+## 18. Rodada 12 — F3-B, diagnóstico brasileiro de implementação (14/10/2026)
+
+**Fontes administrativas e de fiscalização efetivamente lidas:** [BEPS agosto/2026](https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/Dados-estatisticos-previdencia-social-e-inss/boletins-da-previdencia-social/2026/beps082026_final.pdf), **quadros 1/24/25 conferidos visualmente**, notícias institucionais dos Acórdãos TCU **2.002/2024**, **2.591/2024** e **1.498/2026**, pesquisa histórica CNJ/Insper e dados CNJ PrevJud 2026. Métricas segregadas: **844.389 concessões** e **882.589 indeferimentos** mensais, **1.251.813 pedidos pendentes** (873.976 em INSS/perícia; 377.837 em exigência documental) e **33 dias de tempo médio de concessão** em agosto. **Tempos de concessão contam DER ou DRD até DDB**; não são tempo completo de todos os pedidos. Concessões e negativas no mês não são mesma coorte de requerimentos. Dados incluem previdenciários, assistenciais e especiais quando indicado no boletim.
+
+- [F3B_BASE_INDICADORES_E_LIMITES_27.csv](F3B_BASE_INDICADORES_E_LIMITES_27.csv): **27 observações quantitativas, achados de auditoria e lacunas**, cada uma com período, universo, denominador ou ausência de dado, fonte e limitação;
+- [RELATORIO_F3B_EVIDENCIAS_INSS_CNIS_TCU_CNJ_2026.md](RELATORIO_F3B_EVIDENCIAS_INSS_CNIS_TCU_CNJ_2026.md): diagnóstico dos problemas comprovados de CNIS, automação, prova, motivação, melhor direito e dez hipóteses para avaliação futura, sem atribuir ganho causal à escolha do CLF;
+- [PACOTE_CONTINUIDADE_RODADA_12.md](PACOTE_CONTINUIDADE_RODADA_12.md): FEITO/PENDENTE/PRÓXIMO.
+
+**Risco decisivo:** TCU encontrou desconsideração de pendências do CNIS em **70% dos casos de seu recorte auditado de 2024**, e em **2026** destacou problema de concessões automáticas que não permitiam ao beneficiário corrigir dados e elevar o valor do direito. **Nenhum desses índices é taxa de erro nacional de benefícios em 2026**, e meta de 50% de automação não equivale a cumprimento da meta.
+
+**Próximo F3-C:** examinar inteiros teores e cumprimento das determinações TCU, obter estatísticas segregadas de retificação CNIS, motivos de negativa e tempo DER→decisão definitiva, se disponíveis. F2-D conciliatória permanece independente; a F3-B não aprovou opção A/B/C, alteração M/C1, reestruturação de INSS/Dataprev nem minuta CLF. PR draft e `main` intocada.
+
+## 19. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

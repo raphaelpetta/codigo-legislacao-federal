@@ -72,3 +72,12 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Continuidade ciclo 06](CONTINUIDADE_06.md): FEITO, PENDENTE, PRÓXIMO, SHAs, CI e interfaces.
 
 **Nova trava:** o **CPM art.30, parágrafo único**, admite pena de crime consumado na tentativa excepcionalmente grave, diferentemente da regra geral do CP art.14 PU; suprimir ou preservar essa diferença é escolha de consequência material que não pode ser decidida editorialmente.
+
+## Ciclo 07 — auditoria do Código Penal Militar, arts. 1º–40 (14/10/2026)
+
+- [Inventário descritivo dos 40 artigos e **96 posições** do CPM](INVENTARIO_CPM_ART1_40_CICLO07.csv), com fontes oficiais, unidades, notas de alterações 2017/2023, revogação do art.21 e veto no art.9 §3º. **Não é espelho literal ou concordância C0-J.**
+- [Matriz de **7 referências** STF/STM/STJ](JURISPRUDENCIA_CPM_ART1_40_CICLO07.csv): resultado e identificação de cada referência, tipo de fonte, limites de acesso e questões ainda não resolvidas.
+- [Dossiê 07: diferenças de culpabilidade, erro, obediência, tentativa e jurisdição](DOSSIE_07_CPM_ART1_40_CRITICA_E_PRECEDENTES.md): problemas `PROB-T25-0020–0026`, **14 testes** e avaliação A/B/C sem ratificação.
+- [Pacote de continuidade 07](CONTINUIDADE_07.md): versão, FEITO, PENDENTE, PRÓXIMO, interfaces e estado de CI.
+
+**Porta crítica:** CPM arts. 35 e 40 não são equivalentes ao CP arts. 21–22; a mera unificação editorial pode alterar causas de inculpabilidade e consequências penais. Próximo subciclo CPM arts.41–45 e matriz conjunta do estado de necessidade/obediência/erro, com exame constitucional e jurisprudencial. NENHUMA reforma material aprovada.

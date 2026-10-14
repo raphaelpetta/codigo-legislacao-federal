@@ -52,3 +52,14 @@
 - **Acumulado textual experimental:** arts. 1º–47 = **122 unidades (21+40+33+28)**, todas em `Q` jurídico; os arts. 48–70 e intercalares continuam apenas inventariados em nível de artigo, aguardando espelho e cotejo de subunidades.
 
 Nenhum espelho modifica a legislação vigente, tampouco representa decisão sobre espécie do Código `DEC-016`.
+
+## Ciclo 18 — Dever de decidir, decisão coordenada e motivação (14/10/2026)
+
+- [`PILOTO_18_DECISAO_COORDENADA_MOTIVACAO.md`](PILOTO_18_DECISAO_COORDENADA_MOTIVACAO.md): espelho e análise dos arts. 48–50 com as intercalares 49-A–49-G, preservando o veto integral de 49-C.
+- [`CONCORDANCIA_LITERAL_ART48_50_CICLO18.csv`](CONCORDANCIA_LITERAL_ART48_50_CICLO18.csv): **40 unidades positivas** distribuídas por nove posições de artigo, correspondência textual C0-T e equivalência jurídica `Q`, sem promulgação.
+- [`REGISTRO_VETOS_LEI14210_CICLO18.csv`](REGISTRO_VETOS_LEI14210_CICLO18.csv): **seis unidades históricas vetadas**, nenhuma convertida em texto positivo.
+- [`TESTES_ADVERSARIAIS_DECISAO_18.csv`](TESTES_ADVERSARIAIS_DECISAO_18.csv): **36 testes** de dever decisório, veto, exceções, motivação e responsabilidades.
+- [`DEPENDENCIAS_DECISAO_18.csv`](DEPENDENCIAS_DECISAO_18.csv): **30 vínculos**, incluindo art. 49-A com competências originárias, arts. 49-B/49-D e Súmula 674/STJ.
+- **Acumulado experimental:** **162 unidades textuais** espelhadas (21+40+33+28+40); equivalência jurídica e mecanismo de Código uno (`DEC-016`) ainda pendentes.
+
+Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Próxima etapa: arts. 51–70, 64-A/64-B e 69-A, seguida de auditoria jurídica integral.

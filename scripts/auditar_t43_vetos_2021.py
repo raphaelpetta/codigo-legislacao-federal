@@ -23,6 +23,9 @@ SCRIPT=ROOT/"scripts/extrair_t43_restante_fino.py"
 spec=importlib.util.spec_from_file_location("f1f",SCRIPT)
 f1f=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(f1f)
+SPEC_76=importlib.util.spec_from_file_location("f1c",ROOT/"scripts/extrair_t43_76.py")
+f1c=importlib.util.module_from_spec(SPEC_76)
+SPEC_76.loader.exec_module(f1c)
 DIRECTORY=ROOT/"modulos/T43/M04"
 URL_ORIGINAL="https://www2.camara.leg.br/legin/fed/lei/2021/lei-14129-29-marco-2021-791203-publicacaooriginal-162567-pl.html"
 URL_VETOS="https://www2.camara.leg.br/legin/fed/lei/2021/lei-14129-29-marco-2021-791203-norma-pl.html"
@@ -52,6 +55,13 @@ def main():
     lines,nmeta=f1f.source()
     old=f1f.parse(oldlines)
     current=f1f.parse(lines)
+    # O F1-F, por definição, não varre os arts. 1–9. A história dos
+    # vetos desses dispositivos exige o parser específico F1-C.
+    old_early=f1c.extract(oldlines)
+    now_early=f1c.extract(lines)
+    for key in [(4,"I"),(7,"P1-V")]:
+        old[key]=old_early.get(key,"")
+        current[key]=now_early.get(key,"")
     expected_rejected={(32,"C"),(35,"C")}
     expected_maintained={(4,"I"),(7,"P1-V"),(28,"P5"),(29,"P1-VII"),(29,"P3"),(32,"PU"),(46,"C")}
     keyset=set()

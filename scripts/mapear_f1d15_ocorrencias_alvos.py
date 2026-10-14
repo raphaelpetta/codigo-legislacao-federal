@@ -26,7 +26,7 @@ def fragment_targets(unit,frag,edges):
         return {x for x in eligible if any(f"ART-{int(n):04}" in x for n in nums)}
     if fs.startswith("§"):
         parts=re.findall(r"\d+(?:º)?(?:-[A-Z])?",fs)
-        values=[re.sub(r"º","",p) for p in parts]
+        values=[re.sub(r"-(?=[A-Z])","",re.sub(r"º","",p)) for p in parts]
         if " a " in fs and len(values)>=2:
             try:
                 x,y=int(values[0]),int(values[-1])

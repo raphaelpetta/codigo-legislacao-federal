@@ -6,7 +6,7 @@
 
 **CI [execução #38561552561](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38561552561) aprovada**, [artefato CSV/JSON e SHA-256 da fonte](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38561552561/artifacts/11893440118):
 - **44 artigos e 183 subunidades** extraídas e identificadas por ID de fonte;
-- **4 vetos ainda sem conteúdo normativo nesse recorte**: CPC? **não** — Lei14.129 art. 28 §5º, art. 29 §1º VII e §3º, e art. 46 inteiro;
+- **4 vetos ainda sem conteúdo normativo nesse recorte**: Lei 14.129/2021 art. 28 §5º, art. 29 §1º VII e §3º, e art. 46 inteiro;
 - o **art. 32 NÃO é veto mantido**. Foi inicialmente vetado, mas o veto foi rejeitado pelo Congresso; a anotação oficial da Câmara informa a publicação no **DOU de 11/06/2021**. Seu texto dispõe que inconsistências na base de dados não impedem atender solicitação de abertura. **Sua vigência atual está registrada e não se poderá descartar o artigo com base no histórico inicial de veto**;
 - nos arts. 24 e 28 foram conferidos marcos de alíneas do art. 24 I a/b e dos incisos do art. 28 §1º I a XV; há ainda incisos e parágrafos do art. 29 que impõem condições específicas de publicidade e proteção dos dados.
 

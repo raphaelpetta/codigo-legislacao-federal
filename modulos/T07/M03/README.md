@@ -156,3 +156,8 @@ A frente **T43.M04** foi efetivamente iniciada de modo independente na [issue #4
 ## Ciclo 34 — MS 27.227 versus Tema 1.329/STJ (14/10/2026)
 - [Dossiê de precedentes e resultados distintos](DOSSIE_CICLO34_MS27227_TEMA1329.md), [12 hipóteses adversariais](MATRIZ_CICLO34_CONTRASTE_EDITAL_STJ.csv), [validador](../../../scripts/validar_t07_ciclo34_editais.py) e [continuidade 34](CONTINUIDADE_34.md).
 - **MS 27.227/DF:** edital inválido em revisão de anistia após notificação postal insuficiente a interessado de endereço conhecido. **Tema 1.329/STJ:** nulidade do edital de alegações finais em processo ambiental, sob art.122 original do Decreto6.514/2008, exige prejuízo efetivo. A regra ambiental mudou em 2019 e 2023. Sem generalização de nulidade/validade entre regimes; interface T43 e C0-J continuam Q, `DEC-016` pendente.
+
+## Ciclo 35 — seis regimes de intimação ambiental e alteração indireta de 2024 (14/10/2026)
+- [Matriz de seis janelas do Decreto 6.514, art. 122](MATRIZ_CICLO35_SEIS_PERIODOS_AMBIENTAL_2008_2026.csv), [dossiê de redações 2008/2019/2022/2023/2024](DOSSIE_CICLO35_CRONOLOGIA_ART122_AMBIENTAL.md), [validador de fronteiras](../../../scripts/validar_t07_ciclo35_ambiental.py) e [continuidade35](CONTINUIDADE_35.md).
+- Marcos de vigência: 23/07/2008, 11/12/2008 (**parágrafo único criado**), 08/10/2019 (**vacatio 180 dias** do Decreto9760), 24/05/2022, 02/01/2023 (publicação Decreto11373) e **20/09/2024** (**Decreto12189 mudou art96 §4, referido pelo art122**). Tema1329/STJ usa expressão “redação original do parágrafo único”: não confundir com §§1º e 2º da primeira edição de julho2008.
+- Não universalizar validade do edital ou nulidade do procedimento, não inferir ciência de logs sem prova e regra especial. C0-J/R2/DEC016 continuam Q.

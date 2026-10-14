@@ -130,3 +130,8 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 
 ## Interface externa T43.M04 — PR #43 (14/10/2026)
 A frente **T43.M04** foi efetivamente iniciada de modo independente na [issue #42](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/42) e na [PR #43 (draft)](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/43). Sua F0/F1 mapeou 76 unidades estruturais da Lei 14.129 (arts. 1º–9º e 42–43) e validou externamente **16 textos** dos arts. 2º/42/43. Isso permite auditar o [contrato de interface de T07 do ciclo 28](CONTRATO_CICLO28_T07_T43.md) **sem homologar R2**: T43 cuidaria de provas e ferramentas digitais; T07 dos requisitos processuais, efeitos da ciência e prazos, sob regras especiais. Ambos PRs seguem Q jurídico; `DEC-016` não decidido.
+
+## Ciclo 29 — conciliação efetiva de 26 campos com T43 (14/10/2026)
+- [Matriz de 26 campos T07↔T43](MATRIZ_CICLO29_BILATERAL_T07_T43_26.csv), [dossiê jurídico do ciclo 29](DOSSIE_29_RECONCILIACAO_T07_T43.md) e [continuidade 29](CONTINUIDADE_29.md): **14** funções de dever positivo operacionalizado por campo ainda proposto, **8** campos técnicos novos M potencial e **4** efeitos de ciência/prazo não determináveis por log.
+- [T43.M04 PR #43](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/43) comprovou extração de 76 unidades Lei 14.129 (arts. 1º–9º/42–43), mas nenhum efeito de ciência foi homologado; a resposta técnica consta no próprio módulo T43.
+**Próximo:** testar em procedimentos DTE/SEI/INSS reais, redline X2/X6 e decisão conjunta sobre R1/R2/DEC-016. Toda a matriz anterior de 215 unidades T07 segue Q jurídica.

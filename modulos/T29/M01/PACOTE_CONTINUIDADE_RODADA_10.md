@@ -1,5 +1,7 @@
 # T29.M01 — Pacote de continuidade, rodada 10 (F2-C)
 
+> **ERRATA DE COORDENAÇÃO — 14/10/2026.** Após a criação deste pacote, foram encontrados outros documentos F2-C no PR #41. A [NOTA_F2C_RECONCILIACAO_DUAS_TRILHAS.md](NOTA_F2C_RECONCILIACAO_DUAS_TRILHAS.md) é a orientação metodológica mais recente: modelo P19 com **19 entidades** como referência provisória; modelo E15 aqui descrito como controle cruzado; 34 origens normativas e 56 regras funcionais são complementares, **não material a somar**; os 47 casos são os mesmos, acrescidos de quatro novos testes (total 51 hipóteses); identificada colisão real do **art. 73-A** entre Leis 15.415 e 15.371/2026, com vigências diferentes. F2-C permanece draft sem decisão C0/C1/M.
+
 **Data/corte:** 14/10/2026. **Dono:** T29.M01. **Issue:** #40. **PR:** #41 (draft). **Branch:** modulo/T29-M01-segurados-dependentes-f0-f1-20261014. **Baseline main CLF na abertura:** 16fba172c875c7a0de388288fe70005c944021d6. **Parâmetro constitucional:** CF/1988 e EC 103/2019. Constituição alternativa em repositório próprio, não integrada nesta rodada.
 
 ## FEITO

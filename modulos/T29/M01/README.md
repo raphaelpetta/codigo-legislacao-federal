@@ -81,6 +81,22 @@ Cada seta exige regras de início/fim, competência temporal, exceções e prova
 
 **Fila:** definir identidade de segurado especial em legislação 1991/2008/2024; mapear jurisprudência especial; análise crítica comparativa e alternativas de reforma só após F1 sólido.
 
-## 7. Histórico
+## 8. Rodada 02 — F1-A granular (14/10/2026)
+
+A frente passou do inventário **seletivo inicial (36 registros de fontes/grupos)** para uma triagem por subunidade de **198 registros**: **117** da Lei 8.213/1991, arts. 10–17, e **81** da Lei 8.212/1991, arts. 12–14. Foram mapeadas **78 relações funcionais** entre as duas leis, sem afirmar redação idêntica ou equivalência jurídico-material.
+
+- [Matriz F1-A — 198 subunidades](F1A_MATRIZ_GRANULAR_8213_8212.csv).
+- [Paralelos art. 11 (benefícios) × art. 12 (custeio) — 78 relações](F1A_PARALELOS_8213_ART11_8212_ART12.csv).
+- [Relatório jurídico sobre assimetrias, alterações e testes](RELATORIO_F1A_AUDITORIA_GRANULAR_E_ASSIMETRIAS.md).
+- [Pacote de continuidade da rodada 02](PACOTE_CONTINUIDADE_RODADA_02.md).
+
+**Achado novo prioritário:** Lei 14.119/2021, art. 23, acrescentou o art. 12, §9º, VIII, à Lei 8.212 (participação em programas de pagamento por serviços ambientais sem descaracterizar segurado especial), mas **não** criou inciso simétrico no art. 11, §8º, da Lei 8.213. Essa assimetria é textual/documental; **a consequência jurídica ainda é Q**.
+
+Pontos cuja cadeia precisa ser mantida: alínea h suspensa da Lei 8.212/1991 art. 12 I (Resolução Senado 26/2005) e alínea j distinta; hipóteses e vetos da Lei 15.072/2024; menor sob guarda 1991→1997→STF 2021→Lei 15.108/2025; segurado facultativo 14 anos nas leis versus 16 no decreto/INSS; Lei 15.371/2026 com vigência só em **01/01/2027**.
+
+**F1 ainda parcial**: os 198 registros são classificações funcionais **não transcrições literais certificadas**. Nenhum C0/C1/M ou revogação foi proposto. **Próxima tarefa:** F1-B focada nas quatro divergências com maior risco de alteração de direitos, antes de eventual F2/F5.
+
+## 9. Histórico
+
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

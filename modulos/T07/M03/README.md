@@ -63,3 +63,14 @@ Nenhum espelho modifica a legislação vigente, tampouco representa decisão sob
 - **Acumulado experimental:** **162 unidades textuais** espelhadas (21+40+33+28+40); equivalência jurídica e mecanismo de Código uno (`DEC-016`) ainda pendentes.
 
 Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Próxima etapa: arts. 51–70, 64-A/64-B e 69-A, seguida de auditoria jurídica integral.
+
+## Ciclo 19 — Conclusão do espelho dos arts. 51–70 (14/10/2026)
+
+- [`PILOTO_19_RECURSOS_REVISAO_VIGENCIA.md`](PILOTO_19_RECURSOS_REVISAO_VIGENCIA.md): espelho textual integral dos arts. 51–70, **incluindo 64-A, 64-B e 69-A**, e pesquisa crítica sobre extinção, autotutela, decadência, recurso, revisão, prazos, prioridade e subsidiariedade.
+- [`CONCORDANCIA_LITERAL_ART51_70_CICLO19.csv`](CONCORDANCIA_LITERAL_ART51_70_CICLO19.csv): **53 unidades** distribuídas por **23 posições**, inclusive **art. 70 como texto histórico**, todas `Q` quanto à equivalência jurídica e **não promulgadas**.
+- [`VETOS_HISTORICOS_ART69A_CICLO19.csv`](VETOS_HISTORICOS_ART69A_CICLO19.csv): **três vetos** do art. 69-A (inciso III, §§ 3º–4º), sem incorporação como normas vigentes.
+- [`TESTES_ADVERSARIAIS_ART51_70_CICLO19.csv`](TESTES_ADVERSARIAIS_ART51_70_CICLO19.csv): **44 testes** de interrupção de garantias, direitos, veto, decadência e temporalidade.
+- [`DEPENDENCIAS_ART51_70_CICLO19.csv`](DEPENDENCIAS_ART51_70_CICLO19.csv): **37 nexos**, incluindo art. 54/Súmula 633 STJ, art. 64/65 e art. 69/procedimentos especiais.
+- **Acumulado histórico do piloto:** **215 unidades textuais** (21 + 40 + 33 + 28 + 40 + 53) em **79 posições com algum texto positivo** da Lei 9.784; a posição 49-C foi integralmente vetada. Não confundir cobertura textual com equivalência jurídica demonstrada.
+
+**Gates ainda abertos:** revisão histórica/DOU dos textos, auditoria de todo sistema e remissões, relação com leis especiais, C0-J, transição, iniciativa/quórum e `DEC-016` sobre promulgação de Código juridicamente uno. Nenhuma lei foi revogada ou aprovada.

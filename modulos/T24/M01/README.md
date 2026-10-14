@@ -168,3 +168,8 @@ O [cotejo textual focal](F1C_PROVA_LITERAL_03_ALTERACOES.md) registra texto orig
 - [Relatório intertemporal](RELATORIO_F1D8_TEMA1190_MARCO_TEMPORAL.md) e [matriz de 9 cenários](MATRIZ_F1D8_TEMA1190_INTERTEMPORALIDADE.csv), com [AgInt no AREsp 3.167.203/SP, j. 19/08/2026](https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=28%2F08%2F2026&num_registro=202600320076).
 - **Marco temporal 01/07/2024:** Tema1.190/STJ aplica-se, conforme modulação, aos cumprimentos de sentença iniciados após publicação do acórdão paradigma; pedidos posteriores de honorários em cumprimento anterior não mudam esse marco. [Continuidade rodada 14](PACOTE_CONTINUIDADE_RODADA_14_F1D8.md).
 - Diferença precatório/RPV entre texto literal CPC85 §7º e interpretação STJ deve ser registrada, não disfarçada como redação original. Todos os 36 IDs art85 seguem Q jurídico; DEC016 ainda pendente.
+
+## F1-D9 — crosswalk simbólico para 35 remissões CPC85 (14/10/2026)
+- [Matriz com 35 pares de remissões](F1D9_CROSSWALK_35_REMISSOES_SIMBOLICAS.csv) e [relatório jurídico](RELATORIO_F1D9_CROSSWALK_SIMBOLICO_ART85.md): **36 unidades com IDs simbólicos e 35 referências preservadas**, sendo 34 internas e uma externa (art85 §12→art77); §20 mantém dez destinos.
+- [Validador independente](../../../scripts/validar_f1d9_crosswalk_art85.py) e [workflow CI](../../../.github/workflows/validar-f1d9-crosswalk.yml), [continuidade rodada15](PACOTE_CONTINUIDADE_RODADA_15_F1D9.md). *Não há números CLF aprovados nem equivalência C0-J.* 
+**Próximo:** DEC016 e espécie constitucionalmente admissível, destino formal do art77, redline literal e controle de Tema1190/RPV e modulação.

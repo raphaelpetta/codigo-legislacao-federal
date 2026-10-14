@@ -36,3 +36,7 @@
 
 ## F1-H — cinco publicações oficiais na cadeia dos vetos (14/10/2026)
 [Matriz de 5 eventos 30/03–11/06/2021](MATRIZ_F1H_CINCO_EVENTOS_DOU_2021.csv), [relatório sobre efeitos editoriais e jurídicos](RELATORIO_F1H_CRONOLOGIA_PUBLICACOES_2021.md), [teste de páginas oficiais com hashes](../../../scripts/auditar_t43_cronologia_2021.py) e [continuidade07](CONTINUIDADE_07.md). Republicação de **14/04** corrigiu art32 como VETADO; retificação de **27/04** corrigiu **razões do veto**; promulgação de **10/06**, publicada **11/06**, restabeleceu art32 caput e art35, **não art32 parágrafo único**. C0-J Q; DOU fac-símile e DEC016 pendentes.
+
+## F1-I — proveniência dos arts. 51–54 e Lei 14.534/2023 (14/10/2026)
+- [Matriz de 14 posições de destino](MATRIZ_F1I_14_DESTINOS_LEI14129_51_54.csv) e [relatório dos quatro diplomas alterados](RELATORIO_F1I_DESTINOS_LEIS_ALTERADAS.md): 5 posições com texto reescrito pela **Lei 14.534/2023** (Lei 7.116 art.3º g e §§1º–3º; Lei 13.460 art.10-A §1º), outras 9 com proveniência Lei14.129/2021 na compilação consultada. Incluem Lei12.527 art12 e Lei12.682 art3. Não recodificar redação 2021 como vigente quando sucedida por lei 2023.
+- [Validador](../../../scripts/validar_t43_f1i_destinos.py), workflow `validar-t43-f1i.yml` e [continuidade 08](CONTINUIDADE_08.md). **C0-J Q**, intertemporalidade/DOU/DEC016 ainda não aprovados.

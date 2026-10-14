@@ -288,7 +288,15 @@ A pesquisa confirmou os metadados oficiais dos **benefícios indeferidos do SUIB
 
 **Próximo F4-2:** transcrever e cotejar, por fontes oficiais e versões temporais, **seis pares promissores** (empregado alíneas I a/b, doméstico II, economia familiar §1, atividades concomitantes §2, dirigente sindical §4/§5), até permitir avaliação **literal** separada da material. Nenhum C0/C1/M ratificado, nenhuma arquitetura A/B escolhida; PR draft e `main` intacta.
 
-## 24. Histórico
+## 24. Rodada 18 — F4-2: seis pares textuais e divergência de fontes (14/10/2026)
+
+**Resultado da versão oficial compilada da Câmara:** cinco pares apresentam o mesmo enunciado depois de retirar rótulos de dispositivos/notas e normalizar Unicode NFC/espaços: **empregado I-a, temporário I-b, doméstico II, economia familiar §1, atividades concomitantes §2** das Leis 8.213 (art. 11) e 8.212 (art. 12). O sexto, **dirigente sindical** (8213 art. 11 §4 vs 8212 art. 12 §5), diverge na Câmara: `do` versus `no`. [Espelho com textos e SHA256 das transcrições normalizadas](F42_ESPELHO_LITERAL_SEIS_PARES_SHA256.csv). **Os SHA256 são das transcrições revisadas, não de arquivos HTML/DOU originais**, cuja obtenção independente não foi feita.
+
+**Divergência mais ampla da fonte sindical:** [triangulação de seis fontes](F42_TRIANGULACAO_SINDICAL_06_FONTES.csv) identifica `do Regime` na Câmara atualizada da 8213, `no Regime` no Planalto compilado da 8213, e `no Regimento` na Lei 9.528/1997 original disponibilizada pelos mesmos portais. **Não corrigir por intuição**; verificar fac-símile DOU e eventual retificação antes de declarar qual redação é C0. A 8212 traz `no Regime` nos suportes consultados.
+
+[Relatório crítico F4-2](RELATORIO_F42_6_PARES_PROVA_LITERAL_E_DIVERGENCIA_FONTE.md) e [continuidade rodada 18](PACOTE_CONTINUIDADE_RODADA_18.md). A coincidência textual não prova **equivalência material de filiação, contribuição e benefício**, nem autoriza promoção C1, fusão ou escolha de A/B. O histórico de F2-C conserva 51 casos distintos, **não acrescidos dos seis pares literais**. Próximo **F4-3: cadeia DOU de 1997, eventual retificação e prova de efeito jurídico pelos módulos titulares**, sem editar M02/M05/M06/T01 nem `main`.
+
+## 25. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

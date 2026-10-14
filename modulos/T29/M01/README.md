@@ -194,7 +194,13 @@ A validação estrutural dos CSVs confirmou **23 transições, 27 testes, IDs ú
 
 [Continuidade da rodada 09](PACOTE_CONTINUIDADE_RODADA_09.md). **Próximo: F2-C**, estrutura unificada de pessoa/vínculo/dependência com separação de qualificação, custeio e prestações, e controle de não regressão dos **47 cenários** F2-A/F2-B. F1 ainda seletiva, F2 parcial; nenhuma C0/C1/M aprovada, PR draft, módulos vizinhos e `main` intocados.
 
-## 16. Histórico
+## 16. Rodada 10 — F2-C (14/10/2026)
+
+F2-C consolidada: [15 entidades jurídicas](F2C_ESQUEMA_CONCEITUAL_15_ENTIDADES.csv), [56 concordâncias funcionais](F2C_CONCORDANCIA_FUNCIONAL_56_REGRAS.csv) e [47 casos reavaliados](F2C_AUDITORIA_NAO_REGRESSAO_47_CASOS.csv), sendo 40 controles conceituais condicionais e 7 Q retidas. O [relatório jurídico](RELATORIO_F2C_MODELO_UNIFICADO_CONCORDANCIA_E_TESTES.md) distingue pessoa, vínculo, filiação, qualidade temporal, inscrição, contribuição, benefício e relação de dependência. O [pacote de continuidade](PACOTE_CONTINUIDADE_RODADA_10.md) encaminha F3-A comparada.
+
+Nenhuma regra C0/C1/M foi proposta como aprovada. Permanecem Q facultativo 14/16, PSA, guarda pós EC 103/Tema 1.271 e interfaces contributivas. PR draft; main e outros módulos sem alterações.
+
+## 17. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

@@ -74,7 +74,7 @@ def extract(lines):
             if key in units:
                 # Fragmento de citação do parágrafo (por exemplo "§ 8º deste artigo")
                 # quebrado em linha pelo HTML, não uma nova unidade.
-                if previous and re.match(r"^(?:deste|desse|daquele|desta|desse|do|da|dos|das|ou|e)\\b",p.group(3),re.I):
+                if previous and re.match(r"^(?:deste|desse|daquele|desta|desse|do|da|dos|das|ou|e)\b",p.group(3),re.I):
                     units[previous]=norm(units[previous]+" "+line)
                     continue
                 raise ValueError(f"Parágrafo duplicado na fonte: {key}; antes={units[key][:170]!r}; nova={line[:170]!r}")

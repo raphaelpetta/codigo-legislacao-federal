@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import difflib
 import hashlib
 import json
 import pathlib
@@ -42,8 +43,14 @@ def source(url):
     lines = [norm(x) for x in soup.get_text("\n",strip=True).splitlines() if norm(x)]
     if sum(1 for l in lines if ARTICLE.match(l) and int(ARTICLE.match(l).group(1)) in ARTICLES) < 16:
         raise ValueError(f"Fonte sem cobertura 82–97: {url}")
+    # Auditoria secundária: blocos HTML <p> preservam texto inline em uma
+    # única unidade, enquanto get_text("\\n") pode separar <span>, <em> e
+    # hiperlinks, criando falsos diffs. Não substituir silenciosamente fonte A.
+    blocos = [norm(p.get_text(" ",strip=True)) for p in soup.find_all("p")]
+    blocos = [s for s in blocos if s]
     return lines, {"url":url,"sha256":hashlib.sha256(raw).hexdigest(),"bytes":len(raw),
-                   "consulta_utc":datetime.now(timezone.utc).isoformat()}
+                   "consulta_utc":datetime.now(timezone.utc).isoformat(),
+                   "paragraph_blocks":len(blocos)}, blocos
 
 def extract(lines):
     """Captura marcadores de dispositivo dentro de cada art., nunca substring global."""
@@ -113,10 +120,23 @@ def main():
         inventory=list(csv.DictReader(f))
     if len(inventory)!=75 or len({r["id_origem"] for r in inventory})!=75:
         raise ValueError("Inventário não contém exatamente 75 origens únicas")
-    orig_lines, orig_meta=source(ORIGINAL)
-    now_lines, now_meta=source(UPDATED)
+    orig_lines, orig_meta, orig_par=source(ORIGINAL)
+    now_lines, now_meta, now_par=source(UPDATED)
     orig=extract(orig_lines)
     now=extract(now_lines)
+    secondary_error=None
+    try:
+        # Só aceitar extração secundária se houver os 16 caputs sem duplicação.
+        orig_secondary=extract(orig_par)
+        now_secondary=extract(now_par)
+        if any((a,"C") not in orig_secondary or (a,"C") not in now_secondary for a in ARTICLES):
+            raise ValueError("Método de blocos não localizou os 16 artigos nas duas fontes")
+    except Exception as exc:
+        orig_secondary={}
+        now_secondary={}
+        secondary_error=f"{type(exc).__name__}: {exc}"
+    print("BLOCOS_HTML_ORIGINAL", len(orig_par), "ATUAL",len(now_par),
+          "METODO_SECUNDARIO", secondary_error or "ATIVO")
     records=[]
     bad=[]
     for item in inventory:
@@ -138,9 +158,31 @@ def main():
             status="IGUAL_NOS_TEXTOS_EXTRAIDOS"
         else:
             status="DIVERGENCIA_DE_EXTRACAO_OU_EDICAO_A_AUDITAR"
+        secundario_original=orig_secondary.get(key)
+        secundario_atual=now_secondary.get(key)
+        if secondary_error:
+            extra="METODO_SEGUNDARIO_INDISPONIVEL"
+        elif secundario_atual is None:
+            extra="AUSENTE_BLOCO_ATUAL"
+        elif secundario_original is None:
+            extra="AUSENTE_BLOCO_ORIGINAL"
+        elif norm(secundario_original)==norm(secundario_atual):
+            extra="PAR_LITERAL_IGUAL_POR_BLOCO_HTML"
+        else:
+            extra="BLOCOS_HTML_TAMBEM_DIVERGEM"
+        diff=""
+        if original and current and norm(original)!=norm(current):
+            matches=difflib.SequenceMatcher(None,norm(original),norm(current),autojunk=False)
+            for tag,i1,i2,j1,j2 in matches.get_opcodes():
+                if tag!="equal":
+                    diff=(f"{tag}: 2015[{i1}:{i2}]={norm(original)[max(0,i1-60):i2+60]!r}; "
+                          f"2026[{j1}:{j2}]={norm(current)[max(0,j1-60):j2+60]!r}")
+                    break
         row={
           "id_origem":item["id_origem"],"artigo":art,"subunidade":unit,
           "original_extraido":original or "AUSENTE","atual_extraido":current or "AUSENTE",
+          "metodo_bloco":extra,"bloco_original":secundario_original or "AUSENTE",
+          "bloco_atual":secundario_atual or "AUSENTE", "primeira_diferenca":diff,
           "resultado":status,"esperado_acrescimo":expected_absent,"status_juridico":"Q",
           "fonte_2015":ORIGINAL,"fonte_2026":UPDATED,"reserva":"SEM_C0_J_E_SEM_CERTIFICACAO_DOU"
         }
@@ -149,6 +191,8 @@ def main():
     result={"objetivo":"extracao por artigo, sem ato juridico CLF",
             "fontes":{"original":orig_meta,"atual":now_meta},
             "quantidade_prevista":75,"quantidade_processada":len(records),
+            "erro_segunda_extracao":secondary_error,
+            "classes_metodo_bloco":{s:sum(r["metodo_bloco"]==s for r in records) for s in sorted({r["metodo_bloco"] for r in records})},
             "falhas_estruturais":len(bad),
             "localizacoes_versao_2015":len(orig),
             "localizacoes_versao_2026":len(now),
@@ -166,7 +210,7 @@ def main():
     print("F1-D CPC 82–97 — "+json.dumps(result["resultado_contagens"],ensure_ascii=False))
     for r in records:
         if r["resultado"] not in ("IGUAL_NOS_TEXTOS_EXTRAIDOS","ACRESCIDO_VERIFICAR_LEI"):
-            print("EXAMINAR",r["id_origem"],r["resultado"],"ORIG:",r["original_extraido"][:120],"ATUAL:",r["atual_extraido"][:120])
+            print("EXAMINAR",r["id_origem"],r["resultado"],r["metodo_bloco"],"DIFF:",r["primeira_diferenca"][:280])
     if bad:
         print(f"FALHA DE COBERTURA: {len(bad)} registros. Não classificar C0-T/C0-J.")
         return 1

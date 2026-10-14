@@ -101,3 +101,9 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [Matriz de 27 vínculos funcionais](MATRIZ_CICLO23_INTIMACAO_UNIDADES_E_PRECEDENTES.csv) e [Continuidade 23](CONTINUIDADE_23.md).
 - Corrigido o AREsp 3.090.241/SP: **Segunda Turma**, sessão de 19–25/02/2026, publicação 02/03/2026; **REsp não conhecido sob Súmula 7**. Não é jurisprudência de validade universal de e-mail.
 **Limite:** ligações funcionais, não transposição literal ou equivalência C0-J; toda a matriz das 215 unidades segue Q. Próximo: casos institucionais de SEI/domicílio digital por ente, temporalidade, opt-in/opt-out, termo inicial do prazo e regime especial.
+
+## Ciclo 24 — três regimes de intimação eletrônica (14/10/2026)
+- [Dossiê 24](DOSSIE_24_TRES_REGIMES_CIENCIA_E_PRAZOS.md): (i) processo eletrônico geral Lei 9.784/Decreto 8.539; (ii) DTE fiscal federal Decreto 70.235 art. 23; (iii) Meu INSS, Portaria DIRBEN 993/2022 alterada em 2025, Lei 14.129 e TCU Acórdão 2.002/2024, item 9.1.1.
+- [Matriz de 23 normas e controles](MATRIZ_CICLO24_TRES_REGIMES_INTIMACAO.csv) e [12 testes adversariais](CONTRAPROVAS_CICLO24_TRES_REGIMES.csv), **tudo Q jurídico**, sem transposição C0-J das 215 unidades.
+- [Pacote de continuidade 24](CONTINUIDADE_24.md): sem prova de cumprimento da determinação TCU em 2026; distinguir prazo de ciência fiscal de prazo de defesa, protocolo de intimação e norma infralegal de lei.
+**Próximo:** monitorar cumprimento da determinação do TCU, aferir legalidade e evidência do art. 20 I da Portaria 993 e o regime especial fiscal, antes de qualquer regra geral integrada.

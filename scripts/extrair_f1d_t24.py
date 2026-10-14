@@ -59,7 +59,7 @@ def extract(lines):
             previous=None
             if current is not None:
                 key=(current,"C")
-                if key in units: raise ValueError(f"Artigo duplicado na fonte: {key}")
+                if key in units: raise ValueError(f"Artigo duplicado na fonte: {key}; antes={units[key][:140]!r}; nova={line[:140]!r}")
                 units[key]=norm(art.group(2))
                 previous=key
             continue

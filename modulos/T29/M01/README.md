@@ -96,7 +96,20 @@ Pontos cuja cadeia precisa ser mantida: alínea h suspensa da Lei 8.212/1991 art
 
 **F1 ainda parcial**: os 198 registros são classificações funcionais **não transcrições literais certificadas**. Nenhum C0/C1/M ou revogação foi proposto. **Próxima tarefa:** F1-B focada nas quatro divergências com maior risco de alteração de direitos, antes de eventual F2/F5.
 
-## 9. Histórico
+## 9. Rodada 03 — F1-B focada: quatro assimetrias críticas (14/10/2026)
+
+Complemento **não duplicativo** da matriz F1-A: [F1B_MATRIZ_QUATRO_DIVERGENCIAS.csv](F1B_MATRIZ_QUATRO_DIVERGENCIAS.csv) contém **19 eventos datados**, com proveniência, status de vigência/decisão e interfaces, e [RELATORIO_F1B_QUATRO_CONFLITOS_E_TEMA_1271.md](RELATORIO_F1B_QUATRO_CONFLITOS_E_TEMA_1271.md) contém análise adversarial dos quatro Q:
+
+- `Q29-ENV`: Lei 14.119/2021 art.23 acrescentou art.12 §9º VIII (8.212) **sem espelho literal** na 8.213 art.11 §8º; repercussão prestacional depende de pesquisa, não permite negar segurado só pelo silêncio.
+- `Q29-IDADE`: Lei 8.212 art.14 e Lei 8.213 art.13 dizem **14 anos**, Decreto 3.048 art.11 e INSS 2026 adotam **16**; tese sobre facultativo sem trabalho aos 15 anos continua Q, não corrigir como simples C1.
+- `Q29-GUARDA`: STF ADIs 4.878/5.083 (2021) e Lei 15.108/2025 protegem guarda judicial, mas **EC 103/2019 art.23 §6º** suscita a questão autônoma do **Tema 1271/STF (RE 1.442.021)**, **sem julgamento de mérito localizado** na pesquisa de 14/10/2026. Deixar explícito o período do óbito e a hierarquia constitucional.
+- `Q29-MANDATO`: Resolução Senado 26/2005 suspendeu estritamente **Lei 8.212 art.12 I h**, não a alínea j de 2004 nem, pelo seu dispositivo, o art.11 I h de Lei 8.213; preservar períodos pré e pós EC20/1998.
+
+**Critério:** nenhuma conclusão autoriza transposição C0-J, fusão C1 ou reforma M aprovada. Fontes oficiais e testes contrafactuais no relatório. O **pacote de continuidade da rodada 03** registra FEITO/PENDENTE/PRÓXIMO.
+
+**Próximo:** F1-C, revisão judicial/temporal de 4 cadeias (Tema 1271, ADIs 4878/5083, facultativo 14/16 e h/j); pedir nota de custeio ao T29.M02 sem editar seus arquivos.
+
+## 10. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

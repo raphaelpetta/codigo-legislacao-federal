@@ -112,3 +112,8 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [Seis artigos-modelo, hipóteses de arquitetura R1 e R2](MINUTA_COMPARATIVA_25_COMUNICACAO_DIGITAL_R1_R2.md): cláusula de procedimento geral versus divisão T07/T43. Prova de emissão/recebimento, momento de ciência, opt-in/opt-out quando exigido por lei, falhas de sistema, edital, contraditório, 3 regimes especiais e transição. **Rascunho não homologado:** C1/M sob análise; nenhum C0-J presumido.
 - [Continuidade ciclo 25](CONTINUIDADE_25.md): TCU TC007.138/2022-9, Acórdão 2002/2024 item9.1.1 com determinação de 365 dias; buscas 2025/2026 não localizaram documento suficiente que comprove cumprimento ou descumprimento; requer consulta do andamento e logs institucionais.
 **Próximo:** parecer hierarquia INSS art20 Portaria993 × Lei14129 arts42–43 e provas de dois casos concretos; T01 DEC-016 e T43 deliberam arquitetura, sem alterar `main`.
+
+## Ciclo 26 — teste X1-X6 contra três provas concretas (14/10/2026)
+- [Dossiê jurídico](DOSSIE_26_TESTE_ARTIGOS_REAIS_SEI_DTE_INSS.md) e [matriz de 18 vínculos](MATRIZ_CICLO26_ARTIGOS_X_CASOS.csv): seis artigos-modelo comparados com STJ MS24.567/DF (decisão judicial SEI), CARF 3401-005.286 (decisão administrativa DTE) e TCU 2002/2024 (auditoria INSS, **não** julgamento individual).
+- [Continuidade ciclo 26](CONTINUIDADE_26.md): R2 (requisitos técnicos T43 / garantias T07) apenas preferência de arquitetura sob teste, não aprovação normativa. Não foram obtidos logs de atos individuais DTE/INSS nem prova conclusiva de cumprimento TCU.
+**Sem C0-J:** todas as 215 unidades permanecem Q e não houve alteração da main. Próximo: atos e datas reais de recepção, leitura, ciência e termo de prazo, e governança T07/T43/T01 DEC016.

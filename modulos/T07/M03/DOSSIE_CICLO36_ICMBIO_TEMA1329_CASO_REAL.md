@@ -1,0 +1,26 @@
+# T07.M03 — Ciclo 36: processo real ICMBio e Tema 1.329/STJ
+**Corte:** 14/10/2026. [PR #39](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/39), draft. Primeira aplicação documental de [seis regimes temporais do art. 122 do Decreto 6.514/2008](MATRIZ_CICLO35_SEIS_PERIODOS_AMBIENTAL_2008_2026.csv) a um **processo ambiental real**. **Um caso comprovado não significa seis casos.** Os outros cinco períodos continuam sem exemplo com documentação completa, nem podem receber datas sintéticas para simular prova.
+
+## Caso originário: referência documental
+**STJ REsp 2.154.295/RS**, [inteiro teor oficial DJEN de 21/10/2025](https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=21%2F10%2F2025&num_registro=202402374928), Primeira Seção, j. **08/10/2025**, rel. Min. Afrânio Vilela; um dos paradigmas do **Tema repetitivo 1.329**. O acórdão identifica:
+- **ICMBio, processo administrativo nº 02180.000085/2014-94**, auto de infração **039245-B** lavrado em **25/03/2014**; aviso de recebimento do **auto de infração** em **05/05/2014** (fls.8–9 do inteiro teor do STJ).
+- A comunicação para **alegações finais** foi por **edital** (art. 122 da redação de 2008, parágrafo único introduzido pelo Decreto 6.686/2008), com referência à IN ICMBio 10/2012 art.78. A **data exata de publicação do edital não foi localizada no trecho do acórdão consultado**.
+- **Execução fiscal nº 5000864-56.2019.4.04.7204**: a sentença extinguiu a execução e o TRF4 manteve a invalidação em razão do edital para alegações finais, embora o autuado tivesse endereço conhecido, e apesar da correspondência anterior por AR.
+- O **STJ deu provimento ao recurso do ICMBio**, afastou a nulidade da CDA reconhecida nas instâncias anteriores e determinou prosseguimento da execução, pois a parte **não demonstrara prejuízo concreto** derivado daquele defeito de intimação, inclusive no momento anterior à cobrança. O TRF4 havia presumido prejuízo pela não apresentação de alegações finais; o STJ não o considerou suficiente para a nulidade na hipótese.
+- Datas do julgamento STJ **08/10/2025** e publicação **21/10/2025** não são datas de notificação administrativa nem de entrada em vigor das normas do procedimento de 2014.
+
+[**Matriz com 12 fatos ou lacunas e suas posições documentais**](MATRIZ_CICLO36_ICMBIO_REsp2154295_CASO_REAL.csv) + [validador `scripts/validar_t07_ciclo36_icmbio.py`](../../../scripts/validar_t07_ciclo36_icmbio.py). A checagem do PR comprova o **período P1 (11/12/2008–07/10/2019)** para os eventos conhecidos de **2014**; os outros cinco períodos são controles normativos históricos, não eventos deste processo.
+
+## Consequências para a interface T07/T43
+**Separar pelo menos quatro objetos:**
+1. **Documento inicial de autuação e AR:** efetiva comunicação do auto em 05/05/2014, fato distinto da intimação para alegações finais;
+2. **Intimação para alegações finais:** edital na fase de manutenção da autuação, cujo modo previsto historicamente era controverso em face da garantia geral de certeza de ciência da Lei 9.784/1999, art. 26, §3º;
+3. **Prejuízo em concreto:** não presumir que a mera ausência de apresentação de alegações finais prova automaticamente a privação substancial da defesa em todos os casos; o repetitivo delimita a necessidade de demonstração de efetivo prejuízo;
+4. **Decisão de mérito/execução fiscal:** o julgamento do STJ em 2025 não altera o regime de comunicação de 2014 nem prova eventos tecnológicos que o acórdão não relatou.
+
+**O Tema 1.329 NÃO declarou o edital universalmente válido**: o acórdão afirma a insuficiência do edital antigo para assegurar certeza de ciência conforme art. 26 da Lei 9.784; porém **não há nulidade automática** dos atos posteriores sem efetivo prejuízo nos procedimentos ambientais da hipótese delimitada. É impróprio importar essa conclusão para prazos do PAF/DTE, recurso administrativo de dados abertos (Lei 14.129 art.35), Meu INSS, atos de comunicação regidos por redações de 2019–2024 do Decreto ambiental ou processo judicial.
+
+## Qualidade e pendências
+A fonte é o **inteiro teor judicial** que relata provas dos autos anteriores, não o documento original de AR/edital. Sem os autos administrativos digitalizados não é possível certificar o horário/publicação do edital, a consulta pelo autuado, as diligências adicionais nem reconstruir integralmente o prejuízo possível. **Não criar timestamp fictício**. O rótulo `P1` decorre da data de 2014 e da matriz legal; julgamento de 2025 não desloca esse enquadramento. Todas as unidades Q, R1/R2 e `DEC-016` não homologadas.
+
+**FEITO:** um caso concreto ambiental com processo administrativo, auto e datas documentadas, distinção AR/edital/cobrança, resultado do STJ e 12 fatos/lacunas em CSV; validador reproduzível. **PENDENTE:** documentos administrativos originais, especialmente edital e comprovantes de publicação/recebimento; casos concretos dos outros cinco períodos, histórico completo dos decretos, conformidade da IN 10/2012 e direitos fundamentais; coordenação T10 sancionador e T43 tecnologia. **PRÓXIMO:** localizar outro acórdão com documentação dos regimes pós-2019 ou solicitar peças administrativas oficiais e expandir o protocolo de prova `DATA → NORMA → ATO → EVIDÊNCIA → PREJUÍZO` antes de esboçar redação obrigatória de X6.

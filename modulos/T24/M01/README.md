@@ -147,3 +147,9 @@ O [cotejo textual focal](F1C_PROVA_LITERAL_03_ALTERACOES.md) registra texto orig
 - [Parecer F2 jurídico-material dos arts. 82, 85, 91 e 95, com interfaces 98–99](DOSSIE_F1D4_CUSTAS_HONORARIOS_PERICIAS.md) e [24 controles por subunidade](MATRIZ_F1D4_DIREITOS_SUJEITOS_CUSTEIO_JG.csv), preservando distinção entre adiantamento, responsabilidade final e exigibilidade.
 - Fontes novas: STJ REsp 2.265.640/RO (setembro de 2026; custas de pesquisas patrimoniais em execução de honorários), Temas STJ 1.076 (equidade), 1.313 (saúde pública) e 871 (adiantamento na liquidação autônoma); AgInt REsp 2.194.144/SP (tabela OAB não vinculante nas condições julgadas); Tema 1.255/STF em aberto segundo a fonte consultada.
 - [Pacote de continuidade rodada 10](PACOTE_CONTINUIDADE_RODADA_10_F1D4.md). Ainda **Q jurídico**, nenhum C0-J, C1 ou M aprovado. A revisão dos quatro acréscimos 2022/2025 e DOU continua pendente.
+
+## F1-D5 — transposição conservadora em teste (14/10/2026)
+- [Minuta experimental P1–P6 e trava de integridade P7](MINUTA_EXPERIMENTAL_F1D5_TRANSPOSICAO_CONSERVADORA.md): CPC art.82 (adiantamento e exceção de custas do advogado), art.91 (entes públicos), art.95 (perícias e gratuidade) e art.98 (exigibilidade), **sem aprovar C0-J**. P7 impede qualquer compressão do art.85 sem sua disciplina integral.
+- [Matriz de 18 ensaios de preservação jurídica](MATRIZ_F1D5_TRANSPOSTA_TESTES.csv) por situação, sujeito, obrigação, exceção e fundamento; [pacote de continuidade rodada 11](PACOTE_CONTINUIDADE_RODADA_11_F1D5.md).
+- Direito vigente CPC e LC95 art.13 §§1º–2º; `DEC-016` ainda bloqueia forma de unificação. O protótipo P3 altera possivelmente o sujeito de custeio público; P5 amplia uma remissão sistemática; ambos sinalizados C1/M potenciais e **NÃO prontos para publicação**.
+**Próximo:** concordância linha a linha P1–P6, preservar art.85 integral e delimitar competência federal/estadual sobre taxas, sem merge ou aprovação de reforma.

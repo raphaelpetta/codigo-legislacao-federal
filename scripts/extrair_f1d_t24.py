@@ -188,8 +188,9 @@ def main():
         # Contraprova: a redação original INTEIRA existe como sequência contígua
         # dentro do MESMO artigo na edição atual? Uma diferença causada apenas
         # pelo corte do parser pode assim ser isolada da mudança legislativa.
-        inteiro_atual_mesmo_artigo = (bool(original) and
-            norm(original) in now_articles.get(art,""))
+        ocorrencias_texto_2015_no_artigo_atual = (
+            now_articles.get(art,"").count(norm(original)) if original else 0)
+        inteiro_atual_mesmo_artigo = ocorrencias_texto_2015_no_artigo_atual == 1
         inteiro_original_mesmo_artigo = (bool(current) and
             norm(current) in original_articles.get(art,""))
         truncado = (bool(original and current)
@@ -212,6 +213,12 @@ def main():
           "id_origem":item["id_origem"],"artigo":art,"subunidade":unit,
           "original_extraido":original or "AUSENTE","atual_extraido":current or "AUSENTE",
           "texto_original_localizado_inteiro_no_artigo_atual":inteiro_atual_mesmo_artigo,
+          "ocorrencias_de_texto_original_no_artigo_atual":ocorrencias_texto_2015_no_artigo_atual,
+          "texto_atual_completo_conferido":(
+              norm(original) if status=="FALSO_POSITIVO_PARSER_FONTE_ATUAL_CONFERE_ARTIGO"
+              else (norm(current) if status=="IGUAL_NOS_TEXTOS_EXTRAIDOS"
+                    else "AINDA_NAO_CERTIFICADO")),
+          "metodo_prova":"OCORRENCIA_UNICA_TEXTO_LITERAL_NO_MESMO_ARTIGO_CPC",
           "texto_atual_localizado_no_artigo_original":inteiro_original_mesmo_artigo,
           "suposta_truncagem_na_versao_atual":truncado,
           "metodo_bloco":extra,"bloco_original":secundario_original or "AUSENTE",

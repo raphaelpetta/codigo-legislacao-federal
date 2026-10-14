@@ -115,3 +115,9 @@ Complemento à F1-A de 48 artigos e 98 subunidades (arquivos próprios; não som
 
 ## F1-C — Três mudanças literalmente confrontadas (14/10/2026)
 O [cotejo textual focal](F1C_PROVA_LITERAL_03_ALTERACOES.md) registra texto original versus edição atualizada dos **arts. 75, III e §5º, e 77, VII**, distinguindo alteração de 2022 e acréscimos 2021/2022. O catálogo coordenado [F1B 106 unidades](F1B_MATRIZ_SUBUNIDADES_70-81_98-102.csv) ainda é índice descritivo, não transcrição de 106 unidades. Direito vigente art. 99 §§2º–3º e Tema 1178 STJ permanecem salvaguardas. **Próximo:** cotejo 1:1 integral das outras subunidades com cadeia autêntica e jurisprudência.
+
+## Complemento F1-C — espelho manual 106 unidades (14/10/2026)
+- [73 unidades dos arts. 70–81 — original e consolidado](F1C_COTEJO_LITERAL_ART70_81_73_UNIDADES.csv).
+- [33 unidades dos arts. 98–102 — original e consolidado](F1C_COTEJO_LITERAL_ART98_102_33_UNIDADES.csv).
+- [Relatório de cotejo inicial](RELATORIO_F1C_COTEJO_106.md) e [pacote de continuidade complementar](PACOTE_CONTINUIDADE_RODADA_04_COMPLEMENTO_LITERAL_106.md).
+**Limite crítico:** transcrição manual a partir das duas versões Câmara, sem diff externo independente nem fac-símile DOU; 103 unidades sem diferença identificada, três mudanças históricas registradas. Ainda são Q jurídico, não C0-J; não confundir com auditoria F1-C paralela por 106 unidades e nem duplicar suas contagens. Próximo F1-C3: confronto e validação independente de todas as 106 unidades e integrações.

@@ -46,3 +46,12 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Continuidade 03](CONTINUIDADE_03.md): estado da branch, pendências, interfaces constitucionais e próximo teste.
 
 **Limites:** nenhuma equivalência jurídico-material `C0-J` foi confirmada, nem houve redação ou ratificação de mudança material. **Próxima prova:** cotejo histórico da publicação original e análise de 6–10 leis especiais conectadas ao art. 12, com remissões para T23/T26/T27/T48 sobre sentenças estrangeiras.
+
+## Ciclo 04 — auditoria das leis especiais e da cadeia de 1984 (14/10/2026)
+
+- [Matriz de dez leis penais especiais](MATRIZ_ESPECIALIDADE_ART12_CICLO04.csv): distinguir **exceção verdadeira, reafirmação subsidiária, especialidade complementar e norma processual/executória**. Amostra não exaustiva; nenhuma derrogação tácita concluída.
+- [Auditoria histórica de 12 artigos do CP e quatro disposições da Lei 7.209/1984](AUDITORIA_HISTORICA_ART1_12_CICLO04.csv): 16 posições históricas analisadas por fontes digitalizadas de Senado/Câmara/Planalto, com **três alertas de corrupção textual aparente** (CP arts.3º, 4º e 12); fac-símile autêntico do DOU **pendente**.
+- [Dossiê 04](DOSSIE_04_ESPECIALIDADE_HISTORIA_1984.md): análise sistêmica, interfaces, quatro novos problemas `Q` (PROB-T25-0013–0016), quinze testes adversariais e alternativas de arquitetura **não ratificadas**.
+- [Pacote de continuidade 04](CONTINUIDADE_04.md): FEITO, PENDENTE, PRÓXIMO e SHAs.
+
+**Critério:** a promessa de reduzir repetições **não** autoriza transportar `deste Código` do CP para todo o Código Federal. Antes de minuta, delimitar expressamente alcance **das disposições gerais de direito penal** e provar a preservação de todas as exceções. `C0-T` da versão atualizada não é `C0-J`; fontes históricas eletrônicas não equivalem a verificação de fac-símile oficial.

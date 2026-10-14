@@ -55,3 +55,11 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Pacote de continuidade 04](CONTINUIDADE_04.md): FEITO, PENDENTE, PRÓXIMO e SHAs.
 
 **Critério:** a promessa de reduzir repetições **não** autoriza transportar `deste Código` do CP para todo o Código Federal. Antes de minuta, delimitar expressamente alcance **das disposições gerais de direito penal** e provar a preservação de todas as exceções. `C0-T` da versão atualizada não é `C0-J`; fontes históricas eletrônicas não equivalem a verificação de fac-símile oficial.
+
+## Ciclo 05 — arquivo DOU localizado e subsistemas penais (14/10/2026)
+
+- [Dossiê 05 — fonte primária de 1984, subsistemas penais e alternativas A/B/C](DOSSIE_05_HISTORICO_E_SUBSISTEMAS_PENAIS.md): edição DOU 13/07/1984, nº135, **identificada no acervo digital da Imprensa Nacional, porém sem leitura visual do PDF de 14,9 MB**; análise da Parte Geral do **Código Penal Militar (DL 1.001/1969)**, do Código Eleitoral e de demais regimes; 14 testes e três arquiteturas sem aprovação.
+- [Matriz de 16 relações jurídicas específicas](MATRIZ_RELACOES_REGIME_GERAL_CICLO05.csv): diferencia exceção verdadeira nos arts.1º–12, remissão reafirmativa, regra especial de outro módulo e sistema penal autônomo; conta **relações, não diplomas**.
+- [Pacote de continuidade 05](CONTINUIDADE_05.md): FEITO, PENDENTE, PRÓXIMO, versões e controles.
+
+**Revisão crítica obrigatória:** CP art.12, CPM art.17, Código Eleitoral art.287 e LCP art.1º empregam referentes e âmbitos diferentes. É prematuro homologar uma regra geral única no CLF sem inventariar o CPM e confrontar a legislação especial com garantias constitucionais. Localizar o arquivo do DOU não equivale a verificar seu texto autenticado.

@@ -1,0 +1,20 @@
+name: T07 — guardas PAF 2026 e ciência digital
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_paf_2026_t07.py'
+      - 'modulos/T07/M03/MATRIZ_CICLO31_REGRAS_TEMPORAIS_PAF_2026.csv'
+      - '.github/workflows/validar-paf-2026-t07.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  testes_temporais:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Testar os quinze cenarios e barreiras de especialidade
+        run: python3 scripts/validar_paf_2026_t07.py

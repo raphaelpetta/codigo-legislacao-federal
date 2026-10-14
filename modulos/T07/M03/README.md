@@ -33,3 +33,12 @@
 - [`DOSSIE_15_COTEJO_ART3_17.md`](DOSSIE_15_COTEJO_ART3_17.md): exame da preservação dos direitos do administrado, representação facultativa por advogado e STF SV5, requisitos de pedido, legitimidade, delegação e suas três hipóteses de indelegabilidade.
 - **Acumulado textual:** 21 unidades arts. 1º–2º + 40 unidades arts. 3º–17 = **61 unidades** em **17 artigos** transcritas experimentalmente; o inventário por artigo da lei toda contém 80 posições.
 - **Limite:** não confundir 61 unidades com percentual de cobertura total, pois faltam levantar todos os parágrafos/incisos dos arts. 18–70. `C0-J` não foi confirmado, nem se aprovou cláusula revogatória.
+
+## Ciclo 16 — impedimento, suspeição, forma e comunicação (14/10/2026)
+
+- [`PILOTO_16_ARTIGOS_18_28.md`](PILOTO_16_ARTIGOS_18_28.md): **33 unidades literais** dos **11 arts. 18º–28**, com texto integral, riscos de veto, prazos e referência cruzada ao art. 41 e ao art. 49-D.
+- [`CONCORDANCIA_LITERAL_ART18_28_16.csv`](CONCORDANCIA_LITERAL_ART18_28_16.csv): destino experimental 1:1, sem promulgação, `C0-T` e `Q` jurídico.
+- [`TESTES_ADVERSARIAIS_ART18_28_16.csv`](TESTES_ADVERSARIAIS_ART18_28_16.csv): **30 cenários** de impedimento, suspeição, forma, intimação, saneamento, prazo, veto e direitos.
+- [`MAPA_DEPENDENCIAS_ART18_28_16.csv`](MAPA_DEPENDENCIAS_ART18_28_16.csv): **20 ligações críticas**, entre elas art.26→art.41, art.26→49-D, art.26→59, art.23→66, STJ MS 7.181 e informativo de 2024.
+- **Acumulado:** arts. 1º–28 completamente espelhados no nível de suas unidades **(21+40+33 = 94 unidades)**, sem equivalência jurídica C0-J validada. As **80 posições** do inventário integral da lei seguem cobrindo apenas o nível de artigo para os arts. 29–70.
+- **Aviso:** a fonte da Lei 9.784/1999 não foi revogada e o espelho não substitui sua redação autêntica.

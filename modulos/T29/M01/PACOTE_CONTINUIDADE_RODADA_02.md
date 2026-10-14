@@ -17,7 +17,7 @@
 **Fontes efetivamente consultadas em 14/10/2026:**
 - **Câmara dos Deputados**, texto original de 25/07/1991 e texto consolidado de ambas Leis 8.212 e 8.213 (arts. selecionados); **Planalto**, versões compiladas para temas sensíveis; original e atualizado foram examinados **por recortes e subunidades**, sem cópia literal integral de 198 pares ou certificação de diff;
 - **Lei 15.072/2024**, arts. 2º–4º, altera art. 11/12 em 2024 com veto (DOU 27/12/2024); **Lei 15.108/2025** arts. 1º–2º, altera art. 16 §2º da Lei 8.213 (DOU 14/03/2025); **Lei 14.119/2021** art. 23, acrescenta art. 12 §9º VIII na Lei 8.212, **sem espelho expresso em 8.213 art. 11 §8º**;
-- **Senado**, Resolução 26/2005 suspende art. 12 I h da Lei 8.212, mas alínea j é de outro ato; **STF**, ADIs 4.878/5.083, nota oficial (2011? não: decisão de junho de **2021**) e ficha do STF; **STJ**, Tema 1115, julgado 23/11/2022, DJe 07/12/2022 (tese e informação institucional);
+- **Senado**, Resolução 26/2005 suspende art. 12 I h da Lei 8.212, mas alínea j é de outro ato; **STF**, ADIs 4.878/5.083, notícia institucional da decisão de junho de **2021** e precedente relatado oficialmente; **STJ**, Tema 1115, julgado 23/11/2022, DJe 07/12/2022 (tese e informação institucional);
 - **Decreto 3.048/1999**, art. 11 e §2º regras sobre idade 16; **INSS** tipos de filiação; **Leis 8.213 art. 13 e 8.212 art. 14** referem 14 anos, sem solução de hierarquia até aqui;
 - **Lei 15.371/2026**, publicada DOU 01/04/2026, vigência futura em **01/01/2027** — interface M02/M05/T28, **não vigente para concessões em 14/10/2026**.
 

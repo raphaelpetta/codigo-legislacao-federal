@@ -17,3 +17,12 @@
 5. A unidade de codificação definitiva depende do mecanismo geral `DEC-016` e da interface constitucional `CF-IC-001`.
 
 **Próxima prova:** inventariar e versionar artigos 3º–70 (inclusive artigos intercalares e vetados), mapear os regimes especiais e redigir minuta contextual completa sujeita a direitos, jurisprudência e duplo procedimento de aprovação, distinguindo C0/C1 de inovação material M.
+
+## Ciclo 14 — inventário integral no nível de artigo (13/10/2026)
+
+- [`DOSSIE_14_INVENTARIO_INTEGRAL_E_ARQUITETURA.md`](DOSSIE_14_INVENTARIO_INTEGRAL_E_ARQUITETURA.md): cotejo da arquitetura inteira da Lei 9.784/1999, com 19 grupos funcionais incluindo o capítulo XI-A, alterações, vetos, jurisprudência, antinomias potenciais e plano de codificação.
+- [`INVENTARIO_ARTIGOS_INTEGRAL_14.csv`](INVENTARIO_ARTIGOS_INTEGRAL_14.csv): **80 posições de artigo**, das quais **79 com algum conteúdo positivo** e **49-C integralmente vetado**; vetos parciais em 49-A, 49-G e 69-A. **Não** é inventário exaustivo de parágrafos e incisos.
+- [`HISTORICO_ALTERACOES_VETOS_14.csv`](HISTORICO_ALTERACOES_VETOS_14.csv): **16 registros** de publicação, retificação, acréscimos legislativos e vetos; distinguir a vigência própria de 2006, 2009 e 2021.
+- [`MATRIZ_REMISSOES_INTERDEPENDENCIAS_14.csv`](MATRIZ_REMISSOES_INTERDEPENDENCIAS_14.csv): **50 vínculos importantes**, entre remissões literais, efeitos sistemáticos e Súmula 633/STJ; amostra crítica, **não** universo final de remissões.
+
+**Limite:** F1 completo apenas em nível de posição de artigo; 21 unidades textuais originais dos arts. 1º/2º já cotejadas no ciclo 13, mas transcrição completa dos arts. 3º–70 e subunidades, equivalência jurídica C0-J e instrumento de promulgação permanecem **abertos**. `DEC-001` continua finalidade; `DEC-016` pendente.

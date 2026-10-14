@@ -100,3 +100,6 @@ A auditoria ampliou o escopo efetivamente lido para **48 artigos** (1º–20 e 4
 ## 7. Histórico
 
 - **v0.1 — 14/10/2026:** F0 e inventário seletivo F1, com primeira triagem normativa e de precedentes; nenhuma proposta de reforma confirmada.
+
+## Complemento de pesquisa — 14/10/2026
+O [Dossiê 01](DOSSIE_01_JURISDICAO_SUJEITOS_F0_F1.md), o [inventário seletivo com 15 blocos](INVENTARIO_SELETIVO_01.csv) e o [pacote de continuidade](CONTINUIDADE_01.md) ampliam o F0/F1 inicial desta branch com análise expressa do alcance do CPC art. 15, jurisprudência ainda a verificar, alterações de 2026 em módulos conexos e oito contraprovas. **Não substituem o dossiê original desta branch, não provam C0-T/C0-J e não ratificam reformas materiais.** Próximo: F1 por artigo/subunidade CPC 16–25 e 70–81.

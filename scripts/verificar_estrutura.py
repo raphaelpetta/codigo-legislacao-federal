@@ -730,6 +730,99 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, r in enumerate(recs, 2):
             if r["status_equivalencia"] != "PENDENTE_C0_J":
                 fail(f"{path.relative_to(ROOT)}:{idx}: nexo indevidamente homologado")
+    elif name.startswith("MATRIZ_TRIAGEM_215_UNIDADES_CICLO20"):
+        recs = read_csv(path, {
+            "id_auditoria", "origem_unidade", "id_espelho",
+            "destino_funcional_proposto", "texto_fonte", "sinalizadores_de_risco",
+            "urgencia_triagem", "estado_auditoria_juridica", "equivalencia_juridica",
+            "classificacao_mudanca", "status_efeito_normativo", "fonte_primaria"
+        })
+        unique(recs, "id_auditoria", str(path.relative_to(ROOT)))
+        if {r["id_auditoria"] for r in recs} != {
+            f"AUD20-{i:03d}" for i in range(1, 216)
+        }:
+            fail(f"{path.relative_to(ROOT)}: triagem incompleta (215 unidades esperadas)")
+        # Garantia mais forte: cotejar os 215 registros com os seis CSVs
+        # originais que os alimentam, e não só os dois campos da triagem.
+        files = [
+            "CONCORDANCIA_INTEGRAL_ART1_ART2_13.csv",
+            "CONCORDANCIA_LITERAL_ART3_17_15.csv",
+            "CONCORDANCIA_LITERAL_ART18_28_16.csv",
+            "CONCORDANCIA_LITERAL_ART29_47_17.csv",
+            "CONCORDANCIA_LITERAL_ART48_50_CICLO18.csv",
+            "CONCORDANCIA_LITERAL_ART51_70_CICLO19.csv",
+        ]
+        originals: dict[str, str] = {}
+        for name_orig in files:
+            orig_rows = read_csv(path.parent / name_orig, {
+                "texto_fonte_literal", "texto_espelho_literal"
+            })
+            for ori in orig_rows:
+                uid = ori.get("id_unidade") or ori.get("id")
+                if not uid or uid in originals:
+                    fail(f"{path.relative_to(ROOT)}: fonte duplicada/sem identificador {name_orig}:{uid}")
+                else:
+                    originals[uid] = ori["texto_fonte_literal"]
+                if ori["texto_fonte_literal"] != ori["texto_espelho_literal"]:
+                    fail(f"{path.relative_to(ROOT)}: fonte de espelho divergente {uid}")
+        if len(originals) != 215:
+            fail(f"{path.relative_to(ROOT)}: universo de origem não soma 215")
+        used: set[str] = set()
+        for idx, r in enumerate(recs, 2):
+            uid = r["id_espelho"]
+            if uid in used or uid not in originals:
+                fail(f"{path.relative_to(ROOT)}:{idx}: origem não única/inexistente {uid}")
+            used.add(uid)
+            if r["texto_fonte"] != originals.get(uid, ""):
+                fail(f"{path.relative_to(ROOT)}:{idx}: texto da triagem diverge da origem {uid}")
+            if r["estado_auditoria_juridica"] != "NAO_AUDITADA_JURIDICAMENTE":
+                fail(f"{path.relative_to(ROOT)}:{idx}: triagem alegou auditoria jurídica concluída")
+            if (r["equivalencia_juridica"] != "Q" or
+                r["classificacao_mudanca"] != "NAO_CLASSIFICADA" or
+                r["status_efeito_normativo"] != "NENHUM"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: triagem promoveu norma sem prova")
+            if not r["destino_funcional_proposto"].startswith("TITULO_"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: não pertence a título do Livro uno")
+            if not r["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: falta fonte")
+        if used != set(originals):
+            fail(f"{path.relative_to(ROOT)}: espelho ausente da triagem")
+    elif name.startswith("CONTRAPROVAS_SEMANTICAS_CICLO20"):
+        recs = read_csv(path, {
+            "id_teste_semantico", "unidade_de_risco", "tema",
+            "transformacao_a_testar", "veredito_preliminar",
+            "fundamentacao", "condicao_para_minuta",
+            "estado_aprovacao", "fonte_primaria"
+        })
+        unique(recs, "id_teste_semantico", str(path.relative_to(ROOT)))
+        if {r["id_teste_semantico"] for r in recs} != {
+            f"Q20-{i:03d}" for i in range(1, 33)
+        }:
+            fail(f"{path.relative_to(ROOT)}: contraprovas semânticas incompletas")
+        for idx, r in enumerate(recs, 2):
+            if r["estado_aprovacao"] != "NAO_APROVADO":
+                fail(f"{path.relative_to(ROOT)}:{idx}: teste classificado como decisão")
+            if not r["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte necessária")
+    elif name.startswith("MATRIZ_INTERFACES_EXTERIORES_CICLO20"):
+        recs = read_csv(path, {
+            "id_interface", "referencia_lei_9784", "norma_ou_jurisprudencia_externa",
+            "assunto", "tipo", "risco_legal", "fonte_primaria",
+            "verificacao_de_vigencia", "decisao_de_inclusao",
+            "equivalencia_C0J"
+        })
+        unique(recs, "id_interface", str(path.relative_to(ROOT)))
+        if {r["id_interface"] for r in recs} != {
+            f"EX20-{i:03d}" for i in range(1, 16)
+        }:
+            fail(f"{path.relative_to(ROOT)}: interfaces externas incompletas")
+        for idx, r in enumerate(recs, 2):
+            if (r["verificacao_de_vigencia"] != "PENDENTE_POR_DISPOSITIVO" or
+                r["decisao_de_inclusao"] != "NAO_DELIBERADA" or
+                r["equivalencia_C0J"] != "Q"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: interface presumida incluída/validada")
+            if not r["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: interface sem fonte")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

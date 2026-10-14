@@ -95,3 +95,9 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [Parecer jurisprudencial 22](PARECER_22_JURISPRUDENCIA_CIENCIA_DIGITAL.md) e [matriz de quatro casos](JURISPRUDENCIA_CICLO22_04_CASOS.csv): STJ MS 24.567/DF (inteiro teor, cadastro e peticionamento SEI), MS 27.227/DF (notícia oficial, edital indevido), AREsp 3.090.241 (conclusão probatória TRF3 sobre fax/e-mail não revista pelo STJ por Súmula 7) e TRF3 AC 5015411-30.2019.4.03.6105 (controle de intimação pessoal e temporalidade).
 - [Pacote de continuidade 22](CONTINUIDADE_22.md) — FEITO/PENDENTE/PRÓXIMO e limites.
 **Estado:** quatro casos qualitativos, sem generalização de tese vinculante nem certificação das 215 unidades C0-J. Próximo: cotejo das unidades 26–28/41 da Lei 9.784 e Lei 14.129 arts. 42–43 com atos reais e regimes especiais.
+
+## Ciclo 23 — concordância funcional de intimações (14/10/2026)
+- [Dossiê 23](DOSSIE_23_CONCORDANCIA_FUNCIONAL_INTIMACOES.md): vinculadas **16 unidades** da Lei 9.784 (IDs AUD20-080 a 094 e 114) e **11 interfaces** da Lei 14.129 (2 III, 42, 43) a casos concretos, com ratio e limites separados.
+- [Matriz de 27 vínculos funcionais](MATRIZ_CICLO23_INTIMACAO_UNIDADES_E_PRECEDENTES.csv) e [Continuidade 23](CONTINUIDADE_23.md).
+- Corrigido o AREsp 3.090.241/SP: **Segunda Turma**, sessão de 19–25/02/2026, publicação 02/03/2026; **REsp não conhecido sob Súmula 7**. Não é jurisprudência de validade universal de e-mail.
+**Limite:** ligações funcionais, não transposição literal ou equivalência C0-J; toda a matriz das 215 unidades segue Q. Próximo: casos institucionais de SEI/domicílio digital por ente, temporalidade, opt-in/opt-out, termo inicial do prazo e regime especial.

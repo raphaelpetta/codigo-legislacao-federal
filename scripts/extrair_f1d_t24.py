@@ -111,6 +111,19 @@ def extract(lines):
                 units[previous] = norm(units[previous]+" "+line)
     return units
 
+def article_blocks(lines):
+    """Texto de cada artigo em uma das fontes; preserva fragmentos HTML separados."""
+    blocks = {}
+    active = None
+    for line in lines:
+        m=ARTICLE.match(line)
+        if m:
+            num=int(m.group(1))
+            active=num if num in ARTICLES else None
+        if active is not None:
+            blocks.setdefault(active,[]).append(line)
+    return {k:norm(" ".join(v)) for k,v in blocks.items()}
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument("--json",required=True)
@@ -124,6 +137,8 @@ def main():
     now_lines, now_meta, now_par=source(UPDATED)
     orig=extract(orig_lines)
     now=extract(now_lines)
+    now_articles=article_blocks(now_lines)
+    original_articles=article_blocks(orig_lines)
     secondary_error=None
     try:
         # Só aceitar extração secundária se houver os 16 caputs sem duplicação.
@@ -170,6 +185,21 @@ def main():
             extra="PAR_LITERAL_IGUAL_POR_BLOCO_HTML"
         else:
             extra="BLOCOS_HTML_TAMBEM_DIVERGEM"
+        # Contraprova: a redação original INTEIRA existe como sequência contígua
+        # dentro do MESMO artigo na edição atual? Uma diferença causada apenas
+        # pelo corte do parser pode assim ser isolada da mudança legislativa.
+        inteiro_atual_mesmo_artigo = (bool(original) and
+            norm(original) in now_articles.get(art,""))
+        inteiro_original_mesmo_artigo = (bool(current) and
+            norm(current) in original_articles.get(art,""))
+        truncado = (bool(original and current)
+            and norm(original).startswith(norm(current))
+            and len(norm(original))>len(norm(current)))
+        if status=="DIVERGENCIA_DE_EXTRACAO_OU_EDICAO_A_AUDITAR":
+            if truncado and inteiro_atual_mesmo_artigo:
+                status="FALSO_POSITIVO_PARSER_FONTE_ATUAL_CONFERE_ARTIGO"
+            elif inteiro_atual_mesmo_artigo:
+                status="CORRESPONDENCIA_COMPLETA_FONTE_ATUAL_PARSER_DIVERGE"
         diff=""
         if original and current and norm(original)!=norm(current):
             matches=difflib.SequenceMatcher(None,norm(original),norm(current),autojunk=False)
@@ -181,6 +211,9 @@ def main():
         row={
           "id_origem":item["id_origem"],"artigo":art,"subunidade":unit,
           "original_extraido":original or "AUSENTE","atual_extraido":current or "AUSENTE",
+          "texto_original_localizado_inteiro_no_artigo_atual":inteiro_atual_mesmo_artigo,
+          "texto_atual_localizado_no_artigo_original":inteiro_original_mesmo_artigo,
+          "suposta_truncagem_na_versao_atual":truncado,
           "metodo_bloco":extra,"bloco_original":secundario_original or "AUSENTE",
           "bloco_atual":secundario_atual or "AUSENTE", "primeira_diferenca":diff,
           "resultado":status,"esperado_acrescimo":expected_absent,"status_juridico":"Q",
@@ -210,6 +243,9 @@ def main():
     print("F1-D CPC 82–97 — "+json.dumps(result["resultado_contagens"],ensure_ascii=False))
     for r in records:
         if r["resultado"] not in ("IGUAL_NOS_TEXTOS_EXTRAIDOS","ACRESCIDO_VERIFICAR_LEI"):
+            # A linha permanece auditável; a existência do texto original
+            # dentro do artigo atualizado é evidência, não certificação C0-J.
+            
             print("EXAMINAR",r["id_origem"],r["resultado"],r["metodo_bloco"],"DIFF:",r["primeira_diferenca"][:280])
     if bad:
         print(f"FALHA DE COBERTURA: {len(bad)} registros. Não classificar C0-T/C0-J.")

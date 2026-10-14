@@ -74,3 +74,13 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - **Acumulado histórico do piloto:** **215 unidades textuais** (21 + 40 + 33 + 28 + 40 + 53) em **79 posições com algum texto positivo** da Lei 9.784; a posição 49-C foi integralmente vetada. Não confundir cobertura textual com equivalência jurídica demonstrada.
 
 **Gates ainda abertos:** revisão histórica/DOU dos textos, auditoria de todo sistema e remissões, relação com leis especiais, C0-J, transição, iniciativa/quórum e `DEC-016` sobre promulgação de Código juridicamente uno. Nenhuma lei foi revogada ou aprovada.
+
+## Ciclo 20 — Primeira auditoria jurídico-semântica transversal (14/10/2026)
+
+- [`DOSSIE_20_AUDITORIA_SEMANTICA_INICIAL.md`](DOSSIE_20_AUDITORIA_SEMANTICA_INICIAL.md): revisão crítica dos referentes da lei, regras gerais e especiais, jurisprudência, LINDB e Lei 14.129; critérios de passagem C0-T/C0-J/C1/M/Q.
+- [`MATRIZ_TRIAGEM_215_UNIDADES_CICLO20.csv`](MATRIZ_TRIAGEM_215_UNIDADES_CICLO20.csv): **215 unidades** de todos os espelhos anteriores, com textos ligados aos CSVs originais, análise de risco **automática**, destinação funcional num **único Livro**, todas **Q** juridicamente.
+- [`CONTRAPROVAS_SEMANTICAS_CICLO20.csv`](CONTRAPROVAS_SEMANTICAS_CICLO20.csv): **32 hipóteses** de mudanças indevidas, lacunas ou reformas que exigem justificativa e decisão própria.
+- [`MATRIZ_INTERFACES_EXTERIORES_CICLO20.csv`](MATRIZ_INTERFACES_EXTERIORES_CICLO20.csv): **15 interfaces externas**, incluindo LINDB, governo digital, LGPD, LAI, especialidade, decadência e jurisprudência.
+- [`ARQUITETURA_E_MINUTA_DEMONSTRATIVA_CICLO20.md`](ARQUITETURA_E_MINUTA_DEMONSTRATIVA_CICLO20.md): **14 cláusulas experimentais**, com seis títulos dentro de **um Livro do Processo Administrativo Federal**, regras gerais uma vez e complementos específicos sem supressão de direitos.
+
+**Alcance:** QA verifica se as 215 linhas de triagem coincidem com seus seis CSVs originais, mas **não** valida os textos contra todo o DOU nem certifica equivalência C0-J. Não há artigos homologados, lei promulgada ou revogação. `DEC-001` objetivo de Código uno; `DEC-016` instrumento promulgatório pendente. **Próximo ciclo:** auditoria aprofundada por blocos com direito externo e efeitos temporais.

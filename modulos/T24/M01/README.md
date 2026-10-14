@@ -153,3 +153,8 @@ O [cotejo textual focal](F1C_PROVA_LITERAL_03_ALTERACOES.md) registra texto orig
 - [Matriz de 18 ensaios de preservação jurídica](MATRIZ_F1D5_TRANSPOSTA_TESTES.csv) por situação, sujeito, obrigação, exceção e fundamento; [pacote de continuidade rodada 11](PACOTE_CONTINUIDADE_RODADA_11_F1D5.md).
 - Direito vigente CPC e LC95 art.13 §§1º–2º; `DEC-016` ainda bloqueia forma de unificação. O protótipo P3 altera possivelmente o sujeito de custeio público; P5 amplia uma remissão sistemática; ambos sinalizados C1/M potenciais e **NÃO prontos para publicação**.
 **Próximo:** concordância linha a linha P1–P6, preservar art.85 integral e delimitar competência federal/estadual sobre taxas, sem merge ou aprovação de reforma.
+
+## F1-D6 — 36 unidades completas do art. 85 (14/10/2026)
+- [Dossiê do cotejo de art.85](RELATORIO_F1D6_ESPELHO_INTEGRAL_ART85.md), [script extrator específico](../../../scripts/espelho_art85_t24.py) e [CI #38554226642 aprovado](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38554226642): **36 unidades**, sendo 33 iguais em 2015/2026 e três acréscimos §§6º-A/8º-A/20 de 2022, com [CSV/JSON e hashes externos](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38554226642/artifacts/11887718493).
+- [Mapa de 36 unidades, remissões e status Q](MAPA_36_UNIDADES_ART85_REMISSOES_E_GATE.csv) e [controle das remissões](RELATORIO_F1D6B_MAPA_REMISSOES_ART85.md), incluindo conjunto exato do §20. [Continuidade rodada 12](PACOTE_CONTINUIDADE_RODADA_12_F1D6.md).
+**Limite:** espelho textual e evidência reproduzível não são homologação C0-J; P7 de F1-D5 permanece bloqueado para transposição simplificada. Próximo: DOU e Lei 14.365/2022, Tema1.255 STF, reendereçar remissões, competência/DEC-016.

@@ -115,7 +115,7 @@ for md in [ROOT / "README.md", *ROOT.glob("docs/*.md")]:
 # Verificações estruturais dos CSVs produzidos por módulos (não analisam mérito jurídico).
 for path in sorted((ROOT / "modulos").glob("**/*.csv")):
     name = path.name
-    if name.startswith("INVENTARIO"):
+    if name.startswith("INVENTARIO") and not name.startswith("INVENTARIO_ARTIGOS_INTEGRAL_14"):
         recs = read_csv(path, {
             "id_fonte", "tipo_ato", "dispositivo", "url_oficial",
             "data_consulta", "vigencia_situacao", "modulo_candidato",
@@ -388,6 +388,74 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, r in enumerate(recs, 2):
             if r["estado_direito"] != "SIMULACAO_JURIDICA" or r["status_normativo"] != "NAO_PROMULGADO":
                 fail(f"{path.relative_to(ROOT)}:{idx}: simulação indevidamente tratada como norma")
+    elif name.startswith("INVENTARIO_ARTIGOS_INTEGRAL_14"):
+        recs = read_csv(path, {
+            "id", "artigo", "capitulo", "tema_capitulo",
+            "origem_base_ou_insercao", "estado_artigo_2026",
+            "partes_vetadas_ou_alteradas", "situacao_transposicao_clf",
+            "categoria_equivalencia", "destino_hipotetico", "fonte_primaria",
+        })
+        unique(recs, "id", str(path.relative_to(ROOT)))
+        base = {str(i) for i in range(1, 71)}
+        extra = {"49-A", "49-B", "49-C", "49-D", "49-E",
+                 "49-F", "49-G", "64-A", "64-B", "69-A"}
+        expected = base | extra
+        found = {r["artigo"].replace("Art. ", "") for r in recs}
+        if found != expected or len(recs) != 80:
+            fail(f"{path.relative_to(ROOT)}: devem constar 80 posições exatas de artigo")
+        veto_integral = {r["artigo"] for r in recs
+                         if r["estado_artigo_2026"] == "VETADO_INTEGRAL"}
+        if veto_integral != {"Art. 49-C"}:
+            fail(f"{path.relative_to(ROOT)}: art.49-C vetado integral não isolado")
+        vetos_parciais = {r["artigo"] for r in recs
+                         if r["estado_artigo_2026"] == "VIGENTE_COM_PARTES_VETADAS"}
+        if vetos_parciais != {"Art. 49-A", "Art. 49-G", "Art. 69-A"}:
+            fail(f"{path.relative_to(ROOT)}: status de veto parcial inconsistente")
+        for idx, r in enumerate(recs, 2):
+            if r["categoria_equivalencia"] != "Q":
+                fail(f"{path.relative_to(ROOT)}:{idx}: artigo sem auditoria promovido a C0-J")
+            if r["situacao_transposicao_clf"] not in {
+                "JA_ESPELHADO_C0_TEXTUAL_MAS_JURIDICO_Q",
+                "NAO_ESPELHADO_NESTA_ETAPA"
+            }:
+                fail(f"{path.relative_to(ROOT)}:{idx}: artigo ficticiamente incorporado")
+            if not r["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte sem HTTPS")
+        # No resumo de artigo se autoriza presumir transcrição de incisos.
+    elif name.startswith("HISTORICO_ALTERACOES_VETOS_14"):
+        recs = read_csv(path, {
+            "id_evento", "natureza", "ato_origem", "unidades_afetadas",
+            "situacao_na_fonte_consolidada", "fonte_primaria",
+        })
+        unique(recs, "id_evento", str(path.relative_to(ROOT)))
+        if {r["id_evento"] for r in recs} != {
+            f"ALT14-{i:03d}" for i in range(1, 17)
+        }:
+            fail(f"{path.relative_to(ROOT)}: histórico legislativo com lacunas")
+        vetted = [r for r in recs if r["natureza"] == "VETO"]
+        if len(vetted) != 5:
+            fail(f"{path.relative_to(ROOT)}: vetos históricos não cobertos")
+    elif name.startswith("MATRIZ_REMISSOES_INTERDEPENDENCIAS_14"):
+        recs = read_csv(path, {
+            "id_vinculo", "origem_artigo", "destino_artigo_ou_referencia",
+            "classe", "situacao_auditoria", "fonte_primaria",
+        })
+        unique(recs, "id_vinculo", str(path.relative_to(ROOT)))
+        if {r["id_vinculo"] for r in recs} != {
+            f"REF14-{i:03d}" for i in range(1, 51)
+        }:
+            fail(f"{path.relative_to(ROOT)}: matriz de 50 referências incompleta")
+        allowed = {str(i) for i in range(1, 71)} | {
+            "49-A", "49-B", "49-C", "49-D", "49-E", "49-F",
+            "49-G", "64-A", "64-B", "69-A"
+        }
+        for idx, r in enumerate(recs, 2):
+            if r["origem_artigo"] not in allowed:
+                fail(f"{path.relative_to(ROOT)}:{idx}: referência de origem inválida")
+            if r["destino_artigo_ou_referencia"] not in allowed | {"STJ633"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: referência de destino inválida")
+            if r["situacao_auditoria"] != "PENDENTE_DE_COTEJO_INTEGRAL":
+                fail(f"{path.relative_to(ROOT)}:{idx}: referência tratada como C0-J")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

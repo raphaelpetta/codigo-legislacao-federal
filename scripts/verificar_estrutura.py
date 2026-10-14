@@ -124,7 +124,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if not (rec.get("url_oficial") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: URL oficial vazia ou nao HTTPS")
-    elif name.startswith("CONCORDANCIA"):
+    elif name.startswith("CONCORDANCIA") and not name.startswith("CONCORDANCIA_DOCUMENTAL_11"):
         recs = read_csv(path, {
             "id_origem", "id_destino", "tipo_relacao", "categoria",
             "justificativa", "status_verificacao",
@@ -253,6 +253,45 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: simulacao representada como direito vigente")
             if not rec["fonte"].startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: fonte sem HTTPS")
+    elif name.startswith("MATRIZ_NORMATIVA_HIPOTETICA"):
+        recs = read_csv(path, {
+            "id_nexo", "origem_fonte", "origem_dispositivo",
+            "destino_experimental", "suporte_normativo_proposto",
+            "efeito_juridico_real", "estado_pesquisa", "fonte_primaria",
+        })
+        unique(recs, "id_nexo", str(path.relative_to(ROOT)))
+        if {r["id_nexo"] for r in recs} != {f"N11-{i:03d}" for i in range(1, 13)}:
+            fail(f"{path.relative_to(ROOT)}: amostra N11 incompleta")
+        for idx, rec in enumerate(recs, 2):
+            if rec["efeito_juridico_real"] != "NENHUMA_LEI_APROVADA_PELO_TESTE":
+                fail(f"{path.relative_to(ROOT)}:{idx}: modelo hipotetico recebeu forca legislativa")
+            if not rec["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: falta fonte HTTPS")
+    elif name.startswith("CONCORDANCIA_DOCUMENTAL_11"):
+        recs = read_csv(path, {
+            "id_registro", "origem_ato", "origem_dispositivo",
+            "destino_experimental", "classe_relacao",
+            "efeito_legislativo", "nexo_normativo_id", "status_prova",
+        })
+        unique(recs, "id_registro", str(path.relative_to(ROOT)))
+        if {r["id_registro"] for r in recs} != {f"D11-{i:03d}" for i in range(1, 17)}:
+            fail(f"{path.relative_to(ROOT)}: amostra D11 incompleta")
+        for idx, rec in enumerate(recs, 2):
+            if rec["efeito_legislativo"] != "NENHUM":
+                fail(f"{path.relative_to(ROOT)}:{idx}: concordancia D criou efeito legislativo")
+            if rec["classe_relacao"] not in {"1:1", "1:N", "N:1", "EXTERNO", "HISTORICO", "OMITIDO", "0:1", "INCERTO"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: classe de relacao inesperada")
+    elif name.startswith("TESTES_CONCORDANCIA_11"):
+        recs = read_csv(path, {
+            "id_teste", "arquitetura", "evento", "efeito_juridico_simulado",
+            "risco", "resultado", "status_prova",
+        })
+        unique(recs, "id_teste", str(path.relative_to(ROOT)))
+        if {r["id_teste"] for r in recs} != {f"T11-{i:03d}" for i in range(1, 21)}:
+            fail(f"{path.relative_to(ROOT)}: amostra T11 incompleta")
+        for idx, rec in enumerate(recs, 2):
+            if rec["arquitetura"] not in {"A", "B", "C", "D"}:
+                fail(f"{path.relative_to(ROOT)}:{idx}: arquitetura desconhecida")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

@@ -181,3 +181,7 @@ O [cotejo textual focal](F1C_PROVA_LITERAL_03_ALTERACOES.md) registra texto orig
 
 ## F1-D11 — segunda revisão jurídico-material das 36 unidades (14/10/2026)
 [Reexame por sujeito, base, momento e exceções](RELATORIO_F1D11_REEXAME_MATERIAL_36.md), [36 linhas de controles](MATRIZ_F1D11_REEXAME_MATERIAL_36.csv), [validador dos 36 IDs e 13 invariantes](../../../scripts/validar_f1d11_art85.py) e [continuidade rodada17](CONTINUIDADE_RODADA_17_F1D11.md). O gráfico de 35 remissões do art85 é controle de referências selecionadas, **não prova de exaustividade de todas remissões**. **C0-J Q** até DOU, jurisprudência e DEC016.
+
+## F1-D12 — remissões contextuais §4º do art. 85 (14/10/2026)
+- [Dez pares de dependência §4 I–II → §3 I–V](MATRIZ_F1D12_DEZ_REMISSOES_P4_INCISOS.csv), [dossiê de correção do grafo](RELATORIO_F1D12_RECONCILIACAO_GRAFO_45.md) e [validador](../../../scripts/validar_f1d12_remissoes.py): 35 pares anteriores + 10 novos = **45 pares indexados**. Os dez novos resultam de remissão contextual do §4º, não da citação literal ao §3º dentro de cada inciso. §11 repete §§2º e 3º em duas cláusulas distintas; duplicidade de ocorrência não é par novo.
+- [Continuidade rodada 18](PACOTE_CONTINUIDADE_RODADA_18_F1D12.md). **Grafo ainda não certificado exaustivo**, sem C0-J, sem numeração CLF aprovada e sob `DEC-016`.

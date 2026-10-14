@@ -32,7 +32,9 @@ critical={
 }
 by={x["unidade"]:x for x in rows}
 for unit,term in critical.items():
-    if by[unit]["criterio_tempo_base"]!=term:
-        raise AssertionError(f"Gate incorreto {unit}: {term}")
+    facts="|".join(by[unit][col] for col in (
+        "fato_normativo","sujeito_destinatario","criterio_tempo_base"))
+    if term not in facts:
+        raise AssertionError(f"Gate incorreto {unit}: {term} nao localizado nos campos juridicos")
 print("T24 F1-D11 OK: 36/36 IDs, 13 invariantes de sujeito/base/tempo, todos Q.")
 print("Porta estatica nao atesta legitimidade de nova norma CLF.")

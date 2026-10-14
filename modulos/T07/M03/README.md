@@ -169,3 +169,7 @@ A frente **T43.M04** foi efetivamente iniciada de modo independente na [issue #4
 ## Ciclo 37 — edital ambiental real de março de 2025 (14/10/2026)
 - [Dossiê do Edital Ibama DIPRO 1/2025, DOU 28/03/2025](DOSSIE_CICLO37_EDITAL_IBAMA_2025.md), [matriz de 9 fatos e lacunas](MATRIZ_CICLO37_EDITAL_IBAMA_2025_PROCESSOS.csv), [validador](../../../scripts/validar_t07_ciclo37_edital_2025.py) e [continuidade37](CONTINUIDADE_37.md).
 - Edital coletivo nº **02001.006658/2025-15**, três processos listados e prazo **declarado** de dez dias; janela **P5**, após mudança indireta de art.96 §4 em 2024. Alegação oficial de endereço desconhecido/diligências frustradas **não substitui ARs e certidões individuais**. Fonte DOU identificada na indexação, fac-símile ainda por conferir; **não certificar ciência, vencimento ou nulidade**. C0-J Q, DEC-016/R2 pendentes.
+
+## Ciclo 38 — prova de ciência, leis especiais e dados protegidos (14/10/2026)
+- [Dossiê de interface T07↔T43 e protocolo mínimo de prova](DOSSIE_CICLO38_INTERFACE_PROVA_DIREITOS_T43.md): compara DTE fiscal de 2015, edital ICMBio de 2014, edital Ibama de 2025, recurso especial da Lei 14.129 art. 35 e as garantias de dados pessoais dos 14 destinos de T43 F1-L.
+- Sete salvaguardas: não igualar envio à ciência; não assumir edital sempre válido/nulo; distinguir AR do auto e das alegações; aplicar norma vigente na data do ato; não publicar dados pessoais por mera auditabilidade; preservar recurso especial; não retroagir prazos de 2026 ou meios eletrônicos de 2024. **Q jurídico; R2, M e DEC-016 não aprovados.**

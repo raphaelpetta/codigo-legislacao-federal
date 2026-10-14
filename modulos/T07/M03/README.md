@@ -84,3 +84,92 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [`ARQUITETURA_E_MINUTA_DEMONSTRATIVA_CICLO20.md`](ARQUITETURA_E_MINUTA_DEMONSTRATIVA_CICLO20.md): **14 cláusulas experimentais**, com seis títulos dentro de **um Livro do Processo Administrativo Federal**, regras gerais uma vez e complementos específicos sem supressão de direitos.
 
 **Alcance:** QA verifica se as 215 linhas de triagem coincidem com seus seis CSVs originais, mas **não** valida os textos contra todo o DOU nem certifica equivalência C0-J. Não há artigos homologados, lei promulgada ou revogação. `DEC-001` objetivo de Código uno; `DEC-016` instrumento promulgatório pendente. **Próximo ciclo:** auditoria aprofundada por blocos com direito externo e efeitos temporais.
+
+## Ciclo 21 — âmbito federal, subsidiariedade e comunicações digitais (14/10/2026)
+- [Dossiê 21](DOSSIE_21_AMBITO_INTIMACAO_DIGITAL.md): revisão de Lei 9.784 arts. 1–3/69 e 22–28/41 em confronto com Lei 14.129/2021 arts. 2, 7–9 e 42–43, LINDB 20–30 e CPC art. 15; duas alternativas arquitetônicas Q (R1/R2).
+- [Matriz de 18 cenários](MATRIZ_AUDITORIA_BLOCOS_CICLO21.csv): riscos verificáveis de ampliação do âmbito, falsa equiparação de emissão/recebimento à ciência, perda de opt-in/opt-out e de garantias de intimação, todas classificadas Q.
+- [Pacote de continuidade 21](CONTINUIDADE_21.md) com FEITO/PENDENTE/PRÓXIMO.
+**Limite:** não houve certificação C0-J das 215 unidades, nem aprovação de redação final, promulgação ou revogação. Próximo: casos jurisprudenciais reais de intimação digital e concordância funcional das subunidades prioritárias.
+
+## Ciclo 22 — precedentes sobre ciência administrativa (14/10/2026)
+- [Parecer jurisprudencial 22](PARECER_22_JURISPRUDENCIA_CIENCIA_DIGITAL.md) e [matriz de quatro casos](JURISPRUDENCIA_CICLO22_04_CASOS.csv): STJ MS 24.567/DF (inteiro teor, cadastro e peticionamento SEI), MS 27.227/DF (notícia oficial, edital indevido), AREsp 3.090.241 (conclusão probatória TRF3 sobre fax/e-mail não revista pelo STJ por Súmula 7) e TRF3 AC 5015411-30.2019.4.03.6105 (controle de intimação pessoal e temporalidade).
+- [Pacote de continuidade 22](CONTINUIDADE_22.md) — FEITO/PENDENTE/PRÓXIMO e limites.
+**Estado:** quatro casos qualitativos, sem generalização de tese vinculante nem certificação das 215 unidades C0-J. Próximo: cotejo das unidades 26–28/41 da Lei 9.784 e Lei 14.129 arts. 42–43 com atos reais e regimes especiais.
+
+## Ciclo 23 — concordância funcional de intimações (14/10/2026)
+- [Dossiê 23](DOSSIE_23_CONCORDANCIA_FUNCIONAL_INTIMACOES.md): vinculadas **16 unidades** da Lei 9.784 (IDs AUD20-080 a 094 e 114) e **11 interfaces** da Lei 14.129 (2 III, 42, 43) a casos concretos, com ratio e limites separados.
+- [Matriz de 27 vínculos funcionais](MATRIZ_CICLO23_INTIMACAO_UNIDADES_E_PRECEDENTES.csv) e [Continuidade 23](CONTINUIDADE_23.md).
+- Corrigido o AREsp 3.090.241/SP: **Segunda Turma**, sessão de 19–25/02/2026, publicação 02/03/2026; **REsp não conhecido sob Súmula 7**. Não é jurisprudência de validade universal de e-mail.
+**Limite:** ligações funcionais, não transposição literal ou equivalência C0-J; toda a matriz das 215 unidades segue Q. Próximo: casos institucionais de SEI/domicílio digital por ente, temporalidade, opt-in/opt-out, termo inicial do prazo e regime especial.
+
+## Ciclo 24 — três regimes de intimação eletrônica (14/10/2026)
+- [Dossiê 24](DOSSIE_24_TRES_REGIMES_CIENCIA_E_PRAZOS.md): (i) processo eletrônico geral Lei 9.784/Decreto 8.539; (ii) DTE fiscal federal Decreto 70.235 art. 23; (iii) Meu INSS, Portaria DIRBEN 993/2022 alterada em 2025, Lei 14.129 e TCU Acórdão 2.002/2024, item 9.1.1.
+- [Matriz de 23 normas e controles](MATRIZ_CICLO24_TRES_REGIMES_INTIMACAO.csv) e [12 testes adversariais](CONTRAPROVAS_CICLO24_TRES_REGIMES.csv), **tudo Q jurídico**, sem transposição C0-J das 215 unidades.
+- [Pacote de continuidade 24](CONTINUIDADE_24.md): sem prova de cumprimento da determinação TCU em 2026; distinguir prazo de ciência fiscal de prazo de defesa, protocolo de intimação e norma infralegal de lei.
+**Próximo:** monitorar cumprimento da determinação do TCU, aferir legalidade e evidência do art. 20 I da Portaria 993 e o regime especial fiscal, antes de qualquer regra geral integrada.
+
+## Ciclo 25 — minuta comparativa de comunicação eletrônica (14/10/2026)
+- [Seis artigos-modelo, hipóteses de arquitetura R1 e R2](MINUTA_COMPARATIVA_25_COMUNICACAO_DIGITAL_R1_R2.md): cláusula de procedimento geral versus divisão T07/T43. Prova de emissão/recebimento, momento de ciência, opt-in/opt-out quando exigido por lei, falhas de sistema, edital, contraditório, 3 regimes especiais e transição. **Rascunho não homologado:** C1/M sob análise; nenhum C0-J presumido.
+- [Continuidade ciclo 25](CONTINUIDADE_25.md): TCU TC007.138/2022-9, Acórdão 2002/2024 item9.1.1 com determinação de 365 dias; buscas 2025/2026 não localizaram documento suficiente que comprove cumprimento ou descumprimento; requer consulta do andamento e logs institucionais.
+**Próximo:** parecer hierarquia INSS art20 Portaria993 × Lei14129 arts42–43 e provas de dois casos concretos; T01 DEC-016 e T43 deliberam arquitetura, sem alterar `main`.
+
+## Ciclo 26 — teste X1-X6 contra três provas concretas (14/10/2026)
+- [Dossiê jurídico](DOSSIE_26_TESTE_ARTIGOS_REAIS_SEI_DTE_INSS.md) e [matriz de 18 vínculos](MATRIZ_CICLO26_ARTIGOS_X_CASOS.csv): seis artigos-modelo comparados com STJ MS24.567/DF (decisão judicial SEI), CARF 3401-005.286 (decisão administrativa DTE) e TCU 2002/2024 (auditoria INSS, **não** julgamento individual).
+- [Continuidade ciclo 26](CONTINUIDADE_26.md): R2 (requisitos técnicos T43 / garantias T07) apenas preferência de arquitetura sob teste, não aprovação normativa. Não foram obtidos logs de atos individuais DTE/INSS nem prova conclusiva de cumprimento TCU.
+**Sem C0-J:** todas as 215 unidades permanecem Q e não houve alteração da main. Próximo: atos e datas reais de recepção, leitura, ciência e termo de prazo, e governança T07/T43/T01 DEC016.
+
+## Ciclo 27 — revisão de X2 e X6 (14/10/2026)
+- [Minuta comparativa revisada dos artigos-modelo X2-T43 e X6-T07](MINUTA_27_X2_X6_PROVA_E_SUBSIDIARIEDADE.md), com campo de aplicação estrito da Lei 14.129 art.2/42–43, autoria/emissão/recebimento, conservação por cinco anos, efeitos de ciência separados de tecnologia, e Lei 9.784 art.26/69.
+- [Matriz de 18 testes adversariais por regime](MATRIZ_CICLO27_X2_X6_TESTES_ADVERSARIAIS.csv) incluindo Decreto 70.235 art.23 §2 III (entrega/consulta/meio magnético), opt-in quando exigido, possível uso digital apesar de lei especial citar pessoal/postal, e INSS/TCU, sem presumir ciência automática.
+- [Continuidade ciclo 27](CONTINUIDADE_27.md). R2 continua **preferência condicional**, não deliberação; nenhuma C0-J, C1 ou M aprovada, `DEC-016` e T43 pendentes.
+
+## Ciclo 28 — contrato de interface T07 e T43.M04 (14/10/2026)
+- [Contrato Q entre efeitos jurídicos e eventos técnicos](CONTRATO_CICLO28_T07_T43.md) com **26 campos** em [matriz CSV](CONTRATO_CICLO28_T07_T43_CAMPOS.csv), proveniência Lei14.129 arts.2/42/43 e Lei9784 arts.26/69, distinção de campos legais e propostas materiais, e 12 contraprovas.
+- [Continuidade ciclo 28](CONTINUIDADE_28.md). `T43.M04` **apenas PLANEJADO no catálogo main**, sem F0/F1 executado e sem diretório; a interface é proposta T07, **não implementação T43**. R2 preferível condicionalmente, R1 continua possibilidade.
+**Próximo:** F0/F1 autônomo de T43.M04, revisão LGPD, hierarquia de ciência fiscal/INSS, `DEC-016` e fontes individuais de envio/recebimento, sem C0-J/C1/M ratificados.
+
+## Interface externa T43.M04 — PR #43 (14/10/2026)
+A frente **T43.M04** foi efetivamente iniciada de modo independente na [issue #42](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/42) e na [PR #43 (draft)](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/43). Sua F0/F1 mapeou 76 unidades estruturais da Lei 14.129 (arts. 1º–9º e 42–43) e validou externamente **16 textos** dos arts. 2º/42/43. Isso permite auditar o [contrato de interface de T07 do ciclo 28](CONTRATO_CICLO28_T07_T43.md) **sem homologar R2**: T43 cuidaria de provas e ferramentas digitais; T07 dos requisitos processuais, efeitos da ciência e prazos, sob regras especiais. Ambos PRs seguem Q jurídico; `DEC-016` não decidido.
+
+## Ciclo 29 — conciliação efetiva de 26 campos com T43 (14/10/2026)
+- [Matriz de 26 campos T07↔T43](MATRIZ_CICLO29_BILATERAL_T07_T43_26.csv), [dossiê jurídico do ciclo 29](DOSSIE_29_RECONCILIACAO_T07_T43.md) e [continuidade 29](CONTINUIDADE_29.md): **14** funções de dever positivo operacionalizado por campo ainda proposto, **8** campos técnicos novos M potencial e **4** efeitos de ciência/prazo não determináveis por log.
+- [T43.M04 PR #43](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/43) comprovou extração de 76 unidades Lei 14.129 (arts. 1º–9º/42–43), mas nenhum efeito de ciência foi homologado; a resposta técnica consta no próprio módulo T43.
+**Próximo:** testar em procedimentos DTE/SEI/INSS reais, redline X2/X6 e decisão conjunta sobre R1/R2/DEC-016. Toda a matriz anterior de 215 unidades T07 segue Q jurídica.
+
+## Ciclo 30 — caso DTE e LC 227/2026 (14/10/2026)
+- [Dossiê de casos STJ, CARF e auditoria TCU, com análise da LC 227/2026](DOSSIE_30_CASOS_PAF_LC227_INTERTEMPORALIDADE.md), [11 eventos datados ou com lacuna expressa](MATRIZ_CICLO30_CASOS_ATOS_PRAZOS_2026.csv) e [continuidade 30](CONTINUIDADE_30.md).
+- Decreto70.235 arts5/5-A/5-B,10,15,33 modificados em 2026; **ciência do art23 não é o prazo de defesa**. Receita reconhece 20 dias úteis para impugnação/recurso ordinários, regra de suspensão 20/12–20/01 e **transição ADI RFB2/2026** até 31/03/2026, prevalecendo 20 úteis ou 30 corridos conforme hipótese (o que vencer mais tarde); preservar regimes especiais.
+- TCU2002/2024 prova achado de fiscalização, não nulidade judicial individual; sem logs completos DTE/SEI/INSS. Toda C0-J Q, contrato R2 e DEC016 sem ratificação.
+
+## Ciclo 31 — 15 testes de transição PAF (14/10/2026)
+- [Dossiê jurídico](DOSSIE_31_TRIAGEM_PAF_2026_TESTES.md), [matriz de 15 cenários](MATRIZ_CICLO31_REGRAS_TEMPORAIS_PAF_2026.csv), [script de classificação](../../../scripts/validar_paf_2026_t07.py) e [workflow de testes](../../../.github/workflows/validar-paf-2026-t07.yml). Controles sobre LC227/2026, suspensão em janeiro, transição do ADI RFB2/2026 para intimações até 31/03 e regra do CARF de 20 dias úteis, preservada exceção pequeno valor.
+- [Continuidade ciclo31](CONTINUIDADE_31.md). O validador **não calcula vencimentos reais** sem feriados, expediente e ciência juridicamente comprovada e não estende regras fiscais ao SEI/INSS. C0-J e arquitetura R2 permanecem Q.
+
+## Ciclo 32 — X6 e recurso específico de abertura de dados (14/10/2026)
+- [Redline experimental X6 sobre subsidiariedade, ciência e prazos](MINUTA_CICLO32_X6_ESPECIALIDADE_DADOS_ABERTOS.md), [matriz de 12 testes](MATRIZ_CICLO32_DADOS_ABERTOS_RECURSOS_ESPECIAIS.csv), [validador](../../../scripts/validar_t07_ciclo32_dados_abertos.py) e [workflow](../../../.github/workflows/validar-t07-ciclo32.yml); [continuidade ciclo32](CONTINUIDADE_32.md).
+- A [T43 PR43](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/43) comprovou a restauração de **Lei14.129 art.35** em junho2021: **recurso em dez dias da ciência, dirigido a autoridade superior que se manifesta em cinco**, distinto da reconsideração de cinco dias da autoridade recorrida (Lei9784 art56§1). Lei14.129 art30§2 remete à LAI e art37 à Lei9784 no que couber.
+- Nenhuma presunção universal de ciência por log de art43; redline **C1/M potencial Q**, DEC016 e opção R1/R2 ainda sem ratificação.
+
+## Ciclo 33 — caso CARF de 2026 com ciência DTE em 2015 (14/10/2026)
+[Dossiê do acórdão CARF 1301-008.239](DOSSIE_CICLO33_CARF_1301_008239.md), [seis eventos com dados ou lacuna](MATRIZ_CICLO33_CARF_1301_008239_EVENTOS.csv), [validador](../../../scripts/validar_ciclo33_carf.py) e [continuidade33](CONTINUIDADE_33.md). Processo **13896.720305/2014-50**: ciência por mensagem **12/02/2015**, prazo reconhecido pelo colegiado **16/03/2015**, manifestação **22/04/2015**, julgamento **20/05/2026** e publicação **18/06/2026**. **Sem log original de abertura dos anexos; não aplicar LC227/2026 retroativamente**. Estado Q.
+
+## Ciclo 34 — MS 27.227 versus Tema 1.329/STJ (14/10/2026)
+- [Dossiê de precedentes e resultados distintos](DOSSIE_CICLO34_MS27227_TEMA1329.md), [12 hipóteses adversariais](MATRIZ_CICLO34_CONTRASTE_EDITAL_STJ.csv), [validador](../../../scripts/validar_t07_ciclo34_editais.py) e [continuidade 34](CONTINUIDADE_34.md).
+- **MS 27.227/DF:** edital inválido em revisão de anistia após notificação postal insuficiente a interessado de endereço conhecido. **Tema 1.329/STJ:** nulidade do edital de alegações finais em processo ambiental, sob art.122 original do Decreto6.514/2008, exige prejuízo efetivo. A regra ambiental mudou em 2019 e 2023. Sem generalização de nulidade/validade entre regimes; interface T43 e C0-J continuam Q, `DEC-016` pendente.
+
+## Ciclo 35 — seis regimes de intimação ambiental e alteração indireta de 2024 (14/10/2026)
+- [Matriz de seis janelas do Decreto 6.514, art. 122](MATRIZ_CICLO35_SEIS_PERIODOS_AMBIENTAL_2008_2026.csv), [dossiê de redações 2008/2019/2022/2023/2024](DOSSIE_CICLO35_CRONOLOGIA_ART122_AMBIENTAL.md), [validador de fronteiras](../../../scripts/validar_t07_ciclo35_ambiental.py) e [continuidade35](CONTINUIDADE_35.md).
+- Marcos de vigência: 23/07/2008, 11/12/2008 (**parágrafo único criado**), 08/10/2019 (**vacatio 180 dias** do Decreto9760), 24/05/2022, 02/01/2023 (publicação Decreto11373) e **20/09/2024** (**Decreto12189 mudou art96 §4, referido pelo art122**). Tema1329/STJ usa expressão “redação original do parágrafo único”: não confundir com §§1º e 2º da primeira edição de julho2008.
+- Não universalizar validade do edital ou nulidade do procedimento, não inferir ciência de logs sem prova e regra especial. C0-J/R2/DEC016 continuam Q.
+
+## Ciclo 36 — caso real ICMBio com AR de 2014 e edital de alegações (14/10/2026)
+- [Dossiê REsp 2.154.295/RS Tema 1.329/STJ](DOSSIE_CICLO36_ICMBIO_TEMA1329_CASO_REAL.md), [matriz de 12 fatos e lacunas](MATRIZ_CICLO36_ICMBIO_REsp2154295_CASO_REAL.csv), [validador](../../../scripts/validar_t07_ciclo36_icmbio.py) e [continuidade36](CONTINUIDADE_36.md).
+- ICMBio processo **02180.000085/2014-94**, auto **039245-B** de 25/03/2014 com AR 05/05/2014; **edital posterior para alegações finais** sem dia exato no trecho consultado; execução fiscal 5000864-56.2019.4.04.7204; STJ j.08/10/2025 afastou nulidade por falta de prejuízo concretamente demonstrado. Fatos administrativos de **2014 = período P1** (art.122 do Decreto6.514), não a norma técnica de 2025; não confundir AR do auto com edital das alegações. C0-J Q.
+
+## Ciclo 37 — edital ambiental real de março de 2025 (14/10/2026)
+- [Dossiê do Edital Ibama DIPRO 1/2025, DOU 28/03/2025](DOSSIE_CICLO37_EDITAL_IBAMA_2025.md), [matriz de 9 fatos e lacunas](MATRIZ_CICLO37_EDITAL_IBAMA_2025_PROCESSOS.csv), [validador](../../../scripts/validar_t07_ciclo37_edital_2025.py) e [continuidade37](CONTINUIDADE_37.md).
+- Edital coletivo nº **02001.006658/2025-15**, três processos listados e prazo **declarado** de dez dias; janela **P5**, após mudança indireta de art.96 §4 em 2024. Alegação oficial de endereço desconhecido/diligências frustradas **não substitui ARs e certidões individuais**. Fonte DOU identificada na indexação, fac-símile ainda por conferir; **não certificar ciência, vencimento ou nulidade**. C0-J Q, DEC-016/R2 pendentes.
+
+## Ciclo 38 — prova de ciência, leis especiais e dados protegidos (14/10/2026)
+- [Dossiê de interface T07↔T43 e protocolo mínimo de prova](DOSSIE_CICLO38_INTERFACE_PROVA_DIREITOS_T43.md): compara DTE fiscal de 2015, edital ICMBio de 2014, edital Ibama de 2025, recurso especial da Lei 14.129 art. 35 e as garantias de dados pessoais dos 14 destinos de T43 F1-L.
+- Sete salvaguardas: não igualar envio à ciência; não assumir edital sempre válido/nulo; distinguir AR do auto e das alegações; aplicar norma vigente na data do ato; não publicar dados pessoais por mera auditabilidade; preservar recurso especial; não retroagir prazos de 2026 ou meios eletrônicos de 2024. **Q jurídico; R2, M e DEC-016 não aprovados.**

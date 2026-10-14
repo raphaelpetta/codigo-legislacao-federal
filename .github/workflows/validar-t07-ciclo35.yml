@@ -1,0 +1,16 @@
+name: T07 ciclo35 — cadeia ambiental e remissao art96
+on:
+  pull_request:
+    paths:
+      - 'modulos/T07/M03/MATRIZ_CICLO35_SEIS_PERIODOS_AMBIENTAL_2008_2026.csv'
+      - 'scripts/validar_t07_ciclo35_ambiental.py'
+      - '.github/workflows/validar-t07-ciclo35.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  seis_periodos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_t07_ciclo35_ambiental.py

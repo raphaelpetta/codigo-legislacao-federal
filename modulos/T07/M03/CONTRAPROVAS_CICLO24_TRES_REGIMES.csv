@@ -1,0 +1,13 @@
+id_teste;regime;hipotese_hipotetica;controle_e_conclusao_provisoria;base_legal;resultado;estado
+"A01";"GERAL";"SEI registra protocolo de resposta";"Nao prova que ato de intimação anterior foi recebido";"DECRETO 8539 art7 vs Lei9784 art26";"NEGAR_C0_AUTOMATICO";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A02";"GERAL";"Canal governamental indisponivel ultimo dia";"Prazo pode ser prorrogado por falha com prova tecnica";"DECRETO 8539 art7 §2";"MANTER_Q_FATOS";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A03";"GERAL";"Cidadao nao aderiu a comunicacao facultativa";"Exame art42 Lei14129 e regime do orgao";"Lei 14129 art42";"MANTER_Q_ESPECIALIDADE";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A04";"FISCAL";"Mensagem entregue domicilio em 1 dia e consulta em dia 3";"Data de intimacao pode ser consulta antecipada, conforme §2 III b";"Decreto 70235 art23 §2 III a-b";"NAO_GENERALIZAR";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A05";"FISCAL";"Sem consulta, entrega documentada e prazo especial";"Prazo legal de quinze dias para ciencia ficta; nao confundir com prazo de defesa";"Decreto 70235 art23 §2 III a";"NAO_GENERALIZAR";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A06";"FISCAL";"Domicilio eletronico nao autorizado";"Consentimento expresso art23 §5, ressalvados outros regimes especiais que devem ser estudados";"Decreto 70235 art23 §4-5";"MANTER_Q_INCIDENTE";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A07";"INSS";"E-mail cadastrado e 5 dias desde emissao PAT";"Ficcao da portaria confrontada com prova de recebimento e TCU 9.1.1";"Portaria993 art20 I; TCU2002";"VERIFICAR_LEGALIDADE_E_FATO";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A08";"INSS";"Requerente acessa Meu INSS autenticado e manifesta";"Consulta ou manifestacao pode ensejar ciencia conforme art20 II";"Portaria993 art20 II §§5-6";"MANTER_Q_FATO";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A09";"INSS";"Recusa beneficio sem comprovante de mensagem";"Examinar nulidade, prejuizo, prova, art20 e Lei14129 art43 II";"TCU2002/2024 art9.1.1";"VERIFICAR_CUMPRIMENTO";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A10";"INSS";"Intimacao postal frustrada e endereco CNIS atualizado";"Examinar diligencias e regras art22-24, MS27227";"Portaria993 art22-24";"MANTER_Q_EDITAL";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A11";"COMPARACAO";"Copiar 15 dias DTE para notificacoes INSS";"Mistura normas e destinatarios de sistemas diferentes";"Decreto70235 art23 vs Portaria993 art20";"BLOQUEAR_C0";"CENARIO_ABSTRATO_SEM_CASO_REAL"
+"A12";"COMPARACAO";"Aplicar 5 dias de PAT a qualquer SEI federal";"Generaliza presuncao infralegal fora de seu campo";"Lei9784 art26 e Decreto8539";"BLOQUEAR_C0";"CENARIO_ABSTRATO_SEM_CASO_REAL"

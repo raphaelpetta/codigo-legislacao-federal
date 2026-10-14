@@ -1,0 +1,16 @@
+name: T07 ciclo36 — fatos reais ICMBio Tema1329
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_t07_ciclo36_icmbio.py'
+      - 'modulos/T07/M03/MATRIZ_CICLO36_ICMBIO_REsp2154295_CASO_REAL.csv'
+      - '.github/workflows/validar-t07-ciclo36.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  caso_ambiental:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_t07_ciclo36_icmbio.py

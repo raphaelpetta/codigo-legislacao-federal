@@ -1,0 +1,16 @@
+name: T07 ciclo37 — edital IBAMA 2025 e lacunas de ciência
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_t07_ciclo37_edital_2025.py'
+      - 'modulos/T07/M03/MATRIZ_CICLO37_EDITAL_IBAMA_2025_PROCESSOS.csv'
+      - '.github/workflows/validar-t07-ciclo37.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  edital_2025:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_t07_ciclo37_edital_2025.py

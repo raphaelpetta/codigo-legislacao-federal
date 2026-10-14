@@ -1,0 +1,4 @@
+# T07.M03 — Continuidade ciclo 32 (14/10/2026)
+**FEITO:** [redline hipotético X6 especialidade](MINUTA_CICLO32_X6_ESPECIALIDADE_DADOS_ABERTOS.md) + [12 testes](MATRIZ_CICLO32_DADOS_ABERTOS_RECURSOS_ESPECIAIS.csv). Art.35 Lei14.129 rejeitou veto (DOU11/06/2021) e criou recurso 10 dias desde ciência com **cinco dias para manifestação da autoridade superior**; distinta da reconsideração 5 dias pela autoridade que decidiu (Lei9784 art56§1) e da decisão geral 30 dias (art59§1). Art30§2 LAI e art37 Lei9784 subsidiária. Não restaurar art32 PU com veto mantido. Todos Q, texto C1/M potencial.
+**PENDENTE:** jurisprudência e casos individualizados, cadeia LAI/prazo especial, origem DOU e operações dos sistemas, remissões R1/R2/DEC016, art2 federatividade Lei14129. 
+**PRÓXIMO:** redline X2 com tipologia de 26 campos no contrato T43, confrontos em atos reais, tratamento intertemporal Lei227/2026 em T12, sem promover C0-J ou M.

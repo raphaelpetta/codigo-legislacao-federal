@@ -1,0 +1,20 @@
+name: T07 — art35 dados abertos, 12 salvaguardas
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_t07_ciclo32_dados_abertos.py'
+      - 'modulos/T07/M03/MATRIZ_CICLO32_DADOS_ABERTOS_RECURSOS_ESPECIAIS.csv'
+      - 'modulos/T07/M03/MINUTA_CICLO32_X6_ESPECIALIDADE_DADOS_ABERTOS.md'
+      - '.github/workflows/validar-t07-ciclo32.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  garantias_dados:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_t07_ciclo32_dados_abertos.py

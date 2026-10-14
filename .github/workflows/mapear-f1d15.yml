@@ -1,0 +1,28 @@
+name: T24 F1D15 — ocorrência para alvos CPC85
+on:
+  pull_request:
+    paths:
+      - 'scripts/mapear_f1d15_ocorrencias_alvos.py'
+      - 'modulos/T24/M01/MATRIZ_F1D13_45_PARES_LITERAL_CONTEXTO.csv'
+      - '.github/workflows/mapear-f1d15.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ligar_ocorrencias:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install beautifulsoup4
+      - run: python scripts/mapear_f1d15_ocorrencias_alvos.py --csv /tmp/t24-f1d15-mapa.csv --json /tmp/t24-f1d15-mapa.json
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t24-f1d15-ocorrencias-destinos
+          path: |
+            /tmp/t24-f1d15-mapa.csv
+            /tmp/t24-f1d15-mapa.json
+          if-no-files-found: warn

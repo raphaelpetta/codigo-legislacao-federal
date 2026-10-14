@@ -137,7 +137,23 @@ Complemento **não duplicativo** da matriz F1-A: [F1B_MATRIZ_QUATRO_DIVERGENCIAS
 
 **Pendente:** fac-símiles DOU e comparação textual independente, versão oficial atualizada da IN RFB2110 (a consulta não retornou conteúdo autenticável), inteiro teor de decisões e conclusão do Tema1271, inventário literal global. Nenhum C0/C1/M nem revogação aprovado. **Próximo F1-E:** fechar fontes e testar equivalência material dos quatro conflitos antes de F2.
 
-## 12. Histórico
+## 12. Rodada 06 — F1-E: MP1523/1996, STJ Tema732 e autenticação de fontes
+
+**Errata histórica obrigatória:** a retirada do menor sob guarda da **letra do art.16 §2 Lei8213** ocorreu **já na MP1.523 de 11/10/1996, DOU 14/10/1996, art.2º**, vigente na publicação pelo art.5º. **A Lei9.528/1997 é o marco de conversão posterior, não a primeira redação excludente.** As reedições e eventuais efeitos de perdas/renovações de eficácia de 1996–1997 ainda devem ser auditadas individualmente.
+
+**Precedente qualificado acrescido:** [STJ Tema732 — REsp 1.411.258/RS](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=732&cod_tema_inicial=732&novaConsulta=true&tipo_pesquisa=T), julgado **11/10/2017**, publicado **21/02/2018**, trânsito **09/03/2023**: menor sob guarda economicamente dependente pode obter pensão mesmo após MP1523/1996. A tese não resolveu expressamente **EC103/2019 art23 §6º**, sujeito ao STF Tema1271.
+
+**Dados e resultados desta rodada:**
+- [F1E_CADEIAS_FONTE_19_EVENTOS.csv](F1E_CADEIAS_FONTE_19_EVENTOS.csv): **19 eventos com fontes e datas**, sem classe de equivalência C0/C1/M.
+- [RELATORIO_F1E_RETIFICACAO_MP1996_TEMA732_E_FONTES.md](RELATORIO_F1E_RETIFICACAO_MP1996_TEMA732_E_FONTES.md): fontes primárias e quatro questões F1.
+- [F1C_CASOS_TEMPORAIS_18.csv](F1C_CASOS_TEMPORAIS_18.csv) corrigido, IDs **C10/C11** atualizados para marco **14/10/1996** e Tema732, mantendo 18 casos.
+- [PACOTE_CONTINUIDADE_RODADA_06.md](PACOTE_CONTINUIDADE_RODADA_06.md): FEITO/PENDENTE/PRÓXIMO.
+
+**Outros avanços:** Senado confirmou DOU31/10/1997 da Lei9506; LexML confirmou DOU21/06/2004 da Lei10887; [RFB oficial](https://normas.receita.fazenda.gov.br/sijut2consulta/consulta/link.action?idAto=126687&visao=original) disponibiliza texto original de IN2110 art9§5 IX (PSA) e histórico de alterações **2024/2025/2026**, mas não foi certificada por dispositivo sua redação final de outubro/2026. **Próximo F1-F:** reconstrução literal da cadeia de reedições da MP1523/1996–1997, inclusive datas/efeitos.
+
+Nenhuma regra CLF foi redigida, nenhuma reforma M foi ratificada, nenhum outro módulo alterado e PR continua draft; F1 parcial e F2 ainda pendente.
+
+## 13. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

@@ -1,0 +1,16 @@
+name: T07 ciclo33 — evidencias CARF 1301-008239
+on:
+  pull_request:
+    paths:
+      - 'modulos/T07/M03/MATRIZ_CICLO33_CARF_1301_008239_EVENTOS.csv'
+      - 'scripts/validar_ciclo33_carf.py'
+      - '.github/workflows/validar-ciclo33-carf.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  carf_provas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_ciclo33_carf.py

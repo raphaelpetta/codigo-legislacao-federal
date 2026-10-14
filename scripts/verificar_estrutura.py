@@ -124,7 +124,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if not (rec.get("url_oficial") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: URL oficial vazia ou nao HTTPS")
-    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13", "CONCORDANCIA_LITERAL_ART3_17_15", "CONCORDANCIA_LITERAL_ART18_28_16")):
+    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13", "CONCORDANCIA_LITERAL_ART3_17_15", "CONCORDANCIA_LITERAL_ART18_28_16", "CONCORDANCIA_LITERAL_ART29_47_17")):
         recs = read_csv(path, {
             "id_origem", "id_destino", "tipo_relacao", "categoria",
             "justificativa", "status_verificacao",
@@ -551,6 +551,67 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, r in enumerate(recs, 2):
             if r["estado_auditoria"] != "PENDENTE_EQUIVALENCIA_JURIDICA":
                 fail(f"{path.relative_to(ROOT)}:{idx}: dependência considerada validada sem prova")
+    elif name.startswith("CONCORDANCIA_LITERAL_ART29_47_17"):
+        recs = read_csv(path, {
+            "id_unidade", "origem_dispositivo", "unidade",
+            "texto_fonte_literal", "texto_espelho_literal",
+            "categoria_textual", "equivalencia_juridica", "situacao_clf",
+            "fonte_primaria",
+        })
+        unique(recs, "id_unidade", str(path.relative_to(ROOT)))
+        required_counts = {"29": 3, "30": 1, "31": 3, "32": 1, "33": 1, "34": 1,
+                           "35": 1, "36": 1, "37": 1, "38": 3, "39": 2, "40": 1,
+                           "41": 1, "42": 3, "43": 1, "44": 1, "45": 1, "46": 1,
+                           "47": 1}
+        from collections import Counter
+        counts = Counter()
+        corpus = (path.parent / "PILOTO_17_INSTRUCAO_ART29_47.md").read_text(encoding="utf-8")
+        for idx, r in enumerate(recs, 2):
+            if not r["id_unidade"].startswith("EXP17-"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: ID experimental inválido")
+                continue
+            parts = r["id_unidade"].split("-", 2)
+            if len(parts) != 3:
+                fail(f"{path.relative_to(ROOT)}:{idx}: ID incompleto")
+                continue
+            art, unit = parts[1:]
+            counts[art] += 1
+            if r["origem_dispositivo"] != f"Lei 9.784/1999, art. {art}" or r["unidade"] != unit:
+                fail(f"{path.relative_to(ROOT)}:{idx}: divergência da referência original")
+            if r["texto_fonte_literal"] != r["texto_espelho_literal"]:
+                fail(f"{path.relative_to(ROOT)}:{idx}: textos de origem/espelho diferem")
+            if r["texto_espelho_literal"] not in corpus:
+                fail(f"{path.relative_to(ROOT)}:{idx}: texto integral não está no piloto MD")
+            if r["categoria_textual"] != "C0_T_LITERAL" or r["equivalencia_juridica"] != "Q":
+                fail(f"{path.relative_to(ROOT)}:{idx}: equivalência jurídica declarada antes do exame")
+            if r["situacao_clf"] != "NAO_PROMULGADO":
+                fail(f"{path.relative_to(ROOT)}:{idx}: simulação não pode ser lei promulgada")
+            if not r["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte primária ausente")
+        if dict(counts) != required_counts or len(recs) != 28:
+            fail(f"{path.relative_to(ROOT)}: universo do Capítulo X incompleto (28 unidades)")
+    elif name.startswith("TESTES_ADVERSARIAIS_INSTRUCAO_17"):
+        recs = read_csv(path, {
+            "id_caso", "bloco", "artigo", "evento_hipotetico", "resultado_preliminar",
+            "status", "efeito_normativo", "fonte",
+        })
+        unique(recs, "id_caso", str(path.relative_to(ROOT)))
+        if {r["id_caso"] for r in recs} != {f"T17-{i:03d}" for i in range(1, 37)}:
+            fail(f"{path.relative_to(ROOT)}: 36 cenários necessários")
+        for idx, r in enumerate(recs, 2):
+            if r["status"] != "SIMULACAO_ADVERSARIAL" or r["efeito_normativo"] != "NENHUM":
+                fail(f"{path.relative_to(ROOT)}:{idx}: teste hipóteses tratado como norma")
+    elif name.startswith("DEPENDENCIAS_INSTRUCAO_17"):
+        recs = read_csv(path, {
+            "id_relacao", "artigo_origem", "artigo_referenciado", "fundamento_do_nexo",
+            "classe", "risco", "status", "fonte",
+        })
+        unique(recs, "id_relacao", str(path.relative_to(ROOT)))
+        if {r["id_relacao"] for r in recs} != {f"NEX17-{i:03d}" for i in range(1, 35)}:
+            fail(f"{path.relative_to(ROOT)}: 34 relações necessárias")
+        for idx, r in enumerate(recs, 2):
+            if r["status"] != "PENDENTE_C0_J":
+                fail(f"{path.relative_to(ROOT)}:{idx}: nexo declarado validado antes da prova")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

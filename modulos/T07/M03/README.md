@@ -152,3 +152,7 @@ A frente **T43.M04** foi efetivamente iniciada de modo independente na [issue #4
 
 ## Ciclo 33 — caso CARF de 2026 com ciência DTE em 2015 (14/10/2026)
 [Dossiê do acórdão CARF 1301-008.239](DOSSIE_CICLO33_CARF_1301_008239.md), [seis eventos com dados ou lacuna](MATRIZ_CICLO33_CARF_1301_008239_EVENTOS.csv), [validador](../../../scripts/validar_ciclo33_carf.py) e [continuidade33](CONTINUIDADE_33.md). Processo **13896.720305/2014-50**: ciência por mensagem **12/02/2015**, prazo reconhecido pelo colegiado **16/03/2015**, manifestação **22/04/2015**, julgamento **20/05/2026** e publicação **18/06/2026**. **Sem log original de abertura dos anexos; não aplicar LC227/2026 retroativamente**. Estado Q.
+
+## Ciclo 34 — MS 27.227 versus Tema 1.329/STJ (14/10/2026)
+- [Dossiê de precedentes e resultados distintos](DOSSIE_CICLO34_MS27227_TEMA1329.md), [12 hipóteses adversariais](MATRIZ_CICLO34_CONTRASTE_EDITAL_STJ.csv), [validador](../../../scripts/validar_t07_ciclo34_editais.py) e [continuidade 34](CONTINUIDADE_34.md).
+- **MS 27.227/DF:** edital inválido em revisão de anistia após notificação postal insuficiente a interessado de endereço conhecido. **Tema 1.329/STJ:** nulidade do edital de alegações finais em processo ambiental, sob art.122 original do Decreto6.514/2008, exige prejuízo efetivo. A regra ambiental mudou em 2019 e 2023. Sem generalização de nulidade/validade entre regimes; interface T43 e C0-J continuam Q, `DEC-016` pendente.

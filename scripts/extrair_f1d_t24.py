@@ -16,6 +16,7 @@ import re
 import sys
 import unicodedata
 import urllib.request
+import time
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
@@ -35,8 +36,22 @@ def norm(t):
 
 def source(url):
     request = urllib.request.Request(url, headers={"User-Agent":"CLF textual-verifier research 2026"})
-    with urllib.request.urlopen(request, timeout=50) as resp:
-        raw = resp.read(10_000_000)
+    raw = None
+    error = None
+    # Páginas oficiais podem falhar transitoriamente sob CI. Repetir somente
+    # transporte; uma captura suspeita continuará bloqueada pela validação.
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=65) as resp:
+                raw = resp.read(10_000_000)
+            break
+        except (OSError, TimeoutError) as exc:
+            error = exc
+            print(f"Fonte oficial temporariamente indisponível: {url} tentativa={attempt+1}/3 erro={type(exc).__name__}",flush=True)
+            if attempt < 2:
+                time.sleep(4 * (attempt + 1))
+    if raw is None:
+        raise ConnectionError(f"Fonte oficial inacessível após três tentativas: {url}: {error!r}")
     soup = BeautifulSoup(raw, "html.parser")
     for tag in soup(["script","style","nav","footer"]):
         tag.decompose()

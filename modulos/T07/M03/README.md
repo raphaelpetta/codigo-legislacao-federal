@@ -84,3 +84,9 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [`ARQUITETURA_E_MINUTA_DEMONSTRATIVA_CICLO20.md`](ARQUITETURA_E_MINUTA_DEMONSTRATIVA_CICLO20.md): **14 cláusulas experimentais**, com seis títulos dentro de **um Livro do Processo Administrativo Federal**, regras gerais uma vez e complementos específicos sem supressão de direitos.
 
 **Alcance:** QA verifica se as 215 linhas de triagem coincidem com seus seis CSVs originais, mas **não** valida os textos contra todo o DOU nem certifica equivalência C0-J. Não há artigos homologados, lei promulgada ou revogação. `DEC-001` objetivo de Código uno; `DEC-016` instrumento promulgatório pendente. **Próximo ciclo:** auditoria aprofundada por blocos com direito externo e efeitos temporais.
+
+## Ciclo 21 — âmbito federal, subsidiariedade e comunicações digitais (14/10/2026)
+- [Dossiê 21](DOSSIE_21_AMBITO_INTIMACAO_DIGITAL.md): revisão de Lei 9.784 arts. 1–3/69 e 22–28/41 em confronto com Lei 14.129/2021 arts. 2, 7–9 e 42–43, LINDB 20–30 e CPC art. 15; duas alternativas arquitetônicas Q (R1/R2).
+- [Matriz de 18 cenários](MATRIZ_AUDITORIA_BLOCOS_CICLO21.csv): riscos verificáveis de ampliação do âmbito, falsa equiparação de emissão/recebimento à ciência, perda de opt-in/opt-out e de garantias de intimação, todas classificadas Q.
+- [Pacote de continuidade 21](CONTINUIDADE_21.md) com FEITO/PENDENTE/PRÓXIMO.
+**Limite:** não houve certificação C0-J das 215 unidades, nem aprovação de redação final, promulgação ou revogação. Próximo: casos jurisprudenciais reais de intimação digital e concordância funcional das subunidades prioritárias.

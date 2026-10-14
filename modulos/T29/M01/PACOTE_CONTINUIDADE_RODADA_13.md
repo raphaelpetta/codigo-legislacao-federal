@@ -1,0 +1,25 @@
+# T29.M01 — Pacote de continuidade, rodada 13 / F3-C
+
+**Corte:** 14/10/2026 · **Dono:** T29.M01 · [issue #40](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/40) · [PR #41 draft](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/41) · Branch `modulo/T29-M01-segurados-dependentes-f0-f1-20261014`. **Main original CLF:** `16fba172c875c7a0de388288fe70005c944021d6`. **T24 e T29.M02/M05/M06/T01 não editados.** CF/1988+EC103 são parâmetro; CF futura e C0/C1/M pendentes.
+
+## FEITO (não repetir)
+- [17 achados e comandos do TCU](F3C_MATRIZ_TCU_17_DELIBERACOES.csv), com natureza, subitem, datas, URL, prazo, acompanhamento e não comprovação de implantação individual.
+- [9 fontes/datasets e lacunas](F3C_FONTES_MICRODADOS_E_LACUNAS_09.csv), com campos e limites de evidência; a [base SUIBE de indeferimentos](https://dadosabertos.inss.gov.br/dataset/beneficios-indeferidos-plano-de-dados-abertos-jun-2023-a-jun-2025) existe com **motivo do indeferimento** por mês, espécie, filiação, UF e DER até agosto/2026. [Recurso agosto/2026](https://dadosabertos.inss.gov.br/dataset/beneficios-indeferidos-plano-de-dados-abertos-jun-2023-a-jun-2025/resource/673c05c7-93a1-4d6c-9cdd-1d9208a4df20), criado/atualizado 22/09/2026, XLSX. Download do armazenamento falhou **HTTP 403**; **não houve análise quantitativa de seus registros**, nem motivo por espécie calculado.
+- [Relatório F3-C](RELATORIO_F3C_TCU_INDEFERIMENTOS_MICRODADOS_2026.md), com o Acórdão **2.207/2026** como atualização de monitoramento, e Acórdão **634/2025** sobre indeferimentos indevidos. **Errata** inserida no [relatório F3-B](RELATORIO_F3B_EVIDENCIAS_INSS_CNIS_TCU_CNJ_2026.md), porque BEPS não listar motivos não significa indisponibilidade pública dos microdados.
+- README atualizado. Fontes TCU consultadas por **trechos indexados das decisões e notícias institucionais**, não inteiros teores íntegros com anexos e acesso JS completo.
+
+**Achados jurídicos/documentais:** [TCU 2002/2024](https://pesquisa.apps.tcu.gov.br/doc/acordao-completo/2002/2024/Plen%C3%A1rio) — comprovação da ciência eletrônica, juntada do extrato CNIS e plano de tratamento das pendências; [TCU 2591/2024](https://pesquisa.apps.tcu.gov.br/doc/acordao-completo/2591/2024/Plen%C3%A1rio) — estudo/cronograma de sincronização CNIS e sistemas, plano para dados incoerentes; [TCU 634/2025](https://pesquisa.apps.tcu.gov.br/doc/acordao-completo/634/2025/Plen%C3%A1rio) — 10,94% indeferimentos automáticos indevidos em **recorte Jan–Mai 2024**; [TCU 1498/2026](https://portal.tcu.gov.br/imprensa/noticias/tcu-fiscaliza-sistema-de-concessao-automatica-de-beneficios-do-inss) — notificação de pendências e liberação de incontroverso, prazo 180 dias **não integralmente decorrido em 14/10**; [TCU 2207/2026](https://pesquisa.apps.tcu.gov.br/doc/acordao-completo/2207/2026/Plen%C3%A1rio) — agosto/2026, alto risco permanece, Icon 83,8% vs meta 90,8%, Supertec 99,9% vs meta 93,9%, indeferimento indevido em supervisão manual crescendo em ciclos recentes. A auditoria 634/2025 também identificou **13,20% manuais indevidos e 28,64% inconsistências de risco** nos próprios recortes. **Nunca extrapolar para total nacional sem denominadores e desenho amostral.**
+
+## PENDENTE
+1. Arquivos SUIBE XLSX de motivos não baixados; dicionário de códigos, série por DER, razão da negativa por categoria e amostras de fundamentação jurídica permanecem pendentes.
+2. INSS RAC/CNIS: contagens de pedidos, taxa de acerto, mediana de tramitação e correções por causa **não encontradas**. [Portaria DIRBEN 990](https://portalin.inss.gov.br/portaria990) demonstra procedimento, não eficiência de implementação.
+3. Cumprimento **por subitem** de TCU 2002, 2591, 634, 1498 **não certificado**. Vencimento de prazo não significa atendimento nem descumprimento; 2207 comprova avanços parciais e risco geral remanescente.
+4. F1 literal T29 ainda parcial, F2-D coordenação separada; F3 não prova benefício causal de A/B/C. F4/F5/C0/C1/M não ratificados. PR draft, `main` intocada.
+5. Revisão independente do relatório, CI último SHA e conferência detalhada dos itens do TCU permanecem.
+
+## PRÓXIMO — F3-D, sem repetir F3-C
+**Recuperação e análise documentada dos arquivos SUIBE** por meio de acesso público permitido, se viável; identificar e versionar códigos de motivo e produzir frequências por competência, espécie e filiação **com denominadores explícitos e ressalva de que motivo declarado não é erro jurídico**. Se acesso permanecer bloqueado, obter resposta/arquivos por canal institucional/LAI mediante atuação autorizada e publicar lacuna, não inventar números.
+
+**Segundo eixo:** evidência de implantação de cada determinação TCU, por monitoramentos/cópias de plano e indicadores, e obtenção agregada de RAC CNIS. **Critério:** informações de execução vinculadas a decisões específicas, distinção compromisso→entrega→resultado, sem importar regras do M06 ou firmar mudanças M de forma unilateral.
+
+**Controle:** pesquisa documental F3-C concluída dentro do recorte; fontes e incertezas conservadas, módulos vizinhos não alterados, 51 testes da F2-C permanecem referencial protetivo.

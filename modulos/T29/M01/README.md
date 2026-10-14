@@ -210,6 +210,10 @@ Durante a rodada foram identificados **dois conjuntos F2-C em paralelo na mesma 
 
 **Próximo controle antes de F4/F5:** conciliar modelos E/P e nove casos em F2-D, unificando a responsabilidade sobre o T29.M01 para impedir terceira rodada F2-C repetida; F3-A comparativa é trabalho distinto e pode prosseguir sem converter Q em norma.
 
+### Retificação de coordenação da F2-C
+
+Ao final da rodada surgiram duas séries F2-C no mesmo PR. A [nota de reconciliação](NOTA_F2C_RECONCILIACAO_DUAS_TRILHAS.md) fixa **provisoriamente P19 (19 entidades, 20 invariantes, 34 origens normativas)** como referência e **E15 (15 entidades, 56 regras/transições)** como controle cruzado, não duas frentes independentes. Os **47 casos são os mesmos**, com **quatro adicionais** na série P (51 hipóteses distintas). Status de dúvida não é equivalente entre séries. O relatório P identificou **dois dispositivos previstos como art. 73-A da Lei8.213**, um vigente de salário-maternidade desde 26/05/2026 (Lei15.415) e outro de salário-paternidade com vigência em 01/01/2027 (Lei15.371); efeitos futuros são Q e exigem interface M05/M06/T01. **Não usar este README para concluir renumeração, revogação ou C1.**
+
 ## 17. Histórico
 
 

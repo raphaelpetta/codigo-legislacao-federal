@@ -214,7 +214,15 @@ Durante a rodada foram identificados **dois conjuntos F2-C em paralelo na mesma 
 
 Ao final da rodada surgiram duas séries F2-C no mesmo PR. A [nota de reconciliação](NOTA_F2C_RECONCILIACAO_DUAS_TRILHAS.md) fixa **provisoriamente P19 (19 entidades, 20 invariantes, 34 origens normativas)** como referência e **E15 (15 entidades, 56 regras/transições)** como controle cruzado, não duas frentes independentes. Os **47 casos são os mesmos**, com **quatro adicionais** na série P (51 hipóteses distintas). Status de dúvida não é equivalente entre séries. O relatório P identificou **dois dispositivos previstos como art. 73-A da Lei8.213**, um vigente de salário-maternidade desde 26/05/2026 (Lei15.415) e outro de salário-paternidade com vigência em 01/01/2027 (Lei15.371); efeitos futuros são Q e exigem interface M05/M06/T01. **Não usar este README para concluir renumeração, revogação ou C1.**
 
-## 17. Histórico
+## 17. Rodada 11 — F3-A comparada (14/10/2026)
+
+**Escopo independente da F2-D e sem minuta legal:** pesquisa comparada de **Alemanha, Espanha, Portugal e Uruguai**, mais OIT, em [17 mecanismos documentados](F3A_MATRIZ_COMPARADA_17_MECANISMOS.csv). O [relatório F3-A](RELATORIO_F3A_DIREITO_COMPARADO_E_OPCOES_PRELIMINARES.md) distingue organização legislativa, filiação, cadastro, responsabilidade contributiva, proteção em períodos sem contribuição e prova da atividade. **Não atribui causalidade nem transplanta requisitos estrangeiros para o RGPS**.
+
+[Três alternativas qualitativas confrontadas com dez riscos (30 cruzamentos)](F3A_TESTE_TRES_ARQUITETURAS_30_RISCOS.csv): (A) núcleo comum e especialidades de M02/M03–M05/M06/M07; (B) regimes separados com coordenação; (C) unificação integral, de alto risco para direitos e custeio. São **candidatas a F4**, não decisão aprovada, C1 ou M.
+
+[Agenda brasileira de dez indicadores](F3A_AGENDA_EVIDENCIA_BRASIL_10_INDICADORES.csv) identifica BEPS 2026, Transparência INSS, painéis RGPS e TCU/CNIS, **sem fingir coleta de números nem eficácia empírica comprovada**. [Continuidade rodada 11](PACOTE_CONTINUIDADE_RODADA_11.md). **Próximo F3-B:** levantar dados de implementação, cadastro, prova e litígio com denominadores e fontes auditáveis; a F2-D de conciliação anterior segue responsabilidade distinta. Nenhum arquivo de outros módulos ou `main` alterado; PR draft.
+
+## 18. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

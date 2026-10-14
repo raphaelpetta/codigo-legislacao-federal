@@ -124,7 +124,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if not (rec.get("url_oficial") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: URL oficial vazia ou nao HTTPS")
-    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13", "CONCORDANCIA_LITERAL_ART3_17_15", "CONCORDANCIA_LITERAL_ART18_28_16", "CONCORDANCIA_LITERAL_ART29_47_17")):
+    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13", "CONCORDANCIA_LITERAL_ART3_17_15", "CONCORDANCIA_LITERAL_ART18_28_16", "CONCORDANCIA_LITERAL_ART29_47_17", "CONCORDANCIA_LITERAL_ART48_50_CICLO18")):
         recs = read_csv(path, {
             "id_origem", "id_destino", "tipo_relacao", "categoria",
             "justificativa", "status_verificacao",
@@ -612,6 +612,63 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, r in enumerate(recs, 2):
             if r["status"] != "PENDENTE_C0_J":
                 fail(f"{path.relative_to(ROOT)}:{idx}: nexo declarado validado antes da prova")
+    elif name.startswith("CONCORDANCIA_LITERAL_ART48_50_CICLO18"):
+        recs = read_csv(path, {"id", "artigo", "unidade", "texto_fonte_literal",
+                               "texto_espelho_literal", "status_textual",
+                               "equivalencia_juridica", "efeito_normativo",
+                               "situacao_codificacao", "fonte_oficial"})
+        unique(recs, "id", str(path.relative_to(ROOT)))
+        positive = {"48", "49", "49-A", "49-B", "49-D", "49-E",
+                    "49-F", "49-G", "50"}
+        ids = set()
+        doc = (path.parent / "PILOTO_18_DECISAO_COORDENADA_MOTIVACAO.md").read_text(encoding="utf-8")
+        for n, r in enumerate(recs, 2):
+            aid = r["artigo"]
+            if aid not in positive or aid == "49-C":
+                fail(f"{path.relative_to(ROOT)}:{n}: unidade vetada ou fora do escopo")
+            ids.add(aid)
+            if r["texto_fonte_literal"] != r["texto_espelho_literal"]:
+                fail(f"{path.relative_to(ROOT)}:{n}: texto espelhado diverge da origem")
+            if r["texto_espelho_literal"] not in doc:
+                fail(f"{path.relative_to(ROOT)}:{n}: texto não consta do dossiê integral")
+            if (r["status_textual"] != "C0-T_VERIFICACAO_AUTOMATICA_DE_IDENTIDADE"
+                or r["equivalencia_juridica"] != "Q"
+                or r["situacao_codificacao"] != "NAO_PROMULGADO"
+                or r["efeito_normativo"] != "NENHUM"):
+                fail(f"{path.relative_to(ROOT)}:{n}: efeito ou equivalência jurídica indevidamente homologados")
+            if not r["fonte_oficial"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{n}: falta fonte HTTPS")
+        if len(recs) != 40 or ids != positive:
+            fail(f"{path.relative_to(ROOT)}: são necessárias 40 unidades positivas em nove artigos")
+    elif name.startswith("REGISTRO_VETOS_LEI14210_CICLO18"):
+        recs = read_csv(path, {"id", "artigo", "unidade", "situacao",
+                               "proibido_incorporar_direito_positivo", "fonte_primaria"})
+        unique(recs, "id", str(path.relative_to(ROOT)))
+        if len(recs) != 6:
+            fail(f"{path.relative_to(ROOT)}: registro deve conter seis unidades de veto")
+        for n, r in enumerate(recs, 2):
+            if r["proibido_incorporar_direito_positivo"] != "SIM":
+                fail(f"{path.relative_to(ROOT)}:{n}: veto histórico apresentado como texto positivo")
+            if not r["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{n}: falta fonte de veto")
+    elif name.startswith("TESTES_ADVERSARIAIS_DECISAO_18"):
+        recs = read_csv(path, {"id", "artigo", "cenario", "classe_preliminar",
+                               "risco", "estado", "fonte_oficial"})
+        unique(recs, "id", str(path.relative_to(ROOT)))
+        if {r["id"] for r in recs} != {f"T18-{i:03d}" for i in range(1, 37)}:
+            fail(f"{path.relative_to(ROOT)}: 36 cenários adversariais necessários")
+        for n, r in enumerate(recs, 2):
+            if r["estado"] != "SIMULACAO_NAO_APROVADA":
+                fail(f"{path.relative_to(ROOT)}:{n}: simulação indevidamente aprovada")
+    elif name.startswith("DEPENDENCIAS_DECISAO_18"):
+        recs = read_csv(path, {"id", "origem", "destino", "nexo", "classe",
+                               "equivalencia_juridica", "fonte_oficial"})
+        unique(recs, "id", str(path.relative_to(ROOT)))
+        if {r["id"] for r in recs} != {f"NX18-{i:03d}" for i in range(1, 31)}:
+            fail(f"{path.relative_to(ROOT)}: 30 nexos necessários")
+        for n, r in enumerate(recs, 2):
+            if r["equivalencia_juridica"] != "Q":
+                fail(f"{path.relative_to(ROOT)}:{n}: nexo tratado como equivalência provada")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

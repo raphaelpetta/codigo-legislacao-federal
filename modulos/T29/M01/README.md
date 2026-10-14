@@ -127,7 +127,17 @@ Complemento **não duplicativo** da matriz F1-A: [F1B_MATRIZ_QUATRO_DIVERGENCIAS
 
 **Status:** pesquisa F1-C executada, mas inventário jurídico/literal integral ainda Q; nenhuma redação CLF C0/C1/M, nenhuma intervenção em T24, T29.M02 ou `main`. **Próxima:** F1-D — cotejo literal e histórico concentrado dos nove dispositivos críticos, com DOU e separação de legislação, decisão e regulação.
 
-## 11. Histórico
+## 11. Rodada 05 — F1-D, cotejo histórico focal (14/10/2026)
+
+- [F1D_ESPELHO_NUCLEOS_19.csv](F1D_ESPELHO_NUCLEOS_19.csv): **19 posições** por fonte/versão em quatro eixos; há **uma ausência de inciso** registrada como ausência estrutural, e **uma transcrição de IN RFB 2110/2022 da edição original sem certificação da versão de 2026**. As demais redações são cotejo **manual** entre publicação original de 1991, leis modificadoras e versões oficiais compiladas. Não equivalem a 19 normas novas nem a C0.
+- [RELATORIO_F1D_COTEJO_LITERAL_HISTORICO.md](RELATORIO_F1D_COTEJO_LITERAL_HISTORICO.md): cronologia e 9 testes adversariais de eventual transposição.
+- [PACOTE_CONTINUIDADE_RODADA_05.md](PACOTE_CONTINUIDADE_RODADA_05.md): FEITO / PENDENTE / PRÓXIMO, limites e coordenação.
+
+**Resultados:** 14 anos nos arts.13 Lei8.213 e 14 Lei8.212 desde 1991, contra 16 no Decreto3048 art.11/18 §2; guarda protegida literalmente em 1991, excluída do art16 §2 em 1997 e reinserida pela Lei15108/2025, com EC103 art23 §§4/6/7 e Tema1271 pendente; mandato h incluída em ambas leis em 1997, j em 2004, ResSen26/2005 suspendeu **apenas** h da 8.212 art12 I; exceção de PSA consta da 8.212 art12 §9 VIII, sem inciso VIII na 8.213 art11 §8. **Regime de custeio, benefício e interpretação constitucional não podem ser fundidos como mera operação editorial.**
+
+**Pendente:** fac-símiles DOU e comparação textual independente, versão oficial atualizada da IN RFB2110 (a consulta não retornou conteúdo autenticável), inteiro teor de decisões e conclusão do Tema1271, inventário literal global. Nenhum C0/C1/M nem revogação aprovado. **Próximo F1-E:** fechar fontes e testar equivalência material dos quatro conflitos antes de F2.
+
+## 12. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

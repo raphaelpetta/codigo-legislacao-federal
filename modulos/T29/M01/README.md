@@ -247,7 +247,17 @@ A F3-C identificou a [base pública de benefícios indeferidos do INSS](https://
 
 **Próximo F3-D:** recuperar arquivos públicos de motivos SUIBE, sem contornar restrições de acesso, ou documentar indisponibilidade e especificar pedido agregado; obter monitoramentos específicos dos itens TCU e dicionários oficiais. Sem declarar cumprimento por vencimento de prazo, sem reforma C0/C1/M, PR draft e módulos vizinhos/main inalterados.
 
-## 20. Histórico
+## 20. Rodada 14 — F3-D: monitoramento concreto do TCU e motivos de negativa (14/10/2026)
+
+**Nova evidência probatória:** [TCU Acórdão 985/2026, publicado 04/05/2026](https://btcu.apps.tcu.gov.br/api/obterDocumentoPdf/80248239) reconheceu **cumprimento de 3 determinações** do Acórdão 634/2025 (9.2.2, 9.2.6 e 9.2.10) e classificou **8 em cumprimento** (9.2.1, 9.2.3, 9.2.4, 9.2.5, 9.2.7, 9.2.8, 9.2.9 e 9.2.11), conforme [F3D_MONITORAMENTO_TCU_985_2026_11_ITENS.csv](F3D_MONITORAMENTO_TCU_985_2026_11_ITENS.csv). O [TCU Acórdão 989/2025](https://btcu.apps.tcu.gov.br/api/obterDocumentoPdf/78082970) corrigiu o prazo do item 9.2 do Acórdão 634/2025 para **180 dias**. A F3-C recebeu errata, pois afirmara não ter localizado certificação por subitem. Outros acórdãos continuam sem verificação individual de cumprimento.
+
+[**Transparência Previdenciária do INSS — março/2026**, PDF p.12](https://www.gov.br/inss/pt-br/portal-de-transparencia/2026_03TransparnciaPrevidenciriav41.pdf) lista **seis motivos de negativa por grupos**: incapacidade não comprovada, deficiência BPC, renda BPC, ausência de filiação no salário-maternidade, idade/tempo para aposentadoria, relação de companheiro na pensão. [F3D_MOTIVOS_INSS_TRANSPARENCIA_MAR2026_06.csv](F3D_MOTIVOS_INSS_TRANSPARENCIA_MAR2026_06.csv). Informa **796.798 negativas e 47% como indicador geral**, mas **não há quantitativo dos seis motivos** nem coorte única de DER. A qualificação do indeferimento é administrativa, não reconhecimento judicial de ilegalidade.
+
+**SUIBE julho/agosto 2026:** acesso aos downloads XLSX publicados em dados abertos testado e bloqueado por **HTTP 403**; **nenhuma linha processada nem taxa inventada**. Metadados e existência do campo `motivo indeferimento` foram confirmados. Relatório de síntese e protocolo de futura extração: [RELATORIO_F3D_MONITORAMENTO_TCU_MOTIVOS_INSS_E_BLOQUEIO_SUIBE.md](RELATORIO_F3D_MONITORAMENTO_TCU_MOTIVOS_INSS_E_BLOQUEIO_SUIBE.md). Continuidade: [PACOTE_CONTINUIDADE_RODADA_14.md](PACOTE_CONTINUIDADE_RODADA_14.md).
+
+**Próximo F3-E:** obter dados SUIBE mediante acesso autorizado ou demanda formal agregada, sem contornar bloqueio; atualizar eventual monitoramento dos oito itens TCU ainda pendentes, em interface M05/M06/T01. PR #41 draft, sem texto C0/C1/M e sem alterações em outros módulos ou na `main`.
+
+## 21. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

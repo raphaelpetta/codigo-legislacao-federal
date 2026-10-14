@@ -1,0 +1,27 @@
+name: T24 F1D14 — ocorrencias textuais CPC85
+on:
+  pull_request:
+    paths:
+      - 'scripts/inventariar_f1d14_ocorrencias.py'
+      - '.github/workflows/inventariar-f1d14.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ocorrencias_85:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install beautifulsoup4
+      - run: python scripts/inventariar_f1d14_ocorrencias.py --json /tmp/t24-f1d14-ocorrencias.json --csv /tmp/t24-f1d14-ocorrencias.csv
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t24-f1d14-ocorrencias-art85
+          path: |
+            /tmp/t24-f1d14-ocorrencias.json
+            /tmp/t24-f1d14-ocorrencias.csv
+          if-no-files-found: warn

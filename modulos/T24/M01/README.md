@@ -173,3 +173,8 @@ O [cotejo textual focal](F1C_PROVA_LITERAL_03_ALTERACOES.md) registra texto orig
 - [Matriz com 35 pares de remissões](F1D9_CROSSWALK_35_REMISSOES_SIMBOLICAS.csv) e [relatório jurídico](RELATORIO_F1D9_CROSSWALK_SIMBOLICO_ART85.md): **36 unidades com IDs simbólicos e 35 referências preservadas**, sendo 34 internas e uma externa (art85 §12→art77); §20 mantém dez destinos.
 - [Validador independente](../../../scripts/validar_f1d9_crosswalk_art85.py) e [workflow CI](../../../.github/workflows/validar-f1d9-crosswalk.yml), [continuidade rodada15](PACOTE_CONTINUIDADE_RODADA_15_F1D9.md). *Não há números CLF aprovados nem equivalência C0-J.* 
 **Próximo:** DEC016 e espécie constitucionalmente admissível, destino formal do art77, redline literal e controle de Tema1190/RPV e modulação.
+
+## F1-D10 — redline documental integral CPC art.85 (14/10/2026)
+- [Relatório F1-D10](RELATORIO_F1D10_REDLINE_INTEGRAL_ART85.md), [script que gera a edição completa](../../../scripts/gerar_redline_art85_t24.py) e [CI #38566562408 aprovado](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38566562408); [artefato Markdown redline+CSV](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38566562408/artifacts/11896155857).
+- **36 textos integrais** (33 coincidências entre retratos Câmara de 2015/2026 + §§6º-A/8º-A/20 de Lei14.365/2022); mantém [35 remissões indexadas](F1D9_CROSSWALK_35_REMISSOES_SIMBOLICAS.csv), 34 internas e art.77 externa.
+- [Continuidade rodada16](PACOTE_CONTINUIDADE_RODADA_16_F1D10.md). Redline é **documental, não minuta promulgável**, número T24.M01.HON é simbólico; C0-J, competência/DEC-016 e cadeia histórica DOU pendentes; **P7 ainda bloqueado**.

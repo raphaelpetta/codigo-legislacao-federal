@@ -1,0 +1,5 @@
+# T24.M01 — Rodada 17 / F1-D11 (14/10/2026)
+**FEITO:** [matriz F1-D11 com segunda leitura de 36 unidades CPC85](MATRIZ_F1D11_REEXAME_MATERIAL_36.csv), [parecer de sujeito/base/tempo/exceções](RELATORIO_F1D11_REEXAME_MATERIAL_36.md), [validador 36 IDs e 13 invariantes](../../../scripts/validar_f1d11_art85.py). Os **35 pares** do crosswalk são referências de teste, não afirmação de exaustividade de todas as dependências legais; conservam-se 34 remissões internas e art77 externa. STF Tema1255 sem mérito confirmado conforme pesquisa. Tudo C0-J Q.
+**PENDENTE:** segunda transcrição independente e DOU (Lei14365/2022), controle total de remissões internas/externas, efeitos reais da jurisprudência e DEC016. Os identificadores são símbolos de trabalho, não artigos vigentes.
+**PRÓXIMO:** auditar também remissões textuais não mapeadas; testar jurisprudência Tema1059/1076/1190/1313 e STF1255 e a compatibilidade de veículo legislativo antes de redline C0-J.
+**COORDENAÇÃO:** PR38 draft; main 16fba172c875c7a0de388288fe70005c944021d6.

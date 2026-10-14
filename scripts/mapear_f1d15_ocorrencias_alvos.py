@@ -96,5 +96,7 @@ def main():
         w=csv.DictWriter(f,fieldnames=list(out[0]));w.writeheader();w.writerows(out)
     pathlib.Path(args.json).write_text(json.dumps(result,indent=2,ensure_ascii=False),encoding="utf8")
     print("T24 F1-D15 OK",json.dumps({k:result[k] for k in ("ocorrencias","pares_no_grafo","pares_associados_a_alguma_ocorrencia","pares_sem_vinculo_automatico")},ensure_ascii=False))
+    for e in unresolved:
+        print("SEM_LIGACAO_AUTOMATICA:",e["id_origem"],"->",e["id_destino"],e["categoria_ligacao"])
     print("§11: 5 e 2 destinos com sobreposição; §20: 10 destinos. Sem equivalência C0-J.")
 if __name__=="__main__":main()

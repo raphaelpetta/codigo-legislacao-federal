@@ -1,0 +1,31 @@
+id,origem,destino,nexo,classe,equivalencia_juridica,fonte_oficial
+NX18-001,47,48,Proposta do instrutor versus dever de decisão,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-002,48,49,Dever e prazo de decidir,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-003,49,44,Prazo decisório após instrução e alegações finais,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-004,49-A,1,Âmbito da Administração Pública federal,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-005,49-A,11,Competência originária,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-006,49-A,12,Delegação excepcional não pressuposta,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-007,49-A,13,Indelegabilidades,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-008,49-A,49-C,Lacuna: dispositivo que regulava convocação foi vetado,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-009,49-A,49-G,Ata documenta responsabilidade de cada órgão,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-010,49-A,50,Fundamentação individual dos atos,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-011,49-B,9,Remissão literal para conceito de interessado,REMISSAO_LITERAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-012,49-B,49-C,Autoridade convocante mencionada no PU sem regra do art49-C,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-013,49-D,26,Remissão literal para intimação,REMISSAO_LITERAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-014,49-E,47,Documento instrutório específico por órgão,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-015,49-E,50,Motivação e precedentes,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-016,49-F,50,Fundamentação do dissenso,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-017,49-F,49-G,Registro da manifestação na ata,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-018,49-G,14,Publicidade de ato e decisões,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-019,49-G,50,Ata e registro de motivação,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-020,49-G,64,Não suprimir recursos administrativos por efeito vinculante vetado,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-021,50,2,Dever geral de motivação,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-022,50,38,Recusa de prova deve ser fundamentada,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-023,50,42,Motivação de dispensa de parecer não vinculante,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-024,50,45,Medida cautelar motivada,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-025,50,47,Relatório instrutório não substitui decisão,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-026,50,53,Anulação e revogação motivadas,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-027,50,54,Decadência e estabilidade temporal,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-028,50,56,Recurso administrativo,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-029,50,64-A,Súmula vinculante e motivação,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX18-030,50,STJ674,Súmula 674 e fundamentação per relationem,SISTEMICA_OU_JURISPRUDENCIAL,Q,https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&h=true&i=1&l=10&ordenacao=MAT&p=false

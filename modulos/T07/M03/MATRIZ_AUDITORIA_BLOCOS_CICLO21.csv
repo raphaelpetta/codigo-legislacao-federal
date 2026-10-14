@@ -1,0 +1,19 @@
+id;fonte;dispositivo;categoria;regra_verificada;transformacao_testada;risco;estado_equivalencia;prova_proxima
+A01;Lei9784;1 caput;FRASE_esta_lei;ambito federal direto indireto;entender todos os entes;federalismo e alcance;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+A02;Lei9784;1 par1;funcao administrativa de outros poderes;estender quando funcion administrativa;estender toda atividade judicial legislativa;poder funcional;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+A03;Lei9784;1 par2;conceitos orgao entidade autoridade;conceitos do regime;aplicar a todo CLF;destinatarios externos;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+A04;Lei9784;3 I-IV;direitos do interessado;ciencia vistas alegacoes;condicionar a meio exclusivamente digital;acesso e contraditorio;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+A05;Lei9784;69;subsidiariedade em procedimentos especiais;lei geral federal subsidiaria;todo CLF subsidiario;remissoes e leis especiais;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+A06;CPC;15;aplicacao subsidiaria de CPC;outro diploma em falta de norma;fundir com Lei9784 art69;camadas de aplicacao;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+A07;LINDB;20-30;seguranca juridica decisao publica;coexistencia intertemporal;considerar revogados por Lei9784;direito publico transversal;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B01;Lei9784;22-25;forma prazo lugar;requisitos processuais;eliminar assinatura/forma sem filtro de risco;seguranca e excecoes;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B02;Lei14129;2 I-III;ambito de incidencia;entes subnacionais adotam ato proprio;impor automaticamente a estados municipios;competencia;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B03;Lei14129;7-9;assinatura protocolo vista;autenticidade e timestamp;protocolo igual a ciencia de intimação;prova do ato;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B04;Lei9784;26 par1;conteudo da intimacao;informacao integral;suprimir campos essenciais;defesa;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B05;Lei9784;26 par2;antecedencia comparecimento;tres dias uteis para comparecer;generalizar para todos atos;prazo especifico;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B06;Lei9784;41;antecedencia prova/diligencia;tres dias uteis especificos;excluir como duplicacao;instrucao e prova;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B07;Lei9784;26 par3;certeza da ciencia;meio idoneo;envio automatico = ciencia;validade comunicacao;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B08;Lei14129;42 par2;direito de sair do eletronico;opcao do usuario e opt-out;impor opt-in compulsorio;autonomia e inclusao;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B09;Lei14129;43 II-V;emissao recebimento auditoria;requisitos de ferramenta;tratar recebimento como leitura;prova e auditoria;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B10;Lei9784;26 par4-5;edital e nulidade;condicoes de edital e saneamento;publicar apenas na plataforma restrita;acesso universal;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade
+B11;Lei9784;27-28;ausencia e atos comunicaveis;silencio sem confissao/renuncia;falta clique = confissao;defesa e garantias;Q;cotejo de subunidade fonte temporal jurisprudencia e especialidade

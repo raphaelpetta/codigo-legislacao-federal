@@ -185,3 +185,8 @@ O [cotejo textual focal](F1C_PROVA_LITERAL_03_ALTERACOES.md) registra texto orig
 ## F1-D12 — remissões contextuais §4º do art. 85 (14/10/2026)
 - [Dez pares de dependência §4 I–II → §3 I–V](MATRIZ_F1D12_DEZ_REMISSOES_P4_INCISOS.csv), [dossiê de correção do grafo](RELATORIO_F1D12_RECONCILIACAO_GRAFO_45.md) e [validador](../../../scripts/validar_f1d12_remissoes.py): 35 pares anteriores + 10 novos = **45 pares indexados**. Os dez novos resultam de remissão contextual do §4º, não da citação literal ao §3º dentro de cada inciso. §11 repete §§2º e 3º em duas cláusulas distintas; duplicidade de ocorrência não é par novo.
 - [Continuidade rodada 18](PACOTE_CONTINUIDADE_RODADA_18_F1D12.md). **Grafo ainda não certificado exaustivo**, sem C0-J, sem numeração CLF aprovada e sob `DEC-016`.
+
+## F1-D13 — 45 pares classificados por literalidade e contexto (14/10/2026)
+- [Matriz tipada com 45 pares do art. 85](MATRIZ_F1D13_45_PARES_LITERAL_CONTEXTO.csv), [relatório do §4º/§11/§20](RELATORIO_F1D13_LITERAL_VERSUS_CONTEXTO.md), [validador](../../../scripts/validar_f1d13_literal_contexto.py) e [continuidade rodada19](PACOTE_CONTINUIDADE_RODADA_19_F1D13.md).
+- Dos 45 pares, **dez** foram expandidos do contexto **§4º caput + incisos I e II**: os incisos citam I a V sem repetir o símbolo §3º, que aparece no caput. §11 repete referências a §§2º/3º na cláusula dos tetos; ocorrências literais repetidas não são novas arestas. §20 mantém dez alvos explicitamente enumerados.
+- Grafo indexado **não exaustivo** e sem numeração futura, status **C0-J Q**, `DEC-016` pendente. Próximo: inventário de ocorrências distinto de pares e cotejo DOU/Lei14.365.

@@ -129,3 +129,9 @@ A análise `modulos/T01/M04/TESTE_10_UNIDADE_TEXTUAL_VETO_V1.md`, as minutas riv
 ## Ciclo 11: concordancia normativa e documental
 
 Dossie `modulos/T01/M04/DOSSIE_11_CONCORDANCIA_NORMATIVA_E_DOCUMENTAL.md`: separa texto legislativo N, concordancia documental D e registro publico de eventos P. Prototipos A/D (revogacoes em artigos expressos, tabela explicativa) e B (anexo normativo estatico, ainda Q quanto a LC95 art9 e CF art66 par2). Amostras: 12 nexos hipoteticos, 16 correspondencias informativas e 20 testes adversariais, sem efeito juridico. Revogacao por tabela digital dinamica foi rejeitada. DEC-001 preservada; DEC-016 pendente. Interface CF-IC-001 aberta.
+
+## Ciclo 12: auditoria literal e vetos de anexos (pesquisa)
+
+O parecer `modulos/T01/M04/PARECER_12_ANEXOS_VETOS_E_COTEJO_ARTIGO_A_ARTIGO.md` examinou três casos legislativos reais: AN01 VET 37/2026 (anexo do símbolo de acessibilidade vetado via artigo de substituição, ainda não apreciado no corte); AN02 VET 35/2023 (parágrafos sobre tabela remuneratória vetados, vetos derrubados em 2024, com promulgação posterior do anexo); AN03 VET 9/2026 (dotações individualizadas de anexos orçamentários vetadas sob regime especial). São **práticas legislativas**, não precedentes vinculantes do STF sobre linha de anexo comum.
+
+A `AUDITORIA_LITERAL_DISPOSITIVOS_12.csv` mantém 24 transcrições origem/espelho experimental, todas literais e **Q quanto à equivalência jurídica**, sem promulgação. `EVENTOS_ANEXOS_VETOS_12.csv` registra 11 eventos documentados; `TESTES_CONTEXTUAIS_12.csv` contém 18 contraprovas. O QA impede que igualdade de strings seja indevidamente promovida a C0 jurídico. O problema de força normativa/veto de tabela comum continua na issue #23; `DEC-001` é o objetivo e `DEC-016` segue PENDENTE.

@@ -89,3 +89,7 @@ Aplicar análise ex ante proporcional ao impacto, revisão institucional e event
 No interfaceamento com o projeto constitucional independente, a CF/1988 continua referência exclusiva do direito vigente e o anteprojeto é cenário condicional, sem importar decisões de outro projeto.
 
 **Atualização metodológica em uso:** reconhecer essas regras no roteiro F0–F9 e no dossiê de cada módulo; eventual modificação de escolhas relevantes exige governança e registro central, não atualização automática por chats.
+
+## 10. Prestação de contas e continuidade obrigatórias por rodada (14/10/2026)
+
+Aplicar em TODOS os módulos e pesquisas a [regra de continuidade](18_PROTOCOLO_CONTINUIDADE_POR_RODADA.md): ao final de cada ciclo registrar no mesmo PR/branch **FEITO / PENDENTE OU NÃO VERIFICADO / PRÓXIMO PASSO EXECUTÁVEL**, com versão `main` antes/depois, fonte normativa, C0/C1/M/Q, conflitos, estado CI, módulos afetados e interface CF. Usar [modelo de continuidade](../modelos/20_PACOTE_CONTINUIDADE.md); concluir texto na conversa sem gravar arquivo não equivale a persistir handoff. O estado documental não é prova de conclusão jurídica nem de revogação segura.

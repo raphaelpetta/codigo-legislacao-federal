@@ -72,3 +72,7 @@ O GitHub conserva a versão de referência; conversas e arquivos de Projeto do C
 ### Repositório constitucional correspondente
 
 A modernização constitucional possui [repositório independente](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira) com documentação de pesquisa, decisões e versões próprias. O presente CLF conserva a CF/1988 vigente como parâmetro do direito positivo e utiliza o anteprojeto futuro apenas como cenário condicional, nos termos de `docs/09_INTERFACE_CONSTITUCIONAL.md`.
+
+## Continuidade obrigatória e coordenação entre chats
+
+Ao fim de **cada rodada substantiva**, o projeto exige registro de **FEITO / PENDENTE / PRÓXIMO**, versões efetivamente consultadas, fonte normativa, estado de PR/CI e interfaces. Ver [protocolo](governanca/18_PROTOCOLO_CONTINUIDADE_POR_RODADA.md) e [modelo de handoff](modelos/20_PACOTE_CONTINUIDADE.md). Essa regra é alinhada metodologicamente com [a coordenação do projeto constitucional](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/blob/main/governanca/12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md), mas preserva decisões e códigos próprios de cada repositório. Toda síntese é fotografia datada, não substitui nova consulta ao GitHub.

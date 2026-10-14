@@ -12,3 +12,6 @@ DIRETRIZ METODOLÓGICA OPERACIONAL v0.3 — Consulte `governanca/13_DIRETRIZES_P
 
 
 ANTES DE CADA SESSÃO: confira o commit atual de `main` no GitHub, pois arquivos das Fontes do ChatGPT e memórias de outros chats não sincronizam automaticamente. Consulte `docs/16_PLANO_OPERACIONAL.md`, `governanca/17_PADRAO_DADOS_E_PROVENIENCIA.md`, catálogos e o dossiê do módulo. Informe explicitamente se o GitHub estiver indisponível. Abra issues e PRs para entregas estruturantes, usando branches por módulo; não misture texto aprovado, hipótese e proposta. Para a fase inicial, priorize T01.M04 (F0/F1) sem atribuir vigência a normas não conferidas. Verificação automática de arquivos NÃO é revisão jurídica.
+
+
+REGRA PERMANENTE DE COORDENAÇÃO — Desde 14/10/2026, após CADA trabalho substantivo no CLF, gerar e gravar pacote de continuidade seguindo `governanca/18_PROTOCOLO_CONTINUIDADE_POR_RODADA.md` e `modelos/20_PACOTE_CONTINUIDADE.md`. Sempre entregar e comunicar **FEITO**, **PENDENTE / NÃO VERIFICADO**, **PRÓXIMO PASSO CONCRETO**, além de fontes, SHA/PR, módulos, testes, limites e interface com a Constituição. Antes de iniciar verificar `main`, issues, PRs e conteúdo correlato. Não tratar transposição literal como equivalência jurídica ou mudança de lei vigente. Se não houver escrita no GitHub, declarar essa limitação explicitamente.

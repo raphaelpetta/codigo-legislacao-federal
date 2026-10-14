@@ -109,7 +109,25 @@ Complemento **não duplicativo** da matriz F1-A: [F1B_MATRIZ_QUATRO_DIVERGENCIAS
 
 **Próximo:** F1-C, revisão judicial/temporal de 4 cadeias (Tema 1271, ADIs 4878/5083, facultativo 14/16 e h/j); pedir nota de custeio ao T29.M02 sem editar seus arquivos.
 
-## 10. Histórico
+## 10. Rodada 04 — F1-C: precedentes e efeitos temporais (14/10/2026)
+
+**Nova evidência que altera os riscos e fecha parcialmente Q:**
+
+- [Matriz F1-C de 18 casos e períodos](F1C_CASOS_TEMPORAIS_18.csv) — 5 mandato, 4 idade facultativa, 5 guarda e 4 serviços ambientais, todos com origem, período e ressalva.
+- [Relatório F1-C jurisprudência e efeitos temporais](RELATORIO_F1C_JURISPRUDENCIA_E_EFEITOS_TEMPORAIS.md) — confronto STF Tema 691, RE 351717, ADIs 2110/2111 e 4878/5083, STF Tema1271, TRF3 decisão de 15 anos e Receita Federal IN2110.
+- [Continuidade rodada 04](PACOTE_CONTINUIDADE_RODADA_04.md).
+
+**Mandato:** STF Tema **691** (RE626837, mérito 25/05/2017; trânsito 21/02/2018) encerra a Q geral da constitucionalidade **da contribuição sobre agente político não vinculado a RPPS após Lei10887/2004**, sem revalidar a norma de 1997, nem ampliar automaticamente Resolução Senado26/2005 (8.212 h) à h da 8.213.
+
+**Facultativo 14–16:** o acórdão [TRF3, 11ª Turma Recursal de SP, processo 5002988-56.2025.4.03.6322](https://web.trf3.jus.br/acordaos/Acordao/BuscarDocumentoPje/395087868), admite em tese filiação facultativa aos **15 anos** (contra sentença que aplicara decreto), mas mantém improcedência de salário-maternidade por reputar instrumental **contribuição única em gravidez**. O requisito de carência do salário-maternidade foi invalidado nas **ADIs 2110/2111**, exigindo teste para impedir carência/tempo mínimo disfarçado sob presunção não demonstrada de fraude. **Decisão TRF3 é caso concreto e não vincula nacionalmente.**
+
+**Guarda:** Tema **1271** STF (RE1442021), sobre **EC103/2019 art23 §6**, permanecia sem julgamento de mérito identificado na ficha oficial consultada, com última movimentação 16/04/2026. ADIs4878/5083 e Lei15108/2025 não eliminam dever de estudar §§4/6/7 e cronologia dos óbitos.
+
+**PSA:** IN RFB **2.110/2022 art9 §5 IX** recebeu expressamente exceção de **Lei8212 art12 §9 VIII** para PSA. A prova fiscal administrativa é adicional à assimetria legislativa com Lei8213 art11 §8, mas não demonstra efeito automático em todos os benefícios. Verificar alterações da IN em 2024/2025/2026 antes de usar redação vigente.
+
+**Status:** pesquisa F1-C executada, mas inventário jurídico/literal integral ainda Q; nenhuma redação CLF C0/C1/M, nenhuma intervenção em T24, T29.M02 ou `main`. **Próxima:** F1-D — cotejo literal e histórico concentrado dos nove dispositivos críticos, com DOU e separação de legislação, decisão e regulação.
+
+## 11. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

@@ -103,3 +103,12 @@ A auditoria ampliou o escopo efetivamente lido para **48 artigos** (1º–20 e 4
 
 ## Complemento de pesquisa — 14/10/2026
 O [Dossiê 01](DOSSIE_01_JURISDICAO_SUJEITOS_F0_F1.md), o [inventário seletivo com 15 blocos](INVENTARIO_SELETIVO_01.csv) e o [pacote de continuidade](CONTINUIDADE_01.md) ampliam o F0/F1 inicial desta branch com análise expressa do alcance do CPC art. 15, jurisprudência ainda a verificar, alterações de 2026 em módulos conexos e oito contraprovas. **Não substituem o dossiê original desta branch, não provam C0-T/C0-J e não ratificam reformas materiais.** Próximo: F1 por artigo/subunidade CPC 16–25 e 70–81.
+
+## F1-B — Rodada 03: capacidade, representação e gratuidade (14/10/2026)
+Complemento à F1-A de 48 artigos e 98 subunidades (arquivos próprios; não somar indiscriminadamente registros de tipos distintos):
+- [Matriz de 17 artigos (CPC 70–81 e 98–102)](F1B_MATRIZ_17_ARTIGOS.csv), triagem por artigo, não concordância textual C0.
+- [26 subunidades/grupos prioritários](F1B_SUBUNIDADES_PRIORITARIAS.csv) de capacidade, curadoria, representação, atos atentatórios, má-fé e gratuidade, sem pretensão de cobertura integral.
+- [Relatório F1-B](RELATORIO_F1B_SUJEITOS_E_GRATUIDADE.md): confronto com Lei 13.146/2015, CPC 75 III/§5º (Lei 14.341/2022), CPC 77 VII (Lei 14.195/2021), STJ Tema 1178 (gratuidade, trânsito 2026) e REsp 1.088.068/MG (curadoria).
+- [Pacote de continuidade da rodada 03](PACOTE_CONTINUIDADE_RODADA_03.md).
+
+**Limite:** F1-B artigo/seletivo, não C0-J; nenhuma reforma aprovada. **Próximo:** inventário literal integral por subunidade dos 17 artigos, cotejo DOU e precedentes; T24.M01, issue #37 e PR #38 (draft).

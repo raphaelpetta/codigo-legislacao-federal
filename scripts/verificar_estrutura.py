@@ -124,7 +124,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if not (rec.get("url_oficial") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: URL oficial vazia ou nao HTTPS")
-    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13")):
+    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13", "CONCORDANCIA_LITERAL_ART3_17_15")):
         recs = read_csv(path, {
             "id_origem", "id_destino", "tipo_relacao", "categoria",
             "justificativa", "status_verificacao",
@@ -456,6 +456,39 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
                 fail(f"{path.relative_to(ROOT)}:{idx}: referência de destino inválida")
             if r["situacao_auditoria"] != "PENDENTE_DE_COTEJO_INTEGRAL":
                 fail(f"{path.relative_to(ROOT)}:{idx}: referência tratada como C0-J")
+    elif name.startswith("CONCORDANCIA_LITERAL_ART3_17_15"):
+        recs = read_csv(path, {
+            "id_unidade", "dispositivo_origem", "unidade",
+            "texto_fonte_literal", "texto_espelho_literal",
+            "status_textual", "equivalencia_juridica", "ato_clf",
+            "fonte_primaria",
+        })
+        unique(recs, "id_unidade", str(path.relative_to(ROOT)))
+        required_counts = {
+            "3": 5, "4": 5, "5": 1, "6": 7, "7": 1,
+            "8": 1, "9": 5, "10": 1, "11": 1, "12": 2,
+            "13": 4, "14": 4, "15": 1, "16": 1, "17": 1
+        }
+        from collections import Counter
+        import re as _re
+        cnt = Counter()
+        for idx, r in enumerate(recs, 2):
+            m = _re.fullmatch(r"EXP15-(\d+)-(C|PU|P[1-9]|I|II|III|IV|V)", r["id_unidade"])
+            if not m:
+                fail(f"{path.relative_to(ROOT)}:{idx}: ID literal 15 invalido")
+                continue
+            num, unit = m.groups()
+            cnt[num] += 1
+            if r["dispositivo_origem"] != f"Lei 9.784/1999, art. {num}" or r["unidade"] != unit:
+                fail(f"{path.relative_to(ROOT)}:{idx}: identidade de origem divergente")
+            if r["texto_fonte_literal"] != r["texto_espelho_literal"]:
+                fail(f"{path.relative_to(ROOT)}:{idx}: espelho divergente da origem")
+            if r["equivalencia_juridica"] != "Q" or r["ato_clf"] != "NAO_PROMULGADO":
+                fail(f"{path.relative_to(ROOT)}:{idx}: transposicao juridica indevidamente homologada")
+            if not r["fonte_primaria"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte primaria ausente")
+        if dict(cnt) != required_counts or len(recs) != 40:
+            fail(f"{path.relative_to(ROOT)}: amostra textual 3 a 17 incompleta (40 unidades)")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

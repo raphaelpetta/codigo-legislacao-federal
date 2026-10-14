@@ -27,6 +27,7 @@ ADDED = {(82, "P3"), (85, "P6A"), (85, "P8A"), (85, "P20")}
 ARTICLE = re.compile(r"^Art\.\s*(\d{1,4})\.\s*(.*)$")
 PARA = re.compile(r"^§\s*(\d{1,2})[ºo°]?(?:\s*[-–]\s*([A-Z]))?\.?\s*(.*)$", re.I)
 ROMAN = re.compile(r"^([IVXLCDM]{1,6})\s*[-–]\s*(.*)$", re.I)
+SINGLE = re.compile(r"^Parágrafo\s+único\.\s*(.*)$", re.I)
 
 def norm(t):
     return re.sub(r"\s+", " ", unicodedata.normalize("NFC", t.replace("\u00a0", " "))).strip()
@@ -64,6 +65,15 @@ def extract(lines):
                 previous=key
             continue
         if current is None: continue
+        # Capturar parágrafo único como unidade própria, com continuidade em outra linha.
+        single=SINGLE.match(line)
+        if single:
+            key=(current,"PU")
+            if key in units: raise ValueError(f"Parágrafo único duplicado: {key}")
+            units[key]=norm(single.group(1))
+            previous=key
+            paragraph=None
+            continue
         # Testar marcadores de parágrafos e incisos no segmento do artigo atual.
         p=PARA.match(line)
         if p:
@@ -127,7 +137,7 @@ def main():
         elif norm(original)==norm(current):
             status="IGUAL_NOS_TEXTOS_EXTRAIDOS"
         else:
-            status="ALTERADO_VERIFICAR_DIFERENCA"
+            status="DIVERGENCIA_DE_EXTRACAO_OU_EDICAO_A_AUDITAR"
         row={
           "id_origem":item["id_origem"],"artigo":art,"subunidade":unit,
           "original_extraido":original or "AUSENTE","atual_extraido":current or "AUSENTE",

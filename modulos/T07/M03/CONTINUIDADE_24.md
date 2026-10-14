@@ -1,0 +1,9 @@
+# T07.M03 — Continuidade ciclo 24 (14/10/2026)
+## FEITO
+Pesquisa comparativa de **três regimes concretos**, SEI federal (Lei 9.784 + Decreto 8.539), processo fiscal (Decreto 70.235 art.23) e INSS/Meu INSS (Portaria DIRBEN 993/2022 atualizada em 2025 + TCU Acórdão 2.002/2024), com interface Lei 14.129. Foram persistidos [dossiê](DOSSIE_24_TRES_REGIMES_CIENCIA_E_PRAZOS.md), [matriz 23 registros](MATRIZ_CICLO24_TRES_REGIMES_INTIMACAO.csv) e [12 contraprovas](CONTRAPROVAS_CICLO24_TRES_REGIMES.csv). Conclusão preliminar: comunicação eletrônica não admite termo inicial uniforme C0-J sem alterar regras especiais, prova e opção do usuário. Sem mudança da matriz pré-existente de 215 unidades, todas Q.
+## PENDENTE/NÃO VERIFICADO
+Monitoramento e cumprimento 2025–2026 da determinação TCU item 9.1.1; legislações especiais completas, Decreto 70.235 atualizado no DOU, cadeia de Portaria 993/2025, consequências de art.20 I e requisitos legais art.42–43, casos de usuários e processos reais, diferenças entre protocolo e recebimento; Estado/município necessitam ato de adoção próprio se art.2º III aplicável. CI no SHA final após commits. Nenhuma redação C0-J nem M aprovada.
+## PRÓXIMO
+Ciclo 25 focar validade e hierarquia do art.20 I Portaria 993 (cinco dias desde emissão) diante da prova legal de recebimento e cumprimento TCU; verificar portaria 1.314/2025, três datas jurídicas distintas em processo fiscal (entrega/consulta/ciência), indisponibilidade e termos do Decreto 8.539; só então esboçar cláusula geral e exceções, sempre Q até revisão.
+## COORDENAÇÃO
+PR #39 draft, issue #35, baseline `main` 16fba172c875c7a0de388288fe70005c944021d6. T01 M04 DEC016, T24 CPC art15, T43 digital, T12 tributário, T10 sanções, T06 assistência, CF vigente. CF alternativa cenário distinto. F0-F2 pesquisas; 215 unidades sem equivalência C0-J.

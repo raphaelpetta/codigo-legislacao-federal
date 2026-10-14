@@ -124,7 +124,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if not (rec.get("url_oficial") or "").startswith("https://"):
                 fail(f"{path.relative_to(ROOT)}:{idx}: URL oficial vazia ou nao HTTPS")
-    elif name.startswith("CONCORDANCIA") and not name.startswith("CONCORDANCIA_DOCUMENTAL_11"):
+    elif name.startswith("CONCORDANCIA") and not name.startswith(("CONCORDANCIA_DOCUMENTAL_11", "CONCORDANCIA_INTEGRAL_ART1_ART2_13")):
         recs = read_csv(path, {
             "id_origem", "id_destino", "tipo_relacao", "categoria",
             "justificativa", "status_verificacao",
@@ -339,6 +339,55 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         for idx, rec in enumerate(recs, 2):
             if rec["status"] != "SIMULACAO_NAO_PROMULGADA":
                 fail(f"{path.relative_to(ROOT)}:{idx}: teste com efeito jurídico afirmado indevidamente")
+    elif name.startswith("CONCORDANCIA_INTEGRAL_ART1_ART2_13"):
+        recs = read_csv(path, {
+            "id_unidade", "dispositivo_original", "destino_provisorio",
+            "texto_fonte_literal", "texto_espelho_literal",
+            "comparacao_textual", "equivalencia_juridica", "status_destino",
+            "sinal_alerta", "fonte_oficial",
+        })
+        unique(recs, "id_unidade", str(path.relative_to(ROOT)))
+        ids1 = {"01-C", "01-P1", "01-P2", "01-P2-I", "01-P2-II", "01-P2-III"}
+        ids2 = {"02-C", "02-PU"} | {
+            f"02-PU-{x}" for x in
+            ("I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII")
+        }
+        expected = {f"P13-{x}" for x in ids1 | ids2}
+        if {r["id_unidade"] for r in recs} != expected:
+            fail(f"{path.relative_to(ROOT)}: universo de 21 unidades art1/art2 incompleto")
+        for idx, rec in enumerate(recs, 2):
+            if rec["texto_fonte_literal"] != rec["texto_espelho_literal"]:
+                fail(f"{path.relative_to(ROOT)}:{idx}: espelho não é idêntico")
+            if rec["comparacao_textual"] != "LITERAL" or rec["equivalencia_juridica"] != "Q":
+                fail(f"{path.relative_to(ROOT)}:{idx}: cópia não certifica C0 jurídico")
+            if rec["status_destino"] != "NAO_PROMULGADO":
+                fail(f"{path.relative_to(ROOT)}:{idx}: norma experimental declarada promulgada")
+            if not rec["fonte_oficial"].startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte HTTPS ausente")
+        text = (path.parent / "PILOTO_13_ARTIGOS_1_2_LEI9784.md").read_text(encoding="utf-8")
+        for r in recs:
+            if r["texto_espelho_literal"] not in text:
+                fail(f"{path.relative_to(ROOT)}: espelho não consta integralmente da minuta: {r['id_unidade']}")
+    elif name.startswith("MAPA_DEPENDENCIAS_SISTEMICAS_13"):
+        recs = read_csv(path, {
+            "id_dependencia", "origem_dispositivo_piloto",
+            "norma_dependente", "tipo_vinculo", "classe_dependencia",
+            "estado_migracao", "fonte_primaria",
+        })
+        unique(recs, "id_dependencia", str(path.relative_to(ROOT)))
+        if {r["id_dependencia"] for r in recs} != {f"DEP13-{i:03d}" for i in range(1, 17)}:
+            fail(f"{path.relative_to(ROOT)}: dependências sistêmicas incompletas")
+    elif name.startswith("TESTES_VETO_CONTEXTO_TRANSICAO_13"):
+        recs = read_csv(path, {
+            "id_teste", "classe", "hipotese_adversarial", "resultado",
+            "estado_direito", "status_normativo", "fonte",
+        })
+        unique(recs, "id_teste", str(path.relative_to(ROOT)))
+        if {r["id_teste"] for r in recs} != {f"T13-{i:03d}" for i in range(1, 31)}:
+            fail(f"{path.relative_to(ROOT)}: testes piloto13 incompletos")
+        for idx, r in enumerate(recs, 2):
+            if r["estado_direito"] != "SIMULACAO_JURIDICA" or r["status_normativo"] != "NAO_PROMULGADO":
+                fail(f"{path.relative_to(ROOT)}:{idx}: simulação indevidamente tratada como norma")
     elif name.startswith("MATRIZ_TESTES"):
         recs = read_csv(path, {"id_teste", "hipotese_adversarial",
                                "resultado_do_teste_de_texto", "status"})

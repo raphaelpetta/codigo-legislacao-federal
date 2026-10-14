@@ -101,3 +101,12 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Dossiê 09](DOSSIE_09_MINUTAS_PRECEDENTE_STM_E_HIERARQUIA.md) e [Continuidade 09](CONTINUIDADE_09.md): resultado, comprovação, pendências e próximos testes.
 
 **Questões novas `Q`:** `PROB-T25-0033` elemento hierárquico no CPM47; `0034` atenuação do excesso doloso CPM46; `0035` diferença de dosimetria do CPM35 sob CPM73/76 e STF Tema158. **Cuidado:** toda redação que modifique a resposta penal de militares é `M`, jamais simples `C1` sem prova.
+
+## Ciclo 10 — dez casos controlados e verificação da dosimetria (14/10/2026)
+
+- [Dez casos: direito vigente × A × B](CASOS_COMPARADOS_VIGENTE_A_B_CICLO10.csv), com **9 hipóteses normativas + 1 referência ao julgamento STM 7000232**, fatos, pena quando calculável, retroatividade e efeitos civil/processual/executório. **Resultados condicionados**, não decisões judiciais inventadas.
+- [Auditoria de **12 riscos e lacunas** de redação](AUDITORIA_SEMANTICA_MINUTAS_AB_CICLO10.csv): inclui PA3 trocar `poderá` por `reduzirá`, PB2 sem classificação do erro, PA7 sem fração/piso de redução e PA9 sem norma militar especial efetivamente redigida.
+- [Dossiê 10 — análise dos casos e CPM arts.35, 73, 76, **77**](DOSSIE_10_CASOS_E_DOSIMETRIA_A_B.md): o art.77 PU, acrescentado pela **Lei 14.688/2023**, codifica as fases e impede ficar aquém do mínimo fora das causas de diminuição. **Tema 158/STF** e STJ REsp 1.869.764/MS cuidam de atenuantes genéricas; **não solucionam automaticamente** o enquadramento do CPM art.35, discutido no STM.
+- [Continuidade ciclo 10](CONTINUIDADE_10.md): FEITO / PENDENTE / PRÓXIMO e versão de repositórios.
+
+**Conclusão metodológica:** nenhuma das minutas A/B ainda supera teste jurídico-semântico de equivalência C0-J. **A contém reformas M, inclusive uma alteração não devidamente identificada de faculdade para obrigação; B permanece indeterminada em dosimetria e remissões.** Não aprovar fusão/integração sem decidir e comprovar efeitos.

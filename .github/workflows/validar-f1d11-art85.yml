@@ -1,0 +1,16 @@
+name: T24 F1D11 — revisar invariantes juridicas art85
+on:
+  pull_request:
+    paths:
+      - 'modulos/T24/M01/MATRIZ_F1D11_REEXAME_MATERIAL_36.csv'
+      - 'scripts/validar_f1d11_art85.py'
+      - '.github/workflows/validar-f1d11-art85.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  invariantes_85:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_f1d11_art85.py

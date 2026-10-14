@@ -175,3 +175,11 @@ O piloto [`modulos/T07/M03/PILOTO_17_INSTRUCAO_ART29_47.md`](../modulos/T07/M03/
 **PENDENTE:** transcrição completa das disposições 51–70 e 64-A/64-B/69-A; revisão de remissões, direitos, especialidades, iniciativa, quóruns, vetos, transição e eventual cláusula de revogação integral. `DEC-001` preserva a finalidade do Código juridicamente uno; `DEC-016` permanece pendente.
 
 **PRÓXIMO:** fechar o espelho da Lei 9.784, depois realizar auditoria C0-J e separar reformas de mérito `M`, sem aprovação automática.
+
+## T07.M03 — Ciclo 19: espelho de todos os artigos da Lei 9.784 (14/10/2026)
+
+**FEITO:** em `modulos/T07/M03/PILOTO_19_RECURSOS_REVISAO_VIGENCIA.md` e matrizes há **53 unidades textuais** dos arts.51–70, incluindo 64-A/64-B e 69-A, **três posições internas vetadas do art. 69-A**, **44 testes adversariais** e **37 remissões/nexos críticos**. Concluída a cobertura **textual experimental** de **215 unidades distribuídas pelas 79 posições com direito positivo da Lei 9.784**, mantendo a posição 49-C integralmente vetada como histórico. O **art. 70 é texto de vigência histórica**, não regra de vigência do CLF. Recurso e revisão sancionatória têm regimes de agravamento diferentes (arts. 64/65); decadência quinquenal contém exceções, termo inicial especial e jurisprudência STJ633; prazos em dias são contínuos (art. 66 §2º), salvo disposição legal especial; art.69 preserva procedimentos especiais.
+
+**PENDENTE:** confrontação integral com publicações oficiais/retificações e acréscimos de 2006/2009/2021, especialidades legais, interpretação jurisprudencial, fidelidade de remissões, equivalência jurídico-funcional C0-J de cada unidade e desenho formal de Código uno/condição de revogação `DEC-016`. Nenhuma norma de origem foi revogada, nenhuma minuta foi promulgada.
+
+**PRÓXIMO:** abrir fase transversal de auditoria integrada do Livro do Processo Administrativo Federal, separar C0-T/C0-J/C1/M/Q e produzir projeto normativo verdadeiramente integrado somente após assegurar direitos e efeitos intertemporais. `DEC-001` preservado; `DEC-016` continua pendente.

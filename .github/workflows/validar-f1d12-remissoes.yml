@@ -1,0 +1,16 @@
+name: T24 F1D12 — ampliar grafo CPC art85
+on:
+  pull_request:
+    paths:
+      - 'modulos/T24/M01/MATRIZ_F1D12_DEZ_REMISSOES_P4_INCISOS.csv'
+      - 'scripts/validar_f1d12_remissoes.py'
+      - '.github/workflows/validar-f1d12-remissoes.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  remissoes_ampliadas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_f1d12_remissoes.py

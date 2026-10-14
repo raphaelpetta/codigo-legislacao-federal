@@ -1,0 +1,16 @@
+name: T43 F1I — destinos das leis alteradas
+on:
+  pull_request:
+    paths:
+      - 'modulos/T43/M04/MATRIZ_F1I_14_DESTINOS_LEI14129_51_54.csv'
+      - 'scripts/validar_t43_f1i_destinos.py'
+      - '.github/workflows/validar-t43-f1i.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  destinos_legais:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_t43_f1i_destinos.py

@@ -1,0 +1,26 @@
+name: T43 — F1H cronologia DOU 2021
+on:
+  pull_request:
+    paths:
+      - 'scripts/auditar_t43_cronologia_2021.py'
+      - 'modulos/T43/M04/MATRIZ_F1H_CINCO_EVENTOS_DOU_2021.csv'
+      - '.github/workflows/auditar-t43-cronologia.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cronologia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install beautifulsoup4
+      - run: python scripts/auditar_t43_cronologia_2021.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t43-f1h-cronologia-oficial-2021
+          path: /tmp/t43-f1h-cronologia.json
+          if-no-files-found: warn

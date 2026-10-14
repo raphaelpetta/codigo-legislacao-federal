@@ -1,0 +1,4 @@
+# T43.M04 — F1-H / Continuidade 07 (14/10/2026)
+**FEITO:** [cinco eventos históricos 30/03,14/04,27/04,10/06 e 11/06/2021](MATRIZ_F1H_CINCO_EVENTOS_DOU_2021.csv), [parecer de efeitos distintos](RELATORIO_F1H_CRONOLOGIA_PUBLICACOES_2021.md), [script de validação das fontes oficiais](../../../scripts/auditar_t43_cronologia_2021.py). Resultado: publicação inicial e veto; republicação do art32 como VETADO; retificação **das razões** do veto; promulgação e publicação de art32 caput e art35, **sem** restaurar art32 PU. O roteiro de 9 vetos F1-G permanece referência, C0-J Q.
+**PENDENTE:** conferir fac-símiles DOU e todos atos alteradores posteriores, 259 subunidades, 4 normas destino arts51-54, exceções federativas, DEC016.
+**PRÓXIMO:** matriz de proveniência 1:1 dos quatro diplomas alterados, revisão de linguagem “esta Lei” ao migrar para CLF e art35 especial com T07 PR39. PR43 draft, main inalterada.

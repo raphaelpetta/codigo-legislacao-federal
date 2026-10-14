@@ -1,0 +1,35 @@
+name: T43 — extrair 76 subunidades Lei 14129
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/extrair_t43_76.py'
+      - 'modulos/T43/M04/INVENTARIO_F1_PRIORITARIO.csv'
+      - 'modulos/T43/M04/F1A_ESPELHO_LITERAL_02_42_43.csv'
+      - '.github/workflows/extrair-t43-76.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extrair_76:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preparar ambiente de fontes oficiais
+        run: python -m pip install beautifulsoup4
+      - name: Extrair 76 subunidades e validar espelho manual de 16
+        run: python scripts/extrair_t43_76.py --json /tmp/t43-76.json --csv /tmp/t43-76.csv
+      - name: Salvar texto, SHA e resultado por unidade
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lei14129-t43-76-unidades
+          path: |
+            /tmp/t43-76.json
+            /tmp/t43-76.csv
+          if-no-files-found: warn

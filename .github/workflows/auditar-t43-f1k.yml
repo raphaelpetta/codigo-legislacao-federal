@@ -1,0 +1,26 @@
+name: T43 F1K — nove normas de destino Lei 14129
+on:
+  pull_request:
+    paths:
+      - 'scripts/auditar_t43_f1k_nove.py'
+      - 'modulos/T43/M04/F1K_NOVE_DESTINOS_LITERAL_2021_2026.csv'
+      - '.github/workflows/auditar-t43-f1k.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cotejo_nove:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install beautifulsoup4
+      - run: python scripts/auditar_t43_f1k_nove.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t43-f1k-nove-destinos
+          path: /tmp/t43-f1k-nove.json
+          if-no-files-found: warn

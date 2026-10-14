@@ -1,0 +1,33 @@
+name: T43 F1A — 16 textos Governo Digital
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_t43_f1a_16.py'
+      - 'modulos/T43/M04/INVENTARIO_F1_PRIORITARIO.csv'
+      - 'modulos/T43/M04/F1A_ESPELHO_LITERAL_02_42_43.csv'
+      - '.github/workflows/validar-t43-f1a.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  texto_t43:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar parser HTML
+        run: python -m pip install beautifulsoup4
+      - name: Validar fonte externa 16 unidades
+        run: python scripts/validar_t43_f1a_16.py
+      - name: Guardar relatório de prova
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t43-f1a-16-comprovantes
+          path: /tmp/validacao_t43_f1a_16.json
+          if-no-files-found: warn

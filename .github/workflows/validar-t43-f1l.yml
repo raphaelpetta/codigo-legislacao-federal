@@ -1,0 +1,16 @@
+name: T43 F1L — gates jurídicos 14 destinos
+on:
+  pull_request:
+    paths:
+      - 'modulos/T43/M04/MATRIZ_F1L_GATES_JURIDICOS_14_DESTINOS.csv'
+      - 'scripts/validar_t43_f1l_gates.py'
+      - '.github/workflows/validar-t43-f1l.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  gates_juridicos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_t43_f1l_gates.py

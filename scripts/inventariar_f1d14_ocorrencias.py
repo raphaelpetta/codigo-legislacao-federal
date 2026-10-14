@@ -13,7 +13,7 @@ BASE=ROOT/"modulos/T24/M01"
 PAT=re.compile(
  r"§§?\s*\d+(?:[º°ª])?(?:[-–][A-Z])?(?:\s*(?:a|e|,)\s*(?:§§?\s*)?\d+(?:[º°ª])?(?:[-–][A-Z])?)*"
  r"|art(?:igo)?s?\.?\s*\d+(?:[º°ª])?"
- r"|\bincisos?\s+(?:I{1,3}|IV|V|VI{0,3}|IX|X)(?:\s*(?:a|e|,)\s*(?:I{1,3}|IV|V|VI{0,3}|IX|X))*"
+ r"|\bincisos?\s+(?:X|IX|VIII|VII|VI|V|IV|III|II|I)(?:\s*(?:a|e|,)\s*(?:X|IX|VIII|VII|VI|V|IV|III|II|I))*"
  r"|\bcaput\b",re.IGNORECASE)
 def body(unit,txt):
     # Evita registrar o cabeçalho do § analisado como AUTORREFERÊNCIA.

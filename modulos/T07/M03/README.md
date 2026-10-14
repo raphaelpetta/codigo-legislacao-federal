@@ -117,3 +117,8 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [Dossiê jurídico](DOSSIE_26_TESTE_ARTIGOS_REAIS_SEI_DTE_INSS.md) e [matriz de 18 vínculos](MATRIZ_CICLO26_ARTIGOS_X_CASOS.csv): seis artigos-modelo comparados com STJ MS24.567/DF (decisão judicial SEI), CARF 3401-005.286 (decisão administrativa DTE) e TCU 2002/2024 (auditoria INSS, **não** julgamento individual).
 - [Continuidade ciclo 26](CONTINUIDADE_26.md): R2 (requisitos técnicos T43 / garantias T07) apenas preferência de arquitetura sob teste, não aprovação normativa. Não foram obtidos logs de atos individuais DTE/INSS nem prova conclusiva de cumprimento TCU.
 **Sem C0-J:** todas as 215 unidades permanecem Q e não houve alteração da main. Próximo: atos e datas reais de recepção, leitura, ciência e termo de prazo, e governança T07/T43/T01 DEC016.
+
+## Ciclo 27 — revisão de X2 e X6 (14/10/2026)
+- [Minuta comparativa revisada dos artigos-modelo X2-T43 e X6-T07](MINUTA_27_X2_X6_PROVA_E_SUBSIDIARIEDADE.md), com campo de aplicação estrito da Lei 14.129 art.2/42–43, autoria/emissão/recebimento, conservação por cinco anos, efeitos de ciência separados de tecnologia, e Lei 9.784 art.26/69.
+- [Matriz de 18 testes adversariais por regime](MATRIZ_CICLO27_X2_X6_TESTES_ADVERSARIAIS.csv) incluindo Decreto 70.235 art.23 §2 III (entrega/consulta/meio magnético), opt-in quando exigido, possível uso digital apesar de lei especial citar pessoal/postal, e INSS/TCU, sem presumir ciência automática.
+- [Continuidade ciclo 27](CONTINUIDADE_27.md). R2 continua **preferência condicional**, não deliberação; nenhuma C0-J, C1 ou M aprovada, `DEC-016` e T43 pendentes.

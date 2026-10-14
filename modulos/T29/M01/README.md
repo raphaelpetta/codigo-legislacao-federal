@@ -268,7 +268,17 @@ A pesquisa confirmou os metadados oficiais dos **benefícios indeferidos do SUIB
 
 **Próximo:** obter legitimamente XLSX/dicionário por rota pública funcional ou pedido LAI efetivamente realizado; alternativamente avançar em **F4-0 (duas arquiteturas jurídicas condicionais A/B)** sem escolher texto, sem prometer ganho causal e sem repetir pesquisa F3-E bloqueada. Nenhum módulo externo ou `main` alterado. PR draft, sem aprovação C0/C1/M.
 
-## 22. Histórico
+## 22. Rodada 16 — F4-0: duas arquiteturas jurídicas condicionais A/B (14/10/2026)
+
+**NENHUMA ALTERNATIVA APROVADA.** Em respeito a **DEC-001 (Código Federal único)**, as duas propostas são organizações internas do mesmo CLF: **A** = núcleo geral de sujeitos/filiação/qualidade/dependência com módulos especializados de custeio/prestações/prova; **B** = blocos especializados no Código único, coordenados por conceitos e remissões, com as exceções preservadas. O estudo [F4-0 de comparação jurídica](RELATORIO_F40_OPCOES_A_B_NAO_REGRESSAO_E_DECISAO_PENDENTE.md) aplica a [LC95/1998 art.13](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95compilado.htm): uma identidade de palavras **não autoriza** fusão de valor normativo diferente. **DEC-016** sobre veículo e espécies permanece pendente.
+
+- [**102 cotejos** = 51 cenários F2-C × A/B](F40_ENSAIO_A_B_51_CASOS_102_COTEJOS.csv): em cada opção, **27 compatibilidades de desenho condicionais, 9 de maior risco e 15 questões jurídicas não resolvidas**; nenhuma conclusão equivale a teste de redação F5 ou aprovação legislativa. Todos os **20 invariantes G01–G20** preservados como critérios.
+- [**68 destinos conceituais** = 34 origens jurídicas × A/B](F40_DESTINOS_CONCEITUAIS_A_B_34_ORIGENS_68.csv): em cada opção, 13 Q de equivalência, 10 interfaces pendentes e 11 localizações conceituais de regras conhecidas. **Nenhuma numeração de artigo, fusão literal ou revogação foi efetivada**.
+- [Continuidade rodada 16](PACOTE_CONTINUIDADE_RODADA_16.md): pendências de revisão com M02/M05/M06/T01, Q de facultativo/PSA/guarda/carência materna, colisão art73-A e corte histórico.
+
+**Próximo F4-1:** auditoria por subunidade jurídica de equivalência Lei8213 arts10–17 x Lei8212 arts12–14/30, distinguindo concordância editorial de alteração material M, sem deixar conceitos gerais impor dever de custeio ou requisito de benefício. A/B ainda hipóteses, F2-D de revisão independente pendente, não houve dados novos SUIBE/LAI e nenhuma atualização da `main`.
+
+## 23. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

@@ -257,7 +257,18 @@ A F3-C identificou a [base pública de benefícios indeferidos do INSS](https://
 
 **Próximo F3-E:** obter dados SUIBE mediante acesso autorizado ou demanda formal agregada, sem contornar bloqueio; atualizar eventual monitoramento dos oito itens TCU ainda pendentes, em interface M05/M06/T01. PR #41 draft, sem texto C0/C1/M e sem alterações em outros módulos ou na `main`.
 
-## 21. Histórico
+## 21. Rodada 15 — F3-E: acesso à base SUIBE e preparação de coleta (14/10/2026)
+
+A pesquisa confirmou os metadados oficiais dos **benefícios indeferidos do SUIBE** e dos XLSX de julho/agosto 2026, mas os downloads de ambos pelo portal público retornaram **HTTP 403**, e a consulta CKAN não ficou acessível. Nenhuma linha XLSX foi lida ou agregada e **não existem frequências por motivo calculadas nesta rodada**. A ficha do dataset anuncia categorias de motivo/espécie/filiação/UF/DER, mas não prova cabeçalho real ou unidade observacional. [Registro das 10 verificações](F3E_LOG_ACESSO_SUIBE_LAI_TCU_10_VERIFICACOES.csv).
+
+- [**Minuta de pedido de acesso ao INSS**](F3E_MINUTA_PEDIDO_LAI_SUIBE_NAO_PROTOCOLADO.md) pronta para uso no Fala.BR, **expressamente NÃO ENVIADA**; solicita arquivos existentes e dicionário dos códigos, sem exigir levantamento novo.
+- [**Protocolo técnico G0–G7**](F3E_PROTOCOLO_TABULACAO_SUIBE_E_CRITERIOS_QUALIDADE.md) especifica proveniência, controle de XLSX, classificações, denominadores, proteção de dados e revisão jurídica de eventual alegação de ilegalidade. **Não executado sem dados.**
+- [Relatório F3-E](RELATORIO_F3E_SUIBE_ACESSO_LAI_E_LIMITE_EMPIRICO.md) e [continuidade rodada 15](PACOTE_CONTINUIDADE_RODADA_15.md) descrevem estado verificado, decisões TCU ainda não atualizadas por prova individualizada e próxima porta jurídica.
+- Mantêm-se **3 itens TCU cumpridos e 8 em cumprimento conforme decisão de maio/2026**; não se afirma que 8 continuassem pendentes em outubro sem nova certificação.
+
+**Próximo:** obter legitimamente XLSX/dicionário por rota pública funcional ou pedido LAI efetivamente realizado; alternativamente avançar em **F4-0 (duas arquiteturas jurídicas condicionais A/B)** sem escolher texto, sem prometer ganho causal e sem repetir pesquisa F3-E bloqueada. Nenhum módulo externo ou `main` alterado. PR draft, sem aprovação C0/C1/M.
+
+## 22. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

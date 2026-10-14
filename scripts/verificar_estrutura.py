@@ -415,7 +415,7 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
             if r["categoria_equivalencia"] != "Q":
                 fail(f"{path.relative_to(ROOT)}:{idx}: artigo sem auditoria promovido a C0-J")
             if r["situacao_transposicao_clf"] not in {
-                "JA_ESPELHADO_C0_TEXTUAL_MAS_JURIDICO_Q",
+                "C0_TEXTUAL_NAO_C0_JURIDICO",
                 "NAO_ESPELHADO_NESTA_ETAPA"
             }:
                 fail(f"{path.relative_to(ROOT)}:{idx}: artigo ficticiamente incorporado")

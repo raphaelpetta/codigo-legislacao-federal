@@ -81,3 +81,13 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Pacote de continuidade 07](CONTINUIDADE_07.md): versão, FEITO, PENDENTE, PRÓXIMO, interfaces e estado de CI.
 
 **Porta crítica:** CPM arts. 35 e 40 não são equivalentes ao CP arts. 21–22; a mera unificação editorial pode alterar causas de inculpabilidade e consequências penais. Próximo subciclo CPM arts.41–45 e matriz conjunta do estado de necessidade/obediência/erro, com exame constitucional e jurisprudencial. NENHUMA reforma material aprovada.
+
+## Ciclo 08 — erros, coação, necessidade e excludentes (14/10/2026)
+
+- [Inventário descritivo de CPM arts.41–45 (11 subunidades)](INVENTARIO_CPM_ART41_45_CICLO08.csv): extensão do recorte 1–40 da rodada anterior, distinguindo o **parágrafo único preexistente do art.42** da **proposta vetada pela Lei 14.688/2023**. Nenhuma concordância literal C0-T ou jurídica C0-J.
+- [Matriz de **20 testes** CP20–25 × CPM35–45 e interfaces](MATRIZ_COMPARATIVA_ERRO_COACAO_NECESSIDADE_CICLO08.csv): erros, obediência hierárquica, coação, justificantes, exculpantes e excesso; categorias **Q** e resultados condicionados.
+- [Matriz de **6 registros jurisprudenciais**](JURISPRUDENCIA_CULPABILIDADE_CPM_CICLO08.csv): STM (inclui Súmula 3, apelações 2024/2026) e STF (ADPF 779), com graduação de fonte e limites de interpretação.
+- [Dossiê 08 — análise crítica](DOSSIE_08_ERRO_COACAO_NECESSIDADE.md): distingue **culpabilidade × ilicitude**, identifica PROB-T25-0027–0032 e expõe hipóteses alternativas sem aprovação.
+- [Continuidade 08](CONTINUIDADE_08.md): FEITO, PENDENTE, PRÓXIMO, SHAs e status.
+
+**Travas materiais:** CPM35 não oferece no texto a mesma isenção do CP21 para erro inevitável; CPM40 restringe coação nos crimes contra dever; CPM42 PU envolve força de comandante em emergência; CPM45 PU isenta excesso escusável. **Essas diferenças não podem desaparecer por renumeração**. Necessário ampliar ao CPM46 (excesso doloso) e a precedentes completos antes de qualquer escolha do modelo C ou reforma M.

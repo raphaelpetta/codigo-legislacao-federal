@@ -122,3 +122,8 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [Minuta comparativa revisada dos artigos-modelo X2-T43 e X6-T07](MINUTA_27_X2_X6_PROVA_E_SUBSIDIARIEDADE.md), com campo de aplicação estrito da Lei 14.129 art.2/42–43, autoria/emissão/recebimento, conservação por cinco anos, efeitos de ciência separados de tecnologia, e Lei 9.784 art.26/69.
 - [Matriz de 18 testes adversariais por regime](MATRIZ_CICLO27_X2_X6_TESTES_ADVERSARIAIS.csv) incluindo Decreto 70.235 art.23 §2 III (entrega/consulta/meio magnético), opt-in quando exigido, possível uso digital apesar de lei especial citar pessoal/postal, e INSS/TCU, sem presumir ciência automática.
 - [Continuidade ciclo 27](CONTINUIDADE_27.md). R2 continua **preferência condicional**, não deliberação; nenhuma C0-J, C1 ou M aprovada, `DEC-016` e T43 pendentes.
+
+## Ciclo 28 — contrato de interface T07 e T43.M04 (14/10/2026)
+- [Contrato Q entre efeitos jurídicos e eventos técnicos](CONTRATO_CICLO28_T07_T43.md) com **26 campos** em [matriz CSV](CONTRATO_CICLO28_T07_T43_CAMPOS.csv), proveniência Lei14.129 arts.2/42/43 e Lei9784 arts.26/69, distinção de campos legais e propostas materiais, e 12 contraprovas.
+- [Continuidade ciclo 28](CONTINUIDADE_28.md). `T43.M04` **apenas PLANEJADO no catálogo main**, sem F0/F1 executado e sem diretório; a interface é proposta T07, **não implementação T43**. R2 preferível condicionalmente, R1 continua possibilidade.
+**Próximo:** F0/F1 autônomo de T43.M04, revisão LGPD, hierarquia de ciência fiscal/INSS, `DEC-016` e fontes individuais de envio/recebimento, sem C0-J/C1/M ratificados.

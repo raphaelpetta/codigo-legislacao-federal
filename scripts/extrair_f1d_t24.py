@@ -71,7 +71,7 @@ def extract(lines):
             letter=(p.group(2) or "").upper()
             paragraph=f"P{n}{letter}"
             key=(current,paragraph)
-            if key in units: raise ValueError(f"Parágrafo duplicado na fonte: {key}")
+            if key in units: raise ValueError(f"Parágrafo duplicado na fonte: {key}; antes={units[key][:170]!r}; nova={line[:170]!r}")
             units[key]=norm(p.group(3))
             previous=key
             continue

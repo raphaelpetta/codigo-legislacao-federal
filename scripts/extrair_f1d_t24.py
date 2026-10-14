@@ -24,7 +24,7 @@ ORIGINAL = "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-201
 UPDATED = "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html"
 ARTICLES = list(range(82, 98))
 ADDED = {(82, "P3"), (85, "P6A"), (85, "P8A"), (85, "P20")}
-ARTICLE = re.compile(r"^Art\.\s*(\d{1,4})\.\s*(.*)$", re.I)
+ARTICLE = re.compile(r"^Art\.\s*(\d{1,4})\.\s*(.*)$")
 PARA = re.compile(r"^§\s*(\d{1,2})[ºo°]?(?:\s*[-–]\s*([A-Z]))?\.?\s*(.*)$", re.I)
 ROMAN = re.compile(r"^([IVXLCDM]{1,6})\s*[-–]\s*(.*)$", re.I)
 

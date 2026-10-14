@@ -27,3 +27,14 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - A atualização legislativa e jurisprudencial foi consultada seletivamente até 14/10/2026; **não se atestou inventário exaustivo da Parte Geral ou de leis especiais**.
 
 **Primeira porta de qualidade seguinte:** completar F1 artigo a artigo, com fontes oficiais da redação vigente e histórico de mudanças; testar cada faixa em comparação com normas especiais e garantias constitucionais antes de qualquer minuta.
+
+## Ciclo 02 — 14/10/2026 (arts. 1º–31)
+
+- [Inventário por subunidade T25.M01 — arts. 1º–12](INVENTARIO_ART1_12_UNIDADES_02.csv): **39 registros**.
+- [Inventário por subunidade T25.M02 — arts. 13–31](INVENTARIO_ART13_31_UNIDADES_02.csv): **48 registros**.
+- [Dossiê 02 — interpretação, comparação e testes](DOSSIE_02_ART1_31_DIAGNOSTICO_E_TESTES.md): **87 registros com IDs únicos, cobrindo todos os 31 artigos**, sete fichas Q (PROB-T25-0006–0012), doze cenários adversariais, precedentes selecionados e comparação preliminar de Alemanha/Espanha.
+- [Continuidade do ciclo 02](CONTINUIDADE_02.md): entregas, alterações na `main`, fontes e próxima prova.
+
+**Classificação:** F1 *indexado descritivamente*, sem espelho literal de cada unidade nem revisão histórica exaustiva; F2/F3 parciais; F4 Q. **Nenhuma transposição C0/C1 juridicamente homologada nem reforma M adotada.**
+
+**Próxima porta:** transcrição literal C0-T das 39 subunidades de T25.M01 e revisão das mudanças temporais, ressalvas constitucionais e interação com leis especiais; começar sem atribuir a ela equivalência C0-J.

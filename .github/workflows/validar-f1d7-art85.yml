@@ -1,0 +1,24 @@
+name: T24 — integridade jurisprudencia/remissoes art85
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_f1d7_art85.py'
+      - 'modulos/T24/M01/MATRIZ_F1D7_36_HONORARIOS_JURISPRUDENCIA.csv'
+      - 'modulos/T24/M01/GRAFO_F1D7_REMISSOES_EXPRESSAS_ART85.csv'
+      - '.github/workflows/validar-f1d7-art85.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar_mapa_85:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Testar integridade de 36 unidades e 35 remissoes
+        run: python scripts/validar_f1d7_art85.py

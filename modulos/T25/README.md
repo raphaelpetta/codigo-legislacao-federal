@@ -63,3 +63,12 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Pacote de continuidade 05](CONTINUIDADE_05.md): FEITO, PENDENTE, PRÓXIMO, versões e controles.
 
 **Revisão crítica obrigatória:** CP art.12, CPM art.17, Código Eleitoral art.287 e LCP art.1º empregam referentes e âmbitos diferentes. É prematuro homologar uma regra geral única no CLF sem inventariar o CPM e confrontar a legislação especial com garantias constitucionais. Localizar o arquivo do DOU não equivale a verificar seu texto autenticado.
+
+## Ciclo 06 — prova adversarial A/B/C e acervo 1984 (14/10/2026)
+
+- [Matriz comparativa de **18 testes** (A/B/C)](TESTE_COMPARATIVO_MODELOS_ABC_CICLO06.csv): **14 casos anteriores + 4 novos**, incluindo **CPM art.30 PU × CP art.14 PU**, art.9º II CPM, tempo de guerra e responsabilidade penal da pessoa jurídica. São cenários sintéticos de segurança jurídica, não decisões judiciais.
+- [Dossiê 06 — resultados por classe e alternativas](DOSSIE_06_TESTE_ARQUITETURA_E_PROVENIENCIA.md): o modelo C (núcleo comum + regimes especiais) é **hipótese mais equilibrada neste recorte**, não decisão aprovada nem C0-J. Normas especiais potencialmente controversas permanecem `Q`, nunca validadas pela repetição.
+- **Novo acervo:** [Coleção das Leis da República Federativa do Brasil de 1984, Câmara/Departamento de Imprensa Nacional](https://bd.camara.leg.br/bd/items/0cd48368-68f7-4cab-a101-891629ff0cbd), Parte 1, arquivo PDF identificado. **Nem o PDF da Coleção nem o DOU 13/07/1984 foram inspecionados visualmente**; persistem anomalias do CP arts.3º,4º,12 nas páginas transcritas.
+- [Continuidade ciclo 06](CONTINUIDADE_06.md): FEITO, PENDENTE, PRÓXIMO, SHAs, CI e interfaces.
+
+**Nova trava:** o **CPM art.30, parágrafo único**, admite pena de crime consumado na tentativa excepcionalmente grave, diferentemente da regra geral do CP art.14 PU; suprimir ou preservar essa diferença é escolha de consequência material que não pode ser decidida editorialmente.

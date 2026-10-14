@@ -1,0 +1,38 @@
+id_nexo,origem_artigo,destino_artigo_ou_jurisprudencia,razao_do_vinculo,classe,risco,status_equivalencia,fonte
+NX19-001,51,9,Efeitos da desistência sobre interessados distintos,DIREITOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-002,51,52,Desistência não equivale à extinção superveniente do objeto,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-003,51,69,Regime especial pode regular desistência de outro modo,ESPECIALIDADE,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-004,53,54,Autotutela e decadência de atos favoráveis,TEMPORAL,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-005,53,55,Invalidação e possibilidade de convalidação de vício sanável,SISTEMICO,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-006,54,STJ633,Subsidiariedade de decadência a entes sem lei local específica,JURISPRUDENCIA,CRITICO,PENDENTE_C0_J,https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&h=true&i=1&l=10&livre=SUMULA+INPATH%28TIPO%29+AND+633+INPATH%28NUM%29&ordenacao=-%40NUM&p=false
+NX19-007,54,69,Decadência geral versus regras especiais de processos,ESPECIALIDADE,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-008,55,50,Motivação de convalidação,DIREITOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-009,56,13,Competência indelegável para decisão de recursos,COMPETENCIA,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-010,56,57,Recurso e número de instâncias administrativas,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-011,56,59,Reconsideração de cinco dias e interposição de dez dias,PRAZOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-012,56,64-A,Fundamentação sobre súmula vinculante em reconsideração/recurso,ALTERACAO_2006,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-013,56,64-B,Reclamação ao STF e adequação das decisões,ALTERACAO_2006,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-014,58,9,Legitimados gerais e recursais coletivos/difusos,DIREITOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-015,58,62,Direito de alegação dos demais interessados,DIREITOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-016,59,26,Cientificação inicial do prazo de recurso,PRAZOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-017,59,66,Prazo de dez dias e contagem contínua geral,PRAZOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-018,59,49,Prazo de decisão administrativa e decisão recursal distintos,TEMPORAL,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-019,61,64,Efeito suspensivo e competência revisora,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-020,62,26,Intimação dos demais interessados,DIREITOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-021,63,17,Competência para decidir e indicação da autoridade correta,COMPETENCIA,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-022,63,53,Inadmissibilidade de recurso não equivale a extinção de autotutela,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-023,64,65,Reforma gravosa em recurso e vedação na revisão sancionatória,DIREITOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-024,64,50,Dever de motivação de alteração da decisão,SISTEMICO,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-025,64-A,56,Súmula vinculante e dever de fundamentar no recurso,ALTERACAO_2006,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-026,64-B,64-A,STF reclamação acolhida e adequação futura,ALTERACAO_2006,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-027,65,68,Revisão de sanções e direito de defesa,DIREITOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-028,66,23,Dia útil de prática de atos e prazo em dias contínuos,PRAZOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-029,66,24,Prazo supletivo de atos e contagem,PRAZOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-030,66,26,Termo inicial por ciência de intimação,PRAZOS,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-031,66,41,Antecedência da prova e vencimento de prazo,PRAZOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-032,69,1,Âmbito federal e aplicação subsidiária aos processos especiais,ESPECIALIDADE,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-033,69,54,Subsidiariedade da decadência com leis setoriais,ESPECIALIDADE,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-034,69,69-A,Prioridade processual no âmbito do Livro administrativo,PRIORIDADE,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-035,69-A,9,Prioridade de pessoa como parte ou interessado,DIREITOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-036,69-A,26,Comunicações e identificação de prioridade nos autos,DIREITOS,ALTO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+NX19-037,70,1,Vigência originária de 1999 e referente da lei,TEMPORAL,CRITICO,PENDENTE_C0_J,https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html

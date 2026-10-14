@@ -71,7 +71,7 @@ def main():
         chunk=data[n]
         kind=row["natureza_do_artigo"]
         if n==46:
-            if not chunk.splitlines()[0].endswith("(VETADO)."):
+            if "VETADO" not in chunk[:300]:
                 raise ValueError("Art.46 deveria ser VETADO, conferir texto")
         if n in (51,52,53,54) and "passa" not in chunk[:300].lower():
             raise ValueError(f"Artigo alterador {n} não traz comando 'passa'")

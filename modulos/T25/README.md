@@ -38,3 +38,11 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 **Classificação:** F1 *indexado descritivamente*, sem espelho literal de cada unidade nem revisão histórica exaustiva; F2/F3 parciais; F4 Q. **Nenhuma transposição C0/C1 juridicamente homologada nem reforma M adotada.**
 
 **Próxima porta:** transcrição literal C0-T das 39 subunidades de T25.M01 e revisão das mudanças temporais, ressalvas constitucionais e interação com leis especiais; começar sem atribuir a ela equivalência C0-J.
+
+## Ciclo 03 — cotejo dos arts. 1º–12 (14/10/2026)
+
+- [Espelho textual controlado das 39 subunidades](CONCORDANCIA_LITERAL_ART1_12_CICLO03.csv): transcrição **sem rótulos de artigo** da versão compilada da Câmara, fonte/destino experimental, `C0-T` para a cópia e **`Q` quanto à equivalência e integração jurídicas**. Ainda é necessário confrontar publicação autêntica do DOU e histórico completo; não há revogação nem aprovação de dispositivo CLF.
+- [Dossiê 03 — temporalidade, extraterritorialidade, leis especiais](DOSSIE_03_ART1_12_TEXTO_TEMPORAL_E_ESPECIALIDADE.md): Súmulas STF 611/711; STJ 501/Tema 191; Lei 13.445/2017 arts.100–105; STJ AgRg na HDE 13.803-EX (19/08/2026); 12 testes adversariais e hipóteses de reforma não deliberadas.
+- [Continuidade 03](CONTINUIDADE_03.md): estado da branch, pendências, interfaces constitucionais e próximo teste.
+
+**Limites:** nenhuma equivalência jurídico-material `C0-J` foi confirmada, nem houve redação ou ratificação de mudança material. **Próxima prova:** cotejo histórico da publicação original e análise de 6–10 leis especiais conectadas ao art. 12, com remissões para T23/T26/T27/T48 sobre sentenças estrangeiras.

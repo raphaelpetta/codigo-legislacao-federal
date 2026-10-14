@@ -107,3 +107,8 @@ Esses arquivos **não promulgam novas normas**, nem revogam a Lei 9.784/1999. Pr
 - [Matriz de 23 normas e controles](MATRIZ_CICLO24_TRES_REGIMES_INTIMACAO.csv) e [12 testes adversariais](CONTRAPROVAS_CICLO24_TRES_REGIMES.csv), **tudo Q jurídico**, sem transposição C0-J das 215 unidades.
 - [Pacote de continuidade 24](CONTINUIDADE_24.md): sem prova de cumprimento da determinação TCU em 2026; distinguir prazo de ciência fiscal de prazo de defesa, protocolo de intimação e norma infralegal de lei.
 **Próximo:** monitorar cumprimento da determinação do TCU, aferir legalidade e evidência do art. 20 I da Portaria 993 e o regime especial fiscal, antes de qualquer regra geral integrada.
+
+## Ciclo 25 — minuta comparativa de comunicação eletrônica (14/10/2026)
+- [Seis artigos-modelo, hipóteses de arquitetura R1 e R2](MINUTA_COMPARATIVA_25_COMUNICACAO_DIGITAL_R1_R2.md): cláusula de procedimento geral versus divisão T07/T43. Prova de emissão/recebimento, momento de ciência, opt-in/opt-out quando exigido por lei, falhas de sistema, edital, contraditório, 3 regimes especiais e transição. **Rascunho não homologado:** C1/M sob análise; nenhum C0-J presumido.
+- [Continuidade ciclo 25](CONTINUIDADE_25.md): TCU TC007.138/2022-9, Acórdão 2002/2024 item9.1.1 com determinação de 365 dias; buscas 2025/2026 não localizaram documento suficiente que comprove cumprimento ou descumprimento; requer consulta do andamento e logs institucionais.
+**Próximo:** parecer hierarquia INSS art20 Portaria993 × Lei14129 arts42–43 e provas de dois casos concretos; T01 DEC-016 e T43 deliberam arquitetura, sem alterar `main`.

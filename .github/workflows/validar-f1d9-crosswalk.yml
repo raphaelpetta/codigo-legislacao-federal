@@ -1,0 +1,19 @@
+name: T24 — crosswalk simbolico das remissoes CPC85
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_f1d9_crosswalk_art85.py'
+      - 'modulos/T24/M01/F1D9_CROSSWALK_35_REMISSOES_SIMBOLICAS.csv'
+      - '.github/workflows/validar-f1d9-crosswalk.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  crosswalk_85:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_f1d9_crosswalk_art85.py

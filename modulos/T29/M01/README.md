@@ -153,7 +153,20 @@ Complemento **não duplicativo** da matriz F1-A: [F1B_MATRIZ_QUATRO_DIVERGENCIAS
 
 Nenhuma regra CLF foi redigida, nenhuma reforma M foi ratificada, nenhum outro módulo alterado e PR continua draft; F1 parcial e F2 ainda pendente.
 
-## 13. Histórico
+## 13. Rodada 07 — F1-F: fechamento documental da cadeia MP1523/1996 a Lei9528/1997
+
+**Cotejo efetivamente executado:** [F1F_CADEIA_COMPLETA_MP1523_1996_1997.csv](F1F_CADEIA_COMPLETA_MP1523_1996_1997.csv) registra **15 MPs** (MP 1.523 inicial, reedições -1 a -13 e MP 1.596-14) **mais a Lei 9.528/1997**. Confronto manual do **art.16 §2 da Lei8.213** por ato e disposições de **convalidação na MP sucessora/lei final**: nas 15 MPs o rol permanece sem menor sob guarda, e Lei9528 **art.2º** o mantém; **art.13** convalida expressamente atos praticados com base nas 15 MPs. Convalidação de atos e texto não significam certificação automática de todos os efeitos individuais ou regularidade constitucional de cada período.
+
+- [Relatório jurídico com fontes individuais, 16 atos, datas e testes temporais](RELATORIO_F1F_CADEIA_MP1523_E_CONVALIDACAO.md).
+- [Pacote de continuidade da rodada 07](PACOTE_CONTINUIDADE_RODADA_07.md).
+
+**Duas reservas documentais:** (1) [MP1523-11](https://www.planalto.gov.br/ccivil_03/mpv/1996-2000/1523-11.htm) traz "forma estabelecido", ao contrário de [MP1523-12](https://www.planalto.gov.br/ccivil_03/mpv/1996-2000/1523-12.htm) e das outras versões ("estabelecida"); não é alteração material do rol. (2) [Senado registra DOU 24/10/1997](https://legis.senado.leg.br/norma/555128) para MP1523-13, enquanto rodapé Planalto registra 26/10; conservamos data do Senado e **Q de fonte** até cotejo do DOU fac-símile.
+
+**Marco da proteção judicial:** Tema732/STJ protege menor sob guarda economicamente dependente apesar da exclusão textual de MP1996/lei1997; STF ADIs4878/5083 e questão posterior EC103 art23§6 do STF Tema1271 exigem análise de período e hierarquia. **Próximo: F2-A**, reconstrução do modelo vigente de filiação e dependência, com `Q` preservadas; avançar no mérito do CLF sem repetir transcrições já documentadas.
+
+**Estado:** pesquisa documental por núcleo F1-F concluída em escopo; **F1 do T29 ainda não integral**, C0/C1/M não aprovados, PR draft sem merge.
+
+## 14. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

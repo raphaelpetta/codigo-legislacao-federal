@@ -179,7 +179,22 @@ A pesquisa deixou de acumular novos índices históricos para construir **modelo
 
 **Q preservadas:** facultativo de 14–15 anos, assimetria PSA entre Leis8212/8213, STF Tema1271 guarda pós-EC103, limites probatórios/carência de salário-maternidade após ADIs2110/2111. **Nenhum C0/C1/M ou texto CLF aprovado.** **Próximo F2-B:** tempo, sucessão de vínculos, recuperação de qualidade e compatibilidade do conceito único com M02/M05, sem editar módulos vizinhos.
 
-## 15. Histórico
+## 15. Rodada 09 — F2-B: dinâmica de vínculos, perda/recuperação e não regressão (14/10/2026)
+
+A reconstrução funcional foi aprofundada com [F2B_TRANSICOES_23_ESTADOS.csv](F2B_TRANSICOES_23_ESTADOS.csv), **23 transições condicionais de estados**, [F2B_TESTES_TEMPORAIS_27.csv](F2B_TESTES_TEMPORAIS_27.csv), **27 testes respondidos** de ingresso, graça, prova, remuneração, retorno, pensão, dependência e mudanças de categoria, e [RELATORIO_F2B_DINAMICA_TEMPORAL_E_NAO_REGRESSAO.md](RELATORIO_F2B_DINAMICA_TEMPORAL_E_NAO_REGRESSAO.md), relatório jurídico detalhado.
+
+**Achados qualificados:**
+1. **STJ Tema1360** — julgamento **11/03/2026**, publicação **19/03/2026**, trânsito **21/05/2026**; a notícia de julho é posterior. Desemprego involuntário provado por meios idôneos (incluindo no processo administrativo), sem formalismo de registro estatal exclusivo; CTPS/CNIS isoladamente insuficientes.
+2. **Art. 27-A da Lei8213** — nova filiação e aproveitamento de carência **não são idênticos** à retomada da qualidade; o texto ainda menciona salário-maternidade, cuja carência prevista no art25 III foi invalidada pelas **ADIs2110/2111/STF**. Não reconstituir exigência inconstitucional por interpretação do art27-A.
+3. **STJ REsp1.346.852/PR e Informativo525** — impossibilidade de **recolhimento post mortem de CI responsável por suas próprias contribuições** para formar qualidade e pensão; não equiparar à omissão do empregador em recolher contribuição de empregado.
+4. **Lei8213 art102 e STJ Súmula416** — direito adquirido à aposentadoria e exceção da pensão depois de perda de qualidade quando havia requisitos completos em vida; art15§4 exige termo exato de vencimento, sem datas presumidas.
+5. **Teste específico do período de graça**: art15§3 mantém direitos no prazo; não converter lacuna de recolhimento corrente em negativa automática.
+
+A validação estrutural dos CSVs confirmou **23 transições, 27 testes, IDs únicos, fontes/campos preenchidos e zero remissões a IDs inexistentes**. Os seis IDs funcionais da F2-A não exercitados na rodada anterior foram incluídos em testes desta rodada; **não significa cobertura de todas as exceções materiais do RGPS**.
+
+[Continuidade da rodada 09](PACOTE_CONTINUIDADE_RODADA_09.md). **Próximo: F2-C**, estrutura unificada de pessoa/vínculo/dependência com separação de qualificação, custeio e prestações, e controle de não regressão dos **47 cenários** F2-A/F2-B. F1 ainda seletiva, F2 parcial; nenhuma C0/C1/M aprovada, PR draft, módulos vizinhos e `main` intocados.
+
+## 16. Histórico
 
 
 - **14/10/2026, rodada 01:** abertura independente do T29.M01 após checar catálogo e ausência de frentes T29 abertas; F0 e F1 seletiva registrados em branch e PR próprio; nenhum arquivo `main` ou T24 modificado.

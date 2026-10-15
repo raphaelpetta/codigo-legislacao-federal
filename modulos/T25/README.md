@@ -130,3 +130,13 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Dossiê 12 e problemas `PROB-T25-0036–0043`](DOSSIE_12_PENAS_DOSIMETRIA_CP_CPM.md) e [Continuidade 12](CONTINUIDADE_12.md).
 
 **Ressalva de governança:** as opções `A2-D1`, `B2-DP`, `B2-DM` e `B2-DEx` continuam **propostas materiais não ratificadas**. Os exemplos provam a diferença de cálculo entre categorias; não provam que CPM35 tenha natureza definitiva de atenuante ou causa especial. Próximo: **espécies e substituições CP32–58 × CPM55–68**, integrando T25.M03/T27.
+
+## Ciclo 13 — T25.M03: espécies, substituições e execução (15/10/2026)
+
+- [Inventário descritivo de **41 artigos e 107 subunidades**](INVENTARIO_ESPECIES_CP32_58_CPM55_68_CICLO13.csv): CP32–58 (27 arts.) × CPM55–68 (14 arts.), com penas, direitos da pessoa presa, conversão em prisão militar, detração e revogações de 2023. **Não é transcrição literal e não demonstra C0-J.**
+- [Concordância de **25 questões jurídicas**](CONCORDANCIA_ESPECIES_SUBSTITUICOES_CICLO13.csv): CP44 substituição não privativa × CPM59 conversão em prisão privativa; CP32 × CPM55; CPM62 civil condenado pela Justiça Militar; CPM84–88 e impossibilidade de sursis em deserção; reincidência, temporalidade e pena de morte somente em guerra declarada. Todas em `Q` ou propostas `M`, não ratificadas.
+- [Dois tipos concretos e **oito cenários de teste**](CASOS_TIPOS_REAIS_SUBSTITUICOES_CICLO13.csv): **CP163 caput** dano simples (detenção 1–6 meses ou multa, observada ação penal do CP167) e **CPM187** deserção (detenção 6 meses–2 anos, agravada para oficial), inclusive controles de 2022/2026. **Não são condenações ou penas de pessoas reais.**
+- [Jurisprudência STF/STJ/STM em **três referências verificáveis**](JURISPRUDENCIA_SUBSTITUICAO_PENAL_CICLO13.csv): STF HC94083/DF (2010), STJ CC161898/MG (2019), STM Ap7000286-26.2024 (julgada 2024, publicada em 2026); graduação de prova.
+- [Dossiê 13 — contraste e PROB-T25-0044–0052](DOSSIE_13_ESPECIES_SUBSTITUICOES_E_EXECUCAO.md) e [Continuidade 13](CONTINUIDADE_13.md).
+
+**Trava de codificação:** `substituir prisão` pelo CP44 não equivale a `converter pena curta em prisão militar` pelo CPM59. Uma unificação que importe diretamente CP44 ao CPM muda a espécie/execução da pena, é **M**, não C1. O art.54 CP ainda contém literalidade antiga (inferior a um ano) diante do art.44 reformado em 1998; identificar efeitos de lex posterior antes de modernizar. Próxima auditoria: **CP77–82 × CPM84–88 e LEP**, com trajetória completa do título condenatório à execução (T27).

@@ -1,0 +1,30 @@
+name: Conferir corpus experimental T07 (fonte canonica fixada)
+
+on:
+  pull_request:
+    paths:
+      - "produto/**"
+      - "central/**"
+      - "scripts/gerar_produto_experimental.py"
+      - ".github/workflows/conferir-produto-experimental.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  vista-vs-origem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter branch da central
+        uses: actions/checkout@v4
+        with:
+          path: trabalho
+      - name: Obter fonte PR45 no commit fixado
+        uses: actions/checkout@v4
+        with:
+          ref: 2a4d1eefa864f44435aec70ed0cc55a96b718b64
+          path: setorial
+          persist-credentials: false
+      - name: Conferir blobs, destinos, estados e vista
+        run: python3 trabalho/scripts/gerar_produto_experimental.py --setorial-root setorial --check

@@ -47,3 +47,35 @@ O teste desta rodada é **revisão documental manual**, não execução de suít
 
 ### PRÓXIMO
 **T07.M03/issue #35:** completar e auditar **os 24 dispositivos restantes dos arts. 3º–17** (5–8, 10, 12–17) com os mesmos campos de concordância, seguidos de testes de devido processo, delegação/avocação e meios de manifestação. Aceite: 40/40 com destino e prova textual, relatório de direitos/competências e bloqueios reais; nenhuma norma original perdida e parecer T43/T01 das interfaces condicionantes. Depois iniciar os blocos de ciência/instrução/recurso e 215/215 sob revisão material antes de qualquer revogação.
+
+
+## ADENDO — rodada 03, fechamento textual dos arts. 3º–17 (14/10/2026)
+
+### FEITO — arquivo e prova efetivamente produzidos
+
+1. **`10_T07_COMPLEMENTO_24_UNIDADES_F5Q.csv`**: 24 posições de arts. 5–8, 10 e 12–17, ausentes na rodada anterior, com origem, texto, destino, risco, testes e rótulo Q.
+2. **`11_T07_CONCORDANCIA_UNIFICADA_40_UNIDADES_F5Q.csv`**: união sem duplicação das 16 posições anteriores + 24 novas; **40/40** posições documentais da Lei 9.784 arts. 3º–17, texto idêntico ao espelho de origem armazenado na main; não certifica histórico integral nem C0-J.
+3. **`12_T07_LIVRO_SEQUENCIAL_ARTS1_17_69_F5Q.md`**: **18 artigos experimentais em sequência** com **62 unidades de origem** (21 arts. 1º–2º, 40 arts. 3º–17, 1 art. 69), sem afirmação de revogação. Soluciona editorialmente a antiga numeração salteada no ensaio dos arts. 3º, 4º, 9º e 11; mantém rastreio pelo ID.
+4. **`13_TESTES_T07_REQUERIMENTOS_CAPACIDADE_COMPETENCIA.csv`**: 16 cenários jurídicos hipotéticos com confronto textual realizado: **10 passagens no recorte, 4 passagens com ressalva e 2 condicionais**. Não são 16 julgamentos reais nem equivalência certificada.
+5. **`14_RELATORIO_T07_CRITICO_REQUERIMENTO_CAPACIDADE_COMPETENCIA.md`**: relatório crítico, cotejo da Lei 9.784, Lei 14.129 (arts. 5º–10), Lei 14.063, Lei 13.146 e matéria orgânica. Registra a diferença de competência entre delegação e avocação, e a ocorrência de 'unidade fundacional competente' **em duas transcrições oficiais da Câmara** (original e atualizada). Não revisado fac-símile DOU.
+6. **Validador ampliado** `scripts/validar_integracao_t07_nucleo.py` e workflow que acompanha `integracao/**` passaram a exigir 40/40, 62 unidades dentro de 18 artigos, fontes textuais e 16 testes. Conferir CI no HEAD mais recente; resultados de SHAs anteriores não substituem a CI atual.
+
+**Fontes oficiais efetivamente abertas na rodada:** textos atualizado/original da Lei 9.784 na Câmara; Lei 14.129 atualizada; Lei 14.063 atualizada; Lei 13.146/2015 (edição da Câmara) quanto à capacidade civil da pessoa com deficiência. Não foi feita análise de autos individuais ou jurisprudência aprofundada sobre cada instituição, nem cotejo de DOU em imagem.
+
+### PENDENTE / NÃO VERIFICADO
+
+- **Gate jurídico C0-J segue ABERTO** para as 62 unidades. A alteração de referente 'desta Lei'→'deste Livro' exige contexto do Livro completo, condição jurídica de promulgação e sucessão válida; DEC-016 não foi decidida.
+- A matriz **40/40 é cobertura apenas dos arts. 3º–17**; os 215 registros textuais do estudo T07 total continuam a ser universo de controle, não aprovados. Ainda faltam todas as disciplinas não abrangidas por arts. 1º–17/69.
+- Capacidade administrativa versus civil e atos de criança/adolescente e pessoa com deficiência dependem de regimes especiais (T13/T32). Requerimentos digitais exigem parecer T43. Nenhum modelo novo de assinatura eletrônica, avocação ou delegação foi escolhido.
+- Art. 16 'unidade fundacional': original e atualização Câmara coincidem, mas o fac-símile DOU e repercussões jurídicas não foram certificados. Não corrigir editorialmente sem prova.
+- Nenhum dispositivo material homologado, nenhuma lei revogada, nenhum PR setorial fundido à main ou mudança na CF proposta nesta rodada.
+
+### PRÓXIMO — tarefa prioritária e critério de conclusão
+
+**Módulo dono:** T07.M03 (issue #35; PR próprio #39), com T43.M04, T01.M04 e T24 conforme as interfaces.
+
+**Atividade única:** auditar e preparar o **bloco de arts. 18–28 da Lei 9.784**, em especial impedimentos/suspeição, forma dos atos, horário/prazos e intimações. Exigir concordância por unidade com fonte atual e versões históricas, casos/precedentes concretos onde pertinentes, meios digitais (Lei 14.129 arts. 6–10/42–43 e Lei 14.063), prova de recebimento/ciência, causas de nulidade e preservação da defesa.
+
+**Aceite verificável:** 100% das unidades dos arts. 18–28 com destino e diferença classificada C0/C1/M/Q, testes de conflitos físico/digital, reserva de competência/forma, direito a vista e contraditório e pacote de continuidade. Q não deve ser convertido em aprovação em caso de falta de prova. **Após esse bloco:** prosseguir com instrução, decisão, recurso e prazos para que o Livro se torne integral, ao invés de repetir textos parciais.
+
+**Coordenação CF–CLF:** a CF/1988 é norma vigente; qualquer versão constitucional futura é cenário independente, DEC-016 não deve ser resolvida por inferência.

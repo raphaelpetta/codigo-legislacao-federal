@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "Oito componentes Q em seis títulos: T05 Lei9709 arts1–15 (15/30), T07 Lei9784 (78/214 positivos +1 histórico), T24 CPC70–102 (33/181), T25 CP1–12 (12/39), T37 PNMA Lei6938 arts1–2 (2/13; inciso XI incluído pela Lei15512/2026, vigente 23/09/2026), T48 Lei9474 arts1–10 (10/21). Total 150 artigos/498 unidades documentais textuais de origem e 1 histórico T07. T05 art15 vigência histórica de 1998, sem transposição prospectiva; C0-J=0, M=0, DEC-016 pendente e DOU original T37/T48 não cotejado.",
+  "observacao": "11 componentes experimentais Q em 7 títulos, 160 artigos de origem e 532 unidades textuais documentais positivas, mais 1 registro histórico T07 (soma índice=533); T05 15/30 (art15 temporal de 1998), T07 78/214 +1 histórico, T24 33/181, T25 12/39, T28 CLT1–3 3/7, T37 PNMA1–4 4/32, T48 Lei9474 arts1–10 e 17–21 (lacuna 11–16) 15/29. PEC221/2019 aprovada dois turnos no Senado 14/10/2026, sem promulgação comprovada no corte 15/10/2026; não altera CLT. DEC-016 pendente, C0-J zero, nenhuma M homologada.",
   "livros": [
     {
       "id": "CLF-LIV-T05-M06-9709-ART1-2-7-v1",
@@ -61,6 +61,18 @@
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q"
     },
     {
+      "titulo": "T28",
+      "modulo": "T28.M01",
+      "id": "CLF-LIV-T28-CLT-R11",
+      "vista": "produto/vistas/T28_CLT_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T28_M01_CLT_7_R11_v1.json",
+      "artigos": 3,
+      "registros_documentais": 7,
+      "origem_commit": "82c20b82b1046123d54164074fa1fb59ee698f99",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "CLT arts1-3 na redação atual Câmara, §2/3 art2 pós Reforma Trabalhista, PEC221/2019 aprovação não promulgação no corte. DOU histórico não cotejado, Q."
+    },
+    {
       "id": "CLF-LIV-T37-M01-6938-ART1-2-13-R10",
       "titulo": "T37",
       "modulo": "T37.M01",
@@ -71,6 +83,18 @@
       "origem_commit": "c52a04dfe10f17ea70b4a4c0b74824c6f30e7136",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Câmara atualizada + Planalto compilado, Lei6938 arts1–2, inclui inciso XI adicionado pela Lei15512/2026 vigente 23/09/2026; DOU 1981 e alteradora 2026 não cotejados em fac-símile, remissão CF235 mantida, Q."
+    },
+    {
+      "titulo": "T37",
+      "modulo": "T37.M01",
+      "id": "CLF-LIV-T37-PNMA-R11",
+      "vista": "produto/vistas/T37_PNMA_ART3_4_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T37_M01_6938_19_R11_v1.json",
+      "artigos": 2,
+      "registros_documentais": 19,
+      "origem_commit": "93933a075f62a2bee9d4cacfcc7eca04cbe03f83",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "PNMA art3 conceitos inclusive cinco alíneas de poluição e art4 objetivos 7 incisos, sem alterações de responsabilidade e competências por compilação editorial; DOU pendente."
     },
     {
       "id": "CLF-LIV-T48-M03-9474-ART1-8-17-v1",
@@ -95,6 +119,18 @@
       "origem_commit": "60c9e4c344ebeb9dd7a4c92218fd78b18a1b5c1c",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei9474 arts9–10 Câmara publicação original + Planalto. Suspensão do art10 apenas por ingresso irregular; arquivamento condicionado no §1; DOU1997 não cotejado, Q."
+    },
+    {
+      "titulo": "T48",
+      "modulo": "T48.M03",
+      "id": "CLF-LIV-T48-REFUGIO-R11",
+      "vista": "produto/vistas/T48_REFUGIO_ART17_21_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T48_M03_9474_8_R11_v1.json",
+      "artigos": 5,
+      "registros_documentais": 8,
+      "origem_commit": "c9d1a033904f14f54217d710ee631a759d10c6fd",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei9474 arts17-21 sobre solicitação, ACNUR, sigilo, intérprete e protocolo, lacuna arts11-16 conservada e marcadas arts22-49 fora da vista, DOU pendente."
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T37-PNMA-R11",
+  "source_path": "modulos/T37/M01_ESPELHO_PNMA_ART3_4_19_Q.csv",
+  "source_blob_sha": "e452c4aee3166b74853a6f5870295e9a7478d9d5",
+  "view_path": "produto/vistas/T37_PNMA_ART3_4_PREVIA_Q.md",
+  "count_expected": 19,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-6938-31-agosto-1981-366135-normaatualizada-pl.html",
+  "crosscheck": "https://www.planalto.gov.br/ccivil_03/leis/l6938compilada.htm",
+  "source_commit": "93933a075f62a2bee9d4cacfcc7eca04cbe03f83",
+  "setorial_commit": "93933a075f62a2bee9d4cacfcc7eca04cbe03f83",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "observacoes": [
+    "Art. 3º III: poluição tem tipo normativo amplo e cinco alíneas alternativas; conservar o vínculo da definição geral com os critérios a–e, sem separar como infrações administrativas autônomas.",
+    "Art. 3º IV: responsabilidade direta e indireta do poluidor não equivale a presunção irrestrita de nexo, culpa ou sanção; separar responsabilidade civil, administrativa e penal e a jurisprudência aplicável.",
+    "Art. 3º V: lista de recursos ambientais tem redação da Lei 7.804/1989; registrar vigência antes de certificar C0-T como texto original de 1981.",
+    "Art. 4º II: competências de União, estados, DF e municípios e compatibilização com LC 140/2011; não federalizar atribuições locais por montagem editorial.",
+    "Art. 4º VII: distinguir recuperação/indenização do poluidor ou predador da contribuição do usuário por uso econômico, incluindo reserva tributária quando pertinente.",
+    "Sem DOU fac-símile de 1981 ou da Lei 7.804/1989 nesta rodada; a vista é reprodução da versão compilada da Câmara Q."
+  ]
+}

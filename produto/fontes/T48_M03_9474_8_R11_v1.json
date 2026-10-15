@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T48-REFUGIO-R11",
+  "source_path": "modulos/T48/M03_ESPELHO_REFUGIO_ART17_21_8_Q.csv",
+  "source_blob_sha": "cafa2f66c34566adab89ef20ef380c96c0f47d0f",
+  "view_path": "produto/vistas/T48_REFUGIO_ART17_21_PREVIA_Q.md",
+  "count_expected": 8,
+  "articles_expected": 5,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9474-22-julho-1997-365390-publicacaooriginal-1-pl.html",
+  "crosscheck": "https://www.planalto.gov.br/ccivil_03/leis/l9474.htm",
+  "source_commit": "c9d1a033904f14f54217d710ee631a759d10c6fd",
+  "setorial_commit": "c9d1a033904f14f54217d710ee631a759d10c6fd",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "observacoes": [
+    "Art. 17: expressão da vontade de solicitar refúgio não pode sofrer barreira probatória prévia incompatível com art. 8º.",
+    "Art. 18, parágrafo único: comunicação institucional à ACNUR e possibilidade de sugestões não transformam organismo internacional em julgador; cruzar regras de confidencialidade e consentimento.",
+    "Art. 19: preservação de intérprete quando necessário, grupo familiar, circunstâncias e elementos de prova; não impor prova impossível de perseguição ou requisito inexistente.",
+    "Art. 20: sigilo de declarações e supervisão por servidores qualificados; conferir processo eletrônico, acesso e proteção de dados, com cuidado específico frente ao Estado de origem.",
+    "Art. 21: protocolo de permanência durante processo e documento laboral; terminologia original 'Ministério do Trabalho' deve ser lida com Lei 13.445/2017, regulamentação atual e organização administrativa, sem substituir texto silenciosamente.",
+    "Art. 21 §2: referência a menores de quatorze anos é atributo original do protocolo; revisar compatibilidade com direitos da criança, documentação familiar e regras atuais.",
+    "A organização e as formas de instrução podem ter sido alteradas por atos posteriores; DOU 1997 sem autenticidade de fac-símile, e processo de refúgio ainda incompleto (arts. 22–32)."
+  ]
+}

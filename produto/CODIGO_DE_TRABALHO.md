@@ -1090,6 +1090,46 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Art. 9º:** homologação de sentença estrangeira e medidas de segurança demandam cotejo com as atribuições do STJ e normas internacionais; não substituir por mecanismo administrativo geral.
 - **Nenhuma reforma material aprovada; C0-J=0; DEC-016 pendente.** Todo o texto é derivado e reconstruível do commit setorial fixado.
 
+## T28 — T28.M01 [CLF-LIV-T28-CLT-R11; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T28 — Introdução, conceito de empregador e relação de emprego
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q, NÃO RATIFICADA.** CLT (Decreto-Lei 5.452/1943), 3 artigos de origem e 7 unidades; numeração da lei original, não do futuro CLF. Reprodução da [Câmara — texto institucional](https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-5452-1-maio-1943-415500-normaatualizada-pe.html), cotejo preliminar com [Planalto](https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm). O fac-símile DOU original e a cadeia de retificações/alterações **não foram certificados**. **C0-J=0; M=0; DEC-016 pendente.**
+
+**Fonte:** `modulos/T28/M01_ESPELHO_CLT_ART1_3_7_Q.csv` · Git blob SHA `6439a139cacdd3c7fca3202963c8cfcc2dcf188c` · correspondência 7 origens ↔ 7 destinos.
+
+## Texto de origem, sem renumeração definitiva
+
+**Art. 1.** Esta Consolidação estatui as normas que regulam as relações individuais e coletivas de trabalho nela previstas.
+
+**Art. 2.** Considera-se empregador a empresa individual ou coletiva, que, assumindo os riscos de atividade econômica, admite, assalaria e dirige a prestação pessoal de serviços.
+
+**§ 1º** Equiparam-se ao empregador, para os efeitos exclusivos da relação de emprego, os profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins lucrativos, que admitirem trabalhadores como empregados.
+
+**§ 2º** Sempre que uma ou mais empresas, tendo, embora, cada uma delas, personalidade jurídica própria, estiverem sob a direção, controle ou administração de outra, ou ainda quando, mesmo guardando cada uma sua autonomia, integrem grupo econômico, serão responsáveis solidariamente pelas obrigações decorrentes da relação de emprego.
+
+**§ 3º** Não caracteriza grupo econômico a mera identidade de sócios, sendo necessárias, para a configuração do grupo, a demonstração do interesse integrado, a efetiva comunhão de interesses e a atuação conjunta das empresas dele integrantes.
+
+**Art. 3.** Considera-se empregado toda pessoa física que prestar serviços de natureza não eventual a empregador, sob a dependência deste e mediante salário.
+
+**Parágrafo único.** Não haverá distinções relativas à espécie de emprego e à condição de trabalhador, nem entre o trabalho intelectual, técnico e manual.
+
+## Portas jurídicas e intertemporais — texto não normativo
+
+- O corpus utiliza os arts. 1º–3º da própria CLT, **não** os arts. 1º–3º do decreto-lei de aprovação de 1943 (numeração autônoma).
+
+- CLT art. 2º §§2º–3º recebeu redação/acréscimo da Lei 13.467/2017, com entrada em vigor após 120 dias da publicação em 14/07/2017; não reproduzir versão anterior como vigente.
+
+- Grupo econômico exige requisitos distintos de identidade societária; não equiparar subsidiariedade, solidariedade ou responsabilidade por participação à mera coincidência de sócios.
+
+- Art. 3º e CF art. 7º: natureza pessoal/não eventual/dependência/salário; contratos civis, trabalhadores por aplicativos, pejotização e legislação especial reclamam enquadramento contextual, não exclusão ou inclusão automática.
+
+- A PEC 221/2019, aprovada pela Câmara e pelo Senado em dois turnos em 14/10/2026, foi noticiada oficialmente em 15/10/2026 como **seguindo para promulgação**, sem promulgação/publicação oficialmente demonstradas no corte; **não alterar texto da CLT, limite de jornada ou regime de folgas como se vigente**.
+
+- PL 1.838/2026 (jornada/descanso) tramita como projeto na Câmara, não integra a CLT vigente por si; conferir redação final e efeitos somente após ato competente.
+
+- É imprescindível distinguir normas gerais da CLT da incidência de LC 150/2015, estatutos especiais, trabalho doméstico e regimes de empregados públicos.
+
 ## T37 — T37.M01 [CLF-LIV-T37-M01-6938-ART1-2-13-R10; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T37.M01 — Política Nacional do Meio Ambiente (Lei 6.938/1981, arts. 1º–2º)
@@ -1136,6 +1176,68 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Próximos:** arts. 3º–4º (conceitos de poluição/recursos e objetivos), art. 6º (SISNAMA e alterações 2025) e Lei 15.190/2025 (licenciamento) exigem estudo separado de matéria reservada a LC140/2011, normas estaduais e participação pública. A proteção ambiental e repartição de competências não são reformadas por reprodução textual.
 
 **Estado:** 13 unidades de origem Q; C0-J=0, M=0; vigência futura do CLF não estabelecida; DEC-016 pendente.
+
+## T37 — T37.M01 [CLF-LIV-T37-PNMA-R11; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T37 — Definições de meio ambiente e objetivos da política ambiental
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q, NÃO RATIFICADA.** Lei 6.938/1981, 2 artigos de origem e 19 unidades; numeração da lei original, não do futuro CLF. Reprodução da [Câmara — texto institucional](https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-6938-31-agosto-1981-366135-normaatualizada-pl.html), cotejo preliminar com [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l6938compilada.htm). O fac-símile DOU original e a cadeia de retificações/alterações **não foram certificados**. **C0-J=0; M=0; DEC-016 pendente.**
+
+**Fonte:** `modulos/T37/M01_ESPELHO_PNMA_ART3_4_19_Q.csv` · Git blob SHA `e452c4aee3166b74853a6f5870295e9a7478d9d5` · correspondência 19 origens ↔ 19 destinos.
+
+## Texto de origem, sem renumeração definitiva
+
+**Art. 3.** Para os fins previstos nesta Lei, entende-se por:
+
+**I –** meio ambiente, o conjunto de condições, leis, influências e interações de ordem física, química e biológica, que permite, abriga e rege a vida em todas as suas formas;
+
+**II –** degradação da qualidade ambiental, a alteração adversa das características do meio ambiente;
+
+**III –** poluição, a degradação da qualidade ambiental resultante de atividades que direta ou indiretamente:
+
+**a)** prejudiquem a saúde, a segurança e o bem-estar da população;
+
+**b)** criem condições adversas às atividades sociais e econômicas;
+
+**c)** afetem desfavoravelmente a biota;
+
+**d)** afetem as condições estéticas ou sanitárias do meio ambiente;
+
+**e)** lancem matérias ou energia em desacordo com os padrões ambientais estabelecidos;
+
+**IV –** poluidor, a pessoa física ou jurídica, de direito público ou privado, responsável, direta ou indiretamente, por atividade causadora de degradação ambiental;
+
+**V –** recursos ambientais: a atmosfera, as águas interiores, superficiais e subterrâneas, os estuários, o mar territorial, o solo, o subsolo, os elementos da biosfera, a fauna e a flora.
+
+**Art. 4.** A Política Nacional do Meio Ambiente visará:
+
+**I –** à compatibilização do desenvolvimento econômico-social com a preservação da qualidade do meio ambiente e do equilíbrio ecológico;
+
+**II –** à definição de áreas prioritárias de ação governamental relativa à qualidade e ao equilíbrio ecológico, atendendo aos interesses da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios;
+
+**III –** ao estabelecimento de critérios e padrões de qualidade ambiental e de normas relativas ao uso e manejo de recursos ambientais;
+
+**IV –** ao desenvolvimento de pesquisas e de tecnologias nacionais orientadas para o uso racional de recursos ambientais;
+
+**V –** à difusão de tecnologias de manejo do meio ambiente, à divulgação de dados e informações ambientais e à formação de uma consciência pública sobre a necessidade de preservação da qualidade ambiental e do equilíbrio ecológico;
+
+**VI –** à preservação e restauração dos recursos ambientais com vistas à sua utilização racional e disponibilidade permanente, concorrendo para a manutenção do equilíbrio ecológico propício à vida;
+
+**VII –** à imposição, ao poluidor e ao predador, da obrigação de recuperar e/ou indenizar os danos causados e, ao usuário, da contribuição pela utilização de recursos ambientais com fins econômicos.
+
+## Portas jurídicas e intertemporais — texto não normativo
+
+- Art. 3º III: poluição tem tipo normativo amplo e cinco alíneas alternativas; conservar o vínculo da definição geral com os critérios a–e, sem separar como infrações administrativas autônomas.
+
+- Art. 3º IV: responsabilidade direta e indireta do poluidor não equivale a presunção irrestrita de nexo, culpa ou sanção; separar responsabilidade civil, administrativa e penal e a jurisprudência aplicável.
+
+- Art. 3º V: lista de recursos ambientais tem redação da Lei 7.804/1989; registrar vigência antes de certificar C0-T como texto original de 1981.
+
+- Art. 4º II: competências de União, estados, DF e municípios e compatibilização com LC 140/2011; não federalizar atribuições locais por montagem editorial.
+
+- Art. 4º VII: distinguir recuperação/indenização do poluidor ou predador da contribuição do usuário por uso econômico, incluindo reserva tributária quando pertinente.
+
+- Sem DOU fac-símile de 1981 ou da Lei 7.804/1989 nesta rodada; a vista é reprodução da versão compilada da Câmara Q.
 
 ## T48 — T48.M03 [CLF-LIV-T48-M03-9474-ART1-8-17-v1; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
@@ -1221,3 +1323,45 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Remissões futuras:** arts. 17–32 (rito, sigilo, devido processo, recurso) e arts. 33–37 (extradição e expulsão) permanecem fora deste recorte; Lei 13.445/2017, Decreto 9.199/2017, Convenção 1951, Protocolo 1967 e vedação de tortura precisam cotejo de aplicabilidade. Não editar artigos anteriores sem homologação.
 
 **Estado:** C0-T candidato documental Q; C0-J=0; DEC-016 pendente; DOU pendente.
+
+## T48 — T48.M03 [CLF-LIV-T48-REFUGIO-R11; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T48 — Procedimento, comunicação à ACNUR, intérprete, sigilo e protocolo
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q, NÃO RATIFICADA.** Lei 9.474/1997, 5 artigos de origem e 8 unidades; numeração da lei original, não do futuro CLF. Reprodução da [Câmara — texto institucional](https://www2.camara.leg.br/legin/fed/lei/1997/lei-9474-22-julho-1997-365390-publicacaooriginal-1-pl.html), cotejo preliminar com [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l9474.htm). O fac-símile DOU original e a cadeia de retificações/alterações **não foram certificados**. **C0-J=0; M=0; DEC-016 pendente.**
+
+**Fonte:** `modulos/T48/M03_ESPELHO_REFUGIO_ART17_21_8_Q.csv` · Git blob SHA `cafa2f66c34566adab89ef20ef380c96c0f47d0f` · correspondência 8 origens ↔ 8 destinos.
+
+## Texto de origem, sem renumeração definitiva
+
+**Art. 17.** O estrangeiro deverá apresentar-se à autoridade competente e externar vontade de solicitar o reconhecimento da condição de refugiado.
+
+**Art. 18.** A autoridade competente notificará o solicitante para prestar declarações, ato que marcará a data de abertura dos procedimentos.
+
+**Parágrafo único.** A autoridade competente informará o Alto Comissariado das Nações Unidas para Refugiados - ACNUR sobre a existência do processo de solicitação de refúgio e facultará a esse organismo a possibilidade de oferecer sugestões que facilitem seu andamento.
+
+**Art. 19.** Além das declarações, prestadas se necessário com ajuda de intérprete, deverá o estrangeiro preencher a solicitação de reconhecimento como refugiado, a qual deverá conter identificação completa, qualificação profissional, grau de escolaridade do solicitante e membros do seu grupo familiar, bem como relato das circunstâncias e fatos que fundamentem o pedido de refúgio, indicando os elementos de prova pertinentes.
+
+**Art. 20.** O registro de declaração e a supervisão do preenchimento da solicitação do refúgio devem ser efetuados por funcionários qualificados e em condições que garantam o sigilo das informações.
+
+**Art. 21.** Recebida a solicitação de refúgio, o Departamento de Polícia Federal emitirá protocolo em favor do solicitante e de seu grupo familiar que se encontre no território nacional, o qual autorizará a estada até a decisão final do processo.
+
+**§ 1º** O protocolo permitirá ao Ministério do Trabalho expedir carteira de trabalho provisória, para o exercício de atividade remunerada no País.
+
+**§ 2º** No protocolo do solicitante de refúgio serão mencionados, por averbamento, os menores de quatorze anos.
+
+## Portas jurídicas e intertemporais — texto não normativo
+
+- Art. 17: expressão da vontade de solicitar refúgio não pode sofrer barreira probatória prévia incompatível com art. 8º.
+
+- Art. 18, parágrafo único: comunicação institucional à ACNUR e possibilidade de sugestões não transformam organismo internacional em julgador; cruzar regras de confidencialidade e consentimento.
+
+- Art. 19: preservação de intérprete quando necessário, grupo familiar, circunstâncias e elementos de prova; não impor prova impossível de perseguição ou requisito inexistente.
+
+- Art. 20: sigilo de declarações e supervisão por servidores qualificados; conferir processo eletrônico, acesso e proteção de dados, com cuidado específico frente ao Estado de origem.
+
+- Art. 21: protocolo de permanência durante processo e documento laboral; terminologia original 'Ministério do Trabalho' deve ser lida com Lei 13.445/2017, regulamentação atual e organização administrativa, sem substituir texto silenciosamente.
+
+- Art. 21 §2: referência a menores de quatorze anos é atributo original do protocolo; revisar compatibilidade com direitos da criança, documentação familiar e regras atuais.
+
+- A organização e as formas de instrução podem ter sido alteradas por atos posteriores; DOU 1997 sem autenticidade de fac-símile, e processo de refúgio ainda incompleto (arts. 22–32).

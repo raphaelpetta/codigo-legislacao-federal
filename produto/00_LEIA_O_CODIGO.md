@@ -5,9 +5,9 @@
 
 ## Vista única gerada do corpus efetivamente integrado
 
-[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir de `produto/fontes/indice_livros.json` e conferido com `--check`. **A versão atual reúne T07**. A prévia parcial T24 (17 artigos, 106 subunidades) está disponível abaixo como **candidata ainda fora do índice de Livros integrados**, aguardando gate de integração experimental, não ratificação jurídica.
+[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T07, T24 (CPC 70–102 contínuo) e T25**, todos experimentais Q, sem efeitos legais ou homologação C0-J.
 
-## Ponto de leitura: Código de Trabalho gerado e duas partes parciais, sem pretender completude
+## Ponto de leitura: Código de Trabalho e três componentes experimentais
 
 **[Abrir Código de Trabalho unificado (T07 + T24 + T25, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
 
@@ -16,22 +16,22 @@
 - [Auditoria dos 11 C1 potenciais T07](../central/03_T07_GATE_C1_11_EFEITOS_20261015.csv), com efeitos, alternativas conservadoras, provas faltantes e riscos. Os destinatários, o âmbito e a subsidiariedade dos processos especiais permanecem Q.
 
 **Parte V — Direito Internacional Privado, Justiça e Sanções**
-- [Livro de Processo Civil — T24.M01, prévia PARCIAL de 17 artigos de origem (CPC 70–81 e 98–102)](vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md). Fonte setorial PR #38 em commit fixado, [manifesto](fontes/T24_M01_106_v1.json), [concordância 1:1 das 106 unidades](concordancia/T24_M01_106_ORIGEM_DESTINO.csv). **106 Q / zero C0-J**, CPC completo não transposto. A fonte foi transcrita manualmente no PR #38 e sua verificação jurídica independente permanece pendente.
+- [Livro de Processo Civil — T24.M01, prévia contínua CPC 70–102: **33 artigos e 181 unidades Q**](vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md). Combina 106 unidades setoriais do PR #38 e [75 transcrições editoriais](fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv) em [manifesto de duas proveniências](fontes/T24_CPC_70_102_181_v1.json), com [verificador](../scripts/gerar_t24_cpc_181.py). A transcrição 75 exige segunda revisão independente da Câmara/DOU; C0-J=0 e o CPC externo ao recorte não foi transposto.
 
 **Livro Penal T25.M01 (núcleo CP 1º–12)**
 - [Prévia parcial do Livro Penal: 12 artigos, 39 unidades](vistas/T25_PENAL_PARTE_GERAL_CP1_12_PREVIA.md), derivada do PR #32 em commit fixado: [manifesto](fontes/T25_CP1_12_v1.json), [concordância 39 × 39](concordancia/T25_CP_ART1_12_39.csv) e [verificador documental](../scripts/gerar_previa_t25.py). **Nenhuma C0-J aprovada; CP art.12 tem gate de especialidade e referente `deste Código`, CPM não integrado.**
 
-**Preparação complementar T24 (fora do corpus integrado)**
-- [Matriz de 75 posições CPC 82–97, inclusive 36 do art.85](concordancia/T24_82_97_GATE_75_SEM_TEXTO.csv), com destinos simbólicos e riscos, **SEM TEXTO NESTA MATRIZ**. Não contar as 75 entre as unidades compiladas.
+**Rastro da ampliação T24**
+- [Primeira prévia 106 unidades](vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md), [prévia intermediária 75](vistas/T24_CPC_82_97_PREVIA_75_Q.md), [concordância 75 × 75](concordancia/T24_CPC_82_97_CONCORDANCIA_75_Q.csv). A antiga [matriz sem texto](concordancia/T24_82_97_GATE_75_SEM_TEXTO.csv) é preservada como histórico de estágio; não representa a cobertura atual.
 
 **Em pesquisa, ainda fora do corpus de leitura:** T01.M04 (formalização/DEC-016), T29 (RGPS), T43 (Governo Digital) e [T13.M01, inventário inicial de 19 unidades CC 1–5](../modulos/T13/M01/NOTA_ABERTURA_CAPACIDADE_CIVIL_20261015.md), entre outras frentes a abrir. Nenhuma dessas pesquisas constitui Livro completo de CLF. O mapa de 48 títulos é provisório, não universo exaustivo da legislação.
 
 ## Convenção de proveniência e montagens
 
-- **Fontes canônicas setoriais fixadas por commit**: `integracao/25_...` e `26_...` no PR #45 (T07); `modulos/T24/M01/F1C2_ESPELHO_UNIFICADO_106.csv` no PR #38 (T24). Os arquivos `vistas/` não são fonte paralela editável.
+- **Fontes canônicas setoriais fixadas por commit**: `integracao/25_...` e `26_...` no PR #45 (T07); `modulos/T24/M01/F1C2_ESPELHO_UNIFICADO_106.csv` no PR #38 (T24: 106 unidades), mais 75 transcrições editoriais locais em CSV com hashes (T24: 82–97). Os arquivos `vistas/` não são fonte paralela editável.
 - **T07**: `python3 scripts/gerar_produto_experimental.py --setorial-root setorial --check` (com o checkout de origem T07 declarado no manifesto); `--write` regenera somente a vista derivada.
-- **T24**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` (checkout de origem T24 no SHA declarado), verificando 106 IDs, 106 destinos, 17 artigos, hashes de blob, estado Q e equivalência exata da prévia; `--write` também regenera somente vista.
-- **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24](../.github/workflows/conferir-t24-previsao.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). As execuções GitHub Actions desta rodada exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
+- **T24 setorial**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` confere as 106 unidades originais. **T24 integrado**: `python3 scripts/gerar_t24_cpc_181.py --check` confere os dois conjuntos, 33 artigos, 181 destinos, quatro marcos legislativos e hashes de blob; `--write` regenera apenas a vista contínua.
+- **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). As execuções GitHub Actions desta rodada exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
 - **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos três componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
 
 ## Indicadores, não confundir denominadores
@@ -39,10 +39,10 @@
 | Objeto | Artigos visíveis na prévia | Unidades positivas | Unidade histórica | C0-J homologadas |
 |---|---:|---:|---:|---:|
 | T07 — Lei 9.784/1999 | 78 | 214 | 1 | 0 |
-| T24 — CPC (faixas 70–81 e 98–102) | 17 | 106 | 0 | 0 |
+| T24 — CPC (arts. 70–102 contínuos) | 33 | 181 | 0 | 0 |
 | T25 — CP (arts. 1º–12) | 12 | 39 | 0 | 0 |
-| **Total atual das vistas** | **107** | **359** | **1** | **0** |
+| **Total atual das vistas** | **123** | **434** | **1** | **0** |
 
-As 359 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou 320 normas juridicamente certificadas.
+As 434 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou 320 normas juridicamente certificadas.
 
 [Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

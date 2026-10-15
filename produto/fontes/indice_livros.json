@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "Quatro componentes Q: T05.M06 Lei9709 arts1–2 (2/7), T07 lei9784 (78/214 positivos +1 histórico), T24 CPC70–102 (33/181), T25 CP1–12 (12/39). Origem T05 é commit da própria central, não PR setorial independente. Sem C0-J, sem M, DEC-016 pendente; diferenças eleitorais de 2026 sob CF art16 não integram automaticamente este novo Livro.",
+  "observacao": "Cinco componentes em quatro títulos Q: T05 15 artigos/30 unidades da Lei9709 arts1–15 divididos em 2 vistas de fontes editoriais distintas; T07 78/214+1 histórica; T24 33/181; T25 12/39. Total 138 artigos, 464 unidades documentais positivas de origem e um registro histórico vetado. T05 art15 contém cláusula temporal de 1998 sem efeito prospectivo no CLF. DOU T05 pendente; C0-J=0; DEC-016 pendente.",
   "livros": [
     {
       "id": "CLF-LIV-T05-M06-9709-ART1-2-7-v1",
@@ -13,6 +13,18 @@
       "origem_commit": "f2c12d61997b5e545d30703cbcf25cda179bd399",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Origem local versionada nesta PR49, Lei9709 arts1–2 cotejada TSE/Planalto, não trabalho setorial independente nem DOU homologado; este commit documenta primeira fonte. Remissão 'desta Lei' não é referência ao CLF inteiro."
+    },
+    {
+      "id": "CLF-LIV-T05-M06-9709-ART3-15-23-v1",
+      "titulo": "T05",
+      "modulo": "T05.M06",
+      "vista": "produto/vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART3_15_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T05_M06_9709_23_v1.json",
+      "artigos": 13,
+      "registros_documentais": 23,
+      "origem_commit": "13027681729f3cbe7f77fe5e08be521fa27bd4b2",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Suplemento transcrito na branch de rodada07 a partir da Câmara HTML original, com variante art3 e art8 IV, DOU pendente; art15 de efeito temporal histórico. Não é fonte promulgada CLF."
     },
     {
       "id": "CLF-LIV-T07-M03-v4",

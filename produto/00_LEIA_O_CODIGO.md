@@ -21,3 +21,20 @@ T01.M04 codificação e iniciativa/DEC-016; T24 processo civil; T25 Direito Pena
 - **Garantias:** direitos, processo, legalidade sancionatória, competências, fontes temporais e regimes especiais conferidos por efeito antes de qualquer proposta de substituição de norma.
 
 [Central CLF](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Interface CF](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).
+
+---
+
+## Geracao reprodutivel — rodada 01 (15/10/2026)
+
+A vista T07 nao precisa mais ser atualizada por copias manuais: o [manifesto de proveniencia](fontes/T07_M03_v4.json) fixa o commit **PR #45 / `2a4d1eefa864f44435aec70ed0cc55a96b718b64`**, com hashes Git independentes para fonte e concordancia. O [gerador de vistas](../scripts/gerar_produto_experimental.py) valida 215 IDs, 214 destinos positivos, 78 artigos, 203 C0-T locais, 11 C1 potenciais/Q, 1 historico e estado juridico pendente.
+
+Para verificar, obter em diretorio separado o checkout setorial exato e executar:
+
+```bash
+python3 scripts/gerar_produto_experimental.py --setorial-root setorial --check
+```
+
+`--write` apenas recompila o arquivo de visualizacao a partir da fonte fixada, **nunca** altera `integracao/25_...` ou `integracao/26_...`. [CI documental dedicada](../.github/workflows/conferir-produto-experimental.yml), sem efeito de homologacao; a execucao do GitHub Actions **ainda nao foi validada no runner**, consultar logs antes de liberar merge.
+
+[Auditoria e fila de construcao](../central/02_AUDITORIA_GLOBAL_RODADA01_20261015.md) · [Matriz de cobertura documental dos 48 titulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv).
+

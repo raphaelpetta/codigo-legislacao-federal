@@ -120,3 +120,13 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Continuidade 11](CONTINUIDADE_11.md): FEITO/PENDENTE/PRÓXIMO, fontes/versões/QA.
 
 **Trava de decisão:** **A2 e B2 ainda NÃO são propostas juridicamente completas para aprovação**. A2 contém ampliações **M** deliberáveis; B2 mantém decisões abertas em dosimetria, intervenção militar e inexigibilidade. Próxima frente tecnicamente independente é **T25.M03 — CP59–68 × CPM69–77, com integração aos testes e à execução T27**, antes de finalizar Parte Geral.
+
+## Ciclo 12 — T25.M03: penas e dosimetria comparadas (14/10/2026)
+
+- [Inventário de **86 subunidades**](INVENTARIO_DOSIMETRIA_CP59_68_CPM69_77_CICLO12.csv) cobrindo **19 artigos** (CP 59–68: 45 posições; CPM 69–77: 41 posições). Fonte atualizada da Câmara, com notas de alteração em CPM 70 II h/77 (Lei 14.688/2023), CP 61 II m (Lei 15.159/2025) e CP 65 I (Lei 15.160/2025). **Registro descritivo, não transcrição C0-T nem equivalência C0-J.**
+- [Concordância crítica de **22 relações**](CONCORDANCIA_CRITICA_DOSIMETRIA_CICLO12.csv): pena-base, multa, agravantes, reincidência, atenuantes, confissão, fase, piso e causas especiais. Todas `Q`, com riscos de mudanças materiais e interfaces.
+- [Dez simulações aritméticas validadas](SIMULACOES_FASES_DOSIMETRIA_CICLO12.csv): mesmo tipo **fictício** de 5–10 anos de reclusão; distingue atenuante de segunda fase (sujeita a piso) de minorante de terceira fase (pode ultrapassá-lo), **sem afirmar aplicação de art.35/46 a tipo real**.
+- [Jurisprudência de cinco fontes STF/STJ/STM](JURISPRUDENCIA_DOSIMETRIA_CICLO12.csv): STF Tema158, STJ REsp1.869.764/MS, **Tema1194 e Súmula545 revisada em 2025**, STM Ap 7000232 analisada no ciclo09. Tema1194 foi dirigido à confissão do CP65 III d e possui modulação; não substituir por ele automaticamente CPM72 III d.
+- [Dossiê 12 e problemas `PROB-T25-0036–0043`](DOSSIE_12_PENAS_DOSIMETRIA_CP_CPM.md) e [Continuidade 12](CONTINUIDADE_12.md).
+
+**Ressalva de governança:** as opções `A2-D1`, `B2-DP`, `B2-DM` e `B2-DEx` continuam **propostas materiais não ratificadas**. Os exemplos provam a diferença de cálculo entre categorias; não provam que CPM35 tenha natureza definitiva de atenuante ou causa especial. Próximo: **espécies e substituições CP32–58 × CPM55–68**, integrando T25.M03/T27.

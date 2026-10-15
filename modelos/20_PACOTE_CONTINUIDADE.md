@@ -46,3 +46,16 @@ Incluir impactos de aplicação temporal, autonomia federativa e direitos quando
 - [ ] Mostrei ao usuário **FEITO / PENDENTE / PRÓXIMO** e salvei este pacote na branch/PR correspondente.
 
 **Protocolo:** `governanca/18_PROTOCOLO_CONTINUIDADE_POR_RODADA.md`.
+
+## 5. Progresso verificável e antitravamento (adendo operacional)
+
+**Cobertura por fonte/unidade e denominador realmente conferido:**  
+**Maturidade do recorte, independente do status político da reforma:**  
+**Risco R1/R2/R3 e justificativa de promoção:**  
+**Texto de trabalho/corpus e destino origem-destino C0/C1/M/Q:**  
+**Evidência adicional que poderia mudar o resultado; critério de encerramento:**  
+**Dependência bloqueia apenas positivar, uma variante ou toda pesquisa?:**  
+**Duas tarefas alternativas desbloqueadas:**  
+**Revisão jurídica independente necessária:**  
+
+A ausência de decisão material não impede trabalho independente. Preservar DEC-001/DEC-016 e não converter C0-T em equivalência jurídica C0-J. Referência: `governanca/20_EXECUCAO_CAMADAS_E_AUDITORIA.md`.

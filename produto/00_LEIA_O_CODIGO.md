@@ -1,40 +1,34 @@
-# Código da Legislação Federal — produto experimental (primeira vista)
-**Corte:** 15/10/2026 · **Natureza:** corpus único EM CONSTRUÇÃO. Não é legislação vigente, minuta aprovada nem Código promulgável.
+# Código da Legislação Federal — corpus único experimental (vista de trabalho)
 
-## Entrada no corpus para leitura e crítica
-**Parte III — Administração pública e finanças (organização provisória)**
+**Corte:** 15/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
-**Livro do Processo Administrativo Federal (T07.M03)**
+## Ponto de leitura: duas partes do produto, sem pretender completude
 
-[Ler a prévia integral de 78 artigos experimentais](vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md).
+**Parte III — Administração Pública e Finanças**
+- [Livro de Processo Administrativo Federal — T07.M03, prévia integral de 78 artigos](vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md). Proveniência: PR #45, fonte fixa, [manifesto](fontes/T07_M03_v4.json); 214 unidades positivas (203 C0-T local, 11 C1 potenciais/Q), 1 registro histórico, nenhuma unidade C0-J homologada.
+- [Auditoria dos 11 C1 potenciais T07](../central/03_T07_GATE_C1_11_EFEITOS_20261015.csv), com efeitos, alternativas conservadoras, provas faltantes e riscos. Os destinatários, o âmbito e a subsidiariedade dos processos especiais permanecem Q.
 
-Esta é uma fotografia derivada do PR #45: 214 unidades textuais positivas da Lei 9.784/1999 transpostas em 78 artigos de ensaio; 1 registro documental de vigência histórica separado; vetos históricos não ressuscitados. **0 unidades homologadas como equivalência C0-J.** A fonte setorial em desenvolvimento está no [PR #45](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/45); não editar a fotografia como se fosse fonte normativa primária. O corpus expandirá por Livros após criação de fontes canônicas e mecanismo de montagem; não tratar o catálogo provisório de 48 títulos como corpus material já existente.
+**Parte V — Direito Internacional Privado, Justiça e Sanções**
+- [Livro de Processo Civil — T24.M01, prévia PARCIAL de 17 artigos de origem (CPC 70–81 e 98–102)](vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md). Fonte setorial PR #38 em commit fixado, [manifesto](fontes/T24_M01_106_v1.json), [concordância 1:1 das 106 unidades](concordancia/T24_M01_106_ORIGEM_DESTINO.csv). **106 Q / zero C0-J**, CPC completo não transposto. A fonte foi transcrita manualmente no PR #38 e sua verificação jurídica independente permanece pendente.
 
-## Áreas ainda não integradas na vista
-T01.M04 codificação e iniciativa/DEC-016; T24 processo civil; T25 Direito Penal; T29 previdenciário; T43 digital — todos possuem pesquisas, mas nenhuma delas está incorporada a esta versão de leitura como regime final ou devidamente transposto. [Quadro dos 48 títulos](../central/QUADRO_PRODUTO.csv) indica apenas cobertura do produto desta vista, sem negar pesquisa existente em PR.
+**Em pesquisa, ainda fora do corpus de leitura:** T01.M04 (formalização/DEC-016), T25 (Parte Geral penal), T29 (RGPS), T43 (Governo Digital) e [T13.M01, inventário inicial de 19 unidades CC 1–5](../modulos/T13/M01/NOTA_ABERTURA_CAPACIDADE_CIVIL_20261015.md), entre outras frentes a abrir. Nenhuma dessas pesquisas constitui Livro completo de CLF. O mapa de 48 títulos é provisório, não universo exaustivo da legislação.
 
-## Plano de montagem
-- **Fonte canônica por recorte:** arquivos existentes `modulos/` ou `integracao/` (após integração documental), com concordância completa origem–destino e estados de verificação; nada de cópias divergentes editadas manualmente.
-- **Geração da vista:** quando a fonte T07 e as seguintes integrarem a estrutura de trabalho, criar compilador simples de Livros com IDs estáveis, sumário, remissões e `--check` para detectar desacordo entre corpus e fontes. Até então esta prévia está fixada no SHA de origem declarado.
-- **Apresentações:** texto limpo para leitura, matriz crítica C0-T/C0-J/C1/M/Q com justificativas, mapa de cobertura por norma de origem e pauta de deliberações.
-- **Reserva formal:** a DEC-016 versa sobre promulgação/veículo legislativo; não impede redação do corpus experimental, mas impede alegar espécie válida, revogação ou norma em vigor.
-- **Garantias:** direitos, processo, legalidade sancionatória, competências, fontes temporais e regimes especiais conferidos por efeito antes de qualquer proposta de substituição de norma.
+## Convenção de proveniência e montagens
 
-[Central CLF](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Interface CF](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).
+- **Fontes canônicas setoriais fixadas por commit**: `integracao/25_...` e `26_...` no PR #45 (T07); `modulos/T24/M01/F1C2_ESPELHO_UNIFICADO_106.csv` no PR #38 (T24). Os arquivos `vistas/` não são fonte paralela editável.
+- **T07**: `python3 scripts/gerar_produto_experimental.py --setorial-root setorial --check` (com o checkout de origem T07 declarado no manifesto); `--write` regenera somente a vista derivada.
+- **T24**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` (checkout de origem T24 no SHA declarado), verificando 106 IDs, 106 destinos, 17 artigos, hashes de blob, estado Q e equivalência exata da prévia; `--write` também regenera somente vista.
+- **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml) e [T24](../.github/workflows/conferir-t24-previsao.yml). As execuções GitHub Actions desta rodada exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
+- **Produto futuro:** montar uma versão limpa concatenada dos recortes sob fonte e índice único, mais versão comentada com variantes, concordância N:N, remissões, índice de lacunas e transições. Hoje as vistas são componentes preliminares do corpus, sem índice jurídico integral ou renumeração final.
 
----
+## Indicadores, não confundir denominadores
 
-## Geracao reprodutivel — rodada 01 (15/10/2026)
+| Objeto | Artigos visíveis na prévia | Unidades positivas | Unidade histórica | C0-J homologadas |
+|---|---:|---:|---:|---:|
+| T07 — Lei 9.784/1999 | 78 | 214 | 1 | 0 |
+| T24 — CPC (faixas 70–81 e 98–102) | 17 | 106 | 0 | 0 |
+| **Total atual das vistas** | **95** | **320** | **1** | **0** |
 
-A vista T07 nao precisa mais ser atualizada por copias manuais: o [manifesto de proveniencia](fontes/T07_M03_v4.json) fixa o commit **PR #45 / `2a4d1eefa864f44435aec70ed0cc55a96b718b64`**, com hashes Git independentes para fonte e concordancia. O [gerador de vistas](../scripts/gerar_produto_experimental.py) valida 215 IDs, 214 destinos positivos, 78 artigos, 203 C0-T locais, 11 C1 potenciais/Q, 1 historico e estado juridico pendente.
+As 320 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou 320 normas juridicamente certificadas.
 
-Para verificar, obter em diretorio separado o checkout setorial exato e executar:
-
-```bash
-python3 scripts/gerar_produto_experimental.py --setorial-root setorial --check
-```
-
-`--write` apenas recompila o arquivo de visualizacao a partir da fonte fixada, **nunca** altera `integracao/25_...` ou `integracao/26_...`. [CI documental dedicada](../.github/workflows/conferir-produto-experimental.yml), sem efeito de homologacao; a execucao do GitHub Actions **ainda nao foi validada no runner**, consultar logs antes de liberar merge.
-
-[Auditoria e fila de construcao](../central/02_AUDITORIA_GLOBAL_RODADA01_20261015.md) · [Matriz de cobertura documental dos 48 titulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv).
-
+[Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

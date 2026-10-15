@@ -27,6 +27,8 @@
 **Rastro da ampliação T24**
 - [Primeira prévia 106 unidades](vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md), [prévia intermediária 75](vistas/T24_CPC_82_97_PREVIA_75_Q.md), [concordância 75 × 75](concordancia/T24_CPC_82_97_CONCORDANCIA_75_Q.csv). A antiga [matriz sem texto](concordancia/T24_82_97_GATE_75_SEM_TEXTO.csv) é preservada como histórico de estágio; não representa a cobertura atual.
 
+**Preparação T05 adicional, FORA do Código de Trabalho:** [23 posições da Lei 9.709/1998 arts. 3º–15](../modulos/T05/M06_CONCORDANCIA_F0_ART3_15_23_SEM_TEXTO_LITERAL.csv), **com resumos não literais e destinos simbólicos**, mais [controle de três fontes institucionais](../modulos/T05/M06_NOTA_TRES_FONTES_E_GATES_9709_20261015.md) e [12 casos Código Eleitoral 1965/2026](../modulos/T05/M01_MATRIZ_RECEPCAO_ELEITORADO_CE4_5_71_72_2026.csv). Estes 23 + 12 são pesquisas **Q**, não subunidades normativas adicionais integradas.
+
 **Em pesquisa, ainda fora do corpus de leitura:** T01.M04 (formalização/DEC-016), T29 (RGPS), T43 (Governo Digital) e [T13.M01, inventário inicial de 19 unidades CC 1–5](../modulos/T13/M01/NOTA_ABERTURA_CAPACIDADE_CIVIL_20261015.md), entre outras frentes a abrir. Nenhuma dessas pesquisas constitui Livro completo de CLF. O mapa de 48 títulos é provisório, não universo exaustivo da legislação.
 
 ## Convenção de proveniência e montagens

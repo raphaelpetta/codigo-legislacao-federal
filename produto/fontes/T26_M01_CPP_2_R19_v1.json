@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T26-R19",
+  "source_path": "modulos/T26/M01_ESPELHO_CPP_ART2_3_2_Q.csv",
+  "source_blob_sha": "0e1b41936cc5aeb1ee89f2e7c4fa479d82076282",
+  "view_path": "produto/vistas/T26_CPP_ART2_3_PREVIA_Q.md",
+  "count_expected": 2,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "Art. 2º enuncia incidência imediata de norma **processual** e preservação de atos anteriores; não autoriza aplicação retroativa de pena mais gravosa nem suprime regras intertemporais de normas penais mistas.",
+    "Art. 3º permite interpretação extensiva, analogia e princípios gerais no campo processual, sujeitos ao sistema acusatório, contraditório e legalidade. Não criar crime ou pena por analogia prejudicial.",
+    "**Art. 1º intencionalmente fora do recorte:** contém remissões históricas a Constituições passadas, justiça especial e crimes de imprensa não recepcionados, a revisar em gate próprio.",
+    "**Art. 3º-A e seguintes** (juiz das garantias) são dispositivos diferentes, inseridos pela Lei 13.964/2019, submetidos a decisões STF ADIs 6298, 6299, 6300 e 6305; não confundir art. 3º com art. 3º-A.",
+    "DOU do Decreto-Lei 3.689/1941 e retificações não autenticados por fac-símile. Texto Q não homologa matéria processual nem altera poderes jurisdicionais."
+  ]
+}

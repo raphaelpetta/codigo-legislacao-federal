@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R18 15/10/2026: 36 componentes Q em 23 títulos; 247 artigos de origem, 819 unidades textuais positivas + 1 histórico T07 = 820 registros de índice; T27 LEP1-3 3/5, T30 LOAS1-2 2/11 com incisos IV/V revogados excluídos, T42 LGT1-3 3/24, T31 SUS4-5 2/7, total T31 5/13. Correção transversal de referência primária errônea T29 Lei8213 (antes apontava Lei15108); SHA da origem e manifesto revisados sem alterar 11 unidades. 25 títulos ainda sem texto, C0-J=0, M=0, DEC016 pendente, revogação/merge zero.",
+  "observacao": "R19 15/10/2026: 40 componentes documentais Q em 26 títulos, 258 artigos de origem, 856 unidades positivas +1 histórico T07 (857 registros índice). Aberturas T14 CC79-84 6/13, T26 CPP2-3 2/2, T41 CTB1-2 2/7; vertical T20 CDC art4 1/15 (total CDC1-4 4/21). 22 títulos sem texto. CI Actions estrutural/T07/T24 falhando antes R18; C0-J=0, M=0, DEC016 pendente, revogação/merge=0, T13 reservado. DOU fac-símile não autenticado.",
   "livros": [
     {
       "titulo": "T01",
@@ -146,6 +146,17 @@
       "proveniencia_adicional": "CTN arts6-8 competência tributária indelegável e arrecadação delegável; remissão Constituição pré1988 art18§3 histórica; reserva LC e EC132 pendentes."
     },
     {
+      "titulo": "T14",
+      "modulo": "T14.M01",
+      "id": "CLF-LIV-T14-CC-ART79_84-R19",
+      "vista": "produto/vistas/T14_CODIGO_CIVIL_BENS_ART79_84_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T14_M01_CC_13_R19_v1.json",
+      "artigos": 6,
+      "registros_documentais": 13,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei10406/2002 CC bens79-84 Q 6/13, T13 reservado intocado, propriedade e direitos patrimoniais."
+    },
+    {
       "titulo": "T20",
       "modulo": "T20.M01",
       "id": "CLF-LIV-T20-CDC-8078-ART1-3-6-R14",
@@ -156,6 +167,17 @@
       "origem_commit": "91ee45d894928b9697308a05e4cf0e6ac12cb0f4",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "CDC arts1-3, ordem publica, destinatario final, fornecedor e servicos bancarios/financeiros exclui trabalho, interface T16/T21, DOU veto/retificação Q."
+    },
+    {
+      "titulo": "T20",
+      "modulo": "T20.M01",
+      "id": "CLF-LIV-T20-CDC-ART4-R19",
+      "vista": "produto/vistas/T20_CDC_ART4_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T20_M01_CDC_15_R19_v1.json",
+      "artigos": 1,
+      "registros_documentais": 15,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "CDC art4 1/15 Q, caput Lei9008/1995, incisos IX/X Lei14181/2021, subalíneas a-d II, T20 agora arts1–4, 4/21."
     },
     {
       "titulo": "T22",
@@ -203,6 +225,17 @@
       "origem_commit": "c29168835602248312cdfe6671eb18f4b2b0e8f5",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "CP 13-14 causalidade e tentativa, alíneas subordinadas art13§2, observância legalidade e natureza penal; Lei7209/1984 DOU Q."
+    },
+    {
+      "titulo": "T26",
+      "modulo": "T26.M01",
+      "id": "CLF-LIV-T26-CPP-ART2_3-R19",
+      "vista": "produto/vistas/T26_CPP_ART2_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T26_M01_CPP_2_R19_v1.json",
+      "artigos": 2,
+      "registros_documentais": 2,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "CPP DL3689 arts2-3 Q 2/2, art1 remissões históricas e art3A juiz garantias fora, norma processual imediata sem retroagir materialmente."
     },
     {
       "titulo": "T27",
@@ -347,6 +380,17 @@
       "origem_commit": "b96ef4727b20e7b4abc7c0320c6f5a6dad1f689a",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei9433 arts1-3, água pública usos prioritários, Lei15269/2025 art4 alterou art2 II/V e art3 III/VII; Lei13501/2017 art2IV, vetos/DOU pendentes."
+    },
+    {
+      "titulo": "T41",
+      "modulo": "T41.M01",
+      "id": "CLF-LIV-T41-CTB-ART1_2-R19",
+      "vista": "produto/vistas/T41_CTB_ART1_2_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T41_M01_CTB_7_R19_v1.json",
+      "artigos": 2,
+      "registros_documentais": 7,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "CTB Lei9503 arts1-2 Q 2/7, art1§4 vetado não transcrito, art2 PU redação Lei13146/2015, DOU vetos pendentes."
     },
     {
       "titulo": "T42",

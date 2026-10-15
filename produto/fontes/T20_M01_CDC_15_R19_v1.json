@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T20-R19",
+  "source_path": "modulos/T20/M01_ESPELHO_CDC_ART4_15_Q.csv",
+  "source_blob_sha": "8e1bf3acead4943d06f87805bef8382dd0f3b441",
+  "view_path": "produto/vistas/T20_CDC_ART4_PREVIA_Q.md",
+  "count_expected": 15,
+  "articles_expected": 1,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "Art. 4º caput tem redação da **Lei 9.008/1995**; incisos IX e X foram introduzidos pela **Lei 14.181/2021**, incorporando educação financeira/ambiental e prevenção de superendividamento.",
+    "As quatro alíneas subordinadas ao inciso II são instrumentos de ação governamental: não são incisos independentes nem concedem poderes sem norma de competência.",
+    "Dignidade, segurança, transparência, boa-fé e equilíbrio não dispensam os requisitos específicos de revisão contratual, crédito responsável e preservação de mínimo existencial fixados em artigos próprios.",
+    "Art. 5º instrumentos públicos e art. 6º direitos básicos do consumidor continuam fora deste recorte; T20 alcança arts. 1º–4º, com interfaces jurídicas T15/T16/T21/T43.",
+    "DOU 1990, Lei 9.008/1995 e Lei 14.181/2021 ainda sem inspeção fac-símile. Não inferir que transcrição documental equivale a C0-J."
+  ]
+}

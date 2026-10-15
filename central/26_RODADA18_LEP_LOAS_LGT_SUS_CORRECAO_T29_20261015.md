@@ -22,6 +22,18 @@ A origem primária da transcrição anterior apontava **incorretamente** ao text
 - [Matriz dos 48 títulos](01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv), [painel](PAINEL_GERADO.csv), [quadro](QUADRO_PRODUTO.csv), [fila de 50 tarefas](FILA_TRABALHO.csv), [guia](../produto/00_LEIA_O_CODIGO.md) e [validador R18](../scripts/validar_r18_horizontal_e_proveniencia.py) integrados ao [roteiro local](../scripts/validar_operacao_local.sh). **+10 artigos, +47 unidades positivas, +3 títulos**, sem contagem adicional pela simples correção de URL.
 - Controle de integridade documental por leitura GitHub distinto de execução local Python e distinto de cotejo em imagem do DOU. A reserva T13 permanece preservada.
 
+## Achado de CI — três falhas confirmadas, anteriores à R18
+
+No HEAD do [PR #63](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/63), `f010f5286cb38050f33ab23ca6bbbca71ab178c3` no momento da consulta, o GitHub Actions informa **três runs concluídos com failure**:
+
+1. [Integridade estrutural CLF — run 38789698879](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38789698879);
+2. [Corpus experimental T07 — run 38789698892](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38789698892);
+3. [Prévia T24 — run 38789698888](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38789698888).
+
+**A comparação com o HEAD do PR #62 (`952a1cfe5d1fd6c1a60d284b17685aeb4e7af329`) mostrou falhas nos mesmos três workflows** ([T07 run 38786299584](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38786299584), [T24 run 38786299585](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38786299585), [estrutura run 38786299778](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38786299778)). Assim, o sinal já existia antes da R18, sem provar a causa ou descartar falhas novas adicionais.
+
+O conector retornou **404 BlobNotFound** para os logs dos jobs e lista vazia de passos; por isso **não foi possível diagnosticar tecnicamente a causa**, provar execução positiva do `scripts/validar_r18_horizontal_e_proveniencia.py`, ou declarar a cadeia pronta para merge. As verificações documentais feitas por leitura GitHub não substituem esses runs. **Gate CI bloqueante.**
+
 ## PENDENTE
 
 1. Autenticação fac-símile DOU da LEP 1984, LOAS 1993/2011, LGT 1997/2018/2021, LOS 1990 e leis alteradoras. A fonte HTML oficial não prova sozinha toda a cronologia de eficácia. Em particular, Lei 15.295/2025 art. 9º-A LEP, normas do BPC art. 20 LOAS e Lei 15.471/2026 art. 6º LOS ficaram fora.

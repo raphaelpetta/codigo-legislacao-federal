@@ -1574,6 +1574,38 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Princípios da reserva legal, irretroatividade penal gravosa e especialidade permanecem inalterados, não são produto da compilação. DOU 1940 e Lei 7.209/1984 ainda sem cotejo fac-símile, C0-J=0.
 
+## T27 — T27.M01 [CLF-LIV-T27-LEP-ART1_3-R18; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T27 — Execução Penal — Lei 7.210/1984, arts. 1º–3º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 3 artigos e 5 unidades em correspondência origem↔destino, sem renumeração definitiva. **C0-J=0, M=0, DEC-016 pendente.** Fontes: [Câmara, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-7210-11-julho-1984-356938-normaatualizada-pl.html) e [Planalto, cotejo](https://www.planalto.gov.br/ccivil_03/leis/l7210compilado.htm). **DOU em fac-símile não cotejado**, não equivale à promulgação de novo Código.
+
+**Fonte versionada:** `modulos/T27/M01_ESPELHO_LEP_ART1_3_5_Q.csv` (Git blob SHA `4eec0c14bfd563fe1a280c395b7cf9932dbf954e`).
+
+## Texto de origem — recorte documental
+
+**Art. 1.** A execução penal tem por objetivo efetivar as disposições de sentença ou decisão criminal e proporcionar condições para a harmônica integração social do condenado e do internado.
+
+**Art. 2.** A jurisdição penal dos juízes ou tribunais da justiça ordinária, em todo o território nacional, será exercida, no processo de execução, na conformidade desta Lei e do Código de Processo Penal.
+
+**Parágrafo único.** Esta Lei aplicar-se-á igualmente ao preso provisório e ao condenado pela Justiça Eleitoral ou Militar, quando recolhido a estabelecimento sujeito à jurisdição ordinária.
+
+**Art. 3.** Ao condenado e ao internado serão assegurados todos os direitos não atingidos pela sentença ou pela lei.
+
+**Parágrafo único.** Não haverá qualquer distinção de natureza racial, social, religiosa ou política.
+
+## Portas de competência, vigência e especialidade — notas não normativas
+
+- Arts. 1º–3º estabelecem finalidades da execução, jurisdição e direitos não atingidos por sentença/lei; aplicação ao preso provisório exige respeito à presunção de inocência, à custódia provisória e à Constituição.
+
+- Art. 2º, parágrafo único, menciona Justiça Eleitoral ou Militar no caso de estabelecimento sujeito à jurisdição ordinária; não transfere toda competência especializada à justiça comum.
+
+- Art. 3º proíbe discriminações explicitadas no parágrafo único; proteção constitucional e tratados abrangem outras discriminações e não podem ser reduzidos ao elenco literal de 1984.
+
+- Lei 15.295/2025 alterou regras de identificação genética art. 9º-A, **fora desta vista**. LGPD/dados genéticos e direitos dos custodiados permanecem gates, sem reclassificar textos de 1984 como atuais em todos os assuntos.
+
+- DOU original de 13/07/1984, Lei 10.792/2003 e alterações recentes exigem autenticação; correspondências Q não substituem controle jurisdicional.
+
 ## T28 — T28.M01 [CLF-LIV-T28-CLT-R11; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T28 — Introdução, conceito de empregador e relação de emprego
@@ -1670,9 +1702,9 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 # T29 — Previdência Social — Lei 8.213/1991, arts. 1º–2º
 
-> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 2 artigos e 11 unidades positivas, origem↔destino em correspondência 1:1. Sem renumeração definitiva. **C0-J=0; M=0; DEC-016 pendente.** Fontes institucionais: [texto primário](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15108-13-marco-2025-797167-normaatualizada-pl.html) e [cotejo](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm). O fac-símile DOU e a cadeia de alterações não foram certificados; este texto não promulga o CLF.
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 2 artigos e 11 unidades positivas, origem↔destino em correspondência 1:1. Sem renumeração definitiva. **C0-J=0; M=0; DEC-016 pendente.** Fontes institucionais: [texto primário](https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html) e [cotejo](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm). O fac-símile DOU e a cadeia de alterações não foram certificados; este texto não promulga o CLF.
 
-**Fonte versionada:** `modulos/T29/M01_ESPELHO_LEI8213_ART1_2_11_Q.csv`, Git blob SHA `600524864bc83a50f6c57f80b17bf9905eaf55f5`.
+**Fonte versionada:** `modulos/T29/M01_ESPELHO_LEI8213_ART1_2_11_Q.csv`, Git blob SHA `c2744c9ec1e4d47b8930dac464b00d0b262dbcf9`.
 
 ## Legislação de origem, sem efeitos normativos novos
 
@@ -1710,6 +1742,52 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Fonte institucional HTML atualizada, Lei 8.213/1991, sem cotejo integral com DOU/vetos/retificações e atos previdenciários posteriores; Q sem C0-J.
 
+**Correção documental R18:** a referência anterior à Lei 15.108/2025 no campo da fonte primária era incorreta; a fonte pertinente é a Lei 8.213/1991 da Câmara, URL verificada. Os 11 textos e 2 artigos não foram alterados; blob anterior `600524864bc83a50f6c57f80b17bf9905eaf55f5`, blob corrigido `c2744c9ec1e4d47b8930dac464b00d0b262dbcf9`. A homologação C0-J permanece pendente.
+
+## T30 — T30.M01 [CLF-LIV-T30-LOAS-ART1_2-R18; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T30 — Assistência Social — LOAS Lei 8.742/1993, arts. 1º–2º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 2 artigos e 11 unidades em correspondência origem↔destino, sem renumeração definitiva. **C0-J=0, M=0, DEC-016 pendente.** Fontes: [Câmara, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/1993/lei-8742-7-dezembro-1993-363163-normaatualizada-pl.html) e [Planalto, cotejo](https://www.planalto.gov.br/ccivil_03/leis/l8742.htm). **DOU em fac-símile não cotejado**, não equivale à promulgação de novo Código.
+
+**Fonte versionada:** `modulos/T30/M01_ESPELHO_LOAS_ART1_2_11_Q.csv` (Git blob SHA `4642ff1e45006ed71565f46116bd2c6cac721c60`).
+
+## Texto de origem — recorte documental
+
+**Art. 1.** A assistência social, direito do cidadão e dever do Estado, é Política de Seguridade Social não contributiva, que provê os mínimos sociais, realizada através de um conjunto integrado de ações de iniciativa pública e da sociedade, para garantir o atendimento às necessidades básicas.
+
+**Art. 2.** A assistência social tem por objetivos:
+
+**I –** a proteção social, que visa à garantia da vida, à redução de danos e à prevenção da incidência de riscos, especialmente:
+
+**a)** a proteção à família, à maternidade, à infância, à adolescência e à velhice;
+
+**b)** o amparo às crianças e aos adolescentes carentes;
+
+**c)** a promoção da integração ao mercado de trabalho;
+
+**d)** a habilitação e reabilitação das pessoas com deficiência e a promoção de sua integração à vida comunitária; e
+
+**e)** a garantia de 1 (um) salário-mínimo de benefício mensal à pessoa com deficiência e ao idoso que comprovem não possuir meios de prover a própria manutenção ou de tê-la provida por sua família;
+
+**II –** a vigilância socioassistencial, que visa a analisar territorialmente a capacidade protetiva das famílias e nela a ocorrência de vulnerabilidades, de ameaças, de vitimizações e danos;
+
+**III –** a defesa de direitos, que visa a garantir o pleno acesso aos direitos no conjunto das provisões socioassistenciais;
+
+**Parágrafo único.** Para o enfrentamento da pobreza, a assistência social realiza-se de forma integrada às políticas setoriais, garantindo mínimos sociais e provimento de condições para atender contingências sociais e promovendo a universalização dos direitos sociais.
+
+## Portas de competência, vigência e especialidade — notas não normativas
+
+- Art. 1º descreve assistência como política de seguridade **não contributiva**: distinta do RGPS contributivo de T29, sem exigência de contribuições anteriores para acesso à proteção assistencial.
+
+- Art. 2º foi alterado pela Lei 12.435/2011: inciso I contém **cinco alíneas subordinadas**, incisos II e III são positivos; incisos IV e V **revogados em 2011 não foram incluídos como texto positivo**.
+
+- A menção ao benefício de um salário-mínimo do art. 2º I e não é concessão automática do BPC: condições de idade/deficiência, renda, critérios de avaliação, CadÚnico e leis posteriores estão no **art. 20 e seguintes**, fora do corpus.
+
+- A assistência se articula com o SUS, educação e previdência; preservam-se competências e financiamento federativos SUAS dos arts. 6º e seguintes, não transcritos.
+
+- DOU 08/12/1993, Lei 12.435/2011 e mudanças no BPC em 2024/2025 ainda precisam cotejo em imagem e revisão intertemporal.
+
 ## T31 — T31.M01 [CLF-LIV-T31-LEI8080-ART1_3-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T31 — Saúde pública — Lei Orgânica da Saúde 8.080/1990, arts. 1º–3º
@@ -1743,6 +1821,42 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Parágrafo único art. 3º:** bem-estar físico, mental e social, não reduzido ao atendimento assistencial. Interfaces T37 ambiente, T28 trabalho, T32 saúde infantil, T39 saneamento, T31 assistência/planos privados preservadas sem transcrição dupla.
 
 - O SUS como organização está no art. 4º e seguintes, **ainda fora do recorte**; não afirmar cobertura completa da LOS. Há vetos de 1990 em outros artigos e controle de competência; DOU 20/09/1990 e DOU Lei 12.864/2013 sem cotejo por fac-símile.
+
+## T31 — T31.M01 [CLF-LIV-T31-SUS-ART4_5-R18; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T31 — Saúde pública — SUS e seus objetivos, Lei 8.080/1990, arts. 4º–5º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 2 artigos e 7 unidades em correspondência origem↔destino, sem renumeração definitiva. **C0-J=0, M=0, DEC-016 pendente.** Fontes: [Câmara, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8080-19-setembro-1990-365093-normaatualizada-pl.html) e [Planalto, cotejo](https://www.planalto.gov.br/ccivil_03/leis/l8080.htm). **DOU em fac-símile não cotejado**, não equivale à promulgação de novo Código.
+
+**Fonte versionada:** `modulos/T31/M01_ESPELHO_LEI8080_ART4_5_7_Q.csv` (Git blob SHA `4bc23e83d1479ec0c887d53a66558f2d80b1f10b`).
+
+## Texto de origem — recorte documental
+
+**Art. 4.** O conjunto de ações e serviços de saúde, prestados por órgãos e instituições públicas federais, estaduais e municipais, da Administração direta e indireta e das fundações mantidas pelo Poder Público, constitui o Sistema Único de Saúde - SUS.
+
+**§ 1º** Estão incluídas no disposto neste artigo as instituições públicas federais, estaduais e municipais de controle de qualidade, pesquisa e produção de insumos, medicamentos, inclusive de sangue e hemoderivados, e de equipamentos para saúde.
+
+**§ 2º** A iniciativa privada poderá participar do Sistema Único de Saúde - SUS, em caráter complementar.
+
+**Art. 5.** São objetivos do Sistema Único de Saúde SUS:
+
+**I –** a identificação e divulgação dos fatores condicionantes e determinantes da saúde;
+
+**II –** a formulação de política de saúde destinada a promover, nos campos econômico e social, a observância do disposto no § 1º do art. 2º desta lei;
+
+**III –** a assistência às pessoas por intermédio de ações de promoção, proteção e recuperação da saúde, com a realização integrada das ações assistenciais e das atividades preventivas.
+
+## Portas de competência, vigência e especialidade — notas não normativas
+
+- Art. 4º define SUS como conjunto federativo de ações e serviços públicos, incluindo instituições de insumos e medicamentos; §2º admite participação **complementar** de iniciativa privada, não equivalência ao regime de saúde suplementar de planos privados.
+
+- Art. 5º contém três objetivos com promoção/proteção/recuperação e prevenção integradas; não confundir rol do art. 5º com todas atribuições e competências do SUS previstas no art. 6º e seguintes.
+
+- Art. 6º teve alíneas atualizadas em 2023/2026, inclusive Lei 15.471/2026; **não foi transcrito** nesta rodada para preservar controle da cadeia temporal.
+
+- CF arts. 196–200, Lei 8.142/1990 e normas de financiamento/setoriais continuam interfaces separadas, sem federalizar órgãos estaduais e municipais.
+
+- DOU e alterações originais permanecem pendentes; ausência de C0-J e DEC-016 ainda sob deliberação.
 
 ## T33 — T33.M01 [CLF-LIV-T33-LDB-ART1_3-R17; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
@@ -2018,6 +2132,78 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Art. 3º III e VII integram política hídrica e eletroenergética após Lei 15.269/2025; portarias e concessões de energia ou outorga de água não se confundem.
 
 - Lei 9.433 contém vetos em outros artigos, inclusive incisos VI/VII do art. 7º, e DOU histórico 1997; não inserir dispositivos vetados como direito positivo. DOU em fac-símile não conferido.
+
+## T42 — T42.M01 [CLF-LIV-T42-LGT-ART1_3-R18; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T42 — Telecomunicações — Lei 9.472/1997 (LGT), arts. 1º–3º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 3 artigos e 24 unidades em correspondência origem↔destino, sem renumeração definitiva. **C0-J=0, M=0, DEC-016 pendente.** Fontes: [Câmara, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/1997/lei-9472-16-julho-1997-367735-normaatualizada-pl.html) e [Planalto, cotejo](https://www.planalto.gov.br/ccivil_03/leis/l9472.htm). **DOU em fac-símile não cotejado**, não equivale à promulgação de novo Código.
+
+**Fonte versionada:** `modulos/T42/M01_ESPELHO_LGT_ART1_3_24_Q.csv` (Git blob SHA `e28986b173017a20df9c3bf266eccacea28a46d0`).
+
+## Texto de origem — recorte documental
+
+**Art. 1.** Compete à União, por intermédio do órgão regulador e nos termos das políticas estabelecidas pelos Poderes Executivo e Legislativo, organizar a exploração dos serviços de telecomunicações.
+
+**Parágrafo único.** A organização inclui, entre outros aspectos, o disciplinamento e a fiscalização da execução, comercialização e uso dos serviços e da implantação e funcionamento de redes de telecomunicações, bem como da utilização dos recursos de órbita e espectro de radiofreqüências.
+
+**Art. 2.** O Poder Público tem o dever de:
+
+**I –** garantir, a toda a população, o acesso às telecomunicações, a tarifas e preços razoáveis, em condições adequadas;
+
+**II –** estimular a expansão do uso de redes e serviços de telecomunicações pelos serviços de interesse público em benefício da população brasileira;
+
+**III –** adotar medidas que promovam a competição e a diversidade dos serviços, incrementem sua oferta e propiciem padrões de qualidade compatíveis com a exigência dos usuários;
+
+**IV –** fortalecer o papel regulador do Estado;
+
+**V –** criar oportunidades de investimento e estimular o desenvolvimento tecnológico e industrial, em ambiente competitivo;
+
+**VI –** criar condições para que o desenvolvimento do setor seja harmônico com as metas de desenvolvimento social do País;
+
+**VII –** criar condições para ampliação da conectividade e da inclusão digital, priorizando a cobertura de estabelecimentos públicos de ensino.
+
+**Art. 3.** O usuário de serviços de telecomunicações tem direito:
+
+**I –** de acesso aos serviços de telecomunicações, com padrões de qualidade e regularidade adequados à sua natureza, em qualquer ponto do território nacional;
+
+**II –** à liberdade de escolha de sua prestadora de serviço;
+
+**III –** de não ser discriminado quanto às condições de acesso e fruição do serviço;
+
+**IV –** à informação adequada sobre as condições de prestação dos serviços, suas tarifas e preços;
+
+**V –** à inviolabilidade e ao segredo de sua comunicação, salvo nas hipóteses e condições constitucional e legalmente previstas;
+
+**VI –** à não divulgação, caso o requeira, de seu código de acesso;
+
+**VII –** à não suspensão de serviço prestado em regime público, salvo por débito diretamente decorrente de sua utilização ou por descumprimento de condições contratuais;
+
+**VIII –** ao prévio conhecimento das condições de suspensão do serviço;
+
+**IX –** ao respeito de sua privacidade nos documentos de cobrança e na utilização de seus dados pessoais pela prestadora do serviço;
+
+**X –** de resposta às suas reclamações pela prestadora do serviço;
+
+**XI –** de peticionar contra a prestadora do serviço perante o órgão regulador e os organismos de defesa do consumidor;
+
+**XII –** à reparação dos danos causados pela violação de seus direitos.
+
+**Parágrafo único.** Para o cumprimento do disposto no inciso IV do caput deste artigo, a prestadora de serviço deverá divulgar em seu sítio eletrônico, de forma clara e de fácil compreensão pelos usuários, tabela com o valor das tarifas e preços praticados e a evolução dos reajustes realizados nos últimos cinco anos.
+
+## Portas de competência, vigência e especialidade — notas não normativas
+
+- Art. 1º atribui à União organização dos serviços por intermédio do órgão regulador; o parágrafo único inclui redes, órbita e espectro. Não confundir telecomunicações com toda radiodifusão ou serviços postais de regimes distintos.
+
+- Art. 2º **inciso VII acrescido pela Lei 14.173/2021** prioriza conectividade e inclusão digital em estabelecimentos públicos de ensino; deve ser mantido como alteração posterior, não texto original de 1997.
+
+- Art. 3º contém doze direitos dos usuários e **parágrafo único acrescido pela Lei 13.673/2018**, incluindo divulgação de preços e reajustes em sítio eletrônico, com remissões à defesa do consumidor.
+
+- Sigilo de comunicações e privacidade do usuário (art. 3º V/IX) não autorizam acesso a dados sem fundamento constitucional e legal; conferir LGPD T43, regras de proteção de dados e jurisprudência.
+
+- Serviço prestado em regime público, regime privado e poderes da Anatel exigem artigos subsequentes e atos específicos; não aplicar a proteção do art. 3º VII indistintamente a todos os modelos de contrato.
+
+- DOU 17/07/1997 e alterações 2018/2021, inclusive Lei 15.324/2026 em outras disposições, não autenticados por fac-símile; C0-J=0.
 
 ## T43 — T43.M01 [CLF-LIV-T43-LGPD-ART1_3-R15; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

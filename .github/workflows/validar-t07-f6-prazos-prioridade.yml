@@ -1,0 +1,25 @@
+name: Validar T07 F6 prazos e prioridades
+
+on:
+  pull_request:
+    paths:
+      - "integracao/25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.csv"
+      - "integracao/26_T07_LIVRO_COMPLETO_1_69A_F5Q_V4.md"
+      - "integracao/45_T07_MATRIZ_GATE_13_UNIDADES_PRAZOS_PRIORIDADE_20261015.csv"
+      - "integracao/46_T07_TESTES_PRAZOS_ESPECIALIDADE_PRIORIDADE_33_20261015.csv"
+      - "integracao/47_T07_VETOS_2009_ART69A_NAO_APRECIADOS_20261015.csv"
+      - "integracao/48_T07_PARECER_PRAZOS_SANCOES_ESPECIALIDADE_PRIORIDADE_20261015.md"
+      - "integracao/49_T07_MODELOS_PRAZOS_ESPECIALIDADE_PRIORIDADE_20261015.md"
+      - "integracao/50_T07_CONTINUIDADE_20261015_RODADA10.md"
+      - "scripts/validar_t07_f6_prazos_prioridade.py"
+      - ".github/workflows/validar-t07-f6-prazos-prioridade.yml"
+  workflow_dispatch:
+
+jobs:
+  auditar-matrizes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validar integridade documental (nao certifica equivalencia juridica)
+        run: python3 scripts/validar_t07_f6_prazos_prioridade.py

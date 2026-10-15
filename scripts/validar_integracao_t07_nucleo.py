@@ -197,6 +197,76 @@ def main() -> None:
         assert row["origem_dados"] == "SIMULACAO_DOCUMENTAL_NAO_PROCESSO_REAL"
     print("OK rodada 04: 33/33 arts18-28; 95/215 origens; 29 artigos em v2; 20 contraprovas estáticas.")
 
+    # Rodada 05 — percursos de prova e transposição F5-Q arts29–47.
+    flows = read_csv("integracao/19_T07_DOIS_PERCURSOS_COMUNICACAO_E_PROVA_20261015.csv")
+    m28 = read_csv("integracao/21_T07_CONCORDANCIA_ART29_47_28_UNIDADES.csv")
+    prove15 = read_csv("integracao/23_T07_TESTES_INSTRUCAO_15.csv")
+    assert_ids(flows, "etapa_id", 29)
+    assert_ids(m28, "id_origem", 28)
+    assert_ids(prove15, "id_teste", 15)
+    assert {x["id_teste"] for x in prove15} == {f"P{i:02d}" for i in range(1,16)}
+    assert sum(x["fluxo"] == "GERAL" for x in flows) == 13
+    assert sum(x["fluxo"] == "IBAMA" for x in flows) == 16
+    # Não forjar comprovação de ciência individual; dados remanescentes devem permanecer Q.
+    assert all(x["status_resultado"].startswith(("Q_", "NORMATIVO_", "PUBLICACAO_")) for x in flows)
+    assert all(x["status_resultado"] not in {"CIENCIA_VALIDA", "NULIDADE_PROVADA"} for x in flows)
+    covered95 = {x["id"] for x in m22} | set(full) | {x["id_origem"] for x in m33}
+    assert set(x["id_origem"] for x in m28).isdisjoint(covered95)
+    assert len(covered95 | {x["id_origem"] for x in m28}) == 123
+    remissions = [x for x in m28 if x["delta_local"] != "SEM_DELTA_LOCAL"]
+    assert len(remissions) == 1
+    assert remissions[0]["id_origem"] == "EXP17-36-C"
+    assert remissions[0]["texto_destino_experimental"].endswith("art. 37 deste Livro.")
+    for x in m28:
+        assert x["id_origem"] in src215
+        assert x["texto_fonte_literal"] == src215[x["id_origem"]]["texto_fonte"]
+        assert x["status_juridico"] == "Q_SEM_C0J"
+        assert x["estado"] == "NAO_APROVADO_NAO_PROMULGADO"
+        n = int(x["origem"].split("art.")[1].split()[0])
+        assert 29 <= n <= 47
+        assert x["destino"].startswith(f"LPA-SEQ3-{n:03d}-")
+        if x["id_origem"] != "EXP17-36-C":
+            assert x["texto_fonte_literal"] == x["texto_destino_experimental"]
+
+    seq3 = read_section(
+        "integracao/22_T07_LIVRO_SEQUENCIAL_ARTS1_47_69_F5Q_V3.md",
+        "## I. Âmbito e princípios",
+        "## XII. Portas jurídicas não ultrapassadas",
+    )
+    assert seq3.count("**Art. LPA-SEQ3-") == 48
+    def seq3_article(n: int) -> str:
+        header = f"**Art. LPA-SEQ3-{n:03d}.**"
+        assert seq3.count(header) == 1
+        rest = seq3.split(header, 1)[1]
+        if n < 48:
+            rest = rest.split(f"**Art. LPA-SEQ3-{n+1:03d}.**",1)[0]
+        return rest
+
+    for x in m22:
+        n = 48 if x["id"] == "P19-69-C" else int(x["id"].split("-")[1])
+        assert x["texto_destino"] in seq3_article(n), x["id"]
+    for x in full40:
+        n = int(x["id_origem"].split("-")[1])
+        assert x["texto_destino"] in seq3_article(n), x["id_origem"]
+    for x in m33:
+        n = int(x["artigo_origem"])
+        assert x["texto_destino_experimental"] in seq3_article(n), x["id_origem"]
+    for x in m28:
+        n = int(x["origem"].split("art.")[1].split()[0])
+        assert x["texto_destino_experimental"] in seq3_article(n), x["id_origem"]
+    assert "de ofício, à obtenção dos documentos" in seq3_article(37)
+    assert "Somente poderão ser recusadas, mediante decisão fundamentada" in seq3_article(38)
+    assert "obrigatório e vinculante" in seq3_article(42)
+    assert "obrigatório e não vinculante" in seq3_article(42)
+    assert "risco iminente" in seq3_article(45)
+    for x in prove15:
+        assert x["frase_controle"] in seq3_article(int(x["artigo_origem"])), x["id_teste"]
+        assert x["prova_na_minuta"] == "SIM"
+        assert x["equivalencia"] == "Q_C0J_NAO_HOMOLOGADA"
+        assert x["natureza"] == "CASO_HIPOTETICO_SEM_AUTOS"
+    print("OK rodada 05: 29 eventos de prova (13+16), 28 origens instrução, 123/215, 48 artigos, 15 testes.")
+
+
 
     print("OK: 21 origens + art. 69 = 22 destinos, 12 testes, 16 unidades do bloco seguinte")
     print("IMPORTANTE: controle documental/estrutural, sem homologação de C0-J ou decisão DEC-016.")

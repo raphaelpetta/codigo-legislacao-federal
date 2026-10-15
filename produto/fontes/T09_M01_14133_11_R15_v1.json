@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T09-R15",
+  "source_path": "modulos/T09/M01_ESPELHO_LEI14133_ART2_3_11_Q.csv",
+  "source_blob_sha": "12541228903aa2636db6498501a79b3d94f4f08f",
+  "view_path": "produto/vistas/T09_LICITACOES_14133_ART2_3_PREVIA_Q.md",
+  "count_expected": 11,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+  "source_commit": "7e6521827be24c65409fc2e8de76bb3e1bb10798",
+  "setorial_commit": "7e6521827be24c65409fc2e8de76bb3e1bb10798",
+  "source_kind": "FONTE_INSTITUCIONAL_COTEJO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "comments": [
+    "O **art. 1º**, ainda não integrado, delimita sujeitos e hipóteses específicas: os arts. 2º–3º isolados **não** exaurem a incidência da Lei 14.133. Integração T09 expressamente parcial.",
+    "Art. 2º reúne sete tipos contratuais e atividades, sem revogar regimes próprios de concessões, PPP, empresas estatais ou contratos regidos por regras especiais (Leis 8.987/1995, 11.079/2004, 13.303/2016).",
+    "Art. 3º delimita exclusões: operações de crédito/gestão da dívida pública e contratação regida por legislação própria; não confundir com dispensa ou inexigibilidade de licitação.",
+    "As regras transitórias e revogações da Lei 14.133 (arts. 190–194) e a LC 123/2006 exigem verificação específica antes da equivalência jurídica; não presumir eliminação de concursos, competências, editais nem migração para normas sem lei complementar.",
+    "Texto da publicação original 2021 confrontado com Planalto 2026, mas **sem autenticação por imagem do DOU nem cotejo de toda cadeia de alterações**. C0-J=0; DEC-016 pendente."
+  ]
+}

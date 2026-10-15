@@ -110,3 +110,13 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Continuidade ciclo 10](CONTINUIDADE_10.md): FEITO / PENDENTE / PRÓXIMO e versão de repositórios.
 
 **Conclusão metodológica:** nenhuma das minutas A/B ainda supera teste jurídico-semântico de equivalência C0-J. **A contém reformas M, inclusive uma alteração não devidamente identificada de faculdade para obrigação; B permanece indeterminada em dosimetria e remissões.** Não aprovar fusão/integração sem decidir e comprovar efeitos.
+
+## Ciclo 11 — novas alternativas A2/B2 e regressão dos dez casos (14/10/2026)
+
+- [Minuta A2 — núcleo compartilhado](MINUTA_A2_NUCLEO_COMUM_CICLO11.md): `poderá` para redução por erro evitável, ressalva militar do CPM47 II agora **redigida**, classificações de pena por erro/excesso **como propostas M explícitas**. Persistem problemas de proporcionalidade e alcance que impedem texto promulgável.
+- [Minuta B2 — subparte militar](MINUTA_B2_SUBPARTE_MILITAR_CICLO11.md): regras especiais expressas e duas **opções mutuamente excludentes** de dosimetria do CPM35, `B2-DP` (atenuante respeita piso) versus `B2-DM` (minorante pode ultrapassá-lo). Escolha não deliberada; substituição de pena e comando de emergência exigem avaliação posterior.
+- [Matriz de regressão A2/B2 × 10 casos anteriores](MATRIZ_REGRESSAO_10_CASOS_A2_B2_CICLO11.csv): os IDs `P10-01..10` são reutilizados sem alterar fatos; resultados condicionados e ressalvas Q, não julgamentos reais simulados.
+- [Dossiê 11 — correções, diferenças materiais e portas jurídicas](DOSSIE_11_REGRESSAO_A2_B2_E_DOSIMETRIA.md): confronta A2-D1, B2-DP, B2-DM com CPM35,73,76,77 e CP21; explicita ausência de equivalência.
+- [Continuidade 11](CONTINUIDADE_11.md): FEITO/PENDENTE/PRÓXIMO, fontes/versões/QA.
+
+**Trava de decisão:** **A2 e B2 ainda NÃO são propostas juridicamente completas para aprovação**. A2 contém ampliações **M** deliberáveis; B2 mantém decisões abertas em dosimetria, intervenção militar e inexigibilidade. Próxima frente tecnicamente independente é **T25.M03 — CP59–68 × CPM69–77, com integração aos testes e à execução T27**, antes de finalizar Parte Geral.

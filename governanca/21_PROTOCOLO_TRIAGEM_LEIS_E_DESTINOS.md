@@ -54,7 +54,7 @@ Rótulos `ALTERA`, `REVOGA`, `INSTITUI`, `REGULAMENTA`, `TRANSITORIA`, `ORCAMENT
 
 ## 6. Como medir 'a maioria das leis é alteradora ou nova?' 
 
-**Situação em 15/10/2026: proporção ainda não mensurada e não inferível dos números totais de 'normas' publicados no Brasil.** Não afirmar maioria estatística sem amostra reproduzível.
+**Situação em 15/10/2026:** a CLF ainda não mediu essa proporção com critérios próprios; dados totais de 'normas' não respondem à pergunta. **Evidência acadêmica recuperada:** Silva (USP, 2023), examinando 6.870 leis ordinárias federais de 1988–2022, identificou 1.929 que alteraram, revogaram ou repristinaram legislação anterior (**28,1%** do conjunto). A autora também menciona **42,39%** de leis alteradoras e informa que mais de 2.500 das 6.870 leis versavam sobre matéria orçamentária: esses números e os respectivos denominadores **não se conciliam diretamente** (1.929 dividido por [6.870 menos mais de 2.500] seria superior a 44%, não 42,39%). Registrar a divergência como questão metodológica a esclarecer, sem transformar os 42,39% em percentual certificado para o universo filtrado. A contagem de 1.929 inclui alterações, revogações e repristinações, **não somente alterações puras**; exclui, conforme nota da autora, algumas mudanças indiretas sem nova redação textual. A cobertura termina em 2022 e não representa automaticamente a CLF permanente. **Fonte:** https://www.teses.usp.br/teses/disponiveis/2/2134/tde-19102023-140622/publico/11737037MIO.pdf (pp. 69–70).
 
 **Universo principal:** leis ordinárias e complementares federais sancionadas/promulgadas em anos completos, por exemplo 2015–2025, conforme classificação consistente; tabular em separado MPs convertidas, decretos-leis históricos, leis delegadas e orçamento. Reexecutar após identificar todas as fontes e lacunas. Preferir censo a amostra; se amostra, sortear estratos por ano, espécie e assunto, com erro amostral.
 
@@ -65,7 +65,7 @@ Rótulos `ALTERA`, `REVOGA`, `INSTITUI`, `REGULAMENTA`, `TRANSITORIA`, `ORCAMENT
 4. Cobertura de leis históricas e atualmente vigentes, diferentes coortes, textos dispositivos e regimes de competência.
 5. Leis revogadas, disposições de efeitos exauridos e eventos de revogação com preservação documental.
 
-**Fonte de dados:** planilhas/listagens oficiais da legislação da Presidência e da Câmara, materiais de Dados Abertos da Câmara e Senado, com checagem de texto integral oficial, retificações e datas. A ementa não basta para separar lei alteradora mista de pura. Registrar script ou procedimento, versão da base, data da extração, casos indeterminados e critérios de exclusão. A legislação estadual/municipal e atos infralegais **não** compõem o denominador das leis federais.
+**Fonte de dados:** portal Normas (https://normas.leg.br/busca), com histórico de versões e relações, e planilhas/listagens oficiais da legislação da Presidência e da Câmara, materiais de Dados Abertos da Câmara e Senado, com checagem de texto integral oficial, retificações e datas. A ementa não basta para separar lei alteradora mista de pura. Registrar script ou procedimento, versão da base, data da extração, casos indeterminados e critérios de exclusão. A legislação estadual/municipal e atos infralegais **não** compõem o denominador das leis federais.
 
 ## 7. Exemplos de teste inicial
 

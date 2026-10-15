@@ -79,3 +79,26 @@ O teste desta rodada é **revisão documental manual**, não execução de suít
 **Aceite verificável:** 100% das unidades dos arts. 18–28 com destino e diferença classificada C0/C1/M/Q, testes de conflitos físico/digital, reserva de competência/forma, direito a vista e contraditório e pacote de continuidade. Q não deve ser convertido em aprovação em caso de falta de prova. **Após esse bloco:** prosseguir com instrução, decisão, recurso e prazos para que o Livro se torne integral, ao invés de repetir textos parciais.
 
 **Coordenação CF–CLF:** a CF/1988 é norma vigente; qualquer versão constitucional futura é cenário independente, DEC-016 não deve ser resolvida por inferência.
+
+
+## ADENDO — rodada 04, 15/10/2026: impedimentos, suspeição e intimações (arts. 18–28)
+
+### FEITO
+- **`15_T07_CONCORDANCIA_ART18_28_33_UNIDADES.csv`**: 33 posições dos arts. 18–28 (4+2+1+1+5+2+2+1+12+2+1), da matriz de 215 unidades da main, com origens, destinos, literalidade, alertas, situações, classificações Q e interfaces; 11 artigos adicionais.
+- **`16_T07_LIVRO_SEQUENCIAL_ARTS1_28_69_F5Q_V2.md`**: reordenação **experimental** do recorte completo em 29 artigos `LPA-SEQ2`, reunindo 95 unidades originárias (21 dos arts.1–2 + 40 arts.3–17 + 33 arts.18–28 + art.69). O antigo art. `LPA-SEQ-018` (origem art.69) passa na proposta v2 para `LPA-SEQ2-029`, sem modificação legal ou aprovação de numeração. **120/215 origens seguem fora desta minuta.**
+- **`17_T07_TESTES_INTIMACAO_IMPARCIALIDADE_20.csv`**: vinte cenários **hipotéticos e documentais** de imparcialidade, nulidade/sanação, prazos e intimação digital. Doze trechos preservados no recorte, três interfaces condicionais, três lacunas de direito externo, um condicionamento fático e um jurisprudencial. Não são 20 casos administrativos reais.
+- **`18_T07_PARECER_CRITICO_IMPARCIALIDADE_INTIMACAO.md`**: análise jurídica de Lei9.784 arts.18–28, 41, 66 e de Lei14.129 arts.42–43, com **três precedentes contextualizados do STJ** (MS7.181/DF, MS21.312/DF e RMS42.193/ES), fontes oficiais e limites de generalização. A jurisprudência mostra tanto a relevância de enfrentar a arguição quanto o exame probatório de suspeição e a consequência de intimação com prazo reduzido em um caso concreto.
+- **Validador `scripts/validar_integracao_t07_nucleo.py` ampliado** para exigir 33 posições, 29 artigos, 95 origens, 20 cenários e fonte/destino vinculados. A CI deve ser consultada **no HEAD desta rodada** antes de afirmar sucesso.
+- **Fontes efetivamente conferidas:** texto atualizado Câmara da Lei9.784; texto do Planalto da Lei14.129; pesquisas institucionais STJ e informativo 88. **Não** foi obtido fac-símile DOU, conjunto completo de AR/certidões individuais, nem dados empíricos novos.
+
+### PENDENTE / NÃO VERIFICADO
+- **C0-J e DEC-016** seguem Q. Cobertura de 95/215 é **somente textual/local**, sem direitos e efeitos completos do Livro e sem regime promulgatório aprovado; nenhum dispositivo de Lei9.784 revogado.
+- A relação entre recebimento eletrônico (Lei14.129 art43 II), escolha/desistência do usuário (art42), possibilidade de meio eletrônico mesmo sob lei especial pessoal/postal (art43 III), ciência jurídica e termo inicial do prazo depende de rito/destinatário/prova. **Não** fixar equivalência universal entre `enviado`, `recebido`, `lido`, `ciência válida`.
+- Não equiparar art23 (atos em dias úteis) à contagem geral em dias úteis: Lei9.784 art66 §2 prevê contagem contínua. Art26 §2: 3 dias úteis para **comparecimento**, não toda notificação.
+- Decisões STJ sobre nulidade e comparecimento são factuais; não inferir nulidade automática do edital Ibama do PR39 nem sanação generalizada.
+- Ausentes revisão titular T07/PR39, T43/PR43, T01/DEC016, inventário jurídico dos procedimentos especiais, 120 unidades adicionais, fonte histórica DOU e gate normativo.
+
+### PRÓXIMO (prioridade única e aceite)
+**T07.M03/issue #35, com T43.M04 e T01.M04:** auditar dois percursos de comunicação administrativa com prova temporal e causal: **(1)** ato regido por Lei9.784 + Lei14.129, opção/saída eletrônica/recebimento/ciência/defesa; **(2)** processo sancionador especial com destinatário desconhecido ou tentativa postal frustrada (Ibama PR39, quando houver autos), decisão sobre edital e direito de defesa. Para cada percurso, registrar regime, período, competência, fonte da comunicação, prova de entrega, prazo, participação, resultado normativo e `Q`. **Aceite:** duas cronologias com documentos primários ou lacunas expressas e confronto com três julgados. Não concluir nulidade se não houver prova de AR/certidões/caso individual.
+
+**Fila:** redigir arts.29–47 (instrução, prova, participação e acesso) com concordância das próximas posições; transpor todas 215 origens antes de cogitar revogação da Lei9.784 e homologação de um Livro.

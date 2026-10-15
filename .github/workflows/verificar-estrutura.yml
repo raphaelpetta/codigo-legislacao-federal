@@ -20,3 +20,5 @@ jobs:
           python-version: '3.11'
       - name: Verificar CSVs e links locais
         run: python scripts/verificar_estrutura.py
+      - name: Conferir fila cooperativa e painel de produto derivado
+        run: python scripts/controle_operacional.py --check

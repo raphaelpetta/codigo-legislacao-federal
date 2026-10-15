@@ -24,6 +24,9 @@
 | DEC-016 | PENDENTE | Veículos legislativos do Código único | Definir solução jurídica para unidade normativa e editorial sem ignorar competências, reservas e espécies exigidas pela CF/1988 ou alternativa constitucional futura. | T01.M04 e interface constitucional | 0.3 |
 | DEC-017 | HIPOTESE_DE_TRABALHO | Sequência do piloto | Iniciar T01.M04, prosseguir por T01.M03/M05/M01/M02 e aplicar piloto material T07.M03, sujeito a revisão conforme resultados. | Roadmap inicial | 0.3 |
 
+
+| DEC-018 | CONFIRMADA_PELO_USUARIO | Progressividade decisória com abertura epistêmica | Presunção de submeter escolhas quando houver suficiência fundamentada; investigação focal somente de lacunas capazes de alterar a opção; proteção das garantias, concordância e transição; protocolo [CLF-GOV-019](19_PROGRESSIVIDADE_DECISORIA.md). Não ratifica reformas normativas nem encerra DEC-016. | Método de trabalho transversal; F4, F8/F9, auditoria e coordenação com a CF | 0.4 (proposta em PR draft) |
+
 ## Modelo de entrada nova
 
 ```

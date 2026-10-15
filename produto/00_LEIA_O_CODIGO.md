@@ -7,7 +7,9 @@
 
 [Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir de `produto/fontes/indice_livros.json` e conferido com `--check`. **A versão atual reúne T07**. A prévia parcial T24 (17 artigos, 106 subunidades) está disponível abaixo como **candidata ainda fora do índice de Livros integrados**, aguardando gate de integração experimental, não ratificação jurídica.
 
-## Ponto de leitura: duas partes do produto, sem pretender completude
+## Ponto de leitura: Código de Trabalho gerado e duas partes parciais, sem pretender completude
+
+**[Abrir Código de Trabalho unificado (T07 + T24, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
 
 **Parte III — Administração Pública e Finanças**
 - [Livro de Processo Administrativo Federal — T07.M03, prévia integral de 78 artigos](vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md). Proveniência: PR #45, fonte fixa, [manifesto](fontes/T07_M03_v4.json); 214 unidades positivas (203 C0-T local, 11 C1 potenciais/Q), 1 registro histórico, nenhuma unidade C0-J homologada.
@@ -24,7 +26,7 @@
 - **T07**: `python3 scripts/gerar_produto_experimental.py --setorial-root setorial --check` (com o checkout de origem T07 declarado no manifesto); `--write` regenera somente a vista derivada.
 - **T24**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` (checkout de origem T24 no SHA declarado), verificando 106 IDs, 106 destinos, 17 artigos, hashes de blob, estado Q e equivalência exata da prévia; `--write` também regenera somente vista.
 - **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml) e [T24](../.github/workflows/conferir-t24-previsao.yml). As execuções GitHub Actions desta rodada exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
-- **Produto futuro:** montar uma versão limpa concatenada dos recortes sob fonte e índice único, mais versão comentada com variantes, concordância N:N, remissões, índice de lacunas e transições. Hoje as vistas são componentes preliminares do corpus, sem índice jurídico integral ou renumeração final.
+- **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos dois Livros indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
 
 ## Indicadores, não confundir denominadores
 

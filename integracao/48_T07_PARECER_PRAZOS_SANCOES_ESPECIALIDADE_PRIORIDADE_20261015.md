@@ -6,7 +6,7 @@
 
 Cotejados **13 registros positivos e originários únicos** relativos a **5 posições de artigo** da Lei 9.784/1999 (66,67,68,69,69-A), com os identificadores e destinos do Livro F5-Q `integracao/25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.csv` e `integracao/26_T07_LIVRO_COMPLETO_1_69A_F5Q_V4.md`. **Doze têm identidade textual local C0-T/Q; um, `P19-69-C`, alterou "desta Lei" → "deste Livro" e permanece C1 potencial/Q.** Nenhuma das 13 subunidades recebe equivalência jurídico-funcional C0-J: exigem provas de temporalidade, especialidade, exercício de competência e repercussões transversais.
 
-A auditoria de 48–50 (40 unidades), 51–55 (9), 56–65 (30) e 66–69-A (13) totaliza **92 unidades positivas examinadas sob gates jurídico-materiais F6**, além do espelho integrado de 215 unidades (214 positivas e a vigência histórica art70). **A conclusão F6 dos 92 não certifica que as outras 123 estejam integralmente auditadas juridicamente**, ainda que tenham sido documentadas nas fases anteriores.
+A auditoria de 48–50 (40 unidades), 51–55 (9), 56–65 (30) e 66–69-A (13) totaliza **92 unidades positivas examinadas sob gates jurídico-materiais F6**, além do espelho integrado de 215 unidades (214 positivas e a vigência histórica art70). **A conclusão F6 dos 92 não certifica as outras 122 unidades positivas dos arts. 1–47**, ainda que documentadas nas fases anteriores; a 123ª unidade restante é o comando histórico de vigência (art. 70), que não integra a codificação positiva.
 
 ## 2. Fontes oficiais e limitações de prova
 

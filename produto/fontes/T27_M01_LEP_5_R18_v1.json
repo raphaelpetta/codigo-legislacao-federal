@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T27-R18",
+  "source_path": "modulos/T27/M01_ESPELHO_LEP_ART1_3_5_Q.csv",
+  "source_blob_sha": "4eec0c14bfd563fe1a280c395b7cf9932dbf954e",
+  "view_path": "produto/vistas/T27_LEP_ART1_3_PREVIA_Q.md",
+  "count_expected": 5,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-7210-11-julho-1984-356938-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l7210compilado.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Arts. 1º–3º estabelecem finalidades da execução, jurisdição e direitos não atingidos por sentença/lei; aplicação ao preso provisório exige respeito à presunção de inocência, à custódia provisória e à Constituição.",
+    "Art. 2º, parágrafo único, menciona Justiça Eleitoral ou Militar no caso de estabelecimento sujeito à jurisdição ordinária; não transfere toda competência especializada à justiça comum.",
+    "Art. 3º proíbe discriminações explicitadas no parágrafo único; proteção constitucional e tratados abrangem outras discriminações e não podem ser reduzidos ao elenco literal de 1984.",
+    "Lei 15.295/2025 alterou regras de identificação genética art. 9º-A, **fora desta vista**. LGPD/dados genéticos e direitos dos custodiados permanecem gates, sem reclassificar textos de 1984 como atuais em todos os assuntos.",
+    "DOU original de 13/07/1984, Lei 10.792/2003 e alterações recentes exigem autenticação; correspondências Q não substituem controle jurisdicional."
+  ]
+}

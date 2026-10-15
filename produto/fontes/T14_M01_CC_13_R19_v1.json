@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T14-R19",
+  "source_path": "modulos/T14/M01_ESPELHO_CC_ART79_84_13_Q.csv",
+  "source_blob_sha": "91480c28b4de6c96237275b6394d00301bc8ac38",
+  "view_path": "produto/vistas/T14_CODIGO_CIVIL_BENS_ART79_84_PREVIA_Q.md",
+  "count_expected": 13,
+  "articles_expected": 6,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "Arts. 79–84 qualificam bens imóveis e móveis, direitos reais e pessoais e materiais integrantes de obras; o caráter imóvel do direito à sucessão aberta (art. 80 II) é **qualificação legal**, não deslocamento da competência sucessória.",
+    "Preservar a distinção entre energias com valor econômico como móveis por determinação legal, e domínio público/ambiental, energia, propriedade intelectual e regimes registrais especiais; classificação documental não altera direitos reais.",
+    "Arts. 79–84 pertencem à **Lei 10.406/2002**, não à faixa inicial de pessoas T13 reservada. Esta frente T14 não incorpora artigos 1º–78 nem invade a reserva deliberativa de T13.",
+    "Confrontar CF art. 5º XXII–XXIII e arts. 182/186, Lei de Registros Públicos, leis especiais e alterações de direito privado. Versão da Câmara HTML atualizada; DOU 11/01/2002 e modificativas ainda sem autenticação em fac-símile."
+  ]
+}

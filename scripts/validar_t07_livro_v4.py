@@ -76,4 +76,13 @@ for unit, body in (("I", "de licitação;"), ("II", "relacionados ao poder sanci
     assert f"**{unit} –** {body}" in art49a, f"Subinciso §6 ausente: {unit}"
     assert f"**§ 6º, {unit} –**" not in art49a, f"Marcador invalido: {unit}"
 
+
+# Legística do parágrafo único do art. 2 da Lei 9.784; preservam-se textos e IDs.
+art2 = text.split("**Art. LPA-SEQ4-002.**", 1)[1].split("## II. Direitos e deveres", 1)[0]
+assert "**Parágrafo único.** Nos processos administrativos serão observados, entre outros, os critérios de:" in art2
+for indice in ("I", "II", "III", "IV", "V", "VI", "VII", "VIII",
+               "IX", "X", "XI", "XII", "XIII"):
+    assert f"**{indice} –**" in art2, indice
+    assert f"**PU-{indice} –**" not in art2, indice
+
 print("T07 v4: 215 unidades, 214 com destino textual + 1 historica, 78 artigos em ordem, nenhuma homologacao declarada.")

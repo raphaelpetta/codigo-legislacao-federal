@@ -1,0 +1,31 @@
+name: Conferir previa T24 (106 unidades com fonte setorial imutavel)
+
+on:
+  pull_request:
+    paths:
+      - "produto/fontes/T24_M01_106_v1.json"
+      - "produto/vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md"
+      - "produto/concordancia/T24_M01_106_ORIGEM_DESTINO.csv"
+      - "scripts/gerar_previa_t24.py"
+      - ".github/workflows/conferir-t24-previsao.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cotejo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do corpus
+        uses: actions/checkout@v4
+        with:
+          path: trabalho
+      - name: Checkout setorial PR 38 no SHA de auditoria
+        uses: actions/checkout@v4
+        with:
+          ref: 3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745
+          path: setorial
+          persist-credentials: false
+      - name: Validar fonte, matriz, classes e vista sem certificar merito
+        run: python3 trabalho/scripts/gerar_previa_t24.py --setorial-root setorial --check

@@ -1,0 +1,21 @@
+{
+  "id": "CLF-LIV-T37-M01-6938-ART1-2-13-R10",
+  "schema_version": 1,
+  "source_path": "modulos/T37/M01_ESPELHO_PNMA_ART1_2_13_Q.csv",
+  "source_blob_sha": "eb26f95e4e79b13d704c7ed5db33ecea31952ac7",
+  "view_path": "produto/vistas/T37_PNMA_ART1_2_PREVIA_Q.md",
+  "count_expected": 13,
+  "articles_expected": 2,
+  "dou_reference": "Lei 6938 DOU 02/09/1981 seção 1 p16509; Lei 15512 DOU 23/09/2026 p1 col1",
+  "dou_facsimile_checked": false,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-6938-31-agosto-1981-366135-normaatualizada-pl.html",
+  "crosscheck": "https://www.planalto.gov.br/ccivil_03/leis/l6938compilada.htm",
+  "amendment": "Lei 15.512/2026 art32, vigente desde 23/09/2026 segundo art35; controle Senado norma 43998435",
+  "source_commit": "c52a04dfe10f17ea70b4a4c0b74824c6f30e7136",
+  "setorial_commit": "c52a04dfe10f17ea70b4a4c0b74824c6f30e7136",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "limitation": "Texto consolidado da PNMA, lei alteradora 2026 incluída; art1 alteração 1990 e remissão art235 CF exigem auditoria constitucional."
+}

@@ -76,3 +76,7 @@ A modernização constitucional possui [repositório independente](https://githu
 ## Continuidade obrigatória e coordenação entre chats
 
 Ao fim de **cada rodada substantiva**, o projeto exige registro de **FEITO / PENDENTE / PRÓXIMO**, versões efetivamente consultadas, fonte normativa, estado de PR/CI e interfaces. Ver [protocolo](governanca/18_PROTOCOLO_CONTINUIDADE_POR_RODADA.md) e [modelo de handoff](modelos/20_PACOTE_CONTINUIDADE.md). Essa regra é alinhada metodologicamente com [a coordenação do projeto constitucional](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/blob/main/governanca/12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md), mas preserva decisões e códigos próprios de cada repositório. Toda síntese é fotografia datada, não substitui nova consulta ao GitHub.
+
+## Prioridade operacional de consolidação (15/10/2026)
+
+A [política de consolidação, auditoria proporcional e fechamento](governanca/POLITICA_CONSOLIDACAO_E_FECHAMENTO_20261015.md) complementa os protocolos existentes. Antes de abrir nova frente, comparar expansão horizontal, profundidade, integração e decisão madura; reconhecer dívida de PRs, comprovar validação, conferir identidade da fonte legislativa e reduzir relatórios repetidos. **Integração documental não é C0-J, reforma aprovada ou revogação.** Central executiva: [CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48); Código experimental mais recente pode estar em **PR draft**, e não em `main`.

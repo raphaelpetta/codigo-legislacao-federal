@@ -502,17 +502,15 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 **Errata exclusivamente editorial (15/10/2026, rodada 11):** no art. LPA-SEQ4-002, os incisos I–XIII do parágrafo único passaram a ser indicados por seus marcadores legislativos `I –` a `XIII –`, substituindo `PU-I` a `PU-XIII`. Nenhum caput/inciso foi alterado em seu conteúdo, remissões/IDs da matriz 215 foram preservados e não ocorreu homologação jurídica.
 
-## T24 — T24.M01 [CLF-LIV-T24-M01-CPC70-81-98-102-v1; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+## T24 — T24.M01 [CLF-LIV-T24-M01-CPC70-102-181-v1; INTEGRADO_EXPERIMENTAL_CONTINUO_Q]
 
-# Código da Legislação Federal — Livro do Processo Civil (prévia parcial T24.M01)
+# Código da Legislação Federal — Livro de Processo Civil: prévia experimental contínua dos arts. 70–102 do CPC
 
-> **TEXTO EXPERIMENTAL SEM HOMOLOGAÇÃO, NÃO PROMULGADO.** Fonte setorial: PR #38 em commit `3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745`, `modulos/T24/M01/F1C2_ESPELHO_UNIFICADO_106.csv` (106 transcrições manuais). Nenhum dispositivo tem equivalência C0-J certificada e a continuidade jurídica da transposição não está comprovada. Exibir o texto de origem não o torna norma substitutiva nem autoriza revogações.
+> **33 artigos de origem / 181 subunidades textuais, todas Q sem equivalência C0-J.** Este é um recorte contíguo documental do CPC, **não** o Livro Processual Civil completo, nem texto promulgado ou revogação. A posição dos dispositivos usa numeração original apenas para localização e auditoria, sem decisão DEC-016.
 
-**Corte da documentação setorial:** 14/10/2026. **Vista derivada gerada:** 15/10/2026. **Recorte:** arts. **70–81 e 98–102** do CPC (Lei 13.105/2015), numeração original mantida **apenas como localizador histórico**. Não há pretensão de texto completo do Livro, pois **arts. 1–69, 82–97 e 103 em diante estão fora desta vista**.
+**Fontes distintas e versionadas:** CPC 70–81 e 98–102, 106 registros de PR #38 (commit `3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745`) na [prévia setorial existente](T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md), Git blob `211f4acc8e3f34a3eb3b01856db3949a26cb07a0`; CPC 82–97, 75 transcrições editoriais da [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html), fonte local `produto/fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv`, Git blob `5a1b1123e29b95f5777ec2bffb8eda5b84e4a18b`. As 75 exigem segunda transcrição independente/DOU/histórico; o texto integral aqui é **artefato experimental Q**, e não equivalência jurídica conferida.
 
-**Matriz de concordância:** `produto/concordancia/T24_M01_106_ORIGEM_DESTINO.csv`; **fonte canônica setorial em draft**, com 106 IDs e preservação literal da coluna `texto_atual_manual`. A pesquisa aponta 102 coincidências no confronto manual entre publicações, 1 alteração de 2022, 2 acréscimos de 2021/2022 e 1 divergência editorial de pontuação; todos permanecem **Q jurídico**. Em particular, CPC art. 77, VI requer revisão DOU/Planalto; a grafia abaixo reproduz o espelho setorial e **não fixa preferência entre fontes em conflito**.
-
-**Fontes institucionais para conferência:** [CPC atualizado — Câmara](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html) · [publicação original — Câmara](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-publicacaooriginal-146341-pl.html). A coexistência de regras de gratuidade, curatela, deficiência e limites de sanções deve ser auditada por efeito antes de integrar ou renumerar.
+**Concordância documental:** 106 destinos da matriz `produto/concordancia/T24_M01_106_ORIGEM_DESTINO.csv`, Git blob `b3542c54db70d9f5721fbe64ec372164b99b56ef`; 75 destinos da `produto/concordancia/T24_CPC_82_97_CONCORDANCIA_75_Q.csv`, blob `c2e722d62a46be10937c4ec17ec4d4dfbd270330`. Nenhum destes registros autoriza supressão das exceções legais, expansão para o CLF inteiro, fusão de regimes especiais ou criação de direitos/obrigações novas.
 
 ## Capacidade processual, representação, deveres e responsabilidade processual — arts. 70–81 do CPC
 
@@ -662,6 +660,158 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 **§ 3º** O valor da indenização será fixado pelo juiz ou, caso não seja possível mensurá-lo, liquidado por arbitramento ou pelo procedimento comum, nos próprios autos.
 
+## Das despesas, dos honorários advocatícios e das multas — CPC arts. 82–97
+
+**Art. 82.** Salvo as disposições concernentes à gratuidade da justiça, incumbe às partes prover as despesas dos atos que realizarem ou requererem no processo, antecipando-lhes o pagamento, desde o início até a sentença final ou, na execução, até a plena satisfação do direito reconhecido no título.
+
+**§ 1º** Incumbe ao autor adiantar as despesas relativas a ato cuja realização o juiz determinar de ofício ou a requerimento do Ministério Público, quando sua intervenção ocorrer como fiscal da ordem jurídica.
+
+**§ 2º** A sentença condenará o vencido a pagar ao vencedor as despesas que antecipou.
+
+**§ 3º** Nas ações de cobrança por qualquer procedimento, comum ou especial, bem como nas execuções ou cumprimentos de sentença de honorários advocatícios, o advogado ficará dispensado de adiantar o pagamento de custas processuais, e caberá ao réu ou executado suprir, ao final do processo, o seu pagamento, se tiver dado causa ao processo.
+
+**Art. 83.** O autor, brasileiro ou estrangeiro, que residir fora do Brasil ou deixar de residir no país ao longo da tramitação de processo prestará caução suficiente ao pagamento das custas e dos honorários de advogado da parte contrária nas ações que propuser, se não tiver no Brasil bens imóveis que lhes assegurem o pagamento.
+
+**§ 1º** Não se exigirá a caução de que trata o caput:
+
+**I –** quando houver dispensa prevista em acordo ou tratado internacional de que o Brasil faz parte;
+
+**II –** na execução fundada em título extrajudicial e no cumprimento de sentença;
+
+**III –** na reconvenção.
+
+**§ 2º** Verificando-se no trâmite do processo que se desfalcou a garantia, poderá o interessado exigir reforço da caução, justificando seu pedido com a indicação da depreciação do bem dado em garantia e a importância do reforço que pretende obter.
+
+**Art. 84.** As despesas abrangem as custas dos atos do processo, a indenização de viagem, a remuneração do assistente técnico e a diária de testemunha.
+
+**Art. 85.** A sentença condenará o vencido a pagar honorários ao advogado do vencedor.
+
+**§ 1º** São devidos honorários advocatícios na reconvenção, no cumprimento de sentença, provisório ou definitivo, na execução, resistida ou não, e nos recursos interpostos, cumulativamente.
+
+**§ 2º** Os honorários serão fixados entre o mínimo de dez e o máximo de vinte por cento sobre o valor da condenação, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa, atendidos:
+
+**I –** o grau de zelo do profissional;
+
+**II –** o lugar de prestação do serviço;
+
+**III –** a natureza e a importância da causa;
+
+**IV –** o trabalho realizado pelo advogado e o tempo exigido para o seu serviço.
+
+**§ 3º** Nas causas em que a Fazenda Pública for parte, a fixação dos honorários observará os critérios estabelecidos nos incisos I a IV do § 2º e os seguintes percentuais:
+
+**I –** mínimo de dez e máximo de vinte por cento sobre o valor da condenação ou do proveito econômico obtido até 200 (duzentos) salários-mínimos;
+
+**II –** mínimo de oito e máximo de dez por cento sobre o valor da condenação ou do proveito econômico obtido acima de 200 (duzentos) salários-mínimos até 2.000 (dois mil) salários-mínimos;
+
+**III –** mínimo de cinco e máximo de oito por cento sobre o valor da condenação ou do proveito econômico obtido acima de 2.000 (dois mil) salários-mínimos até 20.000 (vinte mil) salários-mínimos;
+
+**IV –** mínimo de três e máximo de cinco por cento sobre o valor da condenação ou do proveito econômico obtido acima de 20.000 (vinte mil) salários-mínimos até 100.000 (cem mil) salários-mínimos;
+
+**V –** mínimo de um e máximo de três por cento sobre o valor da condenação ou do proveito econômico obtido acima de 100.000 (cem mil) salários-mínimos.
+
+**§ 4º** Em qualquer das hipóteses do § 3º:
+
+**I –** os percentuais previstos nos incisos I a V devem ser aplicados desde logo, quando for líquida a sentença;
+
+**II –** não sendo líquida a sentença, a definição do percentual, nos termos previstos nos incisos I a V, somente ocorrerá quando liquidado o julgado;
+
+**III –** não havendo condenação principal ou não sendo possível mensurar o proveito econômico obtido, a condenação em honorários dar-se-á sobre o valor atualizado da causa;
+
+**IV –** será considerado o salário-mínimo vigente quando prolatada sentença líquida ou o que estiver em vigor na data da decisão de liquidação.
+
+**§ 5º** Quando, conforme o caso, a condenação contra a Fazenda Pública ou o benefício econômico obtido pelo vencedor ou o valor da causa for superior ao valor previsto no inciso I do § 3º, a fixação do percentual de honorários deve observar a faixa inicial e, naquilo que a exceder, a faixa subsequente, e assim sucessivamente.
+
+**§ 6º** Os limites e critérios previstos nos §§ 2º e 3º aplicam-se independentemente de qual seja o conteúdo da decisão, inclusive aos casos de improcedência ou de sentença sem resolução de mérito.
+
+**§ 6º-A** Quando o valor da condenação ou do proveito econômico obtido ou o valor atualizado da causa for líquido ou liquidável, para fins de fixação dos honorários advocatícios, nos termos dos §§ 2º e 3º, é proibida a apreciação equitativa, salvo nas hipóteses expressamente previstas no § 8º deste artigo.
+
+**§ 7º** Não serão devidos honorários no cumprimento de sentença contra a Fazenda Pública que enseje expedição de precatório, desde que não tenha sido impugnada.
+
+**§ 8º** Nas causas em que for inestimável ou irrisório o proveito econômico ou, ainda, quando o valor da causa for muito baixo, o juiz fixará o valor dos honorários por apreciação equitativa, observando o disposto nos incisos do § 2º.
+
+**§ 8º-A** Na hipótese do § 8º deste artigo, para fins de fixação equitativa de honorários sucumbenciais, o juiz deverá observar os valores recomendados pelo Conselho Seccional da Ordem dos Advogados do Brasil a título de honorários advocatícios ou o limite mínimo de 10% (dez por cento) estabelecido no § 2º deste artigo, aplicando-se o que for maior.
+
+**§ 9º** Na ação de indenização por ato ilícito contra pessoa, o percentual de honorários incidirá sobre a soma das prestações vencidas acrescida de 12 (doze) prestações vincendas.
+
+**§ 10º** Nos casos de perda do objeto, os honorários serão devidos por quem deu causa ao processo.
+
+**§ 11º** O tribunal, ao julgar recurso, majorará os honorários fixados anteriormente levando em conta o trabalho adicional realizado em grau recursal, observando, conforme o caso, o disposto nos §§ 2º a 6º, sendo vedado ao tribunal, no cômputo geral da fixação de honorários devidos ao advogado do vencedor, ultrapassar os respectivos limites estabelecidos nos §§ 2º e 3º para a fase de conhecimento.
+
+**§ 12º** Os honorários referidos no § 11 são cumuláveis com multas e outras sanções processuais, inclusive as previstas no art. 77.
+
+**§ 13º** As verbas de sucumbência arbitradas em embargos à execução rejeitados ou julgados improcedentes e em fase de cumprimento de sentença serão acrescidas no valor do débito principal, para todos os efeitos legais.
+
+**§ 14º** Os honorários constituem direito do advogado e têm natureza alimentar, com os mesmos privilégios dos créditos oriundos da legislação do trabalho, sendo vedada a compensação em caso de sucumbência parcial.
+
+**§ 15º** O advogado pode requerer que o pagamento dos honorários que lhe caibam seja efetuado em favor da sociedade de advogados que integra na qualidade de sócio, aplicando-se à hipótese o disposto no § 14.
+
+**§ 16º** Quando os honorários forem fixados em quantia certa, os juros moratórios incidirão a partir da data do trânsito em julgado da decisão.
+
+**§ 17º** Os honorários serão devidos quando o advogado atuar em causa própria.
+
+**§ 18º** Caso a decisão transitada em julgado seja omissa quanto ao direito aos honorários ou ao seu valor, é cabível ação autônoma para sua definição e cobrança.
+
+**§ 19º** Os advogados públicos perceberão honorários de sucumbência, nos termos da lei.
+
+**§ 20º** O disposto nos §§ 2º, 3º, 4º, 5º, 6º, 6º-A, 8º, 8º-A, 9º e 10 deste artigo aplica-se aos honorários fixados por arbitramento judicial.
+
+**Art. 86.** Se cada litigante for, em parte, vencedor e vencido, serão proporcionalmente distribuídas entre eles as despesas.
+
+**Parágrafo único.** Se um litigante sucumbir em parte mínima do pedido, o outro responderá, por inteiro, pelas despesas e pelos honorários.
+
+**Art. 87.** Concorrendo diversos autores ou diversos réus, os vencidos respondem proporcionalmente pelas despesas e pelos honorários.
+
+**§ 1º** A sentença deverá distribuir entre os litisconsortes, de forma expressa, a responsabilidade proporcional pelo pagamento das verbas previstas no caput.
+
+**§ 2º** Se a distribuição de que trata o § 1º não for feita, os vencidos responderão solidariamente pelas despesas e pelos honorários.
+
+**Art. 88.** Nos procedimentos de jurisdição voluntária, as despesas serão adiantadas pelo requerente e rateadas entre os interessados.
+
+**Art. 89.** Nos juízos divisórios, não havendo litígio, os interessados pagarão as despesas proporcionalmente a seus quinhões.
+
+**Art. 90.** Proferida sentença com fundamento em desistência, em renúncia ou em reconhecimento do pedido, as despesas e os honorários serão pagos pela parte que desistiu, renunciou ou reconheceu.
+
+**§ 1º** Sendo parcial a desistência, a renúncia ou o reconhecimento, a responsabilidade pelas despesas e pelos honorários será proporcional à parcela reconhecida, à qual se renunciou ou da qual se desistiu.
+
+**§ 2º** Havendo transação e nada tendo as partes disposto quanto às despesas, estas serão divididas igualmente.
+
+**§ 3º** Se a transação ocorrer antes da sentença, as partes ficam dispensadas do pagamento das custas processuais remanescentes, se houver.
+
+**§ 4º** Se o réu reconhecer a procedência do pedido e, simultaneamente, cumprir integralmente a prestação reconhecida, os honorários serão reduzidos pela metade.
+
+**Art. 91.** As despesas dos atos processuais praticados a requerimento da Fazenda Pública, do Ministério Público ou da Defensoria Pública serão pagas ao final pelo vencido.
+
+**§ 1º** As perícias requeridas pela Fazenda Pública, pelo Ministério Público ou pela Defensoria Pública poderão ser realizadas por entidade pública ou, havendo previsão orçamentária, ter os valores adiantados por aquele que requerer a prova.
+
+**§ 2º** Não havendo previsão orçamentária no exercício financeiro para adiantamento dos honorários periciais, eles serão pagos no exercício seguinte ou ao final, pelo vencido, caso o processo se encerre antes do adiantamento a ser feito pelo ente público.
+
+**Art. 92.** Quando, a requerimento do réu, o juiz proferir sentença sem resolver o mérito, o autor não poderá propor novamente a ação sem pagar ou depositar em cartório as despesas e os honorários a que foi condenado.
+
+**Art. 93.** As despesas de atos adiados ou cuja repetição for necessária ficarão a cargo da parte, do auxiliar da justiça, do órgão do Ministério Público ou da Defensoria Pública ou do juiz que, sem justo motivo, houver dado causa ao adiamento ou à repetição.
+
+**Art. 94.** Se o assistido for vencido, o assistente será condenado ao pagamento das custas em proporção à atividade que houver exercido no processo.
+
+**Art. 95.** Cada parte adiantará a remuneração do assistente técnico que houver indicado, sendo a do perito adiantada pela parte que houver requerido a perícia ou rateada quando a perícia for determinada de ofício ou requerida por ambas as partes.
+
+**§ 1º** O juiz poderá determinar que a parte responsável pelo pagamento dos honorários do perito deposite em juízo o valor correspondente.
+
+**§ 2º** A quantia recolhida em depósito bancário à ordem do juízo será corrigida monetariamente e paga de acordo com o art. 465, § 4º.
+
+**§ 3º** Quando o pagamento da perícia for de responsabilidade de beneficiário de gratuidade da justiça, ela poderá ser:
+
+**I –** custeada com recursos alocados no orçamento do ente público e realizada por servidor do Poder Judiciário ou por órgão público conveniado;
+
+**II –** paga com recursos alocados no orçamento da União, do Estado ou do Distrito Federal, no caso de ser realizada por particular, hipótese em que o valor será fixado conforme tabela do tribunal respectivo ou, em caso de sua omissão, do Conselho Nacional de Justiça.
+
+**§ 4º** Na hipótese do § 3º, o juiz, após o trânsito em julgado da decisão final, oficiará a Fazenda Pública para que promova, contra quem tiver sido condenado ao pagamento das despesas processuais, a execução dos valores gastos com a perícia particular ou com a utilização de servidor público ou da estrutura de órgão público, observando-se, caso o responsável pelo pagamento das despesas seja beneficiário de gratuidade da justiça, o disposto no art. 98, § 2º.
+
+**§ 5º** Para fins de aplicação do § 3º, é vedada a utilização de recursos do fundo de custeio da Defensoria Pública.
+
+**Art. 96.** O valor das sanções impostas ao litigante de má-fé reverterá em benefício da parte contrária, e o valor das sanções impostas aos serventuários pertencerá ao Estado ou à União.
+
+**Art. 97.** A União e os Estados podem criar fundos de modernização do Poder Judiciário, aos quais serão revertidos os valores das sanções pecuniárias processuais destinadas à União e aos Estados, e outras verbas previstas em lei.
+
 ## Gratuidade da justiça — arts. 98–102 do CPC
 
 **Art. 98.** A pessoa natural ou jurídica, brasileira ou estrangeira, com insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios tem direito à gratuidade da justiça, na forma da lei.
@@ -732,13 +882,13 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 ---
 
-## Lacunas e condições para integração
+## Portas de integração e efeitos em aberto
 
-- **Não há aqui o CPC completo nem capítulo definitivo do CLF.** Os artigos ausentes não foram substituídos, revogados, incorporados por inferência ou deixados sem destino definitivo.
-- **C0-T juridicamente certificado: não declarado. C0-J: 0. C1/M aprovados: 0. Todos os 106 destinos: Q.** A semelhança textual entre duas apresentações de fonte não comprova equivalência jurídica em novo lugar.
-- Conferir fac-símiles DOU, alterações e decisões constitucionais/jurisprudenciais, notadamente art. 75, III/§5º, art. 77, VI/VII e arts. 98–102; proteger curatela, capacidade, defesa, sanções e gratuidade.
-- Em caso de recepção do conteúdo, preservar art. 99 §§2º–3º (dever de motivação do indeferimento e presunção relativa de pessoa natural), o regime de suspensão da exigibilidade do art. 98 §3º e as particularidades de pessoas com deficiência. Não duplicar com T13, T06 e T32.
-- Código unificado (`DEC-001`) segue objetivo; espécie, iniciativa, sanção/veto, transição e revogações (`DEC-016`) seguem pendentes.
+- O recorte **CPC 70–102**, embora contínuo, é apenas um segmento do CPC. **CPC 1–69 e 103 em diante continuam fora desta prévia**, não revogados, não codificados por inferência.
+- Preservar direitos das pessoas com deficiência, representação e saneamento (70–76), responsabilidade e sanções (77–81), caução, honorários, custos, perícia e fundos (82–97) e todos os requisitos de gratuidade, exigibilidade e contraditório (98–102).
+- Remissões a `deste Código`, `art. 77`, `art. 85`, `art. 95`, `art. 98`, `art. 465, § 4º` **continuam referidas ao CPC de origem**. O futuro identificador CLF exige vínculo jurídico por efeito, não substituição textual acrítica.
+- O art. 82 §3º foi incluído pela Lei 15.109/2025; os art. 85 §§6º-A, 8º-A e 20 foram incluídos pela Lei 14.365/2022. Os respectivos efeitos intertemporais e precedentes vinculantes requerem pesquisa específica, preservando hipóteses excepcionais de equidade, gratuidade, Fazenda Pública e recursos da Defensoria.
+- **Estado jurídico:** 181 destinos Q; zero C0-J, zero reformas M aprovadas; [DEC-001] objetivo de Código único, [DEC-016] ainda pendente; as fontes oficiais e o texto final devem ser cotejados independentemente antes de qualquer ato material.
 
 ## T25 — T25.M01 [CLF-LIV-T25-M01-CP1-12-v1; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

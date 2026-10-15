@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T03-R12",
+  "source_path": "modulos/T03/M01_ESPELHO_LC140_ART1_3_10_Q.csv",
+  "source_blob_sha": "e334a875316cac76355793859c281933b96c3131",
+  "view_path": "produto/vistas/T03_LC140_ART1_3_PREVIA_Q.md",
+  "count_expected": 10,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/leicom/2011/leicomplementar-140-8-dezembro-2011-611919-publicacaooriginal-134506-pl.html",
+  "source_control": "https://legis.senado.leg.br/norma/572895",
+  "source_commit": "0e92e565ebfe62f1f1525676448115c32b550a09",
+  "setorial_commit": "0e92e565ebfe62f1f1525676448115c32b550a09",
+  "source_kind": "CAMARA_PUBLICACAO_ORIGINAL_2011",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "Lei **complementar** que regulamenta art. 23, parágrafo único, da Constituição, e não lei ordinária; preservar hierarquia de reserva e cláusula de veículo na decisão DEC-016.",
+    "Art. 2º, II: atuação **supletiva** significa substituição do ente originalmente competente somente nas hipóteses legais; art. 2º, III: atuação **subsidiária** significa auxílio **quando solicitado**, não avocação tácita.",
+    "A PNMA Lei 6.938/1981 e LC 140/2011 têm funções distintas: sistema administrativo comum e organização de órgãos; remissões 1:N controladas, sem absorver autonomia estadual ou municipal.",
+    "Fonte original Câmara e Senado; a retificação do DOU de 12/12/2011 indicada na Câmara refere assinaturas do ministro, sem prova de alteração do texto dos artigos 1º–3º; conferir original e retificação em imagem antes de C0-J.",
+    "ADI 4.757/2012 referida no cadastro da Câmara exige controle de efeitos interpretativos da LC 140 e das normas supervenientes de licenciamento (Lei 15.190/2025 e Lei 15.228/2025)."
+  ]
+}

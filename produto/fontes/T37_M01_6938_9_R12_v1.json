@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T37-R12",
+  "source_path": "modulos/T37/M01_ESPELHO_PNMA_ART5_6_9_Q.csv",
+  "source_blob_sha": "e38a08c629bc2e3e46392cb530e93a63aac12470",
+  "view_path": "produto/vistas/T37_PNMA_ART5_6_PREVIA_Q.md",
+  "count_expected": 9,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-6938-31-agosto-1981-366135-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l6938compilada.htm",
+  "source_commit": "2445918d8da9c0af1344527092a7884841140446",
+  "setorial_commit": "2445918d8da9c0af1344527092a7884841140446",
+  "source_kind": "CAMARA_VERSAO_ATUALIZADA_2026",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "**Lei 15.190/2025, art. 63:** modificou a redação do art. 6º, I, da PNMA, acrescentando referência à proposição de empreendimentos estratégicos para licenciamento ambiental; publicação original em 08/08/2025 com retificação no DOU da mesma data, vigência após **180 dias**. O texto aqui representa a versão consolidada aplicável no corte 15/10/2026, não a versão de 1981.",
+    "O inciso III conserva referência histórica à 'Secretaria do Meio Ambiente da Presidência da República'; organização administrativa atual demanda mapeamento de sucessão de órgãos, não troca silenciosa de nome no texto de origem.",
+    "SISNAMA diferencia Conselho de Governo, CONAMA, órgão central, IBAMA/ICMBio, órgãos estaduais seccionais e locais municipais. A LC 140/2011 disciplina coordenação da competência comum; não conferir exclusividade automática a qualquer ente.",
+    "Não confundir competência administrativa em licenciamento com responsabilidade civil ambiental, padrões nacionais ou competência legislativa. Análise dos arts. 6º/8º PNMA sob CF 23/24/225 e LC 140 exige remissões de especialidade.",
+    "Fac-símile do DOU original PNMA, versões de 1989/1990/2013 e alteradora/retificação 2025 pendentes; verificação institucional Câmara/Planalto não é autenticação literal DOU."
+  ]
+}

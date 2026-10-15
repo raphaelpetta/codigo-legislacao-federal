@@ -1,7 +1,7 @@
 id_titulo,artigos_na_vista,unidades_positivas_na_vista,estagio_texto,proxima_acao,ressalva
 "T01","0","0","AUSENTE_DA_VISTA","Metodologia de codificacao e DEC-016 em pesquisa","0 na vista nao significa ausencia de pesquisa"
 "T02","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
-"T03","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
+"T03","3","10","PREVIA_LC140_ART1_3_Q","Cotejar DOU2011 original e retificacao, CF23, ADI4757 e LC140 arts4-17","Lei complementar, 3 artigos/10 unidades Q, supletiva versus subsidiaria; C0-J zero"
 "T04","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
 "T05","15","30","PREVIA_T05_M06_9709_1_15_Q_DUAS_FONTES","Cotejar DOU 19/11/1998, variantes arts2/3/8 IV, CE2026 e jurisprudencia","Lei9709 15 artigos/30 unidades documentais Q; art15 historico temporal; C0-J=0"
 "T06","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
@@ -35,7 +35,7 @@ id_titulo,artigos_na_vista,unidades_positivas_na_vista,estagio_texto,proxima_aca
 "T34","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
 "T35","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
 "T36","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
-"T37","4","32","PREVIA_PNMA_ART1_4_Q","Cotejar DOU 1981/1989/2026; poluidor direto/indireto, LC140, responsabilidade e competências ambientais","4 artigos/32 unidades Q incluindo art2 XI da Lei15512/2026; art3 tem cinco alíneas da definição de poluição"
+"T37","6","41","PREVIA_PNMA_ART1_6_Q","Cotejar SISNAMA art6 I alterado Lei15190/2025, retificacao e vigencia 180 dias, LC140","6 artigos/41 unidades Q; estados/municipios preservados; art2 XI Lei15512/2026"
 "T38","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
 "T39","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
 "T40","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
@@ -46,4 +46,4 @@ id_titulo,artigos_na_vista,unidades_positivas_na_vista,estagio_texto,proxima_aca
 "T45","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
 "T46","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
 "T47","0","0","AUSENTE_DA_VISTA","Inventariar fontes e selecionar primeiro recorte","0 na vista nao significa ausencia de pesquisa"
-"T48","15","29","PREVIA_REFUGIO_ART1_10_E_17_21_Q","Cotejar DOU1997, art7 §2, LC, Lei13445/2017, procedimentos arts11-16/22-49","15 artigos/29 unidades Q descontínuos, lacuna 11–16; protocolo, intérprete, sigilo e ACNUR preservados"
+"T48","21","52","PREVIA_REFUGIO_CONTINUA_ART1_21_Q","DOU1997 e atos Conare atuais; art7 §2, arts22-49, Lei13445 e tratados","21 artigos/52 unidades Q, lacuna arts11-16 fechada sem homologacao C0-J"

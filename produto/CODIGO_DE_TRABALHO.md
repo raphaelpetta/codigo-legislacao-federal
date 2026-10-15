@@ -752,7 +752,7 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 **Fonte institucional de confronto:** [Código Penal atualizado, Câmara](https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html) e [Lei 7.209/1984, Câmara](https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-7209-11-julho-1984-356852-publicacaooriginal-1-pl.html).
 
-## Disposições gerais penais (CPC não integrado aqui)
+## Disposições gerais penais — recorte CP arts. 1º–12
 
 **Art. CP-001.** Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal.
 

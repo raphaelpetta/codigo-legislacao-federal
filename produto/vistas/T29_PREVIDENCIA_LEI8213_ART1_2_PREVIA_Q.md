@@ -1,8 +1,8 @@
 # T29 — Previdência Social — Lei 8.213/1991, arts. 1º–2º
 
-> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 2 artigos e 11 unidades positivas, origem↔destino em correspondência 1:1. Sem renumeração definitiva. **C0-J=0; M=0; DEC-016 pendente.** Fontes institucionais: [texto primário](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15108-13-marco-2025-797167-normaatualizada-pl.html) e [cotejo](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm). O fac-símile DOU e a cadeia de alterações não foram certificados; este texto não promulga o CLF.
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 2 artigos e 11 unidades positivas, origem↔destino em correspondência 1:1. Sem renumeração definitiva. **C0-J=0; M=0; DEC-016 pendente.** Fontes institucionais: [texto primário](https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html) e [cotejo](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm). O fac-símile DOU e a cadeia de alterações não foram certificados; este texto não promulga o CLF.
 
-**Fonte versionada:** `modulos/T29/M01_ESPELHO_LEI8213_ART1_2_11_Q.csv`, Git blob SHA `600524864bc83a50f6c57f80b17bf9905eaf55f5`.
+**Fonte versionada:** `modulos/T29/M01_ESPELHO_LEI8213_ART1_2_11_Q.csv`, Git blob SHA `c2744c9ec1e4d47b8930dac464b00d0b262dbcf9`.
 
 ## Legislação de origem, sem efeitos normativos novos
 
@@ -39,3 +39,5 @@
 - Não equiparar rol de finalidades de 1991 à concessão administrativa presente nem à disciplina intertemporal da EC 103/2019; todo benefício depende de requisitos e cálculo específicos.
 
 - Fonte institucional HTML atualizada, Lei 8.213/1991, sem cotejo integral com DOU/vetos/retificações e atos previdenciários posteriores; Q sem C0-J.
+
+**Correção documental R18:** a referência anterior à Lei 15.108/2025 no campo da fonte primária era incorreta; a fonte pertinente é a Lei 8.213/1991 da Câmara, URL verificada. Os 11 textos e 2 artigos não foram alterados; blob anterior `600524864bc83a50f6c57f80b17bf9905eaf55f5`, blob corrigido `c2744c9ec1e4d47b8930dac464b00d0b262dbcf9`. A homologação C0-J permanece pendente.

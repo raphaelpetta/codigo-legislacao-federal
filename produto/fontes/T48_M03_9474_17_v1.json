@@ -1,0 +1,23 @@
+{
+  "id": "CLF-PROD-T48-M03-9474-ART1-8-17-v1",
+  "source_type": "TRANSCRICAO_EDITORIAL_CAMARA_ORIGINAL_HTML_COM_COTEJO_PLANALTO",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "source_path": "modulos/T48/M03_ESPelho_LEI9474_ART1_8_17_Q.csv",
+  "source_blob_sha": "4bb8fed4d15490c259a6a455388e5a2fc42c4470",
+  "view_path": "produto/vistas/T48_REFUGIO_LEI9474_ART1_8_PREVIA_Q.md",
+  "concordance_path": "modulos/T48/M03_ESPelho_LEI9474_ART1_8_17_Q.csv",
+  "articles_expected": 8,
+  "count_expected": 17,
+  "source_institutional": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9474-22-julho-1997-365390-publicacaooriginal-1-pl.html",
+  "source_crosscheck": "https://www.planalto.gov.br/ccivil_03/leis/l9474.htm",
+  "dou_reference": "DOU 23/07/1997 secao 1 p15822",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status_juridico": "Q_SEM_C0_J",
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "setorial_commit": "762cd9ee3fa725e4a38ee67f5c88bdbd14cab24d",
+  "source_commit": "762cd9ee3fa725e4a38ee67f5c88bdbd14cab24d",
+  "source_commit_type": "PR_R09_ORIGEM_EDITORIAL_IMUTAVEL",
+  "limitation": "Lei9474 arts1-8 apenas; art7 §2 não autoriza retorno para risco por inferência; cláusulas de tratados e lei migratória posterior pendentes; DOU não homologado."
+}

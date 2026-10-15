@@ -8,6 +8,7 @@ python3 -m unittest discover -s tests -p 'test_controle_operacional.py' -v
 python3 scripts/gerar_t24_cpc_181.py --check
 python3 scripts/gerar_previa_t05.py --check
 python3 scripts/gerar_previa_t05_23.py
+python3 scripts/gerar_previa_t48.py
 python3 scripts/gerar_codigo_integrado.py --check
 if [[ $# -lt 1 ]]; then
   echo "PARCIAL: T07 NAO CONFERIDO. Informe caminho do checkout setorial no SHA do manifesto:" >&2

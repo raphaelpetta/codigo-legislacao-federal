@@ -10,7 +10,7 @@ Fontes cotejadas: [TSE](https://www.tse.jus.br/legislacao/codigo-eleitoral/leis-
 |---|---|---|---|
 | Art. 2º, caput | Grafia **formulares** | Grafia **formuladas** | Diferença lexical potencial; vista T05 usa TSE/Planalto como reprodução editorial. Verificar DOU/errata e não declarar oficial uma retificação inexistente |
 | Art. 3º | Câmara usa **compõem** no referente às Casas | TSE acessível apresenta **compõe**; Planalto usa **compõem** | Divergência gramatical no elemento que identifica legitimados à convocação; não alterar fração de 1/3 nem competência do Congresso |
-| Art. 8º, IV | Câmara HTML apresenta **nos meio** e também construção **partidos políticos a às frentes** | TSE e Planalto apresentam construção plural e conjunção regular | Falhas de reprodução HTML, sem pressupor qual foi a impressão originária no DOU; preservar direito de publicidade da consulta para partidos e frentes |
+| Art. 8º, IV | Câmara HTML apresenta **nos meios** e a sequência **partidos políticos a às frentes**; Planalto apresenta **nos meio** e conjunção regular; TSE apresenta **nos meios** e conjunção regular | A grafia varia por portal, mesmo entre Planalto e TSE | Falhas de reprodução HTML, sem pressupor qual foi a impressão originária no DOU; preservar direito de publicidade da consulta para partidos e frentes |
 | Arts. 4º/5º, ortografia | Câmara usa **Assembléias** | Variações de acento nos sistemas | Modernização ortográfica não comprova igualdade de efeitos federativos; decisão textual posterior deve discriminar reedição de reprodução |
 | Art. 15 | Cláusula de vigência original | Equivalente material | Ao integrar CLF, a cláusula de vigência da **lei de 1998** é fonte histórica, não ordem nova de vigência do futuro Código |
 

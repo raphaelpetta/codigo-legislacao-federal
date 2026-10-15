@@ -2,6 +2,48 @@
 
 > Compilação **experimental** derivada de produto/fontes/indice_livros.json e das vistas versionadas. Não editar este arquivo; regenerar a partir das fontes. O texto não é lei vigente, não homologa C0-J, não produz revogação nem resolve a DEC-016. Livros ainda não integrados são lacunas no quadro de cobertura, não disposições fictícias.
 
+## T03 — T03.M01 [CLF-LIV-T03-LC140-ART1-3-10-R12; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# CLF T03 — Federação e competência comum ambiental — LC 140/2011 (arts. 1º–3º)
+
+> **TEXTO DOCUMENTAL Q — NÃO RATIFICADO.** 3 artigos e 10 unidades positivas de origem, identificadas 1:1. C0-J=0, M aprovada=0, DEC-016 pendente. Reprodução do portal institucional indicado na matriz, DOU fac-símile não cotejado. Numeração e remissões são **da lei de origem**, não do futuro CLF.
+
+**Fonte imutável:** `modulos/T03/M01_ESPELHO_LC140_ART1_3_10_Q.csv`, Git blob SHA `e334a875316cac76355793859c281933b96c3131`.
+
+## Dispositivos de origem, sem renumeração definitiva
+
+**Art. 1.** Esta Lei Complementar fixa normas, nos termos dos incisos III, VI e VII do caput e do parágrafo único do art. 23 da Constituição Federal, para a cooperação entre a União, os Estados, o Distrito Federal e os Municípios nas ações administrativas decorrentes do exercício da competência comum relativas à proteção das paisagens naturais notáveis, à proteção do meio ambiente, ao combate à poluição em qualquer de suas formas e à preservação das florestas, da fauna e da flora.
+
+**Art. 2.** Para os fins desta Lei Complementar, consideram-se:
+
+**I –** licenciamento ambiental: o procedimento administrativo destinado a licenciar atividades ou empreendimentos utilizadores de recursos ambientais, efetiva ou potencialmente poluidores ou capazes, sob qualquer forma, de causar degradação ambiental;
+
+**II –** atuação supletiva: ação do ente da Federação que se substitui ao ente federativo originariamente detentor das atribuições, nas hipóteses definidas nesta Lei Complementar;
+
+**III –** atuação subsidiária: ação do ente da Federação que visa a auxiliar no desempenho das atribuições decorrentes das competências comuns, quando solicitado pelo ente federativo originariamente detentor das atribuições definidas nesta Lei Complementar.
+
+**Art. 3.** Constituem objetivos fundamentais da União, dos Estados, do Distrito Federal e dos Municípios, no exercício da competência comum a que se refere esta Lei Complementar:
+
+**I –** proteger, defender e conservar o meio ambiente ecologicamente equilibrado, promovendo gestão descentralizada, democrática e eficiente;
+
+**II –** garantir o equilíbrio do desenvolvimento socioeconômico com a proteção do meio ambiente, observando a dignidade da pessoa humana, a erradicação da pobreza e a redução das desigualdades sociais e regionais;
+
+**III –** harmonizar as políticas e ações administrativas para evitar a sobreposição de atuação entre os entes federativos, de forma a evitar conflitos de atribuições e garantir uma atuação administrativa eficiente;
+
+**IV –** garantir a uniformidade da política ambiental para todo o País, respeitadas as peculiaridades regionais e locais.
+
+## Portas de fidelidade e efeitos — nota não normativa
+
+- Lei **complementar** que regulamenta art. 23, parágrafo único, da Constituição, e não lei ordinária; preservar hierarquia de reserva e cláusula de veículo na decisão DEC-016.
+
+- Art. 2º, II: atuação **supletiva** significa substituição do ente originalmente competente somente nas hipóteses legais; art. 2º, III: atuação **subsidiária** significa auxílio **quando solicitado**, não avocação tácita.
+
+- A PNMA Lei 6.938/1981 e LC 140/2011 têm funções distintas: sistema administrativo comum e organização de órgãos; remissões 1:N controladas, sem absorver autonomia estadual ou municipal.
+
+- Fonte original Câmara e Senado; a retificação do DOU de 12/12/2011 indicada na Câmara refere assinaturas do ministro, sem prova de alteração do texto dos artigos 1º–3º; conferir original e retificação em imagem antes de C0-J.
+
+- ADI 4.757/2012 referida no cadastro da Câmara exige controle de efeitos interpretativos da LC 140 e das normas supervenientes de licenciamento (Lei 15.190/2025 e Lei 15.228/2025).
+
 ## T05 — T05.M06 [CLF-LIV-T05-M06-9709-ART1-2-7-v1; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # CLF — Livro de Participação Política e Democracia Direta (T05.M06), prévia parcial
@@ -1239,6 +1281,46 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Sem DOU fac-símile de 1981 ou da Lei 7.804/1989 nesta rodada; a vista é reprodução da versão compilada da Câmara Q.
 
+## T37 — T37.M01 [CLF-LIV-T37-PNMA-ART5-6-9-R12; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# CLF T37 — PNMA — diretrizes e SISNAMA, Lei 6.938/1981 (arts. 5º–6º)
+
+> **TEXTO DOCUMENTAL Q — NÃO RATIFICADO.** 2 artigos e 9 unidades positivas de origem, identificadas 1:1. C0-J=0, M aprovada=0, DEC-016 pendente. Reprodução do portal institucional indicado na matriz, DOU fac-símile não cotejado. Numeração e remissões são **da lei de origem**, não do futuro CLF.
+
+**Fonte imutável:** `modulos/T37/M01_ESPELHO_PNMA_ART5_6_9_Q.csv`, Git blob SHA `e38a08c629bc2e3e46392cb530e93a63aac12470`.
+
+## Dispositivos de origem, sem renumeração definitiva
+
+**Art. 5.** As diretrizes da Política Nacional do Meio Ambiente serão formuladas em normas e planos, destinados a orientar a ação dos Governos da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios no que se relaciona com a preservação da qualidade ambiental e manutenção do equilíbrio ecológico, observados os princípios estabelecidos no art. 2º desta Lei.
+
+**Parágrafo único.** As atividades empresariais públicas ou privadas serão exercidas em consonância com as diretrizes da Política Nacional do Meio Ambiente.
+
+**Art. 6.** Os órgãos e entidades da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios, bem como as fundações instituídas pelo Poder Público, responsáveis pela proteção e melhoria da qualidade ambiental, constituirão o Sistema Nacional do Meio Ambiente - SISNAMA, assim estruturado:
+
+**I –** órgão superior: o Conselho de Governo, com a função de assessorar o Presidente da República na formulação da política nacional e nas diretrizes governamentais para o meio ambiente e os recursos ambientais, inclusive de propor obras, serviços, projetos e atividades para a lista de empreendimentos estratégicos, para fins de licenciamento ambiental;
+
+**II –** órgão consultivo e deliberativo: o Conselho Nacional do Meio Ambiente - CONAMA, com a finalidade de assessorar, estudar e propor ao Conselho de Governo, diretrizes de políticas governamentais para o meio ambiente e os recursos naturais e deliberar, no âmbito de sua competência, sobre normas e padrões compatíveis com o meio ambiente ecologicamente equilibrado e essencial à sadia qualidade de vida;
+
+**III –** órgão central: a Secretaria do Meio Ambiente da Presidência da República, com a finalidade de planejar, coordenar, supervisionar e controlar, como órgão federal, a política nacional e as diretrizes governamentais fixadas para o meio ambiente;
+
+**IV –** órgãos executores: o Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - IBAMA e o Instituto Chico Mendes de Conservação da Biodiversidade - Instituto Chico Mendes, com a finalidade de executar e fazer executar a política e as diretrizes governamentais fixadas para o meio ambiente, de acordo com as respectivas competências;
+
+**V –** Órgãos Seccionais: os órgãos ou entidades estaduais responsáveis pela execução de programas, projetos e pelo controle e fiscalização de atividades capazes de provocar a degradação ambiental;
+
+**VI –** Órgãos Locais: os órgãos ou entidades municipais, responsáveis pelo controle e fiscalização dessas atividades, nas suas respectivas jurisdições;
+
+## Portas de fidelidade e efeitos — nota não normativa
+
+- **Lei 15.190/2025, art. 63:** modificou a redação do art. 6º, I, da PNMA, acrescentando referência à proposição de empreendimentos estratégicos para licenciamento ambiental; publicação original em 08/08/2025 com retificação no DOU da mesma data, vigência após **180 dias**. O texto aqui representa a versão consolidada aplicável no corte 15/10/2026, não a versão de 1981.
+
+- O inciso III conserva referência histórica à 'Secretaria do Meio Ambiente da Presidência da República'; organização administrativa atual demanda mapeamento de sucessão de órgãos, não troca silenciosa de nome no texto de origem.
+
+- SISNAMA diferencia Conselho de Governo, CONAMA, órgão central, IBAMA/ICMBio, órgãos estaduais seccionais e locais municipais. A LC 140/2011 disciplina coordenação da competência comum; não conferir exclusividade automática a qualquer ente.
+
+- Não confundir competência administrativa em licenciamento com responsabilidade civil ambiental, padrões nacionais ou competência legislativa. Análise dos arts. 6º/8º PNMA sob CF 23/24/225 e LC 140 exige remissões de especialidade.
+
+- Fac-símile do DOU original PNMA, versões de 1989/1990/2013 e alteradora/retificação 2025 pendentes; verificação institucional Câmara/Planalto não é autenticação literal DOU.
+
 ## T48 — T48.M03 [CLF-LIV-T48-M03-9474-ART1-8-17-v1; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # CLF — T48.M03: refúgio e proteção internacional (Lei 9.474/1997, arts. 1º–8º)
@@ -1365,3 +1447,73 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Art. 21 §2: referência a menores de quatorze anos é atributo original do protocolo; revisar compatibilidade com direitos da criança, documentação familiar e regras atuais.
 
 - A organização e as formas de instrução podem ter sido alteradas por atos posteriores; DOU 1997 sem autenticidade de fac-símile, e processo de refúgio ainda incompleto (arts. 22–32).
+
+## T48 — T48.M03 [CLF-LIV-T48-CONARE-ART11-16-23-R12; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# CLF T48 — CONARE — competência, estrutura e votação, Lei 9.474/1997 (arts. 11–16)
+
+> **TEXTO DOCUMENTAL Q — NÃO RATIFICADO.** 6 artigos e 23 unidades positivas de origem, identificadas 1:1. C0-J=0, M aprovada=0, DEC-016 pendente. Reprodução do portal institucional indicado na matriz, DOU fac-símile não cotejado. Numeração e remissões são **da lei de origem**, não do futuro CLF.
+
+**Fonte imutável:** `modulos/T48/M03_ESPELHO_REFUGIO_ART11_16_23_Q.csv`, Git blob SHA `8478bfb09467641e2a8355a7677491d86677acb0`.
+
+## Dispositivos de origem, sem renumeração definitiva
+
+**Art. 11.** Fica criado o Comitê Nacional para os Refugiados - CONARE, órgão de deliberação coletiva, no âmbito do Ministério da Justiça.
+
+**Art. 12.** Compete ao CONARE, em consonância com a Convenção sobre o Estatuto dos Refugiados de 1951, com o Protocolo sobre o Estatuto dos Refugiados de 1967 e com as demais fontes de direito internacional dos refugiados:
+
+**I –** analisar o pedido e declarar o reconhecimento, em primeira instância, da condição de refugiado;
+
+**II –** decidir a cessação, em primeira instância, ex officio ou mediante requerimento das autoridades competentes, da condição de refugiado;
+
+**III –** determinar a perda, em primeira instância, da condição de refugiado;
+
+**IV –** orientar e coordenar as ações necessárias à eficácia da proteção, assistência e apoio jurídico aos refugiados;
+
+**V –** aprovar instruções normativas esclarecedoras à execução desta Lei.
+
+**Art. 13.** O regimento interno do CONARE será aprovado pelo Ministro de Estado da Justiça.
+
+**Parágrafo único.** O regimento interno determinará a periodicidade das reuniões do CONARE.
+
+**Art. 14.** O CONARE será constituído por:
+
+**I –** um representante do Ministério da Justiça, que o presidirá;
+
+**II –** um representante do Ministério das Relações Exteriores;
+
+**III –** um representante do Ministério do Trabalho;
+
+**IV –** um representante do Ministério da Saúde;
+
+**V –** um representante do Ministério da Educação e do Desporto;
+
+**VI –** um representante do Departamento de Polícia Federal;
+
+**VII –** um representante de organização não-governamental, que se dedique a atividades de assistência e proteção de refugiados no País.
+
+**§ 1º** O Alto Comissariado das Nações Unidas para Refugiados - ACNUR será sempre membro convidado para as reuniões do CONARE, com direito a voz, sem voto.
+
+**§ 2º** Os membros do CONARE serão designados pelo Presidente da República, mediante indicações dos órgãos e da entidade que o compõem.
+
+**§ 3º** O CONARE terá um Coordenador-Geral, com a atribuição de preparar os processos de requerimento de refúgio e a pauta de reunião.
+
+**Art. 15.** A participação no CONARE será considerada serviço relevante e não implicará remuneração de qualquer natureza ou espécie.
+
+**Art. 16.** O CONARE reunir-se-á com quorum de quatro membros com direito a voto, deliberando por maioria simples.
+
+**Parágrafo único.** Em caso de empate, será considerado voto decisivo o do Presidente do CONARE.
+
+## Portas de fidelidade e efeitos — nota não normativa
+
+- **Lacuna documental 11–16 resolvida:** os arts. 1º–21 passam a estar representados sem saltos na ordem de origem em três vistas iniciais e na nova vista; o restante da Lei 9.474/1997 permanece fora do corpus.
+
+- Art. 12 atribui ao CONARE reconhecimento, cessação e perda **em primeira instância**; não reproduzir essa expressão omitindo recurso ao Ministro da Justiça (arts. 29–31) ainda não incorporado.
+
+- Art. 14 tem composição original com nomes ministeriais de 1997; reorganizações de ministérios posteriores não autorizam reescrita literal silenciosa. A presença da ACNUR é de **voz sem voto**; os membros com voto e quórum devem ser computados sem incluí-la.
+
+- Art. 16 fixa quórum de 4 membros com voto e desempate pela presidência. Verificar regimento interno, atos normativos de funcionamento e reforma organizacional, sem alterar direito de defesa por inferência.
+
+- Cotejar Lei 13.445/2017 e tratados sobre confidencialidade, proteção contra devolução e devido processo, particularmente tensão entre exclusões art. 3º, art. 7º §2º, art. 32 e art. 37, que ainda estão fora do núcleo.
+
+- Texto-fonte Câmara **publicação original** em HTML; DOU 23/07/1997 não autenticado em fac-símile nem retificações. C0-T permanece documental Q, C0-J zero.

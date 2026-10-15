@@ -22,3 +22,5 @@ jobs:
         run: python scripts/verificar_estrutura.py
       - name: Conferir fila cooperativa e painel de produto derivado
         run: python scripts/controle_operacional.py --check
+      - name: Testar reservas, colisao e bloqueios da fila
+        run: python3 -m unittest discover -s tests -p 'test_controle_operacional.py' -v

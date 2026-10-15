@@ -1,0 +1,24 @@
+name: Conferir CPC 70-102 (181 unidades sem C0-J)
+
+on:
+  pull_request:
+    paths:
+      - "produto/fontes/T24_CPC_70_102_181_v1.json"
+      - "produto/fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv"
+      - "produto/vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md"
+      - "produto/vistas/T24_CPC_82_97_PREVIA_75_Q.md"
+      - "produto/concordancia/T24_CPC_82_97_CONCORDANCIA_75_Q.csv"
+      - "produto/concordancia/T24_M01_106_ORIGEM_DESTINO.csv"
+      - "scripts/gerar_t24_cpc_181.py"
+      - ".github/workflows/conferir-t24-181.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout trabalho
+        uses: actions/checkout@v4
+      - name: Testar 181 posicoes e cadeia de blobs sem homologar
+        run: python3 scripts/gerar_t24_cpc_181.py --check

@@ -98,6 +98,13 @@ Perfis mínimos: especialistas jurídicos de diferentes ramos, técnica legislat
 
 **Governança:** conselho **consultivo** federado entre Legislativo, órgãos administrativos, agências, órgãos de publicação e arquivo; não atribuir competência para revogar ato alheio. Separação de funções (*quatro olhos*): curadoria documental ≠ decisão material; registrar quem propôs, aprovou, publicou e auditou cada mudança; historização e correção pública. Criar cargos/agência específica somente após comprovar necessidade, custos e competência/iniciativa, não por inércia institucional.
 
+
+### Referência adicional sobre estruturas técnicas profissionais nos EUA
+
+Os Estados Unidos mantêm no Legislativo o **Office of the Law Revision Counsel**, criado e dotado de missão legal pelos **2 U.S.C. §§ 285, 285a e 285b**, com dever de imparcialidade e função de elaborar, atualizar e propor codificação positiva do *United States Code*. Seu trabalho é funcionalmente distinto do **Office of the Federal Register**, que prepara/publica as codificações do CFR e possui disciplina própria em **44 U.S.C. §§ 1506 e 1510**. Essa separação é evidência comparativa de que **custódia profissional permanente** e autonomia de decisão normativa podem coexistir, sem unificar funções dos Poderes. No Brasil, recomenda-se avaliar primeiro **aproveitamento de estruturas já existentes, com equipes técnicas estáveis e responsabilidades formalizadas**; criação de órgão/carreira nova é hipótese dependente de iniciativa, gasto, competências e análise de duplicação administrativa.
+
+Fontes: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title2-chapter9A ; https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=&hl=false&num=0&req=%28title%3A44+section%3A1510%29 .
+
 ## 5. Sequência de implementação proporcional
 
 **Fase 0 — piloto interno CLF/CRF:** modelar dados, URNs e regras de concordância em T07 (processo administrativo) e em outra área com alto volume infralegal, com fontes oficiais, efeitos, autoridades e datas. Não atribuir força legal ao protótipo.

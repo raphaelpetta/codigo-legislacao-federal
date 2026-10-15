@@ -1,0 +1,24 @@
+name: Validar triagem T07 arts 1-47
+
+on:
+  pull_request:
+    paths:
+      - "integracao/25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.csv"
+      - "integracao/26_T07_LIVRO_COMPLETO_1_69A_F5Q_V4.md"
+      - "integracao/51_T07_GATE_TRANSVERSAL_122_ART1_47_20261015.csv"
+      - "integracao/52_T07_TESTES_TRANSVERSAIS_59_ART1_47_20261015.csv"
+      - "integracao/53_T07_PARECER_TRANSVERSAL_ART1_47_20261015.md"
+      - "integracao/54_T07_MODELOS_TRANSVERSAIS_ART1_47_20261015.md"
+      - "integracao/55_T07_CONTINUIDADE_20261015_RODADA11.md"
+      - "scripts/validar_t07_f6_transversal_122.py"
+      - ".github/workflows/validar-t07-f6-transversal-122.yml"
+  workflow_dispatch:
+
+jobs:
+  validar-triagem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validar matriz documental, nao homologar equivalencia juridica
+        run: python3 scripts/validar_t07_f6_transversal_122.py

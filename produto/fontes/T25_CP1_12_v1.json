@@ -1,0 +1,19 @@
+{
+  "id": "CLF-PROD-T25-M01-CP1-12-v1",
+  "titulo": "T25",
+  "modulo": "T25.M01",
+  "setorial_pr": 32,
+  "setorial_commit": "3f0b56273caebfdbaba87ec4e87988da9f12c6c9",
+  "source_path": "modulos/T25/CONCORDANCIA_LITERAL_ART1_12_CICLO03.csv",
+  "source_blob_sha": "40b5c03d72f975aad1339c605399f7f66ec056d0",
+  "view_path": "produto/vistas/T25_PENAL_PARTE_GERAL_CP1_12_PREVIA.md",
+  "concordance_path": "produto/concordancia/T25_CP_ART1_12_39.csv",
+  "count_expected": 39,
+  "articles_expected": 12,
+  "classe_local": "C0_T_SETORIAL_NAO_HOMOLOGADO",
+  "status_juridico": "Q_SEM_C0_J",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "header": "# Código da Legislação Federal — Livro de Direito Penal, Parte Geral (prévia parcial T25.M01)\n\n> **MINUTA DOCUMENTAL EXPERIMENTAL NÃO HOMOLOGADA.** Recorte restrito aos arts. 1º–12 do Código Penal (Decreto-Lei 2.848/1940), reproduzidos do espelho literal de pesquisa PR #32, commit `3f0b56273caebfdbaba87ec4e87988da9f12c6c9`. Não é novo tipo penal, reforma penal, revogação, Código completo, C0-J certificado ou texto promulgado. O uso provisório dos números **CP 1º–12** preserva a referência da lei de origem, sem renumeração pelo CLF.\n\n**Corte do espelho:** 14/10/2026. **Fonte setorial:** `modulos/T25/CONCORDANCIA_LITERAL_ART1_12_CICLO03.csv` (39 unidades distintas). **Concordância do produto:** `produto/concordancia/T25_CP_ART1_12_39.csv`, com 39 origens e 39 destinos simbólicos. Todas as 39 unidades são apenas **C0-T segundo cotejo setorial**, mas permanecem `Q_SEM_C0_J`. DOU autêntico de toda a cadeia de 1984, normas posteriores e efeitos intertemporais exigem conferência independente.\n\n**Controle material especial:** manter legalidade e anterioridade, retroatividade benéfica, lei penal excepcional/temporária, territorialidade/extraterritorialidade, homologação de sentença estrangeira, tratados, regime militar e outras leis penais especiais, CF/1988 vigente e a especialidade do art. 12. A expressão **\"deste Código\" no CP art. 12** refere-se historicamente ao **Código Penal**, jamais automaticamente ao Código da Legislação Federal: gate de escopo `C1_POTENCIAL_Q` para futura adaptação, sem substituir o texto abaixo.\n\n**Fonte institucional de confronto:** [Código Penal atualizado, Câmara](https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html) e [Lei 7.209/1984, Câmara](https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-7209-11-julho-1984-356852-publicacaooriginal-1-pl.html).\n\n## Disposições gerais penais (CPC não integrado aqui)\n\n",
+  "footer": "## Limites do recorte e portas obrigatórias\n\n- **Apenas CP arts. 1º–12:** a Parte Geral de imputação, culpabilidade, pena, execução, efeitos, prescrição e o Código Penal Militar não foram integrados. A minuta A2 do PR #32 contém reformas M/Q e **não** foi trazida como se fosse equivalente conservadora.\n- **Art. 12 e especialidade:** qualquer renomeação de Código Penal para CLF depende de delimitação expressa de aplicação penal, preservação das leis especiais e eventual coexistência com CPM, por veículo competente. O fragmento literal não é autorização para extensão automática.\n- **Art. 7º e tratados:** condições de extraterritorialidade, dupla tipicidade, cumprimento de pena, pedido de extradição e competências devem ser comparadas com normas internacionais e regime de migração, sem implicar revogação de tratados ou reforma constitucional.\n- **Art. 9º:** homologação de sentença estrangeira e medidas de segurança demandam cotejo com as atribuições do STJ e normas internacionais; não substituir por mecanismo administrativo geral.\n- **Nenhuma reforma material aprovada; C0-J=0; DEC-016 pendente.** Todo o texto é derivado e reconstruível do commit setorial fixado.\n"
+}

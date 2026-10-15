@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T31-R16",
+  "source_path": "modulos/T31/M01_ESPELHO_LEI8080_ART1_3_6_Q.csv",
+  "source_blob_sha": "56cc0263db23dc3214ab95e33a30f673bf110bf2",
+  "view_path": "produto/vistas/T31_SAUDE_LEI8080_ART1_3_PREVIA_Q.md",
+  "count_expected": 6,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8080-19-setembro-1990-365093-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8080.htm",
+  "source_commit": "74cfca96ed2cbf82944e37ded57b982c2983b3f1",
+  "setorial_commit": "74cfca96ed2cbf82944e37ded57b982c2983b3f1",
+  "source_kind": "CAMARA_ATUALIZADA_E_COTEJO_HTML_SEM_DOU",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "**Art. 1º:** regras de alcance nacional para serviços públicos e privados de saúde, sem confundir competência federal de normas gerais com gestão exclusiva pela União; CF 196–200 e Lei 8.142/1990 interagem com o SUS.",
+    "**Art. 2º:** saúde como direito fundamental e dever do Estado, complementado pelo dever das pessoas, famílias, empresas e sociedade; o § 2º não afasta obrigação estatal nem cria restrição autônoma ao acesso universal.",
+    "**Art. 3º:** caput com redação **Lei 12.864/2013**, incluindo atividade física na lista de determinantes. A fonte de 1990 é diferente; manter cadeia de alteração e evitar duplicar redações antigas na vista.",
+    "**Parágrafo único art. 3º:** bem-estar físico, mental e social, não reduzido ao atendimento assistencial. Interfaces T37 ambiente, T28 trabalho, T32 saúde infantil, T39 saneamento, T31 assistência/planos privados preservadas sem transcrição dupla.",
+    "O SUS como organização está no art. 4º e seguintes, **ainda fora do recorte**; não afirmar cobertura completa da LOS. Há vetos de 1990 em outros artigos e controle de competência; DOU 20/09/1990 e DOU Lei 12.864/2013 sem cotejo por fac-símile."
+  ]
+}

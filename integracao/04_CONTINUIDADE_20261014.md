@@ -28,3 +28,22 @@
 ## Controle e interfaces
 
 O teste desta rodada é **revisão documental manual**, não execução de suíte de regressão jurídica. A CI eventual do PR verifica integridade estrutural, não autenticidade nem legalidade material. Constituição vigente = parâmetro jurídico A; modernização constitucional = hipótese B separada. O objetivo de um Código único é DEC-001; DEC-016, escolhas de implementação e aprovações C0-J/C1/M seguem abertas.
+
+
+## ADENDO — rodada 02, 14/10/2026 (mesmo PR #45)
+
+### FEITO
+- `05_CONCORDANCIA_T07_22_UNIDADES_20261014.csv`: **22/22** origens com textos e destinos individuais. 15 sem delta local, três mudanças de referente em art. 1º, três ajustes de pontuação nas definições e uma mudança de posição/referente do art. 69. **Nenhuma com C0-J homologado.**
+- `06_TESTES_ADVERSARIAIS_EXECUTADOS_T07_12.csv`: **12 hipóteses examinadas documentalmente** e classificadas, das quais 4 passam apenas no recorte (incluindo uma ressalva), 2 condicionais e 6 bloqueadas por regras ausentes do fragmento. Ver `07_RELATORIO_T07_AUDITORIA_22_E_12_TESTES.md` para limites e fontes.
+- `08_CONCORDANCIA_T07_SEGUNDO_NUCLEO_16_UNIDADES.csv` e `09_T07_DIREITOS_INTERESSADOS_COMPETENCIA_F5Q.md`: **16 unidades de artigos 3º, 4º, 9º e 11** em quatro artigos experimentais, a partir das 40 unidades existentes na main para arts.3º–17. Nenhuma reforma material ratificada.
+- `scripts/validar_integracao_t07_nucleo.py` e workflow de CI específico criados; controle estrutural de ids, origens, destinos, comparações e ausência de homologação. **Consultar execução HEAD da CI antes de afirmar aprovação.**
+- Fontes oficiais reconsultadas nesta rodada: Lei 9.784 edição atualizada e publicação original Câmara, Lei 14.129 atualizada Câmara, Súmula 633/STJ e SV 5/STF. A validação automatizada lê o espelho arquivado do GitHub; **não** valida hash de bytes DOU, nem equivalência C0-J.
+
+### PENDENTE
+- Reconstruir juridicamente **24/40** unidades remanescentes dos arts.3º–17 e 193 registros fora das 22 unidades do primeiro núcleo, sem tratar os universos como aditivos independentes: os 24 já estão contidos no universo de 193.
+- A transposição de 'esta/desta Lei' para 'este/deste Livro' permanece Q; sem Livro integral e direito externo não há prova de mesmo alcance.
+- T07 titular e T43/T01 precisam rever processo eletrônico, opção, ciência, prazo, leis especiais e DEC-016. A ausência de advogado em PAD segundo SV5 não extingue direito de assistência, lei especial ou devido processo. A Súmula 633 não torna o CLF nacionalmente cogente.
+- Confirmar CI no HEAD. Nenhuma revogação, aprovação jurídica C0-J, C1, M ou fusão/merge de módulos.
+
+### PRÓXIMO
+**T07.M03/issue #35:** completar e auditar **os 24 dispositivos restantes dos arts. 3º–17** (5–8, 10, 12–17) com os mesmos campos de concordância, seguidos de testes de devido processo, delegação/avocação e meios de manifestação. Aceite: 40/40 com destino e prova textual, relatório de direitos/competências e bloqueios reais; nenhuma norma original perdida e parecer T43/T01 das interfaces condicionantes. Depois iniciar os blocos de ciência/instrução/recurso e 215/215 sob revisão material antes de qualquer revogação.

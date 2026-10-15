@@ -90,3 +90,15 @@ Consultar o [plano de integracao PR #46/#49, T07 e T24](06_PLANO_INTEGRACAO_GOVE
 - **Portas:** DOU, cotejo independente do art85 e demais CPC82–97, contexto histórico do CP e art12, regimes especiais T07, CI do runner, DEC-016 e autorização material continuam pendentes. Nunca promover Q/C0-T em C0-J por CI ou mera concatenação.
 
 **Próxima rodada:** T24 primeiro 48/75 posições de maior risco; T25 escopo CP art12 e efeitos 1984; T07 provas de subsidiariedade/ciência, com abertura horizontal periódica. Não se presumiu decisão CF futura.
+
+## Rodada 04 — CPC 70–102 em texto contínuo (15/10/2026)
+
+[Relatório FEITO/PENDENTE/PRÓXIMO](10_RODADA04_CPC181_T25_T07_20261015.md) · [Código experimental único](../produto/CODIGO_DE_TRABALHO.md).
+
+- **Produto:** T24 passou de **17 artigos/106 unidades** para **33 artigos/181 unidades**, com [75 textos CPC82–97](../produto/fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv) e [nova prévia contínua](../produto/vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md). [Manifesto com duas origens e hashes](../produto/fontes/T24_CPC_70_102_181_v1.json) e [validador](../scripts/gerar_t24_cpc_181.py). 36 unidades art85, 4 acréscimos legislativos 2022/2025, **0 C0-J**. **A segunda revisão independente da transcrição de 75/75 permanece pendente.**
+- **Código:** T07 78/214+1 histórica, T24 33/181 e T25 12/39 = **123 artigos visíveis, 434 unidades positivas e 1 histórica**. Nenhum equivale a percentagem do direito federal ou aprovação material.
+- **T25:** [10 gates de proteção penal](08_T25_DEZ_GATES_ESPECIALIDADE_PENAL_20261015.csv), inclusive CP9 × Lei13445/2017 e CP12 sem extensão das regras penais a todo o CLF.
+- **T07:** [10 gates de especialidade e ciência digital](09_T07_DEZ_PORTAS_ESPECIALIDADE_CIENCIA_20261015.csv); Lei14129 art43 exige comprovação de emissão **e** recebimento, ainda que não de leitura.
+- **Controle operacional:** fila marca T24-001/002 em revisão Q e T24-003 com cotejo DOU/precedentes pendente. A execução de CI e a certificação C0-J **não** foram presumidas. Reserva concorrente T13 preservada; PR49 segue draft e DEC-016 pendente.
+
+**Próxima rodada:** auditar independentemente 75 transcrições e marcos 2022/2025, remissões e jurisprudência; consolidar gates CP/T07; abrir título horizontal T05 ou outro título subrepresentado por fonte oficial.

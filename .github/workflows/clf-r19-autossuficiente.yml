@@ -1,0 +1,19 @@
+name: CLF R19 - QA documental autossuficiente
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  integridade-r19:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validar 40 vistas, matriz de 48 títulos e 4 fontes novas
+        run: python3 scripts/validar_r19_horizontal_ci.py

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R16 15/10/2026: 28 componentes em 17 dos 48 títulos, 226 artigos de origem, 713 unidades textuais documentais positivas +1 histórico T07 (714 total de registros do índice). Horizontal T11 Lei4320 arts1-2 2/11 (art3 veto e DOU pendente), T22 Lei9610 arts1-4 4/5, T31 Lei8080 arts1-3 3/6 (Lei12864/2013 art3), vertical T08 Lei8112 art5 +1/10, total T08 arts1-5 5/15. 31 títulos sem texto no Codigo. C0-J0 M0 DEC016 pendente revogacoes merges zero. Texto Q, DOU original e alteradoras pendentes.",
+  "observacao": "R17 15/10/2026: 32 componentes Q em 20 títulos, 237 artigos de origem e 772 unidades textuais positivas +1 histórico T07 (soma 773). Horizontal T29 Lei8213 arts1-2 2/11, T33 LDB9394 arts1-3 3/20 com art3XV Lei15001/2024, T38 Lei9433 arts1-3 3/21 com Lei15269/2025; vertical T12 CTN6-8 3/7, total CTN1-8 8/14. 28 títulos sem texto. C0-J=0, M=0, DEC016 pendente, revogação/merge=0, DOU fac-símiles pendentes.",
   "livros": [
     {
       "titulo": "T01",
@@ -134,6 +134,18 @@
       "proveniencia_adicional": "CTN Lei5172/1966 arts1-5; CF1965 referencias históricas, recepção com força de LC para normas gerais, reformas EC132/2023 LC214/2025 LC227/2026 exigem gates."
     },
     {
+      "titulo": "T12",
+      "modulo": "T12.M01",
+      "id": "CLF-LIV-T12-CTN-ART6_8-R17",
+      "vista": "produto/vistas/T12_CTN_ART6_8_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T12_M01_CTN_7_R17_v1.json",
+      "artigos": 3,
+      "registros_documentais": 7,
+      "origem_commit": "601bf2f2a70f76617226564b722c31ec9b5241c1",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "CTN arts6-8 competência tributária indelegável e arrecadação delegável; remissão Constituição pré1988 art18§3 histórica; reserva LC e EC132 pendentes."
+    },
+    {
       "titulo": "T20",
       "modulo": "T20.M01",
       "id": "CLF-LIV-T20-CDC-8078-ART1-3-6-R14",
@@ -217,6 +229,18 @@
       "proveniencia_adicional": "CLT art4 §2 oito incisos de atividades pessoais, art5 igualdade salarial e art6 subordinação telematica, versões Leis 13467/2017 e12551/2011, Q."
     },
     {
+      "titulo": "T29",
+      "modulo": "T29.M01",
+      "id": "CLF-LIV-T29-LEI8213-ART1_2-R17",
+      "vista": "produto/vistas/T29_PREVIDENCIA_LEI8213_ART1_2_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T29_M01_8213_11_R17_v1.json",
+      "artigos": 2,
+      "registros_documentais": 11,
+      "origem_commit": "4ae18653ba3c3f8690130304f5fb39f42b472269",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Previdencia contributiva Lei8213 arts1-2 (11 Q); art9 delimitação RGPS, CNPS arts3+ omitidos, EC103/2019 e DOU1991 sem ratificação."
+    },
+    {
       "titulo": "T31",
       "modulo": "T31.M01",
       "id": "CLF-LIV-T31-LEI8080-ART1_3-R16",
@@ -227,6 +251,18 @@
       "origem_commit": "74cfca96ed2cbf82944e37ded57b982c2983b3f1",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei8080/1990 saúde direito e determinantes art3 caput Lei12864/2013, 3 artigos/6 unidades, SUS organização art4 ainda fora, Q."
+    },
+    {
+      "titulo": "T33",
+      "modulo": "T33.M01",
+      "id": "CLF-LIV-T33-LDB-ART1_3-R17",
+      "vista": "produto/vistas/T33_EDUCACAO_LDB_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T33_M01_LDB_20_R17_v1.json",
+      "artigos": 3,
+      "registros_documentais": 20,
+      "origem_commit": "33821c498c1f92047043116446dfa3940e9464d3",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "LDB Lei9394 arts1-3, art3 XV Lei15001/2024, VIII Lei14644/2023, demais acréscimos e autonomia estadual, DOU pendente."
     },
     {
       "id": "CLF-LIV-T37-M01-6938-ART1-2-13-R10",
@@ -263,6 +299,18 @@
       "origem_commit": "2445918d8da9c0af1344527092a7884841140446",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "PNMA arts5-6, art6 I redacao Lei15190/2025 com vigencia apos 180 dias, composicao Sisnama mantida, competencias LC140 nao federalizadas, Q."
+    },
+    {
+      "titulo": "T38",
+      "modulo": "T38.M01",
+      "id": "CLF-LIV-T38-LEI9433-ART1_3-R17",
+      "vista": "produto/vistas/T38_RECURSOS_HIDRICOS_9433_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T38_M01_9433_21_R17_v1.json",
+      "artigos": 3,
+      "registros_documentais": 21,
+      "origem_commit": "b96ef4727b20e7b4abc7c0320c6f5a6dad1f689a",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei9433 arts1-3, água pública usos prioritários, Lei15269/2025 art4 alterou art2 II/V e art3 III/VII; Lei13501/2017 art2IV, vetos/DOU pendentes."
     },
     {
       "titulo": "T43",

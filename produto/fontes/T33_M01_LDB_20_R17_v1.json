@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T33-R17",
+  "source_path": "modulos/T33/M01_ESPELHO_LDB_ART1_3_20_Q.csv",
+  "source_blob_sha": "678542153cac1414afc25e554103c9665dae213c",
+  "view_path": "produto/vistas/T33_EDUCACAO_LDB_ART1_3_PREVIA_Q.md",
+  "count_expected": 20,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1996/lei-9394-20-dezembro-1996-362578-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l9394.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_COM_COTEJO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "Art. 1º diferencia educação como processo social amplo e educação escolar regulada pela LDB; arts. 4º e seguintes, incluindo obrigações estatais, não estão integrados nesta vista.",
+    "Art. 3º VIII tem redação da Lei 14.644/2023, respeitando normas dos estados, municípios e DF; não federalizar gestão escolar nem reduzir autonomia federativa.",
+    "Art. 3º XV foi acrescido pela Lei 15.001/2024, relativo ao direito de acesso à informação sobre gestão educacional; os incisos XII–XIV também são acréscimos posteriores a 1996.",
+    "Pluralismo, igualdade de acesso, gestão democrática e acessibilidade exigem cotejo CF 205–214, legislação antidiscriminatória, LBI e educação especial, sem suprimir tais garantias no Código.",
+    "Autenticidade da publicação original de 1996 e alteradoras 2013/2018/2021/2023/2024 por fac-símile DOU e eficácia ainda não ratificadas; Q, C0-J zero."
+  ]
+}

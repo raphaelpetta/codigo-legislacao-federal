@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T38-R17",
+  "source_path": "modulos/T38/M01_ESPELHO_LEI9433_ART1_3_21_Q.csv",
+  "source_blob_sha": "023c98ee9d2bc8fb7c02cfbe40b631eeacdd788a",
+  "view_path": "produto/vistas/T38_RECURSOS_HIDRICOS_9433_ART1_3_PREVIA_Q.md",
+  "count_expected": 21,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9433-8-janeiro-1997-374778-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l9433.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_COM_COTEJO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "Art. 1º estabelece água como bem público, recurso limitado, uso prioritário em escassez, múltiplos usos e gestão descentralizada; não interpretar valor econômico como autorização de apropriação privada irrestrita.",
+    "Lei 15.269/2025 art. 4º modificou art. 2º II e V e art. 3º III e VII da Lei 9.433, com efeitos aplicáveis no corte de outubro de 2026 conforme art. 24 IV da alteradora.",
+    "Lei 13.501/2017 acrescentou art. 2º IV (aproveitamento de águas pluviais). A distinção entre órgãos da União, estados e comitês de bacia exige Lei 9.433 arts. 32 e seguintes e interface T03 LC 140, sem deslocar domínio dos recursos.",
+    "Art. 3º III e VII integram política hídrica e eletroenergética após Lei 15.269/2025; portarias e concessões de energia ou outorga de água não se confundem.",
+    "Lei 9.433 contém vetos em outros artigos, inclusive incisos VI/VII do art. 7º, e DOU histórico 1997; não inserir dispositivos vetados como direito positivo. DOU em fac-símile não conferido."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T12-R17",
+  "source_path": "modulos/T12/M01_ESPELHO_CTN_ART6_8_7_Q.csv",
+  "source_blob_sha": "2aab1646c0e1ff8548e6aa9545d33dfe38f16f20",
+  "view_path": "produto/vistas/T12_CTN_ART6_8_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_COM_COTEJO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "Art. 6º trata da atribuição constitucional de competência legislativa; repartição da receita não desloca a titularidade da competência tributária.",
+    "Art. 7º separa a **competência tributária indelegável** das funções de arrecadação, fiscalização e execução de atos administrativos delegáveis entre pessoas de direito público.",
+    "Art. 7º §3º define a incumbência de arrecadação a pessoa privada como não delegação da competência; distinguir execução material de poder normativo ou de lançamento/tributação fora da lei.",
+    "Art. 7º remete ao art. 18 §3º da Constituição histórica, não vigente em 2026; cotejar CF 1988, EC 132/2023 e legislação complementar nova, sem emendar silenciosamente o texto original.",
+    "Natureza material de lei complementar recepcionada para normas gerais tributárias e DEC-016 pendente. DOU original 1966 e alterações não autenticados por fac-símile."
+  ]
+}

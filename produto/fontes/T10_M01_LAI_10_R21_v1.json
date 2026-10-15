@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T10-R21",
+  "source_path": "modulos/T10/M01_ESPELHO_LAI_ART4_10_Q.csv",
+  "source_blob_sha": "47204e59ef75f24435ba1f43bbca9b49110a2248",
+  "view_path": "produto/vistas/T10_LAI_ART4_PREVIA_Q.md",
+  "count_expected": 10,
+  "articles_expected": 1,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Nove definições do art. 4º distinguem informação, documento, sigilo, dado pessoal, tratamento e qualidades técnicas (disponibilidade, autenticidade, integridade, primariedade).",
+    "**Informação pessoal** não equivale a informação automaticamente divulgável. Aplicam-se sigilos legalmente protegidos, LGPD T43 e regras de proporcionalidade da LAI, sem presumir acesso irrestrito.",
+    "Conceito de sigilo por segurança da sociedade ou do Estado não elimina hipóteses legais de proteção de dados pessoais, intimidade e segredos legalmente tutelados.",
+    "As obrigações de transparência ativa/passiva e exceções nos arts. 5º e seguintes continuam fora desta vista, assim como prazos e recursos administrativos.",
+    "Cotejo Câmara/Planalto institucional HTML, mas DOU originário 2011 e efeitos de normas posteriores não autenticados em fac-símile."
+  ]
+}

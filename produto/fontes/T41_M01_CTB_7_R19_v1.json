@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T41-R19",
+  "source_path": "modulos/T41/M01_ESPELHO_CTB_ART1_2_7_Q.csv",
+  "source_blob_sha": "735aa3938fd9a2c2cc24ab0a4e3e594902ee73b6",
+  "view_path": "produto/vistas/T41_CTB_ART1_2_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9503-23-setembro-1997-372348-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "Art. 1º §4º foi **vetado** em 1997, mantido o veto; por isso **não é unidade positiva** deste Código. Os §§1º–3º e 5º permanecem ordenados pela numeração legislativa de origem.",
+    "Art. 2º parágrafo único apresenta a redação da **Lei 13.146/2015 (LBI)**, incluindo vias e áreas de estacionamento de estabelecimentos privados de uso coletivo, não constando por inteiro da publicação original de 1997.",
+    "Responsabilidade objetiva dos órgãos no art. 1º §3º está limitada ao âmbito da competência e hipóteses descritas; não substituir jurisprudência causal ou as regras de responsabilidade civil do T16.",
+    "Competências do Sistema Nacional de Trânsito, engenharia, fiscalização e sanções estão em dispositivos posteriores. Controle federativo e autonomia de órgãos com circunscrição sobre a via não devem ser eliminados.",
+    "DOU original 24/09/1997 p.21201, veto p.21258 e retificação 25/09/1997 p.21353 documentados na ficha da Câmara, mas **não houve cotejo por imagem DOU**."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T48-R13",
+  "source_path": "modulos/T48/M03_ESPELHO_REFUGIO_ART22_37_16_Q.csv",
+  "source_blob_sha": "b29898db0e070a97adcbe60a4896b6428c0b3b5e",
+  "view_path": "produto/vistas/T48_REFUGIO_ART22_37_PREVIA_Q.md",
+  "count_expected": 16,
+  "articles_expected": 16,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9474-22-julho-1997-365390-publicacaooriginal-1-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l9474.htm",
+  "source_commit": "46877ad44609448a9b17f4cf4490ade86e23ffab",
+  "setorial_commit": "46877ad44609448a9b17f4cf4490ade86e23ffab",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "material_approved": false,
+  "dou_facsimile_checked": false,
+  "dec016": "PENDENTE",
+  "commentary": [
+    "**Arts. 22–25:** a referência histórica à legislação de estrangeiros não autoriza reintroduzir a Lei 6.815/1980 revogada pela Lei 13.445/2017; preservar as regras específicas de proteção do refugiado e o dever de sigilo, sem divulgar dados ao Estado alegadamente perseguidor.",
+    "**Arts. 26–28:** reconhecimento é ato declaratório fundamentado. Comunicações e registro perante a Polícia Federal são consequências distintas; não confundir reconhecimento, publicação, identificação e efeito territorial.",
+    "**Art. 29:** decisão negativa motivada e notificada, com recurso ao Ministro da Justiça no prazo literal de 15 dias a partir da notificação; verificar atos posteriores de rito, suspensão e prazos, antes de adotar calendário operativo.",
+    "**Art. 30:** o requerente e familiares podem permanecer no país durante análise do recurso; não autoriza remoção antecipada. Cruzar art. 21 e Lei 13.445/2017.",
+    "**Art. 31:** a expressão legal 'não será passível de recurso' trata da sequência administrativa específica, não exclui controle jurisdicional (CF art. 5º XXXV), habeas corpus ou medidas protetivas.",
+    "**Art. 32:** a exceção textual por remissão ao art. 3º, III–IV, não constitui autorização irrestrita de devolução a território onde exista tortura ou ameaça séria à integridade e à vida. Confrontar Convenção de 1951, art. 33, CAT art. 3, CADH art. 22, Lei 13.445/2017 arts. 49/55 e devido processo.",
+    "**Arts. 33–35:** obstáculo à extradição fundada nos mesmos fatos do refúgio, com suspensão quando há pedido pendente; remissão do art. 34 à 'concessão' mesmo antes da decisão é literal da fonte e exige leitura sistemática, sem emenda editorial.",
+    "**Arts. 36–37:** a segurança nacional/ordem pública é exceção legal para expulsão de refugiado registrado, porém art. 37 condiciona destino sem riscos e certeza de admissão. Não confundir expulsão, repatriação, deportação e extradição.",
+    "**Abrangência:** o texto positivo experimental T48 passará a representar artigos 1–37, mas os 38–49 permanecem fora. Referências textuais à Lei 6.815/1980, ministros de 1997 e atos CONARE atuais exigem cadeia temporal de alterações.",
+    "**Validação:** somente origem editorial Câmara HTML e Planalto, DOU 23/07/1997 p. 15822 não cotejado em imagem. Todas unidades Q, C0-J=0, nenhuma M aprovada."
+  ]
+}

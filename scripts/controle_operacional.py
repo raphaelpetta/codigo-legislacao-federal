@@ -128,10 +128,22 @@ def make_panel() -> tuple[str, set[str]]:
         meta = json.loads((ROOT / book["manifesto"]).read_text(encoding="utf-8"))
         require(meta["setorial_commit"] == book["origem_commit"],
                 "Manifesto de origem divergente: " + ident)
-        require(meta["contagens_esperadas"]["fontes"] == book["registros_documentais"],
+        # O manifesto T07 conta fonte com historico separado; T24 registra
+        # subunidades de CPC com fonte manual e todas Q. Ambos devem fixar
+        # cardinalidade sem atribuir equivalencia juridica.
+        fontes = (meta.get("contagens_esperadas") or {}).get("fontes",
+                 meta.get("count_expected"))
+        require(fontes == book["registros_documentais"],
                 "Universo documental divergente: " + ident)
-        require(meta["aprovacao_material"] == "NAO",
+        material_nao_aprovado = (
+            meta.get("aprovacao_material") == "NAO"
+            if "aprovacao_material" in meta
+            else meta.get("material_approved") is False
+        )
+        require(material_nao_aprovado,
                 "Corpus experimental nao deve homologar por operacao: " + ident)
+        require(meta.get("estado_juridico", meta.get("status_juridico")) == "Q_SEM_C0_J",
+                "Nao ha autorizacao para equivalencia juridica: " + ident)
         counts[title]["books"] += 1
         counts[title]["articles"] += book["artigos"]
         counts[title]["sources"] += book["registros_documentais"]

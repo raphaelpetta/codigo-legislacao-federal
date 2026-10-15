@@ -858,6 +858,52 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Texto da publicação original 2021 confrontado com Planalto 2026, mas **sem autenticação por imagem do DOU nem cotejo de toda cadeia de alterações**. C0-J=0; DEC-016 pendente.
 
+## T10 — T10.M01 [CLF-LIV-T10-LAI-ART1_3-R20; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T10 — Transparência e controle público — Lei 12.527/2011, arts. 1º–3º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 3 artigos de origem/12 unidades textuais positivas em correspondência 1:1. **C0-J=0, M=0, DEC-016 pendente**. Sem revogação, renumeração definitiva ou promulgação. [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Fac-símile do DOU original e alteradores não cotejado.
+
+**Arquivo de origem:** `modulos/T10/M01_ESPELHO_LAI_ART1_3_12_Q.csv`; Git blob SHA `cba21fca81f3b8e72d19e9ee973c53cf4271445f`.
+
+## Texto de origem Q
+
+**Art. 1.** Esta Lei dispõe sobre os procedimentos a serem observados pela União, Estados, Distrito Federal e Municípios, com o fim de garantir o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal.
+
+**Parágrafo único.** Subordinam-se ao regime desta Lei:
+
+**I –** os órgãos públicos integrantes da administração direta dos Poderes Executivo, Legislativo, incluindo as Cortes de Contas, e Judiciário e do Ministério Público;
+
+**II –** as autarquias, as fundações públicas, as empresas públicas, as sociedades de economia mista e demais entidades controladas direta ou indiretamente pela União, Estados, Distrito Federal e Municípios.
+
+**Art. 2.** Aplicam-se as disposições desta Lei, no que couber, às entidades privadas sem fins lucrativos que recebam, para realização de ações de interesse público, recursos públicos diretamente do orçamento ou mediante subvenções sociais, contrato de gestão, termo de parceria, convênios, acordo, ajustes ou outros instrumentos congêneres.
+
+**Parágrafo único.** A publicidade a que estão submetidas as entidades citadas no caput refere-se à parcela dos recursos públicos recebidos e à sua destinação, sem prejuízo das prestações de contas a que estejam legalmente obrigadas.
+
+**Art. 3.** Os procedimentos previstos nesta Lei destinam-se a assegurar o direito fundamental de acesso à informação e devem ser executados em conformidade com os princípios básicos da administração pública e com as seguintes diretrizes:
+
+**I –** observância da publicidade como preceito geral e do sigilo como exceção;
+
+**II –** divulgação de informações de interesse público, independentemente de solicitações;
+
+**III –** utilização de meios de comunicação viabilizados pela tecnologia da informação;
+
+**IV –** fomento ao desenvolvimento da cultura de transparência na administração pública;
+
+**V –** desenvolvimento do controle social da administração pública.
+
+## Portas jurídicas e intertemporais — notas editoriais
+
+- A LAI sujeita os entes federados e órgãos dos três Poderes, Ministério Público e entidades controladas, na extensão do art. 1º; o Código Q não substitui a autonomia administrativa nem dispensa regras de classificação sigilosa.
+
+- Art. 2º limita a publicidade de entidades privadas sem fins lucrativos que recebam recursos públicos à parcela recebida e à sua destinação, sem excluir outras prestações de contas legais.
+
+- Publicidade como regra e sigilo como exceção (art. 3º) convive com a proteção de dados pessoais na LGPD T43; acesso indiscriminado a dados íntimos não decorre da presente transcrição.
+
+- Interface T07 Lei 9.784, T09 licitações, T11 finanças e T43 LGPD são remissões documentais, não autorizações para divulgar prontuários, dados de menores ou informação protegida.
+
+- DOU de 2011 e mudanças legislativas posteriores ainda sem cotejo fac-símile; sem homologação C0-J.
+
 ## T11 — T11.M01 [CLF-LIV-T11-LEI4320-ART1_2-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T11 — Direito financeiro e lei orçamentária — Lei 4.320/1964, arts. 1º–2º
@@ -1109,6 +1155,44 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Art. 5º instrumentos públicos e art. 6º direitos básicos do consumidor continuam fora deste recorte; T20 alcança arts. 1º–4º, com interfaces jurídicas T15/T16/T21/T43.
 
 - DOU 1990, Lei 9.008/1995 e Lei 14.181/2021 ainda sem inspeção fac-símile. Não inferir que transcrição documental equivale a C0-J.
+
+## T20 — T20.M01 [CLF-LIV-T20-CDC-ART5-R20; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T20 — Defesa do consumidor — instrumentos da política, CDC art. 5º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 1 artigos de origem/8 unidades textuais positivas em correspondência 1:1. **C0-J=0, M=0, DEC-016 pendente**. Sem revogação, renumeração definitiva ou promulgação. [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm). Fac-símile do DOU original e alteradores não cotejado.
+
+**Arquivo de origem:** `modulos/T20/M01_ESPELHO_CDC_ART5_8_Q.csv`; Git blob SHA `a28bd24a188d2ac92473ad8c18e25bb6e17032cf`.
+
+## Texto de origem Q
+
+**Art. 5.** Para a execução da Política Nacional das Relações de Consumo, contará o poder público com os seguintes instrumentos, entre outros:
+
+**I –** manutenção de assistência jurídica, integral e gratuita para o consumidor carente;
+
+**II –** instituição de Promotorias de Justiça de Defesa do Consumidor, no âmbito do Ministério Público;
+
+**III –** criação de delegacias de polícia especializadas no atendimento de consumidores vítimas de infrações penais de consumo;
+
+**IV –** criação de Juizados Especiais de Pequenas Causas e Varas Especializadas para a solução de litígios de consumo;
+
+**V –** concessão de estímulos à criação e desenvolvimento das Associações de Defesa do Consumidor.
+
+**VI –** instituição de mecanismos de prevenção e tratamento extrajudicial e judicial do superendividamento e de proteção do consumidor pessoa natural;
+
+**VII –** instituição de núcleos de conciliação e mediação de conflitos oriundos de superendividamento.
+
+## Portas jurídicas e intertemporais — notas editoriais
+
+- O art. 5º lista instrumentos da política de consumo, incluindo assistência jurídica, Ministério Público, delegacias e Juizados Especiais: não cria órgãos automaticamente nem lhes altera competência processual.
+
+- Os incisos VI e VII foram acrescentados pela **Lei 14.181/2021** sobre superendividamento; têm campo e condições próprios e não transformam toda dívida em hipótese automática de repactuação.
+
+- **§§ 1º e 2º do art. 5º foram vetados na origem** e não integram as oito unidades positivas transcritas.
+
+- O art. 5º não exaure poderes locais nem substitui direitos do art. 6º ou normas sobre conciliação, processos e proteção do mínimo existencial.
+
+- DOU 1990, veto original e Lei 14.181/2021 permanecem sem cotejo fac-símile, Q e C0-J zero.
 
 ## T22 — T22.M01 [CLF-LIV-T22-LEI9610-ART1_4-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
@@ -2044,6 +2128,60 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Autenticidade da publicação original de 1996 e alteradoras 2013/2018/2021/2023/2024 por fac-símile DOU e eficácia ainda não ratificadas; Q, C0-J zero.
 
+## T35 — T35.M01 [CLF-LIV-T35-INOV-ART1-R20; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T35 — Ciência e inovação — Lei 10.973/2004, art. 1º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 1 artigos de origem/16 unidades textuais positivas em correspondência 1:1. **C0-J=0, M=0, DEC-016 pendente**. Sem revogação, renumeração definitiva ou promulgação. [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/2004/lei-10973-2-dezembro-2004-534975-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.973.htm). Fac-símile do DOU original e alteradores não cotejado.
+
+**Arquivo de origem:** `modulos/T35/M01_ESPELHO_INOVACAO_ART1_16_Q.csv`; Git blob SHA `9930e68f301a245fcc33b57895ec56622bbb6da5`.
+
+## Texto de origem Q
+
+**Art. 1.** Esta Lei estabelece medidas de incentivo à inovação e à pesquisa científica e tecnológica no ambiente produtivo, com vistas à capacitação tecnológica, ao alcance da autonomia tecnológica e ao desenvolvimento do sistema produtivo nacional e regional do País, nos termos dos arts. 23, 24, 167, 200, 213, 218, 219 e 219-A da Constituição Federal.
+
+**Parágrafo único.** As medidas às quais se refere o caput deverão observar os seguintes princípios:
+
+**I –** promoção das atividades científicas e tecnológicas como estratégicas para o desenvolvimento econômico e social;
+
+**II –** promoção e continuidade dos processos de desenvolvimento científico, tecnológico e de inovação, assegurados os recursos humanos, econômicos e financeiros para tal finalidade;
+
+**III –** redução das desigualdades regionais;
+
+**IV –** descentralização das atividades de ciência, tecnologia e inovação em cada esfera de governo, com desconcentração em cada ente federado;
+
+**V –** promoção da cooperação e interação entre os entes públicos, entre os setores público e privado e entre empresas;
+
+**VI –** estímulo à atividade de inovação nas Instituições Científica, Tecnológica e de Inovação (ICTs) e nas empresas, inclusive para a atração, a constituição e a instalação de centros de pesquisa, desenvolvimento e inovação e de parques e polos tecnológicos no País;
+
+**VII –** promoção da competitividade empresarial nos mercados nacional e internacional;
+
+**VIII –** incentivo à constituição de ambientes favoráveis à inovação e às atividades de transferência de tecnologia;
+
+**IX –** promoção e continuidade dos processos de formação e capacitação científica e tecnológica;
+
+**X –** fortalecimento das capacidades operacional, científica, tecnológica e administrativa das ICTs;
+
+**XI –** atratividade dos instrumentos de fomento e de crédito, bem como sua permanente atualização e aperfeiçoamento;
+
+**XII –** simplificação de procedimentos para gestão de projetos de ciência, tecnologia e inovação e adoção de controle por resultados em sua avaliação;
+
+**XIII –** utilização do poder de compra do Estado para fomento à inovação;
+
+**XIV –** apoio, incentivo e integração dos inventores independentes às atividades das ICTs e ao sistema produtivo.
+
+## Portas jurídicas e intertemporais — notas editoriais
+
+- Caput e parágrafo único com 14 incisos resultam da **Lei 13.243/2016**; não atribuir a redação vigente integral à publicação de 2004.
+
+- Apoio, fomento, cooperação, propriedade intelectual e poder de compra exigem leis orçamentárias, licitatórias e competências específicas. O art. 1º não autoriza, isoladamente, convênio, contratação ou cessão de tecnologia.
+
+- Art. 2º definições de ICTs, inovação, incubadoras e núcleos de inovação não foi transcrito. Preservar conceitos técnicos até cotejo da redação pós-2016, para não usar vocabulário incompleto.
+
+- Referências constitucionais arts. 218–219-A, EC 85/2015, órgãos de fomento e fiscalização de contas; interface T22 autorais, T09 compras, T08 servidores e T12 fomento.
+
+- DOU 03/12/2004, retificação 16/03/2005 e Lei 13.243/2016 pendem cotejo fac-símile e início de efeitos; C0-J=0.
+
 ## T37 — T37.M01 [CLF-LIV-T37-M01-6938-ART1-2-13-R10; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T37.M01 — Política Nacional do Meio Ambiente (Lei 6.938/1981, arts. 1º–2º)
@@ -2420,6 +2558,34 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Autoridade nacional, normas da ANPD, alterações e cronograma de vigência LGPD (inclusive sanções) não podem ser inferidos a partir dos arts. 1º–3º; autenticação DOU 2018/2019 pendente.
 
 - **Proteção:** não usar corpus experimental como base operacional para liberar dados sigilosos de solicitantes de refúgio, menores ou titulares; conferência de finalidade, necessidade e direitos permanece indispensável.
+
+## T45 — T45.M01 [CLF-LIV-T45-SUSP-ART1_3-R20; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T45 — Segurança pública — Lei 13.675/2018, arts. 1º–3º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 3 artigos de origem/3 unidades textuais positivas em correspondência 1:1. **C0-J=0, M=0, DEC-016 pendente**. Sem revogação, renumeração definitiva ou promulgação. [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13675-11-junho-2018-786843-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13675.htm). Fac-símile do DOU original e alteradores não cotejado.
+
+**Arquivo de origem:** `modulos/T45/M01_ESPELHO_SUSP_ART1_3_3_Q.csv`; Git blob SHA `fc806c7adb9aa48c9bab770fd827c1c5d25d9910`.
+
+## Texto de origem Q
+
+**Art. 1.** Esta Lei institui o Sistema Único de Segurança Pública (Susp) e cria a Política Nacional de Segurança Pública e Defesa Social (PNSPDS), com a finalidade de preservação da ordem pública e da incolumidade das pessoas e do patrimônio, por meio de atuação conjunta, coordenada, sistêmica e integrada dos órgãos de segurança pública e defesa social da União, dos Estados, do Distrito Federal e dos Municípios, em articulação com a sociedade.
+
+**Art. 2.** A segurança pública é dever do Estado e responsabilidade de todos, compreendendo a União, os Estados, o Distrito Federal e os Munícipios, no âmbito das competências e atribuições legais de cada um.
+
+**Art. 3.** Compete à União estabelecer a Política Nacional de Segurança Pública e Defesa Social (PNSPDS) e aos Estados, ao Distrito Federal e aos Municípios estabelecer suas respectivas políticas, observadas as diretrizes da política nacional, especialmente para análise e enfrentamento dos riscos à harmonia da convivência social, com destaque às situações de emergência e aos crimes interestaduais e transnacionais.
+
+## Portas jurídicas e intertemporais — notas editoriais
+
+- O Susp coordena os órgãos de segurança da União, Estados, DF e Municípios sem redistribuir automaticamente competências constitucionais do art. 144.
+
+- Art. 2º estabelece dever estatal e responsabilidade de todos; isso não autoriza atividade policial privada, poderes de investigação sem lei nem intervenções federais automáticas.
+
+- O art. 3º reserva à União a política nacional e aos demais entes suas políticas, observadas diretrizes nacionais; competências estaduais/municipais permanecem protegidas.
+
+- Art. 4º prevê princípios como uso comedido da força e outros direitos humanos, com inciso IX alterado em 2023; está **fora do recorte**, mas é gate de aplicação indispensável.
+
+- Art. 9º e seguintes definem composição operacional e incluem guardas municipais; julgados STF sobre guardas e a ADPF 995 são interfaces, sem criação de polícia ou poderes novos pelo CLF.
 
 ## T48 — T48.M03 [CLF-LIV-T48-M03-9474-ART1-8-17-v1; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

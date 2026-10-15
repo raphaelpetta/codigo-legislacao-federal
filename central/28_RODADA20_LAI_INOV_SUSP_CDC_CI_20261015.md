@@ -20,6 +20,17 @@
 - **+8 artigos, +39 unidades positivas, +3 títulos novos**. Arquivos Q não produzem ratificação jurídica, revogação ou nova espécie normativa.
 - Adicionado [verificador R20](../scripts/validar_r20_horizontal.py) e [workflow de diagnóstico de runner](../.github/workflows/clf-r20-diagnostico-runner.yml), distinguindo job mínimo `runner-smoke` sem checkout do job `corpus-r20` que roda Python sobre a branch. O objetivo é isolar falha de infraestrutura e falha de script, **não declarar aprovação antes do GitHub informar conclusões**.
 
+### Resultado efetivamente consultado do diagnóstico R20
+
+No PR #67, [workflow `CLF R20 - Diagnostico do runner e QA`, run **38799728643**](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38799728643), os dois jobs foram concluídos com **`failure`**:
+
+- `runner-smoke` (job **116645313161**): **failure**, sem checkout e sem execução de verificador do corpus;
+- `corpus-r20` (job **116645312795**): **failure**, configurado para checkout e validação documental.
+
+Para ambos, `fetch_workflow_job_steps` retornou **lista vazia** e a solicitação de logs retornou **404 BlobNotFound**. A falha do job que nem realiza checkout mostra que os scripts documentais novos **não explicam, sozinhos, todas as falhas de CI**, mas **não identifica causa** (runner, política de Actions, restrição da instalação, configurações e outros mecanismos permanecem hipóteses a apurar). Assim, o CI R20 permanece **REPROVADO/P0 BLOQUEANTE**, sem atestado de execução positiva de Python, e o projeto não está pronto para merge.
+
+**QA documental remoto distinto do CI:** leitura via conector GitHub confirmou as **44 vistas alinhadas ao Código**, 266 cabeçalhos, 4 SHA/manifestos novos, 48 linhas da matriz/29 preenchidas, 266 artigos e 895 positivas, 61 tarefas com IDs únicos e T13 preservado. Esses controles não substituem cotejo DOU nem a execução de CI.
+
 ## PENDENTE — bloqueio de CI P0 e efeito jurídico
 
 Os três workflows legados estrutura/T07/T24 e o R19 autossuficiente tiveram conclusão `failure` no PR #64; [relatório anterior](27_RODADA19_BENS_CPP_CTB_CDC_CI_20261015.md). O conector devolveu **404 BlobNotFound** ao solicitar logs de jobs, o que impediu atribuição causal. O workflow R20 com dois jobs foi criado para produzir evidência adicional, sem presumir a causa. Tarefas P0 `CLF-TRANSVERSAL-006`, `007` e `008` permanecem abertas; **não mesclar PRs com CI reprovação**.

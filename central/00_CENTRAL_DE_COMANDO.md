@@ -78,3 +78,15 @@ Os controles acima passam a ser definitivos somente após revisão e integraçã
 
 ## Integracao de governanca e do Codigo (atualizacao operacional)
 Consultar o [plano de integracao PR #46/#49, T07 e T24](06_PLANO_INTEGRACAO_GOVERNANCA_E_CORPUS.md), a [fila persistente](FILA_TRABALHO.csv), as [portas de integracao experimental](03_POLITICA_INTEGRACAO_E_CONCORRENCIA.md), o [painel calculado](PAINEL_GERADO.csv) e o [indice dos Livros](../produto/fontes/indice_livros.json). O corpus contem T07 integral **somente no recorte da Lei 9.784/1999** e T24 **parcial** (CPC 70–81/98–102), sem homologacao C0-J nem DEC-016. Os workflows devem conferir os compiladores quando mudarem. Nao confundir texto publicado em PR com norma ratificada e nao repetir trabalho setorial ja presente.
+
+## Rodada 03 — terceiro Livro Penal e controle de 75 unidades CPC (15/10/2026)
+
+[Relatório FEITO/PENDENTE/PRÓXIMO](07_RODADA03_CPC75_T07_12_T25_39.md) · [Código de Trabalho unificado](../produto/CODIGO_DE_TRABALHO.md) · [Índice canônico das vistas](../produto/fontes/indice_livros.json).
+
+- **Novo Livro na vista:** [T25 CP1–12](../produto/vistas/T25_PENAL_PARTE_GERAL_CP1_12_PREVIA.md), **12 artigos/39 unidades** a partir do PR #32 e SHA de origem fixado; [concordância](../produto/concordancia/T25_CP_ART1_12_39.csv), [manifesto](../produto/fontes/T25_CP1_12_v1.json) e gerador sob status Q, sem generalizar CP/CPM nem homologar texto M.
+- **Expansão vertical sem simular incorporação:** [75 destinos CPC 82–97](../produto/concordancia/T24_82_97_GATE_75_SEM_TEXTO.csv), dos quais **36 do art.85**, mais [parecer de garantias e precedentes](../produto/concordancia/T24_82_97_NOTA_GATE_JURIDICO_20261015.md). As **75 unidades AINDA NÃO ESTÃO EM TEXTO OU NO CORPUS**; bloquear falsa contagem.
+- **T07:** [12 hipóteses adversariais de efeitos](06_T07_DOZE_CASOS_ADVERSARIAIS_REMISSOES_E_ESPECIALIDADE.csv) para âmbito, referência, ciência digital e processo especial; todos os 11 C1 continuam Q.
+- **Estado visível do Código experimental:** **3 componentes**, **107 artigos**, **359 unidades textuais positivas, 1 histórica**, **0 C0-J**, 48 títulos arquiteturais provisórios. O quadro e painel distinguem artigos, origens e texto; a fila indica T24-002 como trabalho de transcrição pendente, não homologação.
+- **Portas:** DOU, cotejo independente do art85 e demais CPC82–97, contexto histórico do CP e art12, regimes especiais T07, CI do runner, DEC-016 e autorização material continuam pendentes. Nunca promover Q/C0-T em C0-J por CI ou mera concatenação.
+
+**Próxima rodada:** T24 primeiro 48/75 posições de maior risco; T25 escopo CP art12 e efeitos 1984; T07 provas de subsidiariedade/ciência, com abertura horizontal periódica. Não se presumiu decisão CF futura.

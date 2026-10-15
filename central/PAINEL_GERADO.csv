@@ -1,7 +1,7 @@
 id_titulo,livros_em_vista,artigos_experimentais,registros_documentais_na_fonte
 T01,0,0,0
 T02,0,0,0
-T03,1,3,10
+T03,2,6,25
 T04,0,0,0
 T05,2,15,30
 T06,0,0,0
@@ -46,4 +46,4 @@ T44,0,0,0
 T45,0,0,0
 T46,0,0,0
 T47,0,0,0
-T48,4,21,52
+T48,5,37,68

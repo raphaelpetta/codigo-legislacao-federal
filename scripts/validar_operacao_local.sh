@@ -19,4 +19,12 @@ if [[ -f produto/fontes/T24_M01_106_v1.json ]]; then
   fi
   python3 scripts/gerar_previa_t24.py --setorial-root "$2" --check
 fi
+if [[ -f produto/fontes/T25_CP1_12_v1.json ]]; then
+  if [[ $# -lt 3 ]]; then
+    echo "PARCIAL: T25 NAO CONFERIDO. Forneca tres checkouts nos SHAs dos manifestos:" >&2
+    echo "  bash scripts/validar_operacao_local.sh /checkout-PR45 /checkout-PR38 /checkout-PR32" >&2
+    exit 2
+  fi
+  python3 scripts/gerar_previa_t25.py --setorial-root "$3" --check
+fi
 echo "OK DOCUMENTAL LOCAL CLF (sem certificacao de equivalencia juridica)."

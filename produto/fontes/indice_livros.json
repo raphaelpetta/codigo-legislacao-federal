@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "Indice de Livros presentes na vista experimental, nao censo das normas vigentes nem estado de aprovacao material. Cada livro deve possuir origem setorial versionada e manifesto verificavel; fontes-ancora externas permanecem em pesquisa.",
+  "observacao": "Livro T07 integral dentro do recorte Lei 9.784 e livro T24 PARCIAL CPC 70–81/98–102; inclusão significa presença documental na vista, não cobertura exaustiva, vigência, C0-J ou aprovação de reforma material. C0-J=0, DEC-016 pendente. Normas revogadas/históricas preservadas em acervo.",
   "livros": [
     {
       "id": "CLF-LIV-T07-M03-v4",
@@ -12,6 +12,17 @@
       "registros_documentais": 215,
       "origem_commit": "2a4d1eefa864f44435aec70ed0cc55a96b718b64",
       "estado": "INTEGRADO_EXPERIMENTAL_Q"
+    },
+    {
+      "id": "CLF-LIV-T24-M01-CPC70-81-98-102-v1",
+      "titulo": "T24",
+      "modulo": "T24.M01",
+      "vista": "produto/vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md",
+      "manifesto": "produto/fontes/T24_M01_106_v1.json",
+      "artigos": 17,
+      "registros_documentais": 106,
+      "origem_commit": "3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q"
     }
   ]
 }

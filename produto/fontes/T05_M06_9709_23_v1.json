@@ -1,0 +1,21 @@
+{
+  "id": "CLF-PROD-T05-M06-9709-ART3-15-23-v1",
+  "source_type": "TRANSCRICAO_EDITORIAL_CAMARA_ORIGINAL_HTML_Q",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "source_path": "modulos/T05/M06_ESPELHO_LEI9709_ART3_15_23_Q.csv",
+  "source_blob_sha": "1923dcd2ec15f7ebccd1458c9100567b1376924c",
+  "view_path": "produto/vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART3_15_PREVIA_Q.md",
+  "concordance_path": "modulos/T05/M06_ESPELHO_LEI9709_ART3_15_23_Q.csv",
+  "articles_expected": 13,
+  "count_expected": 23,
+  "source_institutional": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9709-18-novembro-1998-352644-publicacaooriginal-1-pl.html",
+  "source_crosscheck": "https://www.planalto.gov.br/ccivil_03/leis/l9709.htm",
+  "legal_status": "Q_SEM_C0_J",
+  "status_juridico": "Q_SEM_C0_J",
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "setorial_commit": "13027681729f3cbe7f77fe5e08be521fa27bd4b2",
+  "source_commit": "13027681729f3cbe7f77fe5e08be521fa27bd4b2",
+  "source_commit_type": "HEAD_PR49_PRE_SUPLEMENTO_DRAFT",
+  "limitation": "Câmara publicação original HTML, DOU 19/11/1998 não cotejado; variantes art3/8 IV; art15 apenas vigência histórica; texto Q."
+}

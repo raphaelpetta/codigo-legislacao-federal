@@ -77,7 +77,7 @@ assert len(all_sources) - len(earlier) - len(historical) == 92
 report = (D / "53_T07_PARECER_TRANSVERSAL_ART1_47_20261015.md").read_text(encoding="utf-8")
 alternatives = (D / "54_T07_MODELOS_TRANSVERSAIS_ART1_47_20261015.md").read_text(encoding="utf-8")
 handoff = (D / "55_T07_CONTINUIDADE_20261015_RODADA11.md").read_text(encoding="utf-8")
-for expected in ("DEC-016","Lei 13.726/2018","Lei 14.129/2021","LGPD", "art. 36", "art. 42",
+for expected in ("DEC-016","Lei 13.726/2018","Lei 14.129/2021","LGPD", "Arts.36–37", "Arts.42–43",
                  "115", "122", "39", "59"):
     assert expected in report, expected
 for r in range(7):

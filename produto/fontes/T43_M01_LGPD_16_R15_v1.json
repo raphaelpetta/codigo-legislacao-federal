@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T43-R15",
+  "source_path": "modulos/T43/M01_ESPELHO_LGPD_ART1_3_16_Q.csv",
+  "source_blob_sha": "64c0be966d62f0998dd4386bc5772c2dcdb3100c",
+  "view_path": "produto/vistas/T43_LGPD_ART1_3_PREVIA_Q.md",
+  "count_expected": 16,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+  "source_commit": "e3a1622fbde68c70f801c01a6e43a538eb1a67b4",
+  "setorial_commit": "e3a1622fbde68c70f801c01a6e43a538eb1a67b4",
+  "source_kind": "FONTE_INSTITUCIONAL_COTEJO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "comments": [
+    "O art. 1º trata de dados pessoais físicos e digitais por agentes privados e públicos, com **parágrafo único incluído pela Lei 13.853/2019** estendendo normas gerais de interesse nacional a todos os entes. O Código experimental não desloca competências administrativas nem revoga leis estaduais por si.",
+    "Os sete fundamentos do art. 2º **não se confundem com bases legais de tratamento** (art. 7º) nem são autorização irrestrita para compartilhamento, publicidade ou vigilância.",
+    "Art. 3º estabelece hipóteses alternativas de aplicação territorial, de oferta/fornecimento e de coleta. O inciso II segue redação da MP 869/2018 convertida na Lei 13.853/2019; o § 2º exige interface **art. 4º IV**, fora desta vista, portanto não afirmar alcance absoluto.",
+    "Regras de tratamento de dados por poder público, segurança pública, órgãos de investigação, menores e titulares vulneráveis têm exceções e controles específicos nos arts. 4º e seguintes, pendentes. Interfaces T07, T20, T32 e T48 são remissões, nunca reprodução duplicada de fonte.",
+    "Autoridade nacional, normas da ANPD, alterações e cronograma de vigência LGPD (inclusive sanções) não podem ser inferidos a partir dos arts. 1º–3º; autenticação DOU 2018/2019 pendente.",
+    "**Proteção:** não usar corpus experimental como base operacional para liberar dados sigilosos de solicitantes de refúgio, menores ou titulares; conferência de finalidade, necessidade e direitos permanece indispensável."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T25-R15",
+  "source_path": "modulos/T25/M01_ESPELHO_CP_ART13_14_10_Q.csv",
+  "source_blob_sha": "acae33972c91509674531b3f86ac195ab5082248",
+  "view_path": "produto/vistas/T25_CP_ART13_14_PREVIA_Q.md",
+  "count_expected": 10,
+  "articles_expected": 2,
+  "source_primary": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+  "source_control": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
+  "source_commit": "c29168835602248312cdfe6671eb18f4b2b0e8f5",
+  "setorial_commit": "c29168835602248312cdfe6671eb18f4b2b0e8f5",
+  "source_kind": "FONTE_INSTITUCIONAL_COTEJO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "comments": [
+    "Código Penal Parte Geral reformada pela Lei 7.209/1984; distinguir responsabilidade penal por ação, omissão e nexo causal de regras civis/administrativas e de imputação objetiva no contexto de jurisprudência.",
+    "Art. 13 § 2º tem três alíneas ligadas às hipóteses de dever jurídico de agir; o dever de agir exige cumulativamente **dever e possibilidade de ação** e não autoriza presunção de causalidade penal.",
+    "Art. 13 § 1º distingue superveniência relativamente independente e fatos anteriores; não converter toda causalidade concorrente em exclusão automática da imputação.",
+    "Art. 14 II distingue tentativa (início de execução, não consumação por causas alheias à vontade) de atos preparatórios, desistência voluntária e arrependimento eficaz (art. 15, fora do recorte); parágrafo único aplica redução de 1 a 2/3 salvo disposição legal contrária.",
+    "Princípios da reserva legal, irretroatividade penal gravosa e especialidade permanecem inalterados, não são produto da compilação. DOU 1940 e Lei 7.209/1984 ainda sem cotejo fac-símile, C0-J=0."
+  ]
+}

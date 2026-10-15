@@ -49,11 +49,13 @@ class FilaOperacionalTest(unittest.TestCase):
 
     def active(self, number: int, **overrides: str) -> dict[str, str]:
         future = datetime.now(timezone.utc) + timedelta(hours=2)
-        return self.item(
-            number, estado="EM_EXECUCAO", responsavel="execucao-teste",
-            branch="test/escopo", base_sha="a" * 40,
-            reserva_ate=future.isoformat().replace("+00:00", "Z"), **overrides
-        )
+        fields = {
+            "estado": "EM_EXECUCAO", "responsavel": "execucao-teste",
+            "branch": "test/escopo", "base_sha": "a" * 40,
+            "reserva_ate": future.isoformat().replace("+00:00", "Z"),
+        }
+        fields.update(overrides)
+        return self.item(number, **fields)
 
     def test_fila_pronta_valida(self) -> None:
         self.save(self.item(1), self.item(2, modulo=self.other_module))

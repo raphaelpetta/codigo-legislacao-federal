@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T20-R14",
+  "source_path": "modulos/T20/M01_ESPELHO_CDC_ART1_3_6_Q.csv",
+  "source_blob_sha": "fe31eb04f129673a432310285e3256a0248bc1e9",
+  "view_path": "produto/vistas/T20_CDC_ART1_3_PREVIA_Q.md",
+  "count_expected": 6,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+  "source_commit": "91ee45d894928b9697308a05e4cf0e6ac12cb0f4",
+  "setorial_commit": "91ee45d894928b9697308a05e4cf0e6ac12cb0f4",
+  "source_kind": "CAMARA_TEXTO_ATUALIZADO_COM_COTEJO",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "comments": [
+    "**Ordem pública e interesse social:** art. 1º remete à CF art. 5º XXXII, art. 170 V e ADCT art. 48. A integração documental não cria um novo código de defesa do consumidor promulgado.",
+    "**Art. 2º:** destinatário final é conceito legal, e parágrafo único equipara coletividade indeterminável que interveio em relação de consumo; a teoria finalista ou finalismo aprofundado e hipóteses de vulnerabilidade dependem de jurisprudência específica e fatos.",
+    "**Art. 3º:** fornecedor compreende pessoas públicas/privadas e entes despersonalizados em atividades enumeradas; § 1º inclui bens materiais e imateriais, § 2º serviços financeiros/bancários/seguros remunerados e exclui relações de caráter trabalhista; observar competências de T21 e T28 e não confundir com mero vínculo civil.",
+    "**Relação com T16/T21:** responsabilidade civil, instituições financeiras e seguros têm interfaces e regras especiais; manter origem textual única no T20 e remissões 1:N, não replicar CDC noutros títulos.",
+    "**Autenticidade:** DOU suplemento de 12/09/1990, veto e retificação de 10/01/2007 pendentes de fac-símile e cotejo por evento."
+  ]
+}

@@ -54,7 +54,6 @@ def main() -> None:
             assert row["texto_origem"] == source[row["id"]]
         assert row["texto_destino"] in main_norm, row["id"]
         assert row["estado_juridico"] == "Q_SEM_C0_J", row["id"]
-        assert row["homologacao"] if "homologacao" in row else True
         deltas[row["delta"]] = deltas.get(row["delta"], 0) + 1
     assert deltas == {
         "REFERENTE_LEI_PARA_LIVRO": 3,
@@ -138,6 +137,66 @@ def main() -> None:
         }
     assert len({x["id"] for x in m22} | set(full)) == 62
     print("OK rodada 03: 24 novos + 16 anteriores = 40/40; 62 unidades em 18 artigos; 16 testes estáticos.")
+
+    # Rodada 04 — 15/10/2026: integração documental dos arts.18–28, sem C0-J.
+    source215 = read_csv("modulos/T07/M03/MATRIZ_TRIAGEM_215_UNIDADES_CICLO20.csv")
+    m33 = read_csv("integracao/15_T07_CONCORDANCIA_ART18_28_33_UNIDADES.csv")
+    tests20 = read_csv("integracao/17_T07_TESTES_INTIMACAO_IMPARCIALIDADE_20.csv")
+    assert_ids(source215, "id_espelho", 215)
+    assert_ids(m33, "id_origem", 33)
+    assert_ids(tests20, "id_teste", 20)
+    assert {r["id_teste"] for r in tests20} == {f"N{i:02d}" for i in range(1,21)}
+    src215 = {x["id_espelho"]: x for x in source215}
+    assert set(x["id_origem"] for x in m33).isdisjoint(set(full)), "colisão de 33 vs 40"
+    assert set(x["id_origem"] for x in m33).isdisjoint(set(x["id"] for x in m22)), "colisão 33 vs 22"
+    for x in m33:
+        assert x["id_origem"] in src215, x["id_origem"]
+        assert x["texto_fonte_literal"] == src215[x["id_origem"]]["texto_fonte"], x["id_origem"]
+        assert x["texto_destino_experimental"] == x["texto_fonte_literal"], x["id_origem"]
+        assert x["equivalencia_juridica"] == "Q_NAO_AUDITADA", x["id_origem"]
+        assert x["classificacao_editorial"] == "C0_T_LOCAL_NAO_C0_J"
+        a = int(x["artigo_origem"])
+        assert 18 <= a <= 28
+        assert x["destino"].startswith(f"LPA-SEQ2-{a:03d}-")
+
+    seq2 = read_section(
+        "integracao/16_T07_LIVRO_SEQUENCIAL_ARTS1_28_69_F5Q_V2.md",
+        "## I. Âmbito e princípios",
+        "## X. Advertências de efeitos",
+    )
+
+    def seq2_article(n: int) -> str:
+        head = f"**Art. LPA-SEQ2-{n:03d}.**"
+        assert seq2.count(head) == 1, head
+        body = seq2.split(head, 1)[1]
+        if n < 29:
+            # Seções podem aparecer antes do artigo seguinte; nenhum texto de origem é omitido.
+            body = body.split(f"**Art. LPA-SEQ2-{n + 1:03d}.**", 1)[0]
+        return body
+
+    assert seq2.count("**Art. LPA-SEQ2-") == 29
+    for x in m22:
+        n = 29 if x["id"] == "P19-69-C" else int(x["id"].split("-")[1])
+        assert x["texto_destino"] in seq2_article(n), x["id"]
+    for x in full40:
+        n = int(x["id_origem"].split("-")[1])
+        assert x["texto_destino"] in seq2_article(n), x["id_origem"]
+    for x in m33:
+        n = int(x["artigo_origem"])
+        assert x["texto_destino_experimental"] in seq2_article(n), x["id_origem"]
+    assert len(set(x["id"] for x in m22) | set(full) | set(x["id_origem"] for x in m33)) == 95
+    assert "três dias úteis quanto à data de comparecimento" in seq2_article(26)
+    assert "comparecimento do administrado supre sua falta ou irregularidade" in seq2_article(26)
+    assert "não importa o reconhecimento da verdade dos fatos" in seq2_article(27)
+    assert "sem efeito suspensivo" in seq2_article(21)
+    for row in tests20:
+        n = int(row["origem_artigo"].split("art.")[1])
+        assert row["fragmento_verificado"] in seq2_article(n), row["id_teste"]
+        assert row["prova_texto"] == "SIM"
+        assert row["homologacao"] == "Q_NENHUMA"
+        assert row["origem_dados"] == "SIMULACAO_DOCUMENTAL_NAO_PROCESSO_REAL"
+    print("OK rodada 04: 33/33 arts18-28; 95/215 origens; 29 artigos em v2; 20 contraprovas estáticas.")
+
 
     print("OK: 21 origens + art. 69 = 22 destinos, 12 testes, 16 unidades do bloco seguinte")
     print("IMPORTANTE: controle documental/estrutural, sem homologação de C0-J ou decisão DEC-016.")

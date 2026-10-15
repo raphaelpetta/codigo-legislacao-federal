@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R17 15/10/2026: 32 componentes Q em 20 títulos, 237 artigos de origem e 772 unidades textuais positivas +1 histórico T07 (soma 773). Horizontal T29 Lei8213 arts1-2 2/11, T33 LDB9394 arts1-3 3/20 com art3XV Lei15001/2024, T38 Lei9433 arts1-3 3/21 com Lei15269/2025; vertical T12 CTN6-8 3/7, total CTN1-8 8/14. 28 títulos sem texto. C0-J=0, M=0, DEC016 pendente, revogação/merge=0, DOU fac-símiles pendentes.",
+  "observacao": "R18 15/10/2026: 36 componentes Q em 23 títulos; 247 artigos de origem, 819 unidades textuais positivas + 1 histórico T07 = 820 registros de índice; T27 LEP1-3 3/5, T30 LOAS1-2 2/11 com incisos IV/V revogados excluídos, T42 LGT1-3 3/24, T31 SUS4-5 2/7, total T31 5/13. Correção transversal de referência primária errônea T29 Lei8213 (antes apontava Lei15108); SHA da origem e manifesto revisados sem alterar 11 unidades. 25 títulos ainda sem texto, C0-J=0, M=0, DEC016 pendente, revogação/merge zero.",
   "livros": [
     {
       "titulo": "T01",
@@ -205,6 +205,18 @@
       "proveniencia_adicional": "CP 13-14 causalidade e tentativa, alíneas subordinadas art13§2, observância legalidade e natureza penal; Lei7209/1984 DOU Q."
     },
     {
+      "titulo": "T27",
+      "modulo": "T27.M01",
+      "id": "CLF-LIV-T27-LEP-ART1_3-R18",
+      "vista": "produto/vistas/T27_LEP_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T27_M01_LEP_5_R18_v1.json",
+      "artigos": 3,
+      "registros_documentais": 5,
+      "origem_commit": "08a2c34ac3bb866e974f607130556a011bacf36f",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "LEP arts1-3 3 artigos/5 unidades Q, direitos do internado preso provisório sob garantias; sem pressupor competência eleitoral/militar irrestrita."
+    },
+    {
       "titulo": "T28",
       "modulo": "T28.M01",
       "id": "CLF-LIV-T28-CLT-R11",
@@ -241,6 +253,18 @@
       "proveniencia_adicional": "Previdencia contributiva Lei8213 arts1-2 (11 Q); art9 delimitação RGPS, CNPS arts3+ omitidos, EC103/2019 e DOU1991 sem ratificação."
     },
     {
+      "titulo": "T30",
+      "modulo": "T30.M01",
+      "id": "CLF-LIV-T30-LOAS-ART1_2-R18",
+      "vista": "produto/vistas/T30_LOAS_ART1_2_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T30_M01_LOAS_11_R18_v1.json",
+      "artigos": 2,
+      "registros_documentais": 11,
+      "origem_commit": "7b6bb4f24c7a45e7765e1fa1ae1536759314e0de",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "LOAS arts1-2 Lei12435/2011, 2 artigos/11 unidades Q, incisos IV e V revogados excluídos; BPC art20 e critérios fora."
+    },
+    {
       "titulo": "T31",
       "modulo": "T31.M01",
       "id": "CLF-LIV-T31-LEI8080-ART1_3-R16",
@@ -251,6 +275,18 @@
       "origem_commit": "74cfca96ed2cbf82944e37ded57b982c2983b3f1",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei8080/1990 saúde direito e determinantes art3 caput Lei12864/2013, 3 artigos/6 unidades, SUS organização art4 ainda fora, Q."
+    },
+    {
+      "titulo": "T31",
+      "modulo": "T31.M01",
+      "id": "CLF-LIV-T31-SUS-ART4_5-R18",
+      "vista": "produto/vistas/T31_SUS_LEI8080_ART4_5_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T31_M01_8080_7_R18_v1.json",
+      "artigos": 2,
+      "registros_documentais": 7,
+      "origem_commit": "ded0aca29c979783c35876baace147386e41ce5a",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "SUS Lei8080 arts4-5 2 artigos/7 unidades Q, iniciativa privada complementar, CF196-200, art6 pós2026 não transcrito."
     },
     {
       "titulo": "T33",
@@ -311,6 +347,18 @@
       "origem_commit": "b96ef4727b20e7b4abc7c0320c6f5a6dad1f689a",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei9433 arts1-3, água pública usos prioritários, Lei15269/2025 art4 alterou art2 II/V e art3 III/VII; Lei13501/2017 art2IV, vetos/DOU pendentes."
+    },
+    {
+      "titulo": "T42",
+      "modulo": "T42.M01",
+      "id": "CLF-LIV-T42-LGT-ART1_3-R18",
+      "vista": "produto/vistas/T42_LGT_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T42_M01_LGT_24_R18_v1.json",
+      "artigos": 3,
+      "registros_documentais": 24,
+      "origem_commit": "f473cf20caf0d0e0602eae4b0f4baa2cd589eed8",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "LGT Lei9472 arts1-3 3 artigos/24 unidades Q, art2 VII Lei14173/2021 e art3 PU Lei13673/2018, proteção dados e serviços."
     },
     {
       "titulo": "T43",

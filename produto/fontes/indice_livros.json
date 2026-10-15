@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "observacao": "R13 15/10/2026: 16 componentes experimentais Q em 8 títulos; 190 artigos de origem e 605 unidades documentais de fonte mais um registro histórico T07 (índice 606). T03 LC140 arts1-6: 6/25; T05 15/30; T07 78/214+1 histórico; T24 CPC 33/181; T25 CP 12/39; T28 CLT 3/7; T37 PNMA 6/41; T48 Lei9474 arts1-37: 37/68. Arts38-49 T48 ainda ausentes. C0-J=0, M=0, DEC-016 pendente, no merge; DOU fac-símile pendente; LC140 mantém espécie complementar e refúgio ressalva non-refoulement.",
+  "observacao": "R14 corte15/10/2026: 20 componentes Q em 11 títulos (T01,T03,T05,T07,T08,T20,T24,T25,T28,T37,T48); 204 artigos de origem, 637 unidades documentais positivas e 1 histórico T07, total índice 638. Expansão horizontal T01 LINDB 2-5 4/7, T08 RJU 1-4 4/5, T20 CDC 1-3 3/6; vertical contida T28 CLT 4-6 3/14, total CLT 1-6 6/21; todos C0-J0, M0, DEC016 pendente, DOU sem facsimile; T13 intocado.",
   "livros": [
+    {
+      "titulo": "T01",
+      "modulo": "T01.M01",
+      "id": "CLF-LIV-T01-LINDB-ART2-5-7-R14",
+      "vista": "produto/vistas/T01_LINDB_ART2_5_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T01_M01_LINDB_7_R14_v1.json",
+      "artigos": 4,
+      "registros_documentais": 7,
+      "origem_commit": "d2ac9df04bea7dfc210a8fcbf33ef610c0c30e2d",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "DL4657 LINDB arts2-5, regras de vigência, revogação, integração e fins sociais. Art1 ausente por exigir gate §2 revogado em 2009; T23 interface e DOU1942/1943 pendentes, C0-J=0."
+    },
     {
       "titulo": "T03",
       "modulo": "T03.M01",
@@ -62,6 +74,30 @@
       "estado": "INTEGRADO_EXPERIMENTAL_Q"
     },
     {
+      "titulo": "T08",
+      "modulo": "T08.M01",
+      "id": "CLF-LIV-T08-RJU-8112-ART1-4-5-R14",
+      "vista": "produto/vistas/T08_RJU_LEI8112_ART1_4_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T08_M01_8112_5_R14_v1.json",
+      "artigos": 4,
+      "registros_documentais": 5,
+      "origem_commit": "d7f54f760c5c524fba33e2dc209daffcd96587c9",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei8112 RJU arts1-4 exclusivos servidores civis federais, conceito cargo, exceção expressa à proibição serviço gratuito; ADI2135 e DOU1990/1991/1998 Q."
+    },
+    {
+      "titulo": "T20",
+      "modulo": "T20.M01",
+      "id": "CLF-LIV-T20-CDC-8078-ART1-3-6-R14",
+      "vista": "produto/vistas/T20_CDC_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T20_M01_CDC_6_R14_v1.json",
+      "artigos": 3,
+      "registros_documentais": 6,
+      "origem_commit": "91ee45d894928b9697308a05e4cf0e6ac12cb0f4",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "CDC arts1-3, ordem publica, destinatario final, fornecedor e servicos bancarios/financeiros exclui trabalho, interface T16/T21, DOU veto/retificação Q."
+    },
+    {
       "id": "CLF-LIV-T24-M01-CPC70-102-181-v1",
       "titulo": "T24",
       "modulo": "T24.M01",
@@ -95,6 +131,18 @@
       "origem_commit": "82c20b82b1046123d54164074fa1fb59ee698f99",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "CLT arts1-3 na redação atual Câmara, §2/3 art2 pós Reforma Trabalhista, PEC221/2019 aprovação não promulgação no corte. DOU histórico não cotejado, Q."
+    },
+    {
+      "titulo": "T28",
+      "modulo": "T28.M01",
+      "id": "CLF-LIV-T28-CLT-ART4-6-14-R14",
+      "vista": "produto/vistas/T28_CLT_ART4_6_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T28_M01_CLT_14_R14_v1.json",
+      "artigos": 3,
+      "registros_documentais": 14,
+      "origem_commit": "8ddb9a39e70f2af3af66b72a120774693b539226",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "CLT art4 §2 oito incisos de atividades pessoais, art5 igualdade salarial e art6 subordinação telematica, versões Leis 13467/2017 e12551/2011, Q."
     },
     {
       "id": "CLF-LIV-T37-M01-6938-ART1-2-13-R10",

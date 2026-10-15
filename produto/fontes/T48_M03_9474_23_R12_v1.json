@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T48-R12",
+  "source_path": "modulos/T48/M03_ESPELHO_REFUGIO_ART11_16_23_Q.csv",
+  "source_blob_sha": "8478bfb09467641e2a8355a7677491d86677acb0",
+  "view_path": "produto/vistas/T48_REFUGIO_ART11_16_PREVIA_Q.md",
+  "count_expected": 23,
+  "articles_expected": 6,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9474-22-julho-1997-365390-publicacaooriginal-1-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l9474.htm",
+  "source_commit": "61703ce17efd1cab5a6be4ac1f38d7bdcc1ca146",
+  "setorial_commit": "61703ce17efd1cab5a6be4ac1f38d7bdcc1ca146",
+  "source_kind": "CAMARA_PUBLICACAO_ORIGINAL_1997",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "**Lacuna documental 11–16 resolvida:** os arts. 1º–21 passam a estar representados sem saltos na ordem de origem em três vistas iniciais e na nova vista; o restante da Lei 9.474/1997 permanece fora do corpus.",
+    "Art. 12 atribui ao CONARE reconhecimento, cessação e perda **em primeira instância**; não reproduzir essa expressão omitindo recurso ao Ministro da Justiça (arts. 29–31) ainda não incorporado.",
+    "Art. 14 tem composição original com nomes ministeriais de 1997; reorganizações de ministérios posteriores não autorizam reescrita literal silenciosa. A presença da ACNUR é de **voz sem voto**; os membros com voto e quórum devem ser computados sem incluí-la.",
+    "Art. 16 fixa quórum de 4 membros com voto e desempate pela presidência. Verificar regimento interno, atos normativos de funcionamento e reforma organizacional, sem alterar direito de defesa por inferência.",
+    "Cotejar Lei 13.445/2017 e tratados sobre confidencialidade, proteção contra devolução e devido processo, particularmente tensão entre exclusões art. 3º, art. 7º §2º, art. 32 e art. 37, que ainda estão fora do núcleo.",
+    "Texto-fonte Câmara **publicação original** em HTML; DOU 23/07/1997 não autenticado em fac-símile nem retificações. C0-T permanece documental Q, C0-J zero."
+  ]
+}

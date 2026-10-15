@@ -140,3 +140,13 @@ Os códigos T25.M01–03 são **unidades funcionais de pesquisa**, não uma deci
 - [Dossiê 13 — contraste e PROB-T25-0044–0052](DOSSIE_13_ESPECIES_SUBSTITUICOES_E_EXECUCAO.md) e [Continuidade 13](CONTINUIDADE_13.md).
 
 **Trava de codificação:** `substituir prisão` pelo CP44 não equivale a `converter pena curta em prisão militar` pelo CPM59. Uma unificação que importe diretamente CP44 ao CPM muda a espécie/execução da pena, é **M**, não C1. O art.54 CP ainda contém literalidade antiga (inferior a um ano) diante do art.44 reformado em 1998; identificar efeitos de lex posterior antes de modernizar. Próxima auditoria: **CP77–82 × CPM84–88 e LEP**, com trajetória completa do título condenatório à execução (T27).
+
+## Ciclo 14 — suspensão de pena, execução, suspensão do processo e ANPP (15/10/2026)
+
+- [Inventário de **20 artigos numerados e 61 subunidades**](INVENTARIO_SURSIS_CP_CPM_LEP_CICLO14.csv): CP77–82, CPM84–88, LEP2 e 156–163. Texto consolidado consultado e diferenciações 2023; **não transcrição C0-T nem equivalência C0-J**.
+- [Matriz de **30 portas de decisão**](MATRIZ_PORTAS_SURSIS_EXECUCAO_CICLO14.csv): pena final; substituição CP44; sursis comum CP77; militar CPM84/88; prazo; revogação; prorrogação; foro e execução LEP2; intertemporalidade; suspensão do processo e ANPP. Relações `Q`/possíveis `M`.
+- [Doze cenários de aplicação](CASOS_PORTAS_EXECUCAO_CICLO14.csv) para dano simples CP163 e deserção CPM187, incluindo multa originária, pena fictícia curta, sursis condicionado, vedação CPM88 em deserção, idade/saúde, 2022/2026 e civil recolhido a estabelecimento ordinário.
+- [Seis referências STF/STJ/STM e notícia de consulta PSV149 em 2026](JURISPRUDENCIA_E_ANPP_SURSIS_CICLO14.csv). **Sursis da pena ≠ suspensão condicional do processo ≠ ANPP**. STF 2024 e STJ 2025 admitem possibilidade de ANPP em Justiça Militar; STF abriu em **27/08/2026** consulta de **proposta** de SV, não SV aprovada.
+- [Dossiê 14 e fluxograma normativo](DOSSIE_14_SURSIS_PROCESSO_EXECUCAO.md) e [Continuidade 14](CONTINUIDADE_14.md), incluindo PROB-T25-0053–0062.
+
+**Portas de risco:** CPM84 (reclusão prova 3–5 anos versus detenção 2–4, após 2023), CPM86 §1 (revogação facultativa por infração disciplinar militar grave), CPM88 (exclusão de sursis em deserção e outros crimes). **LEP2 parágrafo único** aplica a lei à pessoa condenada pela Justiça Militar recolhida a estabelecimento **sujeito à jurisdição ordinária**; isso não equipara toda execução militar ao regime da LEP. As minutas A2/B2 seguem `Q` e reformas `M` **não ratificadas**. Próximo: rito/autoridade e execução militar T25.M03/T26/T27.

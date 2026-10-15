@@ -2,6 +2,42 @@
 
 > Compilação **experimental** derivada de produto/fontes/indice_livros.json e das vistas versionadas. Não editar este arquivo; regenerar a partir das fontes. O texto não é lei vigente, não homologa C0-J, não produz revogação nem resolve a DEC-016. Livros ainda não integrados são lacunas no quadro de cobertura, não disposições fictícias.
 
+## T01 — T01.M01 [CLF-LIV-T01-LINDB-ART2-5-7-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# CLF T01 — LINDB — vigência, revogação, integração e interpretação, arts. 2º–5º
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 4 artigos de origem, 7 unidades positivas em correspondência 1:1 de fonte e vista. **C0-J=0; M=0; DEC-016 pendente.** A numeração é da lei transcrita, não uma renumeração definitiva do CLF. [Câmara, versão atualizada](https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html) e [fonte de cotejo institucional](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm); fac-símile DOU não cotejado.
+
+**Fonte documental:** `modulos/T01/M01_ESPELHO_LINDB_ART2_5_7_Q.csv` — Git blob SHA `be0414b5b5fad67e75ac9dafa8eda072c6ec59dc`.
+
+## Texto da legislação de origem (não normativo novo)
+
+**Art. 2.** Não se destinando à vigência temporária, a lei terá vigor até que outra a modifique ou revogue.
+
+**§ 1º** A lei posterior revoga a anterior quando expressamente o declare, quando seja com ela incompatível ou quando regule inteiramente a matéria de que tratava a lei anterior.
+
+**§ 2º** A lei nova, que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei anterior.
+
+**§ 3º** Salvo disposição em contrário, a lei revogada não se restaura por ter a lei revogadora perdido a vigência.
+
+**Art. 3.** Ninguém se escusa de cumprir a lei, alegando que não a conhece.
+
+**Art. 4.** Quando a lei for omissa, o juiz decidirá o caso de acordo com a analogia, os costumes e os princípios gerais de direito.
+
+**Art. 5.** Na aplicação da lei, o juiz atenderá aos fins sociais a que ela se dirige e às exigências do bem comum.
+
+## Portas jurídicas e intertemporais — comentário editorial
+
+- **Recorte inicial deliberado nos arts. 2º–5º:** art. 1º exige tratamento separado de vacatio legis, republicação corretiva e **§ 2º revogado pela Lei 12.036/2009**, jamais incorporado como unidade positiva. DOU original 09/09/1942 e retificações 1942/1943 pendentes.
+
+- **Art. 2º, §§ 1º–3º:** revogação expressa, incompatibilidade, regulação completa, especialidade e vedação ordinária de repristinação são regras da lei vigente; o CLF documental não opera revogação, repristinação ou transformação material automática.
+
+- **Arts. 3º–5º:** ignorância da lei, integração judicial por analogia/costumes/princípios e fins sociais exigem compatibilização com CF 1988, direitos fundamentais, LINDB arts. 20–30 e normas posteriores; não autoriza decisões arbitrárias.
+
+- **Interseção T23:** LINDB arts. 7º–19 possuem regras de conexão do direito internacional privado; a presente vista T01 não os reproduz nem duplica suas posições.
+
+- **Veículo jurídico DEC-016:** ementa alterada pela Lei 12.376/2010 e lei nacional de normas sobre normas, sem pressupor iniciativa, revogação global ou aprovação C0-J.
+
 ## T03 — T03.M01 [CLF-LIV-T03-LC140-ART1-3-10-R12; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # CLF T03 — Federação e competência comum ambiental — LC 140/2011 (arts. 1º–3º)
@@ -702,6 +738,72 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 **Errata exclusivamente editorial (15/10/2026, rodada 11):** no art. LPA-SEQ4-002, os incisos I–XIII do parágrafo único passaram a ser indicados por seus marcadores legislativos `I –` a `XIII –`, substituindo `PU-I` a `PU-XIII`. Nenhum caput/inciso foi alterado em seu conteúdo, remissões/IDs da matriz 215 foram preservados e não ocorreu homologação jurídica.
 
+## T08 — T08.M01 [CLF-LIV-T08-RJU-8112-ART1-4-5-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# CLF T08 — Agentes públicos — Lei 8.112/1990, arts. 1º–4º
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 4 artigos de origem, 5 unidades positivas em correspondência 1:1 de fonte e vista. **C0-J=0; M=0; DEC-016 pendente.** A numeração é da lei transcrita, não uma renumeração definitiva do CLF. [Câmara, versão atualizada](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html) e [fonte de cotejo institucional](https://planalto.gov.br/ccivil_03/leis/l8112cons.htm); fac-símile DOU não cotejado.
+
+**Fonte documental:** `modulos/T08/M01_ESPELHO_LEI8112_ART1_4_5_Q.csv` — Git blob SHA `b3aad48b503c3017f42a0c462aaf3b32f6d54f55`.
+
+## Texto da legislação de origem (não normativo novo)
+
+**Art. 1.** Esta Lei institui o Regime Jurídico dos Servidores Públicos Civis da União, das autarquias, inclusive as em regime especial, e das fundações públicas federais.
+
+**Art. 2.** Para os efeitos desta Lei, servidor é a pessoa legalmente investida em cargo público.
+
+**Art. 3.** Cargo público é o conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor.
+
+**Parágrafo único.** Os cargos públicos, acessíveis a todos os brasileiros, são criados por lei, com denominação própria e vencimento pago pelos cofres públicos, para provimento em caráter efetivo ou em comissão.
+
+**Art. 4.** É proibida a prestação de serviços gratuitos, salvo os casos previstos em lei.
+
+## Portas jurídicas e intertemporais — comentário editorial
+
+- **Art. 1º:** Lei 8.112 institui regime dos servidores públicos civis da **União, autarquias e fundações públicas federais**, não o regime estatutário de todo agente estadual, municipal, militar ou contratado temporário.
+
+- **Arts. 2º–3º:** servidor é investido legalmente em cargo público; cargo possui atribuições e responsabilidade, criado por lei, provimento efetivo ou em comissão. O parágrafo único não substitui CF art. 37 (concurso, cargos em comissão, acessibilidade e igualdade).
+
+- **Art. 4º:** a vedação do serviço gratuito contém exceção expressa para hipóteses **previstas em lei**; não eliminar a ressalva, nem classificá-la como proibição absoluta.
+
+- **Recepção e regimes posteriores:** jurisprudência constitucional sobre RJU/ADI 2.135 e vínculos diversos de emprego público exigem análise separada, preservando concursos, regimes especiais e situações consolidadas.
+
+- **Proveniência:** DOU original 12/12/1990, veto/promulgação parcial 19/04/1991 e republicação atualizada 18/03/1998; comparecência textual em Câmara 2026 não autentica toda a cadeia DOU.
+
+## T20 — T20.M01 [CLF-LIV-T20-CDC-8078-ART1-3-6-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# CLF T20 — Consumidor e fornecedor — Lei 8.078/1990, arts. 1º–3º
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 3 artigos de origem, 6 unidades positivas em correspondência 1:1 de fonte e vista. **C0-J=0; M=0; DEC-016 pendente.** A numeração é da lei transcrita, não uma renumeração definitiva do CLF. [Câmara, versão atualizada](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html) e [fonte de cotejo institucional](https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm); fac-símile DOU não cotejado.
+
+**Fonte documental:** `modulos/T20/M01_ESPELHO_CDC_ART1_3_6_Q.csv` — Git blob SHA `fe31eb04f129673a432310285e3256a0248bc1e9`.
+
+## Texto da legislação de origem (não normativo novo)
+
+**Art. 1.** O presente código estabelece normas de proteção e defesa do consumidor, de ordem pública e interesse social, nos termos dos arts. 5º, inciso XXXII, 170, inciso V, da Constituição Federal e art. 48 de suas Disposições Transitórias.
+
+**Art. 2.** Consumidor é toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço como destinatário final.
+
+**Parágrafo único.** Equipara-se a consumidor a coletividade de pessoas, ainda que indetermináveis, que haja intervindo nas relações de consumo.
+
+**Art. 3.** Fornecedor é toda pessoa física ou jurídica, pública ou privada, nacional ou estrangeira, bem como os entes despersonalizados, que desenvolvem atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços.
+
+**§ 1º** Produto é qualquer bem, móvel ou imóvel, material ou imaterial.
+
+**§ 2º** Serviço é qualquer atividade fornecida no mercado de consumo, mediante remuneração, inclusive as de natureza bancária, financeira, de crédito e securitária, salvo as decorrentes das relações de caráter trabalhista.
+
+## Portas jurídicas e intertemporais — comentário editorial
+
+- **Ordem pública e interesse social:** art. 1º remete à CF art. 5º XXXII, art. 170 V e ADCT art. 48. A integração documental não cria um novo código de defesa do consumidor promulgado.
+
+- **Art. 2º:** destinatário final é conceito legal, e parágrafo único equipara coletividade indeterminável que interveio em relação de consumo; a teoria finalista ou finalismo aprofundado e hipóteses de vulnerabilidade dependem de jurisprudência específica e fatos.
+
+- **Art. 3º:** fornecedor compreende pessoas públicas/privadas e entes despersonalizados em atividades enumeradas; § 1º inclui bens materiais e imateriais, § 2º serviços financeiros/bancários/seguros remunerados e exclui relações de caráter trabalhista; observar competências de T21 e T28 e não confundir com mero vínculo civil.
+
+- **Relação com T16/T21:** responsabilidade civil, instituições financeiras e seguros têm interfaces e regras especiais; manter origem textual única no T20 e remissões 1:N, não replicar CDC noutros títulos.
+
+- **Autenticidade:** DOU suplemento de 12/09/1990, veto e retificação de 10/01/2007 pendentes de fac-símile e cotejo por evento.
+
 ## T24 — T24.M01 [CLF-LIV-T24-M01-CPC70-102-181-v1; INTEGRADO_EXPERIMENTAL_CONTINUO_Q]
 
 # Código da Legislação Federal — Livro de Processo Civil: prévia experimental contínua dos arts. 70–102 do CPC
@@ -1229,6 +1331,58 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - PL 1.838/2026 (jornada/descanso) tramita como projeto na Câmara, não integra a CLT vigente por si; conferir redação final e efeitos somente após ato competente.
 
 - É imprescindível distinguir normas gerais da CLT da incidência de LC 150/2015, estatutos especiais, trabalho doméstico e regimes de empregados públicos.
+
+## T28 — T28.M01 [CLF-LIV-T28-CLT-ART4-6-14-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# CLF T28 — CLT — serviço efetivo, igualdade remuneratória e trabalho à distância, arts. 4º–6º
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 3 artigos de origem, 14 unidades positivas em correspondência 1:1 de fonte e vista. **C0-J=0; M=0; DEC-016 pendente.** A numeração é da lei transcrita, não uma renumeração definitiva do CLF. [Câmara, versão atualizada](https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-5452-1-maio-1943-415500-normaatualizada-pe.html) e [fonte de cotejo institucional](https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm); fac-símile DOU não cotejado.
+
+**Fonte documental:** `modulos/T28/M01_ESPELHO_CLT_ART4_6_14_Q.csv` — Git blob SHA `53060ec8de80bf0de9bbc8df9f438d4ad245e875`.
+
+## Texto da legislação de origem (não normativo novo)
+
+**Art. 4.** Considera-se como de serviço efetivo o período em que o empregado esteja à disposição do empregador, aguardando ou executando ordens, salvo disposição especial expressamente consignada.
+
+**§ 1º** Computar-se-ão, na contagem de tempo de serviço, para efeito de indenização e estabilidade, os períodos em que o empregado estiver afastado do trabalho prestando serviço militar e por motivo de acidente do trabalho.
+
+**§ 2º** Por não se considerar tempo à disposição do empregador, não será computado como período extraordinário o que exceder a jornada normal, ainda que ultrapasse o limite de cinco minutos previsto no § 1º do art. 58 desta Consolidação, quando o empregado, por escolha própria, buscar proteção pessoal, em caso de insegurança nas vias públicas ou más condições climáticas, bem como adentrar ou permanecer nas dependências da empresa para exercer atividades particulares, entre outras:
+
+**I –** práticas religiosas;
+
+**II –** descanso;
+
+**III –** lazer;
+
+**IV –** estudo;
+
+**V –** alimentação;
+
+**VI –** atividades de relacionamento social;
+
+**VII –** higiene pessoal;
+
+**VIII –** troca de roupa ou uniforme, quando não houver obrigatoriedade de realizar a troca na empresa.
+
+**Art. 5.** A todo trabalho de igual valor corresponderá salário igual sem distinção de sexo.
+
+**Art. 6.** Não se distingue entre o trabalho realizado no estabelecimento do empregador, o executado no domicílio do empregado e o realizado a distância, desde que estejam caracterizados os pressupostos da relação de emprego.
+
+**Parágrafo único.** Os meios telemáticos e informatizados de comando, controle e supervisão se equiparam, para fins de subordinação jurídica, aos meios pessoais e diretos de comando, controle e supervisão do trabalho alheio.
+
+## Portas jurídicas e intertemporais — comentário editorial
+
+- **Art. 4º:** distinção entre tempo à disposição, serviço efetivo e períodos extraordinários; § 2º é texto da Lei 13.467/2017 e traz **oito incisos exemplificativos** subordinados ao próprio § 2º, não hipóteses independentes do caput.
+
+- **Art. 4º § 1º:** remissão específica à indenização e estabilidade por serviço militar/acidente, não generalizar indiscriminadamente todo afastamento para salários, recolhimentos ou aposentadoria.
+
+- **Art. 5º:** igualdade salarial textual por sexo deve ser lida cumulativamente com CF art. 7º XXX e com normas posteriores como a Lei 14.611/2023 e CLT art. 461, ainda fora do recorte; não substituir todo o regime de equiparação pelo art. 5º.
+
+- **Art. 6º:** trabalho em estabelecimento, domicílio e a distância sem distinção quando presentes requisitos de emprego, e equiparação de comando telemático à subordinação; compatibilizar com teletrabalho arts. 75-A e seguintes sem presumir vínculo em qualquer prestação remota.
+
+- **Cronologia e peculiaridades:** art. 4º § 2º tem fonte Lei 13.467/2017, art. 6º vem da Lei 12.551/2011, redações anteriores não são texto positivo atual; DOU 1943/2011/2017 sem fac-símile cotejado.
+
+- **PEC 221/2019:** eventual aprovação parlamentar não constitui por si promulgação de emenda; não incorporar alteração de jornada/escala ao CLT sem documento de promulgação, efeitos intertemporais e tipo normativo.
 
 ## T37 — T37.M01 [CLF-LIV-T37-M01-6938-ART1-2-13-R10; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

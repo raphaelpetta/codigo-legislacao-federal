@@ -96,3 +96,10 @@ XIII – interpretação da norma administrativa da forma que melhor garanta o a
 5. **F9:** decisão expressa do projeto sobre conteúdo material e, separadamente, o procedimento/espécie de promulgação e a sucessão normativa. **Não revogar a Lei 9.784 antes de ter instrumento e cobertura legais adequados.**
 
 **Próximo passo:** submeter este experimento à frente T07.M03 PR #39/issue #35 para produzir concordância individualizada 22/22, cotejo oficial independente do texto proposto e parecer sobre o art. 69 no início do Livro; após isso desenvolver o conjunto de direitos dos administrados e competência, sem diluir especialidades nem duplicar T43.
+
+
+## Rodada 02 — evidência e continuidade no mesmo PR
+
+A correspondência inicial acima agora tem [CSV completo de 22 unidades](05_CONCORDANCIA_T07_22_UNIDADES_20261014.csv), [12 testes aplicados ao recorte](06_TESTES_ADVERSARIAIS_EXECUTADOS_T07_12.csv) e [relatório jurídico com limites](07_RELATORIO_T07_AUDITORIA_22_E_12_TESTES.md). A transcrição de 16 unidades para os capítulos subsequentes está em [F5-Q direitos, deveres, interessados e competência](09_T07_DIREITOS_INTERESSADOS_COMPETENCIA_F5Q.md), com [concordância 16/16](08_CONCORDANCIA_T07_SEGUNDO_NUCLEO_16_UNIDADES.csv).
+
+**Resultado:** o controle de texto local passou para as 22 origens; os doze testes geraram **4 verificações favoráveis apenas neste recorte, 2 condicionais e 6 bloqueios**. Esta é verificação documental, não C0-J, homologação de projeto de lei ou incorporação à main. Continuam DEC-016 e necessidade de revisão por T07/T43/T01.

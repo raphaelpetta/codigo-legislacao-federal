@@ -3,8 +3,7 @@ name: Validar integracao T07 nucleo
 on:
   pull_request:
     paths:
-      - "integracao/0*.md"
-      - "integracao/0*.csv"
+      - "integracao/**"
       - "scripts/validar_integracao_t07_nucleo.py"
       - "modulos/T07/M03/CONCORDANCIA_INTEGRAL_ART1_ART2_13.csv"
       - "modulos/T07/M03/CONCORDANCIA_LITERAL_ART3_17_15.csv"

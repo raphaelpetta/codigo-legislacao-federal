@@ -28,3 +28,4 @@ if [[ -f produto/fontes/T25_CP1_12_v1.json ]]; then
   python3 scripts/gerar_previa_t25.py --setorial-root "$3" --check
 fi
 echo "OK DOCUMENTAL LOCAL CLF (sem certificacao de equivalencia juridica)."
+python3 -m unittest discover -s tests -p 'test_controle_operacional.py' -v

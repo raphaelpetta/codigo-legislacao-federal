@@ -135,6 +135,12 @@ def make_panel() -> tuple[str, set[str]]:
         counts[title]["books"] += 1
         counts[title]["articles"] += book["artigos"]
         counts[title]["sources"] += book["registros_documentais"]
+    # Uma vista experimental pode existir sem ter passado pelo gate de inclusao
+    # no corpus; registrar a lacuna sem declarar erro ou homologacao.
+    for candidate in sorted((ROOT / "produto/vistas").glob("*.md")):
+        rel = candidate.relative_to(ROOT).as_posix()
+        if rel not in views:
+            print("AVISO: PREVIA_FORA_DO_CORPUS:", rel)
     writer.writerow(["id_titulo", "livros_em_vista", "artigos_experimentais",
                      "registros_documentais_na_fonte"])
     for title in titles:

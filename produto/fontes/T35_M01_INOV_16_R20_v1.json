@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T35-R20",
+  "source_path": "modulos/T35/M01_ESPELHO_INOVACAO_ART1_16_Q.csv",
+  "source_blob_sha": "9930e68f301a245fcc33b57895ec56622bbb6da5",
+  "view_path": "produto/vistas/T35_INOVACAO_LEI10973_ART1_PREVIA_Q.md",
+  "count_expected": 16,
+  "articles_expected": 1,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-10973-2-dezembro-2004-534975-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.973.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_PLANALTO_SEM_DOU_FACSIMILE",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Caput e parágrafo único com 14 incisos resultam da **Lei 13.243/2016**; não atribuir a redação vigente integral à publicação de 2004.",
+    "Apoio, fomento, cooperação, propriedade intelectual e poder de compra exigem leis orçamentárias, licitatórias e competências específicas. O art. 1º não autoriza, isoladamente, convênio, contratação ou cessão de tecnologia.",
+    "Art. 2º definições de ICTs, inovação, incubadoras e núcleos de inovação não foi transcrito. Preservar conceitos técnicos até cotejo da redação pós-2016, para não usar vocabulário incompleto.",
+    "Referências constitucionais arts. 218–219-A, EC 85/2015, órgãos de fomento e fiscalização de contas; interface T22 autorais, T09 compras, T08 servidores e T12 fomento.",
+    "DOU 03/12/2004, retificação 16/03/2005 e Lei 13.243/2016 pendem cotejo fac-símile e início de efeitos; C0-J=0."
+  ]
+}

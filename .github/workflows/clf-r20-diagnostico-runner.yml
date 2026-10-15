@@ -1,0 +1,28 @@
+name: CLF R20 - Diagnostico do runner e QA
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  runner-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Teste minimo do executor sem checkout
+        shell: bash
+        run: |
+          echo "CLF_R20_RUNNER_STARTED"
+          python3 --version
+          pwd
+          echo "CLF_R20_RUNNER_OK"
+  corpus-r20:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout da branch da PR
+        uses: actions/checkout@v4
+      - name: Ambiente Python
+        run: python3 --version
+      - name: QA documental com traceback visivel
+        run: python3 -u scripts/validar_r20_horizontal.py

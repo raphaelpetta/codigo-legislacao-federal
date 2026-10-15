@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T28-CLT-R11",
+  "source_path": "modulos/T28/M01_ESPELHO_CLT_ART1_3_7_Q.csv",
+  "source_blob_sha": "6439a139cacdd3c7fca3202963c8cfcc2dcf188c",
+  "view_path": "produto/vistas/T28_CLT_ART1_3_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-5452-1-maio-1943-415500-normaatualizada-pe.html",
+  "crosscheck": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+  "source_commit": "82c20b82b1046123d54164074fa1fb59ee698f99",
+  "setorial_commit": "82c20b82b1046123d54164074fa1fb59ee698f99",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "observacoes": [
+    "O corpus utiliza os arts. 1º–3º da própria CLT, **não** os arts. 1º–3º do decreto-lei de aprovação de 1943 (numeração autônoma).",
+    "CLT art. 2º §§2º–3º recebeu redação/acréscimo da Lei 13.467/2017, com entrada em vigor após 120 dias da publicação em 14/07/2017; não reproduzir versão anterior como vigente.",
+    "Grupo econômico exige requisitos distintos de identidade societária; não equiparar subsidiariedade, solidariedade ou responsabilidade por participação à mera coincidência de sócios.",
+    "Art. 3º e CF art. 7º: natureza pessoal/não eventual/dependência/salário; contratos civis, trabalhadores por aplicativos, pejotização e legislação especial reclamam enquadramento contextual, não exclusão ou inclusão automática.",
+    "A PEC 221/2019, aprovada pela Câmara e pelo Senado em dois turnos em 14/10/2026, foi noticiada oficialmente em 15/10/2026 como **seguindo para promulgação**, sem promulgação/publicação oficialmente demonstradas no corte; **não alterar texto da CLT, limite de jornada ou regime de folgas como se vigente**.",
+    "PL 1.838/2026 (jornada/descanso) tramita como projeto na Câmara, não integra a CLT vigente por si; conferir redação final e efeitos somente após ato competente.",
+    "É imprescindível distinguir normas gerais da CLT da incidência de LC 150/2015, estatutos especiais, trabalho doméstico e regimes de empregados públicos."
+  ]
+}

@@ -18,6 +18,6 @@ C0-J=**0 homologado**; M=**0 ratificada**; DEC-016=**PENDENTE**; **nenhuma revog
 
 ## PRÓXIMA RODADA
 
-**Prioritária:** auditar **arts.56–65**, com especial atenção a competência recursal, defesa prévia em reformatio in pejus no recurso (art.64 parágrafo único) e proibição de agravamento de sanção em revisão (art.65 parágrafo único), além da distinção entre prazo geral e especiais. Revisar a compatibilidade dos arts.51–55 com a LINDB e com direito especial antes de formular revogações, vagas de vigência ou aprovações C0-J.
+**Prioritária:** auditar **arts.56–65**, com especial atenção a competência recursal, defesa prévia em reformatio in pejus no recurso (art.64 parágrafo único) e proibição de agravamento de sanção em revisão (art.65 parágrafo único), além da distinção entre prazo geral e especiais. Revisar a compatibilidade dos arts.51–55 com a LINDB e com direito especial antes de formular revogações, cláusulas de vigência ou aprovações C0-J.
 
 **Verificações técnicas:** conferir execução de CI na HEAD após commits, contagem dos 9 registros, 22 testes e integridade de referências. Validador é estrutural; não certifica mérito.

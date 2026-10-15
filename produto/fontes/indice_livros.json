@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R20 15/10/2026: 44 componentes Q em 29 títulos, 266 artigos de origem, 895 unidades positivas +1 histórico T07 (896 registros). Horizontal T10 LAI1-3 3/12, T35 inovação Lei10973 art1 1/16 (Lei13243/2016), T45 SUSP1-3 3/3. Vertical T20 CDC art5 +1/8 (total 5 artigos/29 unidades, §§1–2 vetados). 19 títulos sem texto. Bloqueio CI P0 herdado e novo workflow R19 reprovado sem logs; sem autenticação DOU, C0-J=0/M=0/DEC016 pendente/merges=0; T13 reservado.",
+  "observacao": "R21 15/10/2026: 48 componentes experimentais Q em 32 títulos, 274 artigos de origem, 938 unidades textuais positivas +1 histórico T07 (939 registros). Aberturas T02 Igualdade Racial arts1-2 2/9, T21 SFN Lei4595 arts1-2 2/7, T39 Agricultura Familiar Lei11326 arts1-3 3/17, vertical T10 LAI4 1/10 (total T10 4 artigos/22 unidades). 16 títulos vazios. CI P0 ainda reprovado e runner-smoke sem checkout falhou, logs indisponíveis, C0-J=0 M=0 DEC016 pendente, T13 preservado, merges/revogação=0.",
   "livros": [
     {
       "titulo": "T01",
@@ -13,6 +13,17 @@
       "origem_commit": "d2ac9df04bea7dfc210a8fcbf33ef610c0c30e2d",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "DL4657 LINDB arts2-5, regras de vigência, revogação, integração e fins sociais. Art1 ausente por exigir gate §2 revogado em 2009; T23 interface e DOU1942/1943 pendentes, C0-J=0."
+    },
+    {
+      "titulo": "T02",
+      "modulo": "T02.M01",
+      "id": "CLF-LIV-T02-EIR-ART1_2-R21",
+      "vista": "produto/vistas/T02_IGUALDADE_RACIAL_LEI12288_ART1_2_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T02_M01_EIR_9_R21_v1.json",
+      "artigos": 2,
+      "registros_documentais": 9,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Estatuto Igualdade Racial Lei12288 arts1-2, 2 artigos/9 unidades Q, autodeclaração e ações afirmativas. DOU e especialidade pendentes."
     },
     {
       "titulo": "T03",
@@ -121,6 +132,17 @@
       "proveniencia_adicional": "LAI Lei12527 arts1-3 3 artigos/12 unidades Q, transparência, sigilo pessoal e entes, DOU pendente"
     },
     {
+      "titulo": "T10",
+      "modulo": "T10.M01",
+      "id": "CLF-LIV-T10-LAI-ART4-R21",
+      "vista": "produto/vistas/T10_LAI_ART4_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T10_M01_LAI_10_R21_v1.json",
+      "artigos": 1,
+      "registros_documentais": 10,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "LAI art4 definições 1 artigo/10 Q, informação pessoal e sigilosa, LGPD gate; T10 total arts1-4 4/22."
+    },
+    {
       "titulo": "T11",
       "modulo": "T11.M01",
       "id": "CLF-LIV-T11-LEI4320-ART1_2-R16",
@@ -200,6 +222,17 @@
       "registros_documentais": 8,
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "CDC art5 1/8 unidades Q, incVI-VII Lei14181/2021, §§1–2 vetados; T20 total5/29"
+    },
+    {
+      "titulo": "T21",
+      "modulo": "T21.M01",
+      "id": "CLF-LIV-T21-SFN-ART1_2-R21",
+      "vista": "produto/vistas/T21_SFN_LEI4595_ART1_2_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T21_M01_SFN_7_R21_v1.json",
+      "artigos": 2,
+      "registros_documentais": 7,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei4595 SFN arts1-2, 2 artigos/7 unidades Q; nomes BCB1967 e BNDES1982; LC179/2021 gate."
     },
     {
       "titulo": "T22",
@@ -413,6 +446,17 @@
       "origem_commit": "b96ef4727b20e7b4abc7c0320c6f5a6dad1f689a",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei9433 arts1-3, água pública usos prioritários, Lei15269/2025 art4 alterou art2 II/V e art3 III/VII; Lei13501/2017 art2IV, vetos/DOU pendentes."
+    },
+    {
+      "titulo": "T39",
+      "modulo": "T39.M01",
+      "id": "CLF-LIV-T39-AGF-ART1_3-R21",
+      "vista": "produto/vistas/T39_AGRICULTURA_FAMILIAR_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T39_M01_AGF_17_R21_v1.json",
+      "artigos": 3,
+      "registros_documentais": 17,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Agricultura Familiar Lei11326 arts1-3 3 artigos/17 unidades Q, Lei12058/2009 §§3-4 e Lei12512/2011 art3III/§2V-VI."
     },
     {
       "titulo": "T41",

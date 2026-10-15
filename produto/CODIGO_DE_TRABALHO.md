@@ -38,6 +38,46 @@
 
 - **Veículo jurídico DEC-016:** ementa alterada pela Lei 12.376/2010 e lei nacional de normas sobre normas, sem pressupor iniciativa, revogação global ou aprovação C0-J.
 
+## T02 — T02.M01 [CLF-LIV-T02-EIR-ART1_2-R21; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T02 — Igualdade racial — Lei 12.288/2010, arts. 1º–2º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 2 artigos de origem/9 unidades positivas em correspondência 1:1. **C0-J=0, M=0, DEC-016 pendente**, sem revogação ou renumeração definitiva. [Texto atualizado Câmara](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12288-20-julho-2010-607324-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm). DOU em fac-símile não conferido.
+
+**Arquivo de origem:** `modulos/T02/M01_ESPELHO_EST_IGUALDADE_RACIAL_ART1_2_9_Q.csv`, Git blob SHA `48a99fe276610a940c4376a7d896b15c563b0b85`.
+
+## Texto de origem Q
+
+**Art. 1.** Esta Lei institui o Estatuto da Igualdade Racial, destinado a garantir à população negra a efetivação da igualdade de oportunidades, a defesa dos direitos étnicos individuais, coletivos e difusos e o combate à discriminação e às demais formas de intolerância étnica.
+
+**Parágrafo único.** Para efeito deste Estatuto, considera-se:
+
+**I –** discriminação racial ou étnico-racial: toda distinção, exclusão, restrição ou preferência baseada em raça, cor, descendência ou origem nacional ou étnica que tenha por objeto anular ou restringir o reconhecimento, gozo ou exercício, em igualdade de condições, de direitos humanos e liberdades fundamentais nos campos político, econômico, social, cultural ou em qualquer outro campo da vida pública ou privada;
+
+**II –** desigualdade racial: toda situação injustificada de diferenciação de acesso e fruição de bens, serviços e oportunidades, nas esferas pública e privada, em virtude de raça, cor, descendência ou origem nacional ou étnica;
+
+**III –** desigualdade de gênero e raça: assimetria existente no âmbito da sociedade que acentua a distância social entre mulheres negras e os demais segmentos sociais;
+
+**IV –** população negra: o conjunto de pessoas que se autodeclaram pretas e pardas, conforme o quesito cor ou raça usado pela Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), ou que adotam autodefinição análoga;
+
+**V –** políticas públicas: as ações, iniciativas e programas adotados pelo Estado no cumprimento de suas atribuições institucionais;
+
+**VI –** ações afirmativas: os programas e medidas especiais adotados pelo Estado e pela iniciativa privada para a correção das desigualdades raciais e para a promoção da igualdade de oportunidades.
+
+**Art. 2.** É dever do Estado e da sociedade garantir a igualdade de oportunidades, reconhecendo a todo cidadão brasileiro, independentemente da etnia ou da cor da pele, o direito à participação na comunidade, especialmente nas atividades políticas, econômicas, empresariais, educacionais, culturais e esportivas, defendendo sua dignidade e seus valores religiosos e culturais.
+
+## Portas jurídicas, de vigência e competência — notas não normativas
+
+- O art. 1º define discriminação étnico-racial, desigualdades e ações afirmativas; o art. 2º fixa dever compartilhado de garantir oportunidades. Nenhuma classificação documental altera proteção constitucional de igualdade nem autoriza discriminação.
+
+- O conceito de população negra do art. 1º parágrafo único, IV, menciona **autodeclaração** e referência ao IBGE. Regras particulares de concursos e avaliação têm legislação e jurisprudência próprias, não derivam automaticamente deste inciso.
+
+- Regras de saúde, educação, trabalho e quotas do Estatuto (arts. 3º e seguintes) não estão transcritas. Relações com T08, T33, T39 e T43 requerem análise de especialidade e dados pessoais.
+
+- A Lei 14.553/2023 alterou arts. 39 e 49, **fora da vista**; não atribuir ao recorte inicial efeitos desses acréscimos posteriores.
+
+- Fontes Câmara atualizada e Planalto; DOU 21/07/2010 e alteradoras não cotejados em fac-símile. Q e C0-J=0.
+
 ## T03 — T03.M01 [CLF-LIV-T03-LC140-ART1-3-10-R12; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # CLF T03 — Federação e competência comum ambiental — LC 140/2011 (arts. 1º–3º)
@@ -904,6 +944,48 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - DOU de 2011 e mudanças legislativas posteriores ainda sem cotejo fac-símile; sem homologação C0-J.
 
+## T10 — T10.M01 [CLF-LIV-T10-LAI-ART4-R21; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T10 — Lei de Acesso à Informação — definições do art. 4º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 1 artigos de origem/10 unidades positivas em correspondência 1:1. **C0-J=0, M=0, DEC-016 pendente**, sem revogação ou renumeração definitiva. [Texto atualizado Câmara](https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). DOU em fac-símile não conferido.
+
+**Arquivo de origem:** `modulos/T10/M01_ESPELHO_LAI_ART4_10_Q.csv`, Git blob SHA `47204e59ef75f24435ba1f43bbca9b49110a2248`.
+
+## Texto de origem Q
+
+**Art. 4.** Para os efeitos desta Lei, considera-se:
+
+**I –** informação: dados, processados ou não, que podem ser utilizados para produção e transmissão de conhecimento, contidos em qualquer meio, suporte ou formato;
+
+**II –** documento: unidade de registro de informações, qualquer que seja o suporte ou formato;
+
+**III –** informação sigilosa: aquela submetida temporariamente à restrição de acesso público em razão de sua imprescindibilidade para a segurança da sociedade e do Estado;
+
+**IV –** informação pessoal: aquela relacionada à pessoa natural identificada ou identificável;
+
+**V –** tratamento da informação: conjunto de ações referentes à produção, recepção, classificação, utilização, acesso, reprodução, transporte, transmissão, distribuição, arquivamento, armazenamento, eliminação, avaliação, destinação ou controle da informação;
+
+**VI –** disponibilidade: qualidade da informação que pode ser conhecida e utilizada por indivíduos, equipamentos ou sistemas autorizados;
+
+**VII –** autenticidade: qualidade da informação que tenha sido produzida, expedida, recebida ou modificada por determinado indivíduo, equipamento ou sistema;
+
+**VIII –** integridade: qualidade da informação não modificada, inclusive quanto à origem, trânsito e destino;
+
+**IX –** primariedade: qualidade da informação coletada na fonte, com o máximo de detalhamento possível, sem modificações.
+
+## Portas jurídicas, de vigência e competência — notas não normativas
+
+- Nove definições do art. 4º distinguem informação, documento, sigilo, dado pessoal, tratamento e qualidades técnicas (disponibilidade, autenticidade, integridade, primariedade).
+
+- **Informação pessoal** não equivale a informação automaticamente divulgável. Aplicam-se sigilos legalmente protegidos, LGPD T43 e regras de proporcionalidade da LAI, sem presumir acesso irrestrito.
+
+- Conceito de sigilo por segurança da sociedade ou do Estado não elimina hipóteses legais de proteção de dados pessoais, intimidade e segredos legalmente tutelados.
+
+- As obrigações de transparência ativa/passiva e exceções nos arts. 5º e seguintes continuam fora desta vista, assim como prazos e recursos administrativos.
+
+- Cotejo Câmara/Planalto institucional HTML, mas DOU originário 2011 e efeitos de normas posteriores não autenticados em fac-símile.
+
 ## T11 — T11.M01 [CLF-LIV-T11-LEI4320-ART1_2-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T11 — Direito financeiro e lei orçamentária — Lei 4.320/1964, arts. 1º–2º
@@ -1193,6 +1275,42 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - O art. 5º não exaure poderes locais nem substitui direitos do art. 6º ou normas sobre conciliação, processos e proteção do mínimo existencial.
 
 - DOU 1990, veto original e Lei 14.181/2021 permanecem sem cotejo fac-símile, Q e C0-J zero.
+
+## T21 — T21.M01 [CLF-LIV-T21-SFN-ART1_2-R21; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T21 — Sistema financeiro — Lei 4.595/1964, arts. 1º–2º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 2 artigos de origem/7 unidades positivas em correspondência 1:1. **C0-J=0, M=0, DEC-016 pendente**, sem revogação ou renumeração definitiva. [Texto atualizado Câmara](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4595-31-dezembro-1964-353886-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l4595.htm). DOU em fac-símile não conferido.
+
+**Arquivo de origem:** `modulos/T21/M01_ESPELHO_LEI4595_ART1_2_7_Q.csv`, Git blob SHA `7876d9336c9fb8952333c7328503f122e55bc79b`.
+
+## Texto de origem Q
+
+**Art. 1.** O Sistema Financeiro Nacional, estruturado e regulado pela presente Lei, será constituído:
+
+**I –** do Conselho Monetário Nacional;
+
+**II –** do Banco Central do Brasil;
+
+**III –** do Banco do Brasil S.A.;
+
+**IV –** do Banco Nacional do Desenvolvimento Econômico e Social;
+
+**V –** das demais instituições financeiras públicas e privadas.
+
+**Art. 2.** Fica extinto o Conselho da atual Superintendência da Moeda e do Crédito, e criado, em substituição, o Conselho Monetário Nacional, com a finalidade de formular a política da moeda e do crédito como previsto nesta lei, objetivando o progresso econômico e social do País.
+
+## Portas jurídicas, de vigência e competência — notas não normativas
+
+- Art. 1º enumera Conselho Monetário Nacional, Banco Central do Brasil, Banco do Brasil S.A., Banco Nacional de Desenvolvimento Econômico e Social e demais instituições financeiras. Denominações dos incisos II e IV foram atualizadas por **Decreto-Lei 278/1967 e Decreto-Lei 1.940/1982**.
+
+- O art. 2º contém criação histórica do CMN por substituição ao Conselho da SUMOC. A reprodução não recria órgãos nem reinicia competências da lei de 1964.
+
+- **Lei Complementar 179/2021** alterou autonomia do Banco Central e revogou vários dispositivos da Lei 4.595/1964, inclusive art. 3º incisos I a III, **não incluídos**; interface CF art. 192 e regulamentação do SFN exige gate de espécie e recepção.
+
+- Instrumentos de fiscalização, política monetária e supervisão precisam dos artigos posteriores, alterações e atos do CMN/Bacen; este recorte de 2 artigos não pretende regulamentar todo o sistema financeiro.
+
+- Ficha da Câmara indica DOU 31/12/1964 com suplemento e **retificação de 03/02/1965**; cotejo fac-símile e cadeia de alteradoras ainda pendentes, Q sem C0-J.
 
 ## T22 — T22.M01 [CLF-LIV-T22-LEI9610-ART1_4-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
@@ -2394,6 +2512,62 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Art. 3º III e VII integram política hídrica e eletroenergética após Lei 15.269/2025; portarias e concessões de energia ou outorga de água não se confundem.
 
 - Lei 9.433 contém vetos em outros artigos, inclusive incisos VI/VII do art. 7º, e DOU histórico 1997; não inserir dispositivos vetados como direito positivo. DOU em fac-símile não conferido.
+
+## T39 — T39.M01 [CLF-LIV-T39-AGF-ART1_3-R21; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T39 — Agricultura familiar — Lei 11.326/2006, arts. 1º–3º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 3 artigos de origem/17 unidades positivas em correspondência 1:1. **C0-J=0, M=0, DEC-016 pendente**, sem revogação ou renumeração definitiva. [Texto atualizado Câmara](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11326-24-julho-2006-544830-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11326.htm). DOU em fac-símile não conferido.
+
+**Arquivo de origem:** `modulos/T39/M01_ESPELHO_AGRIC_FAMILIAR_ART1_3_17_Q.csv`, Git blob SHA `ee5eaa30cc0a36438afc4d6049489074a7466b0f`.
+
+## Texto de origem Q
+
+**Art. 1.** Esta Lei estabelece os conceitos, princípios e instrumentos destinados à formulação das políticas públicas direcionadas à Agricultura Familiar e Empreendimentos Familiares Rurais.
+
+**Art. 2.** A formulação, gestão e execução da Política Nacional da Agricultura Familiar e Empreendimentos Familiares Rurais serão articuladas, em todas as fases de sua formulação e implementação, com a política agrícola, na forma da lei, e com as políticas voltadas para a reforma agrária.
+
+**Art. 3.** Para os efeitos desta Lei, considera-se agricultor familiar e empreendedor familiar rural aquele que pratica atividades no meio rural, atendendo, simultaneamente, aos seguintes requisitos:
+
+**I –** não detenha, a qualquer título, área maior do que 4 (quatro) módulos fiscais;
+
+**II –** utilize predominantemente mão-de-obra da própria família nas atividades econômicas do seu estabelecimento ou empreendimento;
+
+**III –** tenha percentual mínimo da renda familiar originada de atividades econômicas do seu estabelecimento ou empreendimento, na forma definida pelo Poder Executivo;
+
+**IV –** dirija seu estabelecimento ou empreendimento com sua família.
+
+**§ 1º** O disposto no inciso I do caput deste artigo não se aplica quando se tratar de condomínio rural ou outras formas coletivas de propriedade, desde que a fração ideal por proprietário não ultrapasse 4 (quatro) módulos fiscais.
+
+**§ 2º** São também beneficiários desta Lei:
+
+**I –** silvicultores que atendam simultaneamente a todos os requisitos de que trata o caput deste artigo, cultivem florestas nativas ou exóticas e que promovam o manejo sustentável daqueles ambientes;
+
+**II –** aqüicultores que atendam simultaneamente a todos os requisitos de que trata o caput deste artigo e explorem reservatórios hídricos com superfície total de até 2ha (dois hectares) ou ocupem até 500m³ (quinhentos metros cúbicos) de água, quando a exploração se efetivar em tanques-rede;
+
+**III –** extrativistas que atendam simultaneamente aos requisitos previstos nos incisos II, III e IV do caput deste artigo e exerçam essa atividade artesanalmente no meio rural, excluídos os garimpeiros e faiscadores;
+
+**IV –** pescadores que atendam simultaneamente aos requisitos previstos nos incisos I, II, III e IV do caput deste artigo e exerçam a atividade pesqueira artesanalmente;
+
+**V –** povos indígenas que atendam simultaneamente aos requisitos previstos nos incisos II, III e IV do caput do art. 3º;
+
+**VI –** integrantes de comunidades remanescentes de quilombos rurais e demais povos e comunidades tradicionais que atendam simultaneamente aos incisos II, III e IV do caput do art. 3º.
+
+**§ 3º** O Conselho Monetário Nacional - CMN pode estabelecer critérios e condições adicionais de enquadramento para fins de acesso às linhas de crédito destinadas aos agricultores familiares, de forma a contemplar as especificidades dos seus diferentes segmentos.
+
+**§ 4º** Podem ser criadas linhas de crédito destinadas às cooperativas e associações que atendam a percentuais mínimos de agricultores familiares em seu quadro de cooperados ou associados e de matéria-prima beneficiada, processada ou comercializada oriunda desses agricultores, conforme disposto pelo CMN.
+
+## Portas jurídicas, de vigência e competência — notas não normativas
+
+- Art. 3º exige preenchimento simultâneo dos quatro requisitos para a categoria do caput, e o § 2º elenca grupos também beneficiários sujeitos às condições legais específicas. O limite de quatro módulos fiscais não é regra geral que se aplica irrestritamente a todas as categorias do § 2º.
+
+- **Lei 12.512/2011** alterou o art. 3º inciso III e acrescentou incisos V/VI ao § 2º; **Lei 12.058/2009** acrescentou §§ 3º e 4º sobre crédito. Preservar as datas/efeitos e distinção entre enquadramento legal e concessão de crédito.
+
+- Art. 3º § 2º beneficia silvicultores, aquicultores, extrativistas, pescadores artesanais, indígenas e comunidades quilombolas/tradicionais; não eliminar medidas de proteção ambiental e direitos de povos tradicionais.
+
+- Art. 5º recebeu novos incisos XIII e XIV pela Lei 14.828/2024, fora do recorte; T38 recursos hídricos, T37 ambiente, T21 CMN e T29 previdência são interfaces distintas.
+
+- DOU 25/07/2006 e alteradoras sem inspeção de fac-símile; elegibilidade concreta depende de aplicação, documentos e atos normativos próprios.
 
 ## T41 — T41.M01 [CLF-LIV-T41-CTB-ART1_2-R19; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

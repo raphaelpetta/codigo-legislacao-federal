@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T02-R21",
+  "source_path": "modulos/T02/M01_ESPELHO_EST_IGUALDADE_RACIAL_ART1_2_9_Q.csv",
+  "source_blob_sha": "48a99fe276610a940c4376a7d896b15c563b0b85",
+  "view_path": "produto/vistas/T02_IGUALDADE_RACIAL_LEI12288_ART1_2_PREVIA_Q.md",
+  "count_expected": 9,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12288-20-julho-2010-607324-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "O art. 1º define discriminação étnico-racial, desigualdades e ações afirmativas; o art. 2º fixa dever compartilhado de garantir oportunidades. Nenhuma classificação documental altera proteção constitucional de igualdade nem autoriza discriminação.",
+    "O conceito de população negra do art. 1º parágrafo único, IV, menciona **autodeclaração** e referência ao IBGE. Regras particulares de concursos e avaliação têm legislação e jurisprudência próprias, não derivam automaticamente deste inciso.",
+    "Regras de saúde, educação, trabalho e quotas do Estatuto (arts. 3º e seguintes) não estão transcritas. Relações com T08, T33, T39 e T43 requerem análise de especialidade e dados pessoais.",
+    "A Lei 14.553/2023 alterou arts. 39 e 49, **fora da vista**; não atribuir ao recorte inicial efeitos desses acréscimos posteriores.",
+    "Fontes Câmara atualizada e Planalto; DOU 21/07/2010 e alteradoras não cotejados em fac-símile. Q e C0-J=0."
+  ]
+}

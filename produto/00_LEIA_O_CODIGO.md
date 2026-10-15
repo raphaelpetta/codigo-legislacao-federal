@@ -5,15 +5,17 @@
 
 ## Vista única gerada do corpus efetivamente integrado
 
-[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T03, T05, T07, T08, T09, T10 (LAI arts. 1º–3º), T11, T12, T14, T20 (CDC arts. 1º–5º), T22, T24, T25, T26, T27, T28, T29, T30, T31, T33, T35 (inovação art. 1º), T37, T38, T41, T42, T43, T45 (SUSP arts. 1º–3º) e T48**, com 19 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
+[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T02 (Estatuto Igualdade Racial arts. 1º–2º), T03, T05, T07, T08, T09, T10 (LAI arts. 1º–4º), T11, T12, T14, T20, T21 (Sistema Financeiro arts. 1º–2º), T22, T24, T25, T26, T27, T28, T29, T30, T31, T33, T35, T37, T38, T39 (Agricultura Familiar arts. 1º–3º), T41, T42, T43, T45 e T48**, com 16 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
 
-## Ponto de leitura: Código de Trabalho e quarenta e quatro componentes experimentais em vinte e nove títulos
+## Ponto de leitura: Código de Trabalho e quarenta e oito componentes experimentais em trinta e dois títulos
 
-**[Abrir Código de Trabalho unificado (T01 + T03 + T05 + T07 + T08 + T09 + T10 + T11 + T12 + T14 + T20 + T22 + T24 + T25 + T26 + T27 + T28 + T29 + T30 + T31 + T33 + T35 + T37 + T38 + T41 + T42 + T43 + T45 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
+**[Abrir Código de Trabalho unificado (T01 + T02 + T03 + T05 + T07 + T08 + T09 + T10 + T11 + T12 + T14 + T20 + T21 + T22 + T24 + T25 + T26 + T27 + T28 + T29 + T30 + T31 + T33 + T35 + T37 + T38 + T39 + T41 + T42 + T43 + T45 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
 
 **Parte I — Normas gerais**
 
 - [T01.M01 — LINDB arts. 2º–5º, 4 artigos/7 unidades Q](vistas/T01_LINDB_ART2_5_PREVIA_Q.md); [espelho 7×7](../modulos/T01/M01_ESPELHO_LINDB_ART2_5_7_Q.csv), [manifesto SHA](fontes/T01_M01_LINDB_7_R14_v1.json). Revogação, não repristinação, integração judicial e fins sociais. **Art. 1º ainda fora do recorte**, incluindo o § 2º **revogado em 2009**, que não foi somado como norma positiva; DOU 1942/1943, T23 e DEC-016 pendentes.
+
+- [T02.M01 — Estatuto da Igualdade Racial, arts. 1º–2º, **2 artigos/9 unidades Q**](vistas/T02_IGUALDADE_RACIAL_LEI12288_ART1_2_PREVIA_Q.md), [espelho](../modulos/T02/M01_ESPELHO_EST_IGUALDADE_RACIAL_ART1_2_9_Q.csv), [manifesto](fontes/T02_M01_EIR_9_R21_v1.json). Definições e ações afirmativas, sem alterar direitos nem substituir leis de cotas e proteção de dados.
 
 **Parte II — Federação e organização territorial**
 
@@ -45,6 +47,8 @@
 
 - [T10.M01 — LAI arts. 1º–3º, **3 artigos/12 unidades Q**](vistas/T10_LAI_ART1_3_PREVIA_Q.md), [espelho](../modulos/T10/M01_ESPELHO_LAI_ART1_3_12_Q.csv), [manifesto](fontes/T10_M01_LAI_12_R20_v1.json). Publicidade como regra e sigilo como exceção, transparência dos recursos públicos e proteção de dados pessoais.
 
+- [T10.M01 — LAI art. 4º, **1 artigo/10 unidades adicionais Q**](vistas/T10_LAI_ART4_PREVIA_Q.md), [espelho](../modulos/T10/M01_ESPELHO_LAI_ART4_10_Q.csv), [manifesto](fontes/T10_M01_LAI_10_R21_v1.json). Nove definições legais, inclusive informação pessoal e sigilosa, autenticidade/integridade/primariedade. **T10 total: arts. 1º–4º, 4 artigos/22 unidades Q.**
+
 **Parte IV — Relações privadas, consumidores e mercados**
 
 - [T20.M01 — CDC arts. 1º–3º, 3 artigos/6 unidades Q](vistas/T20_CDC_ART1_3_PREVIA_Q.md), [espelho 6×6](../modulos/T20/M01_ESPELHO_CDC_ART1_3_6_Q.csv), [manifesto SHA](fontes/T20_M01_CDC_6_R14_v1.json). Normas de ordem pública e interesse social; consumidor final, coletividade equiparada, fornecedor e serviços financeiros remunerados; relações trabalhistas excluídas da definição de serviço do § 2º. Interfaces T16/T21 e DOU/vetos sem homologação.
@@ -56,6 +60,8 @@
 - [T26.M01 — CPP arts. 2º–3º, **2 artigos/2 unidades Q**](vistas/T26_CPP_ART2_3_PREVIA_Q.md), [espelho](../modulos/T26/M01_ESPELHO_CPP_ART2_3_2_Q.csv), [manifesto SHA](fontes/T26_M01_CPP_2_R19_v1.json). Aplicação processual imediata e interpretação analógica; art. 1º histórico e arts. 3º-A e seguintes não integrados.
 
 - [T20.M01 — CDC art. 5º, **1 artigo/8 unidades adicionais Q**](vistas/T20_CDC_ART5_PREVIA_Q.md), [espelho](../modulos/T20/M01_ESPELHO_CDC_ART5_8_Q.csv), [manifesto](fontes/T20_M01_CDC_8_R20_v1.json). Instrumentos da política, incisos VI/VII Lei 14.181/2021, **§§1º–2º vetados fora das unidades positivas**. T20 total 5 artigos/29 unidades.
+
+- [T21.M01 — Sistema Financeiro Nacional, Lei 4.595/1964 arts. 1º–2º, **2 artigos/7 unidades Q**](vistas/T21_SFN_LEI4595_ART1_2_PREVIA_Q.md), [espelho](../modulos/T21/M01_ESPELHO_LEI4595_ART1_2_7_Q.csv), [manifesto](fontes/T21_M01_SFN_7_R21_v1.json). CMN/BCB/BNDES, denominações modificadas em 1967/1982 e mudanças de LC 179/2021 nos demais artigos, sem presumir reordenação do SFN.
 
 **Parte V — Direito Internacional Privado, Justiça e Sanções**
 - [Livro de Processo Civil — T24.M01, prévia contínua CPC 70–102: **33 artigos e 181 unidades Q**](vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md). Combina 106 unidades setoriais do PR #38 e [75 transcrições editoriais](fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv) em [manifesto de duas proveniências](fontes/T24_CPC_70_102_181_v1.json), com [verificador](../scripts/gerar_t24_cpc_181.py). O cotejo visual com a Câmara foi documentado, mas persistem revisão independente arquivada por extração e cotejo DOU; C0-J=0 e o CPC externo ao recorte não foi transposto.
@@ -95,6 +101,8 @@
 - [T42.M01 — LGT arts. 1º–3º, **3 artigos/24 unidades Q**](vistas/T42_LGT_ART1_3_PREVIA_Q.md), [espelho 24×24](../modulos/T42/M01_ESPELHO_LGT_ART1_3_24_Q.csv), [manifesto](fontes/T42_M01_LGT_24_R18_v1.json). Serviços de telecomunicações, inclusão digital (Lei 14.173/2021), direitos de usuários e transparência de tarifas (Lei 13.673/2018). Sigilo/privacidade e regimes especiais preservados.
 
 - [T41.M01 — CTB arts. 1º–2º, **2 artigos/7 unidades Q**](vistas/T41_CTB_ART1_2_PREVIA_Q.md), [espelho](../modulos/T41/M01_ESPELHO_CTB_ART1_2_7_Q.csv), [manifesto SHA](fontes/T41_M01_CTB_7_R19_v1.json). Trânsito seguro e responsabilidade, **art. 1º § 4º vetado excluído**, art. 2º parágrafo único conforme Lei 13.146/2015.
+
+- [T39.M01 — Agricultura Familiar, Lei 11.326/2006 arts. 1º–3º, **3 artigos/17 unidades Q**](vistas/T39_AGRICULTURA_FAMILIAR_ART1_3_PREVIA_Q.md), [espelho](../modulos/T39/M01_ESPELHO_AGRIC_FAMILIAR_ART1_3_17_Q.csv), [manifesto](fontes/T39_M01_AGF_17_R21_v1.json). Requisitos cumulativos, categorias beneficiárias e alterações Lei 12.058/2009 e Lei 12.512/2011; não confundir enquadramento legal com liberação automática de crédito.
 
 **Parte VII — Direito digital e dados pessoais**
 
@@ -138,6 +146,10 @@
 - **T24 setorial**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` confere as 106 unidades originais. **T24 integrado**: `python3 scripts/gerar_t24_cpc_181.py --check` confere os dois conjuntos, 33 artigos, 181 destinos, quatro marcos legislativos e hashes de blob; `--write` regenera apenas a vista contínua.
 - **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). Execuções anteriores do GitHub Actions exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
 - **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos dezesseis componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
+
+## Estado acumulado após rodada 21 — Igualdade racial, SFN, agricultura familiar, LAI
+
+**Corpus experimental Q:** **274 artigos de origem, 938 unidades textuais positivas +1 histórico T07** (939 registros de índice), **48 componentes em 32 de 48 títulos**, 16 títulos sem texto. Três frentes horizontais T02/T21/T39 e um recorte vertical T10 LAI4. **Gate CI P0 bloqueante:** jobs de diagnóstico do runner sem checkout e corpus reprovados, logs indisponíveis. C0-J=0, M=0, DEC-016 pendente; nenhuma revogação, renumeração definitiva ou merge.
 
 ## Estado acumulado após rodada 20 — LAI, inovação, SUSP e CDC
 
@@ -192,16 +204,18 @@
 | Objeto | Artigos visíveis na prévia | Unidades positivas | Unidade histórica | C0-J homologadas |
 |---|---:|---:|---:|---:|
 | T01 — LINDB (arts. 2º–5º) | 4 | 7 | 0 | 0 |
+| T02 — Estatuto Igualdade Racial (arts. 1º–2º) | 2 | 9 | 0 | 0 |
 | T03 — LC 140/2011 (arts. 1º–6º) | 6 | 25 | 0 | 0 |
 | T05 — Lei 9.709/1998 (arts. 1º–15; art. 15 com vigência histórica) | 15 | 30 | 0 | 0 |
 | T07 — Lei 9.784/1999 | 78 | 214 | 1 | 0 |
 | T08 — Lei 8.112/1990 (arts. 1º–5º) | 5 | 15 | 0 | 0 |
 | T09 — Lei 14.133/2021 (arts. 2º–3º) | 2 | 11 | 0 | 0 |
-| T10 — LAI (arts. 1º–3º) | 3 | 12 | 0 | 0 |
+| T10 — LAI (arts. 1º–4º) | 4 | 22 | 0 | 0 |
 | T11 — Lei 4.320/1964 (arts. 1º–2º) | 2 | 11 | 0 | 0 |
 | T12 — CTN (arts. 1º–8º) | 8 | 14 | 0 | 0 |
 | T14 — Código Civil (arts. 79–84) | 6 | 13 | 0 | 0 |
 | T20 — CDC (arts. 1º–5º) | 5 | 29 | 0 | 0 |
+| T21 — Lei 4.595/1964 (arts. 1º–2º) | 2 | 7 | 0 | 0 |
 | T22 — Lei 9.610/1998 (arts. 1º–4º) | 4 | 5 | 0 | 0 |
 | T24 — CPC (arts. 70–102 contínuos) | 33 | 181 | 0 | 0 |
 | T25 — CP (arts. 1º–14) | 14 | 49 | 0 | 0 |
@@ -215,13 +229,14 @@
 | T35 — Lei de Inovação (art. 1º) | 1 | 16 | 0 | 0 |
 | T37 — PNMA (arts. 1º–6º, redação vigente 2026) | 6 | 41 | 0 | 0 |
 | T38 — Lei 9.433/1997 (arts. 1º–3º) | 3 | 21 | 0 | 0 |
+| T39 — Lei 11.326/2006 (arts. 1º–3º) | 3 | 17 | 0 | 0 |
 | T41 — CTB (arts. 1º–2º) | 2 | 7 | 0 | 0 |
 | T42 — LGT (arts. 1º–3º) | 3 | 24 | 0 | 0 |
 | T43 — LGPD (arts. 1º–3º) | 3 | 16 | 0 | 0 |
 | T45 — SUSP (arts. 1º–3º) | 3 | 3 | 0 | 0 |
 | T48 — Lei 9.474/1997 (arts. 1º–37) | 37 | 68 | 0 | 0 |
-| **Total atual das vistas** | **266** | **895** | **1** | **0** |
+| **Total atual das vistas** | **274** | **938** | **1** | **0** |
 
-As 895 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
+As 938 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
 
 [Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

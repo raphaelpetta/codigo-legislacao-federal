@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T21-R21",
+  "source_path": "modulos/T21/M01_ESPELHO_LEI4595_ART1_2_7_Q.csv",
+  "source_blob_sha": "7876d9336c9fb8952333c7328503f122e55bc79b",
+  "view_path": "produto/vistas/T21_SFN_LEI4595_ART1_2_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4595-31-dezembro-1964-353886-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l4595.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Art. 1º enumera Conselho Monetário Nacional, Banco Central do Brasil, Banco do Brasil S.A., Banco Nacional de Desenvolvimento Econômico e Social e demais instituições financeiras. Denominações dos incisos II e IV foram atualizadas por **Decreto-Lei 278/1967 e Decreto-Lei 1.940/1982**.",
+    "O art. 2º contém criação histórica do CMN por substituição ao Conselho da SUMOC. A reprodução não recria órgãos nem reinicia competências da lei de 1964.",
+    "**Lei Complementar 179/2021** alterou autonomia do Banco Central e revogou vários dispositivos da Lei 4.595/1964, inclusive art. 3º incisos I a III, **não incluídos**; interface CF art. 192 e regulamentação do SFN exige gate de espécie e recepção.",
+    "Instrumentos de fiscalização, política monetária e supervisão precisam dos artigos posteriores, alterações e atos do CMN/Bacen; este recorte de 2 artigos não pretende regulamentar todo o sistema financeiro.",
+    "Ficha da Câmara indica DOU 31/12/1964 com suplemento e **retificação de 03/02/1965**; cotejo fac-símile e cadeia de alteradoras ainda pendentes, Q sem C0-J."
+  ]
+}

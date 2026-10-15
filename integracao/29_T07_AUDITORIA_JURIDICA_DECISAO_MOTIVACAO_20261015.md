@@ -36,7 +36,7 @@
 ## 3. Achados adversariais novos
 
 1. **Veto com granularidade diferente:** o módulo T07 possui seis agrupamentos históricos `V18-01…06`, mas o Congresso registra **nove unidades de votação 54.21.001–009** (três segmentos do §2º do 49-C com caput e incisos discriminados). Ambas contagens são corretas em suas respectivas unidades. A matriz `31` concilia essas contagens; nenhum veto é norma vigente.
-2. **Erro de representação estrutural da v4:** os incisos internos do §6º do 49-A foram impressos com marcadores do tipo `§ 6º, I` no corpo do art. `LPA-SEQ4-050`. A fonte tem **§6º seguido de incisos I, II, III**, cada um identificado como inciso subordinado, e não como três “§6º I”. **Corrigir na próxima revisão de legística, preservando ID estrutural**. Não se trata de reforma de mérito.
+2. **Erro de representação estrutural da v4:** os incisos internos do §6º do 49-A foram impressos com marcadores do tipo `§ 6º, I` no corpo do art. `LPA-SEQ4-050`. A fonte tem **§6º seguido de incisos I, II, III**, cada um identificado como inciso subordinado, e não como três “§6º I”. **O erro foi corrigido nesta mesma branch como errata puramente editorial, preservando os IDs estruturais e os textos das subunidades; validação automática específica foi adicionada.** Não se trata de reforma de mérito.
 3. **Lacuna de convocação:** a autoridade convocante é mencionada no 49-B, mas sua identificação/procedimento geral foram vetados. Não converter lacuna em permissão universal de qualquer interessado convocar.
 4. **Não confundir art.50 IV e 49-A §6 I:** a exclusão de licitações da **decisão coordenada** não remove o dever de motivação sobre dispensa/inexigibilidade da licitação.
 5. **Ato técnico x ato jurídico:** fundamentação mecânica do art.50 §2º não cria, por si, poder de automatizar decisão em desfavor do interessado nem presunção de ciência.
@@ -52,6 +52,6 @@
 
 ## 5. Encaminhamento executivo
 
-**Imediato:** corrigir representação editorial dos três incisos do §6º em ensaio seguinte; manter R0 até escolha de M1/M2 após auditoria de competência real e necessidade regulatória; exigir prova e concordância para as três mudanças de referente. **Próximos blocos:** arts.51–55 (autotutela e decadência) e 56–65 (recurso vs revisão), antes de rotular C0-J ou criar regra de revogação.
+**Imediato:** verificar a errata editorial já gravada dos três incisos do §6º; manter R0 até escolha de M1/M2 após auditoria de competência real e necessidade regulatória; exigir prova e concordância para as três mudanças de referente. **Próximos blocos:** arts.51–55 (autotutela e decadência) e 56–65 (recurso vs revisão), antes de rotular C0-J ou criar regra de revogação.
 
 **Registro:** `30_T07_MATRIZ_GATE_40_UNIDADES_20261015.csv`, `31_T07_VETOS_9_ITENS_CONGRESSO_20261015.csv`, `32_T07_ALTERNATIVAS_CONVOCACAO_ATA_20261015.md`, `33_T07_TESTES_ADVERSARIAIS_18_20261015.csv` e `34_T07_CONTINUIDADE_20261015.md`.

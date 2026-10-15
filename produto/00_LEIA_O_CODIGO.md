@@ -46,8 +46,8 @@
 - **T05**: `python3 scripts/gerar_previa_t05.py --check`, com sete unidades e hash da origem editorial local. A transposição documental mantém Q, e o conflito de grafia da publicação original da Lei 9.709 art. 2º segue pendente de DOU.
 - **T07**: `python3 scripts/gerar_produto_experimental.py --setorial-root setorial --check` (com o checkout de origem T07 declarado no manifesto); `--write` regenera somente a vista derivada.
 - **T24 setorial**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` confere as 106 unidades originais. **T24 integrado**: `python3 scripts/gerar_t24_cpc_181.py --check` confere os dois conjuntos, 33 artigos, 181 destinos, quatro marcos legislativos e hashes de blob; `--write` regenera apenas a vista contínua.
-- **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). As execuções GitHub Actions desta rodada exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
-- **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos quatro componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
+- **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). Execuções anteriores do GitHub Actions exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
+- **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos seis componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
 
 ## Estado acumulado após rodada 09
 
@@ -57,12 +57,13 @@
 
 | Objeto | Artigos visíveis na prévia | Unidades positivas | Unidade histórica | C0-J homologadas |
 |---|---:|---:|---:|---:|
-| T05 — Lei 9.709/1998 (arts. 1º–2º) | 2 | 7 | 0 | 0 |
+| T05 — Lei 9.709/1998 (arts. 1º–15; art. 15 com vigência histórica) | 15 | 30 | 0 | 0 |
 | T07 — Lei 9.784/1999 | 78 | 214 | 1 | 0 |
 | T24 — CPC (arts. 70–102 contínuos) | 33 | 181 | 0 | 0 |
 | T25 — CP (arts. 1º–12) | 12 | 39 | 0 | 0 |
+| T48 — Lei 9.474/1997 (arts. 1º–8º) | 8 | 17 | 0 | 0 |
 | **Total atual das vistas** | **146** | **481** | **1** | **0** |
 
-As 441 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
+As 481 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
 
 [Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

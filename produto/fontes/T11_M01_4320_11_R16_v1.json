@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T11-R16",
+  "source_path": "modulos/T11/M01_ESPELHO_LEI4320_ART1_2_11_Q.csv",
+  "source_blob_sha": "9af4f10d8086697ac3e5cc7760e292221c8be68c",
+  "view_path": "produto/vistas/T11_DIREITO_FINANCEIRO_LEI4320_ART1_2_PREVIA_Q.md",
+  "count_expected": 11,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm",
+  "source_commit": "0fe24ab4a66d14baf3c7b76c285168f807f98800",
+  "setorial_commit": "0fe24ab4a66d14baf3c7b76c285168f807f98800",
+  "source_kind": "CAMARA_ATUALIZADA_E_COTEJO_HTML_SEM_DOU",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "**Natureza e hierarquia:** Lei 4.320/1964 contém normas gerais de direito financeiro recebidas sob o sistema constitucional atual, inclusive reserva de lei complementar nas matérias da CF art. 165, § 9º. A compilação Q não uniformiza espécie, não altera iniciativa da lei orçamentária nem substitui LRF (LC 101/2000) e LC 200/2023.",
+    "**Art. 1º:** remissão literal ao art. 5º, XV, b, da Constituição anterior à CF 1988, preservada como dado histórico, sem tratá-la como base de competência atual.",
+    "**Art. 2º:** unidade, universalidade e anualidade e relação de quadros integrantes/que acompanham o orçamento (quatro incisos no § 1º e três no § 2º). Referências aos anexos da Lei de 1964 exigem preservação de vínculo com sua estrutura, não renumerar sem mapa.",
+    "**Art. 3º não incorporado:** contém parágrafo único acompanhado de histórico de veto e deliberação congressual em 1964; a identificação da redação promulgada e seus efeitos depende da cadeia DOU, e sua retirada desta rodada evita inferir vigência pelo HTML compilado.",
+    "**Temporalidade:** DOU 23/03/1964, retificação 09/04/1964 e 03/06/1964; art. 114 tem efeitos em 01/01/1964, **não** transfere eficácia retroativa ao futuro CLF; cotejo em fac-símile pendente.",
+    "O arquivo representa somente **2 artigos/11 unidades Q** de origem, sem aprovação C0-J, sem M ou DEC-016."
+  ]
+}

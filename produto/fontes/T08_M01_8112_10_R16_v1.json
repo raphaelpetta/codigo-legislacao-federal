@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T08-R16",
+  "source_path": "modulos/T08/M01_ESPELHO_LEI8112_ART5_10_Q.csv",
+  "source_blob_sha": "92eb6149a002e2a3c5df93770e925684bf582526",
+  "view_path": "produto/vistas/T08_RJU_LEI8112_ART5_PREVIA_Q.md",
+  "count_expected": 10,
+  "articles_expected": 1,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm",
+  "source_commit": "457c02f31c5d105882b190bcae48f0c32499faf7",
+  "setorial_commit": "457c02f31c5d105882b190bcae48f0c32499faf7",
+  "source_kind": "CAMARA_ATUALIZADA_E_COTEJO_HTML_SEM_DOU",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "**Art. 5º:** seis incisos de requisitos básicos de investidura e três parágrafos; não equivale a autorização para discriminação em concursos e não suplanta CF art. 37 e requisitos específicos previstos em lei.",
+    "**§ 2º:** a fonte legal usa expressão histórica 'pessoas portadoras de deficiência'; preservar literalmente sem reafirmá-la como terminologia recomendada. A legislação de direitos das pessoas com deficiência, sobretudo LBI Lei 13.146/2015 e regras de concursos atuais, exige auditoria de compatibilidade.",
+    "**§ 2º até 20%:** a reserva de vagas do RJU não autoriza ignorar percentuais mínimos, arredondamento, demais cotas e regras de concursos federais fixados por normas e precedentes posteriores.",
+    "**§ 3º:** professores, técnicos e cientistas estrangeiros em universidades e instituições federais científicas e tecnológicas, incluído pela Lei 9.515/1997; não eliminar exigências legais adicionais por generalização.",
+    "**Abrangência:** RJU servidores civis federais, não aplicar automaticamente a vínculo estadual, municipal ou celetista; ADI 2.135 e CF art. 37 são gates de recepção.",
+    "**Proveniência:** publicação Lei 8.112/1990, promulgações/republicações e Lei 9.515/1997 não autenticadas por fac-símile na rodada; C0-J=0, M=0, DEC-016 pendente."
+  ]
+}

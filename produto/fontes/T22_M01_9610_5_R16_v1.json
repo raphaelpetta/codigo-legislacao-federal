@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T22-R16",
+  "source_path": "modulos/T22/M01_ESPELHO_LEI9610_ART1_4_5_Q.csv",
+  "source_blob_sha": "ae5b3e01ab42fa838bf89929dc8e6ed6ce0e19bf",
+  "view_path": "produto/vistas/T22_DIREITOS_AUTORAIS_9610_ART1_4_PREVIA_Q.md",
+  "count_expected": 5,
+  "articles_expected": 4,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9610-19-fevereiro-1998-365399-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+  "source_commit": "d804b7013240f174d5c77b7c275e637dd8dcb472",
+  "setorial_commit": "d804b7013240f174d5c77b7c275e637dd8dcb472",
+  "source_kind": "CAMARA_ATUALIZADA_E_COTEJO_HTML_SEM_DOU",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "gates": [
+    "**Art. 1º:** direitos autorais abrangem direitos do autor e conexos, sem abranger automaticamente propriedade industrial regulada pela Lei 9.279/1996 nem softwares Lei 9.609/1998 fora das interfaces próprias.",
+    "**Art. 2º:** protege estrangeiros domiciliados no exterior nos termos de convenções, acordos e tratados em vigor; parágrafo único trata de reciprocidade. Não transformar esse texto em exclusão automática de proteção garantida por tratado ou Constituição.",
+    "**Art. 3º:** qualificação como bens móveis é legal e limitada aos efeitos pertinentes; não anula direitos morais e regimes de inalienabilidade (arts. 24–27 ainda não integrados).",
+    "**Art. 4º:** negócios jurídicos sobre direitos autorais são interpretados restritivamente. Nenhuma conclusão automática sobre cessão de software, obra sob encomenda, licenças digitais ou inteligência artificial sem regras especiais e contratos examinados.",
+    "Cotejo Câmara versão atualizada/Planalto realizado, DOU original 20/02/1998 e vetos 1998 ainda sem fac-símile examinado. C0-J=0, M=0, DEC-016 pendente."
+  ]
+}

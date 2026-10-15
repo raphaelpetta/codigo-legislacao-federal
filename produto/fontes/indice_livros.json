@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R15, 15/10/2026: 24 componentes em 14 títulos com 216 artigos e 681 unidades textuais documentais positivas de origem +1 histórico T07 (soma 682 registros). Horizontal: T09 Lei14133 art2-3 2/11 (art1 ausente), T12 CTN1-5 5/7 (lei de 1966 recebida com reserva material LC), T43 LGPD1-3 3/16 (art1PU e art3 II Lei13853/2019); vertical limitada T25 CP13-14 2/10 (total CP1-14 14/49). 34 títulos ainda vazios, nenhum C0-J/M homologado, DEC016 pendente, DOU histórico e efeitos intertemporais não certificados.",
+  "observacao": "R16 15/10/2026: 28 componentes em 17 dos 48 títulos, 226 artigos de origem, 713 unidades textuais documentais positivas +1 histórico T07 (714 total de registros do índice). Horizontal T11 Lei4320 arts1-2 2/11 (art3 veto e DOU pendente), T22 Lei9610 arts1-4 4/5, T31 Lei8080 arts1-3 3/6 (Lei12864/2013 art3), vertical T08 Lei8112 art5 +1/10, total T08 arts1-5 5/15. 31 títulos sem texto no Codigo. C0-J0 M0 DEC016 pendente revogacoes merges zero. Texto Q, DOU original e alteradoras pendentes.",
   "livros": [
     {
       "titulo": "T01",
@@ -86,6 +86,18 @@
       "proveniencia_adicional": "Lei8112 RJU arts1-4 exclusivos servidores civis federais, conceito cargo, exceção expressa à proibição serviço gratuito; ADI2135 e DOU1990/1991/1998 Q."
     },
     {
+      "titulo": "T08",
+      "modulo": "T08.M01",
+      "id": "CLF-LIV-T08-RJU-8112-ART5-R16",
+      "vista": "produto/vistas/T08_RJU_LEI8112_ART5_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T08_M01_8112_10_R16_v1.json",
+      "artigos": 1,
+      "registros_documentais": 10,
+      "origem_commit": "457c02f31c5d105882b190bcae48f0c32499faf7",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei8112 art5 6 requisitos e 3 paragrafos, §3 Lei9515/1997; terminologia deficiencia histórica; CF37 LBI, Q."
+    },
+    {
       "titulo": "T09",
       "modulo": "T09.M01",
       "id": "CLF-LIV-T09-14133-ART2_3-R15",
@@ -96,6 +108,18 @@
       "origem_commit": "7e6521827be24c65409fc2e8de76bb3e1bb10798",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei14133 arts2-3 escopo por contratações e exceções, art1 ainda ausente; regimes especiais concessões PPP e estatais Q; DOU2021 pendente."
+    },
+    {
+      "titulo": "T11",
+      "modulo": "T11.M01",
+      "id": "CLF-LIV-T11-LEI4320-ART1_2-R16",
+      "vista": "produto/vistas/T11_DIREITO_FINANCEIRO_LEI4320_ART1_2_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T11_M01_4320_11_R16_v1.json",
+      "artigos": 2,
+      "registros_documentais": 11,
+      "origem_commit": "0fe24ab4a66d14baf3c7b76c285168f807f98800",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei4320/1964 art1-2; 2 caputs e nove subunidades dos §§1,2 art2. Art3 excluido por gate veto1964; LC de normas gerais financeiras CF165§9 e LRF, DOU nao cotejado."
     },
     {
       "titulo": "T12",
@@ -120,6 +144,18 @@
       "origem_commit": "91ee45d894928b9697308a05e4cf0e6ac12cb0f4",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "CDC arts1-3, ordem publica, destinatario final, fornecedor e servicos bancarios/financeiros exclui trabalho, interface T16/T21, DOU veto/retificação Q."
+    },
+    {
+      "titulo": "T22",
+      "modulo": "T22.M01",
+      "id": "CLF-LIV-T22-LEI9610-ART1_4-R16",
+      "vista": "produto/vistas/T22_DIREITOS_AUTORAIS_9610_ART1_4_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T22_M01_9610_5_R16_v1.json",
+      "artigos": 4,
+      "registros_documentais": 5,
+      "origem_commit": "d804b7013240f174d5c77b7c275e637dd8dcb472",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei9610/1998 direitos autorais arts1-4, tratados reciprocidade e bens moveis interpretacao restritiva, interface T23/IP software sem absorver outros regimes, Q."
     },
     {
       "id": "CLF-LIV-T24-M01-CPC70-102-181-v1",
@@ -179,6 +215,18 @@
       "origem_commit": "8ddb9a39e70f2af3af66b72a120774693b539226",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "CLT art4 §2 oito incisos de atividades pessoais, art5 igualdade salarial e art6 subordinação telematica, versões Leis 13467/2017 e12551/2011, Q."
+    },
+    {
+      "titulo": "T31",
+      "modulo": "T31.M01",
+      "id": "CLF-LIV-T31-LEI8080-ART1_3-R16",
+      "vista": "produto/vistas/T31_SAUDE_LEI8080_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T31_M01_8080_6_R16_v1.json",
+      "artigos": 3,
+      "registros_documentais": 6,
+      "origem_commit": "74cfca96ed2cbf82944e37ded57b982c2983b3f1",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei8080/1990 saúde direito e determinantes art3 caput Lei12864/2013, 3 artigos/6 unidades, SUS organização art4 ainda fora, Q."
     },
     {
       "id": "CLF-LIV-T37-M01-6938-ART1-2-13-R10",

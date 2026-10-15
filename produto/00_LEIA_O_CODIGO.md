@@ -5,11 +5,11 @@
 
 ## Vista única gerada do corpus efetivamente integrado
 
-[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T03, T05, T07, T08, T09 (Lei 14.133 arts. 2º–3º), T12 (CTN arts. 1º–5º), T20, T24, T25 (CP arts. 1º–14), T28, T37, T43 (LGPD arts. 1º–3º) e T48**, com 34 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
+[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T03, T05, T07, T08 (Lei 8.112 arts. 1º–5º), T09, T11 (Lei 4.320 arts. 1º–2º), T12, T20, T22 (Lei 9.610 arts. 1º–4º), T24, T25, T28, T31 (Lei 8.080 arts. 1º–3º), T37, T43 e T48**, com 31 títulos sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
 
-## Ponto de leitura: Código de Trabalho e vinte e quatro componentes experimentais em quatorze títulos
+## Ponto de leitura: Código de Trabalho e vinte e oito componentes experimentais em dezessete títulos
 
-**[Abrir Código de Trabalho unificado (T01 + T03 + T05 + T07 + T08 + T09 + T12 + T20 + T24 + T25 + T28 + T37 + T43 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
+**[Abrir Código de Trabalho unificado (T01 + T03 + T05 + T07 + T08 + T09 + T11 + T12 + T20 + T22 + T24 + T25 + T28 + T31 + T37 + T43 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
 
 **Parte I — Normas gerais**
 
@@ -26,6 +26,8 @@
 - [T05.M06, democracia direta: Lei 9.709/1998 arts. 1º–2º, 2 artigos e 7 unidades Q](vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART1_2_PREVIA.md), [espelho 7×7](../modulos/T05/M06_ESPELHO_LEI9709_ART1_2_7_Q.csv), [manifesto](fontes/T05_M06_9709_7_v1.json) e [inventário dos seis módulos eleitorais](../modulos/T05/M00_INVENTARIO_SEIS_MODULOS_20261015.csv). [Dossiê de recepção constitucional e anualidade eleitoral 2026](../modulos/T05/NOTA_ABERTURA_2026_RECEPCAO_ANUALIDADE_20261015.md): a mudança do art. 5º do Código Eleitoral em 2026 não foi aplicável às eleições de 2026, segundo o TSE. O Código Eleitoral integral **não** foi transposto; os arts. 3º–15 da Lei 9.709 foram integrados **apenas como reprodução experimental Q**.
 
 **Parte III — Administração Pública e Finanças**
+- [T08.M01 — Lei 8.112/1990 art. 5º, **1 artigo/10 unidades Q adicionais**](vistas/T08_RJU_LEI8112_ART5_PREVIA_Q.md), [espelho 10×10](../modulos/T08/M01_ESPELHO_LEI8112_ART5_10_Q.csv), [manifesto SHA](fontes/T08_M01_8112_10_R16_v1.json). Seis incisos e três parágrafos de investidura; expressão legal histórica sobre deficiência não dispensa CF 37, LBI e cotas aplicáveis. **T08 total 5 artigos/15 unidades**.
+
 
 - [T08.M01 — Lei 8.112/1990, arts. 1º–4º, 4 artigos/5 unidades Q](vistas/T08_RJU_LEI8112_ART1_4_PREVIA_Q.md), [espelho 5×5](../modulos/T08/M01_ESPELHO_LEI8112_ART1_4_5_Q.csv) e [manifesto SHA](fontes/T08_M01_8112_5_R14_v1.json). Regime dos servidores civis **federais** (não estados ou municípios), cargo público, e exceção legal à vedação de prestação gratuita. Constituição art. 37, ADI 2.135, vetos/DOU1990/1991/1998 pendentes.
 - [Livro de Processo Administrativo Federal — T07.M03, prévia integral de 78 artigos](vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md). Proveniência: PR #45, fonte fixa, [manifesto](fontes/T07_M03_v4.json); 214 unidades positivas (203 C0-T local, 11 C1 potenciais/Q), 1 registro histórico, nenhuma unidade C0-J homologada.
@@ -35,9 +37,13 @@
 
 - [T12.M01 — CTN arts. 1º–5º, **5 artigos/7 unidades Q**](vistas/T12_CTN_ART1_5_PREVIA_Q.md), [espelho 7×7](../modulos/T12/M01_ESPELHO_CTN_ART1_5_7_Q.csv), [manifesto SHA](fontes/T12_M01_CTN_7_R15_v1.json). Definição legal de tributo e natureza específica, **recepção constitucional como normas gerais sob reserva material de LC**, preservadas remissões históricas à EC 18/1965. EC 132/2023 e reforma tributária de consumo exigem análise de temporalidade, não inserção tácita.
 
+- [T11.M01 — Lei 4.320/1964 arts. 1º–2º, **2 artigos/11 unidades Q**](vistas/T11_DIREITO_FINANCEIRO_LEI4320_ART1_2_PREVIA_Q.md), [espelho 11×11](../modulos/T11/M01_ESPELHO_LEI4320_ART1_2_11_Q.csv), [manifesto SHA](fontes/T11_M01_4320_11_R16_v1.json). Princípios orçamentários e anexos, norma geral com reserva constitucional de espécie conforme matéria; referência à Constituição anterior é histórica. **Art. 3º deliberadamente fora por auditoria de veto de 1964**, DOU e retificações pendentes.
+
 **Parte IV — Relações privadas, consumidores e mercados**
 
 - [T20.M01 — CDC arts. 1º–3º, 3 artigos/6 unidades Q](vistas/T20_CDC_ART1_3_PREVIA_Q.md), [espelho 6×6](../modulos/T20/M01_ESPELHO_CDC_ART1_3_6_Q.csv), [manifesto SHA](fontes/T20_M01_CDC_6_R14_v1.json). Normas de ordem pública e interesse social; consumidor final, coletividade equiparada, fornecedor e serviços financeiros remunerados; relações trabalhistas excluídas da definição de serviço do § 2º. Interfaces T16/T21 e DOU/vetos sem homologação.
+
+- [T22.M01 — Lei 9.610/1998 arts. 1º–4º, **4 artigos/5 unidades Q**](vistas/T22_DIREITOS_AUTORAIS_9610_ART1_4_PREVIA_Q.md), [espelho 5×5](../modulos/T22/M01_ESPELHO_LEI9610_ART1_4_5_Q.csv), [manifesto SHA](fontes/T22_M01_9610_5_R16_v1.json). Direitos autorais e conexos, proteção convencional, reciprocidade, bens móveis e interpretação restritiva; software e propriedade industrial requerem especialidade.
 
 **Parte V — Direito Internacional Privado, Justiça e Sanções**
 - [Livro de Processo Civil — T24.M01, prévia contínua CPC 70–102: **33 artigos e 181 unidades Q**](vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md). Combina 106 unidades setoriais do PR #38 e [75 transcrições editoriais](fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv) em [manifesto de duas proveniências](fontes/T24_CPC_70_102_181_v1.json), com [verificador](../scripts/gerar_t24_cpc_181.py). O cotejo visual com a Câmara foi documentado, mas persistem revisão independente arquivada por extração e cotejo DOU; C0-J=0 e o CPC externo ao recorte não foi transposto.
@@ -49,6 +55,8 @@
 - [T28.M01 — CLT, arts. 1º–3º, **3 artigos e 7 unidades Q**](vistas/T28_CLT_ART1_3_PREVIA_Q.md), [espelho 7×7](../modulos/T28/M01_ESPELHO_CLT_ART1_3_7_Q.csv) e [manifesto/hash](fontes/T28_M01_CLT_7_R11_v1.json). Distinção entre decreto-lei de aprovação e CLT, requisitos para relação de emprego, grupo econômico após a Lei 13.467/2017. **PEC 221/2019, fim da escala 6×1:** dois turnos aprovados no Senado em 14/10/2026; **sem promulgação comprovada em 15/10/2026**, portanto não altera a versão do Código como norma vigente. Sem C0-J.
 
 - [T28.M01 — CLT, arts. 4º–6º: 3 artigos/14 unidades Q adicionais](vistas/T28_CLT_ART4_6_PREVIA_Q.md), [espelho 14×14](../modulos/T28/M01_ESPELHO_CLT_ART4_6_14_Q.csv), [manifesto SHA](fontes/T28_M01_CLT_14_R14_v1.json). Tempo à disposição, oito incisos subordinados ao § 2º do art. 4º, igualdade remuneratória e subordinação por meios telemáticos. **Total T28: 6 artigos/21 unidades Q**. Controle Leis 12.551/2011, 13.467/2017 e 14.611/2023 pendente.
+
+- [T31.M01 — Lei 8.080/1990 arts. 1º–3º, **3 artigos/6 unidades Q**](vistas/T31_SAUDE_LEI8080_ART1_3_PREVIA_Q.md), [espelho 6×6](../modulos/T31/M01_ESPELHO_LEI8080_ART1_3_6_Q.csv), [manifesto SHA](fontes/T31_M01_8080_6_R16_v1.json). Saúde fundamental, políticas de acesso e determinantes de saúde conforme Lei 12.864/2013; SUS arts. 4º e seguintes e Lei 8.142/1990 permanecem fora da vista.
 
 **Parte VII — Território, ambiente e infraestrutura**
 
@@ -99,6 +107,10 @@
 - **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). Execuções anteriores do GitHub Actions exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
 - **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos dezesseis componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
 
+## Estado acumulado após rodada 16 — três frentes horizontais e auditoria temporal
+
+**Código documental experimental Q:** **226 artigos de origem / 713 unidades textuais positivas, mais um registro histórico T07**, em 28 componentes e 17 títulos. Aberturas T11 orçamento, T22 direitos autorais, T31 saúde; expansão contida T08 Lei 8.112 art. 5º. **31 títulos sem texto integrado**. Art. 3º da Lei 4.320/1964 não foi transcrito por requerer revisão do histórico de veto e promulgação, e não entra nos contadores. [Matriz atualizada](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv). **C0-J=0, M=0, DEC-016 pendente, revogação/merge=0.**
+
 ## Estado acumulado após rodada 15 — expansão horizontal multissetorial
 
 **Texto documental experimental Q, não ratificado:** **216 artigos de origem e 681 unidades positivas, mais um registro histórico T07** (682 registros no índice), em **24 componentes distribuídos por 14 dos 48 títulos**. Aberturas horizontais: T09 Lei 14.133 (2–3), T12 CTN (1–5) e T43 LGPD (1–3). Expansão vertical deliberadamente restrita: T25 CP (13–14). **34 títulos sem texto de lei integrado.** [Matriz reconciliada](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv); nenhuma C0-J homologada, nenhuma M aprovada, DEC-016 pendente e nenhum merge/revogação.
@@ -135,18 +147,21 @@
 | T03 — LC 140/2011 (arts. 1º–6º) | 6 | 25 | 0 | 0 |
 | T05 — Lei 9.709/1998 (arts. 1º–15; art. 15 com vigência histórica) | 15 | 30 | 0 | 0 |
 | T07 — Lei 9.784/1999 | 78 | 214 | 1 | 0 |
-| T08 — Lei 8.112/1990 (arts. 1º–4º) | 4 | 5 | 0 | 0 |
+| T08 — Lei 8.112/1990 (arts. 1º–5º) | 5 | 15 | 0 | 0 |
 | T09 — Lei 14.133/2021 (arts. 2º–3º) | 2 | 11 | 0 | 0 |
+| T11 — Lei 4.320/1964 (arts. 1º–2º) | 2 | 11 | 0 | 0 |
 | T12 — CTN (arts. 1º–5º) | 5 | 7 | 0 | 0 |
 | T20 — CDC (arts. 1º–3º) | 3 | 6 | 0 | 0 |
+| T22 — Lei 9.610/1998 (arts. 1º–4º) | 4 | 5 | 0 | 0 |
 | T24 — CPC (arts. 70–102 contínuos) | 33 | 181 | 0 | 0 |
 | T25 — CP (arts. 1º–14) | 14 | 49 | 0 | 0 |
 | T28 — CLT (arts. 1º–6º) | 6 | 21 | 0 | 0 |
+| T31 — Lei 8.080/1990 (arts. 1º–3º) | 3 | 6 | 0 | 0 |
 | T37 — PNMA (arts. 1º–6º, redação vigente 2026) | 6 | 41 | 0 | 0 |
 | T43 — LGPD (arts. 1º–3º) | 3 | 16 | 0 | 0 |
 | T48 — Lei 9.474/1997 (arts. 1º–37) | 37 | 68 | 0 | 0 |
-| **Total atual das vistas** | **216** | **681** | **1** | **0** |
+| **Total atual das vistas** | **226** | **713** | **1** | **0** |
 
-As 681 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
+As 713 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
 
 [Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

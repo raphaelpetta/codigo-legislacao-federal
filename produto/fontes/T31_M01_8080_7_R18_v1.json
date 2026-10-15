@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T31-R18",
+  "source_path": "modulos/T31/M01_ESPELHO_LEI8080_ART4_5_7_Q.csv",
+  "source_blob_sha": "4bc23e83d1479ec0c887d53a66558f2d80b1f10b",
+  "view_path": "produto/vistas/T31_SUS_LEI8080_ART4_5_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8080-19-setembro-1990-365093-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8080.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Art. 4º define SUS como conjunto federativo de ações e serviços públicos, incluindo instituições de insumos e medicamentos; §2º admite participação **complementar** de iniciativa privada, não equivalência ao regime de saúde suplementar de planos privados.",
+    "Art. 5º contém três objetivos com promoção/proteção/recuperação e prevenção integradas; não confundir rol do art. 5º com todas atribuições e competências do SUS previstas no art. 6º e seguintes.",
+    "Art. 6º teve alíneas atualizadas em 2023/2026, inclusive Lei 15.471/2026; **não foi transcrito** nesta rodada para preservar controle da cadeia temporal.",
+    "CF arts. 196–200, Lei 8.142/1990 e normas de financiamento/setoriais continuam interfaces separadas, sem federalizar órgãos estaduais e municipais.",
+    "DOU e alterações originais permanecem pendentes; ausência de C0-J e DEC-016 ainda sob deliberação."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T42-R18",
+  "source_path": "modulos/T42/M01_ESPELHO_LGT_ART1_3_24_Q.csv",
+  "source_blob_sha": "e28986b173017a20df9c3bf266eccacea28a46d0",
+  "view_path": "produto/vistas/T42_LGT_ART1_3_PREVIA_Q.md",
+  "count_expected": 24,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9472-16-julho-1997-367735-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l9472.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Art. 1º atribui à União organização dos serviços por intermédio do órgão regulador; o parágrafo único inclui redes, órbita e espectro. Não confundir telecomunicações com toda radiodifusão ou serviços postais de regimes distintos.",
+    "Art. 2º **inciso VII acrescido pela Lei 14.173/2021** prioriza conectividade e inclusão digital em estabelecimentos públicos de ensino; deve ser mantido como alteração posterior, não texto original de 1997.",
+    "Art. 3º contém doze direitos dos usuários e **parágrafo único acrescido pela Lei 13.673/2018**, incluindo divulgação de preços e reajustes em sítio eletrônico, com remissões à defesa do consumidor.",
+    "Sigilo de comunicações e privacidade do usuário (art. 3º V/IX) não autorizam acesso a dados sem fundamento constitucional e legal; conferir LGPD T43, regras de proteção de dados e jurisprudência.",
+    "Serviço prestado em regime público, regime privado e poderes da Anatel exigem artigos subsequentes e atos específicos; não aplicar a proteção do art. 3º VII indistintamente a todos os modelos de contrato.",
+    "DOU 17/07/1997 e alterações 2018/2021, inclusive Lei 15.324/2026 em outras disposições, não autenticados por fac-símile; C0-J=0."
+  ]
+}

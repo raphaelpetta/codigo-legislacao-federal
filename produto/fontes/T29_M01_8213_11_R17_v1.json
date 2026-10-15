@@ -2,11 +2,11 @@
   "schema_version": 1,
   "id": "CLF-LIV-T29-R17",
   "source_path": "modulos/T29/M01_ESPELHO_LEI8213_ART1_2_11_Q.csv",
-  "source_blob_sha": "600524864bc83a50f6c57f80b17bf9905eaf55f5",
+  "source_blob_sha": "c2744c9ec1e4d47b8930dac464b00d0b262dbcf9",
   "view_path": "produto/vistas/T29_PREVIDENCIA_LEI8213_ART1_2_PREVIA_Q.md",
   "count_expected": 11,
   "articles_expected": 2,
-  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2025/lei-15108-13-marco-2025-797167-normaatualizada-pl.html",
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html",
   "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
   "source_kind": "CAMARA_HTML_ATUALIZADA_COM_COTEJO_SEM_DOU_FACSIMILE",
   "dou_facsimile_checked": false,
@@ -20,5 +20,12 @@
     "Arts. 3º e 4º relativos ao CNPS e alterações de composição ficam fora deste bloco; art. 3º §5º contém revogação, não transcrever como positivo.",
     "Não equiparar rol de finalidades de 1991 à concessão administrativa presente nem à disciplina intertemporal da EC 103/2019; todo benefício depende de requisitos e cálculo específicos.",
     "Fonte institucional HTML atualizada, Lei 8.213/1991, sem cotejo integral com DOU/vetos/retificações e atos previdenciários posteriores; Q sem C0-J."
-  ]
+  ],
+  "provenance_correction_R18": {
+    "date": "2026-10-15",
+    "reason": "URL de Lei 15.108/2025 atribuído incorretamente à Lei 8.213/1991; corrigido a Câmara Lei 8.213/1991, texto atualizado",
+    "prior_blob_sha": "600524864bc83a50f6c57f80b17bf9905eaf55f5",
+    "source_text_changed": false,
+    "legal_status": "Q_SEM_C0_J"
+  }
 }

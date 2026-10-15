@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T30-R18",
+  "source_path": "modulos/T30/M01_ESPELHO_LOAS_ART1_2_11_Q.csv",
+  "source_blob_sha": "4642ff1e45006ed71565f46116bd2c6cac721c60",
+  "view_path": "produto/vistas/T30_LOAS_ART1_2_PREVIA_Q.md",
+  "count_expected": 11,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1993/lei-8742-7-dezembro-1993-363163-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8742.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Art. 1º descreve assistência como política de seguridade **não contributiva**: distinta do RGPS contributivo de T29, sem exigência de contribuições anteriores para acesso à proteção assistencial.",
+    "Art. 2º foi alterado pela Lei 12.435/2011: inciso I contém **cinco alíneas subordinadas**, incisos II e III são positivos; incisos IV e V **revogados em 2011 não foram incluídos como texto positivo**.",
+    "A menção ao benefício de um salário-mínimo do art. 2º I e não é concessão automática do BPC: condições de idade/deficiência, renda, critérios de avaliação, CadÚnico e leis posteriores estão no **art. 20 e seguintes**, fora do corpus.",
+    "A assistência se articula com o SUS, educação e previdência; preservam-se competências e financiamento federativos SUAS dos arts. 6º e seguintes, não transcritos.",
+    "DOU 08/12/1993, Lei 12.435/2011 e mudanças no BPC em 2024/2025 ainda precisam cotejo em imagem e revisão intertemporal."
+  ]
+}

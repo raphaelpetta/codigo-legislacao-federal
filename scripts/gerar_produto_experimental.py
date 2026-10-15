@@ -28,7 +28,7 @@ MANIFESTO = RAIZ / "produto/fontes/T07_M03_v4.json"
 
 def blob_sha(bytes_: bytes) -> str:
     """SHA do blob Git, nao SHA simples do arquivo."""
-    return hashlib.sha1(b"blob " + str(len(bytes_)).encode() + b"\\0" + bytes_).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(bytes_)).encode() + b"\0" + bytes_).hexdigest()
 
 
 def exigir(condicao: bool, mensagem: str) -> None:
@@ -63,14 +63,14 @@ def auditar(texto: str, concordancia: str, meta: dict) -> dict:
     classes = Counter(x["categoria_preliminar"] for x in positivas)
     exigir(classes == {"C0_T_APENAS": cont["c0_t_local"], "C1_POTENCIAL_Q": cont["c1_potencial_q"]},
            f"Classes preliminares inesperadas: {dict(classes)}")
-    artigos = re.findall(r"(?m)^\\*\\*Art\\. (LPA-SEQ4-\\d{3})\\.", texto)
+    artigos = re.findall(r"(?m)^\*\*Art\. (LPA-SEQ4-\d{3})\.", texto)
     exigir(len(artigos) == cont["artigos"] and len(set(artigos)) == len(artigos),
            "Quantidade de artigos ou IDs de artigo divergente")
     exigir(artigos == [f"LPA-SEQ4-{numero:03d}" for numero in range(1, len(artigos) + 1)],
            "Ordem dos artigos experimentais nao continua")
     artigos_de_destino = set()
     for registro in positivas:
-        m = re.match(r"^(LPA-SEQ4-\\d{3})-", registro["destino_experimental"])
+        m = re.match(r"^(LPA-SEQ4-\d{3})-", registro["destino_experimental"])
         exigir(m is not None, f"Destino positivo sem artigo identificavel: {registro['id_fonte']}")
         artigos_de_destino.add(m.group(1))
     exigir(artigos_de_destino == set(artigos), "Concordancia e texto divergem nos artigos destinatarios")
@@ -110,7 +110,7 @@ def main() -> int:
         delta = difflib.unified_diff(atual.decode("utf-8").splitlines(),
                                      gerado.splitlines(),
                                      fromfile="vista_committed", tofile="vista_gerada", lineterm="")
-        print("\\n".join(list(delta)[:65]), file=sys.stderr)
+        print("\n".join(list(delta)[:65]), file=sys.stderr)
         raise ValueError("DRIFT: a vista nao coincide com o commit setorial e o manifesto")
     print("OK: vista identica ao setorial fixado, sem homologacao juridica:",
           json.dumps(achados, ensure_ascii=False, sort_keys=True))

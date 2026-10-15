@@ -829,6 +829,27 @@ for path in sorted((ROOT / "modulos").glob("**/*.csv")):
         unique(recs, "id_teste", str(path.relative_to(ROOT)))
 
 
+# Overlay de frentes CLF: verifica referências e estado do recorte, não seu mérito.
+active_path = CAT / "04_FRENTES_EM_EXECUCAO.csv"
+active_rows = read_csv(active_path, {
+    "id_modulo", "recorte_com_trabalho_identificado", "maturidade_recorte",
+    "localizacao", "fonte_de_verificacao", "ressalva", "proximo_passo",
+})
+unique(active_rows, "id_modulo", "frentes_ativas")
+valid_stages = {
+    "NAO_EXAMINADO", "MAPEADO", "RECONSTRUIDO",
+    "PROPOSTO", "INTEGRADO_PROVISORIO", "AUDITADO_NO_RECORTE",
+}
+for n, row in enumerate(active_rows, 2):
+    if row["id_modulo"] not in module_ids:
+        fail(f"frentes_ativas:{n}: módulo desconhecido {row['id_modulo']}")
+    if row["maturidade_recorte"] not in valid_stages:
+        fail(f"frentes_ativas:{n}: maturidade inválida")
+    for field in ("recorte_com_trabalho_identificado", "localizacao",
+                  "fonte_de_verificacao", "ressalva", "proximo_passo"):
+        if not (row.get(field) or "").strip():
+            fail(f"frentes_ativas:{n}: falta {field}")
+
 if ISSUES:
     for issue in ISSUES:
         print(f"ERRO: {issue}", file=sys.stderr)

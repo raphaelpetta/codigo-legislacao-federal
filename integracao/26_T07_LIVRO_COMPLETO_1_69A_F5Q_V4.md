@@ -24,31 +24,31 @@ A concordância de cada registro está em `25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.
 
 **Parágrafo único.** Nos processos administrativos serão observados, entre outros, os critérios de:
 
-**PU-I –** atuação conforme a lei e o Direito;
+**I –** atuação conforme a lei e o Direito;
 
-**PU-II –** atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;
+**II –** atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;
 
-**PU-III –** objetividade no atendimento do interesse público, vedada a promoção pessoal de agentes ou autoridades;
+**III –** objetividade no atendimento do interesse público, vedada a promoção pessoal de agentes ou autoridades;
 
-**PU-IV –** atuação segundo padrões éticos de probidade, decoro e boa-fé;
+**IV –** atuação segundo padrões éticos de probidade, decoro e boa-fé;
 
-**PU-V –** divulgação oficial dos atos administrativos, ressalvadas as hipóteses de sigilo previstas na Constituição;
+**V –** divulgação oficial dos atos administrativos, ressalvadas as hipóteses de sigilo previstas na Constituição;
 
-**PU-VI –** adequação entre meios e fins, vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público;
+**VI –** adequação entre meios e fins, vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público;
 
-**PU-VII –** indicação dos pressupostos de fato e de direito que determinarem a decisão;
+**VII –** indicação dos pressupostos de fato e de direito que determinarem a decisão;
 
-**PU-VIII –** observância das formalidades essenciais à garantia dos direitos dos administrados;
+**VIII –** observância das formalidades essenciais à garantia dos direitos dos administrados;
 
-**PU-IX –** adoção de formas simples, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados;
+**IX –** adoção de formas simples, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados;
 
-**PU-X –** garantia dos direitos à comunicação, à apresentação de alegações finais, à produção de provas e à interposição de recursos, nos processos de que possam resultar sanções e nas situações de litígio;
+**X –** garantia dos direitos à comunicação, à apresentação de alegações finais, à produção de provas e à interposição de recursos, nos processos de que possam resultar sanções e nas situações de litígio;
 
-**PU-XI –** proibição de cobrança de despesas processuais, ressalvadas as previstas em lei;
+**XI –** proibição de cobrança de despesas processuais, ressalvadas as previstas em lei;
 
-**PU-XII –** impulsão, de ofício, do processo administrativo, sem prejuízo da atuação dos interessados;
+**XII –** impulsão, de ofício, do processo administrativo, sem prejuízo da atuação dos interessados;
 
-**PU-XIII –** interpretação da norma administrativa da forma que melhor garanta o atendimento do fim público a que se dirige, vedada aplicação retroativa de nova interpretação.
+**XIII –** interpretação da norma administrativa da forma que melhor garanta o atendimento do fim público a que se dirige, vedada aplicação retroativa de nova interpretação.
 
 ## II. Direitos e deveres
 
@@ -487,3 +487,5 @@ Lei 9.784/1999 art.70, id `C19-70-C`: «Esta Lei entra em vigor na data de sua p
 Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas de veto somente constam de matrizes do módulo T07. Os termos de 1999, 2006, 2009 e 2021 conservam sua cronologia original, não recomeçada nesta minuta.
 
 **Errata editorial registrada em 15/10/2026:** os incisos I–III subordinados ao §6º do art. LPA-SEQ4-050 tiveram seus marcadores corrigidos de `§ 6º, I/II/III` para `I/II/III`, sem mudança de texto-fonte, ordem, alcance jurídico, IDs de proveniência ou qualquer homologação.
+
+**Errata exclusivamente editorial (15/10/2026, rodada 11):** no art. LPA-SEQ4-002, os incisos I–XIII do parágrafo único passaram a ser indicados por seus marcadores legislativos `I –` a `XIII –`, substituindo `PU-I` a `PU-XIII`. Nenhum caput/inciso foi alterado em seu conteúdo, remissões/IDs da matriz 215 foram preservados e não ocorreu homologação jurídica.

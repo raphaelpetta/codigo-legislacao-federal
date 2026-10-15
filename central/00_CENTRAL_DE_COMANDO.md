@@ -42,3 +42,14 @@ O resultado pretendido é UM corpus codificado contínuo, organizado em Partes/L
 5. **Interfaces CF:** M07/M06 ↔ T07/T43, e M00/M03/M14 ↔ T01/DEC-016. Encaminhar à issue CF #103 só as dependências de substância.
 
 [Central CF](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103) · [Plano diretor CLF PR #46](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/46).
+
+---
+
+## Rodada 01 — entrega verificavel (15/10/2026)
+
+A auditoria de todos os 48 titulos, cruzando o indice da `main`, a vista do PR #49, as frentes PRs #45/#38/#32/#41/#43 e o mapa de 48 fontes-ancora do PR #50, esta documentada em [02_AUDITORIA_GLOBAL_RODADA01_20261015.md](02_AUDITORIA_GLOBAL_RODADA01_20261015.md) e [01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv](01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv).
+
+**Ponto de controle:** 6 titulos com pesquisa setorial diretamente evidenciada, 42 sem PR setorial individual demonstrado nesta auditoria; apenas T07 tem vista integral. A matriz de origem do PR #45 tem 215 IDs, sendo 203 C0-T locais, 11 C1 potenciais/Q, 1 historico, **zero C0-J**. A vista passou por cotejo textual integral e recebeu [manifesto Git](../produto/fontes/T07_M03_v4.json), [gerador](../scripts/gerar_produto_experimental.py) e workflow documental. A CI de Actions deste corte falhou sem etapas observaveis e **nao esta certificada**.
+
+**Fila reavaliavel:** P0 T07 integridade e 11 C1; P1 T24/T25 transformacao em novos Livros, T29/T43 recortes de garantia e T01 DEC-016 paralela; P2 T12/T05/T28/T37 como abertura horizontal; nenhuma alteracao M aprovada ou merge. [Issue #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) permanece central executiva, interface [CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).
+

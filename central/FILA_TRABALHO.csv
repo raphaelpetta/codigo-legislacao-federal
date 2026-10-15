@@ -1,0 +1,7 @@
+id,modulo,recorte,estado,prioridade,responsavel,branch,pr,base_sha,reserva_ate,dependencias,criterio_aceite,ultima_entrega
+CLF-OPS-001,OPS,Diagnosticar falhas CI e validar offline gerador experimental T07,PRONTA,P0,,,,,,,Registrar teste estrutural e integridade com origem SHA fixado,
+CLF-OPS-002,OPS,Reconciliar PR46 e PR49 e harmonizar corpus gerado,PRONTA,P0,,,,,,,Plano executivo sem duplicacoes ou fusao de decisoes,
+CLF-T07-001,T07.M03,Conferir os 11 pontos C1 potenciais e especialidades T07 PR45,PRONTA,P1,,,,,,,Destino e justificativa por efeito com Q explicito e fonte versionada,
+CLF-T24-001,T24.M01,Converter recorte PR38 em segundo Livro experimental,PRONTA,P1,,,,,,,"Fonte CPC e texto com concordancia e salvaguardas, sem homologar",
+CLF-T05-001,T05,Iniciar inventario oficial de um titulo sem Livro com PR50,PRONTA,P1,,,,,,,Universo e corte declarados; atos oficiais e unidades sem porcentagem ficticia,
+CLF-T25-001,T25.M01,Reconciliar PR32 em primeiro nucleo penal de trabalho,PRONTA,P1,,,,,,,Legalidade e unidade de efeito com texto condicional e fontes primarias,

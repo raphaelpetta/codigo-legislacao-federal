@@ -4,6 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 python3 scripts/verificar_estrutura.py
 python3 scripts/controle_operacional.py --check
+python3 -m unittest discover -s tests -p 'test_controle_operacional.py' -v
 python3 scripts/gerar_codigo_integrado.py --check
 if [[ $# -lt 1 ]]; then
   echo "PARCIAL: T07 NAO CONFERIDO. Informe caminho do checkout setorial no SHA do manifesto:" >&2
@@ -28,4 +29,3 @@ if [[ -f produto/fontes/T25_CP1_12_v1.json ]]; then
   python3 scripts/gerar_previa_t25.py --setorial-root "$3" --check
 fi
 echo "OK DOCUMENTAL LOCAL CLF (sem certificacao de equivalencia juridica)."
-python3 -m unittest discover -s tests -p 'test_controle_operacional.py' -v

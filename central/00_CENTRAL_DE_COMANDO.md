@@ -53,3 +53,15 @@ A auditoria de todos os 48 titulos, cruzando o indice da `main`, a vista do PR #
 
 **Fila reavaliavel:** P0 T07 integridade e 11 C1; P1 T24/T25 transformacao em novos Livros, T29/T43 recortes de garantia e T01 DEC-016 paralela; P2 T12/T05/T13/T28/T37/T48 como abertura horizontal; nenhuma alteracao M aprovada ou merge. [Issue #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) permanece central executiva, interface [CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).
 
+## Rodada 02 — corpus com dois componentes e nova frente civil (15/10/2026)
+
+[Relatório completo FEITO/PENDENTE/PRÓXIMO](04_RODADA02_C0_T24_T13_20261015.md) · [Entrada do Código experimental](../produto/00_LEIA_O_CODIGO.md).
+
+**Deltas efetivos:**
+- [T07 — 11 pontos C1 com efeitos e alternativas](03_T07_GATE_C1_11_EFEITOS_20261015.csv), cinco críticos, três altos e três editoriais baixos, todos Q.
+- [T24 — segundo Livro em vista PARCIAL](../produto/vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md): 17 artigos/106 unidades (CPC 70–81 e 98–102), manifesto e SHA fixos, concordância 1:1, gerador e validação documental. Nenhum C0-J.
+- [T13 — novo inventário civil](../modulos/T13/M01/INVENTARIO_CC_ART1_5_20261015.csv): 19 posições, 16 positivas e três históricas revogadas, interfaces LBI/T24; ainda sem vista.
+- [Quadro corrigido](QUADRO_PRODUTO.csv): separa artigos e subunidades para impedir confusão de cardinalidades; total de **95 artigos visíveis / 320 unidades positivas Q nos dois recortes**, 0 C0-J. Pesquisa material demonstrada agora em sete títulos (T01, T07, T13, T24, T25, T29 e T43), sem alegar exaustividade dos outros 41.
+- **CI GitHub Actions segue sem comprovação:** workflows de T07/T24 e integridade falham sem etapas visíveis; executar/checkar fora da CI e diagnosticar conta/runner antes do merge.
+
+**Próxima seleção dinâmica:** complementar CPC 82–97 (art.85 integral), testar T07 art.69/1 e remissões, abrir terceiro Livro setorial T25, avançar T13 e interfaces de T43. Nenhuma norma aprovada ou reestruturação definitiva.

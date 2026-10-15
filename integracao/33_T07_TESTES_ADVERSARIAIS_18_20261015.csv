@@ -1,0 +1,19 @@
+id,cenario_hipotetico,resultado_condicional,base_e_ressalva,dispositivos,estado_prova
+A01,Três setores envolvidos mas não há discordância que retarde a decisão,INAPLICAVEL_COORDENADA,Dois requisitos cumulativos do art49-A I e II ausentes,49-A C/I/II,TESTE_NORMATIVO_NAO_CASO_REAL
+A02,Ministério federal + tribunal federal na função administrativa,INAPLICAVEL_COORDENADA,"49-A §6 III veda autoridades de Poderes distintos, apesar de 1º §1º",49-A P6 III,TESTE_NORMATIVO_NAO_CASO_REAL
+A03,Processo de licitação ou sancionador com quatro órgãos e tema relevante,INAPLICAVEL_COORDENADA,Exclusões expressas 49-A §6 I/II; dever motivar 50 IV permanece,49-A P6 I/II;50 IV,TESTE_NORMATIVO_NAO_CASO_REAL
+A04,Ata registra maioria favorável apesar de decisão negativa de órgão legalmente competente,NAO_SUPRE_COMPETENCIA,49-A §4 e 49-G VI preservam decisão de cada participante,49-A P4;49-G VI,TESTE_NORMATIVO_NAO_CASO_REAL
+A05,Troca de 'desta Lei' por 'deste Código' abrange processo penal e judicial,AMPLIACAO_BLOQUEADA,Delimitação por Livro específica; referência a todo CLF é outra matéria,49-A P1,TESTE_NORMATIVO_NAO_CASO_REAL
+A06,Um órgão assina ata sem autoridade originária para decidir,CONVOCACAO_NAO_VALIDA_DECISAO_POR_SI,Veto 49-A §2 não transforma participante em competente,49-A P4;49-G VI,TESTE_NORMATIVO_NAO_CASO_REAL
+A07,Ouvinte não obtém direito a voz na reunião,NAO_NULIDADE_AUTOMATICA,49-B PU admite voz facultativa; demais direitos participativos seguem no processo,49-B C/PU,TESTE_NORMATIVO_NAO_CASO_REAL
+A08,Indeferimento de participação de ouvinte invocado para impedir recurso da decisão final,EXTENSAO_INDEVIDA,Irrecorribilidade textual restringe-se à deliberação de participação na reunião,49-B PU,TESTE_NORMATIVO_NAO_CASO_REAL
+A09,"Sistema envia aviso, mas não prova ciência por meio permitido",NAO_PRESUMIR_CIENCIA,Art26 Lei9784 e regimes especiais dependem de efetividade jurídica da intimação,49-D C,TESTE_NORMATIVO_NAO_CASO_REAL
+A10,Órgão registra decisão em ata sem fundamentação acessível,INSUFICIENCIA_MOTIVACAO,"49-G P1,50 P1/P3 e LINDB20/21; art49G P2 vetado",49-G P1;50 P1/P3,TESTE_NORMATIVO_NAO_CASO_REAL
+A11,Extrato DOU não identifica onde obter a ata integral,PUBLICIDADE_INCOMPLETA,"49-G §3 exige dados identificadores, órgão e local da ata",49-G P3,TESTE_NORMATIVO_NAO_CASO_REAL
+A12,Ato desfavorável usa template genérico sem fundamentos do caso,RISCO_ALTO_INVALIDADE,50 I/II e §2 impedem prejuízo a direitos; verificar fato e motivação concreta,50 I/II/P2,TESTE_NORMATIVO_NAO_CASO_REAL
+A13,Decisão per relationem a parecer não incorporado ou incoerente,MOTIVACAO_NAO_DEMONSTRADA,"50 §1 exige clareza, congruência e fundamento integrante; Súmula674 apenas PAD",50 VII/P1,TESTE_NORMATIVO_NAO_CASO_REAL
+A14,Algoritmo concede/nega automaticamente tratamento em lote sem controlar prejuízo,NAO_AUTORIZADO_POR_50_P2,"Texto fala em reprodução mecânica de fundamentos, não dispensa controle dos direitos e lei digital",50 P2,TESTE_NORMATIVO_NAO_CASO_REAL
+A15,Reunião envolve matéria nova não anunciada na convocação,REABRIR_PROCEDIMENTO_SE_NECESSARIO,49-F PU veda matéria estranha ao objeto; redelimitação é proposta M,49-F PU,TESTE_NORMATIVO_NAO_CASO_REAL
+A16,Ata trata orientação como vinculante para futuro caso similar,SEM_VINCULACAO_AUTOMATICA,49-G §2 vetado mantido e art30 LINDB tem instrumentos próprios,49-G IV/V/VI,TESTE_NORMATIVO_NAO_CASO_REAL
+A17,"Dissenso não documentado, mas ata declara consenso",RISCO_FIDELIDADE_E_MOTIVACAO,"49-F C e 49-G incisos exigem dissenso, fundamentos e decisões autônomas",49-F C;49-G I-VI,TESTE_NORMATIVO_NAO_CASO_REAL
+A18,Demora de 60 dias após instrução sem motivação de prorrogação,PRAZO_GERAL_NAO_COMPROVADO,49 prevê 30 dias e prorrogação por igual período expressamente motivada; conferir especiais,49 C,TESTE_NORMATIVO_NAO_CASO_REAL

@@ -102,3 +102,14 @@ Consultar o [plano de integracao PR #46/#49, T07 e T24](06_PLANO_INTEGRACAO_GOVE
 - **Controle operacional:** fila marca T24-001/002 em revisão Q e T24-003 com cotejo DOU/precedentes pendente. A execução de CI e a certificação C0-J **não** foram presumidas. Reserva concorrente T13 preservada; PR49 segue draft e DEC-016 pendente.
 
 **Próxima rodada:** auditar independentemente 75 transcrições e marcos 2022/2025, remissões e jurisprudência; consolidar gates CP/T07; abrir título horizontal T05 ou outro título subrepresentado por fonte oficial.
+
+## Rodada 05 — T05 estreia e T24 ganha cotejo visual oficial (15/10/2026)
+
+[Relatório com FEITO/PENDENTE/PRÓXIMO](12_RODADA05_T05_CPC_REVISAO_20261015.md) · [Código de Trabalho](../produto/CODIGO_DE_TRABALHO.md) · [Painel dos 48 títulos](PAINEL_GERADO.csv).
+
+- **T05, Parte II**: [6 módulos inventariados](../modulos/T05/M00_INVENTARIO_SEIS_MODULOS_20261015.csv) e [primeira vista em T05.M06](../produto/vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART1_2_PREVIA.md): Lei 9.709/1998 arts.1–2, **2 artigos/7 unidades Q**, fontes TSE/Planalto, [manifesto SHA](../produto/fontes/T05_M06_9709_7_v1.json). Não é Código Eleitoral nem Lei 9.709 inteira.
+- **Risco constitucional eleitoral**: [nota T05 CF16/Lei15.358](../modulos/T05/NOTA_ABERTURA_2026_RECEPCAO_ANUALIDADE_20261015.md). TSE decidiu em 23/04/2026 pela **inaplicabilidade às eleições 2026** das restrições eleitorais incluídas em março pela Lei 15.358/2026. CE art.5º I/II antecede CF/1988 e não foi recepcionado nas hipóteses indicadas pelo TSE. Controlar separadamente texto publicado, recepção constitucional e aplicabilidade ao pleito. Grafia do art.2º Lei9709 diverge entre Câmara original (`formulares`) e TSE/Planalto (`formuladas`); DOU pendente.
+- **T24**: [75 leituras comparativas com CPC Câmara atualizado](11_T24_COTEJO_VISUAL_75_CAMARA_20261015.csv), nenhuma divergência aparente; **não** prova DOU, cadeia temporal, equivalência C0-J ou execução de teste Python.
+- **Produto integrado**: quatro componentes T05/T07/T24/T25, **125 artigos e 441 unidades positivas textuais +1 histórica**, zero C0-J; DEC-001 mantida, DEC-016 pendente; nenhuma M ratificada ou merge. Fila T05.M01 P1 em abertura, T13 permanece com reserva de outro executor.
+
+**PRÓXIMO**: auditoria CE art.5/71 e eficácia 2026, ampliação Lei9709 3–15 e validação DOU art2; auditoria robusta CPC75/DOU/precedentes; T25/T07 por efeitos, expansão horizontal equilibrada.

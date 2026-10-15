@@ -92,3 +92,19 @@ Versão, data, fontes adicionadas, decisões assumidas, alterações, responsáv
 **Controle:** vincular decisões ao registro central; se o projeto constitucional estiver envolvido, vincular à interface sem presumir aprovação da hipótese constitucional.
 
 Consultar `governanca/13_DIRETRIZES_PESQUISA_E_MODERNIZACAO.md` e não confundir sua natureza de proposta com direito vigente ou regra metodológica já homologada.
+
+## 13. Encerramento do recorte e progresso do corpus (adendo operacional)
+
+**Universo de fontes/dispositivos efetivamente conferidos e data:**  
+**Unidades fora do recorte ou A_VERIFICAR:**  
+**Estado técnico:** NAO_EXAMINADO / MAPEADO / RECONSTRUIDO / PROPOSTO / INTEGRADO_PROVISORIO / AUDITADO_NO_RECORTE  
+**Risco material por efeito (R1/R2/R3):**  
+**Dispositivos/garantias e destino efetivamente auditados:**  
+**Impacto constitucional e espécies/iniciativa:**  
+**Corpus experimental proposto e vínculo de concordância:**  
+**Positivação formal sob CF/1988 ou CF alternativa (se pertinente):**  
+**Fato/precedente capaz de inverter preferência; exame adicional focal:**  
+**Próxima saída:** APTO_PARA_PROPOR / PESQUISA_FOCAL / DEPENDENCIA_MATERIAL / INVARIANTE_EXECUTAVEL / SUBMETER_ESCOLHA  
+**Teste adversarial e revisão independente de alto risco:**  
+
+Um recorte auditado não constitui módulo integralmente auditado, tampouco aprova uma reforma M ou comprova DEC-016.

@@ -5,11 +5,11 @@
 
 ## Vista única gerada do corpus efetivamente integrado
 
-[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T03, T05, T07, T08, T09, T11, T12 (CTN arts. 1º–8º), T20, T22, T24, T25, T28, T29 (Lei 8.213 arts. 1º–2º), T31, T33 (LDB arts. 1º–3º), T37, T38 (Lei 9.433 arts. 1º–3º), T43 e T48**, com 28 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
+[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T03, T05, T07, T08, T09, T11, T12, T20, T22, T24, T25, T27 (LEP arts. 1º–3º), T28, T29, T30 (LOAS arts. 1º–2º), T31 (Lei 8.080 arts. 1º–5º), T33, T37, T38, T42 (LGT arts. 1º–3º), T43 e T48**, com 25 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
 
-## Ponto de leitura: Código de Trabalho e trinta e dois componentes experimentais em vinte títulos
+## Ponto de leitura: Código de Trabalho e trinta e seis componentes experimentais em vinte e três títulos
 
-**[Abrir Código de Trabalho unificado (T01 + T03 + T05 + T07 + T08 + T09 + T11 + T12 + T20 + T22 + T24 + T25 + T28 + T29 + T31 + T33 + T37 + T38 + T43 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
+**[Abrir Código de Trabalho unificado (T01 + T03 + T05 + T07 + T08 + T09 + T11 + T12 + T20 + T22 + T24 + T25 + T27 + T28 + T29 + T30 + T31 + T33 + T37 + T38 + T42 + T43 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
 
 **Parte I — Normas gerais**
 
@@ -52,6 +52,8 @@
 
 - [T25.M01 — Código Penal arts. 13–14, **2 artigos/10 unidades Q adicionais**](vistas/T25_CP_ART13_14_PREVIA_Q.md), [espelho 10×10](../modulos/T25/M01_ESPELHO_CP_ART13_14_10_Q.csv), [manifesto SHA](fontes/T25_M01_CP_10_R15_v1.json). Causalidade, posição de garantidor e tentativa; § 2º do art. 13 contém três alíneas subordinadas, sem responsabilidade penal objetiva. **Total T25: 14 artigos/49 unidades Q.**
 
+- [T27.M01 — Lei de Execução Penal arts. 1º–3º, **3 artigos/5 unidades Q**](vistas/T27_LEP_ART1_3_PREVIA_Q.md), [espelho 5×5](../modulos/T27/M01_ESPELHO_LEP_ART1_3_5_Q.csv), [manifesto](fontes/T27_M01_LEP_5_R18_v1.json). Objetivos, jurisdição e direitos de condenados/internados, com regras para presos provisórios e sem ampliar competências especiais.
+
 **Parte VI — Trabalho e relações laborais**
 
 - [T28.M01 — CLT, arts. 1º–3º, **3 artigos e 7 unidades Q**](vistas/T28_CLT_ART1_3_PREVIA_Q.md), [espelho 7×7](../modulos/T28/M01_ESPELHO_CLT_ART1_3_7_Q.csv) e [manifesto/hash](fontes/T28_M01_CLT_7_R11_v1.json). Distinção entre decreto-lei de aprovação e CLT, requisitos para relação de emprego, grupo econômico após a Lei 13.467/2017. **PEC 221/2019, fim da escala 6×1:** dois turnos aprovados no Senado em 14/10/2026; **sem promulgação comprovada em 15/10/2026**, portanto não altera a versão do Código como norma vigente. Sem C0-J.
@@ -66,6 +68,10 @@
 
 - [T38.M01 — Política de recursos hídricos, Lei 9.433/1997 arts. 1º–3º, **3 artigos/21 unidades Q**](vistas/T38_RECURSOS_HIDRICOS_9433_ART1_3_PREVIA_Q.md), [espelho 21×21](../modulos/T38/M01_ESPELHO_LEI9433_ART1_3_21_Q.csv), [manifesto SHA](fontes/T38_M01_9433_21_R17_v1.json). Água pública, prioridade em escassez, gestão participativa e mudanças Lei 15.269/2025 em objetivos e integração eletroenergética.
 
+- [T30.M01 — LOAS arts. 1º–2º, **2 artigos/11 unidades Q**](vistas/T30_LOAS_ART1_2_PREVIA_Q.md), [espelho 11×11](../modulos/T30/M01_ESPELHO_LOAS_ART1_2_11_Q.csv), [manifesto](fontes/T30_M01_LOAS_11_R18_v1.json). Assistência **não contributiva**, objetivos da proteção, vigilância e defesa; art. 2º IV–V revogados não reproduzidos como positivos; BPC art. 20 fora.
+
+- [T31.M01 — Lei 8.080/1990 arts. 4º–5º, **2 artigos/7 unidades adicionais Q**](vistas/T31_SUS_LEI8080_ART4_5_PREVIA_Q.md), [espelho 7×7](../modulos/T31/M01_ESPELHO_LEI8080_ART4_5_7_Q.csv), [manifesto](fontes/T31_M01_8080_7_R18_v1.json). SUS federativo, participação privada complementar e objetivos de promoção/proteção/recuperação; **T31 total arts. 1º–5º, 5 artigos/13 unidades Q**.
+
 **Parte VII — Território, ambiente e infraestrutura**
 
 - [T37.M01 — Política Nacional do Meio Ambiente, Lei 6.938/1981 arts. 1º–2º, 2 artigos e 13 unidades Q](vistas/T37_PNMA_ART1_2_PREVIA_Q.md); [espelho 13×13](../modulos/T37/M01_ESPELHO_PNMA_ART1_2_13_Q.csv) e [manifesto](fontes/T37_M01_6938_13_R10_v1.json). **Inciso XI acrescido pela Lei 15.512/2026**, publicado em 23/09/2026 e vigente desde então: prioridade para crianças e adolescentes no acesso à natureza. O texto de origem é reprodução da versão **atualizada** da Câmara, com cotejo do Planalto, não da versão de 1981. Preservadas as palavras e a remissão constitucional do art. 1º; nenhum C0-J, DOU fac-símile e recepção CF ainda pendentes.
@@ -73,6 +79,8 @@
 - [T37.M01 — Lei 6.938/1981, arts. 3º–4º, **2 artigos e 19 unidades Q adicionais**](vistas/T37_PNMA_ART3_4_PREVIA_Q.md), [espelho 19×19](../modulos/T37/M01_ESPELHO_PNMA_ART3_4_19_Q.csv) e [manifesto](fontes/T37_M01_6938_19_R11_v1.json). Poluição tem cinco alíneas integrantes da definição, não cinco ilícitos autônomos; art. 3º IV inclui poluidor direto/indireto; art. 4º sete objetivos e competências federativas. **Total T37: 4 artigos/32 unidades Q**, sem ampliação de competência ou saneamento textual tácito.
 
 - [T37.M01 — PNMA, arts. 5º–6º, **2 artigos/9 unidades Q adicionais**](vistas/T37_PNMA_ART5_6_PREVIA_Q.md), [espelho 9×9](../modulos/T37/M01_ESPELHO_PNMA_ART5_6_9_Q.csv) e [manifesto](fontes/T37_M01_6938_9_R12_v1.json). SISNAMA: Conselho de Governo, CONAMA, órgão central, IBAMA/ICMBio, órgãos seccionais estaduais e locais municipais. **Inciso I alterado pela Lei 15.190/2025, art. 63, vigência após 180 dias**; não usar redação original. **Total T37: 6 artigos/41 unidades documentais Q**.
+
+- [T42.M01 — LGT arts. 1º–3º, **3 artigos/24 unidades Q**](vistas/T42_LGT_ART1_3_PREVIA_Q.md), [espelho 24×24](../modulos/T42/M01_ESPELHO_LGT_ART1_3_24_Q.csv), [manifesto](fontes/T42_M01_LGT_24_R18_v1.json). Serviços de telecomunicações, inclusão digital (Lei 14.173/2021), direitos de usuários e transparência de tarifas (Lei 13.673/2018). Sigilo/privacidade e regimes especiais preservados.
 
 **Parte VII — Direito digital e dados pessoais**
 
@@ -114,6 +122,10 @@
 - **T24 setorial**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` confere as 106 unidades originais. **T24 integrado**: `python3 scripts/gerar_t24_cpc_181.py --check` confere os dois conjuntos, 33 artigos, 181 destinos, quatro marcos legislativos e hashes de blob; `--write` regenera apenas a vista contínua.
 - **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). Execuções anteriores do GitHub Actions exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
 - **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos dezesseis componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
+
+## Estado acumulado após rodada 18 — execução penal, assistência e telecomunicações
+
+**Código experimental Q:** **247 artigos, 819 unidades documentais textuais positivas +1 histórico T07** (820 registros brutos), **36 componentes em 23 títulos**, 25 títulos sem texto. Novas frentes T27 LEP, T30 LOAS, T42 LGT; ampliação restrita T31 SUS. **Correção transversal T29:** a referência anterior apontava incorretamente à Lei 15.108/2025; substituída pela fonte institucional oficial da **Lei 8.213/1991**, com manifesto/hash corrigidos, sem alteração textual. **C0-J=0, M=0, DEC-016 pendente; revogação/merge=0.**
 
 ## Estado acumulado após rodada 17 — previdência, educação e recursos hídricos
 
@@ -167,16 +179,19 @@
 | T22 — Lei 9.610/1998 (arts. 1º–4º) | 4 | 5 | 0 | 0 |
 | T24 — CPC (arts. 70–102 contínuos) | 33 | 181 | 0 | 0 |
 | T25 — CP (arts. 1º–14) | 14 | 49 | 0 | 0 |
+| T27 — LEP (arts. 1º–3º) | 3 | 5 | 0 | 0 |
 | T28 — CLT (arts. 1º–6º) | 6 | 21 | 0 | 0 |
 | T29 — Lei 8.213/1991 (arts. 1º–2º) | 2 | 11 | 0 | 0 |
-| T31 — Lei 8.080/1990 (arts. 1º–3º) | 3 | 6 | 0 | 0 |
+| T30 — LOAS (arts. 1º–2º) | 2 | 11 | 0 | 0 |
+| T31 — Lei 8.080/1990 (arts. 1º–5º) | 5 | 13 | 0 | 0 |
 | T33 — LDB (arts. 1º–3º) | 3 | 20 | 0 | 0 |
 | T37 — PNMA (arts. 1º–6º, redação vigente 2026) | 6 | 41 | 0 | 0 |
 | T38 — Lei 9.433/1997 (arts. 1º–3º) | 3 | 21 | 0 | 0 |
+| T42 — LGT (arts. 1º–3º) | 3 | 24 | 0 | 0 |
 | T43 — LGPD (arts. 1º–3º) | 3 | 16 | 0 | 0 |
 | T48 — Lei 9.474/1997 (arts. 1º–37) | 37 | 68 | 0 | 0 |
-| **Total atual das vistas** | **237** | **772** | **1** | **0** |
+| **Total atual das vistas** | **247** | **819** | **1** | **0** |
 
-As 772 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
+As 819 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
 
 [Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

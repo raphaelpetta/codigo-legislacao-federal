@@ -11,4 +11,12 @@ if [[ $# -lt 1 ]]; then
   exit 2
 fi
 python3 scripts/gerar_produto_experimental.py --setorial-root "$1" --check
+if [[ -f produto/fontes/T24_M01_106_v1.json ]]; then
+  if [[ $# -lt 2 ]]; then
+    echo "PARCIAL: T24 NAO CONFERIDO. Use os checkouts de origem T07 e T24:" >&2
+    echo "  bash scripts/validar_operacao_local.sh /checkout-PR45 /checkout-PR38" >&2
+    exit 2
+  fi
+  python3 scripts/gerar_previa_t24.py --setorial-root "$2" --check
+fi
 echo "OK DOCUMENTAL LOCAL CLF (sem certificacao de equivalencia juridica)."

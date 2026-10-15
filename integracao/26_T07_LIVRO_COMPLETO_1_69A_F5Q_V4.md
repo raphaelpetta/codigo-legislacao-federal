@@ -290,11 +290,11 @@ A concordância de cada registro está em `25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.
 
 **§ 6º** Não se aplica a decisão coordenada aos processos administrativos:
 
-**§ 6º, I –** de licitação;
+**I –** de licitação;
 
-**§ 6º, II –** relacionados ao poder sancionador; ou
+**II –** relacionados ao poder sancionador; ou
 
-**§ 6º, III –** em que estejam envolvidas autoridades de Poderes distintos.
+**III –** em que estejam envolvidas autoridades de Poderes distintos.
 
 **Art. LPA-SEQ4-051.** Poderão habilitar-se a participar da decisão coordenada, na qualidade de ouvintes, os interessados de que trata o art. 9º deste Livro.
 
@@ -485,3 +485,5 @@ A concordância de cada registro está em `25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.
 Lei 9.784/1999 art.70, id `C19-70-C`: «Esta Lei entra em vigor na data de sua publicação.» Guardado como `HIST-LEI9784-ART70`; jamais tratado como artigo de vigência futura do CLF.
 
 Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas de veto somente constam de matrizes do módulo T07. Os termos de 1999, 2006, 2009 e 2021 conservam sua cronologia original, não recomeçada nesta minuta.
+
+**Errata editorial registrada em 15/10/2026:** os incisos I–III subordinados ao §6º do art. LPA-SEQ4-050 tiveram seus marcadores corrigidos de `§ 6º, I/II/III` para `I/II/III`, sem mudança de texto-fonte, ordem, alcance jurídico, IDs de proveniência ou qualquer homologação.

@@ -94,3 +94,7 @@ Depois do piloto: T01.M03 (redação), T01.M05 (publicação e versões), T01.M0
 - qualidade jurídica de cada dispositivo, vigência atualizada e direito comparado setorial.
 
 **Estado operacional apto a iniciar módulos** não equivale a eliminar essas questões. Elas devem alimentar o inventário, não bloquear toda a pesquisa.
+
+## 9. Interpretação não serial das etapas e gestão antitravamento (proposta de 15/10/2026)
+
+O roteiro F0–F9 do item 3 é um **conjunto de controles e portas de qualidade**, não exigência de que os 273 módulos esperem fase anterior de todos os outros. Trabalhos de cobertura, reconstrução, corpus experimental e auditoria podem avançar em paralelo quando explicitados recorte, status C0/C1/M/Q e dependências. Sem fonte oficial validada, é lícito organizar o universo documental, mas não declarar vigência/equivalência. Sem DEC-016, desenvolver o corpus único condicional, mas não afirmar promulgação formal. O quadro de atividades e os gatilhos de reavaliação encontram-se em [CLF-GOV-020](../governanca/20_EXECUCAO_CAMADAS_E_AUDITORIA.md) e [CLF-OPS-021](21_PLANO_DIRETOR_EXECUCAO.md). Fase de pesquisa de um recorte só se encerra com incertezas relevantes, direitos, fontes e possibilidade de inversão da recomendação explicitados; não se exige investigação indeterminada, tampouco se permite falsa validação jurídica.

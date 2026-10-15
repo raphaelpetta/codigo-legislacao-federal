@@ -44,6 +44,64 @@
 
 - ADI 4.757/2012 referida no cadastro da Câmara exige controle de efeitos interpretativos da LC 140 e das normas supervenientes de licenciamento (Lei 15.190/2025 e Lei 15.228/2025).
 
+## T03 — T03.M01 [CLF-LIV-T03-LC140-ART4-6-15-R13; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T03 — Instrumentos de cooperação federativa — LC 140/2011, arts. 4º–6º
+
+> **PREVIEW DOCUMENTAL Q, NÃO RATIFICADO.** 3 artigos e 15 unidades textuais de origem, sem renumeração futura, C0-J=0 e M=0. Fonte [Planalto LC 140, 2011](https://planalto.gov.br/ccivil_03/leis/lcp/lcp140.htm); verificação institucional complementar [fonte paralela](https://www2.camara.leg.br/legin/fed/leicom/2011/leicomplementar-140-8-dezembro-2011-611919-publicacaooriginal-134506-pl.html). DOU em fac-símile ainda pendente; não equiparar transcrição Q a promulgação do CLF.
+
+**Fonte imutável:** `modulos/T03/M01_ESPELHO_LC140_ART4_6_15_Q.csv` · Git blob SHA `ee3c7b1fb356c956ad8005371d7e4ae6a0a6674c`.
+
+## Texto de origem — sem adaptação editorial de remissões
+
+**Art. 4.** Os entes federativos podem valer-se, entre outros, dos seguintes instrumentos de cooperação institucional:
+
+**I –** consórcios públicos, nos termos da legislação em vigor;
+
+**II –** convênios, acordos de cooperação técnica e outros instrumentos similares com órgãos e entidades do Poder Público, respeitado o art. 241 da Constituição Federal;
+
+**III –** Comissão Tripartite Nacional, Comissões Tripartites Estaduais e Comissão Bipartite do Distrito Federal;
+
+**IV –** fundos públicos e privados e outros instrumentos econômicos;
+
+**V –** delegação de atribuições de um ente federativo a outro, respeitados os requisitos previstos nesta Lei Complementar;
+
+**VI –** delegação da execução de ações administrativas de um ente federativo a outro, respeitados os requisitos previstos nesta Lei Complementar.
+
+**§ 1º** Os instrumentos mencionados no inciso II do caput podem ser firmados com prazo indeterminado.
+
+**§ 2º** A Comissão Tripartite Nacional será formada, paritariamente, por representantes dos Poderes Executivos da União, dos Estados, do Distrito Federal e dos Municípios, com o objetivo de fomentar a gestão ambiental compartilhada e descentralizada entre os entes federativos.
+
+**§ 3º** As Comissões Tripartites Estaduais serão formadas, paritariamente, por representantes dos Poderes Executivos da União, dos Estados e dos Municípios, com o objetivo de fomentar a gestão ambiental compartilhada e descentralizada entre os entes federativos.
+
+**§ 4º** A Comissão Bipartite do Distrito Federal será formada, paritariamente, por representantes dos Poderes Executivos da União e do Distrito Federal, com o objetivo de fomentar a gestão ambiental compartilhada e descentralizada entre esses entes federativos.
+
+**§ 5º** As Comissões Tripartites e a Comissão Bipartite do Distrito Federal terão sua organização e funcionamento regidos pelos respectivos regimentos internos.
+
+**Art. 5.** O ente federativo poderá delegar, mediante convênio, a execução de ações administrativas a ele atribuídas nesta Lei Complementar, desde que o ente destinatário da delegação disponha de órgão ambiental capacitado a executar as ações administrativas a serem delegadas e de conselho de meio ambiente.
+
+**Parágrafo único.** Considera-se órgão ambiental capacitado, para os efeitos do disposto no caput, aquele que possui técnicos próprios ou em consórcio, devidamente habilitados e em número compatível com a demanda das ações administrativas a serem delegadas.
+
+**Art. 6.** As ações de cooperação entre a União, os Estados, o Distrito Federal e os Municípios deverão ser desenvolvidas de modo a atingir os objetivos previstos no art. 3º e a garantir o desenvolvimento sustentável, harmonizando e integrando todas as políticas governamentais.
+
+## Portas jurídicas de integridade — comentário não normativo
+
+- **LC 140 art. 4º:** enumera instrumentos não exaustivos, com consórcios, convênios, comissões paritárias, fundos e delegações. Referência ao art. 241 da CF e requisitos federativos de cooperação não podem ser eliminados.
+
+- **Art. 4º §§2–5:** formação paritária das comissões é elemento de composição jurídico-federativa; não converter a relação em órgãos subordinados à União ou atribuições de licenciamento unilateralmente federalizadas.
+
+- **Art. 4º V/VI versus art. 5º:** a lei distingue delegação de atribuições e da execução de ações administrativas; o art. 5º exige convênio e órgão ambiental destinatário capacitado **e** conselho de meio ambiente. Capacidade depende de técnicos próprios ou em consórcio, habilitados e suficientes para a demanda.
+
+- **Art. 4º §1º:** convênios e instrumentos indicados no inciso II podem ter prazo indeterminado; não estender essa regra automaticamente a toda delegação, sem verificar legislação especial, convênio e competência.
+
+- **Art. 6º:** cooperação articula políticas e objetivos do art. 3º, mas não transforma atuação **subsidiária** em atuação **supletiva** e não suprime competência original dos entes.
+
+- **Escopo pendente:** LC 140 art. 7º e seguintes (União, estados, DF, municípios, critérios de licenciamento e substituição) ainda fora da vista; ADI 4757 STF, Lei 15.190/2025 e alterações de regime dependem de teste por efeito.
+
+- **Espécie:** norma de lei **complementar** preservada, qualquer migração legislativa formal ao CLF depende de DEC-016 e reserva constitucional, não se promove por simples concatenação.
+
+- **Validação:** fonte Planalto LC 140 com cotejo Câmara/Senado disponível; DOU original/retificação de 2011 não cotejado em fac-símile; Q sem C0-J.
+
 ## T05 — T05.M06 [CLF-LIV-T05-M06-9709-ART1-2-7-v1; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # CLF — Livro de Participação Política e Democracia Direta (T05.M06), prévia parcial
@@ -1517,3 +1575,67 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Cotejar Lei 13.445/2017 e tratados sobre confidencialidade, proteção contra devolução e devido processo, particularmente tensão entre exclusões art. 3º, art. 7º §2º, art. 32 e art. 37, que ainda estão fora do núcleo.
 
 - Texto-fonte Câmara **publicação original** em HTML; DOU 23/07/1997 não autenticado em fac-símile nem retificações. C0-T permanece documental Q, C0-J zero.
+
+## T48 — T48.M03 [CLF-LIV-T48-LEI9474-ART22-37-16-R13; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T48 — Procedimento, recurso, não devolução, extradição e expulsão — Lei 9.474/1997 arts. 22–37
+
+> **PREVIEW DOCUMENTAL Q, NÃO RATIFICADO.** 16 artigos e 16 unidades textuais de origem, sem renumeração futura, C0-J=0 e M=0. Fonte [Câmara, original de 1997](https://www2.camara.leg.br/legin/fed/lei/1997/lei-9474-22-julho-1997-365390-publicacaooriginal-1-pl.html); verificação institucional complementar [fonte paralela](https://www.planalto.gov.br/ccivil_03/leis/l9474.htm). DOU em fac-símile ainda pendente; não equiparar transcrição Q a promulgação do CLF.
+
+**Fonte imutável:** `modulos/T48/M03_ESPELHO_REFUGIO_ART22_37_16_Q.csv` · Git blob SHA `b29898db0e070a97adcbe60a4896b6428c0b3b5e`.
+
+## Texto de origem — sem adaptação editorial de remissões
+
+**Art. 22.** Enquanto estiver pendente o processo relativo à solicitação de refúgio, ao peticionário será aplicável a legislação sobre estrangeiros, respeitadas as disposições específicas contidas nesta Lei.
+
+**Art. 23.** A autoridade competente procederá a eventuais diligências requeridas pelo CONARE, devendo averiguar todos os fatos cujo conhecimento seja conveniente para uma justa e rápida decisão, respeitando sempre o princípio da confidencialidade.
+
+**Art. 24.** Finda a instrução, a autoridade competente elaborará, de imediato, relatório, que será enviado ao Secretário do CONARE, para inclusão na pauta da próxima reunião daquele Colegiado.
+
+**Art. 25.** Os intervenientes nos processos relativos às solicitações de refúgio deverão guardar segredo profissional quanto às informações a que terão acesso no exercício de suas funções.
+
+**Art. 26.** A decisão pelo reconhecimento da condição de refugiado será considerada ato declaratório e deverá estar devidamente fundamentada.
+
+**Art. 27.** Proferida a decisão, o CONARE notificará o solicitante e o Departamento de Polícia Federal, para as medidas administrativas cabíveis.
+
+**Art. 28.** No caso de decisão positiva, o refugiado será registrado junto ao Departamento de Polícia Federal, devendo assinar termo de responsabilidade e solicitar cédula de identidade pertinente.
+
+**Art. 29.** No caso de decisão negativa, esta deverá ser fundamentada na notificação ao solicitante, cabendo direito de recurso ao Ministro de Estado da Justiça, no prazo de quinze dias, contados do recebimento da notificação.
+
+**Art. 30.** Durante a avaliação do recurso, será permitido ao solicitante de refúgio e aos seus familiares permanecer no território nacional, sendo observado o disposto nos §§ 1º e 2º do art. 21 desta Lei.
+
+**Art. 31.** A decisão do Ministro de Estado da Justiça não será passível de recurso, devendo ser notificada ao CONARE, para ciência do solicitante, e ao Departamento de Polícia Federal, para as providências devidas.
+
+**Art. 32.** No caso de recusa definitiva de refúgio, ficará o solicitante sujeito à legislação de estrangeiros, não devendo ocorrer sua transferência para o seu país de nacionalidade ou de residência habitual, enquanto permanecerem as circunstâncias que põem em risco sua vida, integridade física e liberdade, salvo nas situações determinadas nos incisos III e IV do art. 3º desta Lei.
+
+**Art. 33.** O reconhecimento da condição de refugiado obstará o seguimento de qualquer pedido de extradição baseado nos fatos que fundamentaram a concessão de refúgio.
+
+**Art. 34.** A solicitação de refúgio suspenderá, até decisão definitiva, qualquer processo de extradição pendente, em fase administrativa ou judicial, baseado nos fatos que fundamentaram a concessão de refúgio.
+
+**Art. 35.** Para efeito do cumprimento do disposto nos arts. 33 e 34 desta Lei, a solicitação de reconhecimento como refugiado será comunicada ao órgão onde tramitar o processo de extradição.
+
+**Art. 36.** Não será expulso do território nacional o refugiado que esteja regularmente registrado, salvo por motivos de segurança nacional ou de ordem pública.
+
+**Art. 37.** A expulsão de refugiado do território nacional não resultará em sua retirada para país onde sua vida, liberdade ou integridade física possam estar em risco, e apenas será efetivada quando da certeza de sua admissão em país onde não haja riscos de perseguição.
+
+## Portas jurídicas de integridade — comentário não normativo
+
+- **Arts. 22–25:** a referência histórica à legislação de estrangeiros não autoriza reintroduzir a Lei 6.815/1980 revogada pela Lei 13.445/2017; preservar as regras específicas de proteção do refugiado e o dever de sigilo, sem divulgar dados ao Estado alegadamente perseguidor.
+
+- **Arts. 26–28:** reconhecimento é ato declaratório fundamentado. Comunicações e registro perante a Polícia Federal são consequências distintas; não confundir reconhecimento, publicação, identificação e efeito territorial.
+
+- **Art. 29:** decisão negativa motivada e notificada, com recurso ao Ministro da Justiça no prazo literal de 15 dias a partir da notificação; verificar atos posteriores de rito, suspensão e prazos, antes de adotar calendário operativo.
+
+- **Art. 30:** o requerente e familiares podem permanecer no país durante análise do recurso; não autoriza remoção antecipada. Cruzar art. 21 e Lei 13.445/2017.
+
+- **Art. 31:** a expressão legal 'não será passível de recurso' trata da sequência administrativa específica, não exclui controle jurisdicional (CF art. 5º XXXV), habeas corpus ou medidas protetivas.
+
+- **Art. 32:** a exceção textual por remissão ao art. 3º, III–IV, não constitui autorização irrestrita de devolução a território onde exista tortura ou ameaça séria à integridade e à vida. Confrontar Convenção de 1951, art. 33, CAT art. 3, CADH art. 22, Lei 13.445/2017 arts. 49/55 e devido processo.
+
+- **Arts. 33–35:** obstáculo à extradição fundada nos mesmos fatos do refúgio, com suspensão quando há pedido pendente; remissão do art. 34 à 'concessão' mesmo antes da decisão é literal da fonte e exige leitura sistemática, sem emenda editorial.
+
+- **Arts. 36–37:** a segurança nacional/ordem pública é exceção legal para expulsão de refugiado registrado, porém art. 37 condiciona destino sem riscos e certeza de admissão. Não confundir expulsão, repatriação, deportação e extradição.
+
+- **Abrangência:** o texto positivo experimental T48 passará a representar artigos 1–37, mas os 38–49 permanecem fora. Referências textuais à Lei 6.815/1980, ministros de 1997 e atos CONARE atuais exigem cadeia temporal de alterações.
+
+- **Validação:** somente origem editorial Câmara HTML e Planalto, DOU 23/07/1997 p. 15822 não cotejado em imagem. Todas unidades Q, C0-J=0, nenhuma M aprovada.

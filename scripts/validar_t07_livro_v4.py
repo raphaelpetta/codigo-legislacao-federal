@@ -68,4 +68,12 @@ assert "DEC-016" in text
 assert "Q_SEM_C0_J" in text
 for art in ("49-A", "49-B", "49-D", "69"):
     assert art in by_article
+
+# Legística do art. 49-A § 6º, sem alterar o conteúdo da fonte.
+art49a = text.split("**Art. LPA-SEQ4-050.**", 1)[1].split("**Art. LPA-SEQ4-051.**", 1)[0]
+assert "**§ 6º** Não se aplica a decisão coordenada aos processos administrativos:" in art49a
+for unit, body in (("I", "de licitação;"), ("II", "relacionados ao poder sancionador; ou"), ("III", "em que estejam envolvidas autoridades de Poderes distintos.")):
+    assert f"**{unit} –** {body}" in art49a, f"Subinciso §6 ausente: {unit}"
+    assert f"**§ 6º, {unit} –**" not in art49a, f"Marcador invalido: {unit}"
+
 print("T07 v4: 215 unidades, 214 com destino textual + 1 historica, 78 artigos em ordem, nenhuma homologacao declarada.")

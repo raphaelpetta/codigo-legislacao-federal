@@ -978,6 +978,52 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Natureza material de lei complementar recepcionada para normas gerais tributárias e DEC-016 pendente. DOU original 1966 e alterações não autenticados por fac-símile.
 
+## T14 — T14.M01 [CLF-LIV-T14-CC-ART79_84-R19; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T14 — Código Civil — bens móveis e imóveis, arts. 79–84
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 6 artigos de origem/13 unidades positivas em correspondência textual 1:1 origem/destino. **C0-J=0, M=0, DEC-016 pendente**, sem renumeração definitiva, revogação ou promulgação pelo projeto. [Texto atualizado Câmara](https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html) e [cotejo Planalto](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm). Fac-símile DOU ainda não conferido.
+
+**CSV versionado:** `modulos/T14/M01_ESPELHO_CC_ART79_84_13_Q.csv` · Git blob SHA `91480c28b4de6c96237275b6394d00301bc8ac38`.
+
+## Dispositivos de origem
+
+**Art. 79.** São bens imóveis o solo e tudo quanto se lhe incorporar natural ou artificialmente.
+
+**Art. 80.** Consideram-se imóveis para os efeitos legais:
+
+**I –** os direitos reais sobre imóveis e as ações que os asseguram;
+
+**II –** o direito à sucessão aberta.
+
+**Art. 81.** Não perdem o caráter de imóveis:
+
+**I –** as edificações que, separadas do solo, mas conservando a sua unidade, forem removidas para outro local;
+
+**II –** os materiais provisoriamente separados de um prédio, para nele se reempregarem.
+
+**Art. 82.** São móveis os bens suscetíveis de movimento próprio, ou de remoção por força alheia, sem alteração da substância ou da destinação econômico-social.
+
+**Art. 83.** Consideram-se móveis para os efeitos legais:
+
+**I –** as energias que tenham valor econômico;
+
+**II –** os direitos reais sobre objetos móveis e as ações correspondentes;
+
+**III –** os direitos pessoais de caráter patrimonial e respectivas ações.
+
+**Art. 84.** Os materiais destinados a alguma construção, enquanto não forem empregados, conservam sua qualidade de móveis; readquirem essa qualidade os provenientes da demolição de algum prédio.
+
+## Riscos jurídicos, históricos e intertemporais (editoriais)
+
+- Arts. 79–84 qualificam bens imóveis e móveis, direitos reais e pessoais e materiais integrantes de obras; o caráter imóvel do direito à sucessão aberta (art. 80 II) é **qualificação legal**, não deslocamento da competência sucessória.
+
+- Preservar a distinção entre energias com valor econômico como móveis por determinação legal, e domínio público/ambiental, energia, propriedade intelectual e regimes registrais especiais; classificação documental não altera direitos reais.
+
+- Arts. 79–84 pertencem à **Lei 10.406/2002**, não à faixa inicial de pessoas T13 reservada. Esta frente T14 não incorpora artigos 1º–78 nem invade a reserva deliberativa de T13.
+
+- Confrontar CF art. 5º XXII–XXIII e arts. 182/186, Lei de Registros Públicos, leis especiais e alterações de direito privado. Versão da Câmara HTML atualizada; DOU 11/01/2002 e modificativas ainda sem autenticação em fac-símile.
+
 ## T20 — T20.M01 [CLF-LIV-T20-CDC-8078-ART1-3-6-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # CLF T20 — Consumidor e fornecedor — Lei 8.078/1990, arts. 1º–3º
@@ -1011,6 +1057,58 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Relação com T16/T21:** responsabilidade civil, instituições financeiras e seguros têm interfaces e regras especiais; manter origem textual única no T20 e remissões 1:N, não replicar CDC noutros títulos.
 
 - **Autenticidade:** DOU suplemento de 12/09/1990, veto e retificação de 10/01/2007 pendentes de fac-símile e cotejo por evento.
+
+## T20 — T20.M01 [CLF-LIV-T20-CDC-ART4-R19; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T20 — Defesa do consumidor — CDC art. 4º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 1 artigos de origem/15 unidades positivas em correspondência textual 1:1 origem/destino. **C0-J=0, M=0, DEC-016 pendente**, sem renumeração definitiva, revogação ou promulgação pelo projeto. [Texto atualizado Câmara](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html) e [cotejo Planalto](https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm). Fac-símile DOU ainda não conferido.
+
+**CSV versionado:** `modulos/T20/M01_ESPELHO_CDC_ART4_15_Q.csv` · Git blob SHA `8e1bf3acead4943d06f87805bef8382dd0f3b441`.
+
+## Dispositivos de origem
+
+**Art. 4.** A Política Nacional das Relações de Consumo tem por objetivo o atendimento das necessidades dos consumidores, o respeito à sua dignidade, saúde e segurança, a proteção de seus interesses econômicos, a melhoria da sua qualidade de vida, bem como a transparência e harmonia das relações de consumo, atendidos os seguintes princípios:
+
+**I –** reconhecimento da vulnerabilidade do consumidor no mercado de consumo;
+
+**II –** ação governamental no sentido de proteger efetivamente o consumidor:
+
+**a)** por iniciativa direta;
+
+**b)** por incentivos à criação e desenvolvimento de associações representativas;
+
+**c)** pela presença do Estado no mercado de consumo;
+
+**d)** pela garantia dos produtos e serviços com padrões adequados de qualidade, segurança, durabilidade e desempenho.
+
+**III –** harmonização dos interesses dos participantes das relações de consumo e compatibilização da proteção do consumidor com a necessidade de desenvolvimento econômico e tecnológico, de modo a viabilizar os princípios nos quais se funda a ordem econômica (art. 170, da Constituição Federal), sempre com base na boa-fé e equilíbrio nas relações entre consumidores e fornecedores;
+
+**IV –** educação e informação de fornecedores e consumidores, quanto aos seus direitos e deveres, com vistas à melhoria do mercado de consumo;
+
+**V –** incentivo à criação pelos fornecedores de meios eficientes de controle de qualidade e segurança de produtos e serviços, assim como de mecanismos alternativos de solução de conflitos de consumo;
+
+**VI –** coibição e repressão eficientes de todos os abusos praticados no mercado de consumo, inclusive a concorrência desleal e utilização indevida de inventos e criações industriais das marcas e nomes comerciais e signos distintivos, que possam causar prejuízos aos consumidores;
+
+**VII –** racionalização e melhoria dos serviços públicos;
+
+**VIII –** estudo constante das modificações do mercado de consumo;
+
+**IX –** fomento de ações direcionadas à educação financeira e ambiental dos consumidores;
+
+**X –** prevenção e tratamento do superendividamento como forma de evitar a exclusão social do consumidor.
+
+## Riscos jurídicos, históricos e intertemporais (editoriais)
+
+- Art. 4º caput tem redação da **Lei 9.008/1995**; incisos IX e X foram introduzidos pela **Lei 14.181/2021**, incorporando educação financeira/ambiental e prevenção de superendividamento.
+
+- As quatro alíneas subordinadas ao inciso II são instrumentos de ação governamental: não são incisos independentes nem concedem poderes sem norma de competência.
+
+- Dignidade, segurança, transparência, boa-fé e equilíbrio não dispensam os requisitos específicos de revisão contratual, crédito responsável e preservação de mínimo existencial fixados em artigos próprios.
+
+- Art. 5º instrumentos públicos e art. 6º direitos básicos do consumidor continuam fora deste recorte; T20 alcança arts. 1º–4º, com interfaces jurídicas T15/T16/T21/T43.
+
+- DOU 1990, Lei 9.008/1995 e Lei 14.181/2021 ainda sem inspeção fac-símile. Não inferir que transcrição documental equivale a C0-J.
 
 ## T22 — T22.M01 [CLF-LIV-T22-LEI9610-ART1_4-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
@@ -1574,6 +1672,32 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Princípios da reserva legal, irretroatividade penal gravosa e especialidade permanecem inalterados, não são produto da compilação. DOU 1940 e Lei 7.209/1984 ainda sem cotejo fac-símile, C0-J=0.
 
+## T26 — T26.M01 [CLF-LIV-T26-CPP-ART2_3-R19; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T26 — Processo penal — CPP arts. 2º–3º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 2 artigos de origem/2 unidades positivas em correspondência textual 1:1 origem/destino. **C0-J=0, M=0, DEC-016 pendente**, sem renumeração definitiva, revogação ou promulgação pelo projeto. [Texto atualizado Câmara](https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html) e [cotejo Planalto](https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm). Fac-símile DOU ainda não conferido.
+
+**CSV versionado:** `modulos/T26/M01_ESPELHO_CPP_ART2_3_2_Q.csv` · Git blob SHA `0e1b41936cc5aeb1ee89f2e7c4fa479d82076282`.
+
+## Dispositivos de origem
+
+**Art. 2.** A lei processual penal aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior.
+
+**Art. 3.** A lei processual penal admitirá interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito.
+
+## Riscos jurídicos, históricos e intertemporais (editoriais)
+
+- Art. 2º enuncia incidência imediata de norma **processual** e preservação de atos anteriores; não autoriza aplicação retroativa de pena mais gravosa nem suprime regras intertemporais de normas penais mistas.
+
+- Art. 3º permite interpretação extensiva, analogia e princípios gerais no campo processual, sujeitos ao sistema acusatório, contraditório e legalidade. Não criar crime ou pena por analogia prejudicial.
+
+- **Art. 1º intencionalmente fora do recorte:** contém remissões históricas a Constituições passadas, justiça especial e crimes de imprensa não recepcionados, a revisar em gate próprio.
+
+- **Art. 3º-A e seguintes** (juiz das garantias) são dispositivos diferentes, inseridos pela Lei 13.964/2019, submetidos a decisões STF ADIs 6298, 6299, 6300 e 6305; não confundir art. 3º com art. 3º-A.
+
+- DOU do Decreto-Lei 3.689/1941 e retificações não autenticados por fac-símile. Texto Q não homologa matéria processual nem altera poderes jurisdicionais.
+
 ## T27 — T27.M01 [CLF-LIV-T27-LEP-ART1_3-R18; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T27 — Execução Penal — Lei 7.210/1984, arts. 1º–3º
@@ -2132,6 +2256,42 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Art. 3º III e VII integram política hídrica e eletroenergética após Lei 15.269/2025; portarias e concessões de energia ou outorga de água não se confundem.
 
 - Lei 9.433 contém vetos em outros artigos, inclusive incisos VI/VII do art. 7º, e DOU histórico 1997; não inserir dispositivos vetados como direito positivo. DOU em fac-símile não conferido.
+
+## T41 — T41.M01 [CLF-LIV-T41-CTB-ART1_2-R19; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T41 — Trânsito — Código de Trânsito Brasileiro, arts. 1º–2º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 2 artigos de origem/7 unidades positivas em correspondência textual 1:1 origem/destino. **C0-J=0, M=0, DEC-016 pendente**, sem renumeração definitiva, revogação ou promulgação pelo projeto. [Texto atualizado Câmara](https://www2.camara.leg.br/legin/fed/lei/1997/lei-9503-23-setembro-1997-372348-normaatualizada-pl.html) e [cotejo Planalto](https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm). Fac-símile DOU ainda não conferido.
+
+**CSV versionado:** `modulos/T41/M01_ESPELHO_CTB_ART1_2_7_Q.csv` · Git blob SHA `735aa3938fd9a2c2cc24ab0a4e3e594902ee73b6`.
+
+## Dispositivos de origem
+
+**Art. 1.** O trânsito de qualquer natureza nas vias terrestres do território nacional, abertas à circulação, rege-se por este Código.
+
+**§ 1º** Considera-se trânsito a utilização das vias por pessoas, veículos e animais, isolados ou em grupos, conduzidos ou não, para fins de circulação, parada, estacionamento e operação de carga ou descarga.
+
+**§ 2º** O trânsito, em condições seguras, é um direito de todos e dever dos órgãos e entidades componentes do Sistema Nacional de Trânsito, a estes cabendo, no âmbito das respectivas competências, adotar as medidas destinadas a assegurar esse direito.
+
+**§ 3º** Os órgãos e entidades componentes do Sistema Nacional de Trânsito respondem, no âmbito das respectivas competências, objetivamente, por danos causados aos cidadãos em virtude de ação, omissão ou erro na execução e manutenção de programas, projetos e serviços que garantam o exercício do direito do trânsito seguro.
+
+**§ 5º** Os órgãos e entidades de trânsito pertencentes no Sistema Nacional de Trânsito darão prioridade em suas ações à defesa da vida, nela incluída a preservação da saúde e do meio-ambiente.
+
+**Art. 2.** São vias terrestres urbanas e rurais as ruas, as avenidas, os logradouros, os caminhos, as passagens, as estradas e as rodovias, que terão seu uso regulamentado pelo órgão ou entidade com circunscrição sobre elas, de acordo com as peculiaridades locais e as circunstâncias especiais.
+
+**Parágrafo único.** Para os efeitos deste Código, são consideradas vias terrestres as praias abertas à circulação pública, as vias internas pertencentes aos condomínios constituídos por unidades autônomas e as vias e áreas de estacionamento de estabelecimentos privados de uso coletivo.
+
+## Riscos jurídicos, históricos e intertemporais (editoriais)
+
+- Art. 1º §4º foi **vetado** em 1997, mantido o veto; por isso **não é unidade positiva** deste Código. Os §§1º–3º e 5º permanecem ordenados pela numeração legislativa de origem.
+
+- Art. 2º parágrafo único apresenta a redação da **Lei 13.146/2015 (LBI)**, incluindo vias e áreas de estacionamento de estabelecimentos privados de uso coletivo, não constando por inteiro da publicação original de 1997.
+
+- Responsabilidade objetiva dos órgãos no art. 1º §3º está limitada ao âmbito da competência e hipóteses descritas; não substituir jurisprudência causal ou as regras de responsabilidade civil do T16.
+
+- Competências do Sistema Nacional de Trânsito, engenharia, fiscalização e sanções estão em dispositivos posteriores. Controle federativo e autonomia de órgãos com circunscrição sobre a via não devem ser eliminados.
+
+- DOU original 24/09/1997 p.21201, veto p.21258 e retificação 25/09/1997 p.21353 documentados na ficha da Câmara, mas **não houve cotejo por imagem DOU**.
 
 ## T42 — T42.M01 [CLF-LIV-T42-LGT-ART1_3-R18; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

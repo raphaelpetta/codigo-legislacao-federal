@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T28-R14",
+  "source_path": "modulos/T28/M01_ESPELHO_CLT_ART4_6_14_Q.csv",
+  "source_blob_sha": "53060ec8de80bf0de9bbc8df9f438d4ad245e875",
+  "view_path": "produto/vistas/T28_CLT_ART4_6_PREVIA_Q.md",
+  "count_expected": 14,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-5452-1-maio-1943-415500-normaatualizada-pe.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+  "source_commit": "8ddb9a39e70f2af3af66b72a120774693b539226",
+  "setorial_commit": "8ddb9a39e70f2af3af66b72a120774693b539226",
+  "source_kind": "CAMARA_TEXTO_ATUALIZADO_COM_COTEJO",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "comments": [
+    "**Art. 4º:** distinção entre tempo à disposição, serviço efetivo e períodos extraordinários; § 2º é texto da Lei 13.467/2017 e traz **oito incisos exemplificativos** subordinados ao próprio § 2º, não hipóteses independentes do caput.",
+    "**Art. 4º § 1º:** remissão específica à indenização e estabilidade por serviço militar/acidente, não generalizar indiscriminadamente todo afastamento para salários, recolhimentos ou aposentadoria.",
+    "**Art. 5º:** igualdade salarial textual por sexo deve ser lida cumulativamente com CF art. 7º XXX e com normas posteriores como a Lei 14.611/2023 e CLT art. 461, ainda fora do recorte; não substituir todo o regime de equiparação pelo art. 5º.",
+    "**Art. 6º:** trabalho em estabelecimento, domicílio e a distância sem distinção quando presentes requisitos de emprego, e equiparação de comando telemático à subordinação; compatibilizar com teletrabalho arts. 75-A e seguintes sem presumir vínculo em qualquer prestação remota.",
+    "**Cronologia e peculiaridades:** art. 4º § 2º tem fonte Lei 13.467/2017, art. 6º vem da Lei 12.551/2011, redações anteriores não são texto positivo atual; DOU 1943/2011/2017 sem fac-símile cotejado.",
+    "**PEC 221/2019:** eventual aprovação parlamentar não constitui por si promulgação de emenda; não incorporar alteração de jornada/escala ao CLT sem documento de promulgação, efeitos intertemporais e tipo normativo."
+  ]
+}

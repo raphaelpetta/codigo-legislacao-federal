@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T01-R14",
+  "source_path": "modulos/T01/M01_ESPELHO_LINDB_ART2_5_7_Q.csv",
+  "source_blob_sha": "be0414b5b5fad67e75ac9dafa8eda072c6ec59dc",
+  "view_path": "produto/vistas/T01_LINDB_ART2_5_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 4,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm",
+  "source_commit": "d2ac9df04bea7dfc210a8fcbf33ef610c0c30e2d",
+  "setorial_commit": "d2ac9df04bea7dfc210a8fcbf33ef610c0c30e2d",
+  "source_kind": "CAMARA_TEXTO_ATUALIZADO_COM_COTEJO",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "comments": [
+    "**Recorte inicial deliberado nos arts. 2º–5º:** art. 1º exige tratamento separado de vacatio legis, republicação corretiva e **§ 2º revogado pela Lei 12.036/2009**, jamais incorporado como unidade positiva. DOU original 09/09/1942 e retificações 1942/1943 pendentes.",
+    "**Art. 2º, §§ 1º–3º:** revogação expressa, incompatibilidade, regulação completa, especialidade e vedação ordinária de repristinação são regras da lei vigente; o CLF documental não opera revogação, repristinação ou transformação material automática.",
+    "**Arts. 3º–5º:** ignorância da lei, integração judicial por analogia/costumes/princípios e fins sociais exigem compatibilização com CF 1988, direitos fundamentais, LINDB arts. 20–30 e normas posteriores; não autoriza decisões arbitrárias.",
+    "**Interseção T23:** LINDB arts. 7º–19 possuem regras de conexão do direito internacional privado; a presente vista T01 não os reproduz nem duplica suas posições.",
+    "**Veículo jurídico DEC-016:** ementa alterada pela Lei 12.376/2010 e lei nacional de normas sobre normas, sem pressupor iniciativa, revogação global ou aprovação C0-J."
+  ]
+}

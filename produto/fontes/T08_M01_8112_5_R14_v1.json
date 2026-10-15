@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T08-R14",
+  "source_path": "modulos/T08/M01_ESPELHO_LEI8112_ART1_4_5_Q.csv",
+  "source_blob_sha": "b3aad48b503c3017f42a0c462aaf3b32f6d54f55",
+  "view_path": "produto/vistas/T08_RJU_LEI8112_ART1_4_PREVIA_Q.md",
+  "count_expected": 5,
+  "articles_expected": 4,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+  "source_control": "https://planalto.gov.br/ccivil_03/leis/l8112cons.htm",
+  "source_commit": "d7f54f760c5c524fba33e2dc209daffcd96587c9",
+  "setorial_commit": "d7f54f760c5c524fba33e2dc209daffcd96587c9",
+  "source_kind": "CAMARA_TEXTO_ATUALIZADO_COM_COTEJO",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "comments": [
+    "**Art. 1º:** Lei 8.112 institui regime dos servidores públicos civis da **União, autarquias e fundações públicas federais**, não o regime estatutário de todo agente estadual, municipal, militar ou contratado temporário.",
+    "**Arts. 2º–3º:** servidor é investido legalmente em cargo público; cargo possui atribuições e responsabilidade, criado por lei, provimento efetivo ou em comissão. O parágrafo único não substitui CF art. 37 (concurso, cargos em comissão, acessibilidade e igualdade).",
+    "**Art. 4º:** a vedação do serviço gratuito contém exceção expressa para hipóteses **previstas em lei**; não eliminar a ressalva, nem classificá-la como proibição absoluta.",
+    "**Recepção e regimes posteriores:** jurisprudência constitucional sobre RJU/ADI 2.135 e vínculos diversos de emprego público exigem análise separada, preservando concursos, regimes especiais e situações consolidadas.",
+    "**Proveniência:** DOU original 12/12/1990, veto/promulgação parcial 19/04/1991 e republicação atualizada 18/03/1998; comparecência textual em Câmara 2026 não autentica toda a cadeia DOU."
+  ]
+}

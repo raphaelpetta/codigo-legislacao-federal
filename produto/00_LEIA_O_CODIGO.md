@@ -5,11 +5,15 @@
 
 ## Vista única gerada do corpus efetivamente integrado
 
-[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T03 (LC 140 arts. 1º–6º), T05 (Lei 9.709 arts. 1º–15), T07, T24 (CPC 70–102), T25, T28 (CLT 1º–3º), T37 (PNMA 1º–6º) e T48 (Lei 9.474 arts. 1º–37)**, todos experimentais Q, sem efeitos legais ou homologação C0-J.
+[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01 (LINDB arts. 2º–5º), T03 (LC 140 arts. 1º–6º), T05, T07, T08 (Lei 8.112 arts. 1º–4º), T20 (CDC arts. 1º–3º), T24, T25, T28 (CLT arts. 1º–6º), T37 e T48**, com 37 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
 
-## Ponto de leitura: Código de Trabalho e dezesseis componentes experimentais em oito títulos
+## Ponto de leitura: Código de Trabalho e vinte componentes experimentais em onze títulos
 
-**[Abrir Código de Trabalho unificado (T03 + T05 + T07 + T24 + T25 + T28 + T37 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
+**[Abrir Código de Trabalho unificado (T01 + T03 + T05 + T07 + T08 + T20 + T24 + T25 + T28 + T37 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
+
+**Parte I — Normas gerais**
+
+- [T01.M01 — LINDB arts. 2º–5º, 4 artigos/7 unidades Q](vistas/T01_LINDB_ART2_5_PREVIA_Q.md); [espelho 7×7](../modulos/T01/M01_ESPELHO_LINDB_ART2_5_7_Q.csv), [manifesto SHA](fontes/T01_M01_LINDB_7_R14_v1.json). Revogação, não repristinação, integração judicial e fins sociais. **Art. 1º ainda fora do recorte**, incluindo o § 2º **revogado em 2009**, que não foi somado como norma positiva; DOU 1942/1943, T23 e DEC-016 pendentes.
 
 **Parte II — Federação e organização territorial**
 
@@ -22,8 +26,14 @@
 - [T05.M06, democracia direta: Lei 9.709/1998 arts. 1º–2º, 2 artigos e 7 unidades Q](vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART1_2_PREVIA.md), [espelho 7×7](../modulos/T05/M06_ESPELHO_LEI9709_ART1_2_7_Q.csv), [manifesto](fontes/T05_M06_9709_7_v1.json) e [inventário dos seis módulos eleitorais](../modulos/T05/M00_INVENTARIO_SEIS_MODULOS_20261015.csv). [Dossiê de recepção constitucional e anualidade eleitoral 2026](../modulos/T05/NOTA_ABERTURA_2026_RECEPCAO_ANUALIDADE_20261015.md): a mudança do art. 5º do Código Eleitoral em 2026 não foi aplicável às eleições de 2026, segundo o TSE. O Código Eleitoral integral **não** foi transposto; os arts. 3º–15 da Lei 9.709 foram integrados **apenas como reprodução experimental Q**.
 
 **Parte III — Administração Pública e Finanças**
+
+- [T08.M01 — Lei 8.112/1990, arts. 1º–4º, 4 artigos/5 unidades Q](vistas/T08_RJU_LEI8112_ART1_4_PREVIA_Q.md), [espelho 5×5](../modulos/T08/M01_ESPELHO_LEI8112_ART1_4_5_Q.csv) e [manifesto SHA](fontes/T08_M01_8112_5_R14_v1.json). Regime dos servidores civis **federais** (não estados ou municípios), cargo público, e exceção legal à vedação de prestação gratuita. Constituição art. 37, ADI 2.135, vetos/DOU1990/1991/1998 pendentes.
 - [Livro de Processo Administrativo Federal — T07.M03, prévia integral de 78 artigos](vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md). Proveniência: PR #45, fonte fixa, [manifesto](fontes/T07_M03_v4.json); 214 unidades positivas (203 C0-T local, 11 C1 potenciais/Q), 1 registro histórico, nenhuma unidade C0-J homologada.
 - [Auditoria dos 11 C1 potenciais T07](../central/03_T07_GATE_C1_11_EFEITOS_20261015.csv), com efeitos, alternativas conservadoras, provas faltantes e riscos. Os destinatários, o âmbito e a subsidiariedade dos processos especiais permanecem Q.
+
+**Parte IV — Relações privadas, consumidores e mercados**
+
+- [T20.M01 — CDC arts. 1º–3º, 3 artigos/6 unidades Q](vistas/T20_CDC_ART1_3_PREVIA_Q.md), [espelho 6×6](../modulos/T20/M01_ESPELHO_CDC_ART1_3_6_Q.csv), [manifesto SHA](fontes/T20_M01_CDC_6_R14_v1.json). Normas de ordem pública e interesse social; consumidor final, coletividade equiparada, fornecedor e serviços financeiros remunerados; relações trabalhistas excluídas da definição de serviço do § 2º. Interfaces T16/T21 e DOU/vetos sem homologação.
 
 **Parte V — Direito Internacional Privado, Justiça e Sanções**
 - [Livro de Processo Civil — T24.M01, prévia contínua CPC 70–102: **33 artigos e 181 unidades Q**](vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md). Combina 106 unidades setoriais do PR #38 e [75 transcrições editoriais](fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv) em [manifesto de duas proveniências](fontes/T24_CPC_70_102_181_v1.json), com [verificador](../scripts/gerar_t24_cpc_181.py). O cotejo visual com a Câmara foi documentado, mas persistem revisão independente arquivada por extração e cotejo DOU; C0-J=0 e o CPC externo ao recorte não foi transposto.
@@ -31,6 +41,8 @@
 **Parte VI — Trabalho e relações laborais**
 
 - [T28.M01 — CLT, arts. 1º–3º, **3 artigos e 7 unidades Q**](vistas/T28_CLT_ART1_3_PREVIA_Q.md), [espelho 7×7](../modulos/T28/M01_ESPELHO_CLT_ART1_3_7_Q.csv) e [manifesto/hash](fontes/T28_M01_CLT_7_R11_v1.json). Distinção entre decreto-lei de aprovação e CLT, requisitos para relação de emprego, grupo econômico após a Lei 13.467/2017. **PEC 221/2019, fim da escala 6×1:** dois turnos aprovados no Senado em 14/10/2026; **sem promulgação comprovada em 15/10/2026**, portanto não altera a versão do Código como norma vigente. Sem C0-J.
+
+- [T28.M01 — CLT, arts. 4º–6º: 3 artigos/14 unidades Q adicionais](vistas/T28_CLT_ART4_6_PREVIA_Q.md), [espelho 14×14](../modulos/T28/M01_ESPELHO_CLT_ART4_6_14_Q.csv), [manifesto SHA](fontes/T28_M01_CLT_14_R14_v1.json). Tempo à disposição, oito incisos subordinados ao § 2º do art. 4º, igualdade remuneratória e subordinação por meios telemáticos. **Total T28: 6 artigos/21 unidades Q**. Controle Leis 12.551/2011, 13.467/2017 e 14.611/2023 pendente.
 
 **Parte VII — Território, ambiente e infraestrutura**
 
@@ -77,6 +89,10 @@
 - **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). Execuções anteriores do GitHub Actions exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
 - **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos dezesseis componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
 
+## Estado acumulado após rodada 14 — prioridade horizontal corrigida
+
+**Corpus experimental Q em PR draft:** **204 artigos de origem / 637 unidades positivas de fonte +1 histórico T07**, em **20 componentes e 11 títulos**. **Três novos títulos reais**: T01 LINDB (2–5), T08 RJU (1–4) e T20 CDC (1–3); aprofundamento contido do T28 CLT (4–6). **37 de 48 títulos ainda sem texto de lei**. [Matriz de auditoria reconciliada](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv), sem contagem dupla do histórico. Nenhuma C0-J, M aprovada, revogação ou merge, e DEC-016 permanece pendente. Nenhum bloco é promulgado como novo Código.
+
 ## Estado acumulado após rodada 13
 
 **Código de trabalho Q:** **190 artigos de origem / 605 unidades documentais textuais + 1 registro histórico T07**, em 16 componentes de oito títulos. **T03 LC 140/2011 arts. 1º–6º** e **T48 Lei 9.474/1997 arts. 1º–37** são as expansões; T48 arts. 38º–49º permanecem fora. Remissões sobre não devolução, direito ao recurso e restrições de delegação ambiental precisam de revisão por efeito e fontes DOU. **C0-J=0, M=0, DEC-016 pendente, revogação/merge=0**; texto temporal histórico da Lei 9.709 art. 15 consta dentre as unidades Q, sem eficácia futura do CLF.
@@ -101,16 +117,19 @@
 
 | Objeto | Artigos visíveis na prévia | Unidades positivas | Unidade histórica | C0-J homologadas |
 |---|---:|---:|---:|---:|
+| T01 — LINDB (arts. 2º–5º) | 4 | 7 | 0 | 0 |
 | T03 — LC 140/2011 (arts. 1º–6º) | 6 | 25 | 0 | 0 |
 | T05 — Lei 9.709/1998 (arts. 1º–15; art. 15 com vigência histórica) | 15 | 30 | 0 | 0 |
 | T07 — Lei 9.784/1999 | 78 | 214 | 1 | 0 |
+| T08 — Lei 8.112/1990 (arts. 1º–4º) | 4 | 5 | 0 | 0 |
+| T20 — CDC (arts. 1º–3º) | 3 | 6 | 0 | 0 |
 | T24 — CPC (arts. 70–102 contínuos) | 33 | 181 | 0 | 0 |
 | T25 — CP (arts. 1º–12) | 12 | 39 | 0 | 0 |
-| T28 — CLT (arts. 1º–3º) | 3 | 7 | 0 | 0 |
+| T28 — CLT (arts. 1º–6º) | 6 | 21 | 0 | 0 |
 | T37 — PNMA (arts. 1º–6º, redação vigente 2026) | 6 | 41 | 0 | 0 |
 | T48 — Lei 9.474/1997 (arts. 1º–37) | 37 | 68 | 0 | 0 |
-| **Total atual das vistas** | **190** | **605** | **1** | **0** |
+| **Total atual das vistas** | **204** | **637** | **1** | **0** |
 
-As 605 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
+As 637 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
 
 [Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

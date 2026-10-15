@@ -1,0 +1,20 @@
+{
+  "id": "CLF-LIV-T48-M03-9474-ART9-10-4-R10",
+  "schema_version": 1,
+  "source_path": "modulos/T48/M03_ESPELHO_LEI9474_ART9_10_4_Q.csv",
+  "source_blob_sha": "a916b09a2ceae8df57ebe43037edfcca4ee3faad",
+  "view_path": "produto/vistas/T48_REFUGIO_LEI9474_ART9_10_PREVIA_Q.md",
+  "count_expected": 4,
+  "articles_expected": 2,
+  "dou_reference": "DOU 23/07/1997 seção 1 p15822",
+  "dou_facsimile_checked": false,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9474-22-julho-1997-365390-publicacaooriginal-1-pl.html",
+  "crosscheck": "https://www.planalto.gov.br/ccivil_03/leis/l9474.htm",
+  "source_commit": "60c9e4c344ebeb9dd7a4c92218fd78b18a1b5c1c",
+  "setorial_commit": "60c9e4c344ebeb9dd7a4c92218fd78b18a1b5c1c",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "limitation": "Somente art9-10; nenhum alargamento do efeito suspensivo além da entrada irregular, arquivamento condicionado ao reconhecimento e nexo causal."
+}

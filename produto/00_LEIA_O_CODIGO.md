@@ -2,6 +2,11 @@
 
 **Corte:** 15/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
+
+## Vista única gerada do corpus efetivamente integrado
+
+[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir de `produto/fontes/indice_livros.json` e conferido com `--check`. **A versão atual reúne T07**. A prévia parcial T24 (17 artigos, 106 subunidades) está disponível abaixo como **candidata ainda fora do índice de Livros integrados**, aguardando gate de integração experimental, não ratificação jurídica.
+
 ## Ponto de leitura: duas partes do produto, sem pretender completude
 
 **Parte III — Administração Pública e Finanças**

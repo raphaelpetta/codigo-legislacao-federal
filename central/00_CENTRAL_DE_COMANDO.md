@@ -65,3 +65,13 @@ A auditoria de todos os 48 titulos, cruzando o indice da `main`, a vista do PR #
 - **CI GitHub Actions segue sem comprovação:** workflows de T07/T24 e integridade falham sem etapas visíveis; executar/checkar fora da CI e diagnosticar conta/runner antes do merge.
 
 **Próxima seleção dinâmica:** complementar CPC 82–97 (art.85 integral), testar T07 art.69/1 e remissões, abrir terceiro Livro setorial T25, avançar T13 e interfaces de T43. Nenhuma norma aprovada ou reestruturação definitiva.
+
+## Controles operacionais verificáveis (propostos no PR)
+- [Fila com recortes, estados, critérios e reservas](FILA_TRABALHO.csv).
+- [Painel calculado exclusivamente do produto no checkout](PAINEL_GERADO.csv) — **presença no produto, não cobertura jurídica global**.
+- [Política de integração experimental, ratificação e concorrência](03_POLITICA_INTEGRACAO_E_CONCORRENCIA.md).
+- [Verificador e gerador do painel](../scripts/controle_operacional.py) (`--write` / `--check`).
+- [Validação local de contingência](../scripts/validar_operacao_local.sh); falha de Actions sem steps não valida nem invalida documentos.
+- [Código único de trabalho](../produto/CODIGO_DE_TRABALHO.md). A compilação é uma vista derivada; não editar suas cópias de forma independente.
+
+Os controles acima passam a ser definitivos somente após revisão e integração da documentação. O registro de tarefas não substitui a conferência dos PRs nem a revisão jurídica, e cada reserva é cooperativa.

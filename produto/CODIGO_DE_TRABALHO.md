@@ -942,6 +942,42 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - DOU de 1966, alterações e recepção, cronogramas 2026–2033 de tributação sobre consumo e efeitos diferidos de reformas exigem auditoria; este recorte 1–5 é textual Q, sem reforma material.
 
+## T12 — T12.M01 [CLF-LIV-T12-CTN-ART6_8-R17; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T12 — CTN — competência tributária, arts. 6º–8º
+
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 3 artigos e 7 unidades positivas, origem↔destino em correspondência 1:1. Sem renumeração definitiva. **C0-J=0; M=0; DEC-016 pendente.** Fontes institucionais: [texto primário](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html) e [cotejo](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm). O fac-símile DOU e a cadeia de alterações não foram certificados; este texto não promulga o CLF.
+
+**Fonte versionada:** `modulos/T12/M01_ESPELHO_CTN_ART6_8_7_Q.csv`, Git blob SHA `2aab1646c0e1ff8548e6aa9545d33dfe38f16f20`.
+
+## Legislação de origem, sem efeitos normativos novos
+
+**Art. 6.** A atribuição constitucional de competência tributária compreende a competência legislativa plena, ressalvadas as limitações contidas na Constituição Federal, nas Constituições dos Estados e nas Leis Orgânicas do Distrito Federal e dos Municípios, e observado o disposto nesta Lei.
+
+**Parágrafo único.** Os tributos cuja receita seja distribuída, no todo ou em parte, a outras pessoas jurídicas de direito público pertencem à competência legislativa daquela a que tenham sido atribuídos.
+
+**Art. 7.** A competência tributária é indelegável, salvo atribuição das funções de arrecadar ou fiscalizar tributos, ou de executar leis, serviços, atos ou decisões administrativas em matéria tributária, conferida por uma pessoa jurídica de direito público a outra, nos termos do § 3º do art. 18 da Constituição.
+
+**§ 1º** A atribuição compreende as garantias e os privilégios processuais que competem à pessoa jurídica de direito público que a conferir.
+
+**§ 2º** A atribuição pode ser revogada, a qualquer tempo, por ato unilateral da pessoa jurídica de direito público que a tenha conferido.
+
+**§ 3º** Não constitui delegação de competência o cometimento, a pessoas de direito privado, do encargo ou da função de arrecadar tributos.
+
+**Art. 8.** O não-exercício da competência tributária não a defere a pessoa jurídica de direito público diversa daquela a que a Constituição a tenha atribuído.
+
+## Notas de fidelidade, temporalidade e competência — não normativas
+
+- Art. 6º trata da atribuição constitucional de competência legislativa; repartição da receita não desloca a titularidade da competência tributária.
+
+- Art. 7º separa a **competência tributária indelegável** das funções de arrecadação, fiscalização e execução de atos administrativos delegáveis entre pessoas de direito público.
+
+- Art. 7º §3º define a incumbência de arrecadação a pessoa privada como não delegação da competência; distinguir execução material de poder normativo ou de lançamento/tributação fora da lei.
+
+- Art. 7º remete ao art. 18 §3º da Constituição histórica, não vigente em 2026; cotejar CF 1988, EC 132/2023 e legislação complementar nova, sem emendar silenciosamente o texto original.
+
+- Natureza material de lei complementar recepcionada para normas gerais tributárias e DEC-016 pendente. DOU original 1966 e alterações não autenticados por fac-símile.
+
 ## T20 — T20.M01 [CLF-LIV-T20-CDC-8078-ART1-3-6-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # CLF T20 — Consumidor e fornecedor — Lei 8.078/1990, arts. 1º–3º
@@ -1630,6 +1666,50 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - **PEC 221/2019:** eventual aprovação parlamentar não constitui por si promulgação de emenda; não incorporar alteração de jornada/escala ao CLT sem documento de promulgação, efeitos intertemporais e tipo normativo.
 
+## T29 — T29.M01 [CLF-LIV-T29-LEI8213-ART1_2-R17; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T29 — Previdência Social — Lei 8.213/1991, arts. 1º–2º
+
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 2 artigos e 11 unidades positivas, origem↔destino em correspondência 1:1. Sem renumeração definitiva. **C0-J=0; M=0; DEC-016 pendente.** Fontes institucionais: [texto primário](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15108-13-marco-2025-797167-normaatualizada-pl.html) e [cotejo](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm). O fac-símile DOU e a cadeia de alterações não foram certificados; este texto não promulga o CLF.
+
+**Fonte versionada:** `modulos/T29/M01_ESPELHO_LEI8213_ART1_2_11_Q.csv`, Git blob SHA `600524864bc83a50f6c57f80b17bf9905eaf55f5`.
+
+## Legislação de origem, sem efeitos normativos novos
+
+**Art. 1.** A Previdência Social, mediante contribuição, tem por fim assegurar aos seus beneficiários meios indispensáveis de manutenção, por motivo de incapacidade, desemprego involuntário, idade avançada, tempo de serviço, encargos familiares e prisão ou morte daqueles de quem dependiam economicamente.
+
+**Art. 2.** A Previdência Social rege-se pelos seguintes princípios e objetivos:
+
+**I –** universalidade de participação nos planos previdenciários;
+
+**II –** uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais,
+
+**III –** seletividade e distributividade na prestação dos benefícios;
+
+**IV –** cálculo dos benefícios considerando-se os salários-de-contribuição corrigidos monetariamente;
+
+**V –** irredutibilidade do valor dos benefícios de forma a preservar-lhes o poder aquisitivo;
+
+**VI –** valor da renda mensal dos benefícios substitutos do salário-de-contribuição ou do rendimento do trabalho do segurado não inferior ao do salário-mínimo;
+
+**VII –** previdência complementar facultativa, custeada por contribuição adicional;
+
+**VIII –** caráter democrático e descentralizado da gestão administrativa, com a participação do governo e da comunidade, em especial de trabalhadores em atividade, empregadores e aposentados.
+
+**Parágrafo único.** A participação referida no inciso VIII deste artigo será efetivada a nível federal, estadual e municipal.
+
+## Notas de fidelidade, temporalidade e competência — não normativas
+
+- Art. 1º inclui referência legal ao desemprego involuntário; isso não significa concessão desse benefício diretamente pelo RGPS: distinguir art. 9º §1º da própria lei, seguro-desemprego e legislação específica.
+
+- Art. 2º tem oito incisos e parágrafo único de participação institucional, preservando o alcance da Previdência contributiva em face da seguridade social da CF 194–204 e EC 103/2019.
+
+- Arts. 3º e 4º relativos ao CNPS e alterações de composição ficam fora deste bloco; art. 3º §5º contém revogação, não transcrever como positivo.
+
+- Não equiparar rol de finalidades de 1991 à concessão administrativa presente nem à disciplina intertemporal da EC 103/2019; todo benefício depende de requisitos e cálculo específicos.
+
+- Fonte institucional HTML atualizada, Lei 8.213/1991, sem cotejo integral com DOU/vetos/retificações e atos previdenciários posteriores; Q sem C0-J.
+
 ## T31 — T31.M01 [CLF-LIV-T31-LEI8080-ART1_3-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T31 — Saúde pública — Lei Orgânica da Saúde 8.080/1990, arts. 1º–3º
@@ -1663,6 +1743,68 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Parágrafo único art. 3º:** bem-estar físico, mental e social, não reduzido ao atendimento assistencial. Interfaces T37 ambiente, T28 trabalho, T32 saúde infantil, T39 saneamento, T31 assistência/planos privados preservadas sem transcrição dupla.
 
 - O SUS como organização está no art. 4º e seguintes, **ainda fora do recorte**; não afirmar cobertura completa da LOS. Há vetos de 1990 em outros artigos e controle de competência; DOU 20/09/1990 e DOU Lei 12.864/2013 sem cotejo por fac-símile.
+
+## T33 — T33.M01 [CLF-LIV-T33-LDB-ART1_3-R17; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T33 — Educação — Lei 9.394/1996 (LDB), arts. 1º–3º
+
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 3 artigos e 20 unidades positivas, origem↔destino em correspondência 1:1. Sem renumeração definitiva. **C0-J=0; M=0; DEC-016 pendente.** Fontes institucionais: [texto primário](https://www2.camara.leg.br/legin/fed/lei/1996/lei-9394-20-dezembro-1996-362578-normaatualizada-pl.html) e [cotejo](https://www.planalto.gov.br/ccivil_03/leis/l9394.htm). O fac-símile DOU e a cadeia de alterações não foram certificados; este texto não promulga o CLF.
+
+**Fonte versionada:** `modulos/T33/M01_ESPELHO_LDB_ART1_3_20_Q.csv`, Git blob SHA `678542153cac1414afc25e554103c9665dae213c`.
+
+## Legislação de origem, sem efeitos normativos novos
+
+**Art. 1.** A educação abrange os processos formativos que se desenvolvem na vida familiar, na convivência humana, no trabalho, nas instituições de ensino e pesquisa, nos movimentos sociais e organizações da sociedade civil e nas manifestações culturais.
+
+**§ 1º** Esta Lei disciplina a educação escolar, que se desenvolve, predominantemente, por meio do ensino, em instituições próprias.
+
+**§ 2º** A educação escolar deverá vincular-se ao mundo do trabalho e a prática social.
+
+**Art. 2.** A educação, dever da família e do Estado, inspirada nos princípios de liberdade e nos ideais de solidariedade humana, tem por finalidade o pleno desenvolvimento do educando, seu preparo para o exercício da cidadania e sua qualificação para o trabalho.
+
+**Art. 3.** O ensino será ministrado com base nos seguintes princípios:
+
+**I –** igualdade de condições para o acesso e permanência na escola;
+
+**II –** liberdade de aprender, ensinar, pesquisar e divulgar a cultura, o pensamento, a arte e o saber;
+
+**III –** pluralismo de idéias e de concepções pedagógicas;
+
+**IV –** respeito à liberdade e apreço à tolerância;
+
+**V –** coexistência de instituições públicas e privadas de ensino;
+
+**VI –** gratuidade do ensino público em estabelecimentos oficiais;
+
+**VII –** valorização do profissional da educação escolar;
+
+**VIII –** gestão democrática do ensino público, na forma desta Lei e da legislação dos respectivos Estados e Municípios e do Distrito Federal;
+
+**IX –** garantia de padrão de qualidade;
+
+**X –** valorização da experiência extra-escolar;
+
+**XI –** vinculação entre a educação escolar, o trabalho e as práticas sociais;
+
+**XII –** consideração com a diversidade étnico-racial;
+
+**XIII –** garantia do direito à educação e à aprendizagem ao longo da vida;
+
+**XIV –** respeito à diversidade humana, linguística, cultural e identitária das pessoas surdas, surdo-cegas e com deficiência auditiva;
+
+**XV –** garantia do direito de acesso a informações públicas sobre a gestão da educação.
+
+## Notas de fidelidade, temporalidade e competência — não normativas
+
+- Art. 1º diferencia educação como processo social amplo e educação escolar regulada pela LDB; arts. 4º e seguintes, incluindo obrigações estatais, não estão integrados nesta vista.
+
+- Art. 3º VIII tem redação da Lei 14.644/2023, respeitando normas dos estados, municípios e DF; não federalizar gestão escolar nem reduzir autonomia federativa.
+
+- Art. 3º XV foi acrescido pela Lei 15.001/2024, relativo ao direito de acesso à informação sobre gestão educacional; os incisos XII–XIV também são acréscimos posteriores a 1996.
+
+- Pluralismo, igualdade de acesso, gestão democrática e acessibilidade exigem cotejo CF 205–214, legislação antidiscriminatória, LBI e educação especial, sem suprimir tais garantias no Código.
+
+- Autenticidade da publicação original de 1996 e alteradoras 2013/2018/2021/2023/2024 por fac-símile DOU e eficácia ainda não ratificadas; Q, C0-J zero.
 
 ## T37 — T37.M01 [CLF-LIV-T37-M01-6938-ART1-2-13-R10; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
@@ -1812,6 +1954,70 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Não confundir competência administrativa em licenciamento com responsabilidade civil ambiental, padrões nacionais ou competência legislativa. Análise dos arts. 6º/8º PNMA sob CF 23/24/225 e LC 140 exige remissões de especialidade.
 
 - Fac-símile do DOU original PNMA, versões de 1989/1990/2013 e alteradora/retificação 2025 pendentes; verificação institucional Câmara/Planalto não é autenticação literal DOU.
+
+## T38 — T38.M01 [CLF-LIV-T38-LEI9433-ART1_3-R17; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T38 — Recursos hídricos — Lei 9.433/1997, arts. 1º–3º
+
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 3 artigos e 21 unidades positivas, origem↔destino em correspondência 1:1. Sem renumeração definitiva. **C0-J=0; M=0; DEC-016 pendente.** Fontes institucionais: [texto primário](https://www2.camara.leg.br/legin/fed/lei/1997/lei-9433-8-janeiro-1997-374778-normaatualizada-pl.html) e [cotejo](https://www.planalto.gov.br/ccivil_03/leis/l9433.htm). O fac-símile DOU e a cadeia de alterações não foram certificados; este texto não promulga o CLF.
+
+**Fonte versionada:** `modulos/T38/M01_ESPELHO_LEI9433_ART1_3_21_Q.csv`, Git blob SHA `023c98ee9d2bc8fb7c02cfbe40b631eeacdd788a`.
+
+## Legislação de origem, sem efeitos normativos novos
+
+**Art. 1.** A Política Nacional de Recursos Hídricos baseia-se nos seguintes fundamentos:
+
+**I –** a água é um bem de domínio público;
+
+**II –** a água é um recurso natural limitado, dotado de valor econômico;
+
+**III –** em situações de escassez, o uso prioritário dos recursos hídricos é o consumo humano e a dessedentação de animais;
+
+**IV –** a gestão dos recursos hídricos deve sempre proporcionar o uso múltiplo das águas;
+
+**V –** a bacia hidrográfica e a unidade territorial para implementação da Política Nacional de Recursos Hídricos e atuação do Sistema Nacional de Gerenciamento de Recursos Hídricos;
+
+**VI –** a gestão dos recursos hídricos deve ser descentralizada e contar com a participação do Poder Público, dos usuários e das comunidades.
+
+**Art. 2.** São objetivos da Política Nacional de Recursos Hídricos:
+
+**I –** assegurar à atual e às futuras gerações a necessária disponibilidade de água, em padrões de qualidade adequados aos respectivos usos;
+
+**II –** a utilização racional e integrada dos recursos hídricos, incluindo a geração de energia elétrica e o transporte aquaviário, com vistas ao desenvolvimento sustentável;
+
+**III –** a prevenção e a defesa contra eventos hidrológicos críticos de origem natural ou decorrentes do uso inadequado dos recursos naturais;
+
+**IV –** incentivar e promover a captação, a preservação e o aproveitamento de águas pluviais.
+
+**V –** garantir a segurança hídrica e energética por meio do incentivo e da promoção de obras de acumulação de água.
+
+**Art. 3.** Constituem diretrizes gerais de ação para implementação da Política Nacional de Recurso Hídricos:
+
+**I –** a gestão sistemática dos recursos hídricos, sem dissociação dos aspectos de quantidade e qualidade;
+
+**II –** a adequação da gestão de recursos hídricos às diversidades físicas, bióticas, demográficas, econômicas, sociais e culturais das diversas regiões do País;
+
+**III –** a integração da gestão de recursos hídricos com a gestão ambiental e a gestão eletroenergética;
+
+**IV –** a articulação do planejamento de recursos hídricos com o dos setores usuários e com os planejamentos regional, estadual e nacional;
+
+**V –** a articulação da gestão de recursos hídricos com a do uso do solo;
+
+**VI –** a integração da gestão das bacias hidrográficas com a dos sistemas estuarinos e zonas costeiras.
+
+**VII –** o incentivo e a promoção de obras de acumulação de água para garantir a segurança hídrica e energética.
+
+## Notas de fidelidade, temporalidade e competência — não normativas
+
+- Art. 1º estabelece água como bem público, recurso limitado, uso prioritário em escassez, múltiplos usos e gestão descentralizada; não interpretar valor econômico como autorização de apropriação privada irrestrita.
+
+- Lei 15.269/2025 art. 4º modificou art. 2º II e V e art. 3º III e VII da Lei 9.433, com efeitos aplicáveis no corte de outubro de 2026 conforme art. 24 IV da alteradora.
+
+- Lei 13.501/2017 acrescentou art. 2º IV (aproveitamento de águas pluviais). A distinção entre órgãos da União, estados e comitês de bacia exige Lei 9.433 arts. 32 e seguintes e interface T03 LC 140, sem deslocar domínio dos recursos.
+
+- Art. 3º III e VII integram política hídrica e eletroenergética após Lei 15.269/2025; portarias e concessões de energia ou outorga de água não se confundem.
+
+- Lei 9.433 contém vetos em outros artigos, inclusive incisos VI/VII do art. 7º, e DOU histórico 1997; não inserir dispositivos vetados como direito positivo. DOU em fac-símile não conferido.
 
 ## T43 — T43.M01 [CLF-LIV-T43-LGPD-ART1_3-R15; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

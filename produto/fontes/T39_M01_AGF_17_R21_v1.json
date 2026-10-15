@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T39-R21",
+  "source_path": "modulos/T39/M01_ESPELHO_AGRIC_FAMILIAR_ART1_3_17_Q.csv",
+  "source_blob_sha": "ee5eaa30cc0a36438afc4d6049489074a7466b0f",
+  "view_path": "produto/vistas/T39_AGRICULTURA_FAMILIAR_ART1_3_PREVIA_Q.md",
+  "count_expected": 17,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11326-24-julho-2006-544830-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11326.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Art. 3º exige preenchimento simultâneo dos quatro requisitos para a categoria do caput, e o § 2º elenca grupos também beneficiários sujeitos às condições legais específicas. O limite de quatro módulos fiscais não é regra geral que se aplica irrestritamente a todas as categorias do § 2º.",
+    "**Lei 12.512/2011** alterou o art. 3º inciso III e acrescentou incisos V/VI ao § 2º; **Lei 12.058/2009** acrescentou §§ 3º e 4º sobre crédito. Preservar as datas/efeitos e distinção entre enquadramento legal e concessão de crédito.",
+    "Art. 3º § 2º beneficia silvicultores, aquicultores, extrativistas, pescadores artesanais, indígenas e comunidades quilombolas/tradicionais; não eliminar medidas de proteção ambiental e direitos de povos tradicionais.",
+    "Art. 5º recebeu novos incisos XIII e XIV pela Lei 14.828/2024, fora do recorte; T38 recursos hídricos, T37 ambiente, T21 CMN e T29 previdência são interfaces distintas.",
+    "DOU 25/07/2006 e alteradoras sem inspeção de fac-símile; elegibilidade concreta depende de aplicação, documentos e atos normativos próprios."
+  ]
+}

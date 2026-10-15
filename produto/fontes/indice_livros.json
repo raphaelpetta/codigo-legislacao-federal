@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R12, 15/10/2026: 14 componentes Q em 8 títulos (T03,T05,T07,T24,T25,T28,T37,T48); 171 artigos originais / 574 registros textuais de origem mais 1 histórico vetado T07 (índice total 575). T03 LC140 arts1-3 3/10; T05 Lei9709 15/30; T07 78/214 +1 hist; T24 33/181; T25 12/39; T28 CLT 3/7; T37 PNMA arts1-6 6/41 (art6 I alterado Lei15190/2025); T48 Lei9474 arts1-21 contiguos 21/52. Texto Q, DOU pendente em várias fontes, C0-J=0, M aprovada=0, DEC016 pendente, nenhuma revogacao ou fusao.",
+  "observacao": "R13 15/10/2026: 16 componentes experimentais Q em 8 títulos; 190 artigos de origem e 605 unidades documentais de fonte mais um registro histórico T07 (índice 606). T03 LC140 arts1-6: 6/25; T05 15/30; T07 78/214+1 histórico; T24 CPC 33/181; T25 CP 12/39; T28 CLT 3/7; T37 PNMA 6/41; T48 Lei9474 arts1-37: 37/68. Arts38-49 T48 ainda ausentes. C0-J=0, M=0, DEC-016 pendente, no merge; DOU fac-símile pendente; LC140 mantém espécie complementar e refúgio ressalva non-refoulement.",
   "livros": [
     {
       "titulo": "T03",
@@ -13,6 +13,18 @@
       "origem_commit": "0e92e565ebfe62f1f1525676448115c32b550a09",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "LC140 arts1-3 Camara publicacao original, Senado norma 572895, natureza lei complementar e distincao atuacao supletiva/subsidiaria Q; DOU original/retificacao ainda sem fac-simile."
+    },
+    {
+      "id": "CLF-LIV-T03-LC140-ART4-6-15-R13",
+      "titulo": "T03",
+      "modulo": "T03.M01",
+      "vista": "produto/vistas/T03_LC140_ART4_6_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T03_M01_LC140_15_R13_v1.json",
+      "artigos": 3,
+      "registros_documentais": 15,
+      "origem_commit": "98b7393da03531c9bf49a0bd3b8c773cfff8b5d5",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "LC140 arts4-6, 15 unidades com comissões e requisitos de delegação, texto Planalto, revisão Câmara pendente DOU, C0-J 0."
     },
     {
       "id": "CLF-LIV-T05-M06-9709-ART1-2-7-v1",
@@ -167,6 +179,18 @@
       "origem_commit": "61703ce17efd1cab5a6be4ac1f38d7bdcc1ca146",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei9474 arts11-16 estrutura/convenios CONARE, quórum 4 membros voto, ACNUR voz sem voto; órgãos 1997 e remissões internacionais, sem atribuir atualizacao ministerial ficticia; Q."
+    },
+    {
+      "id": "CLF-LIV-T48-LEI9474-ART22-37-16-R13",
+      "titulo": "T48",
+      "modulo": "T48.M03",
+      "vista": "produto/vistas/T48_REFUGIO_ART22_37_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T48_M03_9474_16_R13_v1.json",
+      "artigos": 16,
+      "registros_documentais": 16,
+      "origem_commit": "46877ad44609448a9b17f4cf4490ade86e23ffab",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei9474 arts22-37 decisão fundamentada, recurso, não devolução, extradição, expulsão; art32 exceções sujeitas a tratados, Lei13445 e proteção contra tortura, C0-J 0."
     }
   ]
 }

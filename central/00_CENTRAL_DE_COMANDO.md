@@ -75,3 +75,6 @@ A auditoria de todos os 48 titulos, cruzando o indice da `main`, a vista do PR #
 - [Código único de trabalho](../produto/CODIGO_DE_TRABALHO.md). A compilação é uma vista derivada; não editar suas cópias de forma independente.
 
 Os controles acima passam a ser definitivos somente após revisão e integração da documentação. O registro de tarefas não substitui a conferência dos PRs nem a revisão jurídica, e cada reserva é cooperativa.
+
+## Integracao de governanca e do Codigo (atualizacao operacional)
+Consultar o [plano de integracao PR #46/#49, T07 e T24](06_PLANO_INTEGRACAO_GOVERNANCA_E_CORPUS.md), a [fila persistente](FILA_TRABALHO.csv), as [portas de integracao experimental](03_POLITICA_INTEGRACAO_E_CONCORRENCIA.md), o [painel calculado](PAINEL_GERADO.csv) e o [indice dos Livros](../produto/fontes/indice_livros.json). O corpus contem T07 integral **somente no recorte da Lei 9.784/1999** e T24 **parcial** (CPC 70–81/98–102), sem homologacao C0-J nem DEC-016. Os workflows devem conferir os compiladores quando mudarem. Nao confundir texto publicado em PR com norma ratificada e nao repetir trabalho setorial ja presente.

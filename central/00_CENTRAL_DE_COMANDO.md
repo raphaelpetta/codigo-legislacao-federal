@@ -113,3 +113,12 @@ Consultar o [plano de integracao PR #46/#49, T07 e T24](06_PLANO_INTEGRACAO_GOVE
 - **Produto integrado**: quatro componentes T05/T07/T24/T25, **125 artigos e 441 unidades positivas textuais +1 histórica**, zero C0-J; DEC-001 mantida, DEC-016 pendente; nenhuma M ratificada ou merge. Fila T05.M01 P1 em abertura, T13 permanece com reserva de outro executor.
 
 **PRÓXIMO**: auditoria CE art.5/71 e eficácia 2026, ampliação Lei9709 3–15 e validação DOU art2; auditoria robusta CPC75/DOU/precedentes; T25/T07 por efeitos, expansão horizontal equilibrada.
+
+## Rodada 06 — T05 Lei 9.709 arts. 3–15 em F0, CE 2026 e CPC quatro acréscimos (15/10/2026)
+
+[Relatório FEITO/PENDENTE/PRÓXIMO](14_RODADA06_T05_23_CE12_T24_4_20261015.md). 
+
+- **T05.M06:** [23 unidades restantes da Lei 9.709/1998 localizadas e classificadas](../modulos/T05/M06_CONCORDANCIA_F0_ART3_15_23_SEM_TEXTO_LITERAL.csv) (13 artigos, **resumos editoriais não literais**), mais [nota sobre três fontes e divergências de arts. 2º, 3º e 8º](../modulos/T05/M06_NOTA_TRES_FONTES_E_GATES_9709_20261015.md). Lei 9.709 possui **30 unidades localizadas, das quais somente sete (arts.1–2) estão no Código**; as outras 23 ainda não são texto normativo transcrito.
+- **T05.M01:** [12 posições Código Eleitoral CF14/16 e eficácia Lei15.358/2026](../modulos/T05/M01_MATRIZ_RECEPCAO_ELEITORADO_CE4_5_71_72_2026.csv): CE art5 I/II não recepcionados conforme TSE; art5 IV/71 VI **não aplicáveis a Eleições 2026** conforme TSE23/04/2026, sem declarar inconstitucionalidade futura ou revogação textual.
+- **T24:** [4 inclusões CPC82/85 em confronto pontual com leis alteradoras 2022/2025](13_T24_QUATRO_ALTERACOES_2022_2025_CONFERENCIA.csv); nenhum desvio aparente contra publicações dessas leis; DOU autêntico e efeitos temporais continuam Q.
+- **Corpus inalterado e conferível:** T05 2/7; T07 78/214+1 histórica; T24 33/181; T25 12/39; **125 artigos e 441 unidades positivas**, 0 C0-J. Os **23 novos registros T05 F0 não entram na vista**. Nenhuma M/merge/DEC-016 aprovada; T13 preservado com reserva.

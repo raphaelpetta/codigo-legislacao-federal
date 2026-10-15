@@ -19,7 +19,7 @@ A origem primária da transcrição anterior apontava **incorretamente** ao text
 ## FEITO — Código, matriz e controles
 
 - [Código experimental](../produto/CODIGO_DE_TRABALHO.md) e [índice](../produto/fontes/indice_livros.json) atualizados: **247 artigos de origem, 819 unidades documentais textuais positivas +1 histórico T07 = 820 registros**, **36 componentes em 23 títulos**, 25 títulos ainda vazios.
-- [Matriz dos 48 títulos](01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv), [painel](PAINEL_GERADO.csv), [quadro](QUADRO_PRODUTO.csv), [fila de 50 tarefas](FILA_TRABALHO.csv), [guia](../produto/00_LEIA_O_CODIGO.md) e [validador R18](../scripts/validar_r18_horizontal_e_proveniencia.py) integrados ao [roteiro local](../scripts/validar_operacao_local.sh). **+10 artigos, +47 unidades positivas, +3 títulos**, sem contagem adicional pela simples correção de URL.
+- [Matriz dos 48 títulos](01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv), [painel](PAINEL_GERADO.csv), [quadro](QUADRO_PRODUTO.csv), [fila de 51 tarefas](FILA_TRABALHO.csv), [guia](../produto/00_LEIA_O_CODIGO.md) e [validador R18](../scripts/validar_r18_horizontal_e_proveniencia.py) integrados ao [roteiro local](../scripts/validar_operacao_local.sh). **+10 artigos, +47 unidades positivas, +3 títulos**, sem contagem adicional pela simples correção de URL.
 - Controle de integridade documental por leitura GitHub distinto de execução local Python e distinto de cotejo em imagem do DOU. A reserva T13 permanece preservada.
 
 ## Achado de CI — três falhas confirmadas, anteriores à R18

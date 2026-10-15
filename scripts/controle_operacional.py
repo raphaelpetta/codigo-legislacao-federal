@@ -12,7 +12,7 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -52,6 +52,7 @@ def check_queue(allowed: set[str]) -> list[str]:
     entries = rows(QUEUE)
     ids: set[str] = set()
     warnings: list[str] = []
+    claimed_scopes: dict[tuple[str, str], str] = {}
     for entry in entries:
         key = entry["id"].strip()
         require(re.fullmatch(PROJECT + r"-[A-Z0-9]+-\d{3}", key) is not None,
@@ -79,8 +80,19 @@ def check_queue(allowed: set[str]) -> list[str]:
                     "Reserva sem responsavel/branch/SHA/prazo: " + key)
             timestamp = datetime.fromisoformat(entry["reserva_ate"].replace("Z", "+00:00"))
             require(timestamp.tzinfo is not None, "Reserva deve conter fuso: " + key)
-            if timestamp < datetime.now(timezone.utc):
+            scope = (module, re.sub(r"\s+", " ", entry["recorte"].strip().casefold()))
+            require(scope not in claimed_scopes,
+                    "Duas reservas ativas sobre o mesmo recorte: "
+                    + claimed_scopes.get(scope, "") + " e " + key)
+            claimed_scopes[scope] = key
+            now = datetime.now(timezone.utc)
+            require(timestamp <= now + timedelta(hours=24),
+                    "Reserva excede janela maxima de 24h: " + key)
+            if timestamp < now:
                 warnings.append("RESERVA EXPIRADA (liberacao humana): " + key)
+        if state == "BLOQUEADA":
+            require(bool(entry["ultima_entrega"].strip()),
+                    "Bloqueio sem evidencia/diagnostico: " + key)
         if state in {"EM_REVISAO", "CONCLUIDA"}:
             require(entry["pr"].strip() and entry["ultima_entrega"].strip(),
                     "Revisao/conclusao sem evidencia/PR: " + key)

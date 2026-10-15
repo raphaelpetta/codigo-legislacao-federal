@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "Corpus de trabalho T07 integral apenas no recorte Lei 9784, T24 CPC parcial e T25 CP1–12 parcial. Inclui 3 componentes, nenhum Livro completo do direito federal, nenhum C0-J. Fontes setoriais fixadas. DEC-016 pendente.",
+  "observacao": "Compilacao de T07 (78 artigos), T24 (33 artigos de CPC70–102 por duas fontes distintas) e T25 (12 artigos CP1–12). Nenhum Livro completo do direito federal; todos Q, zero C0-J, zero reformas M aprovadas, DEC-016 pendente. Não confundir 181 textos em T24 com certificacao juridica; 75 transcricoes editoriais ainda sem segundo cotejo DOU.",
   "livros": [
     {
       "id": "CLF-LIV-T07-M03-v4",
@@ -14,15 +14,16 @@
       "estado": "INTEGRADO_EXPERIMENTAL_Q"
     },
     {
-      "id": "CLF-LIV-T24-M01-CPC70-81-98-102-v1",
+      "id": "CLF-LIV-T24-M01-CPC70-102-181-v1",
       "titulo": "T24",
       "modulo": "T24.M01",
-      "vista": "produto/vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md",
-      "manifesto": "produto/fontes/T24_M01_106_v1.json",
-      "artigos": 17,
-      "registros_documentais": 106,
+      "vista": "produto/vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md",
+      "manifesto": "produto/fontes/T24_CPC_70_102_181_v1.json",
+      "artigos": 33,
+      "registros_documentais": 181,
       "origem_commit": "3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745",
-      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q"
+      "estado": "INTEGRADO_EXPERIMENTAL_CONTINUO_Q",
+      "proveniencia_adicional": "75 transcricoes editoriais CPC82–97, com fonte local e SHA Git em manifesto. O commit setorial referido em origem_commit cobre APENAS 106 unidades originais do PR38, nao as 75 locais. C0-J=0, revisao DOU pendente."
     },
     {
       "id": "CLF-LIV-T25-M01-CP1-12-v1",

@@ -5,11 +5,15 @@
 
 ## Vista única gerada do corpus efetivamente integrado
 
-[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T05 (15 artigos da Lei 9.709), T07, T24 (CPC 70–102), T25, T28 (CLT arts. 1º–3º), T37 (PNMA arts. 1º–4º) e T48 (Lei 9.474/1997, arts. 1º–10 e 17–21)**, todos experimentais Q, sem efeitos legais ou homologação C0-J.
+[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T03 (LC 140 arts. 1º–3º), T05 (Lei 9.709 arts. 1º–15), T07, T24 (CPC 70–102), T25, T28 (CLT 1º–3º), T37 (PNMA 1º–6º) e T48 (Lei 9.474 arts. 1º–21)**, todos experimentais Q, sem efeitos legais ou homologação C0-J.
 
-## Ponto de leitura: Código de Trabalho e onze componentes experimentais em sete títulos
+## Ponto de leitura: Código de Trabalho e quatorze componentes experimentais em oito títulos
 
-**[Abrir Código de Trabalho unificado (T05 + T07 + T24 + T25 + T28 + T37 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
+**[Abrir Código de Trabalho unificado (T03 + T05 + T07 + T24 + T25 + T28 + T37 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
+
+**Parte II — Federação e organização territorial**
+
+- [T03.M01 — LC 140/2011, arts. 1º–3º, **3 artigos/10 unidades Q**](vistas/T03_LC140_ART1_3_PREVIA_Q.md); [espelho 10×10](../modulos/T03/M01_ESPELHO_LC140_ART1_3_10_Q.csv) e [manifesto](fontes/T03_M01_LC140_10_R12_v1.json). **Lei complementar**, tutela de competência comum art. 23 CF; atuação **supletiva ≠ subsidiária**, preservada a repartição federativa. LC não é rebaixada a lei ordinária por anexação editorial ao Código; DEC-016 pendente.
 
 **Parte II — Instituições e participação política**
 - [T05.M06, suplemento documental dos arts. 3º–15 da Lei 9.709/1998: 13 artigos e 23 unidades Q](vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART3_15_PREVIA_Q.md), [espelho 23×23](../modulos/T05/M06_ESPELHO_LEI9709_ART3_15_23_Q.csv) e [manifesto SHA](fontes/T05_M06_9709_23_v1.json). **DOU pendente**, divergências arts. 2º/3º/8º IV abertas; art. 15 tem efeito temporal original de 1998. O título T05 passa a ter **15 artigos e 30 unidades documentais Q** de uma única lei, em duas vistas. Nenhum C0-J.
@@ -32,13 +36,17 @@
 
 - [T37.M01 — Lei 6.938/1981, arts. 3º–4º, **2 artigos e 19 unidades Q adicionais**](vistas/T37_PNMA_ART3_4_PREVIA_Q.md), [espelho 19×19](../modulos/T37/M01_ESPELHO_PNMA_ART3_4_19_Q.csv) e [manifesto](fontes/T37_M01_6938_19_R11_v1.json). Poluição tem cinco alíneas integrantes da definição, não cinco ilícitos autônomos; art. 3º IV inclui poluidor direto/indireto; art. 4º sete objetivos e competências federativas. **Total T37: 4 artigos/32 unidades Q**, sem ampliação de competência ou saneamento textual tácito.
 
+- [T37.M01 — PNMA, arts. 5º–6º, **2 artigos/9 unidades Q adicionais**](vistas/T37_PNMA_ART5_6_PREVIA_Q.md), [espelho 9×9](../modulos/T37/M01_ESPELHO_PNMA_ART5_6_9_Q.csv) e [manifesto](fontes/T37_M01_6938_9_R12_v1.json). SISNAMA: Conselho de Governo, CONAMA, órgão central, IBAMA/ICMBio, órgãos seccionais estaduais e locais municipais. **Inciso I alterado pela Lei 15.190/2025, art. 63, vigência após 180 dias**; não usar redação original. **Total T37: 6 artigos/41 unidades documentais Q**.
+
 **Parte VIII — Proteção internacional e migração**
 
-- [T48.M03 — Lei 9.474/1997, arts. 17º–21º, **5 artigos e 8 unidades Q adicionais**](vistas/T48_REFUGIO_ART17_21_PREVIA_Q.md), [espelho 8×8](../modulos/T48/M03_ESPELHO_REFUGIO_ART17_21_8_Q.csv) e [manifesto](fontes/T48_M03_9474_8_R11_v1.json). Declarações, intérprete, ACNUR, sigilo, protocolo e direito de permanência até decisão final. **Total T48: 15 artigos/29 unidades Q**, com **lacuna expressa dos arts. 11º–16º** e dos arts. 22º e seguintes. Sem C0-J.
+- [T48.M03 — CONARE, Lei 9.474/1997 arts. 11–16, **6 artigos/23 unidades Q adicionais**](vistas/T48_REFUGIO_ART11_16_PREVIA_Q.md), [espelho 23×23](../modulos/T48/M03_ESPELHO_REFUGIO_ART11_16_23_Q.csv) e [manifesto](fontes/T48_M03_9474_23_R12_v1.json). Competências em primeira instância, composição original, quórum mínimo de quatro membros com voto e ACNUR **voz sem voto**. Agora os **arts. 1º–21 estão representados em sequência documental contínua**, total T48 **21 artigos/52 unidades Q**. Permanecem excluídos arts. 22–49 e a verificação da organização administrativa atual.
 
-- [T48.M03 — Lei 9.474/1997 arts. 9º–10, **2 artigos e 4 unidades Q adicionais**](vistas/T48_REFUGIO_LEI9474_ART9_10_PREVIA_Q.md), [espelho 4×4](../modulos/T48/M03_ESPELHO_LEI9474_ART9_10_4_Q.csv), [manifesto](fontes/T48_M03_9474_4_R10_v1.json). Art. 9º registra a oitiva do solicitante; art. 10 estabelece suspensão **pela entrada irregular**, arquivamento **condicionado** e fluxos à Polícia Federal. No recorte anterior T48 tinha 10 artigos/21 unidades; a vista posterior R11 acrescenta cinco artigos e oito unidades, mantendo lacunas. C0-J segue zero.
+- [T48.M03 — Lei 9.474/1997, arts. 17º–21º, **5 artigos e 8 unidades Q adicionais**](vistas/T48_REFUGIO_ART17_21_PREVIA_Q.md), [espelho 8×8](../modulos/T48/M03_ESPELHO_REFUGIO_ART17_21_8_Q.csv) e [manifesto](fontes/T48_M03_9474_8_R11_v1.json). Declarações, intérprete, ACNUR, sigilo, protocolo e direito de permanência até decisão final. Na Rodada 11 o T48 totalizava 15 artigos/29 unidades; a lacuna 11–16 foi preenchida na vista da Rodada 12, permanecendo fora os arts. 22 e seguintes. Sem C0-J.
 
-- [T48.M03 — Lei 9.474/1997, arts. 1º–8º, **8 artigos e 17 unidades Q**](vistas/T48_REFUGIO_LEI9474_ART1_8_PREVIA_Q.md), [fonte e espelho 17×17](../modulos/T48/M03_ESPelho_LEI9474_ART1_8_17_Q.csv), [manifesto](fontes/T48_M03_9474_17_v1.json) e [verificador](../scripts/gerar_previa_t48.py). Enquadra refugiados, extensão familiar, exclusões, documentos, pedido fronteiriço, art. 7º não devolução e art. 8º ingresso irregular. **Não** harmoniza automaticamente art. 7º §2º com a Lei 13.445/2017, art. 49 §4º e tratados; DOU original de 1997 ainda sem fac-símile cotejado; nenhum C0-J. Os demais dispositivos, além dos arts. 1º–10, não foram transpostos.
+- [T48.M03 — Lei 9.474/1997 arts. 9º–10, **2 artigos e 4 unidades Q adicionais**](vistas/T48_REFUGIO_LEI9474_ART9_10_PREVIA_Q.md), [espelho 4×4](../modulos/T48/M03_ESPELHO_LEI9474_ART9_10_4_Q.csv), [manifesto](fontes/T48_M03_9474_4_R10_v1.json). Art. 9º registra a oitiva do solicitante; art. 10 estabelece suspensão **pela entrada irregular**, arquivamento **condicionado** e fluxos à Polícia Federal. No recorte anterior T48 tinha 10 artigos/21 unidades; a vista R11 acrescentou cinco artigos e oito unidades; a rodada R12 completou 11–16 e eliminou essa lacuna documental. C0-J segue zero.
+
+- [T48.M03 — Lei 9.474/1997, arts. 1º–8º, **8 artigos e 17 unidades Q**](vistas/T48_REFUGIO_LEI9474_ART1_8_PREVIA_Q.md), [fonte e espelho 17×17](../modulos/T48/M03_ESPelho_LEI9474_ART1_8_17_Q.csv), [manifesto](fontes/T48_M03_9474_17_v1.json) e [verificador](../scripts/gerar_previa_t48.py). Enquadra refugiados, extensão familiar, exclusões, documentos, pedido fronteiriço, art. 7º não devolução e art. 8º ingresso irregular. **Não** harmoniza automaticamente art. 7º §2º com a Lei 13.445/2017, art. 49 §4º e tratados; DOU original de 1997 ainda sem fac-símile cotejado; nenhum C0-J. O recorte posterior de 17–21 e o bloco 11–16 da R12 completaram documentalmente 1–21, permanecendo fora os arts. 22–49.
 
 **Livro Penal T25.M01 (núcleo CP 1º–12)**
 - [Prévia parcial do Livro Penal: 12 artigos, 39 unidades](vistas/T25_PENAL_PARTE_GERAL_CP1_12_PREVIA.md), derivada do PR #32 em commit fixado: [manifesto](fontes/T25_CP1_12_v1.json), [concordância 39 × 39](concordancia/T25_CP_ART1_12_39.csv) e [verificador documental](../scripts/gerar_previa_t25.py). **Nenhuma C0-J aprovada; CP art.12 tem gate de especialidade e referente `deste Código`, CPM não integrado.**
@@ -63,7 +71,11 @@
 - **T07**: `python3 scripts/gerar_produto_experimental.py --setorial-root setorial --check` (com o checkout de origem T07 declarado no manifesto); `--write` regenera somente a vista derivada.
 - **T24 setorial**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` confere as 106 unidades originais. **T24 integrado**: `python3 scripts/gerar_t24_cpc_181.py --check` confere os dois conjuntos, 33 artigos, 181 destinos, quatro marcos legislativos e hashes de blob; `--write` regenera apenas a vista contínua.
 - **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). Execuções anteriores do GitHub Actions exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
-- **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos onze componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
+- **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos quatorze componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
+
+## Estado acumulado após rodada 12
+
+**Corpus único Q em PR draft R12:** **171 artigos e 574 unidades documentais textuais de origem**, mais **um registro histórico T07**, distribuídos em 14 componentes e oito títulos (T03, T05, T07, T24, T25, T28, T37, T48). T03 é lei **complementar**; T37 mantém repartição federativa; T48 inclui Lei 9.474 arts. 1–21, ainda sem arts. 22–49. **C0-J=0, M=0, DEC-016 pendente, merges=0.** A contagem inclui texto temporal histórico da Lei 9.709 art. 15 como documento, não como norma futura do CLF.
 
 ## Estado acumulado após rodada 11
 
@@ -81,15 +93,16 @@
 
 | Objeto | Artigos visíveis na prévia | Unidades positivas | Unidade histórica | C0-J homologadas |
 |---|---:|---:|---:|---:|
+| T03 — LC 140/2011 (arts. 1º–3º) | 3 | 10 | 0 | 0 |
 | T05 — Lei 9.709/1998 (arts. 1º–15; art. 15 com vigência histórica) | 15 | 30 | 0 | 0 |
 | T07 — Lei 9.784/1999 | 78 | 214 | 1 | 0 |
 | T24 — CPC (arts. 70–102 contínuos) | 33 | 181 | 0 | 0 |
 | T25 — CP (arts. 1º–12) | 12 | 39 | 0 | 0 |
 | T28 — CLT (arts. 1º–3º) | 3 | 7 | 0 | 0 |
-| T37 — PNMA (arts. 1º–4º, redação vigente 2026) | 4 | 32 | 0 | 0 |
-| T48 — Lei 9.474/1997 (arts. 1º–10 e 17–21) | 15 | 29 | 0 | 0 |
-| **Total atual das vistas** | **160** | **532** | **1** | **0** |
+| T37 — PNMA (arts. 1º–6º, redação vigente 2026) | 6 | 41 | 0 | 0 |
+| T48 — Lei 9.474/1997 (arts. 1º–21) | 21 | 52 | 0 | 0 |
+| **Total atual das vistas** | **171** | **574** | **1** | **0** |
 
-As 532 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
+As 574 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
 
 [Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

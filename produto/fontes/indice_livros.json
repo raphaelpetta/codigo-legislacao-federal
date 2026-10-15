@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "observacao": "Indice de Livros presentes na vista experimental, nao censo das normas vigentes nem estado de aprovacao material. Cada livro deve possuir origem setorial versionada e manifesto verificavel; fontes-ancora externas permanecem em pesquisa.",
+  "livros": [
+    {
+      "id": "CLF-LIV-T07-M03-v4",
+      "titulo": "T07",
+      "modulo": "T07.M03",
+      "vista": "produto/vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md",
+      "manifesto": "produto/fontes/T07_M03_v4.json",
+      "artigos": 78,
+      "registros_documentais": 215,
+      "origem_commit": "2a4d1eefa864f44435aec70ed0cc55a96b718b64",
+      "estado": "INTEGRADO_EXPERIMENTAL_Q"
+    }
+  ]
+}

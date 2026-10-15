@@ -93,3 +93,7 @@ No interfaceamento com o projeto constitucional independente, a CF/1988 continua
 ## 10. Prestação de contas e continuidade obrigatórias por rodada (14/10/2026)
 
 Aplicar em TODOS os módulos e pesquisas a [regra de continuidade](18_PROTOCOLO_CONTINUIDADE_POR_RODADA.md): ao final de cada ciclo registrar no mesmo PR/branch **FEITO / PENDENTE OU NÃO VERIFICADO / PRÓXIMO PASSO EXECUTÁVEL**, com versão `main` antes/depois, fonte normativa, C0/C1/M/Q, conflitos, estado CI, módulos afetados e interface CF. Usar [modelo de continuidade](../modelos/20_PACOTE_CONTINUIDADE.md); concluir texto na conversa sem gravar arquivo não equivale a persistir handoff. O estado documental não é prova de conclusão jurídica nem de revogação segura.
+
+## Complemento transversal de progressividade decisória — 15/10/2026
+
+Em F4, F8 e F9 aplicar [CLF-GOV-019](19_PROGRESSIVIDADE_DECISORIA.md): existe presunção de submeter à decisão a opção suficientemente fundamentada, sem pesquisa indefinida de alternativas sem potencial material de mudar a escolha. Quando faltar prova decisiva ou houver dependência, delimitar lacuna e critério de saída. Garantias, classificação C0/C1/M/Q, C0-J, concordância origem–destino, regimes especiais, veículo normativo e DEC-016 continuam exigindo validação própria. Não equiparar minuta, CI, merge ou preferência a aprovação jurídica ou material.

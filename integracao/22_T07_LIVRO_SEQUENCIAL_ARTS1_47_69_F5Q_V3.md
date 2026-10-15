@@ -290,5 +290,5 @@
 ## XIII. Prova metodológica
 
 - Concordâncias [22](05_CONCORDANCIA_T07_22_UNIDADES_20261014.csv), [40](11_T07_CONCORDANCIA_UNIFICADA_40_UNIDADES_F5Q.csv), [33](15_T07_CONCORDANCIA_ART18_28_33_UNIDADES.csv) e [28](21_T07_CONCORDANCIA_ART29_47_28_UNIDADES.csv) perfazem **123/215** origens documentalmente alocadas, sem colisão de IDs.
-- Cenários do devido processo e da prova: [testes F6 específicos da instrução](23_T07_TESTES_INSTRUCAO_12.csv) e protocolo dos dois percursos [19](19_T07_DOIS_PERCURSOS_COMUNICACAO_E_PROVA_20261015.csv). São exercícios de consistência documental, não perícia nem testes sobre casos individuais.
+- Cenários do devido processo e da prova: [testes F6 específicos da instrução](23_T07_TESTES_INSTRUCAO_15.csv) e protocolo dos dois percursos [19](19_T07_DOIS_PERCURSOS_COMUNICACAO_E_PROVA_20261015.csv). São exercícios de consistência documental, não perícia nem testes sobre casos individuais.
 - Critério mínimo futura revisão T07/T43/T01: nenhuma supressão, nenhuma nova remissão sem dossiê de alcance, preservação de direitos de acesso/prova, definição juridicamente válida do veículo (DEC-016) e aprovação de reformas `M`, quando necessárias.

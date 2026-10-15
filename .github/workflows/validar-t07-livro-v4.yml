@@ -1,0 +1,19 @@
+name: Validar Livro T07 v4
+
+on:
+  pull_request:
+    paths:
+      - "integracao/25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.csv"
+      - "integracao/26_T07_LIVRO_COMPLETO_1_69A_F5Q_V4.md"
+      - "scripts/validar_t07_livro_v4.py"
+      - ".github/workflows/validar-t07-livro-v4.yml"
+  workflow_dispatch:
+
+jobs:
+  auditar-estrutura-t07:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conferir branch
+        uses: actions/checkout@v4
+      - name: Validar unidades e referencias do Livro T07 (nao certifica direito)
+        run: python3 scripts/validar_t07_livro_v4.py

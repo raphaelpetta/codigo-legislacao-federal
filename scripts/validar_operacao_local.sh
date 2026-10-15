@@ -4,6 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 python3 scripts/verificar_estrutura.py
 python3 scripts/controle_operacional.py --check
+python3 scripts/gerar_codigo_integrado.py --check
 if [[ $# -lt 1 ]]; then
   echo "PARCIAL: T07 NAO CONFERIDO. Informe caminho do checkout setorial no SHA do manifesto:" >&2
   echo "  bash scripts/validar_operacao_local.sh /caminho/checkout-PR45" >&2

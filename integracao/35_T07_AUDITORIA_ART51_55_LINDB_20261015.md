@@ -74,3 +74,5 @@ Ato só é convalidável mediante decisão que demonstre defeito **sanável** e 
 Detalhamento em [38 — alternativas em confronto](38_T07_ALTERNATIVAS_AUTOTUTELA_LINDB_20261015.md). **Recomendação nesta rodada:** R0 como baseline não homologado, pesquisar R1/R2 e não propor R3 para ratificação antes de revisão jurisprudencial e procedimental mais específica.
 
 **Próxima etapa:** arts.56–65 da Lei 9.784 — recursos, efeito suspensivo, contraditório do recorrido, decisão gravosa e diferença absoluta em relação à revisão sancionatória sem agravamento — com interfaces T24/T25 e T07.
+
+**Registro de governança:** `DEC-001` (Código único) permanece objetivo, `DEC-016` (veículo constitucional do Código) continua pendente; nenhuma integração desta minuta ao direito vigente ou à Constituição foi aprovada.

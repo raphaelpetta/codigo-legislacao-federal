@@ -14,7 +14,7 @@
 ## Balanço da frente 48–69-A
 
 - Ciclo 18: arts48–50, 40 unidades; ciclo 19A: arts51–55, 9 unidades; ciclo19B: arts56–65 incluindo 64-A/B, 30 unidades; ciclo atual: arts66–69-A, 13 unidades.
-- **92 unidades examinadas materialmente**, contra **215 no corpus** (214 destinos positivos + 1 histórico art70). **123 unidades anteriores (arts1–47 e demais subunidades documentais pré-integradas) ainda precisam de auditoria transversal uniforme**, mesmo quando cobertas pela fase documental v3; esta é a maior frente substantiva seguinte.
+- **92 unidades examinadas materialmente**, contra **215 no corpus** (214 destinos positivos + 1 histórico art70). **122 unidades positivas anteriores (arts1–47) ainda precisam de auditoria transversal uniforme**; a unidade histórica art70 é apenas arquivo, não matéria a promulgar, mesmo quando cobertas pela fase documental v3; esta é a maior frente substantiva seguinte.
 - **0 equivalência jurídica C0-J homologada**, **0 inovação material M aprovada**, **nenhuma revogação**, nenhum merge, nenhuma alteração da Constituição, DEC-016 pendente.
 
 ## Riscos abertos

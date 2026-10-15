@@ -770,6 +770,50 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - **Proveniência:** DOU original 12/12/1990, veto/promulgação parcial 19/04/1991 e republicação atualizada 18/03/1998; comparecência textual em Câmara 2026 não autentica toda a cadeia DOU.
 
+## T08 — T08.M01 [CLF-LIV-T08-RJU-8112-ART5-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T08 — Agentes públicos — requisitos para investidura federal, Lei 8.112/1990, art. 5º
+
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 1 artigos e 10 unidades positivas em origem/destino 1:1, conservando numeração e remissões legais originais. **C0-J=0; M=0; DEC-016 pendente.** Fonte [Câmara ou Planalto institucional](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html), controle [fonte paralela](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm); DOU fac-símile e cadeia de alteradoras não certificados. Este texto não promulga Código Federal.
+
+**Fonte versionada:** `modulos/T08/M01_ESPELHO_LEI8112_ART5_10_Q.csv` · Git blob SHA `92eb6149a002e2a3c5df93770e925684bf582526`.
+
+## Texto legislativo de origem, sem renumeração final
+
+**Art. 5.** São requisitos básicos para investidura em cargo público:
+
+**I –** a nacionalidade brasileira;
+
+**II –** o gozo dos direitos políticos;
+
+**III –** a quitação com as obrigações militares e eleitorais;
+
+**IV –** o nível de escolaridade exigido para o exercício do cargo;
+
+**V –** a idade mínima de dezoito anos;
+
+**VI –** aptidão física e mental.
+
+**§ 1º** As atribuições do cargo podem justificar a exigência de outros requisitos estabelecidos em lei.
+
+**§ 2º** Às pessoas portadoras de deficiência é assegurado o direito de se inscrever em concurso público para provimento de cargo cujas atribuições sejam compatíveis com a deficiência de que são portadoras; para tais pessoas serão reservadas até 20% (vinte por cento) das vagas oferecidas no concurso.
+
+**§ 3º** As universidades e instituições de pesquisa científica e tecnológica federais poderão prover seus cargos com professores, técnicos e cientistas estrangeiros, de acordo com as normas e os procedimentos desta Lei.
+
+## Gates jurídicos e de proveniência — comentários não normativos
+
+- **Art. 5º:** seis incisos de requisitos básicos de investidura e três parágrafos; não equivale a autorização para discriminação em concursos e não suplanta CF art. 37 e requisitos específicos previstos em lei.
+
+- **§ 2º:** a fonte legal usa expressão histórica 'pessoas portadoras de deficiência'; preservar literalmente sem reafirmá-la como terminologia recomendada. A legislação de direitos das pessoas com deficiência, sobretudo LBI Lei 13.146/2015 e regras de concursos atuais, exige auditoria de compatibilidade.
+
+- **§ 2º até 20%:** a reserva de vagas do RJU não autoriza ignorar percentuais mínimos, arredondamento, demais cotas e regras de concursos federais fixados por normas e precedentes posteriores.
+
+- **§ 3º:** professores, técnicos e cientistas estrangeiros em universidades e instituições federais científicas e tecnológicas, incluído pela Lei 9.515/1997; não eliminar exigências legais adicionais por generalização.
+
+- **Abrangência:** RJU servidores civis federais, não aplicar automaticamente a vínculo estadual, municipal ou celetista; ADI 2.135 e CF art. 37 são gates de recepção.
+
+- **Proveniência:** publicação Lei 8.112/1990, promulgações/republicações e Lei 9.515/1997 não autenticadas por fac-símile na rodada; C0-J=0, M=0, DEC-016 pendente.
+
 ## T09 — T09.M01 [CLF-LIV-T09-14133-ART2_3-R15; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T09 — Licitações e contratos administrativos — Lei 14.133/2021, arts. 2º–3º
@@ -813,6 +857,52 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - As regras transitórias e revogações da Lei 14.133 (arts. 190–194) e a LC 123/2006 exigem verificação específica antes da equivalência jurídica; não presumir eliminação de concursos, competências, editais nem migração para normas sem lei complementar.
 
 - Texto da publicação original 2021 confrontado com Planalto 2026, mas **sem autenticação por imagem do DOU nem cotejo de toda cadeia de alterações**. C0-J=0; DEC-016 pendente.
+
+## T11 — T11.M01 [CLF-LIV-T11-LEI4320-ART1_2-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T11 — Direito financeiro e lei orçamentária — Lei 4.320/1964, arts. 1º–2º
+
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 2 artigos e 11 unidades positivas em origem/destino 1:1, conservando numeração e remissões legais originais. **C0-J=0; M=0; DEC-016 pendente.** Fonte [Câmara ou Planalto institucional](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html), controle [fonte paralela](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm); DOU fac-símile e cadeia de alteradoras não certificados. Este texto não promulga Código Federal.
+
+**Fonte versionada:** `modulos/T11/M01_ESPELHO_LEI4320_ART1_2_11_Q.csv` · Git blob SHA `9af4f10d8086697ac3e5cc7760e292221c8be68c`.
+
+## Texto legislativo de origem, sem renumeração final
+
+**Art. 1.** Esta lei estatui normas gerais de direito financeiro para elaboração e controle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal, de acordo com o disposto no art. 5º, inciso XV, letra b, da Constituição Federal.
+
+**Art. 2.** A Lei do Orçamento conterá a discriminação da receita e despesa de forma a evidenciar a política econômica financeira e o programa de trabalho do Governo, obedecidos os princípios de unidade, universalidade e anualidade.
+
+**§ 1º** Integrarão a Lei de Orçamento:
+
+**I –** Sumário geral da receita por fontes e da despesa por funções do Governo;
+
+**II –** Quadro demonstrativo da Receita e Despesa segundo as Categorias Econômicas, na forma do Anexo nº 1;
+
+**III –** Quadro discriminativo da receita por fontes e respectiva legislação;
+
+**IV –** Quadro das dotações por órgãos do Governo e da administração.
+
+**§ 2º** Acompanharão a Lei de Orçamento:
+
+**I –** Quadros demonstrativos da receita e planos de aplicação dos fundos especiais;
+
+**II –** Quadros demonstrativos da despesa, na forma dos Anexos ns. 6 a 9;
+
+**III –** Quadro demonstrativo do programa anual de trabalho do Governo, em termos de realização de obras e de prestação de serviços.
+
+## Gates jurídicos e de proveniência — comentários não normativos
+
+- **Natureza e hierarquia:** Lei 4.320/1964 contém normas gerais de direito financeiro recebidas sob o sistema constitucional atual, inclusive reserva de lei complementar nas matérias da CF art. 165, § 9º. A compilação Q não uniformiza espécie, não altera iniciativa da lei orçamentária nem substitui LRF (LC 101/2000) e LC 200/2023.
+
+- **Art. 1º:** remissão literal ao art. 5º, XV, b, da Constituição anterior à CF 1988, preservada como dado histórico, sem tratá-la como base de competência atual.
+
+- **Art. 2º:** unidade, universalidade e anualidade e relação de quadros integrantes/que acompanham o orçamento (quatro incisos no § 1º e três no § 2º). Referências aos anexos da Lei de 1964 exigem preservação de vínculo com sua estrutura, não renumerar sem mapa.
+
+- **Art. 3º não incorporado:** contém parágrafo único acompanhado de histórico de veto e deliberação congressual em 1964; a identificação da redação promulgada e seus efeitos depende da cadeia DOU, e sua retirada desta rodada evita inferir vigência pelo HTML compilado.
+
+- **Temporalidade:** DOU 23/03/1964, retificação 09/04/1964 e 03/06/1964; art. 114 tem efeitos em 01/01/1964, **não** transfere eficácia retroativa ao futuro CLF; cotejo em fac-símile pendente.
+
+- O arquivo representa somente **2 artigos/11 unidades Q** de origem, sem aprovação C0-J, sem M ou DEC-016.
 
 ## T12 — T12.M01 [CLF-LIV-T12-CTN-ART1_5-R15; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
@@ -885,6 +975,38 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Relação com T16/T21:** responsabilidade civil, instituições financeiras e seguros têm interfaces e regras especiais; manter origem textual única no T20 e remissões 1:N, não replicar CDC noutros títulos.
 
 - **Autenticidade:** DOU suplemento de 12/09/1990, veto e retificação de 10/01/2007 pendentes de fac-símile e cotejo por evento.
+
+## T22 — T22.M01 [CLF-LIV-T22-LEI9610-ART1_4-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T22 — Propriedade intelectual — direitos autorais, Lei 9.610/1998, arts. 1º–4º
+
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 4 artigos e 5 unidades positivas em origem/destino 1:1, conservando numeração e remissões legais originais. **C0-J=0; M=0; DEC-016 pendente.** Fonte [Câmara ou Planalto institucional](https://www2.camara.leg.br/legin/fed/lei/1998/lei-9610-19-fevereiro-1998-365399-normaatualizada-pl.html), controle [fonte paralela](https://www.planalto.gov.br/ccivil_03/leis/l9610.htm); DOU fac-símile e cadeia de alteradoras não certificados. Este texto não promulga Código Federal.
+
+**Fonte versionada:** `modulos/T22/M01_ESPELHO_LEI9610_ART1_4_5_Q.csv` · Git blob SHA `ae5b3e01ab42fa838bf89929dc8e6ed6ce0e19bf`.
+
+## Texto legislativo de origem, sem renumeração final
+
+**Art. 1.** Esta Lei regula os direitos autorais, entendendo-se sob esta denominação os direitos de autor e os que lhes são conexos.
+
+**Art. 2.** Os estrangeiros domiciliados no exterior gozarão da proteção assegurada nos acordos, convenções e tratados em vigor no Brasil.
+
+**Parágrafo único.** Aplica-se o disposto nesta Lei aos nacionais ou pessoas domiciliadas em país que assegure aos brasileiros ou pessoas domiciliadas no Brasil a reciprocidade na proteção aos direitos autorais ou equivalentes.
+
+**Art. 3.** Os direitos autorais reputam-se, para os efeitos legais, bens móveis.
+
+**Art. 4.** Interpretam-se restritivamente os negócios jurídicos sobre os direitos autorais.
+
+## Gates jurídicos e de proveniência — comentários não normativos
+
+- **Art. 1º:** direitos autorais abrangem direitos do autor e conexos, sem abranger automaticamente propriedade industrial regulada pela Lei 9.279/1996 nem softwares Lei 9.609/1998 fora das interfaces próprias.
+
+- **Art. 2º:** protege estrangeiros domiciliados no exterior nos termos de convenções, acordos e tratados em vigor; parágrafo único trata de reciprocidade. Não transformar esse texto em exclusão automática de proteção garantida por tratado ou Constituição.
+
+- **Art. 3º:** qualificação como bens móveis é legal e limitada aos efeitos pertinentes; não anula direitos morais e regimes de inalienabilidade (arts. 24–27 ainda não integrados).
+
+- **Art. 4º:** negócios jurídicos sobre direitos autorais são interpretados restritivamente. Nenhuma conclusão automática sobre cessão de software, obra sob encomenda, licenças digitais ou inteligência artificial sem regras especiais e contratos examinados.
+
+- Cotejo Câmara versão atualizada/Planalto realizado, DOU original 20/02/1998 e vetos 1998 ainda sem fac-símile examinado. C0-J=0, M=0, DEC-016 pendente.
 
 ## T24 — T24.M01 [CLF-LIV-T24-M01-CPC70-102-181-v1; INTEGRADO_EXPERIMENTAL_CONTINUO_Q]
 
@@ -1507,6 +1629,40 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Cronologia e peculiaridades:** art. 4º § 2º tem fonte Lei 13.467/2017, art. 6º vem da Lei 12.551/2011, redações anteriores não são texto positivo atual; DOU 1943/2011/2017 sem fac-símile cotejado.
 
 - **PEC 221/2019:** eventual aprovação parlamentar não constitui por si promulgação de emenda; não incorporar alteração de jornada/escala ao CLT sem documento de promulgação, efeitos intertemporais e tipo normativo.
+
+## T31 — T31.M01 [CLF-LIV-T31-LEI8080-ART1_3-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T31 — Saúde pública — Lei Orgânica da Saúde 8.080/1990, arts. 1º–3º
+
+> **VISTA EXPERIMENTAL DOCUMENTAL Q — NÃO RATIFICADA.** 3 artigos e 6 unidades positivas em origem/destino 1:1, conservando numeração e remissões legais originais. **C0-J=0; M=0; DEC-016 pendente.** Fonte [Câmara ou Planalto institucional](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8080-19-setembro-1990-365093-normaatualizada-pl.html), controle [fonte paralela](https://www.planalto.gov.br/ccivil_03/leis/l8080.htm); DOU fac-símile e cadeia de alteradoras não certificados. Este texto não promulga Código Federal.
+
+**Fonte versionada:** `modulos/T31/M01_ESPELHO_LEI8080_ART1_3_6_Q.csv` · Git blob SHA `56cc0263db23dc3214ab95e33a30f673bf110bf2`.
+
+## Texto legislativo de origem, sem renumeração final
+
+**Art. 1.** Esta Lei regula, em todo o território nacional, as ações e serviços de saúde, executados isolada ou conjuntamente, em caráter permanente ou eventual, por pessoas naturais ou jurídicas de direito público ou privado.
+
+**Art. 2.** A saúde é um direito fundamental do ser humano, devendo o Estado prover as condições indispensáveis ao seu pleno exercício.
+
+**§ 1º** O dever do Estado de garantir a saúde consiste na formulação e execução de políticas econômicas e sociais que visem à redução de riscos de doenças e de outros agravos e no estabelecimento de condições que assegurem acesso universal e igualitário às ações e aos serviços para a sua promoção, proteção e recuperação.
+
+**§ 2º** O dever do Estado não exclui o das pessoas, da família, das empresas e da sociedade.
+
+**Art. 3.** Os níveis de saúde expressam a organização social e econômica do País, tendo a saúde como determinantes e condicionantes, entre outros, a alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, a atividade física, o transporte, o lazer e o acesso aos bens e serviços essenciais.
+
+**Parágrafo único.** Dizem respeito também à saúde as ações que, por força do disposto no artigo anterior, se destinam a garantir às pessoas e à coletividade condições de bem-estar físico, mental e social.
+
+## Gates jurídicos e de proveniência — comentários não normativos
+
+- **Art. 1º:** regras de alcance nacional para serviços públicos e privados de saúde, sem confundir competência federal de normas gerais com gestão exclusiva pela União; CF 196–200 e Lei 8.142/1990 interagem com o SUS.
+
+- **Art. 2º:** saúde como direito fundamental e dever do Estado, complementado pelo dever das pessoas, famílias, empresas e sociedade; o § 2º não afasta obrigação estatal nem cria restrição autônoma ao acesso universal.
+
+- **Art. 3º:** caput com redação **Lei 12.864/2013**, incluindo atividade física na lista de determinantes. A fonte de 1990 é diferente; manter cadeia de alteração e evitar duplicar redações antigas na vista.
+
+- **Parágrafo único art. 3º:** bem-estar físico, mental e social, não reduzido ao atendimento assistencial. Interfaces T37 ambiente, T28 trabalho, T32 saúde infantil, T39 saneamento, T31 assistência/planos privados preservadas sem transcrição dupla.
+
+- O SUS como organização está no art. 4º e seguintes, **ainda fora do recorte**; não afirmar cobertura completa da LOS. Há vetos de 1990 em outros artigos e controle de competência; DOU 20/09/1990 e DOU Lei 12.864/2013 sem cotejo por fac-símile.
 
 ## T37 — T37.M01 [CLF-LIV-T37-M01-6938-ART1-2-13-R10; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

@@ -770,6 +770,88 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - **Proveniência:** DOU original 12/12/1990, veto/promulgação parcial 19/04/1991 e republicação atualizada 18/03/1998; comparecência textual em Câmara 2026 não autentica toda a cadeia DOU.
 
+## T09 — T09.M01 [CLF-LIV-T09-14133-ART2_3-R15; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T09 — Licitações e contratos administrativos — Lei 14.133/2021, arts. 2º–3º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 2 artigos de origem e 11 unidades em correspondência literal editorial de origem/destino, sem renumeração definitiva. **C0-J=0, M=0, DEC-016 pendente.** Fontes: [portal institucional primário](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html) e [cotejo institucional](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm); **DOU em fac-símile não foi cotejado**, e nenhuma lei nova é promulgada por esta vista.
+
+**Origem versionada:** `modulos/T09/M01_ESPELHO_LEI14133_ART2_3_11_Q.csv`; Git blob SHA `12541228903aa2636db6498501a79b3d94f4f08f`.
+
+## Texto de origem — recorte parcial
+
+**Art. 2.** Esta Lei aplica-se a:
+
+**I –** alienação e concessão de direito real de uso de bens;
+
+**II –** compra, inclusive por encomenda;
+
+**III –** locação;
+
+**IV –** concessão e permissão de uso de bens públicos;
+
+**V –** prestação de serviços, inclusive os técnico-profissionais especializados;
+
+**VI –** obras e serviços de arquitetura e engenharia;
+
+**VII –** contratações de tecnologia da informação e de comunicação.
+
+**Art. 3.** Não se subordinam ao regime desta Lei:
+
+**I –** contratos que tenham por objeto operação de crédito, interno ou externo, e gestão de dívida pública, incluídas as contratações de agente financeiro e a concessão de garantia relacionadas a esses contratos;
+
+**II –** contratações sujeitas a normas previstas em legislação própria.
+
+## Portas jurídicas — conteúdo editorial não normativo
+
+- O **art. 1º**, ainda não integrado, delimita sujeitos e hipóteses específicas: os arts. 2º–3º isolados **não** exaurem a incidência da Lei 14.133. Integração T09 expressamente parcial.
+
+- Art. 2º reúne sete tipos contratuais e atividades, sem revogar regimes próprios de concessões, PPP, empresas estatais ou contratos regidos por regras especiais (Leis 8.987/1995, 11.079/2004, 13.303/2016).
+
+- Art. 3º delimita exclusões: operações de crédito/gestão da dívida pública e contratação regida por legislação própria; não confundir com dispensa ou inexigibilidade de licitação.
+
+- As regras transitórias e revogações da Lei 14.133 (arts. 190–194) e a LC 123/2006 exigem verificação específica antes da equivalência jurídica; não presumir eliminação de concursos, competências, editais nem migração para normas sem lei complementar.
+
+- Texto da publicação original 2021 confrontado com Planalto 2026, mas **sem autenticação por imagem do DOU nem cotejo de toda cadeia de alterações**. C0-J=0; DEC-016 pendente.
+
+## T12 — T12.M01 [CLF-LIV-T12-CTN-ART1_5-R15; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T12 — Código Tributário Nacional — arts. 1º–5º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 5 artigos de origem e 7 unidades em correspondência literal editorial de origem/destino, sem renumeração definitiva. **C0-J=0, M=0, DEC-016 pendente.** Fontes: [portal institucional primário](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html) e [cotejo institucional](https://planalto.gov.br/ccivil_03/leis/l5172compilado.htm); **DOU em fac-símile não foi cotejado**, e nenhuma lei nova é promulgada por esta vista.
+
+**Origem versionada:** `modulos/T12/M01_ESPELHO_CTN_ART1_5_7_Q.csv`; Git blob SHA `05d236a09ee1740781335bc1d945534021ab6fc0`.
+
+## Texto de origem — recorte parcial
+
+**Art. 1.** Esta Lei regula, com fundamento na Emenda Constitucional nº 18, de 1º de dezembro de 1965, o sistema tributário nacional e estabelece, com fundamento no art. 5º, XV, alínea b, da Constituição Federal, as normas gerais de direito tributário aplicáveis à União, aos Estados, ao Distrito Federal e aos Municípios, sem prejuízo da respectiva legislação complementar, supletiva ou regulamentar.
+
+**Art. 2.** O sistema tributário nacional é regido pelo disposto na Emenda Constitucional nº 18, de 1º de dezembro de 1965, em leis complementares, em resoluções do Senado Federal e, nos limites das respectivas competências, em leis federais, nas Constituições e em leis estaduais, e em leis municipais.
+
+**Art. 3.** Tributo é toda prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada.
+
+**Art. 4.** A natureza jurídica específica do tributo é determinada pelo fato gerador da respectiva obrigação, sendo irrelevantes para qualificá-la:
+
+**I –** a denominação e demais características formais adotadas pela lei;
+
+**II –** a destinação legal do produto da sua arrecadação.
+
+**Art. 5.** Os tributos são impostos, taxas e contribuições de melhoria.
+
+## Portas jurídicas — conteúdo editorial não normativo
+
+- O CTN foi editado como **Lei 5.172/1966** e suas disposições de normas gerais tributárias foram recepcionadas na ordem constitucional posterior com **reserva material de lei complementar**. A transcrição não converte CTN em lei ordinária atual nem autoriza alteração de seu núcleo por via ordinária.
+
+- Art. 1º e art. 2º conservam referências literais à EC 18/1965 e à Constituição então vigente. Essas referências são dados históricos do texto, não fundamento constitucional vigente em 2026; cruzar CF arts. 145–162 e art. 146, EC 132/2023 e LCs 214/2025 e 227/2026.
+
+- Art. 3º define tributo como prestação compulsória, não sanção por ilícito e instituída por lei; multas tributárias não se tornam tributo por interpretação do Código experimental.
+
+- Art. 4º afasta nome e destinação como critérios genéricos de qualificação; exigir leitura compatível com natureza constitucional de impostos, taxas, contribuições e outras figuras posteriores, sem confundir classificação histórica do CTN com rol constitucional exaustivo.
+
+- Art. 5º enuncia impostos, taxas e contribuições de melhoria, mas não se deve afirmar que ele exclui contribuições especiais e empréstimos compulsórios reconhecidos pela CF 1988. Reconstrução por espécie e recepção constitucional é condição de C0-J.
+
+- DOU de 1966, alterações e recepção, cronogramas 2026–2033 de tributação sobre consumo e efeitos diferidos de reformas exigem auditoria; este recorte 1–5 é textual Q, sem reforma material.
+
 ## T20 — T20.M01 [CLF-LIV-T20-CDC-8078-ART1-3-6-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # CLF T20 — Consumidor e fornecedor — Lei 8.078/1990, arts. 1º–3º
@@ -1292,6 +1374,48 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - **Art. 9º:** homologação de sentença estrangeira e medidas de segurança demandam cotejo com as atribuições do STJ e normas internacionais; não substituir por mecanismo administrativo geral.
 - **Nenhuma reforma material aprovada; C0-J=0; DEC-016 pendente.** Todo o texto é derivado e reconstruível do commit setorial fixado.
 
+## T25 — T25.M01 [CLF-LIV-T25-CP-ART13_14-R15; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T25 — Código Penal — relação de causalidade e tentativa, arts. 13–14
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 2 artigos de origem e 10 unidades em correspondência literal editorial de origem/destino, sem renumeração definitiva. **C0-J=0, M=0, DEC-016 pendente.** Fontes: [portal institucional primário](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm) e [cotejo institucional](https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html); **DOU em fac-símile não foi cotejado**, e nenhuma lei nova é promulgada por esta vista.
+
+**Origem versionada:** `modulos/T25/M01_ESPELHO_CP_ART13_14_10_Q.csv`; Git blob SHA `acae33972c91509674531b3f86ac195ab5082248`.
+
+## Texto de origem — recorte parcial
+
+**Art. 13.** O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido.
+
+**§ 1º** A superveniência de causa relativamente independente exclui a imputação quando, por si só, produziu o resultado; os fatos anteriores, entretanto, imputam-se a quem os praticou.
+
+**§ 2º** A omissão é penalmente relevante quando o omitente devia e podia agir para evitar o resultado. O dever de agir incumbe a quem:
+
+**a)** tenha por lei obrigação de cuidado, proteção ou vigilância;
+
+**b)** de outra forma, assumiu a responsabilidade de impedir o resultado;
+
+**c)** com seu comportamento anterior, criou o risco da ocorrência do resultado.
+
+**Art. 14.** Diz-se o crime:
+
+**I –** consumado, quando nele se reúnem todos os elementos de sua definição legal;
+
+**II –** tentado, quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente.
+
+**Parágrafo único.** Salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado, diminuída de um a dois terços.
+
+## Portas jurídicas — conteúdo editorial não normativo
+
+- Código Penal Parte Geral reformada pela Lei 7.209/1984; distinguir responsabilidade penal por ação, omissão e nexo causal de regras civis/administrativas e de imputação objetiva no contexto de jurisprudência.
+
+- Art. 13 § 2º tem três alíneas ligadas às hipóteses de dever jurídico de agir; o dever de agir exige cumulativamente **dever e possibilidade de ação** e não autoriza presunção de causalidade penal.
+
+- Art. 13 § 1º distingue superveniência relativamente independente e fatos anteriores; não converter toda causalidade concorrente em exclusão automática da imputação.
+
+- Art. 14 II distingue tentativa (início de execução, não consumação por causas alheias à vontade) de atos preparatórios, desistência voluntária e arrependimento eficaz (art. 15, fora do recorte); parágrafo único aplica redução de 1 a 2/3 salvo disposição legal contrária.
+
+- Princípios da reserva legal, irretroatividade penal gravosa e especialidade permanecem inalterados, não são produto da compilação. DOU 1940 e Lei 7.209/1984 ainda sem cotejo fac-símile, C0-J=0.
+
 ## T28 — T28.M01 [CLF-LIV-T28-CLT-R11; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T28 — Introdução, conceito de empregador e relação de emprego
@@ -1532,6 +1656,62 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Não confundir competência administrativa em licenciamento com responsabilidade civil ambiental, padrões nacionais ou competência legislativa. Análise dos arts. 6º/8º PNMA sob CF 23/24/225 e LC 140 exige remissões de especialidade.
 
 - Fac-símile do DOU original PNMA, versões de 1989/1990/2013 e alteradora/retificação 2025 pendentes; verificação institucional Câmara/Planalto não é autenticação literal DOU.
+
+## T43 — T43.M01 [CLF-LIV-T43-LGPD-ART1_3-R15; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T43 — Proteção de dados pessoais — LGPD, arts. 1º–3º
+
+> **VISTA DOCUMENTAL EXPERIMENTAL Q — NÃO RATIFICADA.** 3 artigos de origem e 16 unidades em correspondência literal editorial de origem/destino, sem renumeração definitiva. **C0-J=0, M=0, DEC-016 pendente.** Fontes: [portal institucional primário](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html) e [cotejo institucional](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm); **DOU em fac-símile não foi cotejado**, e nenhuma lei nova é promulgada por esta vista.
+
+**Origem versionada:** `modulos/T43/M01_ESPELHO_LGPD_ART1_3_16_Q.csv`; Git blob SHA `64c0be966d62f0998dd4386bc5772c2dcdb3100c`.
+
+## Texto de origem — recorte parcial
+
+**Art. 1.** Esta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.
+
+**Parágrafo único.** As normas gerais contidas nesta Lei são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios.
+
+**Art. 2.** A disciplina da proteção de dados pessoais tem como fundamentos:
+
+**I –** o respeito à privacidade;
+
+**II –** a autodeterminação informativa;
+
+**III –** a liberdade de expressão, de informação, de comunicação e de opinião;
+
+**IV –** a inviolabilidade da intimidade, da honra e da imagem;
+
+**V –** o desenvolvimento econômico e tecnológico e a inovação;
+
+**VI –** a livre iniciativa, a livre concorrência e a defesa do consumidor; e
+
+**VII –** os direitos humanos, o livre desenvolvimento da personalidade, a dignidade e o exercício da cidadania pelas pessoas naturais.
+
+**Art. 3.** Esta Lei aplica-se a qualquer operação de tratamento realizada por pessoa natural ou por pessoa jurídica de direito público ou privado, independentemente do meio, do país de sua sede ou do país onde estejam localizados os dados, desde que:
+
+**I –** a operação de tratamento seja realizada no território nacional;
+
+**II –** a atividade de tratamento tenha por objetivo a oferta ou o fornecimento de bens ou serviços ou o tratamento de dados de indivíduos localizados no território nacional; ou
+
+**III –** os dados pessoais objeto do tratamento tenham sido coletados no território nacional.
+
+**§ 1º** Consideram-se coletados no território nacional os dados pessoais cujo titular nele se encontre no momento da coleta.
+
+**§ 2º** Excetua-se do disposto no inciso I deste artigo o tratamento de dados previsto no inciso IV do caput do art. 4º desta Lei.
+
+## Portas jurídicas — conteúdo editorial não normativo
+
+- O art. 1º trata de dados pessoais físicos e digitais por agentes privados e públicos, com **parágrafo único incluído pela Lei 13.853/2019** estendendo normas gerais de interesse nacional a todos os entes. O Código experimental não desloca competências administrativas nem revoga leis estaduais por si.
+
+- Os sete fundamentos do art. 2º **não se confundem com bases legais de tratamento** (art. 7º) nem são autorização irrestrita para compartilhamento, publicidade ou vigilância.
+
+- Art. 3º estabelece hipóteses alternativas de aplicação territorial, de oferta/fornecimento e de coleta. O inciso II segue redação da MP 869/2018 convertida na Lei 13.853/2019; o § 2º exige interface **art. 4º IV**, fora desta vista, portanto não afirmar alcance absoluto.
+
+- Regras de tratamento de dados por poder público, segurança pública, órgãos de investigação, menores e titulares vulneráveis têm exceções e controles específicos nos arts. 4º e seguintes, pendentes. Interfaces T07, T20, T32 e T48 são remissões, nunca reprodução duplicada de fonte.
+
+- Autoridade nacional, normas da ANPD, alterações e cronograma de vigência LGPD (inclusive sanções) não podem ser inferidos a partir dos arts. 1º–3º; autenticação DOU 2018/2019 pendente.
+
+- **Proteção:** não usar corpus experimental como base operacional para liberar dados sigilosos de solicitantes de refúgio, menores ou titulares; conferência de finalidade, necessidade e direitos permanece indispensável.
 
 ## T48 — T48.M03 [CLF-LIV-T48-M03-9474-ART1-8-17-v1; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

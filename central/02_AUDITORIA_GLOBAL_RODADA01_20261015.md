@@ -44,11 +44,13 @@ Fontes oficiais iniciais (conferência focal nesta rodada, **não cotejo DOU lin
 | **P1-C** | T29.M01 / PR #41 | Recorte RGPS 8.212/8.213: harmonização somente após prova da assimetria e efeitos temporais | Direito adquirido, fontes de custeio, benefícios, transições |
 | **P1-D** | T43.M04 / PR #43, #47 | Versão de um bloco digital com âmbito, ciência e garantia de canal alternativo | Acessibilidade, dados sensíveis, prova de comunicação |
 | **P1-E** | T01.M04 / main, PR #46 | Matriz de viabilidade e atos necessários para DEC-016, separada da redação do corpus | CF vigente, reserva de LC/LO, iniciativa e sanção/veto |
-| **P2 — expansão** | T12, T05, T28, T37 (fontes candidatas PR #50) | Abrir inventários oficiais com primeira faixa limitada em tributário, eleitoral, trabalho e ambiental, em rodadas alternadas | Transições tributárias, anualidade eleitoral, garantias laborais, competências ambientais |
+| **P2 — expansão** | T12, T05, T13, T28, T37, T48 (fontes candidatas PR #50) | Abrir inventários oficiais com primeira faixa limitada em tributário, eleitoral, civil, trabalho, ambiental e migratório, em rodadas alternadas | Transições tributárias, anualidade eleitoral, garantias laborais, competências ambientais |
+
+**Rotação entre as oito partes:** T01 (I), T05 (II), T07 (III), T13 (IV), T24/T25 (V), T28/T29 (VI), T37/T43 (VII), T48 (VIII) são pontos de entrada *candidatos*, não quotas iguais nem decisões de arquitetura. Nenhuma parte fica invisível porque só haja pesquisa setorial em seis títulos.
 
 **Critério reavaliável ao início de cada rodada:** (a) lacuna demonstrada relativa ao universo do recorte, não aos 273 módulos; (b) disponibilidade de fonte oficial e de pesquisa reaproveitável; (c) risco de supressão de garantias; (d) potencial de formar texto novo no corpus; (e) dependências com outros Livros e CF; (f) custo de execução e bloqueios externos. Evitar novas séries exclusivamente em T07 se outra frente já dispõe de texto suficiente para minuta de ensaio.
 
-**Meta de produto no ciclo seguinte:** segundo recorte em vista integrada (priorizar T24 ou T25 conforme porte/verificabilidade) **e** inventário efetivo de ao menos um título ainda sem frente setorial comprovada (por exemplo T05/T28/T37), com universo declarado e fonte oficial. Não atribuir números de cobertura até medir o denominador. Para textos normativos C1/M, usar variantes com solução conservadora baseline e deliberação expressa.
+**Meta de produto no ciclo seguinte:** segundo recorte em vista integrada (priorizar T24 ou T25 conforme porte/verificabilidade) **e** inventário efetivo de ao menos um título ainda sem frente setorial comprovada (por exemplo T05/T13/T28/T37/T48), com universo declarado e fonte oficial. Não atribuir números de cobertura até medir o denominador. Para textos normativos C1/M, usar variantes com solução conservadora baseline e deliberação expressa.
 
 ## 4. Estado do produto, formalização e interface CF
 

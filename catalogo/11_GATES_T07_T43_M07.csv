@@ -1,0 +1,11 @@
+id,fonte_origem,dispositivo,interface,transformacao_proibida_sem_prova,classe_risco,categoria_proposta,verificacao,teste_objetivo,destino_proposto_condicional
+CLF-GATE-001,LEI_9784_1999;LEI_14129_2021,ART1;ART2,T07;T43,Estender regime digital sem adesao local,R3,Q,PENDENTE_JURIDICA,Identificar destinatario e ato de adesao,LIVRO_T07;LIVRO_T43
+CLF-GATE-002,LEI_9784_1999,ART69,T07;T43,Substituir desta Lei por deste Codigo global,R3,Q,PENDENTE_JURIDICA,Delimitar objeto de subsidiariedade,LIVRO_T07
+CLF-GATE-003,LEI_9784_1999;LEI_14129_2021,ART26_PAR3;ART6,T07;T43,Presumir ciencia por postagem em portal,R3,Q,PENDENTE_JURIDICA,Demonstrar ciencia e via alternativa,LIVRO_T07;LIVRO_T43
+CLF-GATE-004,LEI_9784_1999;LEI_14129_2021,ART26_PAR2;ART6,T07;T43,Reducao implicita de antecedencia de intimação,R3,Q,PENDENTE_JURIDICA,Contar prazo de comparecimento,LIVRO_T07
+CLF-GATE-005,LEI_9784_1999,ART27;ART28,T07;T43,Ausencia login implica confissao ou renuncia,R3,Q,PENDENTE_JURIDICA,Testar desatendimento e efeitos gravosos,LIVRO_T07
+CLF-GATE-006,LEI_14129_2021,ART6;ART14,T43;T07,Suprimir canal presencial e excecoes nao digitais,R3,Q,PENDENTE_JURIDICA,Verificar acesso presencial e excecoes,LIVRO_T43;LIVRO_T07
+CLF-GATE-007,LEI_13709_2018;LEI_14129_2021,ART6_ART23;ART3,T43;T07,Ampliar interoperabilidade sem controle de dados,R3,Q,PENDENTE_JURIDICA,Conferir base legal e finalidade,LIVRO_T43
+CLF-GATE-008,LEI_9784_1999,ART50_PAR2,T07;T43,Padronizar motivacao sem salvaguarda individual,R3,Q,PENDENTE_JURIDICA,Revisar individualizacao dos fundamentos,LIVRO_T07
+CLF-GATE-009,LEI_9784_1999,ART66;ART69,T07;T43,Trocar dias continuos por dias uteis ou alterar lei especial,R3,Q,PENDENTE_JURIDICA,Simular calendario sob lei especial,LIVRO_T07
+CLF-GATE-010,CF_1988,ART37_PAR3,T07;T43,Eliminar participacao e atendimento por plataforma unica,R3,Q,PENDENTE_JURIDICA,Testar reclamacao e avaliacao,LIVRO_T43

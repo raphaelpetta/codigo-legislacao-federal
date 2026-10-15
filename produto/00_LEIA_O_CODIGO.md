@@ -5,11 +5,11 @@
 
 ## Vista única gerada do corpus efetivamente integrado
 
-[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T03, T05, T07, T08, T09, T11, T12, T14 (CC arts. 79–84), T20 (CDC arts. 1º–4º), T22, T24, T25, T26 (CPP arts. 2º–3º), T27, T28, T29, T30, T31, T33, T37, T38, T41 (CTB arts. 1º–2º), T42, T43 e T48**, com 22 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
+[Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T03, T05, T07, T08, T09, T10 (LAI arts. 1º–3º), T11, T12, T14, T20 (CDC arts. 1º–5º), T22, T24, T25, T26, T27, T28, T29, T30, T31, T33, T35 (inovação art. 1º), T37, T38, T41, T42, T43, T45 (SUSP arts. 1º–3º) e T48**, com 19 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.
 
-## Ponto de leitura: Código de Trabalho e quarenta componentes experimentais em vinte e seis títulos
+## Ponto de leitura: Código de Trabalho e quarenta e quatro componentes experimentais em vinte e nove títulos
 
-**[Abrir Código de Trabalho unificado (T01 + T03 + T05 + T07 + T08 + T09 + T11 + T12 + T14 + T20 + T22 + T24 + T25 + T26 + T27 + T28 + T29 + T30 + T31 + T33 + T37 + T38 + T41 + T42 + T43 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
+**[Abrir Código de Trabalho unificado (T01 + T03 + T05 + T07 + T08 + T09 + T10 + T11 + T12 + T14 + T20 + T22 + T24 + T25 + T26 + T27 + T28 + T29 + T30 + T31 + T33 + T35 + T37 + T38 + T41 + T42 + T43 + T45 + T48, NÃO RATIFICADO)](CODIGO_DE_TRABALHO.md)** — arquivo reconstruível a partir do [índice de Livros](fontes/indice_livros.json) e das vistas fixadas. Nenhum conteúdo experimental foi convertido em norma vigente; a Parte V permanece um recorte incompleto do CPC. Ver [gerador do Código](../scripts/gerar_codigo_integrado.py) e [controle operacional](../scripts/controle_operacional.py).
 
 **Parte I — Normas gerais**
 
@@ -43,6 +43,8 @@
 
 - [T14.M01 — Código Civil arts. 79–84, **6 artigos/13 unidades Q**](vistas/T14_CODIGO_CIVIL_BENS_ART79_84_PREVIA_Q.md), [espelho](../modulos/T14/M01_ESPELHO_CC_ART79_84_13_Q.csv), [manifesto SHA](fontes/T14_M01_CC_13_R19_v1.json). Bens imóveis e móveis, energias e direitos patrimoniais. **T13 reservado não alterado**.
 
+- [T10.M01 — LAI arts. 1º–3º, **3 artigos/12 unidades Q**](vistas/T10_LAI_ART1_3_PREVIA_Q.md), [espelho](../modulos/T10/M01_ESPELHO_LAI_ART1_3_12_Q.csv), [manifesto](fontes/T10_M01_LAI_12_R20_v1.json). Publicidade como regra e sigilo como exceção, transparência dos recursos públicos e proteção de dados pessoais.
+
 **Parte IV — Relações privadas, consumidores e mercados**
 
 - [T20.M01 — CDC arts. 1º–3º, 3 artigos/6 unidades Q](vistas/T20_CDC_ART1_3_PREVIA_Q.md), [espelho 6×6](../modulos/T20/M01_ESPELHO_CDC_ART1_3_6_Q.csv), [manifesto SHA](fontes/T20_M01_CDC_6_R14_v1.json). Normas de ordem pública e interesse social; consumidor final, coletividade equiparada, fornecedor e serviços financeiros remunerados; relações trabalhistas excluídas da definição de serviço do § 2º. Interfaces T16/T21 e DOU/vetos sem homologação.
@@ -52,6 +54,8 @@
 - [T20.M01 — CDC art. 4º, **1 artigo/15 unidades adicionais Q**](vistas/T20_CDC_ART4_PREVIA_Q.md), [espelho](../modulos/T20/M01_ESPELHO_CDC_ART4_15_Q.csv), [manifesto SHA](fontes/T20_M01_CDC_15_R19_v1.json). Vulnerabilidade, objetivos da política nacional, subalíneas do inciso II e Lei 14.181/2021 sobre superendividamento. **Total T20: arts. 1º–4º, 4 artigos/21 unidades**.
 
 - [T26.M01 — CPP arts. 2º–3º, **2 artigos/2 unidades Q**](vistas/T26_CPP_ART2_3_PREVIA_Q.md), [espelho](../modulos/T26/M01_ESPELHO_CPP_ART2_3_2_Q.csv), [manifesto SHA](fontes/T26_M01_CPP_2_R19_v1.json). Aplicação processual imediata e interpretação analógica; art. 1º histórico e arts. 3º-A e seguintes não integrados.
+
+- [T20.M01 — CDC art. 5º, **1 artigo/8 unidades adicionais Q**](vistas/T20_CDC_ART5_PREVIA_Q.md), [espelho](../modulos/T20/M01_ESPELHO_CDC_ART5_8_Q.csv), [manifesto](fontes/T20_M01_CDC_8_R20_v1.json). Instrumentos da política, incisos VI/VII Lei 14.181/2021, **§§1º–2º vetados fora das unidades positivas**. T20 total 5 artigos/29 unidades.
 
 **Parte V — Direito Internacional Privado, Justiça e Sanções**
 - [Livro de Processo Civil — T24.M01, prévia contínua CPC 70–102: **33 artigos e 181 unidades Q**](vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md). Combina 106 unidades setoriais do PR #38 e [75 transcrições editoriais](fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv) em [manifesto de duas proveniências](fontes/T24_CPC_70_102_181_v1.json), com [verificador](../scripts/gerar_t24_cpc_181.py). O cotejo visual com a Câmara foi documentado, mas persistem revisão independente arquivada por extração e cotejo DOU; C0-J=0 e o CPC externo ao recorte não foi transposto.
@@ -78,6 +82,8 @@
 
 - [T31.M01 — Lei 8.080/1990 arts. 4º–5º, **2 artigos/7 unidades adicionais Q**](vistas/T31_SUS_LEI8080_ART4_5_PREVIA_Q.md), [espelho 7×7](../modulos/T31/M01_ESPELHO_LEI8080_ART4_5_7_Q.csv), [manifesto](fontes/T31_M01_8080_7_R18_v1.json). SUS federativo, participação privada complementar e objetivos de promoção/proteção/recuperação; **T31 total arts. 1º–5º, 5 artigos/13 unidades Q**.
 
+- [T35.M01 — Lei 10.973/2004 art. 1º, **1 artigo/16 unidades Q**](vistas/T35_INOVACAO_LEI10973_ART1_PREVIA_Q.md), [espelho](../modulos/T35/M01_ESPELHO_INOVACAO_ART1_16_Q.csv), [manifesto](fontes/T35_M01_INOV_16_R20_v1.json). Lei 13.243/2016 atualizou caput e acrescentou 14 princípios de inovação; definições art. 2º ainda fora.
+
 **Parte VII — Território, ambiente e infraestrutura**
 
 - [T37.M01 — Política Nacional do Meio Ambiente, Lei 6.938/1981 arts. 1º–2º, 2 artigos e 13 unidades Q](vistas/T37_PNMA_ART1_2_PREVIA_Q.md); [espelho 13×13](../modulos/T37/M01_ESPELHO_PNMA_ART1_2_13_Q.csv) e [manifesto](fontes/T37_M01_6938_13_R10_v1.json). **Inciso XI acrescido pela Lei 15.512/2026**, publicado em 23/09/2026 e vigente desde então: prioridade para crianças e adolescentes no acesso à natureza. O texto de origem é reprodução da versão **atualizada** da Câmara, com cotejo do Planalto, não da versão de 1981. Preservadas as palavras e a remissão constitucional do art. 1º; nenhum C0-J, DOU fac-símile e recepção CF ainda pendentes.
@@ -93,6 +99,8 @@
 **Parte VII — Direito digital e dados pessoais**
 
 - [T43.M01 — LGPD arts. 1º–3º, **3 artigos/16 unidades Q**](vistas/T43_LGPD_ART1_3_PREVIA_Q.md), [espelho 16×16](../modulos/T43/M01_ESPELHO_LGPD_ART1_3_16_Q.csv), [manifesto SHA](fontes/T43_M01_LGPD_16_R15_v1.json). Fundamentos, interesse nacional, critérios de incidência extraterritorial e condições do art. 3º; alterações Lei 13.853/2019. **Art. 4º e bases do art. 7º estão fora do recorte**; vedada suposição de autorização para tratamento de dados.
+
+- [T45.M01 — Lei 13.675/2018, SUSP arts. 1º–3º, **3 artigos/3 unidades Q**](vistas/T45_SUSP_ART1_3_PREVIA_Q.md), [espelho](../modulos/T45/M01_ESPELHO_SUSP_ART1_3_3_Q.csv), [manifesto](fontes/T45_M01_SUSP_3_R20_v1.json). Política nacional e competências federativas de segurança; sem ampliação automática dos poderes policiais.
 
 **Parte VIII — Proteção internacional e migração**
 
@@ -130,6 +138,10 @@
 - **T24 setorial**: `python3 scripts/gerar_previa_t24.py --setorial-root setorial --check` confere as 106 unidades originais. **T24 integrado**: `python3 scripts/gerar_t24_cpc_181.py --check` confere os dois conjuntos, 33 artigos, 181 destinos, quatro marcos legislativos e hashes de blob; `--write` regenera apenas a vista contínua.
 - **CI documental separada:** workflows [T07](../.github/workflows/conferir-produto-experimental.yml), [T24-106](../.github/workflows/conferir-t24-previsao.yml), [T24-181](../.github/workflows/conferir-t24-181.yml) e [T25](../.github/workflows/conferir-t25-previa.yml). Execuções anteriores do GitHub Actions exibiram **failure sem etapas visíveis**; controle independente de correspondência T24 foi efetuado por leitura dos arquivos. **Não declarar CI aprovado nem C0-J**.
 - **Produto atual:** [Código de Trabalho unificado](CODIGO_DE_TRABALHO.md) é compilado automaticamente dos dezesseis componentes parciais indicados em [indice_livros.json](fontes/indice_livros.json), usando `python3 scripts/gerar_codigo_integrado.py --check` ou `--write`. **Produto futuro:** versão comentada com variantes, concordância N:N geral, remissões controladas, lacunas e transições. A compilação atual não constitui código completo, índice jurídico exaustivo ou renumeração final.
+
+## Estado acumulado após rodada 20 — LAI, inovação, SUSP e CDC
+
+**Corpus Q, ainda não ratificado:** **266 artigos de origem, 895 unidades documentais positivas +1 histórico T07** (896 registros brutos), **44 vistas em 29 títulos**. Aberturas T10, T35 e T45; expansão limitada T20 art. 5º. **19 títulos sem texto**. Gate CI P0 permanece: os workflows antigos e o R19 autossuficiente reprovaram, com logs inacessíveis; não autorizar merge. **C0-J=0, M=0, DEC-016 pendente; revogação e renumeração definitiva=0.**
 
 ## Estado acumulado após rodada 19 — bens civis, processo penal e trânsito
 
@@ -185,10 +197,11 @@
 | T07 — Lei 9.784/1999 | 78 | 214 | 1 | 0 |
 | T08 — Lei 8.112/1990 (arts. 1º–5º) | 5 | 15 | 0 | 0 |
 | T09 — Lei 14.133/2021 (arts. 2º–3º) | 2 | 11 | 0 | 0 |
+| T10 — LAI (arts. 1º–3º) | 3 | 12 | 0 | 0 |
 | T11 — Lei 4.320/1964 (arts. 1º–2º) | 2 | 11 | 0 | 0 |
 | T12 — CTN (arts. 1º–8º) | 8 | 14 | 0 | 0 |
 | T14 — Código Civil (arts. 79–84) | 6 | 13 | 0 | 0 |
-| T20 — CDC (arts. 1º–4º) | 4 | 21 | 0 | 0 |
+| T20 — CDC (arts. 1º–5º) | 5 | 29 | 0 | 0 |
 | T22 — Lei 9.610/1998 (arts. 1º–4º) | 4 | 5 | 0 | 0 |
 | T24 — CPC (arts. 70–102 contínuos) | 33 | 181 | 0 | 0 |
 | T25 — CP (arts. 1º–14) | 14 | 49 | 0 | 0 |
@@ -199,14 +212,16 @@
 | T30 — LOAS (arts. 1º–2º) | 2 | 11 | 0 | 0 |
 | T31 — Lei 8.080/1990 (arts. 1º–5º) | 5 | 13 | 0 | 0 |
 | T33 — LDB (arts. 1º–3º) | 3 | 20 | 0 | 0 |
+| T35 — Lei de Inovação (art. 1º) | 1 | 16 | 0 | 0 |
 | T37 — PNMA (arts. 1º–6º, redação vigente 2026) | 6 | 41 | 0 | 0 |
 | T38 — Lei 9.433/1997 (arts. 1º–3º) | 3 | 21 | 0 | 0 |
 | T41 — CTB (arts. 1º–2º) | 2 | 7 | 0 | 0 |
 | T42 — LGT (arts. 1º–3º) | 3 | 24 | 0 | 0 |
 | T43 — LGPD (arts. 1º–3º) | 3 | 16 | 0 | 0 |
+| T45 — SUSP (arts. 1º–3º) | 3 | 3 | 0 | 0 |
 | T48 — Lei 9.474/1997 (arts. 1º–37) | 37 | 68 | 0 | 0 |
-| **Total atual das vistas** | **258** | **856** | **1** | **0** |
+| **Total atual das vistas** | **266** | **895** | **1** | **0** |
 
-As 856 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
+As 895 unidades são **registros textuais de origens e recortes distintos**, não porcentagem de cobertura do direito federal, artigos renumerados ou normas juridicamente certificadas.
 
 [Central CLF #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48) · [Auditoria dos 48 títulos](../central/01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv) · [Central CF #103](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/103).

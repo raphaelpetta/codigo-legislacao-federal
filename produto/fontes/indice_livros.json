@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R19 15/10/2026: 40 componentes documentais Q em 26 títulos, 258 artigos de origem, 856 unidades positivas +1 histórico T07 (857 registros índice). Aberturas T14 CC79-84 6/13, T26 CPP2-3 2/2, T41 CTB1-2 2/7; vertical T20 CDC art4 1/15 (total CDC1-4 4/21). 22 títulos sem texto. CI Actions estrutural/T07/T24 falhando antes R18; C0-J=0, M=0, DEC016 pendente, revogação/merge=0, T13 reservado. DOU fac-símile não autenticado.",
+  "observacao": "R20 15/10/2026: 44 componentes Q em 29 títulos, 266 artigos de origem, 895 unidades positivas +1 histórico T07 (896 registros). Horizontal T10 LAI1-3 3/12, T35 inovação Lei10973 art1 1/16 (Lei13243/2016), T45 SUSP1-3 3/3. Vertical T20 CDC art5 +1/8 (total 5 artigos/29 unidades, §§1–2 vetados). 19 títulos sem texto. Bloqueio CI P0 herdado e novo workflow R19 reprovado sem logs; sem autenticação DOU, C0-J=0/M=0/DEC016 pendente/merges=0; T13 reservado.",
   "livros": [
     {
       "titulo": "T01",
@@ -110,6 +110,17 @@
       "proveniencia_adicional": "Lei14133 arts2-3 escopo por contratações e exceções, art1 ainda ausente; regimes especiais concessões PPP e estatais Q; DOU2021 pendente."
     },
     {
+      "titulo": "T10",
+      "modulo": "T10.M01",
+      "id": "CLF-LIV-T10-LAI-ART1_3-R20",
+      "vista": "produto/vistas/T10_LAI_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T10_M01_LAI_12_R20_v1.json",
+      "artigos": 3,
+      "registros_documentais": 12,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "LAI Lei12527 arts1-3 3 artigos/12 unidades Q, transparência, sigilo pessoal e entes, DOU pendente"
+    },
+    {
       "titulo": "T11",
       "modulo": "T11.M01",
       "id": "CLF-LIV-T11-LEI4320-ART1_2-R16",
@@ -178,6 +189,17 @@
       "registros_documentais": 15,
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "CDC art4 1/15 Q, caput Lei9008/1995, incisos IX/X Lei14181/2021, subalíneas a-d II, T20 agora arts1–4, 4/21."
+    },
+    {
+      "titulo": "T20",
+      "modulo": "T20.M01",
+      "id": "CLF-LIV-T20-CDC-ART5-R20",
+      "vista": "produto/vistas/T20_CDC_ART5_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T20_M01_CDC_8_R20_v1.json",
+      "artigos": 1,
+      "registros_documentais": 8,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "CDC art5 1/8 unidades Q, incVI-VII Lei14181/2021, §§1–2 vetados; T20 total5/29"
     },
     {
       "titulo": "T22",
@@ -334,6 +356,17 @@
       "proveniencia_adicional": "LDB Lei9394 arts1-3, art3 XV Lei15001/2024, VIII Lei14644/2023, demais acréscimos e autonomia estadual, DOU pendente."
     },
     {
+      "titulo": "T35",
+      "modulo": "T35.M01",
+      "id": "CLF-LIV-T35-INOV-ART1-R20",
+      "vista": "produto/vistas/T35_INOVACAO_LEI10973_ART1_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T35_M01_INOV_16_R20_v1.json",
+      "artigos": 1,
+      "registros_documentais": 16,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Lei10973 art1 PU14 incisos Lei13243/2016, 1 artigo/16 unidades Q, art2 fora e DOU pendente"
+    },
+    {
       "id": "CLF-LIV-T37-M01-6938-ART1-2-13-R10",
       "titulo": "T37",
       "modulo": "T37.M01",
@@ -415,6 +448,17 @@
       "origem_commit": "e3a1622fbde68c70f801c01a6e43a538eb1a67b4",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "LGPD 13709/2018 arts1-3; art1 PU e art3 II alterados Lei13853/2019, extraterritorialidade, exceções art4 pendentes, direitos fundamentais Q."
+    },
+    {
+      "titulo": "T45",
+      "modulo": "T45.M01",
+      "id": "CLF-LIV-T45-SUSP-ART1_3-R20",
+      "vista": "produto/vistas/T45_SUSP_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T45_M01_SUSP_3_R20_v1.json",
+      "artigos": 3,
+      "registros_documentais": 3,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Susp Lei13675 arts1-3 3 artigos/3 unidades Q, segurança pública e federalismo sem transferir competências"
     },
     {
       "id": "CLF-LIV-T48-M03-9474-ART1-8-17-v1",

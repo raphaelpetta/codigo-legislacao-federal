@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T20-R20",
+  "source_path": "modulos/T20/M01_ESPELHO_CDC_ART5_8_Q.csv",
+  "source_blob_sha": "a28bd24a188d2ac92473ad8c18e25bb6e17032cf",
+  "view_path": "produto/vistas/T20_CDC_ART5_PREVIA_Q.md",
+  "count_expected": 8,
+  "articles_expected": 1,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_PLANALTO_SEM_DOU_FACSIMILE",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "O art. 5º lista instrumentos da política de consumo, incluindo assistência jurídica, Ministério Público, delegacias e Juizados Especiais: não cria órgãos automaticamente nem lhes altera competência processual.",
+    "Os incisos VI e VII foram acrescentados pela **Lei 14.181/2021** sobre superendividamento; têm campo e condições próprios e não transformam toda dívida em hipótese automática de repactuação.",
+    "**§§ 1º e 2º do art. 5º foram vetados na origem** e não integram as oito unidades positivas transcritas.",
+    "O art. 5º não exaure poderes locais nem substitui direitos do art. 6º ou normas sobre conciliação, processos e proteção do mínimo existencial.",
+    "DOU 1990, veto original e Lei 14.181/2021 permanecem sem cotejo fac-símile, Q e C0-J zero."
+  ]
+}

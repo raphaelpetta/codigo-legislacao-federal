@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T10-R20",
+  "source_path": "modulos/T10/M01_ESPELHO_LAI_ART1_3_12_Q.csv",
+  "source_blob_sha": "cba21fca81f3b8e72d19e9ee973c53cf4271445f",
+  "view_path": "produto/vistas/T10_LAI_ART1_3_PREVIA_Q.md",
+  "count_expected": 12,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_PLANALTO_SEM_DOU_FACSIMILE",
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "A LAI sujeita os entes federados e órgãos dos três Poderes, Ministério Público e entidades controladas, na extensão do art. 1º; o Código Q não substitui a autonomia administrativa nem dispensa regras de classificação sigilosa.",
+    "Art. 2º limita a publicidade de entidades privadas sem fins lucrativos que recebam recursos públicos à parcela recebida e à sua destinação, sem excluir outras prestações de contas legais.",
+    "Publicidade como regra e sigilo como exceção (art. 3º) convive com a proteção de dados pessoais na LGPD T43; acesso indiscriminado a dados íntimos não decorre da presente transcrição.",
+    "Interface T07 Lei 9.784, T09 licitações, T11 finanças e T43 LGPD são remissões documentais, não autorizações para divulgar prontuários, dados de menores ou informação protegida.",
+    "DOU de 2011 e mudanças legislativas posteriores ainda sem cotejo fac-símile; sem homologação C0-J."
+  ]
+}

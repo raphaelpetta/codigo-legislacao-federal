@@ -76,3 +76,7 @@ A modernização constitucional possui [repositório independente](https://githu
 ## Continuidade obrigatória e coordenação entre chats
 
 Ao fim de **cada rodada substantiva**, o projeto exige registro de **FEITO / PENDENTE / PRÓXIMO**, versões efetivamente consultadas, fonte normativa, estado de PR/CI e interfaces. Ver [protocolo](governanca/18_PROTOCOLO_CONTINUIDADE_POR_RODADA.md) e [modelo de handoff](modelos/20_PACOTE_CONTINUIDADE.md). Essa regra é alinhada metodologicamente com [a coordenação do projeto constitucional](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/blob/main/governanca/12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md), mas preserva decisões e códigos próprios de cada repositório. Toda síntese é fotografia datada, não substitui nova consulta ao GitHub.
+
+## Desenvolvimento escalável e separado da positivação (proposta em PR)
+
+O novo [protocolo por camadas e risco](governanca/20_EXECUCAO_CAMADAS_E_AUDITORIA.md), o [plano operacional de coordenação](docs/21_PLANO_DIRETOR_EXECUCAO.md) e o [registro das frentes em trabalho](catalogo/04_FRENTES_EM_EXECUCAO.csv) visam aumentar cobertura e integração sem abdicar de DEC-001, preservando DEC-016 como decisão aberta. O overlay do catálogo não substitui os 273 registros organizacionais nem certifica cobertura das fontes. Corpus experimental e promulgação válida são produtos distintos; nenhuma norma é revogada ou considerada vigente em razão do trabalho documental. Estes links ficam em PR até revisão e integração.

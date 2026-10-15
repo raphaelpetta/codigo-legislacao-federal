@@ -41,3 +41,7 @@ A regra CF-GOV-012 e esta regra são **compatíveis no procedimento**, mas mant�
 Uma rodada está **documentalmente encerrada** somente se possui entregas reais, pendências ou justificativa de sua ausência, próximo trabalho executável, versões, origem normativa e interfaces quando aplicável. Isso não significa que módulo esteja juridicamente `AUDITADO`, `INTEGRADO` ou `ESTABILIZADO`.
 
 **Fotografia de implantação:** baseline CLF `194bc08931fb24fdc7865e4790401baeef5f1b6d`, e a coordenação CF já foi implantada na `main` por PR #51. Atualizar essas referências quando reutilizadas.
+
+## Adendo de continuidade antitravamento — proposta 15/10/2026
+
+Aplicar [CLF-GOV-020](20_EXECUCAO_CAMADAS_E_AUDITORIA.md) e [CLF-OPS-021](../docs/21_PLANO_DIRETOR_EXECUCAO.md). No FEITO distinguir delta substancial de mera documentação de processo. No PENDENTE identificar se o bloqueio impede positivação, apenas uma variante ou pesquisa; se não impedir outra entrega, registrar próxima opção desbloqueada. Limitar diagnóstico repetitivo de CI já falho a uma nova hipótese técnica por ciclo; na ausência, trabalhar outra frente. Registrar em cada pacote risco R1/R2/R3, maturidade do **recorte**, estado da proposta legislativa e destino das garantias; não impor status de módulo inteiro a partir de pequena amostra. Manter idealmente três opções executáveis independentes e até duas frentes CLF ativas mais interface. A investigação é concluível quando fontes decisivas, alternativas, objeções, efeitos, lacunas e decisão necessária forem delimitados, sem exigir certeza impossível.

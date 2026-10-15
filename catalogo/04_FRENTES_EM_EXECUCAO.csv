@@ -1,0 +1,7 @@
+id_modulo,recorte_com_trabalho_identificado,maturidade_recorte,localizacao,fonte_de_verificacao,ressalva,proximo_passo
+T01.M04,Codificação espécies veto e iniciativa,MAPEADO,MAIN_E_PR_E_OUTROS,modulos/T01/M04/README.md,DEC-016 segue pendente; pesquisas não homologam veículo único,Separar corpus experimental e matriz de promulgação
+T07.M03,Lei 9784/1999 transposição e auditoria parcial de efeitos,INTEGRADO_PROVISORIO,PESQUISA_MAIN_E_PR45_PR39_PR47,PR #45; PR #47,215 posições documentais não equivalem a 215 C0-J verificados; interface digital R3 em PR47,Concordância por unidade e teste dos gates G01 G03 G06
+T25.M01,Parte geral penal e princípios,MAPEADO,PESQUISA_PR32,PR #32,Pesquisa não integrada na main nem reforma penal ratificada,Reconciliar dossiês e selecionar incertezas decisivas
+T24.M01,Jurisdição e sujeitos do processo civil,MAPEADO,PESQUISA_PR38,PR #38,"F0 e F1 seletivo, não inventário total",Expandir cobertura funcional no recorte
+T29.M01,Segurados e dependentes RGPS,MAPEADO,PESQUISA_PR41,PR #41,"Normas e divergências em pesquisa, sem direitos reclassificados",Validar fonte sindical e efeitos
+T43.M04,Governo digital e interações administrativas,MAPEADO,PESQUISA_PR43,PR #43,"F0/F1 seletivo, sem validação de todo regime digital",Interface T07 e lei 14129 por instituto

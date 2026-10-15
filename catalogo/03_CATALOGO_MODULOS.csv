@@ -2,7 +2,7 @@ id_modulo,id_titulo,titulo,regime_juridico,status,cobertura_fontes,dossie,verifi
 T01.M01,T01,Normas gerais do direito e da legislação,Vigência e aplicação,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T01.M02,T01,Normas gerais do direito e da legislação,Interpretação e integração,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T01.M03,T01,Normas gerais do direito e da legislação,Técnica e redação normativa,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
-T01.M04,T01,Normas gerais do direito e da legislação,Consolidação e codificação,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
+T01.M04,T01,Normas gerais do direito e da legislação,Consolidação e codificação,PESQUISA_PARCIAL,Recorte ainda não exaustivo,modulos/T01/M04/README.md,Sem homologação jurídico-material; conferir PR
 T01.M05,T01,Normas gerais do direito e da legislação,Publicação e informação legislativa,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T01.M06,T01,Normas gerais do direito e da legislação,Qualidade e revisão normativa,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T02.M01,T02,"Cidadania, igualdade e direitos civis",Cidadania e direitos civis,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
@@ -30,7 +30,7 @@ T06.M04,T06,Justiça e funções essenciais,Defensoria Pública,PLANEJADO,Não i
 T06.M05,T06,Justiça e funções essenciais,Advocacia e instituições essenciais,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T07.M01,T07,Administração pública e procedimento administrativo,Organização e entidades administrativas,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T07.M02,T07,Administração pública e procedimento administrativo,Atos e competências administrativas,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
-T07.M03,T07,Administração pública e procedimento administrativo,Processo administrativo geral,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
+T07.M03,T07,Administração pública e procedimento administrativo,Processo administrativo geral,PESQUISA_PARCIAL,Recorte ainda não exaustivo,modulos/T07/M03/README.md,Sem homologação jurídico-material; conferir PR
 T07.M04,T07,Administração pública e procedimento administrativo,Serviços e participação dos usuários,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T07.M05,T07,Administração pública e procedimento administrativo,Transparência e acesso à informação,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T07.M06,T07,Administração pública e procedimento administrativo,Segurança jurídica e consensualidade,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
@@ -125,14 +125,14 @@ T23.M03,T23,Direito internacional privado e relações transnacionais,Contratos 
 T23.M04,T23,Direito internacional privado e relações transnacionais,Bens e sucessões internacionais,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T23.M05,T23,Direito internacional privado e relações transnacionais,Lei estrangeira e ordem pública,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T23.M06,T23,Direito internacional privado e relações transnacionais,Decisões estrangeiras e cooperação,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
-T24.M01,T24,Processo civil e tutela coletiva,Jurisdição e sujeitos processuais,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
+T24.M01,T24,Processo civil e tutela coletiva,Jurisdição e sujeitos processuais,PESQUISA_PARCIAL,Recorte ainda não exaustivo,PR38,Sem homologação jurídico-material; conferir PR
 T24.M02,T24,Processo civil e tutela coletiva,Atos e prazos processuais,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T24.M03,T24,Processo civil e tutela coletiva,Conhecimento e prova,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T24.M04,T24,Processo civil e tutela coletiva,Tutelas provisórias e recursos,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T24.M05,T24,Processo civil e tutela coletiva,Cumprimento e execução,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T24.M06,T24,Processo civil e tutela coletiva,Procedimentos especiais e juizados,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T24.M07,T24,Processo civil e tutela coletiva,"Tutela coletiva, arbitragem e mediação",PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
-T25.M01,T25,Direito penal e infrações criminais,Princípios e aplicação penal,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
+T25.M01,T25,Direito penal e infrações criminais,Princípios e aplicação penal,PESQUISA_PARCIAL,Recorte ainda não exaustivo,PR32,Sem homologação jurídico-material; conferir PR
 T25.M02,T25,Direito penal e infrações criminais,Teoria do delito,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T25.M03,T25,Direito penal e infrações criminais,Penas e consequências penais,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T25.M04,T25,Direito penal e infrações criminais,Crimes contra pessoa e patrimônio,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
@@ -158,7 +158,7 @@ T28.M04,T28,Trabalho e relações laborais,Categorias especiais,PLANEJADO,Não i
 T28.M05,T28,Trabalho e relações laborais,Direito coletivo e sindicatos,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T28.M06,T28,Trabalho e relações laborais,Greve e fiscalização,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T28.M07,T28,Trabalho e relações laborais,Processo do trabalho,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
-T29.M01,T29,Previdência social e proteção contributiva,Segurados e dependentes,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
+T29.M01,T29,Previdência social e proteção contributiva,Segurados e dependentes,PESQUISA_PARCIAL,Recorte ainda não exaustivo,PR41,Sem homologação jurídico-material; conferir PR
 T29.M02,T29,Previdência social e proteção contributiva,Custeio e contribuições previdenciárias,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T29.M03,T29,Previdência social e proteção contributiva,Benefícios programados,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T29.M04,T29,Previdência social e proteção contributiva,Benefícios por incapacidade,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
@@ -244,7 +244,7 @@ T42.M05,T42,"Comunicações, radiodifusão e serviços postais",Correios e servi
 T43.M01,T43,"Direito digital, dados e sistemas informacionais",Internet e garantias digitais,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T43.M02,T43,"Direito digital, dados e sistemas informacionais",Proteção de dados pessoais,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T43.M03,T43,"Direito digital, dados e sistemas informacionais",Identidade e assinaturas eletrônicas,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
-T43.M04,T43,"Direito digital, dados e sistemas informacionais",Governo digital,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
+T43.M04,T43,"Direito digital, dados e sistemas informacionais",Governo digital,PESQUISA_PARCIAL,Recorte ainda não exaustivo,PR43,Sem homologação jurídico-material; conferir PR
 T43.M05,T43,"Direito digital, dados e sistemas informacionais",Plataformas e proteção de usuários,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T43.M06,T43,"Direito digital, dados e sistemas informacionais",Segurança da informação,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental
 T44.M01,T44,"Indústria, comércio exterior e regulação da produção",Política industrial,PLANEJADO,Não inventariado,Ainda sem dossiê,Sem validação documental

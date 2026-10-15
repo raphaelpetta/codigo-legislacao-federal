@@ -69,7 +69,7 @@ Versão, data, fontes adicionadas, decisões assumidas, alterações, responsáv
 
 ## Mensagem para iniciar um chat especializado (copiar e adaptar)
 
-> Estamos desenvolvendo o Código da Legislação Federal. Este chat é dedicado ao módulo `Txx.Myy — [NOME]`. Antes de propor normas, consulte as fontes centrais do Projeto: Carta de Arquitetura, Índice de Títulos, Catálogo de Módulos, Registro de Decisões, Protocolo de Trabalho e Estado de Integração. Informe quais versões conseguiu efetivamente consultar. Não presuma que o histórico de outros chats substitui as fontes centrais. Comece pela delimitação do regime, inventário normativo e mapa de dependências. Diferencie direito vigente, controvérsia e reforma proposta. Empregue C0/C1/M/Q; prepare minuta e concordância apenas depois da auditoria. Quando detectar impacto em outro módulo, registre solicitação de integração, sem modificar silenciosamente decisões centrais.
+> Estamos desenvolvendo o Código da Legislação Federal. Este chat é dedicado ao módulo `Txx.Myy — [NOME]`. Antes de propor normas, consulte as fontes centrais do Projeto: Carta de Arquitetura, Índice de Títulos, Catálogo de Módulos, Registro de Decisões, Protocolo de Trabalho e Estado de Integração. Informe quais versões conseguiu efetivamente consultar. Não presuma que o histórico de outros chats substitui as fontes centrais. Comece pela delimitação do regime, inventário normativo e mapa de dependências. Diferencie direito vigente, controvérsia e reforma proposta. Empregue C0/C1/M/Q; poderá preparar minuta e concordância experimentais em paralelo à auditoria, marcando todas as equivalências não comprovadas como Q e vedando homologação sem testes pertinentes. Quando detectar impacto em outro módulo, registre solicitação de integração, sem modificar silenciosamente decisões centrais.
 
 ## 12. Anexo de pesquisa crítica e modernização (proposta transversal v0.2)
 
@@ -92,3 +92,19 @@ Versão, data, fontes adicionadas, decisões assumidas, alterações, responsáv
 **Controle:** vincular decisões ao registro central; se o projeto constitucional estiver envolvido, vincular à interface sem presumir aprovação da hipótese constitucional.
 
 Consultar `governanca/13_DIRETRIZES_PESQUISA_E_MODERNIZACAO.md` e não confundir sua natureza de proposta com direito vigente ou regra metodológica já homologada.
+
+## 13. Encerramento do recorte e progresso do corpus (adendo operacional)
+
+**Universo de fontes/dispositivos efetivamente conferidos e data:**  
+**Unidades fora do recorte ou A_VERIFICAR:**  
+**Estado técnico:** NAO_EXAMINADO / MAPEADO / RECONSTRUIDO / PROPOSTO / INTEGRADO_PROVISORIO / AUDITADO_NO_RECORTE  
+**Risco material por efeito (R1/R2/R3):**  
+**Dispositivos/garantias e destino efetivamente auditados:**  
+**Impacto constitucional e espécies/iniciativa:**  
+**Corpus experimental proposto e vínculo de concordância:**  
+**Positivação formal sob CF/1988 ou CF alternativa (se pertinente):**  
+**Fato/precedente capaz de inverter preferência; exame adicional focal:**  
+**Próxima saída:** APTO_PARA_PROPOR / PESQUISA_FOCAL / DEPENDENCIA_MATERIAL / INVARIANTE_EXECUTAVEL / SUBMETER_ESCOLHA  
+**Teste adversarial e revisão independente de alto risco:**  
+
+Um recorte auditado não constitui módulo integralmente auditado, tampouco aprova uma reforma M ou comprova DEC-016.

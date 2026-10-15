@@ -20,6 +20,19 @@
 - [Painel](PAINEL_GERADO.csv), [quadro](QUADRO_PRODUTO.csv), [matriz 48 títulos](01_MATRIZ_AUDITORIA_48_TITULOS_20261015.csv), [guia](../produto/00_LEIA_O_CODIGO.md), [fila de 66 tarefas](FILA_TRABALHO.csv) e [validador R21](../scripts/validar_r21_horizontal.py) no [roteiro local](../scripts/validar_operacao_local.sh). T13 reservado intacto; integração documental sem alterar constituição, competências, normas ou valores.
 - **Nota de controle:** cotejo institucional em HTML não é cotejo fac-símile DOU. Correspondência fonte/código e execução efetiva Python/Actions são verificações diferentes. Scripts acrescidos **não comprovam execução bem-sucedida**.
 
+### Resultado de QA remoto e CI no próprio PR #68
+
+A leitura das **48 vistas em quatro grupos de 12** comprovou igualdade textual com `CODIGO_DE_TRABALHO.md`, 274 cabeçalhos de artigos e hashes coincidentes dos quatro espelhos R21 com os manifestos (9/7/17/10 unidades). A matriz dos 48 títulos tem 32 preenchidos, soma 274 artigos/938 unidades positivas; painel/guia/quadro e **66 tarefas com IDs únicos** conferidos. **Não é execução de Python nem certificação do DOU.**
+
+No HEAD `8e2123e8a96d8c1e85d798202b91ffc0819c2cdb` do PR #68, o conector GitHub retornou **cinco workflows concluídos em `failure`**:
+- [R20 diagnóstico do runner — run 38818337867](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38818337867);
+- [T07 corpus — run 38818338238](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38818338238);
+- [R19 QA autossuficiente — run 38818337802](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38818337802);
+- [Integridade estrutural — run 38818337832](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38818337832);
+- [T24 prévia — run 38818338092](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38818338092).
+
+**Causa ainda não diagnosticada**: o teste anterior `runner-smoke`, sem checkout, também falhou e logs/steps retornaram 404/indisponíveis. A permanência dessas falhas não prova erros normativos nos recortes R21, mas **impede afirmar CI verde e bloqueará qualquer proposta de merge**.
+
 ## PENDENTE — CI P0, DOU e homologação jurídica
 
 - No PR #67, os dois jobs do [diagnóstico de runner, run 38800172990](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38800172990), `runner-smoke` **sem checkout** e `corpus-r20` com checkout, tiveram **failure**. Também falharam checks anteriores de estrutura, T07, T24 e R19. O conector retorna **`404 BlobNotFound`** para logs e etapas vazias, de modo que não se pode atribuir causalidade certa ao script documental. **CI bloqueante.** Tarefas CLF-TRANSVERSAL-006/007/008/009 são P0, sem fechamento por presunção.

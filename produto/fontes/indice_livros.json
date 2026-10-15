@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "observacao": "Compilacao de T07 (78 artigos), T24 (33 artigos de CPC70–102 por duas fontes distintas) e T25 (12 artigos CP1–12). Nenhum Livro completo do direito federal; todos Q, zero C0-J, zero reformas M aprovadas, DEC-016 pendente. Não confundir 181 textos em T24 com certificacao juridica; 75 transcricoes editoriais ainda sem segundo cotejo DOU.",
+  "observacao": "Quatro componentes Q: T05.M06 Lei9709 arts1–2 (2/7), T07 lei9784 (78/214 positivos +1 histórico), T24 CPC70–102 (33/181), T25 CP1–12 (12/39). Origem T05 é commit da própria central, não PR setorial independente. Sem C0-J, sem M, DEC-016 pendente; diferenças eleitorais de 2026 sob CF art16 não integram automaticamente este novo Livro.",
   "livros": [
+    {
+      "id": "CLF-LIV-T05-M06-9709-ART1-2-7-v1",
+      "titulo": "T05",
+      "modulo": "T05.M06",
+      "vista": "produto/vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART1_2_PREVIA.md",
+      "manifesto": "produto/fontes/T05_M06_9709_7_v1.json",
+      "artigos": 2,
+      "registros_documentais": 7,
+      "origem_commit": "f2c12d61997b5e545d30703cbcf25cda179bd399",
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Origem local versionada nesta PR49, Lei9709 arts1–2 cotejada TSE/Planalto, não trabalho setorial independente nem DOU homologado; este commit documenta primeira fonte. Remissão 'desta Lei' não é referência ao CLF inteiro."
+    },
     {
       "id": "CLF-LIV-T07-M03-v4",
       "titulo": "T07",

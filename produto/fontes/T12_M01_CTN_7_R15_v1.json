@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T12-R15",
+  "source_path": "modulos/T12/M01_ESPELHO_CTN_ART1_5_7_Q.csv",
+  "source_blob_sha": "05d236a09ee1740781335bc1d945534021ab6fc0",
+  "view_path": "produto/vistas/T12_CTN_ART1_5_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 5,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html",
+  "source_control": "https://planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+  "source_commit": "b41ba3142cf2ced718545ccdb32e3a53286b268a",
+  "setorial_commit": "b41ba3142cf2ced718545ccdb32e3a53286b268a",
+  "source_kind": "FONTE_INSTITUCIONAL_COTEJO_SEM_DOU_FACSIMILE",
+  "dou_facsimile_checked": false,
+  "legal_status": "Q_SEM_C0_J",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "dec016": "PENDENTE",
+  "material_approved": false,
+  "comments": [
+    "O CTN foi editado como **Lei 5.172/1966** e suas disposições de normas gerais tributárias foram recepcionadas na ordem constitucional posterior com **reserva material de lei complementar**. A transcrição não converte CTN em lei ordinária atual nem autoriza alteração de seu núcleo por via ordinária.",
+    "Art. 1º e art. 2º conservam referências literais à EC 18/1965 e à Constituição então vigente. Essas referências são dados históricos do texto, não fundamento constitucional vigente em 2026; cruzar CF arts. 145–162 e art. 146, EC 132/2023 e LCs 214/2025 e 227/2026.",
+    "Art. 3º define tributo como prestação compulsória, não sanção por ilícito e instituída por lei; multas tributárias não se tornam tributo por interpretação do Código experimental.",
+    "Art. 4º afasta nome e destinação como critérios genéricos de qualificação; exigir leitura compatível com natureza constitucional de impostos, taxas, contribuições e outras figuras posteriores, sem confundir classificação histórica do CTN com rol constitucional exaustivo.",
+    "Art. 5º enuncia impostos, taxas e contribuições de melhoria, mas não se deve afirmar que ele exclui contribuições especiais e empréstimos compulsórios reconhecidos pela CF 1988. Reconstrução por espécie e recepção constitucional é condição de C0-J.",
+    "DOU de 1966, alterações e recepção, cronogramas 2026–2033 de tributação sobre consumo e efeitos diferidos de reformas exigem auditoria; este recorte 1–5 é textual Q, sem reforma material."
+  ]
+}

@@ -1,0 +1,17 @@
+# T24.M01 — F1-D10: redline literal integral do art. 85 sem renumeração precipitada
+**Corte:** 14/10/2026. **PR #38 draft**. Esta etapa responde ao bloqueio P7 da F1-D5, **mas não o libera para incorporação ao CLF**: a edição produz texto documental verificável, não uma norma promulgável ou certificação C0-J.
+
+## FEITO — arquivos reexecutáveis com textos completos
+- O script [`scripts/gerar_redline_art85_t24.py`](../../../scripts/gerar_redline_art85_t24.py) executa a auditoria independente [`espelho_art85_t24.py`](../../../scripts/espelho_art85_t24.py) contra [CPC original 2015 Câmara](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-publicacaooriginal-146341-pl.html) e [compilação atualizada 2026 Câmara](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html), armazena SHA-256 das duas capturas e produz **um documento Markdown com os textos integrais de cada uma das 36 subunidades**, lado a lado por posição, mais índice CSV por ID de origem.
+- O **[workflow #38566562408, job `redline_art85`, passou](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38566562408)** e publicou [artefato ZIP contendo `redline-art85.md` e `redline-art85-index.csv`](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38566562408/artifacts/11896155857). A prova pode ser reexecutada a partir da branch; o artefato tem retenção própria do GitHub Actions.
+- **36 unidades do CPC art.85:** 33 textos sem diferenças nas duas fotografias oficiais e três acréscimos de 2022 (Lei14.365: §§6º-A, 8º-A, 20), com nenhum status jurídico homologado. Cada seção do redline registra o texto em 2015, texto em 2026, classificação e identificador simbólico `T24.M01.HON.*`.
+- O [crosswalk F1-D9 com 35 referências](F1D9_CROSSWALK_35_REMISSOES_SIMBOLICAS.csv) é aplicado ao redline; **34 são internas**, **uma externa CPC art.77**, e o §20 contém **dez referências expressas** que não podem ser convertidas em `aplica-se no que couber` sem perda de informação normativa.
+
+## Por que não publicar P7 como texto CLF agora
+1. O desenho definitivo dos Livros/artigos dependerá da espécie/iniciativa/competência constitucional sob `DEC-016`, ainda não deliberado. Marcador interno não é artigo vigente; citação `deste Código` em art.85 pode mudar referente jurídico ao deslocar o texto do CPC para Código único.
+2. A integridade documental em 2015/2026 não comprova sozinha retificações/alterações intermediárias, evolução do DOU ou eficácia temporal; §§6º-A/8º-A/20 precisam da lei 14.365/2022 e atos originais.
+3. A [matriz jurisprudencial F1-D7](MATRIZ_F1D7_36_HONORARIOS_JURISPRUDENCIA.csv) mantém STJ Temas 1.059 (recurso provido não gera majoração), 1.076 (base/equidade), 1.190 (Fazenda/RPV e modulação), 1.313 (saúde pública/equidade), e STF Tema 1.255 ainda a monitorar. Uma classificação puramente gramatical não homologa equivalência jurídico-material.
+4. Proteção de JG/custeio de prova e despesas dos arts.82/91/95/98 depende de outros módulos, sem importar custas tributárias estaduais para lei federal inadequadamente.
+
+## Próximas portas
+**F1-D11:** revisar os 36 textos do Markdown por segundo leitor e cotejar notas legislativas com DOU e Lei14.365/2022; mapear usos literais de `deste Código`, `esta Seção`, `Lei` e destinos pós-DEC016; incluir diferenças jurídicas intencionais somente em minuta M identificada. **C0-J continua Q** e não houve merge de qualquer alteração na `main`.

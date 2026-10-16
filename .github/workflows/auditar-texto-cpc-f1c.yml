@@ -1,0 +1,33 @@
+name: Auditar texto CPC F1-C (Câmara)
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/auditar_f1c_t24.py'
+      - 'modulos/T24/M01/F1C_COTEJO_LITERAL_ART70_81_73_UNIDADES.csv'
+      - 'modulos/T24/M01/F1C_COTEJO_LITERAL_ART98_102_33_UNIDADES.csv'
+      - '.github/workflows/auditar-texto-cpc-f1c.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  conferir_texto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Dependência HTML
+        run: python -m pip install beautifulsoup4
+      - name: Conferir 106 unidades com fontes da Câmara e guardar hashes
+        run: python scripts/auditar_f1c_t24.py --report /tmp/relatorio_auditoria_f1c.json
+      - name: Publicar prova para revisão
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: auditoria-f1c-cpc
+          path: /tmp/relatorio_auditoria_f1c.json
+          if-no-files-found: warn

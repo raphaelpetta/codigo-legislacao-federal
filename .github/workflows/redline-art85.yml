@@ -1,0 +1,32 @@
+name: T24 — redline integral art85 em 36 unidades
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/gerar_redline_art85_t24.py'
+      - 'modulos/T24/M01/F1D9_CROSSWALK_35_REMISSOES_SIMBOLICAS.csv'
+      - '.github/workflows/redline-art85.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  redline_art85:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install beautifulsoup4
+      - name: Gerar redline integral com índices de 36 unidades
+        run: python scripts/gerar_redline_art85_t24.py --markdown /tmp/redline-art85.md --index /tmp/redline-art85-index.csv
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t24-f1d10-redline-integral-art85
+          path: |
+            /tmp/redline-art85.md
+            /tmp/redline-art85-index.csv
+          if-no-files-found: warn

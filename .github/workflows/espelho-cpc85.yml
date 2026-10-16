@@ -1,0 +1,35 @@
+name: Espelho fiel CPC art85 — 36 unidades
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/espelho_art85_t24.py'
+      - 'scripts/extrair_f1d_t24.py'
+      - 'modulos/T24/M01/F1D_INVENTARIO_ART82_97_SUBUNIDADES.csv'
+      - '.github/workflows/espelho-cpc85.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  espelho_85:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar parser HTML
+        run: python -m pip install beautifulsoup4
+      - name: Gerar espelho com fontes oficiais e 36 unidades
+        run: python scripts/espelho_art85_t24.py --json /tmp/cpc85_36.json --csv /tmp/cpc85_36.csv
+      - name: Guardar provas de cotejo e hashes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: espelho-cpc85-36-unidades
+          path: |
+            /tmp/cpc85_36.json
+            /tmp/cpc85_36.csv
+          if-no-files-found: warn

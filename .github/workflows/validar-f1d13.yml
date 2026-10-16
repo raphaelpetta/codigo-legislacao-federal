@@ -1,0 +1,16 @@
+name: T24 F1D13 — origem literal e contexto
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_f1d13_literal_contexto.py'
+      - 'modulos/T24/M01/MATRIZ_F1D13_45_PARES_LITERAL_CONTEXTO.csv'
+      - '.github/workflows/validar-f1d13.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  classificar_remissoes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validar_f1d13_literal_contexto.py

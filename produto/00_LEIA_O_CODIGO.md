@@ -1,7 +1,15 @@
 # Código da Legislação Federal — corpus único experimental (vista de trabalho)
 
-**Corte:** 15/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
+**Corte:** 16/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
+
+## Rodada 27 — duas frentes novas e eficácia urbanística (16/10/2026)
+
+**Corpus corrente:** **57 componentes Q em 39/48 títulos**, **299 artigos de origem, 1022 unidades positivas +1 registro histórico T07 (1023 totais)**; 9 títulos sem texto, T13 reservado. Incremento **+5 artigos/+37 unidades/+2 títulos**. Todos os textos ainda experimentais Q: **C0-J=0, M=0, DEC-016 pendente**, CI GitHub Actions P0 bloqueado; nenhuma revogação, renumeração definitiva ou merge. Métricas das rodadas anteriores abaixo são históricas.
+
+- [T19 — Lei 11.101/2005 arts. 1º–3º, 3 artigos/5 unidades Q](vistas/T19_RECUPERACAO_FALENCIA_LEI11101_ART1_3_PREVIA_Q.md) · [manifesto](fontes/T19_M01_LREF_5_R27_v1.json): recuperação/falência, exceções de empresas estatais e entidades financeiras, competência do juízo.
+- [T36 — Estatuto da Cidade arts. 1º–2º, 2 artigos/32 unidades Q](vistas/T36_ESTATUTO_CIDADE_ART1_2_PREVIA_Q.md) · [manifesto](fontes/T36_M01_ECIDADE_32_R27_v1.json): diretrizes urbanas, função social, antiformas hostis, acessibilidade e Lei 15.333/2026 XXI já eficaz.
+- [Matriz temporal R27](../central/38_R27_VIGENCIA_ESTATUTO_CIDADE_2026_2027.csv): os incisos XXII–XXIII acrescentados pela Lei 15.432/2026 só terão eficácia após um ano da publicação de 14/06/2026; **não são positivos atuais no corte de 16/10/2026**. [Relatório R27](../central/39_RODADA27_T19_T36_VIGENCIA_20261016.md).
 
 ## Rodada 26 — reconciliação dos 55 manifestos e QA transversal (15/10/2026)
 

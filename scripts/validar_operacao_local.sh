@@ -3,7 +3,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-# Modo corpus atual R24: os validadores R10-R23 possuem asserts de snapshot
+# Modo corpus atual R27: os validadores R10-R23 possuem asserts de snapshot
 # (48/51/54 vistas etc.) e nao podem rodar contra a fotografia de 55 vistas.
 # Historicos continuam disponiveis na branch/commit de cada rodada.
 if [[ -f produto/fontes/T23_M01_LINDB_DIP_6_R24_v1.json ]]; then
@@ -12,6 +12,7 @@ if [[ -f produto/fontes/T23_M01_LINDB_DIP_6_R24_v1.json ]]; then
   python3 -m unittest discover -s tests -p 'test_controle_operacional.py' -v
   python3 scripts/validar_corpus_ativo.py
   python3 scripts/validar_gates_ativos.py
+  python3 scripts/validar_temporalidade_urbana_ativa.py
   python3 scripts/gerar_codigo_integrado.py --check
   if [[ $# -lt 1 ]]; then
     echo "PARCIAL R24: T07/T24/T25 externos nao cotejados; indique os tres checkouts nos SHAs dos manifestos." >&2

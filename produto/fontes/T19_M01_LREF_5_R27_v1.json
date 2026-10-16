@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T19-LREF-R27",
+  "source_path": "modulos/T19/M01_ESPELHO_LEI11101_ART1_3_5_Q.csv",
+  "source_blob_sha": "7dbf0103d0a78bada79fea9e20f022f72bd817e6",
+  "view_path": "produto/vistas/T19_RECUPERACAO_FALENCIA_LEI11101_ART1_3_PREVIA_Q.md",
+  "count_expected": 5,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2005/lei-11101-9-fevereiro-2005-535663-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "temporal_cutoff": "2026-10-16",
+  "excluded_future_effects": [],
+  "gates": [
+    "A exclusão expressa do art. 2º impede aplicar automaticamente os regimes de recuperação e falência às entidades ali relacionadas. Conectar regimes financeiros e de liquidação próprios aos títulos T21/T18/T20 e leis especiais, sem deduzir proteção genérica ou imunidade a qualquer insolvência.",
+    "A competência do art. 3º depende do principal estabelecimento no sentido jurídico pertinente; não identificar automaticamente com sede estatutária/endereço de registro e não antecipar decisão de juízo competente.",
+    "Os arts. 1º–3º não englobam o regime de créditos, suspensão de execuções, classificação e habilitação, falência transnacional, nem as alterações da Lei 14.112/2020. A técnica de positivação deve preservar essas especialidades.",
+    "Fonte primária Câmara atualizada e Planalto, DOU original de fevereiro de 2005, retificações e legislação alteradora ainda não autenticados em fac-símile; C0-J permanece zero."
+  ]
+}

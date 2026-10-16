@@ -3,6 +3,14 @@
 **Corte:** 16/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
 
+## Rodada 28 — museus, planejamento cultural e portas temporais (16/10/2026)
+
+**Estado atual:** **58 componentes Q em 40/48 títulos, 301 artigos de origem, 1.032 unidades positivas +1 histórico T07** (1.033 registros), 8 títulos sem texto; T13 reservado. Incremento **+2 artigos/+10 unidades/+1 título**. A prioridade da rodada foi unir expansão seletiva com a separação entre **norma vigente, plano cuja duração terminou, projeto ainda não promulgado e vigência legislativa diferida**. Tudo Q, C0-J=0, M=0, DEC-016 pendente, CI P0 #66 não aprovado, nenhuma revogação ou merge.
+
+- [T34 — Lei 11.904/2009 Estatuto de Museus, arts. 1º–2º, 2 artigos/10 unidades Q](vistas/T34_MUSEUS_LEI11904_ART1_2_PREVIA_Q.md) e [manifesto SHA](fontes/T34_M01_MUSEUS_10_R28_v1.json). Conceito de museu, princípios de acesso/cidadania/patrimônio e remissão ao PNC.
+- [Portas jurídicas temporais R28](../central/40_R28_MUSEUS_PNC_URBANISMO_VIGENCIA_20261016.csv): PNC aprovado pela Lei 12.343/2010 teve prazo até 2024 (Lei 14.468/2022); novo PL 5.894/2025 aprovado na Câmara em setembro de 2026 não se confunde com lei promulgada; art. 2º, PU do Estatuto de Museus não é revogado automaticamente pelo vencimento do prazo do Plano.
+- **Vigência urbana confirmada em fontes institucionais:** inciso XXI do Estatuto da Cidade eficaz após vacatio de 90 dias da publicação em 08/01/2026 (abril/2026); XXII e XXIII da Lei 15.432/2026 só após vacatio de um ano da publicação extra de 14/06/2026 (junho/2027), não computados como positivos contemporâneos. [Relatório R28](../central/41_RODADA28_T34_PNC_EFICACIA_20261016.md).
+
 ## Rodada 27 — duas frentes novas e eficácia urbanística (16/10/2026)
 
 **Corpus corrente:** **57 componentes Q em 39/48 títulos**, **299 artigos de origem, 1022 unidades positivas +1 registro histórico T07 (1023 totais)**; 9 títulos sem texto, T13 reservado. Incremento **+5 artigos/+37 unidades/+2 títulos**. Todos os textos ainda experimentais Q: **C0-J=0, M=0, DEC-016 pendente**, CI GitHub Actions P0 bloqueado; nenhuma revogação, renumeração definitiva ou merge. Métricas das rodadas anteriores abaixo são históricas.

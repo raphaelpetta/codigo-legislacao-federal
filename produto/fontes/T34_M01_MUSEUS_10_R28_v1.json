@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T34-MUSEUS-R28",
+  "source_path": "modulos/T34/M01_ESPELHO_MUSEUS_LEI11904_ART1_2_10_Q.csv",
+  "source_blob_sha": "588635b0615e9b121bb031e1740ae043b7ef336d",
+  "view_path": "produto/vistas/T34_MUSEUS_LEI11904_ART1_2_PREVIA_Q.md",
+  "count_expected": 10,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2009/lei-11904-14-janeiro-2009-585365-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l11904.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "external_regime_gates": [
+    {
+      "law": "Lei 12.343/2010, Lei 14.468/2022",
+      "topic": "PNC 2010–2024",
+      "status": "PLANO_PRAZO_ENCERRADO_2024_SEM_REVOGACAO_AUTOMATICA_MUSEUS"
+    },
+    {
+      "bill": "PL 5894/2025",
+      "topic": "PNC 2025–2035",
+      "last_verified": "2026-10-16",
+      "status": "PROPOSICAO_NAO_HOMOLOGADA_COMO_LEI"
+    }
+  ],
+  "gates": [
+    "Art. 1º define museus para efeitos específicos da Lei 11.904/2009. O conceito não cria personalidade jurídica, isenção tributária, regime universal de patrimônio ou alcance indistinto sobre bibliotecas, arquivos e coleções visitáveis (art. 6º).",
+    "Art. 2º caput/incisos trata de princípios, e o parágrafo único remete aos princípios basilares do Plano Nacional de Cultura; não substituir essa remissão por autorização ilimitada de política cultural ou copiar metas de plano temporalmente encerrado.",
+    "A Lei 12.343/2010 teve duração do Plano Nacional de Cultura ampliada para 14 anos pela Lei 14.468/2022, chegando a dezembro de 2024, segundo Ministério da Cultura. Expiração do período do plano NÃO implica revogação automática do art. 2º, PU, do Estatuto de Museus.",
+    "O PL 5.894/2025, aprovado na Câmara em 1º/09/2026 e encaminhado para tramitação no Senado, é proposta, não lei federal promulgada. Estado de tramitação deve ser revalidado na próxima revisão: nenhuma norma nova será assumida por antecipação.",
+    "Respeitar CF arts. 215, 216 e 216-A, Lei 14.835/2024 (Sistema Nacional de Cultura), Lei 13.146/2015 (acessibilidade), normas de patrimônio, proteção de dados, direitos culturais das comunidades e competências federativas.",
+    "Câmara atualizada e Planalto são fontes institucionais de controle; DOU original de janeiro de 2009, alterações, vetos e efeitos jurisdicionais não conferidos em fac-símile. Todos os 10 registros Q, C0-J=0 e nenhuma proposta de alteração material M aprovada."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CLF-PROD-T24-M01-CPC70-102-181-v1",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "setorial_pr": 38,
+  "setorial_commit": "3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745",
+  "source_path": "modulos/T24/M01/F1C2_ESPELHO_UNIFICADO_106.csv",
+  "view_path": "produto/vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md",
+  "count_expected": 181,
+  "articles_expected": 33,
+  "status_juridico": "Q_SEM_C0_J",
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "components": [
+    {
+      "name": "PR38_106",
+      "path": "produto/vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md",
+      "git_blob": "211f4acc8e3f34a3eb3b01856db3949a26cb07a0",
+      "concordance_path": "produto/concordancia/T24_M01_106_ORIGEM_DESTINO.csv",
+      "concordance_git_blob": "b3542c54db70d9f5721fbe64ec372164b99b56ef",
+      "count": 106,
+      "articles": 17,
+      "source_kind": "SETORIAL_COMMIT_DRAFT",
+      "origin_commit": "3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745"
+    },
+    {
+      "name": "CLF_75",
+      "path": "produto/fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv",
+      "git_blob": "5a1b1123e29b95f5777ec2bffb8eda5b84e4a18b",
+      "view_part_path": "produto/vistas/T24_CPC_82_97_PREVIA_75_Q.md",
+      "view_part_git_blob": "e35b35aafe13bd3740f3714eecc4c53afbc0cc1d",
+      "concordance_path": "produto/concordancia/T24_CPC_82_97_CONCORDANCIA_75_Q.csv",
+      "concordance_git_blob": "c2e722d62a46be10937c4ec17ec4d4dfbd270330",
+      "count": 75,
+      "articles": 16,
+      "source_kind": "TRANSCRICAO_EDITORIAL_CAMARA_INDEPENDENTEMENTE_NAO_CERTIFICADA",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html"
+    }
+  ],
+  "header": "# Código da Legislação Federal — Livro de Processo Civil: prévia experimental contínua dos arts. 70–102 do CPC\n\n> **33 artigos de origem / 181 subunidades textuais, todas Q sem equivalência C0-J.** Este é um recorte contíguo documental do CPC, **não** o Livro Processual Civil completo, nem texto promulgado ou revogação. A posição dos dispositivos usa numeração original apenas para localização e auditoria, sem decisão DEC-016.\n\n**Fontes distintas e versionadas:** CPC 70–81 e 98–102, 106 registros de PR #38 (commit `3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745`) na [prévia setorial existente](T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md), Git blob `211f4acc8e3f34a3eb3b01856db3949a26cb07a0`; CPC 82–97, 75 transcrições editoriais da [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html), fonte local `produto/fontes/T24_CPC_82_97_TEXTO_ATUAL_75_Q.csv`, Git blob `5a1b1123e29b95f5777ec2bffb8eda5b84e4a18b`. As 75 exigem segunda transcrição independente/DOU/histórico; o texto integral aqui é **artefato experimental Q**, e não equivalência jurídica conferida.\n\n**Concordância documental:** 106 destinos da matriz `produto/concordancia/T24_M01_106_ORIGEM_DESTINO.csv`, Git blob `b3542c54db70d9f5721fbe64ec372164b99b56ef`; 75 destinos da `produto/concordancia/T24_CPC_82_97_CONCORDANCIA_75_Q.csv`, blob `c2e722d62a46be10937c4ec17ec4d4dfbd270330`. Nenhum destes registros autoriza supressão das exceções legais, expansão para o CLF inteiro, fusão de regimes especiais ou criação de direitos/obrigações novas.\n\n",
+  "footer": "---\n\n## Portas de integração e efeitos em aberto\n\n- O recorte **CPC 70–102**, embora contínuo, é apenas um segmento do CPC. **CPC 1–69 e 103 em diante continuam fora desta prévia**, não revogados, não codificados por inferência.\n- Preservar direitos das pessoas com deficiência, representação e saneamento (70–76), responsabilidade e sanções (77–81), caução, honorários, custos, perícia e fundos (82–97) e todos os requisitos de gratuidade, exigibilidade e contraditório (98–102).\n- Remissões a `deste Código`, `art. 77`, `art. 85`, `art. 95`, `art. 98`, `art. 465, § 4º` **continuam referidas ao CPC de origem**. O futuro identificador CLF exige vínculo jurídico por efeito, não substituição textual acrítica.\n- O art. 82 §3º foi incluído pela Lei 15.109/2025; os art. 85 §§6º-A, 8º-A e 20 foram incluídos pela Lei 14.365/2022. Os respectivos efeitos intertemporais e precedentes vinculantes requerem pesquisa específica, preservando hipóteses excepcionais de equidade, gratuidade, Fazenda Pública e recursos da Defensoria.\n- **Estado jurídico:** 181 destinos Q; zero C0-J, zero reformas M aprovadas; [DEC-001] objetivo de Código único, [DEC-016] ainda pendente; as fontes oficiais e o texto final devem ser cotejados independentemente antes de qualquer ato material.\n"
+}

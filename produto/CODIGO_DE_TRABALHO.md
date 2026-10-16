@@ -1224,6 +1224,40 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Confrontar CF art. 5º XXII–XXIII e arts. 182/186, Lei de Registros Públicos, leis especiais e alterações de direito privado. Versão da Câmara HTML atualizada; DOU 11/01/2002 e modificativas ainda sem autenticação em fac-símile.
 
+## T15 — T15.M01 [CLF-LIV-T15-CCNJ-R23; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T15 — Negócio jurídico — Lei 10.406/2002 (Código Civil), arts. 104–107
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q — NÃO HOMOLOGADA.** 4 artigos / 7 unidades positivas, origem↔destino 1:1. C0-J=0, M=0, DEC-016 pendente; nenhuma revogação, renumeração ou promulgação. [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm). DOU fac-símile ainda não conferido.
+
+**Fonte documental:** `modulos/T15/M01_ESPELHO_CC_NEGOCIO_ART104_107_7_Q.csv`, Git blob SHA `b3368efab3168b199562856506ba81491d7d969f`.
+
+## Texto da legislação de origem — experimental Q
+
+**Art. 104.** A validade do negócio jurídico requer:
+
+**I –** agente capaz;
+
+**II –** objeto lícito, possível, determinado ou determinável;
+
+**III –** forma prescrita ou não defesa em lei.
+
+**Art. 105.** A incapacidade relativa de uma das partes não pode ser invocada pela outra em benefício próprio, nem aproveita aos co-interessados capazes, salvo se, neste caso, for indivisível o objeto do direito ou da obrigação comum.
+
+**Art. 106.** A impossibilidade inicial do objeto não invalida o negócio jurídico se for relativa, ou se cessar antes de realizada a condição a que ele estiver subordinado.
+
+**Art. 107.** A validade da declaração de vontade não dependerá de forma especial, senão quando a lei expressamente a exigir.
+
+## Portas jurídicas, temporais e de especialidade (notas não normativas)
+
+- O art. 104 enuncia pressupostos de validade; não esgota inexistência, nulidade, anulabilidade, simulação ou incapacidade. Analisar CC arts. 1º–5º, 108–184 e leis especiais.
+
+- O art. 104 III usa a expressão legal ‘forma prescrita ou não defesa em lei’; não transformar essa redação em liberdade de forma absoluta, em vista do art. 107 e das exigências específicas do art. 108.
+
+- A incapacidade relativa do art. 105 não é autorização para terceiros negociarem em desrespeito à tutela da pessoa incapaz; preservar ECA/LBI, CC e direitos fundamentais.
+
+- Texto HTML atualizado Câmara e Planalto; DOU original 11/01/2002 e alterações posteriores ainda não conferidos em fac-símile. Q sem C0-J.
+
 ## T16 — T16.M01 [CLF-LIV-T16-CC-R22; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T16 — Lei 10.406/2002 — Código Civil, arts. 186–188
@@ -1255,6 +1289,42 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Preservar relações com CDC T20, responsabilidade estatal CF37 § 6º, tutela ambiental e ADIs 6.792/7.055 indicadas no art. 186 da Câmara.
 
 - DOU de 11/01/2002, alterações e julgados não cotejados em fac-símile. Q sem C0-J.
+
+## T16 — T16.M01 [CLF-LIV-T16-CCRESP-R23; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T16 — Obrigação de indenizar — Lei 10.406/2002 (Código Civil), arts. 927–930
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q — NÃO HOMOLOGADA.** 4 artigos / 7 unidades positivas, origem↔destino 1:1. C0-J=0, M=0, DEC-016 pendente; nenhuma revogação, renumeração ou promulgação. [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm). DOU fac-símile ainda não conferido.
+
+**Fonte documental:** `modulos/T16/M01_ESPELHO_CC_REPARACAO_ART927_930_7_Q.csv`, Git blob SHA `30b81d4bc2f22c15b75d33f1cc2fb38f6abf83b7`.
+
+## Texto da legislação de origem — experimental Q
+
+**Art. 927.** Aquele que, por ato ilícito (arts. 186 e 187), causar dano a outrem, fica obrigado a repará-lo.
+
+**Parágrafo único.** Haverá obrigação de reparar o dano, independentemente de culpa, nos casos especificados em lei, ou quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco para os direitos de outrem.
+
+**Art. 928.** O incapaz responde pelos prejuízos que causar, se as pessoas por ele responsáveis não tiverem obrigação de fazê-lo ou não dispuserem de meios suficientes.
+
+**Parágrafo único.** A indenização prevista neste artigo, que deverá ser eqüitativa, não terá lugar se privar do necessário o incapaz ou as pessoas que dele dependem.
+
+**Art. 929.** Se a pessoa lesada, ou o dono da coisa, no caso do inciso II do art. 188, não forem culpados do perigo, assistir-lhes-á direito à indenização do prejuízo que sofreram.
+
+**Art. 930.** No caso do inciso II do art. 188, se o perigo ocorrer por culpa de terceiro, contra este terá o autor do dano ação regressiva para haver a importância que tiver ressarcido ao lesado.
+
+**Parágrafo único.** A mesma ação competirá contra aquele em defesa de quem se causou o dano (art. 188, inciso I).
+
+## Portas jurídicas, temporais e de especialidade (notas não normativas)
+
+- O art. 927 caput conecta os ilícitos dos arts. 186–187 ao dever de reparar, enquanto seu parágrafo único prevê hipóteses autônomas de responsabilidade objetiva; não exigir culpa nesses casos.
+
+- O art. 928 determina responsabilidade subsidiária e equitativa do incapaz nas condições legais; não antecipar regra geral de capacidade ou presunção absoluta de reparação.
+
+- O art. 929 garante indenização a inocente diante de dano por remoção de perigo iminente (art. 188, II); o art. 930 disciplina regresso contra terceiro culpado e quem se defendeu na hipótese de legítima defesa. **A excludente de ilicitude não elimina necessariamente o dever de indenizar**.
+
+- Regimes de consumo T20, trabalho, Estado CF 37 §6º, meio ambiente T37, seguros e demais hipóteses especiais são preservados e sujeitos a exame próprio.
+
+- DOU 11/01/2002 e efeitos das ADIs 6.792/7.055 referidas pela Câmara nos arts. 927/186 pendentes; sem C0-J ou interpretação judicial homologada.
 
 ## T20 — T20.M01 [CLF-LIV-T20-CDC-8078-ART1-3-6-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
@@ -2287,6 +2357,36 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - CF arts. 196–200, Lei 8.142/1990 e normas de financiamento/setoriais continuam interfaces separadas, sem federalizar órgãos estaduais e municipais.
 
 - DOU e alterações originais permanecem pendentes; ausência de C0-J e DEC-016 ainda sob deliberação.
+
+## T32 — T32.M01 [CLF-LIV-T32-ECA-R23; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T32 — Proteção integral de crianças e adolescentes — Lei 8.069/1990 (ECA), arts. 1º–3º
+
+> **PRÉVIA DOCUMENTAL EXPERIMENTAL Q — NÃO HOMOLOGADA.** 3 artigos / 5 unidades positivas, origem↔destino 1:1. C0-J=0, M=0, DEC-016 pendente; nenhuma revogação, renumeração ou promulgação. [Câmara atualizada](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8069-13-julho-1990-372211-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l8069compilado.htm). DOU fac-símile ainda não conferido.
+
+**Fonte documental:** `modulos/T32/M01_ESPELHO_ECA_ART1_3_5_Q.csv`, Git blob SHA `653d21f1548e87dc0b0d1d89d05bc591400d6a99`.
+
+## Texto da legislação de origem — experimental Q
+
+**Art. 1.** Esta Lei dispõe sobre a proteção integral à criança e ao adolescente.
+
+**Art. 2.** Considera-se criança, para os efeitos desta Lei, a pessoa até doze anos de idade incompletos, e adolescente aquela entre doze e dezoito anos de idade.
+
+**Parágrafo único.** Nos casos expressos em lei, aplica-se excepcionalmente este Estatuto às pessoas entre dezoito e vinte e um anos de idade.
+
+**Art. 3.** A criança e o adolescente gozam de todos os direitos fundamentais inerentes à pessoa humana, sem prejuízo da proteção integral de que trata esta Lei, assegurando-se-lhes, por lei ou por outros meios, todas as oportunidades e facilidades, a fim de lhes facultar o desenvolvimento físico, mental, moral, espiritual e social, em condições de liberdade e de dignidade.
+
+**Parágrafo único.** Os direitos enunciados nesta Lei aplicam-se a todas as crianças e adolescentes, sem discriminação de nascimento, situação familiar, idade, sexo, raça, etnia ou cor, religião ou crença, deficiência, condição pessoal de desenvolvimento e aprendizagem, condição econômica, ambiente social, região e local de moradia ou outra condição que diferencie as pessoas, as famílias ou a comunidade em que vivem.
+
+## Portas jurídicas, temporais e de especialidade (notas não normativas)
+
+- O art. 2º parágrafo único prevê incidência excepcional do ECA às pessoas entre 18 e 21 anos apenas nos casos expressos em lei, não extensão universal da menoridade ou das medidas socioeducativas.
+
+- O art. 3º parágrafo único foi acrescido pela Lei 13.257/2016; preservar não discriminação e proteção integral, inclusive distinção de regimes processuais, adolescentes e crianças.
+
+- A Lei 15.512/2026 alterou o caput do art. 4º, que NÃO integra este recorte. É vedado atribuir a esse art. 4º texto de 1990 como se ainda fosse atual.
+
+- Fontes Câmara atualizada e Planalto. DOU original ECA 1990, retificações, Lei 13.257/2016 e Lei 15.512/2026 não cotejados em fac-símile. Q e C0-J=0.
 
 ## T33 — T33.M01 [CLF-LIV-T33-LDB-ART1_3-R17; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

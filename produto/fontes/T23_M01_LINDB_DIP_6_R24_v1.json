@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T23-DIP-R24",
+  "source_path": "modulos/T23/M01_ESPELHO_LINDB_ART8_9_6_Q.csv",
+  "source_blob_sha": "89bd2cd56d6d71ab8f533e247545d333cb01884b",
+  "view_path": "produto/vistas/T23_LINDB_DIREITO_INTERNACIONAL_PRIVADO_ART8_9_PREVIA_Q.md",
+  "count_expected": 6,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "variant_gate": "GRAFIA_MOVEIS_CONSTITUIDA_CONSTITUIREM_CAMARA_PLANALTO_DOU_PENDENTE",
+  "gates": [
+    "Art. 8º emprega conexão lex rei sitae para bens, ressalvadas hipóteses legais dos §§ 1º–2º. Não deslocar regras de competência internacional processual (CPC 2015), registros, bens públicos e tratados por cópia editorial.",
+    "Art. 9º trata da lei aplicável à constituição das obrigações, mas não resolve sozinho autonomia da vontade, contratos internacionais, Convenção de Viena/CISG, arbitragem, consumo, normas imperativas ou ordem pública (LINDB art. 17). A leitura jurídica exige escopo.",
+    "A grafia 'moveis' (art. 8º § 1º) e 'constituida' (art. 9º § 2º) é a preservada no HTML institucional da Câmara. Art. 9º caput tem 'constituírem' na Câmara e 'constituirem' no Planalto; há divergência gráfica com o texto de 1942, sem alterar Q ou presumir retificação.",
+    "DL 4.657/1942 permanece T01 para regras gerais de interpretação/vigência e T23 exclusivamente para regras de conexão. As duas vistas têm unidades de artigos disjuntas; não declarar que a Lei de Introdução foi promulgada como Código do CLF.",
+    "Original de 1942, retificação DOU 17/06/1943 (em outros dispositivos), histórico completo e alterações posteriores exigem cotejo autêntico antes de C0-J. Os arts. 7º e 10–19 ficam fora, incluindo capacidade, família, sucessão e ordem pública."
+  ]
+}

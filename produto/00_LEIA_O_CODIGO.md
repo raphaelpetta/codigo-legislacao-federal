@@ -3,6 +3,13 @@
 **Corte:** 15/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
 
+## Rodada 24 — direito internacional privado e auditoria multissetorial (15/10/2026)
+
+**Atualizado:** 55 componentes documentais Q em 37/48 títulos; **294 artigos de origem, 985 unidades positivas +1 histórico T07 (986 registros)**. Restam 11 títulos vazios. **C0-J=0, M=0, DEC-016 pendente**, CI P0 bloqueado, nenhuma revogação/renumeração/merge. Totais R21–R23 adiante são históricos, não totais desta branch.
+
+- [T23 — LINDB arts. 8º–9º, 2 artigos/6 unidades Q](vistas/T23_LINDB_DIREITO_INTERNACIONAL_PRIVADO_ART8_9_PREVIA_Q.md) · [espelho](../modulos/T23/M01_ESPELHO_LINDB_ART8_9_6_Q.csv) · [manifesto](fontes/T23_M01_LINDB_DIP_6_R24_v1.json). Regras de conexão de bens e obrigações, divergências gráficas e especialidades.
+- [Auditoria transversal de 12 controles](../central/32_R24_AUDITORIA_EFEITO_PROVENIENCIA_MULTIFRENTE.csv) · [nota jurídica T06/T10/T16/T23/T29/T32](../central/33_R24_NOTA_CRITICA_LINDB_T29_T06_T16_ECA.md) e [relatório R24](../central/34_RODADA24_T23_AUDITORIA_MULTIFRENTE_20261015.md).
+
 ## Rodada 23 — expansão e auditoria jurídica (15/10/2026)
 
 **Situação desta branch:** **54 componentes em 36/48 títulos, 292 artigos de origem, 979 unidades positivas +1 registro histórico T07** (980 registros), 12 títulos ainda sem texto. Conteúdo inteiramente experimental Q; CI GitHub Actions P0 bloqueado, **C0-J=0, M=0 e DEC-016 pendente**. Os totais das seções R21/R22 abaixo são marcos históricos, não o total atual.

@@ -98,6 +98,49 @@ class PreflightTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'Livro antigo alterado'):
                 pre.inspect(self.root, base)
 
+    def test_commit_pinado_sem_documentos_externos_rejeitado(self):
+        self.meta.pop('source_path')
+        self.meta.pop('source_blob_sha')
+        self.meta['setorial_commit'] = 'a' * 40
+        self.save()
+        with self.assertRaisesRegex(ValueError, 'Origem ausente'):
+            pre.inspect(self.root)
+
+    def test_texto_e_concordancia_externos_com_hashs_ficam_pendentes(self):
+        self.meta.pop('source_path')
+        self.meta.pop('source_blob_sha')
+        self.meta.update({
+            'setorial_commit': 'a' * 40,
+            'texto_relativo': 'integracao/texto.md',
+            'texto_blob_sha': 'b' * 40,
+            'concordancia_relativa': 'integracao/concordancia.csv',
+            'concordancia_blob_sha': 'c' * 40,
+        })
+        self.save()
+        outcome = pre.inspect(self.root)
+        self.assertEqual(outcome['externos_pendentes'], 1)
+        self.assertEqual(outcome['locais'], 0)
+
+    def test_fonte_setorial_externa_com_sha_fica_pendente(self):
+        self.meta['setorial_commit'] = 'a' * 40
+        (self.root / self.meta['source_path']).unlink()
+        self.save()
+        outcome = pre.inspect(self.root)
+        self.assertEqual(outcome['externos_pendentes'], 1)
+
+    def test_texto_externo_sem_sha_rejeitado(self):
+        self.meta.pop('source_path')
+        self.meta.pop('source_blob_sha')
+        self.meta.update({
+            'setorial_commit': 'a' * 40,
+            'texto_relativo': 'integracao/texto.md',
+            'concordancia_relativa': 'integracao/concordancia.csv',
+            'concordancia_blob_sha': 'c' * 40,
+        })
+        self.save()
+        with self.assertRaisesRegex(ValueError, 'Origem ausente'):
+            pre.inspect(self.root)
+
 
 if __name__ == '__main__':
     unittest.main()

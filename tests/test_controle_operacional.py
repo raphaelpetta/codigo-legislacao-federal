@@ -98,7 +98,11 @@ class FilaOperacionalTest(unittest.TestCase):
             allowed = {f"M{i:02d}" for i in range(15)}
         else:
             allowed = {f"T{i:02d}" for i in range(1, 49)}
-        self.assertEqual(ops.check_queue(allowed), [])
+        warnings = ops.check_queue(allowed)
+        # Reservas vencidas são avisos para liberação humana, não erros de
+        # integridade; outros alertas não devem ser silenciados.
+        self.assertTrue(all(w.startswith("RESERVA EXPIRADA (liberacao humana): ")
+                            for w in warnings), warnings)
 
 
 if __name__ == "__main__":

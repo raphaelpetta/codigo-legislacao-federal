@@ -24,7 +24,7 @@ def safe(path: str) -> Path:
 
 def blob_sha(p: Path) -> str:
     raw = p.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
 
 def check_blob(path: str, digest: str) -> None:
     p = safe(path)
@@ -61,7 +61,7 @@ for book in books:
         assert m["contagens_esperadas"]["fontes"] == 215
         assert m["contagens_esperadas"]["historicas"] == 1
         n_external += 1
-    elif book["titulo"] == "T25" and m.get("source_blob_sha") and m.get("setorial_commit"):
+    elif book["manifesto"] == "produto/fontes/T25_CP1_12_v1.json":
         assert m["setorial_commit"] == "3f0b56273caebfdbaba87ec4e87988da9f12c6c9"
         assert m["source_blob_sha"] == "40b5c03d72f975aad1339c605399f7f66ec056d0"
         assert m["count_expected"] == 39
@@ -104,11 +104,11 @@ code = (R / "produto/CODIGO_DE_TRABALHO.md").read_text(encoding="utf-8")
 anchor = f"## {first['titulo']} — {first['modulo']} [{first['id']}; {first['estado']}]"
 prefix = code[:code.index(anchor)]
 expected = prefix + "".join(
-    f"## {b['titulo']} — {b['modulo']} [{b['id']}; {b['estado']}]\\n\\n"
-    + safe(b["vista"]).read_text(encoding="utf-8").rstrip() + "\\n\\n"
+    f"## {b['titulo']} — {b['modulo']} [{b['id']}; {b['estado']}]\n\n"
+    + safe(b["vista"]).read_text(encoding="utf-8").rstrip() + "\n\n"
     for b in books
 )
-assert expected.rstrip() + "\\n" == code
+assert expected.rstrip() + "\n" == code
 assert sum(t.startswith("**Art. ") for t in code.splitlines()) == sum(b["artigos"] for b in books)
 assert n_local + n_external + n_composite == len(books)
 print(f"R26 QA SNAPSHOT: {len(books)} manifestos; {n_local} fontes locais, "

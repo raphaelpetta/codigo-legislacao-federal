@@ -1,3 +1,5 @@
-# DEC-016
+# DEC-016 — ficha de alternativas
 
-Ficha de deliberação pendente, sem ratificação.
+Estado: pendente. O corpus experimental não altera a legislação vigente.
+
+Alternativas para estudo: preservar atos; codificação modular; procedimento coordenado; espécie própria.

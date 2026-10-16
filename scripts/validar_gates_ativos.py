@@ -26,4 +26,9 @@ v07=(R/"produto/vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md").read_text(encodin
 assert all(s in v24 for s in ["**Art. 75.**","**Art. 82.**","**Art. 98.**","**Art. 99.**","condição suspensiva de exigibilidade"])
 assert all(s in v25 for s in ["**Art. CP-001.**","**Art. CP-012.**","As regras gerais deste Código aplicam-se aos fatos incriminados por lei especial"])
 assert "Os processos administrativos específicos continuarão a reger-se por lei própria" in v07
+with (R/"central/42_R29_AUDITORIA_MUSEUS_VETO_E_TRANSICOES_20261016.csv").open(encoding="utf-8",newline="") as f:
+    r29=list(csv.DictReader(f,strict=True))
+assert len(r29)==11 and len({x["id"] for x in r29})==11
+assert all(x["categoria"].startswith("Q_") or x["categoria"]=="BLOQUEADO_CI_P0" for x in r29)
+print("R29 11 gates de veto, remissões e eficácia classificados Q/CI.")
 print("R26 QA GATES: R24 12 + R25 23 sem promocao juridica; T07 11 C1 abertos.")

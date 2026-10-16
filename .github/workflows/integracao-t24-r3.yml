@@ -1,0 +1,44 @@
+name: CLF - T24 CPC70-102 gate R3 documental Q
+on:
+  pull_request:
+    paths:
+      - "produto/**"
+      - "scripts/gerar_previa_t24.py"
+      - "scripts/gerar_t24_cpc_181.py"
+      - "scripts/validar_t24_gates_r3.py"
+      - "modulos/T24/M01_PORTAS_ABC_CPC70_102_20261016.md"
+      - ".github/workflows/integracao-t24-r3.yml"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+jobs:
+  t24-r3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do corpus principal
+        uses: actions/checkout@v4
+      - name: Preparar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Checkout exato de PR38
+        uses: actions/checkout@v4
+        with:
+          ref: 3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745
+          path: setorial
+          persist-credentials: false
+      - name: Conferir origem externa 106 em modo somente leitura
+        run: python3 scripts/gerar_previa_t24.py --setorial-root setorial --check
+      - name: Auditar proveniencias 106 e 75 e direitos do CPC
+        run: python3 scripts/validar_t24_gates_r3.py --setorial-root setorial
+      - name: Regenerar e comparar vista 181 sem escrita
+        run: python3 scripts/gerar_t24_cpc_181.py --check
+      - name: Checar codigo integrado
+        run: python3 scripts/gerar_codigo_integrado.py --check
+      - name: Testar indice e estados Q
+        run: python3 scripts/preflight_consolidacao.py --root .
+      - name: Estrutura CLF
+        run: python3 scripts/verificar_estrutura.py

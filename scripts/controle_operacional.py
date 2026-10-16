@@ -154,7 +154,10 @@ def make_panel() -> tuple[str, set[str]]:
         )
         require(material_nao_aprovado,
                 "Corpus experimental nao deve homologar por operacao: " + ident)
-        require(meta.get("estado_juridico", meta.get("status_juridico")) == "Q_SEM_C0_J",
+        estado = next((meta.get(chave) for chave in
+                       ("estado_juridico", "status_juridico", "legal_status")
+                       if meta.get(chave)), None)
+        require(estado == "Q_SEM_C0_J",
                 "Nao ha autorizacao para equivalencia juridica: " + ident)
         counts[title]["books"] += 1
         counts[title]["articles"] += book["artigos"]

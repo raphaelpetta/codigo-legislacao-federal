@@ -1,0 +1,43 @@
+name: CLF - Livro penal T25 com portas R3
+on:
+  pull_request:
+    paths:
+      - "produto/**"
+      - "central/08_T25_DEZ_GATES_ESPECIALIDADE_PENAL_20261015.csv"
+      - "scripts/gerar_previa_t25.py"
+      - "scripts/validar_t25_gates_r3.py"
+      - "modulos/T25/M01_PORTAS_ABC_CPLITERAL_20261016.md"
+      - ".github/workflows/integracao-t25-r3.yml"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  livro-penal-q:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout corpus Q
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fonte do CP PR32 commit fixado
+        uses: actions/checkout@v4
+        with:
+          ref: 3f0b56273caebfdbaba87ec4e87988da9f12c6c9
+          path: t25
+          persist-credentials: false
+      - name: Teste das 39 origens e dez gates R3
+        run: python3 -u scripts/validar_t25_gates_r3.py --setorial-root t25
+      - name: Reconstruir vista penal sem escrita
+        run: python3 -u scripts/gerar_previa_t25.py --setorial-root t25 --check
+      - name: Testar gerador integral
+        run: python3 -u scripts/gerar_codigo_integrado.py --check
+      - name: Verificação de escopo e estado Q
+        run: python3 -u scripts/preflight_consolidacao.py --root .
+      - name: Integridade geral
+        run: python3 -u scripts/verificar_estrutura.py

@@ -1,21 +1,11 @@
-# Código da Legislação Federal — corpus experimental na main (não ratificado)
+# Código da Legislação Federal — vista experimental não ratificada
 
-**Corte 16/10/2026.** [Código de Trabalho único](CODIGO_DE_TRABALHO.md) gerado do [índice versionado](fontes/indice_livros.json). Documento de pesquisa, **não legislação vigente, não proposta aprovada, sem C0-J nem M homologadas e com DEC-016 pendente**. Compilação só das unidades integradas na main, não do direito federal inteiro.
+**Corte de integração na main: 16/10/2026.** [Código de Trabalho gerado](CODIGO_DE_TRABALHO.md) do [índice versionado](fontes/indice_livros.json), sem edição paralela. **Não é texto legislativo vigente, não há C0-J homologada, M aprovada, revogação, promulgação ou decisão DEC-016.**
 
-**T05.M06 — participação popular:** [Lei 9.709/1998 arts. 1º–2º, 2 artigos/7 unidades Q](vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART1_2_PREVIA.md), [fonte e espelho](../modulos/T05/M06_ESPELHO_LEI9709_ART1_2_7_Q.csv), [manifesto](fontes/T05_M06_9709_7_v1.json). A remissão «desta Lei» não se estende ao CLF. Arts. 3º–15 e outros módulos T05 não incluídos.
+- **T05.M06 — Lei 9.709/1998 arts. 1º–2º:** 2 artigos e 7 registros positivos Q; [vista](vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART1_2_PREVIA.md), [manifesto](fontes/T05_M06_9709_7_v1.json), remissão «desta Lei» permanece referida ao diploma de origem.
+- **T07.M03 — Lei 9.784/1999:** 78 artigos de ensaio, 214 positivos Q e 1 histórico, [vista](vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md), [11 C1 potenciais](../central/03_T07_GATE_C1_11_EFEITOS_20261015.csv), [auditoria R3](../modulos/T07/M03_PORTAS_ABC_C1_20261016.md), sem homologação.
+- **T25.M01 — Código Penal, arts. 1º–12:** 12 artigos, 39 unidades Q, [vista](vistas/T25_PENAL_PARTE_GERAL_CP1_12_PREVIA.md), [manifesto e origem SHA PR32](fontes/T25_CP1_12_v1.json), [dez gates adversariais](../central/08_T25_DEZ_GATES_ESPECIALIDADE_PENAL_20261015.csv), [auditoria R3](../modulos/T25/M01_PORTAS_ABC_CPLITERAL_20261016.md). A locução **«deste Código» no CP art. 12 significa Código Penal**, não CLF.
 
-**T07.M03 — processo administrativo federal:** [Lei 9.784/1999, ensaio arts. 1º–69-A, 78 artigos/214 unidades positivas Q e art. 70 histórico = 215 registros](vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md), PR setorial #45 no SHA `2a4d1eefa864f44435aec70ed0cc55a96b718b64`; [manifesto com hashes de fonte e concordância](fontes/T07_M03_v4.json), [matriz das onze C1 potenciais](../central/03_T07_GATE_C1_11_EFEITOS_20261015.csv), [doze casos adversariais](../central/06_T07_DOZE_CASOS_ADVERSARIAIS_REMISSOES_E_ESPECIALIDADE.csv) e [auditoria A/B/C R3](../modulos/T07/M03_PORTAS_ABC_C1_20261016.md). Das 214 positivas, 203 C0-T locais sem delta textual e **11 C1 potenciais Q** (5 críticos, 3 altos, 3 tipográficos). A troca «desta Lei» → «deste Livro» é **hipótese editorial explicitamente NÃO homologada**, e não altera o direito vigente. Art. 70 permanece histórico, sem reeditar vigência de 1999.
+**Total deste checkout:** **3 Livros, 92 artigos experimentais, 260 unidades positivas Q + 1 registro histórico T07 = 261 registros**. T24 CPC70–102 e 57 componentes restantes do PR #80 ainda não integrados, não revogados nem abandonados. Não afirmar completude da legislação federal.
 
-**Total na main: 80 artigos experimentais, 221 unidades positivas Q e uma histórica = 222 registros.** T24, T25 e outros componentes experimentais permanecem exclusivamente nas demais branches e não foram revogados/descontinuados.
-
-Validação sem alteração dos derivados (requer `setorial/` checkout SHA exato #45):
-
-```bash
-python3 scripts/gerar_previa_t05.py --check
-python3 scripts/gerar_produto_experimental.py --setorial-root setorial --check
-python3 scripts/validar_t07_gates_c1.py --setorial-root setorial
-python3 scripts/gerar_codigo_integrado.py --check
-python3 scripts/preflight_consolidacao.py --root .
-```
-
-Geradores têm `--write` apenas para vistas e Código derivados; editar manualmente fontes e respectivas vistas sem regeneração viola a proveniência. Mesmo CI verde não comprova DOU, vigência, equivalência C0-J, reestruturação legal ou decisão DEC-016.
+A validação automatizada exige `python3 scripts/gerar_previa_t05.py --check`, `python3 scripts/gerar_produto_experimental.py --setorial-root t07 --check`, `python3 scripts/gerar_previa_t25.py --setorial-root t25 --check`, `python3 scripts/validar_t25_gates_r3.py --setorial-root t25`, `python3 scripts/gerar_codigo_integrado.py --check` e `python3 scripts/preflight_consolidacao.py --root .`; `t07` e `t25` são checkouts dos SHAs setoriais respectivos. CI verde prova somente integridade documental.

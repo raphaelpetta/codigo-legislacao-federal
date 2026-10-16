@@ -16,3 +16,10 @@
 - DOU de 1976, jurisprudência e exceções, disciplina CVM, sociedades estatais, regime registral e mutações do direito comercial devem ser auditados juridicamente antes de promover o recorte a C0-J.
 
 **Próxima decisão executiva:** obter mensagem literal do CI, executar QA em checkout de três fontes setoriais, controlar efeitos materiais dos dispositivos e escolher entre profundidade/horizontalidade segundo ganho marginal.
+
+## QA remoto pós-abertura do PR #80
+
+- A árvore Git da base R29 (450 entradas) e a árvore do commit de abertura R30 (457 entradas) têm `truncated=false`. A verificação cruzada confirma **59/59 pares preexistentes vista/manifesto inalterados por SHA**; o T18 possui objetos novos próprios, sem substituição de componentes anteriores.
+- **T18:** espelho Git blob `4ed0705c0fbe55ebe5af99ab483a1c62ae04c673` idêntico ao manifesto, 8/8 linhas Q de origem, três artigos de origem, correspondência da vista em seu bloco do Código, **308 cabeçalhos positivos de artigo**, índice 60 componentes/41 títulos, matriz e painel com **48/48 registros** coerentes e C0-J=0, fila **83 tarefas/83 IDs distintos**, nove gates R30 sem duplicação, T13 reservado.
+- **CI no commit de abertura R30 `134950d701e3a4e05c3e1ff0fb3947c6faa20a67`:** cinco workflows `completed/failure`. No [run de diagnóstico 38870390405](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38870390405), `runner-smoke` **sem checkout** (job `116872836780`) e `corpus-r20` **com checkout** (job `116872836512`) falharam com **zero steps**. Seis checks exibem duas annotations cada, sem acesso ao texto causal pela conexão atual. **Não se comprovou CI verde nem execução do novo Python**, independentemente de sucesso da auditoria remota por Git.
+- **Portas independentes:** fonte institucional HTML e Git SHA provam identidade documental, não cotejo do DOU em fac-símile, eficácia e interpretação jurídica vinculante, nem autorização para M, C0-J ou solução DEC-016.

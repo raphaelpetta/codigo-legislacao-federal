@@ -17,3 +17,10 @@
 - **C0-J=0, M=0, DEC-016 pendente; sem revogação, renumeração definitiva, promulgação ou merge.**
 
 **Próximo:** recuperar mensagem causal do CI, executar QA no checkout real, auditar efeitos das remissões em títulos múltiplos e continuar pelo ganho marginal, não por expansão mecânica.
+
+## Auditoria remota realizada após abertura do PR #78
+
+- Comparação da árvore Git no HEAD base R27 `c75e84b17160fafa3df9493b718bcc32f4028fd7` (**437 entradas**) com o commit de abertura R28 `f467d506b4d386121a0608e0d3592b0edb9dd745` (**444 entradas**), ambas `truncated=false`: os **57 pares vista/manifesto preexistentes mantiveram SHA inalterado**; o novo T34 aparece com vista e manifesto próprios.
+- QA remoto da fonte T34: blob do espelho `588635b0615e9b121bb031e1740ae043b7ef336d` **idêntico ao manifesto**; **10/10 registros Q**, **2/2 artigos**, 8 unidades no art. 2º (caput, I–VI, PU). Sua vista foi encontrada integralmente no bloco correspondente do Código único, que conta **301 cabeçalhos**; índice 58 livros/40 títulos, 1.033 registros incluindo o histórico T07; matriz/painel **48/48** reconciliados; fila **79 IDs únicos**, matriz R28 **7 gates únicos**. Reserva T13 intocada.
+- CI no SHA de abertura: cinco runs `completed/failure`, incluindo [diagnóstico 38851762757](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38851762757). `runner-smoke` **sem checkout**, job `116814316185`, e `corpus-r20` **com checkout**, job `116814316266`, concluíram `failure` com **zero steps** cada. Seis check-runs, cada qual com duas annotations, mas o conteúdo não foi recuperado pela conexão disponível. **Sem diagnóstico causal nem CI verde**.
+- A verificação de SHA e coerência documental **não equivale a execução do Python** do novo validador nem a cotejo DOU ou C0-J. As declarações jurídicas desta rodada continuam condicionadas à auditoria material.

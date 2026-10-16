@@ -56,7 +56,7 @@ def check_queue(allowed: set[str]) -> list[str]:
     claimed_scopes: dict[tuple[str, str], str] = {}
     for entry in entries:
         key = entry["id"].strip()
-        require(re.fullmatch(PROJECT + r"-[A-Z0-9]+-\d{3}", key) is not None,
+        require(re.fullmatch(PROJECT + r"(?:-[A-Z0-9]+)+-\d{3}", key) is not None,
                 "ID de tarefa invalido: " + key)
         require(key not in ids, "Tarefa duplicada: " + key)
         ids.add(key)

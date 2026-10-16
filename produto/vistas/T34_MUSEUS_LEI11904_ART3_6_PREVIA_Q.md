@@ -30,7 +30,7 @@
 
 ## Veto — marcador histórico sem comando positivo
 
-**Art. 5º, § 3º — (VETADO).** Não contado nas 11 unidades positivas, não recuperado de projeto ou minuta.
+**Marcador vetado — art. 5º, § 3º (VETADO).** Não contado nas 11 unidades positivas, não recuperado de projeto ou minuta.
 
 ## Portas jurídicas e de proveniência
 

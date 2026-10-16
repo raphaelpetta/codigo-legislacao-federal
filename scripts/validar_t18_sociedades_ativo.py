@@ -19,6 +19,18 @@ assert all(r["texto_fonte_editorial"]==r["texto_destino_documental"] and r["esta
 view=(P/m["view_path"]).read_text(encoding="utf-8")
 assert sha in view and all(r["texto_destino_documental"] in view for r in rows)
 assert sum(line.startswith("**Art. ") for line in view.splitlines())==3
+# T18 REMISSAO R3: impedir destino ambiguo do art. 3, paragrafo 2.
+# A fonte externa art. 97 nao integra este recorte; renumeracao futura exige gate N:N.
+referencia=next(r for r in rows if r["artigo"]=="3" and r["unidade"]=="P2")
+assert referencia["id_origem"]=="LEI-1976-6404-ART003-P2"
+assert referencia["id_destino_simbolico"]=="CLF-T18-M01-SA-ART003-P2"
+assert "(artigo 97)" in referencia["texto_fonte_editorial"]
+assert "(artigo 97)" in referencia["texto_destino_documental"]
+assert referencia["texto_destino_documental"] in view
+codigo=(P/"produto/CODIGO_DE_TRABALHO.md").read_text(encoding="utf-8")
+assert referencia["texto_destino_documental"] in codigo
+porta=P/"modulos/T18/M01_GATE_REMISSAO_ART3P2_A97_20261016.md"
+assert porta.is_file() and "Lei 8.934/1994" in porta.read_text(encoding="utf-8")
 assert m["dec016"]=="PENDENTE" and m["material_approved"] is False and m["dou_facsimile_checked"] is False
 with (P/"central/44_R30_AUDITORIA_T18_T34_T36_CI_20261016.csv").open(encoding="utf-8",newline="") as f:g=list(csv.DictReader(f,strict=True))
 assert len(g)==9 and len({r["id"] for r in g})==9

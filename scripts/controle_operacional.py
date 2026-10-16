@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import csv
 import io
+import hashlib
 import json
 import re
 import sys
@@ -131,15 +132,39 @@ def make_panel() -> tuple[str, set[str]]:
         views.add(view)
         require(title in titles and book["estado"].startswith("INTEGRADO_EXPERIMENTAL"),
                 "Titulo/estado do livro invalido: " + ident)
-        require(re.fullmatch(r"[a-f0-9]{40}", book["origem_commit"]) is not None,
-                "Commit setorial invalido: " + ident)
         path = ROOT / view
         require(path.is_file(), "Vista ausente: " + view)
         actual = re.findall(r"(?m)^\*\*Art\. [^\n]+", path.read_text(encoding="utf-8"))
         require(len(actual) == book["artigos"], "Artigos divergentes: " + ident)
         meta = json.loads((ROOT / book["manifesto"]).read_text(encoding="utf-8"))
-        require(meta["setorial_commit"] == book["origem_commit"],
-                "Manifesto de origem divergente: " + ident)
+        require(meta.get("view_path") == view,
+                "Vista e manifesto divergentes: " + ident)
+        origem = book.get("origem_commit")
+        if origem:
+            require(re.fullmatch(r"[a-f0-9]{40}", origem) is not None,
+                    "Commit setorial invalido: " + ident)
+            require(meta.get("setorial_commit") == origem,
+                    "Manifesto de origem divergente: " + ident)
+        else:
+            # Fontes integradas posteriormente podem fixar a proveniencia pelo
+            # blob Git do espelho, em vez de um commit setorial. Isso NAO
+            # equivale a dispensar a prova de integridade.
+            relative_source = Path(meta.get("source_path") or "")
+            expected_blob = meta.get("source_blob_sha", "")
+            require(str(relative_source) not in {"", "."}
+                    and not relative_source.is_absolute()
+                    and ".." not in relative_source.parts,
+                    "Fonte sem caminho seguro: " + ident)
+            require(re.fullmatch(r"[a-f0-9]{40}", expected_blob) is not None,
+                    "Fonte sem SHA Git de proveniencia: " + ident)
+            source = ROOT / relative_source
+            require(source.is_file(), "Fonte documental ausente: " + ident)
+            raw = source.read_bytes()
+            actual_blob = hashlib.sha1(
+                b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw
+            ).hexdigest()
+            require(actual_blob == expected_blob,
+                    "Fonte documental diverge do SHA declarado: " + ident)
         # O manifesto T07 conta fonte com historico separado; T24 registra
         # subunidades de CPC com fonte manual e todas Q. Ambos devem fixar
         # cardinalidade sem atribuir equivalencia juridica.

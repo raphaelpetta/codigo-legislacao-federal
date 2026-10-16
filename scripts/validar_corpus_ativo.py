@@ -46,9 +46,22 @@ for book in books:
     assert view.is_file(), book["id"]
     text = view.read_text(encoding="utf-8")
     assert sum(t.startswith("**Art. ") for t in text.splitlines()) == book["artigos"], book["id"]
+    # O indice alimenta o Codigo; o manifesto ancora o denominador da fonte.
+    # Sem cotejo, um indice adulterado pode passar com CSV e SHA inalterados.
     path_in_manifest = m.get("view_path", m.get("vista_relativa"))
-    if path_in_manifest is not None:
-        assert path_in_manifest == book["vista"], book["id"]
+    assert path_in_manifest == book["vista"], f"vista divergente: {book['id']}"
+    counts = m.get("contagens_esperadas") or {}  # T07: esquema setorial legado.
+    expected_records = m.get("count_expected", counts.get("fontes"))
+    expected_articles = m.get("articles_expected", counts.get("artigos"))
+    assert type(expected_records) is int and expected_records >= 0, book["id"]
+    assert type(expected_articles) is int and expected_articles >= 0, book["id"]
+    assert book["registros_documentais"] == expected_records, (
+        f"denominador indice/manifesto divergente: {book['id']} "
+        f"({book['registros_documentais']} != {expected_records})"
+    )
+    assert book["artigos"] == expected_articles, (
+        f"artigos indice/manifesto divergentes: {book['id']} "
+        f"({book['artigos']} != {expected_articles})"
     legal = m.get("legal_status", m.get("status_juridico", m.get("estado_juridico")))
     assert legal in (None, "Q_SEM_C0_J"), (book["id"], legal)
     assert m.get("dec016") == "PENDENTE", book["id"]

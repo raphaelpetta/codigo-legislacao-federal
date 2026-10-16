@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T10-LAI-R22",
+  "source_path": "modulos/T10/M01_ESPELHO_LAI_ART5_6_5_Q.csv",
+  "source_blob_sha": "37e52936ee1e713a57ac772df937c53b560dde36",
+  "view_path": "produto/vistas/T10_LAI_ART5_6_PREVIA_Q.md",
+  "count_expected": 5,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Art. 5º assegura procedimentos ágeis e compreensíveis, mas não determina publicidade irrestrita de dados pessoais ou informações legalmente sigilosas.",
+    "Art. 6º conjuga gestão transparente, integridade e proteção do sigilo; T43 LGPD e LAI arts. 7º, 23–31 condicionam o acesso e seus limites.",
+    "A disponibilidade não implica publicidade universal. O âmbito pessoal dos destinatários decorre dos arts. 1º–2º e de regimes específicos.",
+    "DOU original de 2011 e regulamentações não cotejados em fac-símile; o art. 7º e seguintes não estão no recorte."
+  ]
+}

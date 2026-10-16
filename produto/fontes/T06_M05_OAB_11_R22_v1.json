@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T06-OAB-R22",
+  "source_path": "modulos/T06/M05_ESPELHO_ADVOCACIA_LEI8906_ART1_2_11_Q.csv",
+  "source_blob_sha": "922f452d9a46530100dd3c052c56cbfa8dec4803",
+  "view_path": "produto/vistas/T06_ADVOCACIA_LEI8906_ART1_2_PREVIA_Q.md",
+  "count_expected": 11,
+  "articles_expected": 2,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1994/lei-8906-4-julho-1994-349751-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8906.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Art. 1º, I: a expressão “qualquer” consta da publicação institucional, mas foi declarada inconstitucional na ADI 1.127. Esta transcrição Q NÃO homologa a amplitude dessa reserva profissional.",
+    "O art. 2º § 2º-A foi acrescentado pela Lei 14.365/2022; o art. 2º-A não está incluído. Outras exceções de representação devem ser examinadas em legislação própria.",
+    "Lei 15.511/2026 altera outros dispositivos do Estatuto; ADI 7.231 e revisão de art. 7º permanecem fora deste recorte.",
+    "DOU de 05/07/1994, leis alteradoras, decisões e vigência ainda não conferidos em fac-símile. Preservar CF 133 e estatutos especiais."
+  ]
+}

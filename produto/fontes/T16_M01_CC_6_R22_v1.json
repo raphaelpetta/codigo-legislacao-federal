@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T16-CC-R22",
+  "source_path": "modulos/T16/M01_ESPELHO_CC_ATOS_ILICITOS_ART186_188_6_Q.csv",
+  "source_blob_sha": "b3ae019ef92a07d34bf1cc79a04ac15042e49a82",
+  "view_path": "produto/vistas/T16_CC_ATOS_ILICITOS_ART186_188_PREVIA_Q.md",
+  "count_expected": 6,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "Arts. 186–188 descrevem atos ilícitos, abuso de direito e excludentes de ilicitude: não esgotam a responsabilidade civil, nem afastam a responsabilidade objetiva do art. 927 e leis especiais.",
+    "O art. 188, II e parágrafo único exige necessidade e limitação ao indispensável; examinar indenização em arts. 929–930, sem presumir irresponsabilidade civil.",
+    "Preservar relações com CDC T20, responsabilidade estatal CF37 § 6º, tutela ambiental e ADIs 6.792/7.055 indicadas no art. 186 da Câmara.",
+    "DOU de 11/01/2002, alterações e julgados não cotejados em fac-símile. Q sem C0-J."
+  ]
+}

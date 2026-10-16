@@ -3,6 +3,16 @@
 **Corte:** 15/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
 
+## R22: situação atual em 15/10/2026
+
+**51 componentes experimentais Q, 34 dos 48 títulos, 281 artigos, 960 unidades positivas + 1 registro histórico T07; 14 títulos sem texto.** C0-J=0, M=0, DEC-016 pendente. CI Actions P0 permanece reprovado. Os totais R21 das seções históricas abaixo NÃO são as contagens atuais.
+
+- [T06 Estatuto da Advocacia arts. 1º–2º, 2/11 Q](vistas/T06_ADVOCACIA_LEI8906_ART1_2_PREVIA_Q.md), [manifesto](fontes/T06_M05_OAB_11_R22_v1.json): gate ADI 1.127 para expressão “qualquer” do art. 1º, I; 2º-A não transcrito.
+- [T16 Código Civil atos ilícitos arts. 186–188, 3/6 Q](vistas/T16_CC_ATOS_ILICITOS_ART186_188_PREVIA_Q.md), [manifesto](fontes/T16_M01_CC_6_R22_v1.json): interfaces arts. 927–930, CDC e responsabilidade estatal.
+- [T10 LAI arts. 5º–6º, 2/5 Q](vistas/T10_LAI_ART5_6_PREVIA_Q.md), [manifesto](fontes/T10_M01_LAI_5_R22_v1.json): total T10 6 artigos/27 unidades; sigilos/LGPD preservados.
+
+[Relatório R22 e portas de auditoria](../central/30_RODADA22_ADVOCACIA_CC_LAI_CI_20261015.md).
+
 ## Vista única gerada do corpus efetivamente integrado
 
 [Ler o **Código experimental integrado em texto corrido**](CODIGO_DE_TRABALHO.md), gerado por `python3 scripts/gerar_codigo_integrado.py --write` a partir do [índice de Livros](fontes/indice_livros.json), conferível com `--check`. **Contém T01, T02 (Estatuto Igualdade Racial arts. 1º–2º), T03, T05, T07, T08, T09, T10 (LAI arts. 1º–4º), T11, T12, T14, T20, T21 (Sistema Financeiro arts. 1º–2º), T22, T24, T25, T26, T27, T28, T29, T30, T31, T33, T35, T37, T38, T39 (Agricultura Familiar arts. 1º–3º), T41, T42, T43, T45 e T48**, com 16 títulos ainda sem texto, todos experimentais Q, sem efeitos legais ou homologação C0-J.

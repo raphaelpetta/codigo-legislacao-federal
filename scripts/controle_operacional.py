@@ -137,7 +137,7 @@ def make_panel() -> tuple[str, set[str]]:
         actual = re.findall(r"(?m)^\*\*Art\. [^\n]+", path.read_text(encoding="utf-8"))
         require(len(actual) == book["artigos"], "Artigos divergentes: " + ident)
         meta = json.loads((ROOT / book["manifesto"]).read_text(encoding="utf-8"))
-        require(meta.get("view_path") == view,
+        require((meta.get("view_path") or meta.get("vista_relativa")) == view,
                 "Vista e manifesto divergentes: " + ident)
         origem = book.get("origem_commit")
         if origem:

@@ -35,7 +35,7 @@ assert sum(x.startswith("**Art. CP-") for x in view25.splitlines())==12
 assert sum(x.startswith("**Art. ") for x in view7.splitlines())==78
 assert "As regras gerais deste Código aplicam-se aos fatos incriminados por lei especial" in view25
 assert "Art. CP-012" in view25
-assert "§ 3º" in view24 and "As ações de cobrança" not in view24[:200]  # fragmento não exclusivo
+assert all(s in view24 for s in ["**Art. 82.**", "**Art. 98.**", "**Art. 99.**"])\nassert "condição suspensiva de exigibilidade" in view24\nassert "Presume-se verdadeira a alegação de insuficiência" in view24\nassert "Os processos administrativos específicos continuarão a reger-se por lei própria" in view7
 assert "decisão coordenada" in view7.lower()
 idx=json.loads((P/"produto/fontes/indice_livros.json").read_text(encoding="utf-8"))["livros"]
 assert len(idx)==55 and sum(x["artigos"] for x in idx)==294

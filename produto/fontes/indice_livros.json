@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "Main: três Livros documentais Q: T05.M06 Lei9709 arts1–2 (2 artigos/7 positivos), T07.M03 Lei9784 (78 artigos/214 positivos e 1 histórico), T25.M01 Código Penal arts1–12 (12 artigos/39 positivos). Total 92 artigos/260 unidades positivas e uma histórica = 261 registros. O art12 CP 'deste Código' refere-se exclusivamente ao Código Penal; nunca ao CLF. C0-J=0, M=0, DEC-016 pendente, revisão DOU e efeitos R3 sem homologação. T24 CPC70–102 não integrado, pendente segunda conferência independente de 75 unidades e 106 setoriais.",
+  "observacao": "Main: 4 Livros de trabalho Q. T05 Lei9709 arts1-2: 2 artigos/7 registros; T07 Lei9784: 78 artigos/214 positivos +1 histórico; T24 CPC70–102: 33 artigos/181 positivos, sendo 106 do PR38 e 75 transcrições editoriais Q que ainda exigem revisão independente DOU; T25 CP1–12: 12 artigos/39 positivos. Total 125 artigos/441 positivos +1 histórico = 442 registros. Nenhuma C0-J ou M, DEC-016 pendente; CPC art82 §3 Lei15109/2025, art85 Lei14365/2022; Tema1076 STJ e exceção Tema1255 STF devem ser auditados por efeito.",
   "livros": [
     {
       "id": "CLF-LIV-T05-M06-9709-ART1-2-7-v1",
@@ -24,6 +24,18 @@
       "registros_documentais": 215,
       "origem_commit": "2a4d1eefa864f44435aec70ed0cc55a96b718b64",
       "estado": "INTEGRADO_EXPERIMENTAL_Q"
+    },
+    {
+      "id": "CLF-LIV-T24-M01-CPC70-102-181-v1",
+      "titulo": "T24",
+      "modulo": "T24.M01",
+      "vista": "produto/vistas/T24_CPC_70_102_PREVIA_CONTINUA_Q.md",
+      "manifesto": "produto/fontes/T24_CPC_70_102_181_v1.json",
+      "artigos": 33,
+      "registros_documentais": 181,
+      "origem_commit": "3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745",
+      "estado": "INTEGRADO_EXPERIMENTAL_CONTINUO_Q",
+      "proveniencia_adicional": "75 transcricoes editoriais CPC82–97, com fonte local e SHA Git em manifesto. O commit setorial referido em origem_commit cobre APENAS 106 unidades originais do PR38, nao as 75 locais. C0-J=0, revisao DOU pendente."
     },
     {
       "id": "CLF-LIV-T25-M01-CP1-12-v1",

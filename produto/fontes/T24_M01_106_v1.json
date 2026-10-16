@@ -1,0 +1,37 @@
+{
+  "id": "CLF-PROD-T24-M01-RECORTE-106-v1",
+  "status": "EXPERIMENTAL_FONTE_MANUAL_SEM_HOMOLOGACAO",
+  "setorial_pr": 38,
+  "setorial_commit": "3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745",
+  "source_path": "modulos/T24/M01/F1C2_ESPELHO_UNIFICADO_106.csv",
+  "source_blob_sha": "a0562c236cda3a49b842417bb27417e84484f363",
+  "view_path": "produto/vistas/T24_PROCESSO_CIVIL_PREVIA_PARCIAL.md",
+  "concordance_path": "produto/concordancia/T24_M01_106_ORIGEM_DESTINO.csv",
+  "count_expected": 106,
+  "articles_expected": 17,
+  "classes_expected": {
+    "ACRESCIDO_2021": 1,
+    "ACRESCIDO_2022": 1,
+    "ALTERADO_2022": 1,
+    "DIVERGENCIA_EDITORIAL_CAMARA_PLANALTO_NAO_LEGISLATIVA_DEMONSTRADA": 1,
+    "IGUAL_CONFRONTO_VISUAL_DUAS_EDICOES": 63,
+    "IGUAL_POR_COTEJO_MANUAL_DAS_DUAS_EDICOES": 39
+  },
+  "sections": [
+    {
+      "start": 70,
+      "end": 81,
+      "heading": "Capacidade processual, representação, deveres e responsabilidade processual — arts. 70–81 do CPC"
+    },
+    {
+      "start": 98,
+      "end": 102,
+      "heading": "Gratuidade da justiça — arts. 98–102 do CPC"
+    }
+  ],
+  "header": "# Código da Legislação Federal — Livro do Processo Civil (prévia parcial T24.M01)\n\n> **TEXTO EXPERIMENTAL SEM HOMOLOGAÇÃO, NÃO PROMULGADO.** Fonte setorial: PR #38 em commit `3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745`, `modulos/T24/M01/F1C2_ESPELHO_UNIFICADO_106.csv` (106 transcrições manuais). Nenhum dispositivo tem equivalência C0-J certificada e a continuidade jurídica da transposição não está comprovada. Exibir o texto de origem não o torna norma substitutiva nem autoriza revogações.\n\n**Corte da documentação setorial:** 14/10/2026. **Vista derivada gerada:** 15/10/2026. **Recorte:** arts. **70–81 e 98–102** do CPC (Lei 13.105/2015), numeração original mantida **apenas como localizador histórico**. Não há pretensão de texto completo do Livro, pois **arts. 1–69, 82–97 e 103 em diante estão fora desta vista**.\n\n**Matriz de concordância:** `produto/concordancia/T24_M01_106_ORIGEM_DESTINO.csv`; **fonte canônica setorial em draft**, com 106 IDs e preservação literal da coluna `texto_atual_manual`. A pesquisa aponta 102 coincidências no confronto manual entre publicações, 1 alteração de 2022, 2 acréscimos de 2021/2022 e 1 divergência editorial de pontuação; todos permanecem **Q jurídico**. Em particular, CPC art. 77, VI requer revisão DOU/Planalto; a grafia abaixo reproduz o espelho setorial e **não fixa preferência entre fontes em conflito**.\n\n**Fontes institucionais para conferência:** [CPC atualizado — Câmara](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html) · [publicação original — Câmara](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-publicacaooriginal-146341-pl.html). A coexistência de regras de gratuidade, curatela, deficiência e limites de sanções deve ser auditada por efeito antes de integrar ou renumerar.",
+  "footer": "---\n\n## Lacunas e condições para integração\n\n- **Não há aqui o CPC completo nem capítulo definitivo do CLF.** Os artigos ausentes não foram substituídos, revogados, incorporados por inferência ou deixados sem destino definitivo.\n- **C0-T juridicamente certificado: não declarado. C0-J: 0. C1/M aprovados: 0. Todos os 106 destinos: Q.** A semelhança textual entre duas apresentações de fonte não comprova equivalência jurídica em novo lugar.\n- Conferir fac-símiles DOU, alterações e decisões constitucionais/jurisprudenciais, notadamente art. 75, III/§5º, art. 77, VI/VII e arts. 98–102; proteger curatela, capacidade, defesa, sanções e gratuidade.\n- Em caso de recepção do conteúdo, preservar art. 99 §§2º–3º (dever de motivação do indeferimento e presunção relativa de pessoa natural), o regime de suspensão da exigibilidade do art. 98 §3º e as particularidades de pessoas com deficiência. Não duplicar com T13, T06 e T32.\n- Código unificado (`DEC-001`) segue objetivo; espécie, iniciativa, sanção/veto, transição e revogações (`DEC-016`) seguem pendentes.\n",
+  "status_juridico": "Q_SEM_C0_J",
+  "dec016": "PENDENTE",
+  "material_approved": false
+}

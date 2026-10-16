@@ -1,0 +1,44 @@
+name: CLF - T07 gates R3 e concordancia Q
+on:
+  pull_request:
+    paths:
+      - "produto/**"
+      - "central/03_T07_GATE_C1_11_EFEITOS_20261015.csv"
+      - "central/06_T07_DOZE_CASOS_ADVERSARIAIS_REMISSOES_E_ESPECIALIDADE.csv"
+      - "modulos/T07/M03_PORTAS_ABC_C1_20261016.md"
+      - "scripts/gerar_produto_experimental.py"
+      - "scripts/validar_t07_gates_c1.py"
+      - ".github/workflows/integracao-t07-c1.yml"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  t07-c1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter corpus da branch
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Obter origem PR45 SHA imutavel
+        uses: actions/checkout@v4
+        with:
+          ref: 2a4d1eefa864f44435aec70ed0cc55a96b718b64
+          path: setorial
+          persist-credentials: false
+      - name: Gates R3 de 11 C1 e 12 contraprovas
+        run: python3 -u scripts/validar_t07_gates_c1.py --setorial-root setorial
+      - name: Regeracao da vista T07 sem escrita
+        run: python3 -u scripts/gerar_produto_experimental.py --setorial-root setorial --check
+      - name: Checagem do Codigo unificado
+        run: python3 -u scripts/gerar_codigo_integrado.py --check
+      - name: Preflight do corpus Q e estados
+        run: python3 -u scripts/preflight_consolidacao.py --root .
+      - name: Estrutura geral
+        run: python3 -u scripts/verificar_estrutura.py

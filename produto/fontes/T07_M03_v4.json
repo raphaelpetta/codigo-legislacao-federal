@@ -1,0 +1,26 @@
+{
+  "id": "CLF-PROD-T07-M03-v4",
+  "natureza": "CORPUS_EXPERIMENTAL_NAO_HOMOLOGADO",
+  "setorial_pr": 45,
+  "setorial_commit": "2a4d1eefa864f44435aec70ed0cc55a96b718b64",
+  "texto_relativo": "integracao/26_T07_LIVRO_COMPLETO_1_69A_F5Q_V4.md",
+  "texto_blob_sha": "0eea9c97a110d278d6eb4efd37f4a8bbfd61ecb0",
+  "concordancia_relativa": "integracao/25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.csv",
+  "concordancia_blob_sha": "c9cbf7d202ea9d01b9ffd48256bf3efeba6f226c",
+  "vista_relativa": "produto/vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md",
+  "titulo": "Livro do Processo Administrativo Federal",
+  "titulo_provisorio": "T07",
+  "modulo": "T07.M03",
+  "contagens_esperadas": {
+    "fontes": 215,
+    "positivas": 214,
+    "historicas": 1,
+    "artigos": 78,
+    "c0_t_local": 203,
+    "c1_potencial_q": 11
+  },
+  "estado_juridico": "Q_SEM_C0_J",
+  "aprovacao_material": "NAO",
+  "dec016": "PENDENTE",
+  "cabecalho_editorial": "# Prévia integral do Livro do Processo Administrativo Federal (T07.M03)\n\n> **FOTOGRAFIA DOCUMENTAL NÃO HOMOLOGADA — 15/10/2026.** Importada, sem revisão de mérito nesta central, do arquivo `integracao/26_T07_LIVRO_COMPLETO_1_69A_F5Q_V4.md` no PR CLF #45, commit `2a4d1eefa864f44435aec70ed0cc55a96b718b64`. A fonte deste texto é o PR setorial, ainda **draft e fora da main**. Conteúdo de ensaio, inclusive mudanças de referente condicionais; nenhuma norma vigente foi substituída, nenhuma unidade auditada como C0-J, nenhuma decisão DEC-016 tomada. **NÃO editar esta fotografia como fonte autônoma**; a atualização deverá vir da origem e do compilador após reconciliação. Esta prévia apenas permite visualizar e criticar a redação disponível.\n\n---\n\n"
+}

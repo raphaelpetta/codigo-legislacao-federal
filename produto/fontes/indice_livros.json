@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "Lote inicial de integração incremental à main: somente T05.M06, Lei 9.709/1998 arts. 1º–2º (2 artigos e 7 unidades Q). T07/T24/T25 e títulos restantes permanecem fora deste índice e nas branches experimentais; 48 títulos não são universo exaustivo. DEC-016 pendente; nenhuma C0-J, M, revogação, renumeração definitiva ou promulgação.",
+  "observacao": "Main: 2 componentes Q (T05.M06 Lei9709: 2 artigos/7 positivos; T07.M03 Lei9784: 78 artigos/214 positivos +1 histórico art70), total 80 artigos/221 unidades positivas e 1 histórica = 222 registros. T07 conserva 203 C0-T locais e 11 C1 potenciais Q: 5 críticos, 3 altos, 3 tipográficos. DOU/retificação, efeitos jurídico-materiais e revisão humana independente pendentes. T24/T25 e restantes ainda não integrados. C0-J=0; M=0; DEC-016 pendente.",
   "livros": [
     {
       "id": "CLF-LIV-T05-M06-9709-ART1-2-7-v1",
@@ -13,6 +13,17 @@
       "origem_commit": "f2c12d61997b5e545d30703cbcf25cda179bd399",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Origem local versionada nesta PR49, Lei9709 arts1–2 cotejada TSE/Planalto, não trabalho setorial independente nem DOU homologado; este commit documenta primeira fonte. Remissão 'desta Lei' não é referência ao CLF inteiro."
+    },
+    {
+      "id": "CLF-LIV-T07-M03-v4",
+      "titulo": "T07",
+      "modulo": "T07.M03",
+      "vista": "produto/vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md",
+      "manifesto": "produto/fontes/T07_M03_v4.json",
+      "artigos": 78,
+      "registros_documentais": 215,
+      "origem_commit": "2a4d1eefa864f44435aec70ed0cc55a96b718b64",
+      "estado": "INTEGRADO_EXPERIMENTAL_Q"
     }
   ]
 }

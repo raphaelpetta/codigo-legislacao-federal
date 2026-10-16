@@ -1,0 +1,47 @@
+name: CLF - Livro T05 integracao documental Q
+on:
+  pull_request:
+    paths:
+      - "modulos/T05/M06_ESPELHO_LEI9709_ART1_2_7_Q.csv"
+      - "modulos/T05/M06_PORTAS_ABC_PRIMEIRA_INTEGRACAO_20261016.md"
+      - "produto/**"
+      - "scripts/gerar_previa_t05.py"
+      - "scripts/gerar_codigo_integrado.py"
+      - ".github/workflows/integracao-t05-livro.yml"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  livro-t05-q:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do corpus na branch
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Checkout da origem editorial fixa (PR49)
+        uses: actions/checkout@v4
+        with:
+          ref: f2c12d61997b5e545d30703cbcf25cda179bd399
+          path: origem
+          persist-credentials: false
+      - name: Identidade de origem, destino e SHA fixado
+        shell: bash
+        run: |
+          expected=9008a1845503a2789b398e80c97850b0a0e1bdb8
+          test "$(git hash-object modulos/T05/M06_ESPELHO_LEI9709_ART1_2_7_Q.csv)" = "$expected"
+          test "$(git hash-object origem/modulos/T05/M06_ESPELHO_LEI9709_ART1_2_7_Q.csv)" = "$expected"
+      - name: Regenerabilidade da vista Q
+        run: python3 scripts/gerar_previa_t05.py --check
+      - name: Regenerabilidade do Código de Trabalho
+        run: python3 scripts/gerar_codigo_integrado.py --check
+      - name: Preflight de fontes, estados jurídicos e cardinalidade
+        run: python3 scripts/preflight_consolidacao.py --root .
+      - name: Estrutura geral do repositório
+        run: python3 scripts/verificar_estrutura.py

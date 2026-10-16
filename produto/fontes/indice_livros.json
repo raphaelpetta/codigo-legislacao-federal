@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R24 15/10/2026: 55 componentes Q em 37/48 títulos, 294 artigos de origem, 985 unidades positivas e 1 histórica T07 (986 registros). T23 LINDB arts8-9 2/6; 11 títulos vazios, auditoria 12 portas. CI P0 sem steps e annotations inacessíveis; T13 reservado. C0-J=0, M=0, DEC016 pendente, sem merge ou revogação.",
+  "observacao": "R27 16/10/2026: 57 componentes Q em 39/48 títulos, 299 artigos de origem, 1022 unidades positivas +1 histórica T07 (1023 registros); T19 3/5, T36 2/32. 9 títulos sem texto. Vigência urbana: Lei 15.333/2026 XXI já vigente; Lei 15.432/2026 XXII/XXIII com eficácia diferida para 2027, fora dos positivos Q do corte atual, ainda sem DOU fac-símile. C0-J=0, M=0, DEC-016 pendente, CI #66 bloqueado pré-steps, T13 reservado. Nenhuma revogação/renumeração/merge.",
   "livros": [
     {
       "titulo": "T01",
@@ -245,6 +245,17 @@
       "proveniencia_adicional": "R23 CC arts. 927–930 — reparação; 4/7 positivos Q, Art188 excludente não elimina art929 reparação; art927 PU responsabilidade objetiva e art930 regresso"
     },
     {
+      "titulo": "T19",
+      "modulo": "T19.M01",
+      "id": "CLF-LIV-T19-LREF-R27",
+      "vista": "produto/vistas/T19_RECUPERACAO_FALENCIA_LEI11101_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T19_M01_LREF_5_R27_v1.json",
+      "artigos": 3,
+      "registros_documentais": 5,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "R27 LREF arts 1–3 3/5 Q: exclusões de entidades estatais e financeiras e competência art3; leis especiais e DOU pendentes"
+    },
+    {
       "titulo": "T20",
       "modulo": "T20.M01",
       "id": "CLF-LIV-T20-CDC-8078-ART1-3-6-R14",
@@ -475,6 +486,17 @@
       "registros_documentais": 16,
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei10973 art1 PU14 incisos Lei13243/2016, 1 artigo/16 unidades Q, art2 fora e DOU pendente"
+    },
+    {
+      "titulo": "T36",
+      "modulo": "T36.M01",
+      "id": "CLF-LIV-T36-ECIDADE-R27",
+      "vista": "produto/vistas/T36_ESTATUTO_CIDADE_ART1_2_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T36_M01_ECIDADE_32_R27_v1.json",
+      "artigos": 2,
+      "registros_documentais": 32,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "R27 Estatuto Cidade arts1–2 2/32 Q; XXI Lei15333 vigente, XXII/XXIII Lei15432 vacatio até junho/2027 fora positivas; CF182/183 e competências municipais"
     },
     {
       "id": "CLF-LIV-T37-M01-6938-ART1-2-13-R10",

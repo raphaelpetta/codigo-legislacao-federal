@@ -61,7 +61,7 @@ def check_queue(allowed: set[str]) -> list[str]:
         require(key not in ids, "Tarefa duplicada: " + key)
         ids.add(key)
         module = entry["modulo"].strip()
-        require(module == "OPS" or module in allowed or
+        require(module in {"OPS", "CENTRAL"} or module in allowed or
                 (not CF and re.fullmatch(r"T\d{2}\.M\d{2}", module) is not None
                  and module[:3] in allowed), "Modulo invalido: " + key)
         state = entry["estado"].strip()

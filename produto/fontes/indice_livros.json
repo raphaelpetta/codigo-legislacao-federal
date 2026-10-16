@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R22, 15/10/2026: 51 vistas Q em 34 títulos; 281 artigos de origem, 960 unidades positivas e 1 histórica T07 (961 registros). T06 2/11; T16 3/6; T10 LAI arts5-6 2/5 (T10 total 6/27); restam 14 títulos sem texto. CI P0 continua bloqueante, runner-smoke sem checkout falhou e logs indisponíveis. T13 reservado intacto, C0-J=0, M=0, DEC-016 pendente, nenhuma revogação/renumeração definitiva/merge.",
+  "observacao": "R23 em 15/10/2026: 54 componentes Q em 36/48 títulos, 292 artigos de origem /979 unidades positivas +1 histórico T07 (980 registros). T15 CC104–107 4/7, T32 ECA1–3 3/5, T16 CC927–930 4/7, T16 agora 7/13. 12 títulos sem texto; ADI1127 decisão STF efeito auditado, não C0-J. CI P0 falhando antes de steps, logs inacessíveis. T13 reservado intacto; C0-J=0, M=0, DEC-016 pendente, sem merge/revogação.",
   "livros": [
     {
       "titulo": "T01",
@@ -212,6 +212,17 @@
       "proveniencia_adicional": "Lei10406/2002 CC bens79-84 Q 6/13, T13 reservado intocado, propriedade e direitos patrimoniais."
     },
     {
+      "titulo": "T15",
+      "modulo": "T15.M01",
+      "id": "CLF-LIV-T15-CCNJ-R23",
+      "vista": "produto/vistas/T15_CC_NEGOCIO_ART104_107_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T15_M01_CCNJ_7_R23_v1.json",
+      "artigos": 4,
+      "registros_documentais": 7,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "R23 CC arts. 104–107 — negócio jurídico; 4/7 positivos Q, Requisitos de validade e forma; art104 III não afasta forma especial art108; DOU e C0-J pendentes"
+    },
+    {
       "titulo": "T16",
       "modulo": "T16.M01",
       "id": "CLF-LIV-T16-CC-R22",
@@ -221,6 +232,17 @@
       "registros_documentais": 6,
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Ato ilícito e abuso, excludentes art188; arts929–930 e responsabilidade objetiva preservados; DOU pendente"
+    },
+    {
+      "titulo": "T16",
+      "modulo": "T16.M01",
+      "id": "CLF-LIV-T16-CCRESP-R23",
+      "vista": "produto/vistas/T16_CC_REPARACAO_ART927_930_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T16_M01_CCRESP_7_R23_v1.json",
+      "artigos": 4,
+      "registros_documentais": 7,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "R23 CC arts. 927–930 — reparação; 4/7 positivos Q, Art188 excludente não elimina art929 reparação; art927 PU responsabilidade objetiva e art930 regresso"
     },
     {
       "titulo": "T20",
@@ -408,6 +430,17 @@
       "origem_commit": "ded0aca29c979783c35876baace147386e41ce5a",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "SUS Lei8080 arts4-5 2 artigos/7 unidades Q, iniciativa privada complementar, CF196-200, art6 pós2026 não transcrito."
+    },
+    {
+      "titulo": "T32",
+      "modulo": "T32.M01",
+      "id": "CLF-LIV-T32-ECA-R23",
+      "vista": "produto/vistas/T32_ECA_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T32_M01_ECA_5_R23_v1.json",
+      "artigos": 3,
+      "registros_documentais": 5,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "R23 ECA arts. 1º–3º — proteção integral; 3/5 positivos Q, ECA art2 PU 18–21 apenas casos expressos; art3 PU Lei13257/2016; art4 atualizado 2026 fora da vista"
     },
     {
       "titulo": "T33",

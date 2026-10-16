@@ -3,6 +3,17 @@
 **Corte:** 15/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
 
+## Rodada 23 — expansão e auditoria jurídica (15/10/2026)
+
+**Situação desta branch:** **54 componentes em 36/48 títulos, 292 artigos de origem, 979 unidades positivas +1 registro histórico T07** (980 registros), 12 títulos ainda sem texto. Conteúdo inteiramente experimental Q; CI GitHub Actions P0 bloqueado, **C0-J=0, M=0 e DEC-016 pendente**. Os totais das seções R21/R22 abaixo são marcos históricos, não o total atual.
+
+- [T15 — Código Civil arts. 104–107, 4 artigos/7 unidades Q](vistas/T15_CC_NEGOCIO_ART104_107_PREVIA_Q.md) · [manifesto](fontes/T15_M01_CCNJ_7_R23_v1.json): negócio jurídico e forma, regimes especiais preservados.
+- [T32 — ECA arts. 1º–3º, 3 artigos/5 unidades Q](vistas/T32_ECA_ART1_3_PREVIA_Q.md) · [manifesto](fontes/T32_M01_ECA_5_R23_v1.json): proteção integral; art. 4º alterado em setembro de 2026 permanece fora.
+- [T16 — Código Civil arts. 927–930, 4 artigos/7 unidades Q](vistas/T16_CC_REPARACAO_ART927_930_PREVIA_Q.md) · [manifesto](fontes/T16_M01_CCRESP_7_R23_v1.json): obrigação de reparar, excludentes e regresso; total T16 7 artigos/13 unidades.
+- [Auditoria T06 — efeitos ADI 1.127](../modulos/T06/M05_NOTA_ADI1127_EFEITOS_R23_20261015.md): declaração de inconstitucionalidade da expressão “qualquer”, pedido prejudicado quanto à expressão “juizados especiais”, sem alterar a transcrição histórica Q.
+
+[Relatório R23](../central/31_RODADA23_NEGOCIO_ECA_REPARACAO_AUDITORIA_20261015.md).
+
 ## R22: situação atual em 15/10/2026
 
 **51 componentes experimentais Q, 34 dos 48 títulos, 281 artigos, 960 unidades positivas + 1 registro histórico T07; 14 títulos sem texto.** C0-J=0, M=0, DEC-016 pendente. CI Actions P0 permanece reprovado. Os totais R21 das seções históricas abaixo NÃO são as contagens atuais.

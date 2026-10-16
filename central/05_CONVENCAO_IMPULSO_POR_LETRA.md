@@ -1,0 +1,7 @@
+# Central CLF — convenção operacional de impulso por letra
+
+**Registro:** 15/10/2026 · **Fonte decisória:** instrução expressa do usuário no chat da Central de Comando CLF, rodada 02. **Natureza:** preferência de interação, não decisão legislativa, material ou constitucional.
+
+Quando o usuário enviar mensagem formada por **uma letra isolada** (independentemente da letra e de caixa alta/baixa), tratar como: **“continuar imediatamente a próxima rodada executiva sugerida, com concordância com a agenda operacional proposta”**. Executar entregas concretas, versões e handoff sem solicitar confirmação novamente. Se a mensagem trouxer algo específico, essa especificação prevalece na delimitação da rodada. Um comando para avançar abrange pesquisa, redação de hipóteses, scripts, PRs draft e registro de questões — **não** aprovação automática de reforma material, supressão de garantias, decisão formal DEC-016, renumeração definitiva ou merge sem ratificação própria. Nenhuma letra isolada equivale a `M` (reforma material aprovada) ou `C0-J` homologada por si só.
+
+A regra vale para a central deste repositório e orienta os handoffs entre sessões. **Preferências em outras conversas dependem de o respectivo contexto/memória estar disponível**, não há como impor configuração global do produto a partir do GitHub. As fontes canônicas continuam no GitHub e as decisões de mérito permanecem controladas por DEC-001/016 e pela aprovação expressa do usuário.

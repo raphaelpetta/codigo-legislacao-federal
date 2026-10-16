@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T34-MUSEUS-ART3_6-R29",
+  "source_path": "modulos/T34/M01_ESPELHO_MUSEUS_LEI11904_ART3_6_11_Q.csv",
+  "source_blob_sha": "cff3c898e56d7db1daacbd6ba959043a72437fdb",
+  "view_path": "produto/vistas/T34_MUSEUS_LEI11904_ART3_6_PREVIA_Q.md",
+  "count_expected": 11,
+  "articles_expected": 4,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2009/lei-11904-14-janeiro-2009-585365-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l11904.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "historical_nonpositive": [
+    {
+      "article": "5",
+      "unit": "P3",
+      "status": "VETADO",
+      "documented": true,
+      "positive_count": 0
+    }
+  ],
+  "gates": [
+    "Art. 3º descreve filiais, seccionais e anexos; não criar autonomia financeira pública ou pessoa jurídica diversa. Art. 1º e demais regras preservados.",
+    "Art. 4º cria dever de estabelecer fomento/incentivo, não rubrica, despesa, isenção ou repasse automático.",
+    "Art. 5º declara interesse público de bens e acervos, mas não significa tombamento, desapropriação, transferência de propriedade nem suprime competência e procedimento específicos.",
+    "**Art. 5º § 3º (VETADO)** é marcador histórico de tramitação, não unidade positiva nem texto reconstruível. Excluir de 11 unidades e preservá-lo só na nota de veto.",
+    "Art. 6º exclui bibliotecas, arquivos, centros de documentação e coleções visitáveis, definidas no PU pela ausência dos requisitos do art. 1º; não alargar incidência por analogia editorial.",
+    "Grafias 'lingüística' e 'art. 1o' foram preservadas como constam da fonte Câmara atualizada; alterar apenas após cotejo autêntico e controle de variante.",
+    "Art. 2º PU do Museu remete ao PNC; Lei 12.343/2010 com prazo de 14 anos pela Lei 14.468/2022 terminou 2024, sem revogar automaticamente o Estatuto; PL 5.894/2025 ainda não lei promulgada no corte.",
+    "CF 215,216,216-A, SNC Lei 14.835/2024, proteção de dados, acessibilidade, patrimônio público e competência federativa exigem exame transversal. Fontes HTML Câmara/Planalto não são DOU fac-símile."
+  ]
+}

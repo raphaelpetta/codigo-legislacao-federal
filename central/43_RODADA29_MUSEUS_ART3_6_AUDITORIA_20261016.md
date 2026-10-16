@@ -15,3 +15,11 @@
 - **C0-J=0, M=0, DEC-016 PENDENTE**, nenhuma revogação, renumeração definitiva, positivação ou merge.
 
 **Próximo:** recuperar anotações causais GitHub autenticado, execução de QA nos checkouts, auditoria DOU e dos efeitos prioritários antes de novo avanço horizontal ou vertical.
+
+## QA remoto pós-abertura do PR #79 — evidência real
+
+- Base R28: Git tree com **444 entradas**, R29: **450 entradas** (ambas `truncated=false`). **58/58 vistas e manifestos anteriores preservados com Git blob SHA idêntico**; a nova vista e manifesto T34 encontrados no HEAD. Nenhuma substituição de componente anterior.
+- T34 novo: fonte CSV de 11 unidades, SHA `cff3c898e56d7db1daacbd6ba959043a72437fdb` conferido com manifesto; 4 cabeçalhos `**Art.` e integração integral no `CODIGO_DE_TRABALHO.md`. O primeiro cabeçalho editorial da nota de veto foi corrigido para **Marcador vetado** antes da composição — o §3º do art5 não virou quinto artigo nem unidade positiva. **Corpus: 59 componentes/40 títulos, 305 artigos/1043 positivas +1 histórico T07 =1044 registros**.
+- **Matriz e painel 48/48**: leitura independente de cada linha confirmou quantidade de componentes, artigos, unidades (descontando histórico T07 no campo positivo da matriz) e C0-J=0. **Fila 81/81 IDs distintos; matriz R29 11/11 IDs**; T13 intacto. Roteiro local atualizado para validador T34 ativo em lugar do snapshot R28 com T34 fixo 2/10.
+- **CI em commit de abertura `bc9d79e6650876fdceaa5b38b509ebdcf35e31df`**: cinco runs `completed/failure`, entre eles [diagnóstico 38854429921](https://github.com/raphaelpetta/codigo-legislacao-federal/actions/runs/38854429921). `runner-smoke` **sem checkout**, job `116822606498`, e `corpus-r20` **com checkout**, job `116822606887`, falharam com **zero steps**. Seis check-runs exibem `annotations_count=2`, mas a API de leitura das mensagens não é autorizada ao conector. Não foi possível demonstrar a causa da falha nem executar Python em CI.
+- **Limites:** hashes e controles por árvore comprovam consistência documental, **não** cotejo de fac-símile DOU ou validação de mérito jurídico C0-J. Validador Python R29 foi incluído, não executado de forma comprovada nesta rodada.

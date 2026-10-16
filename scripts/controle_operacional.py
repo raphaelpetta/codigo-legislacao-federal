@@ -25,7 +25,7 @@ FIELDS = [
     "id", "modulo", "recorte", "estado", "prioridade", "responsavel", "branch",
     "pr", "base_sha", "reserva_ate", "dependencias", "criterio_aceite", "ultima_entrega",
 ]
-STATES = {"PRONTA", "RESERVADA", "EM_EXECUCAO", "EM_REVISAO", "BLOQUEADA", "CONCLUIDA"}
+STATES = {"PRONTA", "RESERVADA", "EM_EXECUCAO", "EM_REVISAO", "BLOQUEADA", "BLOQUEADO_CI", "CONCLUIDA"}
 
 
 def require(condition: bool, message: str) -> None:
@@ -91,7 +91,7 @@ def check_queue(allowed: set[str]) -> list[str]:
                     "Reserva excede janela maxima de 24h: " + key)
             if timestamp < now:
                 warnings.append("RESERVA EXPIRADA (liberacao humana): " + key)
-        if state == "BLOQUEADA":
+        if state in {"BLOQUEADA", "BLOQUEADO_CI"}:
             require(bool(entry["ultima_entrega"].strip()),
                     "Bloqueio sem evidencia/diagnostico: " + key)
         if state in {"EM_REVISAO", "CONCLUIDA"}:

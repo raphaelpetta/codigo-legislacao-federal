@@ -95,8 +95,15 @@ def inspect(root: Path, base: Path | None = None) -> dict:
             if not isinstance(m['components'], list) or not m['components']:
                 raise ValueError(f'Composto vazio: {ident}')
             composite += 1
-        elif pinned and (source is None or (sha and re.fullmatch(r'[0-9a-f]{40}', str(sha)))):
-            # Somente proveniência DECLARADA: checkout externo ainda não foi cotejado.
+        elif pinned and (
+            # T25: fonte setorial identificada por caminho e SHA, mas ausente deste checkout.
+            (source is not None and sha and re.fullmatch(r'[0-9a-f]{40}', str(sha))) or
+            # T07: texto e concordância externos, cada qual com caminho e SHA explícitos.
+            (source is None and m.get('texto_relativo') and m.get('concordancia_relativa')
+             and re.fullmatch(r'[0-9a-f]{40}', str(m.get('texto_blob_sha') or ''))
+             and re.fullmatch(r'[0-9a-f]{40}', str(m.get('concordancia_blob_sha') or '')))
+        ):
+            # Proveniência apenas declarada: checkout externo continua PENDENTE.
             external += 1
         else:
             raise ValueError(f'Origem ausente/não identificada: {ident}')

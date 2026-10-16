@@ -1,0 +1,30 @@
+name: CLF - preflight incremental do corpus Q
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout da unidade operacional da main
+        uses: actions/checkout@v4
+      - name: Preparar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Testar estrutura anterior
+        run: python3 scripts/verificar_estrutura.py
+      - name: Testar sete regressões do preflight
+        run: python3 -m unittest discover -s tests -p 'test_preflight_consolidacao.py' -v
+      - name: Fonte experimental R30 fixada por commit
+        uses: actions/checkout@v4
+        with:
+          ref: 37babdb31da5b37b7c905ae51f3b7590b39e85f7
+          path: experimental
+          persist-credentials: false
+      - name: Auditar corpus Q da ponta sem gerar ou editar derivados
+        run: python3 scripts/preflight_consolidacao.py --root experimental

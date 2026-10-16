@@ -80,9 +80,10 @@ def inspect(root: Path, base: Path | None = None) -> dict:
         if expected != b['registros_documentais']:
             raise ValueError(f'Contagem documental divergente: {ident}: {expected}')
         src, sha = m.get('source_path'), m.get('source_blob_sha')
-        if src and sha:
-            source = inside(root, src)
-            if git_blob(source) != sha:
+        source = inside(root, src) if src else None
+        pinned = re.fullmatch(r'[0-9a-f]{40}', str(m.get('setorial_commit') or '')) is not None
+        if source is not None and sha and source.is_file():
+            if not re.fullmatch(r'[0-9a-f]{40}', str(sha)) or git_blob(source) != sha:
                 raise ValueError(f'Blob de origem divergente: {ident}')
             if source.suffix == '.csv':
                 with source.open(encoding='utf-8-sig', newline='') as h:
@@ -94,7 +95,8 @@ def inspect(root: Path, base: Path | None = None) -> dict:
             if not isinstance(m['components'], list) or not m['components']:
                 raise ValueError(f'Composto vazio: {ident}')
             composite += 1
-        elif re.fullmatch(r'[0-9a-f]{40}', str(m.get('setorial_commit') or '')):
+        elif pinned and (source is None or (sha and re.fullmatch(r'[0-9a-f]{40}', str(sha)))):
+            # Somente proveniência DECLARADA: checkout externo ainda não foi cotejado.
             external += 1
         else:
             raise ValueError(f'Origem ausente/não identificada: {ident}')

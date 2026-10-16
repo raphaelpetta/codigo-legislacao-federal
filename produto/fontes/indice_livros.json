@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R23 em 15/10/2026: 54 componentes Q em 36/48 títulos, 292 artigos de origem /979 unidades positivas +1 histórico T07 (980 registros). T15 CC104–107 4/7, T32 ECA1–3 3/5, T16 CC927–930 4/7, T16 agora 7/13. 12 títulos sem texto; ADI1127 decisão STF efeito auditado, não C0-J. CI P0 falhando antes de steps, logs inacessíveis. T13 reservado intacto; C0-J=0, M=0, DEC-016 pendente, sem merge/revogação.",
+  "observacao": "R24 15/10/2026: 55 componentes Q em 37/48 títulos, 294 artigos de origem, 985 unidades positivas e 1 histórica T07 (986 registros). T23 LINDB arts8-9 2/6; 11 títulos vazios, auditoria 12 portas. CI P0 sem steps e annotations inacessíveis; T13 reservado. C0-J=0, M=0, DEC016 pendente, sem merge ou revogação.",
   "livros": [
     {
       "titulo": "T01",
@@ -300,6 +300,17 @@
       "origem_commit": "d804b7013240f174d5c77b7c275e637dd8dcb472",
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei9610/1998 direitos autorais arts1-4, tratados reciprocidade e bens moveis interpretacao restritiva, interface T23/IP software sem absorver outros regimes, Q."
+    },
+    {
+      "titulo": "T23",
+      "modulo": "T23.M01",
+      "id": "CLF-LIV-T23-DIP-R24",
+      "vista": "produto/vistas/T23_LINDB_DIREITO_INTERNACIONAL_PRIVADO_ART8_9_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T23_M01_LINDB_DIP_6_R24_v1.json",
+      "artigos": 2,
+      "registros_documentais": 6,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "R24 LINDB arts8-9 DIP 2/6 Q. Grafias moveis, constituida, constituírem/constituirem sob gate DOU; tratados, CPC e ordem pública preservados; C0-J=0."
     },
     {
       "id": "CLF-LIV-T24-M01-CPC70-102-181-v1",

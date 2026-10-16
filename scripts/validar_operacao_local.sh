@@ -23,6 +23,7 @@ python3 scripts/validar_r20_horizontal.py
 python3 scripts/validar_r21_horizontal.py
 python3 scripts/validar_r22_fonte_e_codigo.py
 python3 scripts/validar_r23_corpus_auditoria.py
+python3 scripts/validar_r24_t23_e_auditoria.py
 python3 scripts/gerar_codigo_integrado.py --check
 if [[ $# -lt 1 ]]; then
   echo "PARCIAL: T07 NAO CONFERIDO. Informe caminho do checkout setorial no SHA do manifesto:" >&2

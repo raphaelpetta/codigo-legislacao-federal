@@ -1,0 +1,24 @@
+name: Validar auditoria T07 arts 51-55 (LINDB e autotutela)
+
+on:
+  pull_request:
+    paths:
+      - "integracao/25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.csv"
+      - "integracao/26_T07_LIVRO_COMPLETO_1_69A_F5Q_V4.md"
+      - "integracao/35_T07_AUDITORIA_ART51_55_LINDB_20261015.md"
+      - "integracao/36_T07_MATRIZ_GATE_9_UNIDADES_AUTOTUTELA_20261015.csv"
+      - "integracao/37_T07_TESTES_AUTOTUTELA_22_20261015.csv"
+      - "integracao/38_T07_ALTERNATIVAS_AUTOTUTELA_LINDB_20261015.md"
+      - "integracao/39_T07_CONTINUIDADE_20261015_RODADA08.md"
+      - "scripts/validar_t07_f6_autotutela.py"
+      - ".github/workflows/validar-t07-f6-autotutela.yml"
+  workflow_dispatch:
+
+jobs:
+  conferir-estrutura:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verificar rastreabilidade, sem certificar merito juridico
+        run: python3 scripts/validar_t07_f6_autotutela.py

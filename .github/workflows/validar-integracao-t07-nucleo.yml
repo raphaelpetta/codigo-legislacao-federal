@@ -1,0 +1,20 @@
+name: Validar integracao T07 nucleo
+
+on:
+  pull_request:
+    paths:
+      - "integracao/**"
+      - "scripts/validar_integracao_t07_nucleo.py"
+      - "modulos/T07/M03/CONCORDANCIA_INTEGRAL_ART1_ART2_13.csv"
+      - "modulos/T07/M03/CONCORDANCIA_LITERAL_ART3_17_15.csv"
+  push:
+    branches:
+      - "integracao/diagnostico-central-piloto-t07-20261014"
+
+jobs:
+  controle-documental:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar matriz e minutas
+        run: python3 scripts/validar_integracao_t07_nucleo.py

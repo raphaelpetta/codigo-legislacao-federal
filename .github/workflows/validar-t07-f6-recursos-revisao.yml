@@ -1,0 +1,24 @@
+name: Validar auditoria T07 recursos e revisao
+
+on:
+  pull_request:
+    paths:
+      - "integracao/25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.csv"
+      - "integracao/26_T07_LIVRO_COMPLETO_1_69A_F5Q_V4.md"
+      - "integracao/40_T07_MATRIZ_30_UNIDADES_RECURSOS_REVISAO_20261015.csv"
+      - "integracao/41_T07_TESTES_RECURSOS_REVISAO_32_20261015.csv"
+      - "integracao/42_T07_PARECER_RECURSOS_REVISAO_20261015.md"
+      - "integracao/43_T07_ALTERNATIVAS_RECURSO_E_REVISAO_20261015.md"
+      - "integracao/44_T07_CONTINUIDADE_20261015_RODADA09.md"
+      - "scripts/validar_t07_f6_recursos_revisao.py"
+      - ".github/workflows/validar-t07-f6-recursos-revisao.yml"
+  workflow_dispatch:
+
+jobs:
+  conferir-proveniencia:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Testar rastreabilidade e ausencia de homologacao (nao certifica direito)
+        run: python3 scripts/validar_t07_f6_recursos_revisao.py

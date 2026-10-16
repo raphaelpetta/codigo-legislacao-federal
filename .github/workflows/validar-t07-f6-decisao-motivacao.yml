@@ -1,0 +1,23 @@
+name: Validar auditoria juridico-documental T07 decisao e motivacao
+
+on:
+  pull_request:
+    paths:
+      - "integracao/25_T07_CONCORDANCIA_TOTAL_215_F5Q_V4.csv"
+      - "integracao/29_T07_AUDITORIA_JURIDICA_DECISAO_MOTIVACAO_20261015.md"
+      - "integracao/30_T07_MATRIZ_GATE_40_UNIDADES_20261015.csv"
+      - "integracao/31_T07_VETOS_9_ITENS_CONGRESSO_20261015.csv"
+      - "integracao/32_T07_ALTERNATIVAS_CONVOCACAO_ATA_20261015.md"
+      - "integracao/33_T07_TESTES_ADVERSARIAIS_18_20261015.csv"
+      - "scripts/validar_t07_f6_decisao_motivacao.py"
+      - ".github/workflows/validar-t07-f6-decisao-motivacao.yml"
+  workflow_dispatch:
+
+jobs:
+  verificar-correspondencias:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Conferir matrizes, vetos e testes, sem certificar equivalencia juridica
+        run: python3 scripts/validar_t07_f6_decisao_motivacao.py

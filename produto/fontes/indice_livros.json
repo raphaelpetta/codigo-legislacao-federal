@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R29 16/10/2026: 59 componentes Q em 40/48 títulos, 305 artigos e 1043 unidades positivas +1 histórico T07 (1044 registros). T34 seis artigos e 21 positivas em duas vistas; marcador VETADO art5§3 mantido apenas nota não positiva. T13 reservado. C0-J0, M0, DEC016 pendente, CI #66 falha pré-steps, sem merge/revogação.",
+  "observacao": "R30 16/10/2026: 60 componentes documentais Q em 41/48 títulos, 308 artigos/1051 unidades positivas +1 histórica T07 (1052 registros); T18 sociedades anônimas arts1–3 com 3 artigos/8 unidades, Câmara atualização + publicação original, restrições de regime e de companhia aberta preservadas. Sete títulos vazios incluindo T13 reservado. C0-J=0, M=0, DEC-016 pendente, CI P0 issue66 sem steps, nenhuma revogação ou merge.",
   "livros": [
     {
       "titulo": "T01",
@@ -243,6 +243,17 @@
       "registros_documentais": 7,
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "R23 CC arts. 927–930 — reparação; 4/7 positivos Q, Art188 excludente não elimina art929 reparação; art927 PU responsabilidade objetiva e art930 regresso"
+    },
+    {
+      "titulo": "T18",
+      "modulo": "T18.M01",
+      "id": "CLF-LIV-T18-SA-R30",
+      "vista": "produto/vistas/T18_SA_LEI6404_ART1_3_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T18_M01_SA_8_R30_v1.json",
+      "artigos": 3,
+      "registros_documentais": 8,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "R30 Lei 6.404/1976 arts1-3 3 artigos/8 positivas Q, Câmara atualizada+publicação original. Responsabilidade acionária, objeto mercantil, denominação e regimes especiais controlados; C0-J0, DOU fac-símile pendente."
     },
     {
       "titulo": "T19",

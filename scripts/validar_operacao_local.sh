@@ -3,8 +3,8 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-# Modo corpus atual R29: os validadores R10-R23 possuem asserts de snapshot
-# (48/51/54 vistas etc.) e nao podem rodar contra a fotografia de 59 vistas.
+# Modo corpus atual R30: os validadores R10-R23 possuem asserts de snapshot
+# (48/51/54 vistas etc.) e nao podem rodar contra a fotografia de 60 vistas.
 # Historicos continuam disponiveis na branch/commit de cada rodada.
 if [[ -f produto/fontes/T23_M01_LINDB_DIP_6_R24_v1.json ]]; then
   python3 scripts/verificar_estrutura.py
@@ -14,27 +14,28 @@ if [[ -f produto/fontes/T23_M01_LINDB_DIP_6_R24_v1.json ]]; then
   python3 scripts/validar_gates_ativos.py
   python3 scripts/validar_temporalidade_urbana_ativa.py
   python3 scripts/validar_museus_ativos.py
+  python3 scripts/validar_t18_sociedades_ativo.py
   python3 scripts/gerar_codigo_integrado.py --check
   if [[ $# -lt 1 ]]; then
-    echo "PARCIAL R29: T07/T24/T25 externos nao cotejados; indique os tres checkouts nos SHAs dos manifestos." >&2
+    echo "PARCIAL R30: T07/T24/T25 externos nao cotejados; indique os tres checkouts nos SHAs dos manifestos." >&2
     exit 2
   fi
   python3 scripts/gerar_produto_experimental.py --setorial-root "$1" --check
   if [[ -f produto/fontes/T24_M01_106_v1.json ]]; then
     if [[ $# -lt 2 ]]; then
-      echo "PARCIAL R29: T24 setorial ausente; informe segundo checkout." >&2
+      echo "PARCIAL R30: T24 setorial ausente; informe segundo checkout." >&2
       exit 2
     fi
     python3 scripts/gerar_previa_t24.py --setorial-root "$2" --check
   fi
   if [[ -f produto/fontes/T25_CP1_12_v1.json ]]; then
     if [[ $# -lt 3 ]]; then
-      echo "PARCIAL R29: T25 setorial ausente; informe terceiro checkout." >&2
+      echo "PARCIAL R30: T25 setorial ausente; informe terceiro checkout." >&2
       exit 2
     fi
     python3 scripts/gerar_previa_t25.py --setorial-root "$3" --check
   fi
-  echo "OK QA DOCUMENTAL R29 no snapshot atual (sem DOU, C0-J ou execucao CI)." 
+  echo "OK QA DOCUMENTAL R30 no snapshot atual (sem DOU, C0-J ou execucao CI)." 
   exit 0
 fi
 

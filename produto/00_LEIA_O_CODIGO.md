@@ -3,6 +3,14 @@
 **Corte:** 16/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
 
+## Rodada 29 — Museus arts. 3º–6º e veto (16/10/2026)
+
+**Estado atual:** **59 componentes Q em 40/48 títulos; 305 artigos de origem; 1.043 unidades positivas +1 histórico T07 =1.044 registros.** R29 aprofunda T34 com +4 artigos/+11 positivas sem abrir outro título. O T34 soma 6 artigos/21 unidades em duas vistas; **art. 5º §3 (VETADO) é nota histórica não positiva**, nunca restaurada nem computada no histórico contábil T07. Oito títulos continuam sem texto, T13 reservado. **C0-J=0, M=0, DEC-016 pendente, CI #66 falha pré-steps**, sem revogação ou merge.
+
+- [T34 Museus arts. 3º–6º, 4 artigos/11 unidades Q](vistas/T34_MUSEUS_LEI11904_ART3_6_PREVIA_Q.md), [espelho](../modulos/T34/M01_ESPELHO_MUSEUS_LEI11904_ART3_6_11_Q.csv), [manifesto](fontes/T34_M01_MUSEUS_11_R29_v1.json).
+- [R29 onze gates de efeitos](../central/42_R29_AUDITORIA_MUSEUS_VETO_E_TRANSICOES_20261016.csv): veto, fomento, interesse público (distinto de desapropriação), art6 exclusões, PNC expirado/plano futuro, estatuto urbano XXI eficaz/XXII–XXIII 2027 e CI. [Relatório R29](../central/43_RODADA29_MUSEUS_ART3_6_AUDITORIA_20261016.md).
+- QA local agora executa `validar_museus_ativos.py` (R28 + R29) no lugar de `validar_r28_cultura_eficacia.py` de fotografia T34 2/10; script genérico de corpus e gates ativos mantidos. **Script criado ≠ execução Python/CI comprovada.**
+
 ## Rodada 28 — museus, planejamento cultural e portas temporais (16/10/2026)
 
 **Estado atual:** **58 componentes Q em 40/48 títulos, 301 artigos de origem, 1.032 unidades positivas +1 histórico T07** (1.033 registros), 8 títulos sem texto; T13 reservado. Incremento **+2 artigos/+10 unidades/+1 título**. A prioridade da rodada foi unir expansão seletiva com a separação entre **norma vigente, plano cuja duração terminou, projeto ainda não promulgado e vigência legislativa diferida**. Tudo Q, C0-J=0, M=0, DEC-016 pendente, CI P0 #66 não aprovado, nenhuma revogação ou merge.

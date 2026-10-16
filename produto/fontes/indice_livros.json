@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R28 16/10/2026: 58 componentes Q em 40/48 títulos, 301 artigos de origem, 1032 unidades positivas +1 histórica T07 (1033 registros); T34 Estatuto Museus arts1–2 2/10. 8 títulos sem texto (T13 reservado). PNC 2010–2024 prazo encerrado, novo PL5894/2025 não promulgado; vigência T36 XXI desde abril/2026 e XXII/XXIII lei 15432 apenas a partir de junho/2027; gates temporais Q sem DOU completo. CI #66 pré-steps falhando, C0-J=0, M=0, DEC-016 pendente, sem revogação ou merge.",
+  "observacao": "R29 16/10/2026: 59 componentes Q em 40/48 títulos, 305 artigos e 1043 unidades positivas +1 histórico T07 (1044 registros). T34 seis artigos e 21 positivas em duas vistas; marcador VETADO art5§3 mantido apenas nota não positiva. T13 reservado. C0-J0, M0, DEC016 pendente, CI #66 falha pré-steps, sem merge/revogação.",
   "livros": [
     {
       "titulo": "T01",
@@ -486,6 +486,17 @@
       "registros_documentais": 10,
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "R28: Lei 11.904/2009 arts1-2 Estatuto de Museus 2/10 Q; art2 PU remete PNC cujo plano 2010-2024 teve prazo encerrado; novo PL5894/2025 não é lei; DOU/CI/C0-J pendentes."
+    },
+    {
+      "titulo": "T34",
+      "modulo": "T34.M01",
+      "id": "CLF-LIV-T34-MUSEUS-ART3_6-R29",
+      "vista": "produto/vistas/T34_MUSEUS_LEI11904_ART3_6_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T34_M01_MUSEUS_11_R29_v1.json",
+      "artigos": 4,
+      "registros_documentais": 11,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "R29 Lei 11.904 arts3–6 4 artigos/11 positivas Q; fomento, declaração interesse público, art6 exclusão, art5§3 VETADO nota histórica fora positivas. DOU e C0-J pendentes."
     },
     {
       "titulo": "T35",

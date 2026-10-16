@@ -62,6 +62,7 @@ for book in books:
     assert book["artigos"] == expected_articles, (
         f"artigos indice/manifesto divergentes: {book['id']} "
         f"({book['artigos']} != {expected_articles})"
+    )
     legal = m.get("legal_status", m.get("status_juridico", m.get("estado_juridico")))
     assert legal in (None, "Q_SEM_C0_J"), (book["id"], legal)
     assert m.get("dec016") == "PENDENTE", book["id"]

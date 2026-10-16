@@ -3,6 +3,15 @@
 **Corte:** 15/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
 
+## Rodada 25 — auditoria R3 seletiva sem expansão artificial (15/10/2026)
+
+**Corpus inalterado da R24:** 55 componentes Q em 37/48 títulos, 294 artigos de origem, 985 unidades positivas +1 histórico T07, 11 títulos não iniciados. Nesta rodada **nenhum artigo foi acrescido**: quatro hashes de fonte setorial foram confrontados nos commits PR45/PR38/PR32, e 23 portas de efeito jurídico foram discriminadas para T07/T24/T25.
+
+- [R25 — Matriz jurídica de 23 portas T07/T24/T25](../central/35_R25_MATRIZ_R3_23_CONTROLES_20261015.csv), [nota de auditoria e contraprova dos SHAs](../central/36_R25_AUDITORIA_R3_T07_T24_T25_20261015.md). Onze alterações C1 potenciais T07 continuam Q; seis controles de CPC e seis de CP preservam especialidades.
+- [Validador R25](../scripts/validar_r25_auditoria_r3.py): verifica consistência documental dos 23 gates, 11 C1, manifestações fixadas e vistas, sem conferir DOU ou certificar C0-J. CI Actions permanece P0 (issue #66).
+
+**C0-J=0, M=0, DEC-016 pendente**, sem merge, revogação ou promulgação. As métricas das rodadas anteriores abaixo permanecem históricas.
+
 ## Rodada 24 — direito internacional privado e auditoria multissetorial (15/10/2026)
 
 **Atualizado:** 55 componentes documentais Q em 37/48 títulos; **294 artigos de origem, 985 unidades positivas +1 histórico T07 (986 registros)**. Restam 11 títulos vazios. **C0-J=0, M=0, DEC-016 pendente**, CI P0 bloqueado, nenhuma revogação/renumeração/merge. Totais R21–R23 adiante são históricos, não totais desta branch.

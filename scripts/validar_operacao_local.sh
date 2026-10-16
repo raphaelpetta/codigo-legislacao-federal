@@ -11,8 +11,7 @@ if [[ -f produto/fontes/T23_M01_LINDB_DIP_6_R24_v1.json ]]; then
   python3 scripts/controle_operacional.py --check
   python3 -m unittest discover -s tests -p 'test_controle_operacional.py' -v
   python3 scripts/validar_corpus_ativo.py
-  python3 scripts/validar_r24_t23_e_auditoria.py
-  python3 scripts/validar_r25_auditoria_r3.py
+  python3 scripts/validar_gates_ativos.py
   python3 scripts/gerar_codigo_integrado.py --check
   if [[ $# -lt 1 ]]; then
     echo "PARCIAL R24: T07/T24/T25 externos nao cotejados; indique os tres checkouts nos SHAs dos manifestos." >&2

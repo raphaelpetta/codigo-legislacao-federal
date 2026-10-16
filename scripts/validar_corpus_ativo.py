@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""CLF — validador de manifestos ativos, adaptativo ao índice de Livros.
+"""CLF: integridade documental do snapshot ATIVO, sem homologacao juridica.
 
-Valida integridade documental dos livros do snapshot corrente, sem homologar
-DOU, vigência, equivalência jurídica C0-J, decisões judiciais ou CI.
-Referências a origens setoriais externas exigem checkouts próprios.
+Fontes setoriais externas T07/T25 e o bloco composto T24 sao portas
+explicitas; nenhum manifesto sem origem pode ser aceito silenciosamente.
+Nenhum resultado deste teste autentica DOU, competencia, efeito ou C0-J.
 """
 from __future__ import annotations
 
@@ -12,60 +12,121 @@ import hashlib
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-index = json.loads((ROOT / "produto/fontes/indice_livros.json").read_text(encoding="utf-8"))
-books = index["livros"]
-assert books, "sem livros"
-assert len({book["id"] for book in books}) == len(books), "id duplicado"
+R = Path(__file__).resolve().parents[1]
+books = json.loads((R / "produto/fontes/indice_livros.json").read_text(encoding="utf-8"))["livros"]
+assert books and len({b["id"] for b in books}) == len(books)
+assert all(b["estado"].startswith("INTEGRADO_EXPERIMENTAL") for b in books)
 
-n_manifestos = 0
-n_fontes = 0
-pendencias: list[str] = []
+def safe(path: str) -> Path:
+    p = Path(path)
+    assert not p.is_absolute() and ".." not in p.parts and str(p) not in ("", "."), path
+    return R / p
+
+def blob_sha(p: Path) -> str:
+    raw = p.read_bytes()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
+
+def check_blob(path: str, digest: str) -> None:
+    p = safe(path)
+    assert p.is_file(), f"arquivo local ausente: {path}"
+    assert blob_sha(p) == digest, f"hash divergente: {path}"
+
+def check_csv_count(path: str, expected: int) -> None:
+    with safe(path).open(encoding="utf-8", newline="") as f:
+        rows = list(csv.DictReader(f, strict=True))
+    assert len(rows) == expected, f"contagem divergente: {path} ({len(rows)} != {expected})"
+
+n_local = 0
+n_external = 0
+n_composite = 0
+n_composite_objects = 0
 for book in books:
-    view = ROOT / book["vista"]
-    manifest_path = ROOT / book["manifesto"]
-    assert view.is_file() and manifest_path.is_file(), book["id"]
+    m = json.loads(safe(book["manifesto"]).read_text(encoding="utf-8"))
+    view = safe(book["vista"])
+    assert view.is_file(), book["id"]
     text = view.read_text(encoding="utf-8")
-    assert sum(line.startswith("**Art. ") for line in text.splitlines()) == book["artigos"], book["id"]
-    m = json.loads(manifest_path.read_text(encoding="utf-8"))
-    n_manifestos += 1
-    if m.get("material_approved") is True or m.get("dec016") not in (None, "PENDENTE"):
-        raise AssertionError("promocao indevida: " + book["id"])
-    rel = m.get("source_path")
-    sha = m.get("source_blob_sha")
-    if rel and sha:
-        source = Path(rel)
-        if source.is_absolute() or ".." in source.parts:
-            raise AssertionError("caminho externo nao declarado: " + book["id"])
-        if (ROOT / source).is_file():
-            raw = (ROOT / source).read_bytes()
-            actual = hashlib.sha1(
-                b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw
-            ).hexdigest()
-            assert actual == sha, "hash divergente " + book["id"]
-            if source.suffix.lower() == ".csv" and isinstance(m.get("count_expected"), int):
-                with (ROOT / source).open(encoding="utf-8", newline="") as f:
-                    records = list(csv.DictReader(f))
-                assert len(records) == m["count_expected"], "linhas divergentes " + book["id"]
-            n_fontes += 1
-        else:
-            pendencias.append(book["id"] + ": fonte nao presente neste checkout")
+    assert sum(t.startswith("**Art. ") for t in text.splitlines()) == book["artigos"], book["id"]
+    # O indice alimenta o Codigo; o manifesto ancora o denominador da fonte.
+    # Sem cotejo, um indice adulterado pode passar com CSV e SHA inalterados.
+    path_in_manifest = m.get("view_path", m.get("vista_relativa"))
+    assert path_in_manifest == book["vista"], f"vista divergente: {book['id']}"
+    counts = m.get("contagens_esperadas") or {}  # T07: esquema setorial legado.
+    expected_records = m.get("count_expected", counts.get("fontes"))
+    expected_articles = m.get("articles_expected", counts.get("artigos"))
+    assert type(expected_records) is int and expected_records >= 0, book["id"]
+    assert type(expected_articles) is int and expected_articles >= 0, book["id"]
+    assert book["registros_documentais"] == expected_records, (
+        f"denominador indice/manifesto divergente: {book['id']} "
+        f"({book['registros_documentais']} != {expected_records})"
+    )
+    assert book["artigos"] == expected_articles, (
+        f"artigos indice/manifesto divergentes: {book['id']} "
+        f"({book['artigos']} != {expected_articles})"
+    )
+    legal = m.get("legal_status", m.get("status_juridico", m.get("estado_juridico")))
+    assert legal in (None, "Q_SEM_C0_J"), (book["id"], legal)
+    assert m.get("dec016") == "PENDENTE", book["id"]
+    assert m.get("material_approved", False) is not True
+    assert m.get("aprovacao_material", "NAO") != "SIM"
+    if book["titulo"] == "T07" and m.get("texto_blob_sha"):
+        assert m["setorial_commit"] == "2a4d1eefa864f44435aec70ed0cc55a96b718b64"
+        assert m["texto_blob_sha"] == "0eea9c97a110d278d6eb4efd37f4a8bbfd61ecb0"
+        assert m["concordancia_blob_sha"] == "c9cbf7d202ea9d01b9ffd48256bf3efeba6f226c"
+        assert m["contagens_esperadas"]["fontes"] == 215
+        assert m["contagens_esperadas"]["historicas"] == 1
+        n_external += 1
+    elif book["manifesto"] == "produto/fontes/T25_CP1_12_v1.json":
+        assert m["setorial_commit"] == "3f0b56273caebfdbaba87ec4e87988da9f12c6c9"
+        assert m["source_blob_sha"] == "40b5c03d72f975aad1339c605399f7f66ec056d0"
+        assert m["count_expected"] == 39
+        assert m["articles_expected"] == 12
+        n_external += 1
+    elif book["titulo"] == "T24" and m.get("components"):
+        components = m["components"]
+        assert len(components) == 2
+        assert {c["name"] for c in components} == {"PR38_106", "CLF_75"}
+        assert sum(c["count"] for c in components) == m["count_expected"] == book["registros_documentais"]
+        assert sum(c["articles"] for c in components) == m["articles_expected"] == book["artigos"]
+        assert m["setorial_commit"] == "3fdbfa10b8d288b1cef56c78b47cf3cb1eb28745"
+        sub = json.loads(safe("produto/fontes/T24_M01_106_v1.json").read_text(encoding="utf-8"))
+        assert sub["source_blob_sha"] == "a0562c236cda3a49b842417bb27417e84484f363"
+        assert sub["setorial_commit"] == m["setorial_commit"] and sub["count_expected"] == 106
+        for c in components:
+            for loc, h in [("path", "git_blob"),
+                           ("concordance_path", "concordance_git_blob"),
+                           ("view_part_path", "view_part_git_blob")]:
+                if c.get(loc):
+                    check_blob(c[loc], c[h])
+                    n_composite_objects += 1
+            if c["name"] == "CLF_75":
+                check_csv_count(c["path"], 75)
+                check_csv_count(c["concordance_path"], 75)
+            elif c["name"] == "PR38_106":
+                check_csv_count(c["concordance_path"], 106)
+        n_composite += 1
     else:
-        pendencias.append(book["id"] + ": origem externa/manifesto sem blob local")
+        path = m.get("source_path")
+        sha = m.get("source_blob_sha")
+        assert path and sha, f"fonte sem SHA/caminho: {book['id']}"
+        check_blob(path, sha)
+        if str(path).endswith(".csv") and isinstance(m.get("count_expected"), int):
+            check_csv_count(path, m["count_expected"])
+        n_local += 1
 
-code = (ROOT / "produto/CODIGO_DE_TRABALHO.md").read_text(encoding="utf-8")
 first = books[0]
+code = (R / "produto/CODIGO_DE_TRABALHO.md").read_text(encoding="utf-8")
 anchor = f"## {first['titulo']} — {first['modulo']} [{first['id']}; {first['estado']}]"
-assert anchor in code
 prefix = code[:code.index(anchor)]
-reconstructed = prefix + "".join(
+expected = prefix + "".join(
     f"## {b['titulo']} — {b['modulo']} [{b['id']}; {b['estado']}]\n\n"
-    + (ROOT / b["vista"]).read_text(encoding="utf-8").rstrip() + "\n\n"
+    + safe(b["vista"]).read_text(encoding="utf-8").rstrip() + "\n\n"
     for b in books
 )
-assert reconstructed.rstrip() + "\n" == code, "drift nas vistas"
-assert sum(line.startswith("**Art. ") for line in code.splitlines()) == sum(b["artigos"] for b in books)
-print(f"SNAPSHOT: {n_manifestos} manifestos, {n_fontes} fontes locais com hash, {len(pendencias)} dependencias externas")
-for note in pendencias:
-    print("PENDENTE ORIGEM EXTERNA:", note)
-print("QA documental; NAO comprova autenticidade DOU, C0-J, CI ou conclusao dos checkouts externos.")
+assert expected.rstrip() + "\n" == code
+assert sum(t.startswith("**Art. ") for t in code.splitlines()) == sum(b["artigos"] for b in books)
+assert n_local + n_external + n_composite == len(books)
+print(f"R26 QA SNAPSHOT: {len(books)} manifestos; {n_local} fontes locais, "
+      f"{n_external} origens setoriais externas, {n_composite} composto "
+      f"com {n_composite_objects} objetos Git locais cotejados.")
+print("FONTES EXTERNAS ainda requerem checkouts imutaveis T07/T24/T25.")
+print("QA DOCUMENTAL != DOU, CI verde, equivalencia juridica C0-J ou DEC016.")

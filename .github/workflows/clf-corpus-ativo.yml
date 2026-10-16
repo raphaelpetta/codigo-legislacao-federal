@@ -1,0 +1,36 @@
+name: CLF - QA do corpus ativo
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/validar_corpus_ativo.py'
+      - 'scripts/validar_gates_ativos.py'
+      - 'scripts/gerar_codigo_integrado.py'
+      - 'produto/**'
+      - 'tests/test_validar_corpus_ativo.py'
+      - '.github/workflows/clf-corpus-ativo.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  corpus-ativo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout integral do PR
+        uses: actions/checkout@v4
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compilar scripts e testes
+        run: python3 -m py_compile scripts/validar_corpus_ativo.py scripts/validar_gates_ativos.py scripts/gerar_codigo_integrado.py tests/test_validar_corpus_ativo.py
+      - name: Testar regressao indice vs manifesto
+        run: python3 -m unittest discover -s tests -p 'test_validar_corpus_ativo.py' -v
+      - name: Conferir integridade documental do corpus ativo
+        run: python3 -u scripts/validar_corpus_ativo.py
+      - name: Conferir portas juridicas sem homologacao
+        run: python3 -u scripts/validar_gates_ativos.py
+      - name: Conferir corpus derivado
+        run: python3 scripts/gerar_codigo_integrado.py --check

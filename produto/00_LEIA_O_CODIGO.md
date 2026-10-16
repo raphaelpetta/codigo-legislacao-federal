@@ -3,6 +3,16 @@
 **Corte:** 15/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
 
+## Rodada 26 — reconciliação dos 55 manifestos e QA transversal (15/10/2026)
+
+**Mesmo corpus Q da R25:** 55 componentes, 37/48 títulos, 294 artigos de origem / 985 positivas +1 histórica T07 (986 registros), 11 títulos ainda vazios. O ganho marginal desta rodada foi **proveniência do corpus inteiro**, não um novo título. [Relatório completo](../central/37_R26_AUDITORIA_GIT_55_MANIFESTOS_E_QA_20261015.md).
+
+- **Auditoria Git 55/55:** 52 origens locais com SHA exato na árvore, 2 origens setoriais externas T07/T25 no commit fixado, 1 manifesto composto T24 (106 setorial +75 locais; 5 objetos locais conferidos). A ausência setorial permanece um gate de checkout imutável; não é falha de SHA nem homologação.
+- **Correção operacional de QA:** `scripts/validar_corpus_ativo.py` agora **rejeita origem local ausente, SHA incorreto ou manifesto não reconhecido** e examina T24 composto. `scripts/validar_gates_ativos.py` preserva os 12 gates R24 e 23 R25 sem impor contagens fechadas de vistas antigas ao snapshot que evolui. O roteiro chama ambos. **Sem execução Python/CI certificada.**
+- CI P0 [#66](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/66) permanece sem steps e com logs `404 BlobNotFound`; corrigir apenas pela mensagem causal verificada.
+
+**C0-J=0, M=0, DEC-016 pendente; sem alteração da main, revogação ou renumeração definitiva.**
+
 ## Rodada 25 — auditoria R3 seletiva sem expansão artificial (15/10/2026)
 
 **Corpus inalterado da R24:** 55 componentes Q em 37/48 títulos, 294 artigos de origem, 985 unidades positivas +1 histórico T07, 11 títulos não iniciados. Nesta rodada **nenhum artigo foi acrescido**: quatro hashes de fonte setorial foram confrontados nos commits PR45/PR38/PR32, e 23 portas de efeito jurídico foram discriminadas para T07/T24/T25.

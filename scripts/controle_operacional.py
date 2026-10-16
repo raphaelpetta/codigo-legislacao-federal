@@ -143,12 +143,13 @@ def make_panel() -> tuple[str, set[str]]:
         if origem:
             require(re.fullmatch(r"[a-f0-9]{40}", origem) is not None,
                     "Commit setorial invalido: " + ident)
-            require(meta.get("setorial_commit") == origem,
+        if meta.get("setorial_commit"):
+            require(meta["setorial_commit"] == origem,
                     "Manifesto de origem divergente: " + ident)
         else:
-            # Fontes integradas posteriormente podem fixar a proveniencia pelo
-            # blob Git do espelho, em vez de um commit setorial. Isso NAO
-            # equivale a dispensar a prova de integridade.
+            # Sem commit setorial NO MANIFESTO, a prova técnica disponível
+            # é a identidade do blob do espelho. O commit do índice segue
+            # não homologado contra manifesto e não substitui essa verificação.
             relative_source = Path(meta.get("source_path") or "")
             expected_blob = meta.get("source_blob_sha", "")
             require(str(relative_source) not in {"", "."}

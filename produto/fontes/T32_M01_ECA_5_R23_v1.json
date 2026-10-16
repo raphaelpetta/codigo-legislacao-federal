@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T32-ECA-R23",
+  "source_path": "modulos/T32/M01_ESPELHO_ECA_ART1_3_5_Q.csv",
+  "source_blob_sha": "653d21f1548e87dc0b0d1d89d05bc591400d6a99",
+  "view_path": "produto/vistas/T32_ECA_ART1_3_PREVIA_Q.md",
+  "count_expected": 5,
+  "articles_expected": 3,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8069-13-julho-1990-372211-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/l8069compilado.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "O art. 2º parágrafo único prevê incidência excepcional do ECA às pessoas entre 18 e 21 anos apenas nos casos expressos em lei, não extensão universal da menoridade ou das medidas socioeducativas.",
+    "O art. 3º parágrafo único foi acrescido pela Lei 13.257/2016; preservar não discriminação e proteção integral, inclusive distinção de regimes processuais, adolescentes e crianças.",
+    "A Lei 15.512/2026 alterou o caput do art. 4º, que NÃO integra este recorte. É vedado atribuir a esse art. 4º texto de 1990 como se ainda fosse atual.",
+    "Fontes Câmara atualizada e Planalto. DOU original ECA 1990, retificações, Lei 13.257/2016 e Lei 15.512/2026 não cotejados em fac-símile. Q e C0-J=0."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T15-CCNJ-R23",
+  "source_path": "modulos/T15/M01_ESPELHO_CC_NEGOCIO_ART104_107_7_Q.csv",
+  "source_blob_sha": "b3368efab3168b199562856506ba81491d7d969f",
+  "view_path": "produto/vistas/T15_CC_NEGOCIO_ART104_107_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 4,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "O art. 104 enuncia pressupostos de validade; não esgota inexistência, nulidade, anulabilidade, simulação ou incapacidade. Analisar CC arts. 1º–5º, 108–184 e leis especiais.",
+    "O art. 104 III usa a expressão legal ‘forma prescrita ou não defesa em lei’; não transformar essa redação em liberdade de forma absoluta, em vista do art. 107 e das exigências específicas do art. 108.",
+    "A incapacidade relativa do art. 105 não é autorização para terceiros negociarem em desrespeito à tutela da pessoa incapaz; preservar ECA/LBI, CC e direitos fundamentais.",
+    "Texto HTML atualizado Câmara e Planalto; DOU original 11/01/2002 e alterações posteriores ainda não conferidos em fac-símile. Q sem C0-J."
+  ]
+}

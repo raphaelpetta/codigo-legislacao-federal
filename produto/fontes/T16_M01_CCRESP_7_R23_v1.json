@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "CLF-LIV-T16-CCRESP-R23",
+  "source_path": "modulos/T16/M01_ESPELHO_CC_REPARACAO_ART927_930_7_Q.csv",
+  "source_blob_sha": "30b81d4bc2f22c15b75d33f1cc2fb38f6abf83b7",
+  "view_path": "produto/vistas/T16_CC_REPARACAO_ART927_930_PREVIA_Q.md",
+  "count_expected": 7,
+  "articles_expected": 4,
+  "source_primary": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+  "source_control": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+  "source_kind": "CAMARA_HTML_ATUALIZADA_E_PLANALTO_SEM_DOU_FACSIMILE",
+  "status": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+  "legal_status": "Q_SEM_C0_J",
+  "dou_facsimile_checked": false,
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "gates": [
+    "O art. 927 caput conecta os ilícitos dos arts. 186–187 ao dever de reparar, enquanto seu parágrafo único prevê hipóteses autônomas de responsabilidade objetiva; não exigir culpa nesses casos.",
+    "O art. 928 determina responsabilidade subsidiária e equitativa do incapaz nas condições legais; não antecipar regra geral de capacidade ou presunção absoluta de reparação.",
+    "O art. 929 garante indenização a inocente diante de dano por remoção de perigo iminente (art. 188, II); o art. 930 disciplina regresso contra terceiro culpado e quem se defendeu na hipótese de legítima defesa. **A excludente de ilicitude não elimina necessariamente o dever de indenizar**.",
+    "Regimes de consumo T20, trabalho, Estado CF 37 §6º, meio ambiente T37, seguros e demais hipóteses especiais são preservados e sujeitos a exame próprio.",
+    "DOU 11/01/2002 e efeitos das ADIs 6.792/7.055 referidas pela Câmara nos arts. 927/186 pendentes; sem C0-J ou interpretação judicial homologada."
+  ]
+}

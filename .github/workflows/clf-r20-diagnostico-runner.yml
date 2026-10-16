@@ -26,3 +26,5 @@ jobs:
         run: python3 --version
       - name: QA documental com traceback visivel
         run: python3 -u scripts/validar_r20_horizontal.py
+      - name: Checar remissao T18 art3 paragrafo2 para art97 da lei originaria
+        run: python3 -u scripts/validar_t18_sociedades_ativo.py

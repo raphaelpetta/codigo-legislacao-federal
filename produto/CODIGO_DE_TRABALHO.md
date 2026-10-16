@@ -278,6 +278,48 @@
 
 **PENDENTE:** exame do fac-símile DOU, retificações, compatibilidade das normas eleitorais, federalismo, especialidade, direitos e precedentes. **C0-J=0; M=0; DEC-016 pendente; PR draft sem merge.**
 
+## T06 — T06.M05 [CLF-LIV-T06-OAB-R22; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T06 — Lei 8.906/1994 — Estatuto da Advocacia, arts. 1º–2º
+
+> **VISTA DOCUMENTAL Q NÃO RATIFICADA.** 2 artigos/11 unidades positivas em espelho 1:1. Sem C0-J, M, revogação, renumeração definitiva ou decisão DEC-016. [Câmara](https://www2.camara.leg.br/legin/fed/lei/1994/lei-8906-4-julho-1994-349751-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l8906.htm); DOU fac-símile não cotejado.
+
+**Fonte:** `modulos/T06/M05_ESPELHO_ADVOCACIA_LEI8906_ART1_2_11_Q.csv`, Git blob SHA `922f452d9a46530100dd3c052c56cbfa8dec4803`.
+
+## Texto da legislação de origem (experimental)
+
+**Art. 1.** São atividades privativas de advocacia:
+
+**I –** a postulação a qualquer órgão do Poder Judiciário e aos juizados especiais;
+
+**II –** as atividades de consultoria, assessoria e direção jurídicas.
+
+**§ 1º** Não se inclui na atividade privativa de advocacia a impetração de habeas corpus em qualquer instância ou tribunal.
+
+**§ 2º** Os atos e contratos constitutivos de pessoas jurídicas, sob pena de nulidade, só podem ser admitidos a registro, nos órgãos competentes, quando visados por advogados.
+
+**§ 3º** É vedada a divulgação de advocacia em conjunto com outra atividade.
+
+**Art. 2.** O advogado é indispensável à administração da justiça.
+
+**§ 1º** No seu ministério privado, o advogado presta serviço público e exerce função social.
+
+**§ 2º** No processo judicial, o advogado contribui, na postulação de decisão favorável ao seu constituinte, ao convencimento do julgador, e seus atos constituem múnus público.
+
+**§ 2º-A** No processo administrativo, o advogado contribui com a postulação de decisão favorável ao seu constituinte, e os seus atos constituem múnus público.
+
+**§ 3º** No exercício da profissão, o advogado é inviolável por seus atos e manifestações, nos limites desta lei.
+
+## Portas jurídicas não normativas
+
+- Art. 1º, I: a expressão “qualquer” consta da publicação institucional, mas foi declarada inconstitucional na ADI 1.127. Esta transcrição Q NÃO homologa a amplitude dessa reserva profissional.
+
+- O art. 2º § 2º-A foi acrescentado pela Lei 14.365/2022; o art. 2º-A não está incluído. Outras exceções de representação devem ser examinadas em legislação própria.
+
+- Lei 15.511/2026 altera outros dispositivos do Estatuto; ADI 7.231 e revisão de art. 7º permanecem fora deste recorte.
+
+- DOU de 05/07/1994, leis alteradoras, decisões e vigência ainda não conferidos em fac-símile. Preservar CF 133 e estatutos especiais.
+
 ## T07 — T07.M03 [CLF-LIV-T07-M03-v4; INTEGRADO_EXPERIMENTAL_Q]
 
 # Prévia integral do Livro do Processo Administrativo Federal (T07.M03)
@@ -986,6 +1028,36 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 
 - Cotejo Câmara/Planalto institucional HTML, mas DOU originário 2011 e efeitos de normas posteriores não autenticados em fac-símile.
 
+## T10 — T10.M01 [CLF-LIV-T10-LAI-R22; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T10 — Lei 12.527/2011 — Lei de Acesso à Informação, arts. 5º–6º
+
+> **VISTA DOCUMENTAL Q NÃO RATIFICADA.** 2 artigos/5 unidades positivas em espelho 1:1. Sem C0-J, M, revogação, renumeração definitiva ou decisão DEC-016. [Câmara](https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm); DOU fac-símile não cotejado.
+
+**Fonte:** `modulos/T10/M01_ESPELHO_LAI_ART5_6_5_Q.csv`, Git blob SHA `37e52936ee1e713a57ac772df937c53b560dde36`.
+
+## Texto da legislação de origem (experimental)
+
+**Art. 5.** É dever do Estado garantir o direito de acesso à informação, que será franqueada, mediante procedimentos objetivos e ágeis, de forma transparente, clara e em linguagem de fácil compreensão.
+
+**Art. 6.** Cabe aos órgãos e entidades do poder público, observadas as normas e procedimentos específicos aplicáveis, assegurar a:
+
+**I –** gestão transparente da informação, propiciando amplo acesso a ela e sua divulgação;
+
+**II –** proteção da informação, garantindo-se sua disponibilidade, autenticidade e integridade; e
+
+**III –** proteção da informação sigilosa e da informação pessoal, observada a sua disponibilidade, autenticidade, integridade e eventual restrição de acesso.
+
+## Portas jurídicas não normativas
+
+- Art. 5º assegura procedimentos ágeis e compreensíveis, mas não determina publicidade irrestrita de dados pessoais ou informações legalmente sigilosas.
+
+- Art. 6º conjuga gestão transparente, integridade e proteção do sigilo; T43 LGPD e LAI arts. 7º, 23–31 condicionam o acesso e seus limites.
+
+- A disponibilidade não implica publicidade universal. O âmbito pessoal dos destinatários decorre dos arts. 1º–2º e de regimes específicos.
+
+- DOU original de 2011 e regulamentações não cotejados em fac-símile; o art. 7º e seguintes não estão no recorte.
+
 ## T11 — T11.M01 [CLF-LIV-T11-LEI4320-ART1_2-R16; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 
 # T11 — Direito financeiro e lei orçamentária — Lei 4.320/1964, arts. 1º–2º
@@ -1151,6 +1223,38 @@ Art.49-C, inciso III e §§3º–4º do art.69-A e demais unidades históricas d
 - Arts. 79–84 pertencem à **Lei 10.406/2002**, não à faixa inicial de pessoas T13 reservada. Esta frente T14 não incorpora artigos 1º–78 nem invade a reserva deliberativa de T13.
 
 - Confrontar CF art. 5º XXII–XXIII e arts. 182/186, Lei de Registros Públicos, leis especiais e alterações de direito privado. Versão da Câmara HTML atualizada; DOU 11/01/2002 e modificativas ainda sem autenticação em fac-símile.
+
+## T16 — T16.M01 [CLF-LIV-T16-CC-R22; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
+
+# T16 — Lei 10.406/2002 — Código Civil, arts. 186–188
+
+> **VISTA DOCUMENTAL Q NÃO RATIFICADA.** 3 artigos/6 unidades positivas em espelho 1:1. Sem C0-J, M, revogação, renumeração definitiva ou decisão DEC-016. [Câmara](https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html) · [Planalto](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm); DOU fac-símile não cotejado.
+
+**Fonte:** `modulos/T16/M01_ESPELHO_CC_ATOS_ILICITOS_ART186_188_6_Q.csv`, Git blob SHA `b3ae019ef92a07d34bf1cc79a04ac15042e49a82`.
+
+## Texto da legislação de origem (experimental)
+
+**Art. 186.** Aquele que, por ação ou omissão voluntária, negligência ou imprudência, violar direito e causar dano a outrem, ainda que exclusivamente moral, comete ato ilícito.
+
+**Art. 187.** Também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes.
+
+**Art. 188.** Não constituem atos ilícitos:
+
+**I –** os praticados em legítima defesa ou no exercício regular de um direito reconhecido;
+
+**II –** a deterioração ou destruição da coisa alheia, ou a lesão a pessoa, a fim de remover perigo iminente.
+
+**Parágrafo único.** No caso do inciso II, o ato será legítimo somente quando as circunstâncias o tornarem absolutamente necessário, não excedendo os limites do indispensável para a remoção do perigo.
+
+## Portas jurídicas não normativas
+
+- Arts. 186–188 descrevem atos ilícitos, abuso de direito e excludentes de ilicitude: não esgotam a responsabilidade civil, nem afastam a responsabilidade objetiva do art. 927 e leis especiais.
+
+- O art. 188, II e parágrafo único exige necessidade e limitação ao indispensável; examinar indenização em arts. 929–930, sem presumir irresponsabilidade civil.
+
+- Preservar relações com CDC T20, responsabilidade estatal CF37 § 6º, tutela ambiental e ADIs 6.792/7.055 indicadas no art. 186 da Câmara.
+
+- DOU de 11/01/2002, alterações e julgados não cotejados em fac-símile. Q sem C0-J.
 
 ## T20 — T20.M01 [CLF-LIV-T20-CDC-8078-ART1-3-6-R14; INTEGRADO_EXPERIMENTAL_PARCIAL_Q]
 

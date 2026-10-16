@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observacao": "R21 15/10/2026: 48 componentes experimentais Q em 32 títulos, 274 artigos de origem, 938 unidades textuais positivas +1 histórico T07 (939 registros). Aberturas T02 Igualdade Racial arts1-2 2/9, T21 SFN Lei4595 arts1-2 2/7, T39 Agricultura Familiar Lei11326 arts1-3 3/17, vertical T10 LAI4 1/10 (total T10 4 artigos/22 unidades). 16 títulos vazios. CI P0 ainda reprovado e runner-smoke sem checkout falhou, logs indisponíveis, C0-J=0 M=0 DEC016 pendente, T13 preservado, merges/revogação=0.",
+  "observacao": "R22, 15/10/2026: 51 vistas Q em 34 títulos; 281 artigos de origem, 960 unidades positivas e 1 histórica T07 (961 registros). T06 2/11; T16 3/6; T10 LAI arts5-6 2/5 (T10 total 6/27); restam 14 títulos sem texto. CI P0 continua bloqueante, runner-smoke sem checkout falhou e logs indisponíveis. T13 reservado intacto, C0-J=0, M=0, DEC-016 pendente, nenhuma revogação/renumeração definitiva/merge.",
   "livros": [
     {
       "titulo": "T01",
@@ -74,6 +74,17 @@
       "proveniencia_adicional": "Suplemento transcrito na branch de rodada07 a partir da Câmara HTML original, com variante art3 e art8 IV, DOU pendente; art15 de efeito temporal histórico. Não é fonte promulgada CLF."
     },
     {
+      "titulo": "T06",
+      "modulo": "T06.M05",
+      "id": "CLF-LIV-T06-OAB-R22",
+      "vista": "produto/vistas/T06_ADVOCACIA_LEI8906_ART1_2_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T06_M05_OAB_11_R22_v1.json",
+      "artigos": 2,
+      "registros_documentais": 11,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "ADI 1.127: expressão qualquer art.1º,I não homologada; art2-A fora, DOU e Lei14365/2022 pendentes"
+    },
+    {
       "id": "CLF-LIV-T07-M03-v4",
       "titulo": "T07",
       "modulo": "T07.M03",
@@ -143,6 +154,17 @@
       "proveniencia_adicional": "LAI art4 definições 1 artigo/10 Q, informação pessoal e sigilosa, LGPD gate; T10 total arts1-4 4/22."
     },
     {
+      "titulo": "T10",
+      "modulo": "T10.M01",
+      "id": "CLF-LIV-T10-LAI-R22",
+      "vista": "produto/vistas/T10_LAI_ART5_6_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T10_M01_LAI_5_R22_v1.json",
+      "artigos": 2,
+      "registros_documentais": 5,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Dever de acesso e gestão/proteção de informação; preservados sigilo e LGPD, DOU pendente"
+    },
+    {
       "titulo": "T11",
       "modulo": "T11.M01",
       "id": "CLF-LIV-T11-LEI4320-ART1_2-R16",
@@ -188,6 +210,17 @@
       "registros_documentais": 13,
       "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
       "proveniencia_adicional": "Lei10406/2002 CC bens79-84 Q 6/13, T13 reservado intocado, propriedade e direitos patrimoniais."
+    },
+    {
+      "titulo": "T16",
+      "modulo": "T16.M01",
+      "id": "CLF-LIV-T16-CC-R22",
+      "vista": "produto/vistas/T16_CC_ATOS_ILICITOS_ART186_188_PREVIA_Q.md",
+      "manifesto": "produto/fontes/T16_M01_CC_6_R22_v1.json",
+      "artigos": 3,
+      "registros_documentais": 6,
+      "estado": "INTEGRADO_EXPERIMENTAL_PARCIAL_Q",
+      "proveniencia_adicional": "Ato ilícito e abuso, excludentes art188; arts929–930 e responsabilidade objetiva preservados; DOU pendente"
     },
     {
       "titulo": "T20",

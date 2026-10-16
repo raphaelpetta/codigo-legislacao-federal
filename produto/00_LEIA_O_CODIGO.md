@@ -3,6 +3,14 @@
 **Corte:** 16/10/2026 · **Estado:** minutas editoriais em PR **draft**, não legislação vigente, nem texto homologado, nem revogações ou atos de promulgação. **DEC-001**: objetivo de corpus único mantido. **DEC-016**: veículo/espécie/iniciativa/veto/transição **pendente**.
 
 
+## Rodada 30 — Direito societário T18 e auditoria intersetorial (16/10/2026)
+
+**Estado atual do corpus:** **60 componentes Q em 41/48 títulos**, **308 artigos de origem, 1.051 unidades positivas +1 histórico T07 (1.052 registros)**. A R30 abre T18 com 3 artigos/8 unidades Q; **sete títulos ainda sem texto, T13 reservado**. C0-J=0, M=0, DEC-016 pendente, sem revogação/renumeração/merge; CI #66 segue bloqueado antes de steps.
+
+- [T18 — Lei das Sociedades por Ações 6.404/1976, arts. 1º–3º, 3 artigos/8 positivas Q](vistas/T18_SA_LEI6404_ART1_3_PREVIA_Q.md), [espelho](../modulos/T18/M01_ESPELHO_LEI6404_ART1_3_8_Q.csv), [manifesto Git SHA](fontes/T18_M01_SA_8_R30_v1.json). Responsabilidade, objeto estatutário, participação societária, denominação e registros sujeitos a especialidade.
+- [R30 — nove gates T18/T34/T36/CI](../central/44_R30_AUDITORIA_T18_T34_T36_CI_20261016.csv) e [relatório](../central/45_RODADA30_T18_E_AUDITORIA_20261016.md): Lei6404 art4 fora do recorte, sociedade economia mista e Lei13303; T34 veto art5§3 não positivo, Estatuto Cidade XXII/XXIII com vigência futura 2027; CI antes de steps.
+- QA documental ativo `scripts/validar_t18_sociedades_ativo.py` acrescentado ao roteiro, com conferência de 8 unidades, SHA Git e 9 controles. Scripts e Git hashes **não são** certificação DOU, execução CI ou homologação C0-J. Os totais das rodadas anteriores abaixo são históricos.
+
 ## Rodada 29 — Museus arts. 3º–6º e veto (16/10/2026)
 
 **Estado atual:** **59 componentes Q em 40/48 títulos; 305 artigos de origem; 1.043 unidades positivas +1 histórico T07 =1.044 registros.** R29 aprofunda T34 com +4 artigos/+11 positivas sem abrir outro título. O T34 soma 6 artigos/21 unidades em duas vistas; **art. 5º §3 (VETADO) é nota histórica não positiva**, nunca restaurada nem computada no histórico contábil T07. Oito títulos continuam sem texto, T13 reservado. **C0-J=0, M=0, DEC-016 pendente, CI #66 falha pré-steps**, sem revogação ou merge.

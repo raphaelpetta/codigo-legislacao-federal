@@ -31,4 +31,10 @@ with (R/"central/42_R29_AUDITORIA_MUSEUS_VETO_E_TRANSICOES_20261016.csv").open(e
 assert len(r29)==11 and len({x["id"] for x in r29})==11
 assert all(x["categoria"].startswith("Q_") or x["categoria"]=="BLOQUEADO_CI_P0" for x in r29)
 print("R29 11 gates de veto, remissões e eficácia classificados Q/CI.")
+with (R/"central/44_R30_AUDITORIA_T18_T34_T36_CI_20261016.csv").open(encoding="utf-8",newline="") as f:
+    r30=list(csv.DictReader(f,strict=True))
+assert len(r30)==9 and len({r["id"] for r in r30})==9
+assert all(r["estado_juridico"].startswith("Q_") or r["estado_juridico"]=="BLOQUEADO_CI_P0" for r in r30)
+print("R30 gates: 9 verificações de especialidade societária e efeitos preservados.")
+
 print("R26 QA GATES: R24 12 + R25 23 sem promocao juridica; T07 11 C1 abertos.")

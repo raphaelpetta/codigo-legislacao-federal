@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import csv
 import io
+import hashlib
 import json
 import re
 import sys
@@ -24,7 +25,7 @@ FIELDS = [
     "id", "modulo", "recorte", "estado", "prioridade", "responsavel", "branch",
     "pr", "base_sha", "reserva_ate", "dependencias", "criterio_aceite", "ultima_entrega",
 ]
-STATES = {"PRONTA", "RESERVADA", "EM_EXECUCAO", "EM_REVISAO", "BLOQUEADA", "CONCLUIDA"}
+STATES = {"PRONTA", "RESERVADA", "EM_EXECUCAO", "EM_REVISAO", "BLOQUEADA", "BLOQUEADO_CI", "CONCLUIDA"}
 
 
 def require(condition: bool, message: str) -> None:
@@ -33,7 +34,7 @@ def require(condition: bool, message: str) -> None:
 
 
 def rows(path: Path) -> list[dict[str, str]]:
-    require(path.is_file(), "Arquivo ausente: " + str(path.relative_to(ROOT)))
+    require(path.is_file(), "Arquivo ausente: " + str(path))
     with path.open(encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle, strict=True)
         names = reader.fieldnames or []
@@ -55,12 +56,12 @@ def check_queue(allowed: set[str]) -> list[str]:
     claimed_scopes: dict[tuple[str, str], str] = {}
     for entry in entries:
         key = entry["id"].strip()
-        require(re.fullmatch(PROJECT + r"-[A-Z0-9]+-\d{3}", key) is not None,
+        require(re.fullmatch(PROJECT + r"(?:-[A-Z0-9]+)+-\d{3}", key) is not None,
                 "ID de tarefa invalido: " + key)
         require(key not in ids, "Tarefa duplicada: " + key)
         ids.add(key)
         module = entry["modulo"].strip()
-        require(module == "OPS" or module in allowed or
+        require(module in {"OPS", "CENTRAL"} or module in allowed or
                 (not CF and re.fullmatch(r"T\d{2}\.M\d{2}", module) is not None
                  and module[:3] in allowed), "Modulo invalido: " + key)
         state = entry["estado"].strip()
@@ -90,7 +91,7 @@ def check_queue(allowed: set[str]) -> list[str]:
                     "Reserva excede janela maxima de 24h: " + key)
             if timestamp < now:
                 warnings.append("RESERVA EXPIRADA (liberacao humana): " + key)
-        if state == "BLOQUEADA":
+        if state in {"BLOQUEADA", "BLOQUEADO_CI"}:
             require(bool(entry["ultima_entrega"].strip()),
                     "Bloqueio sem evidencia/diagnostico: " + key)
         if state in {"EM_REVISAO", "CONCLUIDA"}:
@@ -131,15 +132,40 @@ def make_panel() -> tuple[str, set[str]]:
         views.add(view)
         require(title in titles and book["estado"].startswith("INTEGRADO_EXPERIMENTAL"),
                 "Titulo/estado do livro invalido: " + ident)
-        require(re.fullmatch(r"[a-f0-9]{40}", book["origem_commit"]) is not None,
-                "Commit setorial invalido: " + ident)
         path = ROOT / view
         require(path.is_file(), "Vista ausente: " + view)
         actual = re.findall(r"(?m)^\*\*Art\. [^\n]+", path.read_text(encoding="utf-8"))
         require(len(actual) == book["artigos"], "Artigos divergentes: " + ident)
         meta = json.loads((ROOT / book["manifesto"]).read_text(encoding="utf-8"))
-        require(meta["setorial_commit"] == book["origem_commit"],
-                "Manifesto de origem divergente: " + ident)
+        require((meta.get("view_path") or meta.get("vista_relativa")) == view,
+                "Vista e manifesto divergentes: " + ident)
+        origem = book.get("origem_commit")
+        if origem:
+            require(re.fullmatch(r"[a-f0-9]{40}", origem) is not None,
+                    "Commit setorial invalido: " + ident)
+        if meta.get("setorial_commit"):
+            require(meta["setorial_commit"] == origem,
+                    "Manifesto de origem divergente: " + ident)
+        else:
+            # Sem commit setorial NO MANIFESTO, a prova técnica disponível
+            # é a identidade do blob do espelho. O commit do índice segue
+            # não homologado contra manifesto e não substitui essa verificação.
+            relative_source = Path(meta.get("source_path") or "")
+            expected_blob = meta.get("source_blob_sha", "")
+            require(str(relative_source) not in {"", "."}
+                    and not relative_source.is_absolute()
+                    and ".." not in relative_source.parts,
+                    "Fonte sem caminho seguro: " + ident)
+            require(re.fullmatch(r"[a-f0-9]{40}", expected_blob) is not None,
+                    "Fonte sem SHA Git de proveniencia: " + ident)
+            source = ROOT / relative_source
+            require(source.is_file(), "Fonte documental ausente: " + ident)
+            raw = source.read_bytes()
+            actual_blob = hashlib.sha1(
+                b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw
+            ).hexdigest()
+            require(actual_blob == expected_blob,
+                    "Fonte documental diverge do SHA declarado: " + ident)
         # O manifesto T07 conta fonte com historico separado; T24 registra
         # subunidades de CPC com fonte manual e todas Q. Ambos devem fixar
         # cardinalidade sem atribuir equivalencia juridica.
@@ -154,7 +180,10 @@ def make_panel() -> tuple[str, set[str]]:
         )
         require(material_nao_aprovado,
                 "Corpus experimental nao deve homologar por operacao: " + ident)
-        require(meta.get("estado_juridico", meta.get("status_juridico")) == "Q_SEM_C0_J",
+        estado = next((meta.get(chave) for chave in
+                       ("estado_juridico", "status_juridico", "legal_status")
+                       if meta.get(chave)), None)
+        require(estado == "Q_SEM_C0_J",
                 "Nao ha autorizacao para equivalencia juridica: " + ident)
         counts[title]["books"] += 1
         counts[title]["articles"] += book["artigos"]

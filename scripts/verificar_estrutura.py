@@ -115,7 +115,26 @@ for md in [ROOT / "README.md", *ROOT.glob("docs/*.md")]:
 # Verificações estruturais dos CSVs produzidos por módulos (não analisam mérito jurídico).
 for path in sorted((ROOT / "modulos").glob("**/*.csv")):
     name = path.name
-    if name.startswith("INVENTARIO") and not name.startswith("INVENTARIO_ARTIGOS_INTEGRAL_14"):
+    # T13 mantém inventário literal por dispositivo (inclusive históricos), com
+    # campos próprios e origem verificável. Não deve ser tratado como o modelo
+    # genérico de inventário de diplomas normativos.
+    if path == ROOT / "modulos/T13/M01/INVENTARIO_CC_ART1_5_20261015.csv":
+        recs = read_csv(path, {
+            "id_origem", "diploma", "artigo", "unidade",
+            "texto_atual_transcrito_camara", "natureza",
+            "marcador_problema", "destino_experimental_candidato",
+            "categoria_editorial", "estado_juridico", "fonte_oficial",
+            "corte", "nota",
+        })
+        unique(recs, "id_origem", str(path.relative_to(ROOT)))
+        for idx, rec in enumerate(recs, 2):
+            if not (rec.get("fonte_oficial") or "").startswith("https://"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: fonte oficial vazia ou nao HTTPS")
+            if not (rec.get("artigo") or "").strip() or not (rec.get("unidade") or "").strip():
+                fail(f"{path.relative_to(ROOT)}:{idx}: dispositivo de origem incompleto")
+            if not (rec.get("estado_juridico") or "").startswith("Q_"):
+                fail(f"{path.relative_to(ROOT)}:{idx}: estado documental Q ausente")
+    elif name.startswith("INVENTARIO") and not name.startswith("INVENTARIO_ARTIGOS_INTEGRAL_14"):
         recs = read_csv(path, {
             "id_fonte", "tipo_ato", "dispositivo", "url_oficial",
             "data_consulta", "vigencia_situacao", "modulo_candidato",

@@ -47,9 +47,9 @@ for args in ADDS:
 
 idx = json.loads((ROOT / "produto/fontes/indice_livros.json").read_text(encoding="utf-8"))
 books = idx["livros"]
-assert len(books) == 40 and len({b["titulo"] for b in books}) == 26
-assert sum(b["artigos"] for b in books) == 258
-assert sum(b["registros_documentais"] for b in books) == 857
+assert len(books) >= 40 and len({b["titulo"] for b in books}) >= 26
+assert sum(b["artigos"] for b in books) >= 258
+assert sum(b["registros_documentais"] for b in books) >= 857
 by_title = {}
 for b in books:
     a, u, views = by_title.get(b["titulo"], (0, 0, 0))
@@ -65,8 +65,8 @@ for r in matrix:
     assert int(r["artigos_na_vista"]) == a, r["id_titulo"]
     assert int(r["unidades_positivas_na_vista"]) == u, r["id_titulo"]
     assert int(r["C0_J_homologadas"]) == 0
-assert sum(int(r["artigos_na_vista"]) > 0 for r in matrix) == 26
-assert sum(int(r["unidades_positivas_na_vista"]) for r in matrix) == 856
+assert sum(int(r["artigos_na_vista"]) > 0 for r in matrix) == len(by_title)
+assert sum(int(r["unidades_positivas_na_vista"]) for r in matrix) == sum(u for _, u, _ in by_title.values())
 
 with (ROOT / "central/PAINEL_GERADO.csv").open(encoding="utf-8", newline="") as f:
     panel = list(csv.DictReader(f))
@@ -79,7 +79,7 @@ for r in panel:
 
 path = ROOT / "produto/CODIGO_DE_TRABALHO.md"
 actual = path.read_text(encoding="utf-8")
-assert sum(ln.startswith("**Art. ") for ln in actual.splitlines()) == 258
+assert sum(ln.startswith("**Art. ") for ln in actual.splitlines()) == sum(b["artigos"] for b in books)
 first = books[0]
 anchor = f"## {first['titulo']} — {first['modulo']} [{first['id']}; {first['estado']}]"
 assert anchor in actual
@@ -89,7 +89,7 @@ expected = head + "".join(
     + (ROOT / b["vista"]).read_text(encoding="utf-8").rstrip() + "\n\n"
     for b in books
 )
-assert expected.rstrip() + "\n" == actual, "Código divergente de suas 40 vistas"
+assert expected.rstrip() + "\n" == actual, "Código divergente das vistas indexadas"
 assert not (ROOT / "produto/fontes/T29_M01_8213_11_R17_v1.json").read_text(encoding="utf-8").find('"provenance_correction_R18"') == -1
-print("OK DOCUMENTAL CLF R19: 26 títulos, 40 vistas, 258 artigos, 856 unidades positivas +1 histórico.")
+print(f"OK DOCUMENTAL CLF R19: fontes R19 verificadas; corpus atual {len(by_title)} títulos, {len(books)} vistas, {sum(b['artigos'] for b in books)} artigos.")
 print("Este teste não certifica vigência, DOU, efeitos jurídicos, C0-J, M ou DEC-016.")

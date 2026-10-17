@@ -21,7 +21,7 @@ class QD004(unittest.TestCase):
             gate.validate(doc,self.registro)
     def test_decisao_especifica_nao_fecha_dec016(self):
         r=gate.validate(self.data,self.registro)
-        self.assertEqual((r["questoes"],r["aptas"],r["submetidas"],r["confirmadas"],r["fechadas"]),(6,3,1,2,2))
+        self.assertEqual((r["questoes"],r["aptas"],r["submetidas"],r["confirmadas"],r["fechadas"]),(6,3,0,3,3))
         self.assertEqual(self.data["questoes"][0]["maturidade"],"PESQUISA_FOCAL")
     def test_dossie_existe(self):
         self.assertTrue((ROOT/self.data["questoes"][3]["ref_dossie"]).is_file())

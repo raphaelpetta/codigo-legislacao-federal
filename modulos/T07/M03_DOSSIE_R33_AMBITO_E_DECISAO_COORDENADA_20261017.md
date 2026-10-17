@@ -47,3 +47,14 @@ Estas URLs permitem verificar redações institucionais disponíveis, mas **não
 **Composição dos onze C1:** `7` desta rodada em pesquisa; `3` remissões de prova/participação/intimação com vínculos documentais auditados na R32, ainda Q; `1` art.69 com DEC-020 preparatória FC2, ainda Q. **0 C0-J, 0 M aprovada, 0 revogações**.
 
 **FEITO:** mapa de sete riscos com evidências e guardrails, dossiê e questão decisória de três referentes maduros para escolha preparatória. **PENDENTE:** decisão expressa A/B/C QD006, revisão independente e dossiês de especialidade/temporalidade de todos os onze Q. **PRÓXIMO:** após resposta, registrar nova DEC apenas para o escopo autorizado; em paralelo, aprofundar exclusões da decisão coordenada e fonte DOU, preservar o Código único DEC-001 e a pendência DEC-016.
+
+
+---
+
+## Adendo DEC-021 — aprovação específica (17/10/2026)
+
+O usuário declarou expressamente: **“Aprovo expressamente a alternativa A da QD-2026-006 como diretriz preparatória do T07, preservadas a DEC-001, a DEC-019, a DEC-020 e a pendência da DEC-016.”**. [Transcrição secundária da autorização na central #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6242003768), distinta da mensagem primária no chat.
+
+A QD-2026-006 alcança `CONFIRMADA / FC2_ESCOLHA_CONFIRMADA / Q_SEM_C0_J`, limitada à estratégia preparatória de conservar o âmbito **federal**, a função **administrativa** de outros Poderes da União e definições do art.1º restritas à Lei 9.784. As passagens anteriores em `SUBMETIDA/FC1` descrevem o estágio anterior da ficha. A escolha não prescreve copiar literalmente `desta Lei` em eventual código promulgado.
+
+**Não abrangidos:** incisos tipográficos do §2º, art.49-A, todas as outras C1, C0-J, M, direitos novos, revogações e espécie jurídica. QD003 e DEC016 seguem pendentes; DEC001, DEC019 e DEC020 preservadas. Não alterar automaticamente a prévia experimental Q.

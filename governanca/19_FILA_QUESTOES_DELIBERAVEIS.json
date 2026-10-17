@@ -4,7 +4,7 @@
   "adocao_metodologica": "DEC-018",
   "deliberacao_material_automatica": false,
   "dec016": "PENDENTE",
-  "observacao": "R33: sete C1 documentais analisados; QD006 (art1 caput/§1/§2) apta e submetida FC1 sem alternativa escolhida. QD003 continua PESQUISA_FOCAL. DEC019/020 FC2 preparatórias, DEC016 pendente, C0-J/M zero.",
+  "observacao": "DEC021 confirma A preparatória QD006 FC2, sem alterar QD003 ou incisos tipográficos/art49-A. DEC001/019/020 preservadas, DEC016 pendente, C0-J/M zero.",
   "questoes": [
     {
       "id": "QD-2026-001",
@@ -239,14 +239,17 @@
       "escopo": "P13-01-C, P13-01-P1, P13-01-P2; não abrange pontuação dos incisos nem art49-A",
       "maturidade": "APTO_A_DELIBERAR",
       "decisao": {
-        "estado": "SUBMETIDA",
-        "alternativa_escolhida": null,
-        "aprovador": null,
-        "evidencia_aprovacao": null,
-        "registro_decisao": null,
-        "motivo_reabertura": null
+        "estado": "CONFIRMADA",
+        "alternativa_escolhida": "A — Preservar na preparação o âmbito de processo administrativo federal e a aplicação a outros Poderes apenas na função administrativa; restringir as definições ao regime da Lei 9.784/1999 até auditoria e decisão do veículo, sem alterar automaticamente a prévia Q.",
+        "aprovador": "USUARIO",
+        "evidencia_aprovacao": "https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6242003768",
+        "registro_decisao": "DEC-021",
+        "motivo_reabertura": null,
+        "tipo_evidencia": "TRANSCRICAO_SECUNDARIA_MENSAGEM_USUARIO",
+        "transcricao_aprovacao": "Aprovo expressamente a alternativa A da QD-2026-006 como diretriz preparatória do T07, preservadas a DEC-001, a DEC-019, a DEC-020 e a pendência da DEC-016.",
+        "alcance": "Somente preparação dos referentes art1 caput/§§1–2; incisos tipográficos e art49-A excluídos; sem veículo final, C0-J, M, efeito normativo ou fechamento da questão-mãe."
       },
-      "fechamento": "FC1_APTO_A_ESCOLHA",
+      "fechamento": "FC2_ESCOLHA_CONFIRMADA",
       "classe_juridica": "Q_SEM_C0_J",
       "risco": "R3",
       "ganho_potencial": "ALTO",
@@ -266,7 +269,7 @@
         "DEC-001 única codificação, DEC-019 dupla camada, DEC-020 limitada ao art69, DEC-016 ainda pendente"
       ],
       "criterio_aptidao": "Fonte Câmara e Planalto do art1º, cotejo separado de três referentes, delimitação negativa de estados/municípios e funções típicas, regras de tipografia isoladas, alternativas com contrafactual e melhor objeção; sem decisão de novo alcance legislativo.",
-      "proximo_passo": "Submeter A/B/C somente para orientação preparatória do art.1º; registrar nova DEC somente após manifestação expressa. Enquanto isso, continuar R33 nos incisos tipográficos e art49-A, sem homologação.",
+      "proximo_passo": "Documentar âmbito/função/definições de origem na trilha T07, auditar fonte e reedição formal antes de minuta promulgável; incisos e art49-A permanecem Q.",
       "referencias": [
         "central/03_T07_GATE_C1_11_EFEITOS_20261015.csv",
         "modulos/T07/M03_MAPA_SETE_C1_R33.json",
@@ -281,7 +284,7 @@
       ],
       "versao_base": "0534320f165ebec5974e7c48084e4d806ee01b2e",
       "data_corte": "2026-10-17",
-      "observacao_decisoria": "Aptidão somente para orientação preparatória da tríade caput/§1/§2 art1º. Três incisos tipográficos e art49-A continuam em pesquisa focal, assim como pai QD003. DEC016 pendente e DEC020 restrita a art69."
+      "observacao_decisoria": "DEC-021 A expressamente aprovada para preparação art1; QD003/DEC016 pendentes, demais quatro C1 R33 abertos; nenhuma C0-J/M."
     }
   ]
 }

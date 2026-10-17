@@ -4,7 +4,7 @@
   "adocao_metodologica": "DEC-018",
   "deliberacao_material_automatica": false,
   "dec016": "PENDENTE",
-  "observacao": "5 questões; QD004 DEC019 e QD005 DEC020 confirmadas como diretrizes preparatórias FC2. QD001/002/003 em pesquisa focal. DEC016 PENDENTE; C0-J e M aprovada zero.",
+  "observacao": "R32: 3 vínculos documentais verificados no T07, dez C1 remanescentes jurídicos abertos; nenhuma decisão normativa nova. DEC019/020 FC2 preparatórios; QD003 PESQUISA_FOCAL, DEC016 pendente, C0-J/M=0.",
   "questoes": [
     {
       "id": "QD-2026-001",
@@ -115,10 +115,12 @@
         "Vigência e efeitos por data, garantias e contraditório"
       ],
       "criterio_aptidao": "Selecionar uma questão concreta dentre as 11 e produzir efeitos, garantias, melhor objeção, contraprovas e alternativas determinadas.",
-      "proximo_passo": "Identificar efeito C1 de maior poder desbloqueador e preparar ficha decisória para aprovação específica, sem generalizar toda a Lei 9.784.",
+      "proximo_passo": "R32 documentou e testou os três vínculos 36→37, 49-B→9º e 49-D→26; prosseguir com sete outras C1, exclusões do art.49-A e segunda revisão independente. Só propor novo lote deliberável quando direitos, destinatários e remissões estiverem delimitados; manter QD005/DEC020 apenas preparatório.",
       "referencias": [
         "central/03_T07_GATE_C1_11_EFEITOS_20261015.csv",
-        "modulos/T07/M03_PORTAS_ABC_C1_20261016.md"
+        "modulos/T07/M03_PORTAS_ABC_C1_20261016.md",
+        "modulos/T07/M03_DOSSIE_R32_REMISSOES_E_DEFINICOES_20261017.md",
+        "modulos/T07/M03_MAPA_TRIPLA_REMISSAO_R32.json"
       ],
       "versao_base": "73b47b9160edb3ce8dc03027cb1839c1c9ead4bd",
       "data_corte": "2026-10-16"

@@ -68,7 +68,8 @@ def documents():
     old=csv_rows(S106)
     new=csv_rows(S75)
     require(len(old)==106 and len(new)==75,"Concordâncias T24 incompletas")
-    require(all(row["status_juridico"]=="Q_SEM_C0_J" for row in old+new),
+    require(all(row["status_juridico"]=="Q_SEM_C0_J" for row in old)
+            and all(row["estado_juridico"]=="Q_SEM_C0_J" for row in new),
             "Promoção indevida de estado Q")
     docs={}
     for x in old:

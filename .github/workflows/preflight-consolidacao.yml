@@ -20,6 +20,8 @@ jobs:
         run: python3 scripts/verificar_estrutura.py
       - name: Testar regressões do preflight e proveniência externa
         run: python3 -m unittest discover -s tests -p 'test_preflight_consolidacao.py' -v
+      - name: Regressões de componentes compostos Q
+        run: python3 -m unittest discover -s tests -p 'test_preflight_componentes.py' -v
       - name: Conferir corpus documental Q integrado na main
         run: |
           python3 scripts/gerar_previa_t05.py --check

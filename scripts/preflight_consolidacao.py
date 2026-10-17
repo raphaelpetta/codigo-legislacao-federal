@@ -82,7 +82,7 @@ def inspect(root: Path, base: Path | None = None) -> dict:
         src, sha = m.get('source_path'), m.get('source_blob_sha')
         source = inside(root, src) if src else None
         pinned = re.fullmatch(r'[0-9a-f]{40}', str(m.get('setorial_commit') or '')) is not None
-        if source is not None and sha and source.is_file():
+        if source is not None and sha and source.is_file() and 'components' not in m:
             if not re.fullmatch(r'[0-9a-f]{40}', str(sha)) or git_blob(source) != sha:
                 raise ValueError(f'Blob de origem divergente: {ident}')
             if source.suffix == '.csv':
@@ -91,10 +91,13 @@ def inspect(root: Path, base: Path | None = None) -> dict:
                 if total != expected:
                     raise ValueError(f'Inventário com cardinalidade divergente: {ident}')
             local += 1
-        elif m.get('components'):
+        elif 'components' in m:
             parts = m['components']
             if not isinstance(parts, list) or not parts:
                 raise ValueError(f'Composto vazio: {ident}')
+            if source is not None and source.is_file():
+                if not sha or not re.fullmatch(r'[0-9a-f]{40}', str(sha)) or git_blob(source) != sha:
+                    raise ValueError(f'Blob de origem divergente: {ident}')
             if any(not isinstance(c, dict) or type(c.get('count')) is not int
                    or c['count'] <= 0 for c in parts):
                 raise ValueError(f'Componente sem contagem válida: {ident}')

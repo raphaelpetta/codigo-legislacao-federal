@@ -134,5 +134,35 @@ class ComponentesQTest(unittest.TestCase):
             pre.inspect(self.root)
 
 
+
+    def test_fonte_local_nao_contorna_validacao_dos_componentes(self):
+        source = self.root / self.manifest["source_path"]
+        source.parent.mkdir(parents=True, exist_ok=True)
+        source.write_text("id,origem\\n1,A\\n2,B\\n", encoding="utf-8")
+        self.manifest["source_blob_sha"] = pre.git_blob(source)
+        self.save()
+        (self.root / "produto/fontes/T24_segunda.csv").write_text(
+            "id,origem\\n2,ALTERADO\\n", encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "Blob de componente divergente"):
+            pre.inspect(self.root)
+
+    def test_componente_vazio_nao_vira_origem_externa_pendente(self):
+        self.manifest["components"] = []
+        self.manifest["source_blob_sha"] = "a" * 40
+        self.manifest["setorial_commit"] = "b" * 40
+        self.save()
+        with self.assertRaisesRegex(ValueError, "Composto vazio"):
+            pre.inspect(self.root)
+
+    def test_fonte_local_e_componentes_validos_sao_auditados_juntos(self):
+        source = self.root / self.manifest["source_path"]
+        source.parent.mkdir(parents=True, exist_ok=True)
+        source.write_text("id,origem\\n1,A\\n2,B\\n", encoding="utf-8")
+        self.manifest["source_blob_sha"] = pre.git_blob(source)
+        self.save()
+        out = pre.inspect(self.root)
+        self.assertEqual(out["compostos_pendentes"], 1)
+        self.assertEqual(out["locais"], 0)
+
 if __name__ == "__main__":
     unittest.main()

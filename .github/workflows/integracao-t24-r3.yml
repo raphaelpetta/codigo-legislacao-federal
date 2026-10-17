@@ -6,6 +6,9 @@ on:
       - "scripts/gerar_previa_t24.py"
       - "scripts/gerar_t24_cpc_181.py"
       - "scripts/validar_t24_gates_r3.py"
+      - "scripts/validar_t24_precedentes.py"
+      - "produto/analises/T24_PRECEDENTES_EFEITOS_20261016.json"
+      - "tests/test_t24_precedentes.py"
       - "modulos/T24/M01_PORTAS_ABC_CPC70_102_20261016.md"
       - ".github/workflows/integracao-t24-r3.yml"
   push:
@@ -34,6 +37,10 @@ jobs:
         run: python3 scripts/gerar_previa_t24.py --setorial-root setorial --check
       - name: Auditar proveniencias 106 e 75 e direitos do CPC
         run: python3 scripts/validar_t24_gates_r3.py --setorial-root setorial
+      - name: R3 jurisprudencia: efeitos nao se tornam texto normativo
+        run: |
+          python3 -m unittest discover -s tests -p 'test_t24_precedentes.py' -v
+          python3 scripts/validar_t24_precedentes.py
       - name: Regenerar e comparar vista 181 sem escrita
         run: python3 scripts/gerar_t24_cpc_181.py --check
       - name: Checar codigo integrado

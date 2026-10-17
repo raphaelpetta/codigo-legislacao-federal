@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "corte": "2026-10-16",
+  "natureza": "ANOTACOES_JURISPRUDENCIA_E_RESTRICOES_NAO_TRANSPOSICAO_NORMATIVA",
+  "estado_juridico": "Q_SEM_C0_J",
+  "material_approved": false,
+  "dec016": "PENDENTE",
+  "fonte_editorial_75_sha": "5a1b1123e29b95f5777ec2bffb8eda5b84e4a18b",
+  "concordancia_setorial_106_sha": "b3542c54db70d9f5721fbe64ec372164b99b56ef",
+  "aviso": "Mapeamento jurídico revisável: precedente não se incorpora ao texto de lei; web/DOU e trânsito de cada processo exigem controle temporal e revisão independente. STJ1178 não impõe teto objetivo de renda; Tema1255 STF não recebe tese de mérito por questão de ordem.",
+  "cenarios": [
+    {
+      "id": "T24-J01",
+      "precedente": "STJ_TEMA_1178",
+      "tipo": "TESE_FIRMADA_TRANSITO",
+      "unit": "CPC99-P3",
+      "documental": "SETORIAL_106",
+      "escopo": "PESSOA_NATURAL",
+      "efeito": "VEDADO_INDEFERIMENTO_IMEDIATO_CRITERIO_OBJETIVO",
+      "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_inicial=1178&cod_tema_final=1178&tipo_pesquisa=T&novaConsulta=true"
+    },
+    {
+      "id": "T24-J02",
+      "precedente": "STJ_TEMA_1178",
+      "tipo": "TESE_FIRMADA_TRANSITO",
+      "unit": "CPC99-P2",
+      "documental": "SETORIAL_106",
+      "escopo": "PESSOA_NATURAL",
+      "efeito": "EXIGIR_MOTIVOS_CONCRETOS_E_OUVIDA_PREVIA",
+      "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_inicial=1178&cod_tema_final=1178&tipo_pesquisa=T&novaConsulta=true"
+    },
+    {
+      "id": "T24-J03",
+      "precedente": "STJ_TEMA_1178",
+      "tipo": "TESE_FIRMADA_TRANSITO",
+      "unit": "CPC99-P2",
+      "documental": "SETORIAL_106",
+      "escopo": "PESSOA_NATURAL",
+      "efeito": "CRITERIOS_OBJETIVOS_SOMENTE_SUPLEMENTARES_NUNCA_EXCLUSIVOS",
+      "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_inicial=1178&cod_tema_final=1178&tipo_pesquisa=T&novaConsulta=true"
+    },
+    {
+      "id": "T24-J04",
+      "precedente": "CPC_99_PARAGRAFO_6",
+      "tipo": "TEXTO_LEGAL_VIGENCIA_NAO_CERTIFICADA",
+      "unit": "CPC99-P6",
+      "documental": "SETORIAL_106",
+      "escopo": "BENEFICIARIO_INDIVIDUAL",
+      "efeito": "PESSOAL_NAO_ESTENDE_AUTOMATICAMENTE_A_LITISCONSORTE_SUCESSOR",
+      "url": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
+    },
+    {
+      "id": "T24-J05",
+      "precedente": "CPC_98_PARAGRAFO_3",
+      "tipo": "TEXTO_LEGAL_VIGENCIA_NAO_CERTIFICADA",
+      "unit": "CPC98-P3",
+      "documental": "SETORIAL_106",
+      "escopo": "CONDENACAO_SUCUMBENCIA_BENEFICIARIO",
+      "efeito": "CONDICAO_SUSPENSIVA_COM_PRAZO_5_ANOS",
+      "url": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
+    },
+    {
+      "id": "T24-J06",
+      "precedente": "STJ_TEMA_1076",
+      "tipo": "TESE_REPETITIVA_COM_RECORTE_STF_PENDENTE",
+      "unit": "CPC85-P6A",
+      "documental": "EDITORIAL_75",
+      "escopo": "HONORARIOS_CPC85_COM_EXCECOES_LEGAIS",
+      "efeito": "EQUIDADE_NAO_PRESUMIDA_SO_POR_VALOR_ELEVADO",
+      "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_inicial=1076&cod_tema_final=1076&tipo_pesquisa=T&novaConsulta=true"
+    },
+    {
+      "id": "T24-J07",
+      "precedente": "STF_TEMA_1255",
+      "tipo": "QUESTAO_DE_ORDEM_SEM_TESE_FINAL_DE_MERITO_CONFIRMADA",
+      "unit": "CPC85-P6A",
+      "documental": "EDITORIAL_75",
+      "escopo": "FAZENDA_PUBLICA_PARTE_NO_PROCESSO",
+      "efeito": "RECORTE_QO_MERITO_A_MONITORAR_NAO_AFIRMAR_TESE_NOVA",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=6521918"
+    },
+    {
+      "id": "T24-J08",
+      "precedente": "LEI_15109_2025",
+      "tipo": "NORMA_ALTERADORA_ART82_P3_NAO_C0_J",
+      "unit": "CPC82-P3",
+      "documental": "EDITORIAL_75",
+      "escopo": "COBRANCA_E_EXECUCAO_HONORARIOS",
+      "efeito": "DISPENSA_ADIANTAMENTO_NAO_ISENCAO_GERAL",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15109.htm"
+    },
+    {
+      "id": "T24-J09",
+      "precedente": "CPC_95_PARAGRAFO_5",
+      "tipo": "TEXTO_LEGAL_VIGENCIA_NAO_CERTIFICADA",
+      "unit": "CPC95-P5",
+      "documental": "EDITORIAL_75",
+      "escopo": "CUSTEIO_PERICIA_BENEFICIARIO",
+      "efeito": "VEDADO_FUNDO_CUSTEIO_DEFENSORIA",
+      "url": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
+    }
+  ]
+}

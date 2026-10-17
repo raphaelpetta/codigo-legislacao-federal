@@ -1,0 +1,49 @@
+name: CLF - forense PR80 60 ancoras documentais Q
+on:
+  pull_request:
+    paths:
+      - "scripts/auditar_proveniencia_pr80.py"
+      - "tests/test_auditar_proveniencia_pr80.py"
+      - "central/06_AUDITORIA_PROVENIENCIA_PR80_20261016.md"
+      - ".github/workflows/auditoria-proveniencia-pr80.yml"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/auditar_proveniencia_pr80.py"
+      - "tests/test_auditar_proveniencia_pr80.py"
+      - "central/06_AUDITORIA_PROVENIENCIA_PR80_20261016.md"
+      - ".github/workflows/auditoria-proveniencia-pr80.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  auditoria-pr80:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auditoria e testes versionados da main
+        uses: actions/checkout@v4
+      - name: Python para verificacao de origem
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Checkout PR80 SHA especifico com historico Git
+        uses: actions/checkout@v4
+        with:
+          ref: d1d733561944d67d3d3ffa13c32763784d5cdb6c
+          path: experimental
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Regressao de origem e erro de commit prematuro
+        run: python3 -m unittest discover -s tests -p 'test_auditar_proveniencia_pr80.py' -v
+      - name: Preflight documental do PR80, sem homologacao
+        run: python3 scripts/preflight_consolidacao.py --root experimental
+      - name: Forense Git de 60 manifestos e relatorio por Livro
+        run: python3 -u scripts/auditar_proveniencia_pr80.py --experimental-root experimental --report relatorios/pr80_proveniencia_60.json
+      - name: Publicar matriz de pendencias nao homologadas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: clf-pr80-proveniencia-60-q
+          path: relatorios/pr80_proveniencia_60.json
+          if-no-files-found: warn
+          retention-days: 90

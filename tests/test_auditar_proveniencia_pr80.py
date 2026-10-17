@@ -74,6 +74,16 @@ class AuditFixture(unittest.TestCase):
         self.assertEqual(status,"PRESENTE_NO_COMMIT")
         self.assertNotEqual(sha,audit.blob(self.src))
 
+    def test_metadata_fonte_url_muda_sem_trocar_texto(self):
+        self.src.write_text("id,texto,fonte_primaria\n1,Texto juridico,URL_errada\n", encoding="utf-8")
+        original=self.commit("url fonte incorreta")
+        before=git(self.root,"rev-parse",original+":modulos/T01/espelho.csv")
+        self.src.write_text("id,texto,fonte_primaria\n1,Texto juridico,URL_corrigida\n", encoding="utf-8")
+        self.commit("corrigir url sem texto")
+        self.assertTrue(audit.metadata_only_drift(self.root,before,self.src))
+        self.src.write_text("id,texto,fonte_primaria\n1,Outro texto,URL_corrigida\n",encoding="utf-8")
+        self.assertFalse(audit.metadata_only_drift(self.root,before,self.src))
+
     def test_commit_malformado_falha(self):
         with self.assertRaisesRegex(ValueError,"Commit declarado inválido"):
             self.historical("HEAD; rm -rf /")

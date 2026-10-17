@@ -8,6 +8,8 @@ Uma origem local atual válida não prova que já existia no commit alegado.
 from __future__ import annotations
 
 import argparse
+import csv
+import io
 from collections import Counter
 import hashlib
 import json
@@ -50,6 +52,36 @@ def historical_blob(repo: Path, commit: str, relative: str) -> tuple[str, str | 
     if obj is None or not SHA.fullmatch(obj):
         return "CAMINHO_NAO_EXISTIA_NO_COMMIT", None
     return "PRESENTE_NO_COMMIT", obj
+
+def metadata_only_drift(repo: Path, previous_blob: str, current: Path) -> bool:
+    """Identifica exclusivamente alteração de URLs na coluna 'fonte_primaria'.
+
+    Não equipara SHAs distintos nem afirma que a URL nova foi validada no DOU.
+    """
+    if current.suffix.lower() != ".csv" or not SHA.fullmatch(previous_blob):
+        return False
+    old = subprocess.run(["git", "-C", str(repo), "cat-file", "blob", previous_blob],
+                         stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+    if old.returncode:
+        return False
+    try:
+        o = csv.DictReader(io.StringIO(old.stdout.decode("utf-8-sig")))
+        n = csv.DictReader(io.StringIO(current.read_text(encoding="utf-8-sig")))
+        if o.fieldnames != n.fieldnames or "fonte_primaria" not in (o.fieldnames or []):
+            return False
+        previous, present = list(o), list(n)
+        if not previous or len(previous) != len(present):
+            return False
+        changed = False
+        for before, after in zip(previous, present):
+            if any(before[k] != after[k] for k in before if k != "fonte_primaria"):
+                return False
+            if before["fonte_primaria"] != after["fonte_primaria"]:
+                changed = True
+        return changed
+    except (UnicodeError, csv.Error, KeyError, OSError):
+        return False
+
 
 def inspect(root: Path, *, require_head: str | None = None) -> dict:
     root = root.resolve()
@@ -126,9 +158,12 @@ def inspect(root: Path, *, require_head: str | None = None) -> dict:
                     }.get(result) if result != "PRESENTE_NO_COMMIT" else
                         ("ANCORA_COM_BLOB_IDENTICO" if historical == expected else
                          "ANCORA_COM_BLOB_DIFERENTE"))
+                    if outcome["situacao"] == "ANCORA_COM_BLOB_DIFERENTE" and historical and metadata_only_drift(root, historical, file):
+                        outcome["situacao"] = "ANCORA_DIVERGENTE_APENAS_URL_FONTE"
                     outcome["nota"] = ({
                         "ANCORA_COM_BLOB_IDENTICO": "Hash atual também existe no commit declarado",
                         "ANCORA_COM_BLOB_DIFERENTE": "Commit continha outra versão, não esta fotografia",
+                        "ANCORA_DIVERGENTE_APENAS_URL_FONTE": "Apenas a coluna fonte_primaria mudou; texto jurídico igual, SHA distinto",
                         "ANCORA_ANTERIOR_AO_ARQUIVO": "O caminho não existia no commit declarado",
                         "COMMIT_HISTORICO_NAO_VERIFICAVEL": "Objeto não resolvido no checkout Git completo",
                     }[outcome["situacao"]])

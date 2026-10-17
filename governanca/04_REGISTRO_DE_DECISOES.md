@@ -1,6 +1,6 @@
 # Registro central de decisões e questões pendentes
 
-**ID:** CLF-GOV-004 | **Versão:** 0.5 | **Data:** 16/10/2026
+**ID:** CLF-GOV-004 | **Versão:** 0.6 | **Data:** 17/10/2026
 
 > Estados possíveis: `CONFIRMADA_PELO_USUARIO`, `HIPOTESE_DE_TRABALHO`, `PENDENTE`, `SUBSTITUIDA`. As confirmações dizem respeito às **premissas do projeto**, não ao direito vigente.
 
@@ -26,6 +26,8 @@
 | DEC-018 | CONFIRMADA_PELO_USUARIO | Procedimento contínuo de construção, deliberação e fechamento progressivos | Adotar coexistência de pesquisa F0–F9, auditoria, integração, deliberação por questão madura e fechamento condicionado; selecionar H/V/I/D/F pelo maior ganho marginal global. Decisões materiais e estruturais relevantes exigem aprovação expressa específica; letra isolada não é aprovação. | Governança do projeto CLF; criar fila de questões, níveis independentes de maturidade, decisão e fechamento, revisão adversarial e reabertura fundamentada; **não** ratifica M, C0-J, DEC-016 ou texto normativo. | 0.4 |
 | DEC-019 | CONFIRMADA_PELO_USUARIO | QD-2026-004: arquitetura **preparatória** de dupla camada, alternativa A | Adotar o **Código editorial único** de trabalho e, em paralelo, **trilhas específicas de futura positivação por espécie normativa, iniciativa, competência, quórum, vetos, vigência e transição**, sem revogação constitutiva por catálogo/portal, sem equivalência C0-J presumida e sem absorção automática das leis de origem. Diretriz de preparação, não eleição definitiva do instrumento formal. | Operar modelos e registros de veículo por componente, sem alterar direito, aprovar qualquer reforma M ou resolver DEC-016; **DEC-001 preservada** como objetivo de Código único inclusive quanto à eventual viabilidade formal, a examinar. Subquestão QD-2026-004 FC2; pai QD-2026-001 e DEC-016 pendentes. | 0.5 |
 
+| DEC-020 | CONFIRMADA_PELO_USUARIO | QD-2026-005: art. 69 da Lei 9.784/1999, alternativa A | Preservar, **na elaboração preparatória**, o referente jurídico original da Lei 9.784/1999 e a primazia dos processos administrativos especiais regidos por lei própria. Substituir “desta Lei” por “deste Livro” somente após auditoria do âmbito, efeitos, especialidade e instrumento de positivação. Não exige reprodução literal do referente antigo em futuro texto promulgado. | Abrange exclusivamente a orientação preparatória da unidade P19-69-C em T07; não altera a prévia Q, não homologa C0-J, não aprova M, não revoga a lei, nem escolhe veículo. QD-2026-003 e outras dez C1 abertas. DEC-001 e DEC-019 preservadas; **DEC-016 PENDENTE**. | 0.6 |
+
 ## Modelo de entrada nova
 
 ```
@@ -43,5 +45,7 @@ Decisão e responsável:
 **DEC-018 — base de aprovação:** manifestação expressa do usuário em 16/10/2026, após apresentação do modelo de construção, deliberação e fechamento progressivos: “certo. vamos adotar entao. implemente-o”. Aprovação **procedimental**, registrada neste PR; não pode ser interpretada como aceitação tácita das alternativas listadas na fila. [Procedimento](19_PROCEDIMENTO_CONSTRUCAO_DELIBERACAO_FECHAMENTO.md) e [fila](19_FILA_QUESTOES_DELIBERAVEIS.json). **DEC-016 permanece PENDENTE.**
 
 **DEC-019 — aprovação específica (16/10/2026):** após o dossiê QD-2026-004 e a pergunta A/B/C, o usuário declarou literalmente: **“Aprovo expressamente a alternativa A da QD-2026-004 como diretriz preparatória do CLF, preservadas a DEC-001 e a pendência da DEC-016.”** [Registro de transcrição na central #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6228937676) — **fonte secundária de auditoria criada pela coordenação**, e não permalink autenticado da mensagem do chat. A fonte primária da aprovação é a mensagem direta do usuário neste diálogo. Ver [diretriz de dupla camada](20_DIRETRIZ_DUPLA_CAMADA_DEC019.md). DEC-016 segue **PENDENTE**, por decisão do próprio usuário.
+
+**DEC-020 — prova da escolha:** diante da pergunta sobre as alternativas A/B/C da QD-2026-005, o usuário declarou diretamente no chat: **“escolho a A”**. [Registro secundário na central #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6231927148), que transcreve a aprovação, sem constituir permalink autenticado da mensagem original. Escopo restrito à preparação conservadora do art. 69; DEC-016 permanece pendente.
 
 **Regra:** decisões novas não são introduzidas apenas porque um chat as propôs. O chat central avalia e o usuário aprova escolhas estruturais ou materiais relevantes.

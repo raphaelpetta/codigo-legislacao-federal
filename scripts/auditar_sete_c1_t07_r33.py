@@ -101,7 +101,7 @@ def check(m,source,triage,cases,view,queue,route):
            "Exclusões/responsabilidade coordenada desapareceram da prévia")
     insist(m.get("grupo_unidades")==["P13-01-C","P13-01-P1","P13-01-P2"]
            and m.get("scoping_group")=="QD-2026-006"
-           and m.get("fechamento_grupo")=="APTO_A_DELIBERAR_SEM_APROVACAO",
+           and m.get("fechamento_grupo")=="FC2_ESCOLHA_PREPARATORIA_A_CONFIRMADA_SEM_C0J",
            "Questão não pode aprovar incisos, norma ou art49-A")
     insist(m.get("restante")=={"remissoes_t07_r32":["EXP17-36-C","C18-49-B-C","C18-49-D-C"],
                               "art69_dec020":"P19-69-C","total_c1":11,
@@ -112,12 +112,24 @@ def check(m,source,triage,cases,view,queue,route):
     insist(queue.get("dec016")=="PENDENTE" and len(items)==6
            and child and child["subquestao_de"]=="QD-2026-003"
            and child["maturidade"]=="APTO_A_DELIBERAR"
-           and child["decisao"]["estado"]=="SUBMETIDA"
-           and child["fechamento"]=="FC1_APTO_A_ESCOLHA"
+           and child["decisao"]["estado"]=="CONFIRMADA"
+           and child["decisao"].get("registro_decisao")=="DEC-021"
+           and child["decisao"].get("alternativa_escolhida")==child["alternativas"][0]
+           and child["fechamento"]=="FC2_ESCOLHA_CONFIRMADA"
            and child["classe_juridica"]=="Q_SEM_C0_J"
            and parent["maturidade"]=="PESQUISA_FOCAL"
            and parent["fechamento"]=="FC0_ABERTO",
            "Submissão QD006 não aprova o art1 ou a questão mãe")
+    approved=m.get("decisao_preparatoria",{})
+    insist(approved.get("id")=="DEC-021" and approved.get("questao")=="QD-2026-006"
+           and approved.get("alternativa")=="A"
+           and approved.get("status")=="CONFIRMADA_FC2_SOMENTE_PREPARATORIO"
+           and approved.get("evidencia")=="https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6242003768"
+           and approved.get("sem_efeito_juridico") is True
+           and approved.get("unidades_cobertas")==["P13-01-C","P13-01-P1","P13-01-P2"]
+           and set(approved.get("fora_do_escopo",[]))==
+             {"P13-01-P2-I","P13-01-P2-II","P13-01-P2-III","C18-49-A-P1"},
+           "DEC021 não aprova art49A, os incisos ou direito positivo")
     insist(route.get("estado_juridico")=="Q_SEM_C0_J"
            and route.get("efeito_legal")=="NENHUM"
            and route.get("dec016")=="PENDENTE"

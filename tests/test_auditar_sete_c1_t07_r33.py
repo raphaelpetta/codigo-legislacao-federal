@@ -51,12 +51,18 @@ class R33T07(unittest.TestCase):
         self.reject(lambda a:a.__setitem__(4,a[4].replace("**II –** relacionados ao poder sancionador; ou","**II –** inclusive sanções; ou")))
     def test_coordenada_nao_admite_autoridades_poderes_distintos(self):
         self.reject(lambda a:a.__setitem__(4,a[4].replace("**III –** em que estejam envolvidas autoridades de Poderes distintos.","**III –** em todos os Poderes.")))
-    def test_questao_submetida_nao_e_aprovada(self):
-        self.reject(lambda a:next(x for x in a[5]["questoes"] if x["id"]=="QD-2026-006")["decisao"].update(estado="CONFIRMADA"))
+    def test_dec021_confirmada_nao_regride_para_submetida(self):
+        self.reject(lambda a:next(x for x in a[5]["questoes"] if x["id"]=="QD-2026-006")["decisao"].update(estado="SUBMETIDA"))
     def test_questao_mae_continua_em_estudo(self):
         self.reject(lambda a:next(x for x in a[5]["questoes"] if x["id"]=="QD-2026-003").update(maturidade="APTO_A_DELIBERAR"))
     def test_nao_pode_decidir_dec016(self):
         self.reject(lambda a:a[0].update(dec016="APROVADA"))
     def test_corpus_nao_pode_esconder_dec020(self):
         self.reject(lambda a:a[6]["decisao_preparatoria"].update(id="DEC-016"))
+    def test_dec021_nao_pode_virar_b(self):
+        self.reject(lambda a:next(x for x in a[5]["questoes"] if x["id"]=="QD-2026-006")["decisao"].update(alternativa_escolhida=next(x for x in a[5]["questoes"] if x["id"]=="QD-2026-006")["alternativas"][1]))
+    def test_dec021_nao_abrange_inciso_ou_art49a(self):
+        self.reject(lambda a:a[0]["decisao_preparatoria"].update(fora_do_escopo=[]))
+    def test_r33_nao_homologa_equivalencia(self):
+        self.reject(lambda a:a[0].update(equivalencia_juridica="C0-J"))
 if __name__=="__main__":unittest.main()

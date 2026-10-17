@@ -1,6 +1,6 @@
 # Registro central de decisões e questões pendentes
 
-**ID:** CLF-GOV-004 | **Versão:** 0.6 | **Data:** 17/10/2026
+**ID:** CLF-GOV-004 | **Versão:** 0.7 | **Data:** 17/10/2026
 
 > Estados possíveis: `CONFIRMADA_PELO_USUARIO`, `HIPOTESE_DE_TRABALHO`, `PENDENTE`, `SUBSTITUIDA`. As confirmações dizem respeito às **premissas do projeto**, não ao direito vigente.
 
@@ -28,6 +28,8 @@
 
 | DEC-020 | CONFIRMADA_PELO_USUARIO | QD-2026-005: art. 69 da Lei 9.784/1999, alternativa A | Preservar, **na elaboração preparatória**, o referente jurídico original da Lei 9.784/1999 e a primazia dos processos administrativos especiais regidos por lei própria. Substituir “desta Lei” por “deste Livro” somente após auditoria do âmbito, efeitos, especialidade e instrumento de positivação. Não exige reprodução literal do referente antigo em futuro texto promulgado. | Abrange exclusivamente a orientação preparatória da unidade P19-69-C em T07; não altera a prévia Q, não homologa C0-J, não aprova M, não revoga a lei, nem escolhe veículo. QD-2026-003 e outras dez C1 abertas. DEC-001 e DEC-019 preservadas; **DEC-016 PENDENTE**. | 0.6 |
 
+| DEC-021 | CONFIRMADA_PELO_USUARIO | QD-2026-006: art. 1º caput, §§1º–2º da Lei 9.784/1999, alternativa A | Preservar apenas na **preparação** o âmbito administrativo federal, a função administrativa de Legislativo e Judiciário da União e as definições restritas à lei de origem. Remissões para o Livro T07 exigem auditoria formal futura. | FC2 estritamente preparatório, sem abranger os três incisos tipográficos nem art.49-A, sem homologar C0-J, M, revogação, veículo, FC3–FC5, nem fechar QD003. DEC001/019/020 preservadas e DEC016 PENDENTE. | 0.7 |
+
 ## Modelo de entrada nova
 
 ```
@@ -47,5 +49,7 @@ Decisão e responsável:
 **DEC-019 — aprovação específica (16/10/2026):** após o dossiê QD-2026-004 e a pergunta A/B/C, o usuário declarou literalmente: **“Aprovo expressamente a alternativa A da QD-2026-004 como diretriz preparatória do CLF, preservadas a DEC-001 e a pendência da DEC-016.”** [Registro de transcrição na central #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6228937676) — **fonte secundária de auditoria criada pela coordenação**, e não permalink autenticado da mensagem do chat. A fonte primária da aprovação é a mensagem direta do usuário neste diálogo. Ver [diretriz de dupla camada](20_DIRETRIZ_DUPLA_CAMADA_DEC019.md). DEC-016 segue **PENDENTE**, por decisão do próprio usuário.
 
 **DEC-020 — prova da escolha:** diante da pergunta sobre as alternativas A/B/C da QD-2026-005, o usuário declarou diretamente no chat: **“escolho a A”**. [Registro secundário na central #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6231927148), que transcreve a aprovação, sem constituir permalink autenticado da mensagem original. Escopo restrito à preparação conservadora do art. 69; DEC-016 permanece pendente.
+
+**DEC-021 — autorização específica (17/10/2026):** manifestação expressa do usuário: **“Aprovo expressamente a alternativa A da QD-2026-006 como diretriz preparatória do T07, preservadas a DEC-001, a DEC-019, a DEC-020 e a pendência da DEC-016.”**. [Transcrição secundária na central #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6242003768), que não é permalink autenticado do chat. A escolha limita-se à alternativa A da QD006, preservando DEC001, DEC019, DEC020 e DEC016 pendente.
 
 **Regra:** decisões novas não são introduzidas apenas porque um chat as propôs. O chat central avalia e o usuário aprova escolhas estruturais ou materiais relevantes.

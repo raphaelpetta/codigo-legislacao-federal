@@ -12,6 +12,8 @@ on:
       - "modelos/20_PACOTE_CONTINUIDADE.md"
       - "scripts/validar_fila_deliberacao.py"
       - "tests/test_validar_fila_deliberacao.py"
+      - "tests/test_dec016_deliberacao.py"
+      - "modulos/T01/M04/DOSSIE_DEC016_QD004_PREPARACAO_JURIDICO_FORMAL_20261016.md"
       - ".github/workflows/deliberacao-progressiva-clf.yml"
   push:
     branches: [main]
@@ -36,7 +38,7 @@ jobs:
       - name: Gate de tres eixos e DEC-016 pendente
         run: python3 scripts/validar_fila_deliberacao.py --root .
       - name: Regressao contra homologacao e escolha tacita
-        run: python3 -m unittest discover -s tests -p 'test_validar_fila_deliberacao.py' -v
+        run: python3 -m unittest discover -s tests -p 'test_*deliberacao*.py' -v
       - name: Preflight do corpus experimental preservado
         run: python3 scripts/preflight_consolidacao.py --root .
       - name: Estrutura geral

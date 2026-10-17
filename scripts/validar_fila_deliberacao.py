@@ -61,6 +61,26 @@ def validate(record, decision_register):
         demand(isinstance(d,dict) and d.get("estado") in DEC,
                f"{ident}: decisão não tipada")
         stage=item["fechamento"]
+        if d["estado"]=="SUBMETIDA":
+            demand(item["maturidade"]=="APTO_A_DELIBERAR"
+                   and stage=="FC1_APTO_A_ESCOLHA",
+                   f"{ident}: questão submetida sem aptidão e FC1")
+        if item["maturidade"]=="APTO_A_DELIBERAR" or d["estado"]=="SUBMETIDA":
+            demand(isinstance(item.get("ref_dossie"),str)
+                   and item["ref_dossie"].startswith("modulos/")
+                   and item["ref_dossie"].endswith(".md")
+                   and '..' not in Path(item["ref_dossie"]).parts
+                   and isinstance(item.get("pergunta_deliberacao"),str)
+                   and len(item["pergunta_deliberacao"].strip())>20
+                   and isinstance(item.get("evidencias_maturidade"),list)
+                   and len(item["evidencias_maturidade"])>=2
+                   and all(isinstance(a,str) and a.startswith("https://") for a in item["evidencias_maturidade"]),
+                   f"{ident}: falta dossiê, pergunta expressa ou fontes independentes para aptidão")
+            parent=item.get("subquestao_de")
+            if parent is not None:
+                demand(any(x.get("id")==parent and x.get("id")!=ident for x in items),
+                       f"{ident}: subquestão sem questão-mãe")
+
         if item["maturidade"]=="APTO_A_DELIBERAR":
             demand(stage!="FC0_ABERTO",f"{ident}: aptidão não materializada em FC1")
         if stage=="FC1_APTO_A_ESCOLHA":
@@ -118,6 +138,11 @@ def main():
         record=json.loads((root/"governanca/19_FILA_QUESTOES_DELIBERAVEIS.json").read_text(encoding="utf-8"))
         decisions=(root/"governanca/04_REGISTRO_DE_DECISOES.md").read_text(encoding="utf-8")
         result=validate(record,decisions)
+        for item in record["questoes"]:
+            if item["maturidade"]=="APTO_A_DELIBERAR":
+                dossie=(root/item["ref_dossie"]).resolve()
+                demand(dossie.is_relative_to(root)
+                       and dossie.is_file(),f'{item["id"]}: dossiê de aptidão inexistente')
         print("OK FILA DEC-018 - sem aprovação normativa automática: "+
               json.dumps(result,ensure_ascii=False,sort_keys=True))
     except (OSError,ValueError,KeyError,TypeError,json.JSONDecodeError) as e:

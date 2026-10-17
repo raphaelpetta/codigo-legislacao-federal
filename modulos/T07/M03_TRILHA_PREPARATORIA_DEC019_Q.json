@@ -1,0 +1,95 @@
+{
+  "id": "TP-2026-002",
+  "titulo": "T07.M03",
+  "camada_editorial": "CORPUS_EXPERIMENTAL_Q",
+  "camada_preparatoria": "DEC-019",
+  "fonte_primaria": "Lei 9.784/1999",
+  "fonte_pr": 45,
+  "fonte_commit": "2a4d1eefa864f44435aec70ed0cc55a96b718b64",
+  "unidades_c1": [
+    {
+      "id_origem": "P13-01-C",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "P13-01-P1",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "P13-01-P2",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "P13-01-P2-I",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "P13-01-P2-II",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "P13-01-P2-III",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "P19-69-C",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "EXP17-36-C",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "C18-49-A-P1",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "C18-49-B-C",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    },
+    {
+      "id_origem": "C18-49-D-C",
+      "estado": "Q_SEM_C0_J",
+      "prova_formal": "A_VERIFICAR",
+      "revogacao": "NAO_PROPOSTA"
+    }
+  ],
+  "questao_desta_rodada": "QD-2026-005",
+  "unidade_da_questao": "P19-69-C",
+  "status_questao": "SUBMETIDA",
+  "estado_juridico": "Q_SEM_C0_J",
+  "veiculo": "A_VERIFICAR",
+  "iniciativa": "A_VERIFICAR",
+  "quorum": "A_VERIFICAR",
+  "revisao_independente": "PENDENTE",
+  "revogacoes": "NENHUMA",
+  "efeito_legal": "NENHUM",
+  "dec016": "PENDENTE",
+  "dec001": "PRESERVADA",
+  "origens_preservadas": true,
+  "estado_outros_10": "GATE_ABERTO",
+  "fontes": [
+    "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+    "https://www2.camara.leg.br/legin/fed/decret/1970-1979/decreto-70235-6-marco-1972-418562-normaatualizada-pe.html"
+  ]
+}

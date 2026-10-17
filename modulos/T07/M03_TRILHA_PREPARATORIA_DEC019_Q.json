@@ -76,7 +76,7 @@
   ],
   "questao_desta_rodada": "QD-2026-005",
   "unidade_da_questao": "P19-69-C",
-  "status_questao": "SUBMETIDA",
+  "status_questao": "CONFIRMADA",
   "estado_juridico": "Q_SEM_C0_J",
   "veiculo": "A_VERIFICAR",
   "iniciativa": "A_VERIFICAR",
@@ -91,5 +91,12 @@
   "fontes": [
     "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
     "https://www2.camara.leg.br/legin/fed/decret/1970-1979/decreto-70235-6-marco-1972-418562-normaatualizada-pe.html"
-  ]
+  ],
+  "decisao_preparatoria": {
+    "id": "DEC-020",
+    "alternativa": "A",
+    "fechamento": "FC2_ESCOLHA_CONFIRMADA",
+    "alcance": "Somente referente do art69 e especialidade, sem mudança de norma.",
+    "evidencia": "https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6231927148"
+  }
 }

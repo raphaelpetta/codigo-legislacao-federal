@@ -110,10 +110,13 @@ def check(m,source,triage,cases,view,queue,route):
         new=items["QD-2026-006"]
         demand(new["subquestao_de"]=="QD-2026-003"
                and new["maturidade"]=="APTO_A_DELIBERAR"
-               and new["decisao"]["estado"]=="SUBMETIDA"
-               and new["fechamento"]=="FC1_APTO_A_ESCOLHA"
+               and new["decisao"]["estado"]=="CONFIRMADA"
+               and new["decisao"].get("registro_decisao")=="DEC-021"
+               and new["decisao"].get("alternativa_escolhida")==new["alternativas"][0]
+               and new["decisao"].get("aprovador")=="USUARIO"
+               and new["fechamento"]=="FC2_ESCOLHA_CONFIRMADA"
                and new["classe_juridica"]=="Q_SEM_C0_J",
-               "Nova questão de escopo não pode aprovar os três referentes por inércia")
+               "QD006 exige escolha A expressa DEC021 sem equivalência jurídica")
     demand(items["QD-2026-003"]["maturidade"]=="PESQUISA_FOCAL"
            and items["QD-2026-003"]["decisao"]["estado"]=="NAO_SUBMETIDA"
            and items["QD-2026-005"]["decisao"]["registro_decisao"]=="DEC-020"

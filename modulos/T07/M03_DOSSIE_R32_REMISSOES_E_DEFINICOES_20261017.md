@@ -41,7 +41,7 @@ Na [matriz de 215 unidades](M03/MATRIZ_TRIAGEM_215_UNIDADES_CICLO20.csv), os tr�
 
 ## 4. Gate criado e limites expressos
 
-O [mapa R32](../M03_MAPA_TRIPLA_REMISSAO_R32.json), o [verificador](../../scripts/auditar_remissoes_t07_r32.py) e as [contraprovas](../../tests/test_auditar_remissoes_t07_r32.py) impõem:
+O [mapa R32](M03_MAPA_TRIPLA_REMISSAO_R32.json), o [verificador](../../scripts/auditar_remissoes_t07_r32.py) e as [contraprovas](../../tests/test_auditar_remissoes_t07_r32.py) impõem:
 1. **3 vínculos reais** conferidos em fonte C1, triagem de 215 unidades, cenários E04/E12/E08/E09 e prévia Q, com alvo textual correto;
 2. **11 C1 integralmente preservados** (`3 + 7 + 1`), sem promover nenhum a C0-J, M, FC3 ou veículo;
 3. inexistência de homologação material oculta, origem setorial fixa, DEC-001/019/020 salvaguardadas e **DEC-016 PENDENTE**;

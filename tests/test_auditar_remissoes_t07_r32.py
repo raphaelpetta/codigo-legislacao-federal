@@ -43,7 +43,7 @@ class R32RemissoesT07(unittest.TestCase):
     def test_escopo_nao_prova_c0j(self):
         self.no(lambda v:v[0]["remissoes"][0].update(classe_juridica="C0-J"))
     def test_falsa_auditoria_independente(self):
-        self.no(lambda v:v[2][0].update(estado_auditoria_juridica="HOMOLOGADA"))
+        self.no(lambda v:next(x for x in v[2] if x["id_espelho"]=="EXP17-37-C").update(estado_auditoria_juridica="HOMOLOGADA"))
     def test_remissao_sem_protecao_de_direitos(self):
         self.no(lambda v:v[0]["remissoes"][2].update(protecao=""))
     def test_terceiro_cenario_removido(self):

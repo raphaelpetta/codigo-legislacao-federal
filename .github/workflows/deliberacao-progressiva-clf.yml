@@ -15,6 +15,10 @@ on:
       - "tests/test_dec016_deliberacao.py"
       - "tests/test_t07_trilha_dec019.py"
       - "scripts/validar_trilha_t07_dec019.py"
+      - "scripts/auditar_remissoes_t07_r32.py"
+      - "tests/test_auditar_remissoes_t07_r32.py"
+      - "modulos/T07/M03_MAPA_TRIPLA_REMISSAO_R32.json"
+      - "modulos/T07/M03_DOSSIE_R32_REMISSOES_E_DEFINICOES_20261017.md"
       - "modulos/T07/M03_TRILHA_PREPARATORIA_DEC019_Q.json"
       - "modulos/T07/M03_DOSSIE_QD005_ART69_20261017.md"
       - "modulos/T01/M04/DOSSIE_DEC016_QD004_PREPARACAO_JURIDICO_FORMAL_20261016.md"
@@ -27,6 +31,8 @@ on:
       - "tests/test_validar_fila_deliberacao.py"
       - "tests/test_t07_trilha_dec019.py"
       - "scripts/validar_trilha_t07_dec019.py"
+      - "scripts/auditar_remissoes_t07_r32.py"
+      - "tests/test_auditar_remissoes_t07_r32.py"
       - ".github/workflows/deliberacao-progressiva-clf.yml"
   workflow_dispatch:
 permissions:
@@ -49,6 +55,10 @@ jobs:
         run: python3 scripts/validar_trilha_t07_dec019.py
       - name: Testes adversariais da trilha T07
         run: python3 -m unittest discover -s tests -p 'test_t07_trilha_dec019.py' -v
+      - name: Gate R32 remissoes documentais e outros sete C1
+        run: python3 scripts/auditar_remissoes_t07_r32.py
+      - name: Contraprovas R32 sobre prova participacao e intimacao
+        run: python3 -m unittest discover -s tests -p 'test_auditar_remissoes_t07_r32.py' -v
       - name: Preflight do corpus experimental preservado
         run: python3 scripts/preflight_consolidacao.py --root .
       - name: Estrutura geral

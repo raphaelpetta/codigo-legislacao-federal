@@ -13,6 +13,10 @@ on:
       - "scripts/validar_fila_deliberacao.py"
       - "tests/test_validar_fila_deliberacao.py"
       - "tests/test_dec016_deliberacao.py"
+      - "tests/test_t07_trilha_dec019.py"
+      - "scripts/validar_trilha_t07_dec019.py"
+      - "modulos/T07/M03_TRILHA_PREPARATORIA_DEC019_Q.json"
+      - "modulos/T07/M03_DOSSIE_QD005_ART69_20261017.md"
       - "modulos/T01/M04/DOSSIE_DEC016_QD004_PREPARACAO_JURIDICO_FORMAL_20261016.md"
       - ".github/workflows/deliberacao-progressiva-clf.yml"
   push:
@@ -21,6 +25,8 @@ on:
       - "governanca/**"
       - "scripts/validar_fila_deliberacao.py"
       - "tests/test_validar_fila_deliberacao.py"
+      - "tests/test_t07_trilha_dec019.py"
+      - "scripts/validar_trilha_t07_dec019.py"
       - ".github/workflows/deliberacao-progressiva-clf.yml"
   workflow_dispatch:
 permissions:
@@ -39,6 +45,10 @@ jobs:
         run: python3 scripts/validar_fila_deliberacao.py --root .
       - name: Regressao contra homologacao e escolha tacita
         run: python3 -m unittest discover -s tests -p 'test_*deliberacao*.py' -v
+      - name: Gate da trilha T07 e onze deltas C1 Q
+        run: python3 scripts/validar_trilha_t07_dec019.py
+      - name: Testes adversariais da trilha T07
+        run: python3 -m unittest discover -s tests -p 'test_t07_trilha_dec019.py' -v
       - name: Preflight do corpus experimental preservado
         run: python3 scripts/preflight_consolidacao.py --root .
       - name: Estrutura geral

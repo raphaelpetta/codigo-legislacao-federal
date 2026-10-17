@@ -1,0 +1,44 @@
+name: CLF - T05 suplemento 9709 arts 3 a 15 Q
+on:
+  pull_request:
+    paths:
+      - "produto/**"
+      - "modulos/T05/M06_ESPELHO_LEI9709_ART3_15_23_Q.csv"
+      - "modulos/T05/M06_PORTAS_ABC_SUPLEMENTO_ART3_15_20261016.md"
+      - "scripts/gerar_previa_t05_23.py"
+      - "scripts/validar_t05_suplemento_r3.py"
+      - "tests/test_t05_suplemento_r3.py"
+      - ".github/workflows/t05-suplemento-r3.yml"
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit-t05-supplement:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do corpus de trabalho
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Checkout PR80 onde a origem de 23 unidades existe
+        uses: actions/checkout@v4
+        with:
+          ref: 37babdb31da5b37b7c905ae51f3b7590b39e85f7
+          path: origem
+          persist-credentials: false
+      - name: Identidade da origem 23 unidades e gate dos efeitos
+        run: python3 -u scripts/validar_t05_suplemento_r3.py --source-root origem
+      - name: Validador documental original do PR80
+        run: python3 -u scripts/gerar_previa_t05_23.py
+      - name: Regressões de correções silenciosas, vigência e origem
+        run: python3 -m unittest discover -s tests -p 'test_t05_suplemento_r3.py' -v
+      - name: Gerador único do Código de Trabalho
+        run: python3 scripts/gerar_codigo_integrado.py --check
+      - name: Preflight estrutural (não C0-J)
+        run: python3 scripts/preflight_consolidacao.py --root .
+      - name: Integridade geral
+        run: python3 scripts/verificar_estrutura.py

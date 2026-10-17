@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "id": "T07-R33-SETE-C1",
+  "data_corte": "2026-10-17",
+  "carater": "AUDITORIA_DOCUMENTAL_NAO_JURIDICA",
+  "main_inicial": "0534320f165ebec5974e7c48084e4d806ee01b2e",
+  "t07_origem_commit": "2a4d1eefa864f44435aec70ed0cc55a96b718b64",
+  "fonte_institucional_vigente": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+  "fonte_inclusao_decisao_coordenada": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14210-30-setembro-2021-791798-publicacaooriginal-163516-pl.html",
+  "dec016": "PENDENTE",
+  "dec019": "CONFIRMADA_PREPARATORIA",
+  "dec020": "CONFIRMADA_PREPARATORIA",
+  "equivalencia_juridica": "Q_SEM_C0_J",
+  "proveniencia": "MATRIZ_CANONICA_11_C1_E_TRIAGEM_215",
+  "plano_auditoria": "CONFRONTO_SETORIAL_DESCRITIVO",
+  "scoping_group": "QD-2026-006",
+  "fechamento_grupo": "APTO_A_DELIBERAR_SEM_APROVACAO",
+  "grupo_unidades": [
+    "P13-01-C",
+    "P13-01-P1",
+    "P13-01-P2"
+  ],
+  "nota_pontuacao": "Três itens de pontuação têm diferença isoladamente tipográfica, mas permanecem Q por dependência do escopo do art.1 §2 e de revisão independente.",
+  "sete": [
+    {
+      "id_origem": "P13-01-C",
+      "risco": "CRITICO",
+      "tema": "AMBITO_FEDERAL",
+      "dispositivo": "art. 1º caput",
+      "cenario_principal": "T07-E01",
+      "invariante": "É vedado estender normas gerais do processo federal a estados ou municípios por simples integração editorial",
+      "avaliacao": "NAO_COMPROVADO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado": "PESQUISA_FOCAL",
+      "necessita_revisao_independente": true
+    },
+    {
+      "id_origem": "P13-01-P1",
+      "risco": "CRITICO",
+      "tema": "FUNCAO_ADMINISTRATIVA_OUTROS_PODERES",
+      "dispositivo": "art. 1º §1º",
+      "cenario_principal": "T07-E02",
+      "invariante": "Abrangência em Legislativo/Judiciário da União somente em função administrativa, preservadas normas próprias",
+      "avaliacao": "NAO_COMPROVADO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado": "PESQUISA_FOCAL",
+      "necessita_revisao_independente": true
+    },
+    {
+      "id_origem": "P13-01-P2",
+      "risco": "ALTO",
+      "tema": "DEFINICOES_RESTRITAS_REGIME_FEDERAL",
+      "dispositivo": "art. 1º §2º",
+      "cenario_principal": "T07-E03",
+      "invariante": "Definições de órgão, entidade e autoridade não podem ser universalizadas para demais títulos do Código",
+      "avaliacao": "NAO_COMPROVADO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado": "PESQUISA_FOCAL",
+      "necessita_revisao_independente": true
+    },
+    {
+      "id_origem": "P13-01-P2-I",
+      "risco": "BAIXO",
+      "tema": "TIPOGRAFIA_ORGAO",
+      "dispositivo": "art. 1º §2º I",
+      "cenario_principal": "T07-E03",
+      "invariante": "Pontuação dois-pontos não implica, por si, nova competência administrativa; verificar fidelidade documental",
+      "avaliacao": "APENAS_TIPOGRAFIA_ISOLADA",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado": "PESQUISA_FOCAL",
+      "necessita_revisao_independente": true
+    },
+    {
+      "id_origem": "P13-01-P2-II",
+      "risco": "BAIXO",
+      "tema": "TIPOGRAFIA_ENTIDADE",
+      "dispositivo": "art. 1º §2º II",
+      "cenario_principal": "T07-E03",
+      "invariante": "Pontuação dois-pontos não altera por si personalidade jurídica; escopo atrelado ao parágrafo 2º",
+      "avaliacao": "APENAS_TIPOGRAFIA_ISOLADA",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado": "PESQUISA_FOCAL",
+      "necessita_revisao_independente": true
+    },
+    {
+      "id_origem": "P13-01-P2-III",
+      "risco": "BAIXO",
+      "tema": "TIPOGRAFIA_AUTORIDADE",
+      "dispositivo": "art. 1º §2º III",
+      "cenario_principal": "T07-E03",
+      "invariante": "Pontuação dois-pontos não modifica por si poder de decisão do agente; escopo não universal",
+      "avaliacao": "APENAS_TIPOGRAFIA_ISOLADA",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado": "PESQUISA_FOCAL",
+      "necessita_revisao_independente": true
+    },
+    {
+      "id_origem": "C18-49-A-P1",
+      "risco": "ALTO",
+      "tema": "DECISAO_COORDENADA_LIMITES",
+      "dispositivo": "art. 49-A §1º",
+      "cenario_principal": "T07-E07",
+      "invariante": "Respeitar participação técnica, responsabilidade originária (§4º), exclusões (§6º), competência e vetos (§§2º–3º)",
+      "avaliacao": "NAO_COMPROVADO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado": "PESQUISA_FOCAL",
+      "necessita_revisao_independente": true
+    }
+  ],
+  "restante": {
+    "remissoes_t07_r32": [
+      "EXP17-36-C",
+      "C18-49-B-C",
+      "C18-49-D-C"
+    ],
+    "art69_dec020": "P19-69-C",
+    "total_c1": 11,
+    "fechos_juridicos": 0,
+    "revogacoes": 0,
+    "reformas_m_aprovadas": 0
+  },
+  "proximos": [
+    "Selecionar alternativa A/B/C na QD-2026-006 somente por aprovação expressa.",
+    "Cotejar atos modificadores/vetos e jurisprudência aplicável antes de formalizar equivalência jurídica.",
+    "Exclusões do art49-A §6 e responsabilidade §4 não se confundem com definições do art1."
+  ]
+}

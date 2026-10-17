@@ -4,7 +4,7 @@
   "adocao_metodologica": "DEC-018",
   "deliberacao_material_automatica": false,
   "dec016": "PENDENTE",
-  "observacao": "4 questões: QD-2026-004 escolhida expressamente alternativa A, DEC-019 confirmada, FC2; 3 pilotos em pesquisa focal/FC0, inclusive DEC-016 principal pendente; nenhuma reforma M ou C0-J aprovada.",
+  "observacao": "5 questões: QD004 A aprovada DEC019/FC2; QD005 art69 T07 apta e SUBMETIDA/FC1, não ratificada; QD001/002/003 ainda pesquisa focal; DEC016 pendente; C0-J/M=0.",
   "questoes": [
     {
       "id": "QD-2026-001",
@@ -176,6 +176,56 @@
       "versao_base": "a9929300882a532be58b3586fdcdbde66e9b0849",
       "data_corte": "2026-10-16",
       "observacao_decisoria": "Alternativa A foi expressamente aprovada pelo usuário para ARQUITETURA PREPARATÓRIA, registrada em DEC-019. A fonte principal é a mensagem direta neste chat; permalink da central é transcrição secundária. QD-2026-001 e DEC-016 permanecem abertas e nenhuma lei foi promovida."
+    },
+    {
+      "id": "QD-2026-005",
+      "subquestao_de": "QD-2026-003",
+      "objeto": "T07 — referente da subsidiariedade no art. 69 da Lei 9.784/1999",
+      "escopo": "P19-69-C / T07.M03 / preparação DEC-019",
+      "maturidade": "APTO_A_DELIBERAR",
+      "decisao": {
+        "estado": "SUBMETIDA",
+        "alternativa_escolhida": null,
+        "aprovador": null,
+        "evidencia_aprovacao": null,
+        "registro_decisao": null,
+        "motivo_reabertura": null
+      },
+      "fechamento": "FC1_APTO_A_ESCOLHA",
+      "classe_juridica": "Q_SEM_C0_J",
+      "risco": "R3",
+      "ganho_potencial": "ALTO",
+      "desbloqueio": "ALTO",
+      "esforco": "MEDIO",
+      "alternativas": [
+        "A — Conservar como referência preparatória o art. 69 da Lei 9.784/1999 e a precedência dos procedimentos especiais; só converter a remissão no futuro Código mediante auditoria de âmbito, equivalência e veículo.",
+        "B — Preparar remissão ao Livro T07, condicionada a delimitação legislativa de seu âmbito, concordância dos regimes especiais e revisão jurídica independente, permanecendo C1/Q.",
+        "C — Desenvolver reforma material M expressa da subsidiariedade e dos procedimentos especiais, com justificativa, salvaguardas e decisão autônoma."
+      ],
+      "pergunta_deliberacao": "Qual orientação preparatória deve valer para o art. 69 no futuro CLF: A (preservar referente da Lei 9.784 e especialidade), B (remeter ao Livro T07 com auditoria e condições) ou C (estudar reforma material expressa)? Não significa promulgação, revogação ou DEC-016 decidida.",
+      "melhor_objecao": "Conservar 'desta Lei' literalmente em Código promulgado também pode deslocar o referente; a escolha A apenas protege o recorte de origem até solução legislativa competente.",
+      "dependencias": [
+        "Lei 9.784 arts. 1 e 69; restrição ao âmbito administrativo federal",
+        "Decreto 70.235/1972 e alterações da LC 227/2026, especialidade fiscal",
+        "Lei 14.210/2021 art. 49-A §6 e Lei 14.129/2021 arts. 42–43",
+        "DEC-019 dupla camada E/P; DEC-016 pendente"
+      ],
+      "criterio_aptidao": "Confronto institucional da Lei 9.784 art. 69, âmbito art. 1, procedimento fiscal especial atualizado em 2026, três alternativas, objeção e riscos R3. Apenas escolha de orientação preparatória; não auditoria C0-J.",
+      "proximo_passo": "Encaminhar alternativas A/B/C à aprovação específica; sem escolha expressa, prosseguir estudo focal, mantendo onze deltas C1 Q.",
+      "referencias": [
+        "central/03_T07_GATE_C1_11_EFEITOS_20261015.csv",
+        "governanca/20_DIRETRIZ_DUPLA_CAMADA_DEC019.md",
+        "modulos/T07/M03_DOSSIE_QD005_ART69_20261017.md"
+      ],
+      "ref_dossie": "modulos/T07/M03_DOSSIE_QD005_ART69_20261017.md",
+      "evidencias_maturidade": [
+        "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+        "https://www2.camara.leg.br/legin/fed/decret/1970-1979/decreto-70235-6-marco-1972-418562-normaatualizada-pe.html"
+      ],
+      "versao_base": "5428c2d504818369124cce5e91684b369398ee93",
+      "data_corte": "2026-10-17",
+      "observacao_decisoria": "Somente P19-69-C apta; pai QD003 e dez outros C1 permanecem em pesquisa. Nenhuma opção escolhida por letra isolada."
     }
   ]
 }

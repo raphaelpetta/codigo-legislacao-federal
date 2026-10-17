@@ -4,7 +4,7 @@
   "adocao_metodologica": "DEC-018",
   "deliberacao_material_automatica": false,
   "dec016": "PENDENTE",
-  "observacao": "Fila de candidatas: triagem não é aptidão, decisão nem homologação. 3 pilotos prospectivos; não altera Q da main.",
+  "observacao": "4 questões: três pilotos Q em pesquisa focal e 1 subquestão DEC-016 pronta e submetida, sem opção aprovada. DEC-016 principal permanece pendente.",
   "questoes": [
     {
       "id": "QD-2026-001",
@@ -122,6 +122,56 @@
       ],
       "versao_base": "73b47b9160edb3ce8dc03027cb1839c1c9ead4bd",
       "data_corte": "2026-10-16"
+    },
+    {
+      "id": "QD-2026-004",
+      "subquestao_de": "QD-2026-001",
+      "objeto": "DEC-016/1 — arquitetura preparatória do CLF sob a CF/1988 enquanto permanece pendente a escolha definitiva de positivação",
+      "escopo": "T01.M04 / unidade editorial × veículos jurídicos / decisão estruturante provisória do anteprojeto",
+      "maturidade": "APTO_A_DELIBERAR",
+      "decisao": {
+        "estado": "SUBMETIDA",
+        "alternativa_escolhida": null,
+        "aprovador": null,
+        "evidencia_aprovacao": null,
+        "registro_decisao": null,
+        "motivo_reabertura": null
+      },
+      "fechamento": "FC1_APTO_A_ESCOLHA",
+      "classe_juridica": "Q_SEM_C0_J",
+      "risco": "R3",
+      "ganho_potencial": "ALTO",
+      "desbloqueio": "ALTO",
+      "esforco": "BAIXO",
+      "alternativas": [
+        "A — Dupla camada: Código editorial único e trilhas de positivação próprias por espécie, iniciativa, competência e quórum, sem revogação por catálogo e sem renunciar à DEC-001.",
+        "B — Minuta formal única como hipótese principal, segregando componentes de validade não demonstrada e mantendo eventual promulgação integral condicionada à auditoria e à solução da DEC-016.",
+        "C — Adiar desenho das trilhas de positivação até solução definitiva da DEC-016; manter exclusivamente a integração editorial Q e estudos."
+      ],
+      "pergunta_deliberacao": "Enquanto a DEC-016 não for resolvida, qual arquitetura de PREPARAÇÃO jurídico-formal o CLF deverá adotar: A (dupla camada e trilhas próprias), B (minuta formal única condicionada) ou C (adiar desenho de veículos)? A escolha será apenas diretriz do anteprojeto, não promulgação, revogação nem definição definitiva de DEC-016.",
+      "melhor_objecao": "A separação editorial/positivação pode preservar constitucionalidade prática, mas frustrar ou adiar indefinidamente a unidade jurídico-formal expressamente pretendida pela DEC-001; não há regra que torne automaticamente constitucional reedição substitutiva de matéria reservada.",
+      "dependencias": [
+        "DEC-001: Código único como objetivo, não renunciado",
+        "DEC-016: eleição final de veículos, iniciativa, competência, espécie, quórum e vetos continua PENDENTE",
+        "Cotejo concreto por matéria, LC 95/1998 art. 14 §2º versus reservas constitucionais, transições, revogações e interfaces CF independentes"
+      ],
+      "criterio_aptidao": "Alternativas A/B/C e contrafactuais distinguem preparação editorial, proposta legislativa e positivação. Fundamentos CF arts. 59,61,66,69,96 e LC95 arts. 7,9,13,14 conferidos em fontes institucionais, risco de iniciativa e melhor objeção expostos; escolha reversível do modo de preparar o texto, sem escolher veículo final.",
+      "proximo_passo": "Obter escolha expressa A/B/C do usuário, ou pedido específico de revisão. Somente então registrar nova DEC confirmada, limites de sua aplicabilidade e plano técnico condicionado, mantendo DEC-016 pendente.",
+      "referencias": [
+        "governanca/19_PROCEDIMENTO_CONSTRUCAO_DELIBERACAO_FECHAMENTO.md",
+        "modulos/T01/M04/DOSSIE_DEC016_QD004_PREPARACAO_JURIDICO_FORMAL_20261016.md",
+        "modulos/T01/M04/PARECER_04_VIABILIDADE_FORMAL_CODIGO_UNICO.md",
+        "modulos/T01/M04/PARECER_06_INICIATIVA_RESERVADA_E_CONSOLIDACAO_FIEL.md"
+      ],
+      "ref_dossie": "modulos/T01/M04/DOSSIE_DEC016_QD004_PREPARACAO_JURIDICO_FORMAL_20261016.md",
+      "evidencias_maturidade": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www2.camara.leg.br/legin/fed/leicom/1998/leicomplementar-95-26-fevereiro-1998-363948-normaatualizada-pl.html",
+        "https://www2.camara.leg.br/legin/fed/decret/2024/decreto-12002-22-abril-2024-795527-normaatualizada-pe.html"
+      ],
+      "versao_base": "a9929300882a532be58b3586fdcdbde66e9b0849",
+      "data_corte": "2026-10-16",
+      "observacao_decisoria": "Encaminhada à escolha expressa A/B/C nesta rodada. SUBMETIDA não implica aprovação por 'Bora' nem registro DEC automático. O parent QD-2026-001 e DEC-016 permanecem em pesquisa focal/pendência."
     }
   ]
 }

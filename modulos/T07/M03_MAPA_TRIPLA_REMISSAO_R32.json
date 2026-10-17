@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "T07-R32-TRIPLA-REMISSAO",
+  "data_corte": "2026-10-17",
+  "dec018": "V_I",
+  "dec019": "DUPLA_CAMADA_APROVADA",
+  "dec020": "ART69_REFERENTE_PREPARATORIO_APROVADO",
+  "dec016": "PENDENTE",
+  "condicao": "APENAS_PROVA_DOCUMENTAL_SEM_EQUIVALENCIA_JURIDICA",
+  "fonte_setorial_pr": 45,
+  "fonte_setorial_sha": "2a4d1eefa864f44435aec70ed0cc55a96b718b64",
+  "fonte_oficial": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+  "fonte_matriz": "central/03_T07_GATE_C1_11_EFEITOS_20261015.csv",
+  "fonte_triangulacao": "modulos/T07/M03/MATRIZ_TRIAGEM_215_UNIDADES_CICLO20.csv",
+  "vista_experimental": "produto/vistas/T07_PROCESSO_ADMINISTRATIVO_PREVIA.md",
+  "remissoes": [
+    {
+      "origem_id": "EXP17-36-C",
+      "origem_artigo": "36",
+      "alvo_lei": "37",
+      "destino_unidade_fonte": "EXP17-37-C",
+      "id_artigo_experimental_origem": "LPA-SEQ4-036",
+      "id_artigo_experimental_alvo": "LPA-SEQ4-037",
+      "alvo_citacao": "art. 37 desta Lei",
+      "alvo_experimental": "art. 37 deste Livro",
+      "cabecalho_fonte_alvo": "Quando o interessado declarar que fatos e dados estão registrados em documentos existentes na própria Administração",
+      "cenario_ids": [
+        "T07-E04",
+        "T07-E12"
+      ],
+      "protecao": "Dever de o órgão obter de ofício documentos existentes na Administração, sem ampliar o ônus do interessado",
+      "risco": "CRITICO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado_auditoria": "VINCULO_DOCUMENTAL_VERIFICAVEL_SEM_HOMOLOGACAO"
+    },
+    {
+      "origem_id": "C18-49-B-C",
+      "origem_artigo": "49-B",
+      "alvo_lei": "9",
+      "destino_unidade_fonte": "EXP15-9-C",
+      "id_artigo_experimental_origem": "LPA-SEQ4-051",
+      "id_artigo_experimental_alvo": "LPA-SEQ4-009",
+      "alvo_citacao": "art. 9º desta Lei",
+      "alvo_experimental": "art. 9º deste Livro",
+      "cabecalho_fonte_alvo": "São legitimados como interessados no processo administrativo",
+      "cenario_ids": [
+        "T07-E08"
+      ],
+      "protecao": "Todos os legitimados originais preservados; ouvintes não têm automaticamente voto, conferir habilitação e voz",
+      "risco": "ALTO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado_auditoria": "VINCULO_DOCUMENTAL_VERIFICAVEL_SEM_HOMOLOGACAO"
+    },
+    {
+      "origem_id": "C18-49-D-C",
+      "origem_artigo": "49-D",
+      "alvo_lei": "26",
+      "destino_unidade_fonte": "EXP16-26-C",
+      "id_artigo_experimental_origem": "LPA-SEQ4-052",
+      "id_artigo_experimental_alvo": "LPA-SEQ4-026",
+      "alvo_citacao": "art. 26 desta Lei",
+      "alvo_experimental": "art. 26 deste Livro",
+      "cabecalho_fonte_alvo": "O órgão competente perante o qual tramita o processo administrativo determinará a intimação do interessado",
+      "cenario_ids": [
+        "T07-E09"
+      ],
+      "protecao": "Prova de ciência e forma válida de intimação, inclusive ressalva de comparecimento e legislação especial",
+      "risco": "CRITICO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "estado_auditoria": "VINCULO_DOCUMENTAL_VERIFICAVEL_SEM_HOMOLOGACAO"
+    }
+  ],
+  "art69_ja_deliberado": {
+    "origem_id": "P19-69-C",
+    "decisao": "DEC-020",
+    "estado": "CONFIRMADA_PREPARATORIA_FC2",
+    "classe_juridica": "Q_SEM_C0_J",
+    "fechamento_juridico": "NAO"
+  },
+  "outros_c1_ainda_sem_fecho": [
+    "P13-01-C",
+    "P13-01-P1",
+    "P13-01-P2",
+    "P13-01-P2-I",
+    "P13-01-P2-II",
+    "P13-01-P2-III",
+    "C18-49-A-P1"
+  ],
+  "contagens": {
+    "total_c1": 11,
+    "triple_remissoes": 3,
+    "art69_procedimental": 1,
+    "outros_c1": 7,
+    "homologados_c0j": 0,
+    "reformas_m_aprovadas": 0
+  },
+  "observacoes": [
+    "IDs LPA-SEQ4 são destinos provisórios de prévia Q, não números promulgados.",
+    "Coincidência atual 37/9/26 com numeração histórica é contingente e não prova equivalência depois de futura reorganização.",
+    "Art.69 tem decisão de preparação DEC-020, mas continua Q e sem texto final aprovado.",
+    "Não conferir ao editor poder de alterar remissão normativa, prazos, defesa, legitimados ou imputação de prova."
+  ]
+}

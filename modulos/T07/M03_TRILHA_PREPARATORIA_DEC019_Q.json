@@ -98,5 +98,19 @@
     "fechamento": "FC2_ESCOLHA_CONFIRMADA",
     "alcance": "Somente referente do art69 e especialidade, sem mudança de norma.",
     "evidencia": "https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6231927148"
+  },
+  "auditoria_documental_r32": {
+    "estado": "TRES_VINCULOS_CONFERIDOS_DOCUMENTALMENTE_Q",
+    "mapa": "modulos/T07/M03_MAPA_TRIPLA_REMISSAO_R32.json",
+    "dossie": "modulos/T07/M03_DOSSIE_R32_REMISSOES_E_DEFINICOES_20261017.md",
+    "vinculos": [
+      "EXP17-36-C:37",
+      "C18-49-B-C:9",
+      "C18-49-D-C:26"
+    ],
+    "outros_c1_pendentes": 7,
+    "art69_dec020": "FC2_APENAS_PREPARATORIO",
+    "efeitos_legais": "NENHUM",
+    "revisao_juridica_independente": "PENDENTE"
   }
 }

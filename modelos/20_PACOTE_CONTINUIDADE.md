@@ -3,6 +3,7 @@
 **Sessão/módulo:** Txx.Myy / CF-IC / integração
 **Data e corte:**  
 **Questão e escopo:**  
+**Questão da fila (se aplicável):** QD-AAAA-NNN; maturidade = ; decisão = ; fechamento FC0–FC5 = ; motivo e alternativa preterida = ; evidência ou bloqueio =   
 **Responsável funcional:**  
 **Versões confirmadas:** CLF main SHA entrada = ; SHA ao encerrar = ; CF main SHA (se aplicável) = ; branch = ; PR/issue = .
 **Fontes oficiais consultadas, dispositvos e datas:**  
@@ -29,7 +30,8 @@ Incluir impactos de aplicação temporal, autonomia federativa e direitos quando
 **Issue/módulo e quem deve conduzir:**  
 **Insumos e fontes a conferir:**  
 **Entregável esperado e critério de aceitação:**  
-**Outros trabalhos na fila:**
+**Outros trabalhos na fila:**  
+**Próxima deliberação madura ou pesquisa focal necessária:**
 
 ## 4. COORDENAÇÃO E PROVENIÊNCIA
 

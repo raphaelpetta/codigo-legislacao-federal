@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "registro": "CLF-GOV-019-FILA",
+  "adocao_metodologica": "DEC-018",
+  "deliberacao_material_automatica": false,
+  "dec016": "PENDENTE",
+  "observacao": "Fila de candidatas: triagem não é aptidão, decisão nem homologação. 3 pilotos prospectivos; não altera Q da main.",
+  "questoes": [
+    {
+      "id": "QD-2026-001",
+      "objeto": "DEC-016 — escolha progressiva de parâmetros do veículo jurídico de positivação do Código único",
+      "escopo": "T01.M04 / arquitetura / interface CF",
+      "maturidade": "PESQUISA_FOCAL",
+      "decisao": {
+        "estado": "NAO_SUBMETIDA",
+        "alternativa_escolhida": null,
+        "aprovador": null,
+        "evidencia_aprovacao": null,
+        "registro_decisao": null,
+        "motivo_reabertura": null
+      },
+      "fechamento": "FC0_ABERTO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "risco": "R3",
+      "ganho_potencial": "ALTO",
+      "desbloqueio": "ALTO",
+      "esforco": "ALTO",
+      "alternativas": [
+        "Manter unidade editorial com veículos jurídicos próprios sob CF/1988",
+        "Examinar outra solução formal constitucionalmente válida, sem presumir competência",
+        "Condicionar veículo formal único a mudança constitucional ainda não deliberada"
+      ],
+      "melhor_objecao": "A unidade editorial não garante unidade formal; veto, iniciativa reservada, espécie e revogações podem inviabilizar alternativa aparentemente elegante.",
+      "dependencias": [
+        "DEC-016 permanece pendente",
+        "Competências e espécies da CF/1988",
+        "Interfaces específicas com projeto CF sem importação de hipóteses como direito vigente"
+      ],
+      "criterio_aptidao": "Separar subdecisões de organização editorial já controláveis das escolhas jurídico-formais dependentes de iniciativa, veto, espécie e transição; dossiê com premissas e efeitos.",
+      "proximo_passo": "Produzir quadro de opções DEC-016 por questão decidível e identificação expressa das portas jurídicas sem deliberação automática.",
+      "referencias": [
+        "governanca/04_REGISTRO_DE_DECISOES.md",
+        "governanca/07_STATUS_E_DEPENDENCIAS.md"
+      ],
+      "versao_base": "73b47b9160edb3ce8dc03027cb1839c1c9ead4bd",
+      "data_corte": "2026-10-16"
+    },
+    {
+      "id": "QD-2026-002",
+      "objeto": "T05.M06 — piloto de fechamento conservador da Lei 9.709/1998, arts. 1º–2º",
+      "escopo": "T05.M06 / democracia direta",
+      "maturidade": "PESQUISA_FOCAL",
+      "decisao": {
+        "estado": "NAO_SUBMETIDA",
+        "alternativa_escolhida": null,
+        "aprovador": null,
+        "evidencia_aprovacao": null,
+        "registro_decisao": null,
+        "motivo_reabertura": null
+      },
+      "fechamento": "FC0_ABERTO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "risco": "R2",
+      "ganho_potencial": "MEDIO",
+      "desbloqueio": "ALTO",
+      "esforco": "MEDIO",
+      "alternativas": [
+        "Manter texto vigente e remissões específicas do diploma de 1998",
+        "Transposição conservadora após comprovar equivalência e referente",
+        "Propor adaptação material explicitamente M, se justificada pelo confronto"
+      ],
+      "melhor_objecao": "Transcrição fiel em duas vistas não demonstra que o referencial da lei de origem permaneça válido após codificação nem autentica toda a cadeia do DOU.",
+      "dependencias": [
+        "Verificar texto oficial e versão temporal do recorte",
+        "Portas A/B/C de direitos políticos e consultas",
+        "DEC-016 antes de efeitos formais de positivação"
+      ],
+      "criterio_aptidao": "Duplo cotejo dos arts 1–2, identificação de efeitos de remissões e espécies; quadro de manutenção vs transposição sem alteração silenciosa.",
+      "proximo_passo": "Finalizar dossiê dos arts. 1º–2º e distinguir o que pode ser fechado editorialmente do que depende de autenticidade e DEC-016.",
+      "referencias": [
+        "produto/fontes/indice_livros.json",
+        "modulos/T05/M06_PORTAS_ABC_PRIMEIRA_INTEGRACAO_20261016.md"
+      ],
+      "versao_base": "73b47b9160edb3ce8dc03027cb1839c1c9ead4bd",
+      "data_corte": "2026-10-16"
+    },
+    {
+      "id": "QD-2026-003",
+      "objeto": "T07.M03 — escolha sobre o referente e a aplicação subsidiária em uma das onze questões C1 potenciais",
+      "escopo": "T07.M03 / processo administrativo federal",
+      "maturidade": "PESQUISA_FOCAL",
+      "decisao": {
+        "estado": "NAO_SUBMETIDA",
+        "alternativa_escolhida": null,
+        "aprovador": null,
+        "evidencia_aprovacao": null,
+        "registro_decisao": null,
+        "motivo_reabertura": null
+      },
+      "fechamento": "FC0_ABERTO",
+      "classe_juridica": "Q_SEM_C0_J",
+      "risco": "R3",
+      "ganho_potencial": "ALTO",
+      "desbloqueio": "MEDIO",
+      "esforco": "MEDIO",
+      "alternativas": [
+        "Preservar referência e alcance originais da Lei 9.784/1999",
+        "Explicitar aplicação subsidiária apenas se juridicamente justificada",
+        "Formular reforma material de escopo, com M explícita e contraprovas"
+      ],
+      "melhor_objecao": "A transformação de lei procedimental federal em Livro transversal pode alcançar procedimentos especiais e entes não abrangidos pelo texto de origem.",
+      "dependencias": [
+        "Concordância das onze questões C1 potenciais",
+        "Competência federal e procedimentos especiais",
+        "Vigência e efeitos por data, garantias e contraditório"
+      ],
+      "criterio_aptidao": "Selecionar uma questão concreta dentre as 11 e produzir efeitos, garantias, melhor objeção, contraprovas e alternativas determinadas.",
+      "proximo_passo": "Identificar efeito C1 de maior poder desbloqueador e preparar ficha decisória para aprovação específica, sem generalizar toda a Lei 9.784.",
+      "referencias": [
+        "central/03_T07_GATE_C1_11_EFEITOS_20261015.csv",
+        "modulos/T07/M03_PORTAS_ABC_C1_20261016.md"
+      ],
+      "versao_base": "73b47b9160edb3ce8dc03027cb1839c1c9ead4bd",
+      "data_corte": "2026-10-16"
+    }
+  ]
+}

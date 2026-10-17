@@ -1,6 +1,6 @@
 # Plano operacional de execução modular e integração do CLF
 
-**ID:** CLF-OPS-016 | **Versão:** 0.3 | **Data:** 13/10/2026  
+**ID:** CLF-OPS-016 | **Versão:** 0.4 | **Data:** 16/10/2026  
 **Natureza:** governança operacional do anteprojeto; não direito vigente nem deliberação legislativa.
 
 ## 1. Fonte de verdade e organização
@@ -38,6 +38,8 @@ Um mesmo usuário ou assistente pode ocupar várias frentes, mas cada mudança s
 10. **F7–F8 — Testes e crítica adversarial:** constitucionalidade A/B quando pertinente, competências, direitos, não regressão não examinada, sanções, procedimentos, transição e possíveis abusos.
 11. **F9 — Proposta de integração:** PR de branch de módulo, resumo de mudanças, fontes e pendências, referências a decisões e interfaces. Revisão central e aprovação de escolhas relevantes.
 12. **Integração e rechecagem:** registrar alterações aceitas, atualizar concordância, índices, dependências e versão; reabrir módulos impactados.
+
+**DEC-018 — ramo contínuo de deliberação:** durante F0–F9, **cada questão identificável** pode ser registrada em [fila canônica](../governanca/19_FILA_QUESTOES_DELIBERAVEIS.json) e encaminhada a decisão tão logo tenha maturidade suficiente, sem esperar todo o módulo. Utilizar [CLF-GOV-019](../governanca/19_PROCEDIMENTO_CONSTRUCAO_DELIBERACAO_FECHAMENTO.md), distinguindo maturidade, decisão expressa, fechamento FC0–FC5 e classe jurídica C0-T/C0-J/C1/M/Q. Comparar H/V/I/D/F por ganho marginal global; continuar a pesquisa focal da parte bloqueada enquanto outras partes avançam. CI/PR não homologam direitos.
 
 **Portas:** `PLANEJADO` → `INVENTARIADO` → `AUDITADO` → `REDIGIDO` → `REVISADO` → `INTEGRADO` → `ESTABILIZADO`. Os status intermediários não são equivalentes a validade legal e não podem ser pulados sem documentação.
 

@@ -1,6 +1,6 @@
 # Registro central de decisões e questões pendentes
 
-**ID:** CLF-GOV-004 | **Versão:** 0.3 | **Data:** 13/10/2026
+**ID:** CLF-GOV-004 | **Versão:** 0.4 | **Data:** 16/10/2026
 
 > Estados possíveis: `CONFIRMADA_PELO_USUARIO`, `HIPOTESE_DE_TRABALHO`, `PENDENTE`, `SUBSTITUIDA`. As confirmações dizem respeito às **premissas do projeto**, não ao direito vigente.
 
@@ -23,6 +23,7 @@
 | DEC-015 | CONFIRMADA_PELO_USUARIO | Repositório operacional | Usar o GitHub `raphaelpetta/codigo-legislacao-federal` como repositório versionado de referência; chats produzem análises e PRs, sem sincronização presumida. | Governança operacional e controle de versões | 0.3 |
 | DEC-016 | PENDENTE | Veículos legislativos do Código único | Definir solução jurídica para unidade normativa e editorial sem ignorar competências, reservas e espécies exigidas pela CF/1988 ou alternativa constitucional futura. | T01.M04 e interface constitucional | 0.3 |
 | DEC-017 | HIPOTESE_DE_TRABALHO | Sequência do piloto | Iniciar T01.M04, prosseguir por T01.M03/M05/M01/M02 e aplicar piloto material T07.M03, sujeito a revisão conforme resultados. | Roadmap inicial | 0.3 |
+| DEC-018 | CONFIRMADA_PELO_USUARIO | Procedimento contínuo de construção, deliberação e fechamento progressivos | Adotar coexistência de pesquisa F0–F9, auditoria, integração, deliberação por questão madura e fechamento condicionado; selecionar H/V/I/D/F pelo maior ganho marginal global. Decisões materiais e estruturais relevantes exigem aprovação expressa específica; letra isolada não é aprovação. | Governança do projeto CLF; criar fila de questões, níveis independentes de maturidade, decisão e fechamento, revisão adversarial e reabertura fundamentada; **não** ratifica M, C0-J, DEC-016 ou texto normativo. | 0.4 |
 
 ## Modelo de entrada nova
 
@@ -37,5 +38,7 @@ Impacto sobre títulos/módulos:
 Documentos e versões afetados:
 Decisão e responsável:
 ```
+
+**DEC-018 — base de aprovação:** manifestação expressa do usuário em 16/10/2026, após apresentação do modelo de construção, deliberação e fechamento progressivos: “certo. vamos adotar entao. implemente-o”. Aprovação **procedimental**, registrada neste PR; não pode ser interpretada como aceitação tácita das alternativas listadas na fila. [Procedimento](19_PROCEDIMENTO_CONSTRUCAO_DELIBERACAO_FECHAMENTO.md) e [fila](19_FILA_QUESTOES_DELIBERAVEIS.json). **DEC-016 permanece PENDENTE.**
 
 **Regra:** decisões novas não são introduzidas apenas porque um chat as propôs. O chat central avalia e o usuário aprova escolhas estruturais ou materiais relevantes.

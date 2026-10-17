@@ -1,0 +1,43 @@
+name: CLF - decisao progressiva DEC018 controle de estados
+on:
+  pull_request:
+    paths:
+      - "governanca/04_REGISTRO_DE_DECISOES.md"
+      - "governanca/05_PROTOCOLO_DE_TRABALHO.md"
+      - "governanca/18_PROTOCOLO_CONTINUIDADE_POR_RODADA.md"
+      - "governanca/19_PROCEDIMENTO_CONSTRUCAO_DELIBERACAO_FECHAMENTO.md"
+      - "governanca/19_FILA_QUESTOES_DELIBERAVEIS.json"
+      - "governanca/POLITICA_CONSOLIDACAO_E_FECHAMENTO_20261015.md"
+      - "docs/16_PLANO_OPERACIONAL.md"
+      - "modelos/20_PACOTE_CONTINUIDADE.md"
+      - "scripts/validar_fila_deliberacao.py"
+      - "tests/test_validar_fila_deliberacao.py"
+      - ".github/workflows/deliberacao-progressiva-clf.yml"
+  push:
+    branches: [main]
+    paths:
+      - "governanca/**"
+      - "scripts/validar_fila_deliberacao.py"
+      - "tests/test_validar_fila_deliberacao.py"
+      - ".github/workflows/deliberacao-progressiva-clf.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fila-dec018:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout versionado
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Gate de tres eixos e DEC-016 pendente
+        run: python3 scripts/validar_fila_deliberacao.py --root .
+      - name: Regressao contra homologacao e escolha tacita
+        run: python3 -m unittest discover -s tests -p 'test_validar_fila_deliberacao.py' -v
+      - name: Preflight do corpus experimental preservado
+        run: python3 scripts/preflight_consolidacao.py --root .
+      - name: Estrutura geral
+        run: python3 scripts/verificar_estrutura.py

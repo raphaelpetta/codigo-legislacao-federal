@@ -1,0 +1,25 @@
+# T05.M06 — portas A/B/C do suplemento da Lei 9.709/1998, arts. 3º–15
+
+**Data da conferência:** 16/10/2026. **Objeto:** uma fotografia **Q** de 13 artigos e 23 unidades documentais (original HTML da Câmara, sem autenticação por fac-símile DOU), suplementando T05.M06 arts. 1º–2º já na `main`. **Não é Código normativo vigente, não altera Lei 9.709, não institui prazo novo ou revoga dispositivo.**
+
+## A — identidade, origem temporal e discrepância crítica
+
+- [Câmara: Lei 9.709/1998, publicação HTML original](https://www2.camara.leg.br/legin/fed/lei/1998/lei-9709-18-novembro-1998-352644-publicacaooriginal-1-pl.html); [TSE: apresentação setorial](https://www.tse.jus.br/legislacao/codigo-eleitoral/leis-ordinarias/lei-nb0-9.709-de-18-de-novembro-de-1998); [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l9709.htm). [Senado — metadados do DOU](https://legis.senado.leg.br/norma/551585) assinala publicação **19/11/1998, p. 9, coluna 1**. **Fac-símile não cotejado nem versão temporal autenticada**. Dados do Senado não constituem autenticação textual.
+- **Art. 3º:** a fonte Câmara traz «compõem» e o TSE traz «compõe» para os membros de cada Casa. Conservar literal do espelho sem extrapolar que o documento já está harmonizado.
+- **Art. 8º, IV — variante com risco semântico:** Câmara HTML apresenta «aos partidos políticos **a às** frentes suprapartidárias» e «nos **meios** de comunicação»; TSE «**e às**» e «nos **meios**»; Planalto «**e às**» e «nos **meio**». A vista **preserva os bytes da transcrição Câmara** e classifica a divergência como **`VARIANTE_Q_PENDENTE_DOU`**, sem corrigir silenciosamente «a»→«e» ou «meio»→«meios». A expressão da fonte tem aparente erro editorial; **não presumir redação oficial válida sem DOU**.
+- **Art. 15:** «Esta Lei entra em vigor na data de sua publicação.» é cláusula referida ao diploma de **1998**. Mantê-la como unidade documental de efeito temporal exaurido, nunca como cláusula de vigência nova do futuro CLF.
+
+## B — proveniência retificada e correspondência 23×23
+
+- [Fonte CSV 23](M06_ESPELHO_LEI9709_ART3_15_23_Q.csv), Git blob **`1923dcd2ec15f7ebccd1458c9100567b1376924c`**; [manifesto](../../produto/fontes/T05_M06_9709_23_v1.json), [vista](../../produto/vistas/T05_DEMOCRACIA_DIRETA_LEI9709_ART3_15_PREVIA_Q.md) e [gerador da prévia](../../scripts/gerar_previa_t05_23.py). Corrigida falsificação *involuntária de proveniência*: o manifesto experimental apontava commit `13027681729f3cbe7f77fe5e08be521fa27bd4b2` como origem embora o caminho da fonte ainda **não existisse nesse commit**. O **primeiro SHA que esta rodada efetivamente verificou contendo o blob** é `37babdb31da5b37b7c905ae51f3b7590b39e85f7` (HEAD imutável do PR #80). **Não se afirma que esse foi o commit que originalmente criou o arquivo**. O novo CI faz checkout desse SHA e confere blobs idênticos de fonte, manifesto retificado, vista e script.
+- `scripts/validar_t05_suplemento_r3.py` exige 13 artigos/23 IDs origem/destino 1:1, recorte exato de unidades, transcrição literal sem diferenças clandestinas, três garantias eleitorais art. 8º, limiares art. 13, art. 15 histórico e estados Q. Nove regressões tentam excluir, deslocar ou «corrigir» textos sem DOU, homologar C0-J ou declarar autenticação inexistente.
+- A **integração de duas vistas T05** fecha a *cobertura experimental da Lei 9.709/1998* (arts. 1º–15, 30 unidades), **não** a do Livro de participação política em geral e **não** a vigência material de todos os dispositivos.
+
+## C — especialidade, remissões e efeitos pendentes
+
+- **Arts. 3º–8º:** competência do Congresso Nacional, decreto legislativo, proposta de um terço, divisão estadual por **lei complementar**, normas constitucionais de Municípios (CF art. 18 § 4º), atribuições da Justiça Eleitoral. Não transportar poder municipal/estadual para a União nem substituir requisitos de consulta; cotejo com a CF vigente é obrigatório antes de qualquer C0-J.
+- **Arts. 9º–12:** sustação na hipótese de plebiscito, maioria simples após homologação pelo TSE, prazo de trinta dias para convocação do referendo e regras regimentais do Congresso Nacional; não transformar hipótese específica em regra geral aplicável a toda produção legislativa do CLF.
+- **Arts. 13–14:** iniciativa popular de **1%** do eleitorado nacional, distribuída em **5 Estados** com mínimo de **0,3%** dos eleitores de cada; proteção contra rejeição por vício formal e exigência de uma só matéria. Não atribuir novas competências ou suprimir garantias.
+- **Lei de origem:** «esta Lei», «presente Lei», números dos artigos e CF art. 18 têm referente próprio, e os destinos `CLF-T05-M06-` são **simbólicos**, não o futuro endereço legislativo. A eventual revisão constitucional ou eleitoral exigirá matriz de efeitos e deliberação independente.
+
+**Decisão editorial:** `INTEGRADO_EXPERIMENTAL_PARCIAL_Q` admissível somente com observações ostensivas e CI verde; **`VARIANTE_Q_PENDENTE_DOU`** no art. 8º IV, sem direito material aprovado. **C0-J=0; M aprovadas=0; DEC-016=PENDENTE**. Integrar texto de trabalho jamais constitui aprovação normativa.

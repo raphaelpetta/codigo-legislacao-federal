@@ -72,3 +72,12 @@ A alternativa deliberada agora poderá ser revista fundamentadamente se nova evi
 **PENDENTE:** decisão expressa entre A/B/C, DEC-016 integral, auditoria jurídico-material independente de leis, fontes DOU de componentes setoriais, transição, iniciativa e veto.
 
 **PRÓXIMO:** encaminhar a pergunta A/B/C para manifestação específica; prosseguir em paralelo com os pilotos T05/T07 e reconciliação Q onde o ganho for maior.
+
+
+---
+
+## Registro superveniente — 16/10/2026: alternativa A expressamente aprovada (DEC-019)
+
+A indicação `SUBMETIDA / FC1` e a frase “não aprovada” acima **descrevem o estado do dossiê na abertura do PR #92**. Posteriormente, em manifestação direta no chat, o usuário declarou: **“Aprovo expressamente a alternativa A da QD-2026-004 como diretriz preparatória do CLF, preservadas a DEC-001 e a pendência da DEC-016.”** Esta autorização está transcrita na [issue #48](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6228937676), um **registro secundário**, e consta do [registro DEC-019](../../../governanca/04_REGISTRO_DE_DECISOES.md).
+
+**Estado atual específico da subquestão:** `APTO_A_DELIBERAR / CONFIRMADA / FC2_ESCOLHA_CONFIRMADA / Q_SEM_C0_J`. A escolha aprova **somente** preparar o Código editorial único com trilhas jurídico-formais individualizadas. **QD-2026-001** (decisão principal), **DEC-016**, C0-J, M e veículos legislativos definitivos permanecem sem aprovação. A execução operacional está detalhada em [CLF-GOV-020](../../../governanca/20_DIRETRIZ_DUPLA_CAMADA_DEC019.md) e no [modelo de trilha](../../../modelos/21_FICHA_TRILHA_POSITIVACAO.md).

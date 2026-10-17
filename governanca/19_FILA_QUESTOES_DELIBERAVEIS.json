@@ -4,7 +4,7 @@
   "adocao_metodologica": "DEC-018",
   "deliberacao_material_automatica": false,
   "dec016": "PENDENTE",
-  "observacao": "4 questões: três pilotos Q em pesquisa focal e 1 subquestão DEC-016 pronta e submetida, sem opção aprovada. DEC-016 principal permanece pendente.",
+  "observacao": "4 questões: QD-2026-004 escolhida expressamente alternativa A, DEC-019 confirmada, FC2; 3 pilotos em pesquisa focal/FC0, inclusive DEC-016 principal pendente; nenhuma reforma M ou C0-J aprovada.",
   "questoes": [
     {
       "id": "QD-2026-001",
@@ -130,14 +130,17 @@
       "escopo": "T01.M04 / unidade editorial × veículos jurídicos / decisão estruturante provisória do anteprojeto",
       "maturidade": "APTO_A_DELIBERAR",
       "decisao": {
-        "estado": "SUBMETIDA",
-        "alternativa_escolhida": null,
-        "aprovador": null,
-        "evidencia_aprovacao": null,
-        "registro_decisao": null,
-        "motivo_reabertura": null
+        "estado": "CONFIRMADA",
+        "alternativa_escolhida": "A — Dupla camada: Código editorial único e trilhas de positivação próprias por espécie, iniciativa, competência e quórum, sem revogação por catálogo e sem renunciar à DEC-001.",
+        "aprovador": "USUARIO",
+        "evidencia_aprovacao": "https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6228937676",
+        "registro_decisao": "DEC-019",
+        "motivo_reabertura": null,
+        "transcricao_aprovacao": "Aprovo expressamente a alternativa A da QD-2026-004 como diretriz preparatória do CLF, preservadas a DEC-001 e a pendência da DEC-016.",
+        "tipo_evidencia": "TRANSCRICAO_SECUNDARIA_MENSAGEM_USUARIO",
+        "alcance": "Diretriz preparatória de duas camadas; sem escolha de veículo final ou inovação normativa; com possibilidade de revisão fundamentada."
       },
-      "fechamento": "FC1_APTO_A_ESCOLHA",
+      "fechamento": "FC2_ESCOLHA_CONFIRMADA",
       "classe_juridica": "Q_SEM_C0_J",
       "risco": "R3",
       "ganho_potencial": "ALTO",
@@ -156,12 +159,13 @@
         "Cotejo concreto por matéria, LC 95/1998 art. 14 §2º versus reservas constitucionais, transições, revogações e interfaces CF independentes"
       ],
       "criterio_aptidao": "Alternativas A/B/C e contrafactuais distinguem preparação editorial, proposta legislativa e positivação. Fundamentos CF arts. 59,61,66,69,96 e LC95 arts. 7,9,13,14 conferidos em fontes institucionais, risco de iniciativa e melhor objeção expostos; escolha reversível do modo de preparar o texto, sem escolher veículo final.",
-      "proximo_passo": "Obter escolha expressa A/B/C do usuário, ou pedido específico de revisão. Somente então registrar nova DEC confirmada, limites de sua aplicabilidade e plano técnico condicionado, mantendo DEC-016 pendente.",
+      "proximo_passo": "Aplicar a diretriz DEC-019 aos novos lotes com ficha de trilha de positivação específica, auditar fonte/competência/iniciativa/quórum sem seleção prematura de veículo; preparar decisões subsequentes independentes da DEC-016.",
       "referencias": [
         "governanca/19_PROCEDIMENTO_CONSTRUCAO_DELIBERACAO_FECHAMENTO.md",
         "modulos/T01/M04/DOSSIE_DEC016_QD004_PREPARACAO_JURIDICO_FORMAL_20261016.md",
         "modulos/T01/M04/PARECER_04_VIABILIDADE_FORMAL_CODIGO_UNICO.md",
-        "modulos/T01/M04/PARECER_06_INICIATIVA_RESERVADA_E_CONSOLIDACAO_FIEL.md"
+        "modulos/T01/M04/PARECER_06_INICIATIVA_RESERVADA_E_CONSOLIDACAO_FIEL.md",
+        "governanca/20_DIRETRIZ_DUPLA_CAMADA_DEC019.md"
       ],
       "ref_dossie": "modulos/T01/M04/DOSSIE_DEC016_QD004_PREPARACAO_JURIDICO_FORMAL_20261016.md",
       "evidencias_maturidade": [
@@ -171,7 +175,7 @@
       ],
       "versao_base": "a9929300882a532be58b3586fdcdbde66e9b0849",
       "data_corte": "2026-10-16",
-      "observacao_decisoria": "Encaminhada à escolha expressa A/B/C nesta rodada. SUBMETIDA não implica aprovação por 'Bora' nem registro DEC automático. O parent QD-2026-001 e DEC-016 permanecem em pesquisa focal/pendência."
+      "observacao_decisoria": "Alternativa A foi expressamente aprovada pelo usuário para ARQUITETURA PREPARATÓRIA, registrada em DEC-019. A fonte principal é a mensagem direta neste chat; permalink da central é transcrição secundária. QD-2026-001 e DEC-016 permanecem abertas e nenhuma lei foi promovida."
     }
   ]
 }

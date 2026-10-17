@@ -103,6 +103,24 @@ Não reduzir escolhas de direitos à análise custo-benefício monetária; não 
 
 **Avaliação posterior (ex post):** propor indicadores, critérios de revisão e dados a coletar para reformas de impacto relevante, sem criar exigência de prazo universal de expiração para todos os direitos.
 
+### 6.1. Custo total efetivo, prevenção e deslocamento de despesas (orientação transversal — 16/10/2026)
+
+Nas propostas de políticas, procedimentos, prestações, restrições e investimentos com efeitos econômicos relevantes, **não equiparar redução do gasto imediato à redução de custo efetivo**. Avaliar se a aparente economia provoca custos posteriores maiores, transfere despesas a outros entes, órgãos ou particulares, ou compromete resultados públicos e direitos. Inversamente, **não presumir** que uma intervenção preventiva seja autofinanciável apenas porque evita certos eventos.
+
+**Teste proporcional de alternativas e resultados:**
+1. Delimitar o objetivo público e o **contrafactual** (manutenção, prevenção, execução tempestiva, adiamento, restrição, desenho alternativo), com horizonte temporal justificado.
+2. Apurar **separadamente** o impacto no orçamento do órgão/ente, o custo fiscal consolidado ao longo do tempo e o custo/benefício econômico-social. Identificar incidência distributiva, transferências e risco de dupla contagem.
+3. Considerar custos diretos, indiretos, de implantação, operação, fiscalização, conformidade, contencioso, remediação e descontinuidade; incluir externalidades e **custos futuros evitados** plausivelmente atribuíveis à intervenção, sem inventar sua magnitude.
+4. Diferenciar **impacto orçamentário**, **análise de custo-efetividade** (custo por resultado), **análise de custo-benefício social** (quando monetização defensável) e **economia fiscal líquida**. Uma proposta pode ser justificável sem gerar retorno financeiro positivo ao erário.
+5. Registrar fontes, qualidade do nexo causal, sensibilidade a preços, adesão, escala, tempo e parâmetros; admitir incerteza e benefícios ou danos não monetizáveis. Propor avaliação **ex ante e ex post** e indicadores de resultados, evitando obrigação analítica excessiva para alterações estritamente editoriais.
+6. Aplicar **em paralelo**, sem compensação automática, as condições jurídicas de competência, direitos, garantias, igualdade, proporcionalidade, legalidade orçamentária e responsabilidade fiscal. A possibilidade de economia futura não é crédito orçamentário presente e não dispensa adequação financeira.
+
+**Regra anti-deslocamento:** uma redução da despesa de determinado órgão que aumente o custo total do Estado, onere desproporcionalmente os cidadãos ou apenas adie danos deve ser explicitada como **redistribuição intertemporal ou interinstitucional**, não celebrada como economia líquida. Simetricamente, despesas adicionais devem ser comparadas com ganhos de efetividade, direitos protegidos e custos evitados, não apenas com a variação nominal da rubrica.
+
+**Aplicação ao projeto:** usar esta lente nas fases de diagnóstico, alternativas, avaliação de efeitos e revisão do CLF, especialmente em saúde, educação, previdência, ambiente, justiça, tributação e organização administrativa quando pertinentes. Preservar estados `Q/C0-T/C0-J/C1/M`; a diretriz **não** altera texto canônico, não presume vigência ou equivalência, não aprova reforma `M` e não constitui decisão sobre rubrica ou medicamento específico. Eventual regra jurídica de concretização deverá ter fonte, veículo, análise própria e compatibilidade com a Constituição vigente; interface constitucional é cenário autônomo, não aprovação cruzada.
+
+**Referências de método e limites:** [Casa Civil — avaliação de políticas públicas](https://www.gov.br/casacivil/pt-br/assuntos/governanca/avaliacao-de-politicas); [OCDE — Regulating for effectiveness (2025)](https://www.oecd.org/en/publications/oecd-regulatory-policy-outlook-2025_56b60e39-en/full-report/regulating-for-effectiveness_e4e30799.html); [LRF, arts. 16–17](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm). Fontes de método **não** demonstram custo-benefício de intervenção concreta.
+
 ## 7. Tratamento de fontes e incertezas
 
 - Usar fontes jurídicas oficiais, primárias e redações atuais quando se afirmar direito vigente; registrar data de corte e histórico quando importante.

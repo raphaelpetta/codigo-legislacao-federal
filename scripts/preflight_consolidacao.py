@@ -92,8 +92,35 @@ def inspect(root: Path, base: Path | None = None) -> dict:
                     raise ValueError(f'Inventário com cardinalidade divergente: {ident}')
             local += 1
         elif m.get('components'):
-            if not isinstance(m['components'], list) or not m['components']:
+            parts = m['components']
+            if not isinstance(parts, list) or not parts:
                 raise ValueError(f'Composto vazio: {ident}')
+            if any(not isinstance(c, dict) or type(c.get('count')) is not int
+                   or c['count'] <= 0 for c in parts):
+                raise ValueError(f'Componente sem contagem válida: {ident}')
+            if sum(c['count'] for c in parts) != expected:
+                raise ValueError(f'Cardinalidade composta divergente: {ident}')
+            seen_parts = set()
+            for part in parts:
+                for path_key, blob_key in (
+                    ('path', 'git_blob'),
+                    ('concordance_path', 'concordance_git_blob'),
+                    ('view_part_path', 'view_part_git_blob'),
+                ):
+                    if path_key not in part and blob_key not in part:
+                        continue
+                    rel, declared = part.get(path_key), part.get(blob_key)
+                    if (not isinstance(rel, str) or not isinstance(declared, str)
+                            or not re.fullmatch(r'[0-9a-f]{40}', declared)):
+                        raise ValueError(f'Componente sem par caminho/SHA válido: {ident}/{path_key}')
+                    if rel in seen_parts:
+                        raise ValueError(f'Arquivo composto duplicado: {ident}/{rel}')
+                    seen_parts.add(rel)
+                    item = inside(root, rel)
+                    if not item.is_file() or git_blob(item) != declared:
+                        raise ValueError(f'Blob de componente divergente: {ident}/{rel}')
+                if 'path' not in part:
+                    raise ValueError(f'Componente sem arquivo principal: {ident}')
             composite += 1
         elif pinned and (
             # T25: fonte setorial identificada por caminho e SHA, mas ausente deste checkout.

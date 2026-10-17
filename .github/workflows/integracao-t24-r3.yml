@@ -37,7 +37,7 @@ jobs:
         run: python3 scripts/gerar_previa_t24.py --setorial-root setorial --check
       - name: Auditar proveniencias 106 e 75 e direitos do CPC
         run: python3 scripts/validar_t24_gates_r3.py --setorial-root setorial
-      - name: R3 jurisprudencia: efeitos nao se tornam texto normativo
+      - name: 'R3 jurisprudencia: efeitos nao se tornam texto normativo'
         run: |
           python3 -m unittest discover -s tests -p 'test_t24_precedentes.py' -v
           python3 scripts/validar_t24_precedentes.py

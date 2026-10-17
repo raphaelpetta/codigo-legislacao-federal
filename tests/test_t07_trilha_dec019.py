@@ -36,8 +36,14 @@ class TestT07Trilha(unittest.TestCase):
         self.reject(lambda a,b,c:next(x for x in b if x["id_origem"]=="P19-69-C").update(texto_origem="A norma geral prevalece"))
     def test_riscos_iguais(self):
         self.reject(lambda a,b,c:b[0].update(classe_risco="BAIXO"))
-    def test_questao_sem_aprovacao(self):
-        self.reject(lambda a,b,c:c["questoes"][4]["decisao"].update(estado="CONFIRMADA"))
+    def test_aprovacao_dec020_nao_pode_reverter_a_submetida(self):
+        self.reject(lambda a,b,c:c["questoes"][4]["decisao"].update(estado="SUBMETIDA"))
     def test_pai_sem_promocao(self):
         self.reject(lambda a,b,c:c["questoes"][2].update(maturidade="APTO_A_DELIBERAR"))
+    def test_aprovacao_nao_pode_ser_trocada_para_b(self):
+        self.reject(lambda a,b,c:c["questoes"][4]["decisao"].update(alternativa_escolhida=c["questoes"][4]["alternativas"][1]))
+    def test_dec020_nao_e_c0j(self):
+        self.reject(lambda a,b,c:a.update(estado_juridico="C0-J"))
+    def test_aprovacao_precisa_corresponder_a_trilha(self):
+        self.reject(lambda a,b,c:a["decisao_preparatoria"].update(id="DEC-016"))
 if __name__=="__main__":unittest.main()

@@ -1,6 +1,6 @@
 # Protocolo de desenvolvimento, auditoria e integração
 
-**ID:** CLF-GOV-005 | **Versão:** 0.2 (operacional) | **Data:** 13/10/2026
+**ID:** CLF-GOV-005 | **Versão:** 0.3 (operacional) | **Data:** 16/10/2026
 
 ## 1. Antes de iniciar qualquer módulo
 
@@ -19,7 +19,7 @@
 
 **F3 — Pesquisa crítica:** direito comparado, doutrina e estudos empíricos pertinentes; testar validade e contexto das referências; evitar transplantação automática.
 
-**F4 — Decisões:** apresentar alternativas com consequências e incertezas. Marcar conflitos não resolvidos `Q`.
+**F4 — Problemas, alternativas e encaminhamento:** apresentar alternativas com consequências e incertezas. Registrar questão delimitada na fila quando útil e avaliá-la para deliberação antes de concluir todo F0–F9; conflitos não resolvidos continuam `Q`. A fase de pesquisa não autoriza decisão material automática.
 
 **F5 — Minuta:** redigir na estrutura do Código, preservar conceitos compartilhados; marcar C0/C1/M/Q por dispositivo ou bloco.
 
@@ -29,7 +29,13 @@
 
 **F8 — Revisão adversarial:** tentar identificar exclusão de direitos, agravamento involuntário, confusão entre fontes, ambiguidades e normas conflitantes.
 
-**F9 — Proposta de integração:** entregar nota de mudanças, conflitos, arquivos versionados e impacto em módulos vizinhos; NÃO atualizar unilateralmente os documentos centrais.
+**F9 — Proposta de integração:** entregar nota de mudanças, conflitos, arquivos versionados, referência à decisão quando houver e impacto em módulos vizinhos; NÃO atualizar unilateralmente os documentos centrais.
+
+## 2-A. Deliberação em qualquer ponto do ciclo
+
+Por **DEC-018**, o roteiro F0–F9 continua como método de pesquisa/redação, mas não é pré-requisito sequencial para deliberar **questões independentes já maduras**. A unidade deliberativa é a **questão normativa identificável** (expressão, dispositivo, efeito, instituto ou decisão transversal), não necessariamente o módulo. O procedimento completo, autoridade decisória, escala de fechamento `FC0–FC5` e a fila única constam de [CLF-GOV-019](19_PROCEDIMENTO_CONSTRUCAO_DELIBERACAO_FECHAMENTO.md). Não confundir `FC0–FC5` com as etapas `F0–F9`.
+
+Em cada rodada comparar **H** (cobertura horizontal), **V** (profundidade vertical), **I** (integração), **D** (preparação de deliberação) e **F** (fechamento efetivo), registrando alternativa preterida, risco, efeito desbloqueador e condição para o próximo avanço. Não há quotas fixas. Exigir opção **manter a norma** entre alternativas pertinentes; estudo complementar só bloqueia decisão quando pode alterar substancialmente seu resultado ou impedir fechamento jurídico. Proposta não ratificada não se torna vinculante por repetição.
 
 ## 3. Portas de qualidade
 

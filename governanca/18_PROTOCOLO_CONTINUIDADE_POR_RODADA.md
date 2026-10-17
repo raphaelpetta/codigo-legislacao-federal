@@ -1,7 +1,7 @@
 # Regra de continuidade de cada rodada — Código da Legislação Federal
 
 **ID:** CLF-GOV-018 · **Data:** 14/10/2026 · **Regra operacional:** por solicitação expressa de coordenação do usuário. Complementa `05_PROTOCOLO_DE_TRABALHO.md`, `07_STATUS_E_DEPENDENCIAS.md`, `17_PADRAO_DADOS_E_PROVENIENCIA.md`.  
-**Âmbito:** todos os módulos Txx.Myy, estudos de T01, notas CF–CLF, minutas, auditorias, dados e scripts.
+**Âmbito:** todos os módulos Txx.Myy, estudos de T01, notas CF–CLF, minutas, auditorias, dados e scripts. **Complemento DEC-018:** [CLF-GOV-019](19_PROCEDIMENTO_CONSTRUCAO_DELIBERACAO_FECHAMENTO.md) aplica-se às novas rodadas, sem reclassificação automática de trabalhos antigos.
 
 ## Regra obrigatória
 
@@ -10,8 +10,9 @@
 1. **FEITO:** entregas comprovadas, origem/destino de normas quando houver, fontes oficiais efetivamente consultadas, arquivos/PR/commit e o que foi ou não incorporado à `main`.
 2. **PENDENTE / NÃO VERIFICADO:** lacunas de inventário e concordância, Q em C0/C1/M/Q, alterações intertemporais, dependências, conflitos de PR, decisões não ratificadas, CI e outras incertezas; não apresentar teste sintético como dado empírico real.
 3. **PRÓXIMO PASSO:** uma tarefa prioritária executável, com módulo, issue, insumo necessário, entregável e critério objetivo de conclusão; outras tarefas ficam em fila.
-4. **COORDENAÇÃO:** proprietário funcional, módulos/interseções, vínculo constitucional atual e CF proposta (se pertinente), estado do CLF/CF, SHAs, repercussões de revogação/veto/competência e pedido de integração.
-5. **CONTROLE:** informar status real dos testes no último SHA e distinguir validação estrutural, concordância literal, cobertura normativa, equivalência jurídica e decisão aprovada.
+4. **DELIBERAÇÃO / FECHAMENTO:** quando a rodada identificar questão normativa delimitada, informar ID da fila, estágio de maturidade, decisão **expressa ou ausente**, nível `FC0–FC5`, alternativa preterida e prova/impedimento concreto de fechamento. Não registrar escolha normativa sem aprovação.
+5. **COORDENAÇÃO:** proprietário funcional, módulos/interseções, vínculo constitucional atual e CF proposta (se pertinente), estado do CLF/CF, SHAs, repercussões de revogação/veto/competência e pedido de integração.
+6. **CONTROLE:** informar status real dos testes no último SHA e distinguir validação estrutural, concordância literal, cobertura normativa, equivalência jurídica e decisão aprovada.
 
 ## Ao iniciar
 

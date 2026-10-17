@@ -78,6 +78,19 @@ def validate(record, decision_register):
                    and "| DEC-019 | CONFIRMADA_PELO_USUARIO |" in decision_register,
                    f"{ident}: DEC-019 não corresponde ao escopo da aprovação A")
 
+        if ident=="QD-2026-005":
+            demand(d.get("registro_decisao")=="DEC-020"
+                   and d.get("estado")=="CONFIRMADA"
+                   and stage=="FC2_ESCOLHA_CONFIRMADA"
+                   and item.get("classe_juridica")=="Q_SEM_C0_J"
+                   and d.get("alternativa_escolhida")==item["alternativas"][0]
+                   and d.get("aprovador")=="USUARIO"
+                   and d.get("transcricao_aprovacao")=="escolho a A"
+                   and d.get("tipo_evidencia")=="TRANSCRICAO_SECUNDARIA_MENSAGEM_USUARIO"
+                   and d.get("evidencia_aprovacao")==
+                   "https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6231927148"
+                   and "| DEC-020 | CONFIRMADA_PELO_USUARIO |" in decision_register,
+                   "QD005 deve refletir somente aprovação expressa A da DEC020")
         if d["estado"]=="SUBMETIDA":
             demand(item["maturidade"]=="APTO_A_DELIBERAR"
                    and stage=="FC1_APTO_A_ESCOLHA",
@@ -151,6 +164,14 @@ def validate(record, decision_register):
                and parent["decisao"]["estado"]=="NAO_SUBMETIDA"
                and "| DEC-001 | CONFIRMADA_PELO_USUARIO |" in decision_register,
                "DEC-019 não pode fechar DEC-016/parent nem afastar DEC-001")
+    if "| DEC-020 | CONFIRMADA_PELO_USUARIO |" in decision_register:
+        parent=next((x for x in items if x["id"]=="QD-2026-003"),None)
+        demand(parent is not None
+               and parent["maturidade"]=="PESQUISA_FOCAL"
+               and parent["fechamento"]=="FC0_ABERTO"
+               and parent["decisao"]["estado"]=="NAO_SUBMETIDA"
+               and "| DEC-019 | CONFIRMADA_PELO_USUARIO |" in decision_register,
+               "DEC020 não encerra T07 inteiro nem altera DEC019")
     demand({"QD-2026-001","QD-2026-002","QD-2026-003"}.issubset(ids),
            "Pilotos da adoção metodológica omitidos")
     return {"questoes":len(items),

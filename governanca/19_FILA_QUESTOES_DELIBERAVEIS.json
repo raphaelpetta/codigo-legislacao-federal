@@ -4,7 +4,7 @@
   "adocao_metodologica": "DEC-018",
   "deliberacao_material_automatica": false,
   "dec016": "PENDENTE",
-  "observacao": "5 questões: QD004 A aprovada DEC019/FC2; QD005 art69 T07 apta e SUBMETIDA/FC1, não ratificada; QD001/002/003 ainda pesquisa focal; DEC016 pendente; C0-J/M=0.",
+  "observacao": "5 questões; QD004 DEC019 e QD005 DEC020 confirmadas como diretrizes preparatórias FC2. QD001/002/003 em pesquisa focal. DEC016 PENDENTE; C0-J e M aprovada zero.",
   "questoes": [
     {
       "id": "QD-2026-001",
@@ -184,14 +184,17 @@
       "escopo": "P19-69-C / T07.M03 / preparação DEC-019",
       "maturidade": "APTO_A_DELIBERAR",
       "decisao": {
-        "estado": "SUBMETIDA",
-        "alternativa_escolhida": null,
-        "aprovador": null,
-        "evidencia_aprovacao": null,
-        "registro_decisao": null,
-        "motivo_reabertura": null
+        "estado": "CONFIRMADA",
+        "alternativa_escolhida": "A — Conservar como referência preparatória o art. 69 da Lei 9.784/1999 e a precedência dos procedimentos especiais; só converter a remissão no futuro Código mediante auditoria de âmbito, equivalência e veículo.",
+        "aprovador": "USUARIO",
+        "evidencia_aprovacao": "https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48#issuecomment-6231927148",
+        "registro_decisao": "DEC-020",
+        "motivo_reabertura": null,
+        "transcricao_aprovacao": "escolho a A",
+        "tipo_evidencia": "TRANSCRICAO_SECUNDARIA_MENSAGEM_USUARIO",
+        "alcance": "Diretriz preparatória conservadora do art.69, sem aprovar veículo, norma M, C0-J, redação promulgada ou revogação."
       },
-      "fechamento": "FC1_APTO_A_ESCOLHA",
+      "fechamento": "FC2_ESCOLHA_CONFIRMADA",
       "classe_juridica": "Q_SEM_C0_J",
       "risco": "R3",
       "ganho_potencial": "ALTO",
@@ -211,7 +214,7 @@
         "DEC-019 dupla camada E/P; DEC-016 pendente"
       ],
       "criterio_aptidao": "Confronto institucional da Lei 9.784 art. 69, âmbito art. 1, procedimento fiscal especial atualizado em 2026, três alternativas, objeção e riscos R3. Apenas escolha de orientação preparatória; não auditoria C0-J.",
-      "proximo_passo": "Encaminhar alternativas A/B/C à aprovação específica; sem escolha expressa, prosseguir estudo focal, mantendo onze deltas C1 Q.",
+      "proximo_passo": "Preservar no preparo o referente da Lei 9.784/1999 e a lei especial; auditar âmbito/veículo e eventuais remissões antes de redação definitiva; não alterar automaticamente o corpus Q.",
       "referencias": [
         "central/03_T07_GATE_C1_11_EFEITOS_20261015.csv",
         "governanca/20_DIRETRIZ_DUPLA_CAMADA_DEC019.md",
@@ -225,7 +228,7 @@
       ],
       "versao_base": "5428c2d504818369124cce5e91684b369398ee93",
       "data_corte": "2026-10-17",
-      "observacao_decisoria": "Somente P19-69-C apta; pai QD003 e dez outros C1 permanecem em pesquisa. Nenhuma opção escolhida por letra isolada."
+      "observacao_decisoria": "DEC-020 aprova expressamente apenas a opção A na questão P19-69-C. Pai QD003 e dez C1 seguem em pesquisa, DEC016 pendente."
     }
   ]
 }

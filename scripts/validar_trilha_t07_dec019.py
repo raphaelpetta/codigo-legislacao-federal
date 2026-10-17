@@ -55,17 +55,24 @@ def check(route,rows,queue):
     child=items.get("QD-2026-005");parent=items.get("QD-2026-003")
     require(route.get("questao_desta_rodada")=="QD-2026-005"
             and route.get("unidade_da_questao")=="P19-69-C"
-            and route.get("status_questao")=="SUBMETIDA","sem orientação decidida")
+            and route.get("status_questao")=="CONFIRMADA","sem orientação decidida")
     require(child and parent and child.get("subquestao_de")=="QD-2026-003"
             and child["maturidade"]=="APTO_A_DELIBERAR"
-            and child["fechamento"]=="FC1_APTO_A_ESCOLHA"
-            and child["decisao"]["estado"]=="SUBMETIDA"
+            and child["fechamento"]=="FC2_ESCOLHA_CONFIRMADA"
+            and child["decisao"]["estado"]=="CONFIRMADA"
             and child["classe_juridica"]=="Q_SEM_C0_J"
             and parent["maturidade"]=="PESQUISA_FOCAL"
             and parent["decisao"]["estado"]=="NAO_SUBMETIDA"
             and parent["fechamento"]=="FC0_ABERTO","filha não pode homologar T07/questão-mãe")
+    approval=route.get("decisao_preparatoria",{})
+    require(approval.get("id")=="DEC-020" and approval.get("alternativa")=="A"
+            and approval.get("fechamento")=="FC2_ESCOLHA_CONFIRMADA"
+            and approval.get("evidencia")==child["decisao"].get("evidencia_aprovacao")
+            and child["decisao"].get("registro_decisao")=="DEC-020"
+            and child["decisao"].get("alternativa_escolhida")==child["alternativas"][0],
+            "aprovação de art69 deve coincidir com alternativa A em DEC-020")
     require(queue.get("dec016")=="PENDENTE","DEC-016 resolvida sem aprovação")
-    return {"c1_q":len(mapped),"risco_critico":5,"risco_alto":3,"risco_baixo":3,"submetida":"QD-2026-005","aprovacoes_novas":0}
+    return {"c1_q":len(mapped),"risco_critico":5,"risco_alto":3,"risco_baixo":3,"confirmada_preparatoria":"QD-2026-005","aprovacoes_novas":0}
 def main():
     try:
         route=json.loads((ROOT/"modulos/T07/M03_TRILHA_PREPARATORIA_DEC019_Q.json").read_text(encoding="utf-8"))

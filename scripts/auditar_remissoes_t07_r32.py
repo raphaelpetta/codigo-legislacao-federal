@@ -103,9 +103,17 @@ def check(m,source,triage,cases,view,queue,route):
     demand(m.get("contagens")=={"total_c1":11,"triple_remissoes":3,"art69_procedimental":1,
                                "outros_c1":7,"homologados_c0j":0,"reformas_m_aprovadas":0},
            "Contagem/resultado formal indevido")
-    demand(queue.get("dec016")=="PENDENTE" and len(queue["questoes"])==5,
+    demand(queue.get("dec016")=="PENDENTE" and len(queue["questoes"])>=5,
            "Fila ou DEC016 fora do corte")
     items={x["id"]:x for x in queue["questoes"]}
+    if "QD-2026-006" in items:
+        new=items["QD-2026-006"]
+        demand(new["subquestao_de"]=="QD-2026-003"
+               and new["maturidade"]=="APTO_A_DELIBERAR"
+               and new["decisao"]["estado"]=="SUBMETIDA"
+               and new["fechamento"]=="FC1_APTO_A_ESCOLHA"
+               and new["classe_juridica"]=="Q_SEM_C0_J",
+               "Nova questão de escopo não pode aprovar os três referentes por inércia")
     demand(items["QD-2026-003"]["maturidade"]=="PESQUISA_FOCAL"
            and items["QD-2026-003"]["decisao"]["estado"]=="NAO_SUBMETIDA"
            and items["QD-2026-005"]["decisao"]["registro_decisao"]=="DEC-020"

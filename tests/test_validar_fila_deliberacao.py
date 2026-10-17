@@ -22,7 +22,7 @@ class GateFila(unittest.TestCase):
             gate.validate(data,self.decisions if decisions is None else decisions)
     def test_baseline(self):
         r=gate.validate(self.source,self.decisions)
-        self.assertEqual(r,{"questoes":5,"submetidas":0,"confirmadas":2,"aptas":2,"fechadas":2})
+        self.assertEqual(r,{"questoes":6,"submetidas":1,"confirmadas":2,"aptas":3,"fechadas":2})
     def test_dec016_nao_silenciosamente_decidida(self):
         self.bad(lambda d:d.update(dec016="APROVADA"))
     def test_registro_dec016_permanece_pendente(self):
